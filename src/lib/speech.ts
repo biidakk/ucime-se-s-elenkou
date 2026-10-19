@@ -11,7 +11,7 @@ export type VoiceChoice = VoiceOption | null; // null = no voice for this langua
 
 // Voices that sound silly or robotic on Apple devices: used only if nothing else exists.
 const NOVELTY = /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox)/i;
-const ELOQUENCE = /^(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
+const ELOQUENCE = /^(Eddy|Flo|Grandma|Grandpa|Jacques|Reed|Rocko|Sandy|Shelley)\b/i;
 // Natural-sounding voices that are usually installed, per language.
 const PREFERRED: Record<string, RegExp> = {
   en: /^(Daniel|Kate|Serena|Arthur|Martha|Oliver|Stephen|Jamie|Google UK English|Microsoft (George|Hazel|Susan|Libby|Ryan|Sonia))/i,
