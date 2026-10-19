@@ -1,0 +1,141 @@
+{
+  "id": "u1",
+  "level": "A1",
+  "title": "Pozdravy",
+  "titleTarget": "Hello!",
+  "description": "Jak pozdravit, poděkovat, představit se a zeptat se „jak se máte?“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "Dobrý den a na shledanou",
+      "titleTarget": "Hello and goodbye",
+      "reviewed": false,
+      "tip": {
+        "title": "Hello, nebo hi?",
+        "text": "Hello se hodí vždy a ke každému – k sousedce, v obchodě i u lékaře. Hi je přátelské „ahoj“ pro známé. Podle denní doby můžete říct good morning (do poledne), good afternoon (odpoledne) a good evening (večer). Pozor: good night neznamená „dobrý večer“. Říká se jen na rozloučenou večer nebo před spaním, stejně jako naše „dobrou noc“.",
+        "examples": [
+          { "target": "Good morning!", "native": "Dobré ráno! (dopoledne také „Dobrý den!“)" },
+          { "target": "Good evening!", "native": "Dobrý večer! (při příchodu)" },
+          { "target": "Goodbye, good night!", "native": "Na shledanou, dobrou noc! (při odchodu)" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l1-w1", "target": "hello", "native": "dobrý den", "note": "Hodí se vždy a ke každému, i mezi přáteli.", "reviewed": false },
+        { "id": "u1-l1-w2", "target": "hi", "native": "ahoj", "note": "Neformální, při setkání se známými.", "reviewed": false },
+        { "id": "u1-l1-w3", "target": "good morning", "native": "dobré ráno", "note": "Říká se až do poledne, i tam, kde Čech řekne „dobrý den“.", "reviewed": false },
+        { "id": "u1-l1-w4", "target": "good afternoon", "native": "dobré odpoledne", "note": "Česky spíš „dobrý den“; v angličtině je to běžný pozdrav.", "reviewed": false },
+        { "id": "u1-l1-w5", "target": "good evening", "native": "dobrý večer", "note": "Pozdrav při příchodu večer.", "reviewed": false },
+        { "id": "u1-l1-w6", "target": "good night", "native": "dobrou noc", "note": "Jen na rozloučenou nebo před spaním, nikdy při příchodu.", "reviewed": false },
+        { "id": "u1-l1-w7", "target": "goodbye", "native": "na shledanou", "reviewed": false },
+        { "id": "u1-l1-w8", "target": "bye", "native": "čau", "note": "Neformální, na rozloučenou (česky také „ahoj“).", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l1-e1", "type": "choice", "question": "Good evening!", "questionLang": "target", "options": ["Dobrý večer!", "Dobrou noc!", "Dobré ráno!"], "answer": "Dobrý večer!", "reviewed": false },
+        { "id": "u1-l1-e2", "type": "choice", "question": "Na shledanou!", "questionLang": "native", "options": ["Goodbye!", "Good morning!", "Hello!"], "answer": "Goodbye!", "reviewed": false },
+        { "id": "u1-l1-e3", "type": "match", "pairs": [
+          { "target": "hello", "native": "dobrý den" },
+          { "target": "good morning", "native": "dobré ráno" },
+          { "target": "good afternoon", "native": "dobré odpoledne" },
+          { "target": "good night", "native": "dobrou noc" }
+        ], "reviewed": false },
+        { "id": "u1-l1-e4", "type": "listen", "audio": "Good afternoon!", "options": ["Good afternoon!", "Good evening!", "Good morning!"], "answer": "Good afternoon!", "reviewed": false },
+        { "id": "u1-l1-e5", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Je deset hodin večer a odcházíte od sousedů. Co řeknete?", "questionLang": "native", "options": ["Good night!", "Good morning!", "Good afternoon!"], "answer": "Good night!", "reviewed": false },
+        { "id": "u1-l1-e6", "type": "listen", "audio": "Goodbye!", "options": ["Na shledanou!", "Dobré odpoledne!", "Dobré ráno!"], "answer": "Na shledanou!", "reviewed": false },
+        { "id": "u1-l1-e7", "type": "type", "question": "Dobré ráno!", "answer": "Good morning!", "reviewed": false },
+        { "id": "u1-l1-e8", "type": "build", "question": "Dobré ráno, Anno!", "answer": "Good morning, Anna!", "extra": ["night"], "reviewed": false },
+        { "id": "u1-l1-e9", "type": "speak", "text": "Good evening!", "native": "Dobrý večer!", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "title": "Prosím a děkuji",
+      "titleTarget": "Please and thank you",
+      "reviewed": false,
+      "tip": {
+        "title": "Jedno české „prosím“, několik anglických slov",
+        "text": "České „prosím“ má mnoho významů. Angličtina má pro každý jiné slovo. Když o něco žádáte, řekněte please. Když vám někdo poděkuje, odpovězte you're welcome. Když něco podáváte, řekněte here you are. Když jste něco neslyšeli, zeptejte se: Sorry? Angličané říkají please a thank you velmi často – u pokladny, v autobuse i doma.",
+        "examples": [
+          { "target": "A tea, please.", "native": "Jeden čaj, prosím." },
+          { "target": "Thank you! – You're welcome.", "native": "Děkuji! – Prosím. (Není zač.)" },
+          { "target": "Here you are.", "native": "Prosím. (Tady máte.)" },
+          { "target": "Sorry?", "native": "Prosím? (Když jste něco neslyšeli.)" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l2-w1", "target": "please", "native": "prosím", "note": "Když o něco žádáte: A tea, please.", "reviewed": false },
+        { "id": "u1-l2-w2", "target": "thank you", "native": "děkuji", "reviewed": false },
+        { "id": "u1-l2-w3", "target": "thanks", "native": "díky", "note": "Méně formální než thank you.", "reviewed": false },
+        { "id": "u1-l2-w4", "target": "you're welcome", "native": "není zač", "note": "Odpověď na thank you (česky také „prosím“).", "reviewed": false },
+        { "id": "u1-l2-w5", "target": "sorry", "native": "promiňte; omlouvám se", "note": "Tázavě Sorry? = Prosím? (když jste neslyšeli).", "reviewed": false },
+        { "id": "u1-l2-w6", "target": "excuse me", "native": "s dovolením", "note": "Když chcete projít nebo někoho oslovit (česky také „promiňte“).", "reviewed": false },
+        { "id": "u1-l2-w7", "target": "yes", "native": "ano", "reviewed": false },
+        { "id": "u1-l2-w8", "target": "no", "native": "ne", "note": "Pozor: české hovorové „no“ (= ano) se anglicky řekne yes.", "reviewed": false },
+        { "id": "u1-l2-w9", "target": "here you are", "native": "tady máte", "note": "Když něco podáváte (česky často „prosím“).", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l2-e1", "type": "choice", "question": "Thank you!", "questionLang": "target", "options": ["Děkuji!", "Prosím!", "Promiňte!"], "answer": "Děkuji!", "reviewed": false },
+        { "id": "u1-l2-e2", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Někdo vám poděkuje. Co odpovíte?", "questionLang": "native", "options": ["You're welcome.", "Please.", "Excuse me."], "answer": "You're welcome.", "reviewed": false },
+        { "id": "u1-l2-e3", "type": "match", "pairs": [
+          { "target": "yes", "native": "ano" },
+          { "target": "no", "native": "ne" },
+          { "target": "thanks", "native": "díky" },
+          { "target": "sorry", "native": "omlouvám se" },
+          { "target": "excuse me", "native": "s dovolením" }
+        ], "reviewed": false },
+        { "id": "u1-l2-e4", "type": "listen", "audio": "You're welcome.", "options": ["You're welcome.", "Here you are.", "Excuse me."], "answer": "You're welcome.", "reviewed": false },
+        { "id": "u1-l2-e5", "type": "listen", "audio": "Excuse me.", "options": ["S dovolením.", "Není zač.", "Tady máte."], "answer": "S dovolením.", "reviewed": false },
+        { "id": "u1-l2-e6", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Podáváte někomu šálek kávy. Co řeknete?", "questionLang": "native", "options": ["Here you are.", "You're welcome.", "Goodbye."], "answer": "Here you are.", "reviewed": false },
+        { "id": "u1-l2-e7", "type": "type", "question": "Ano, prosím.", "answer": "Yes, please.", "reviewed": false },
+        { "id": "u1-l2-e8", "type": "build", "question": "Ne, děkuji.", "answer": "No, thank you.", "extra": ["please"], "reviewed": false },
+        { "id": "u1-l2-e9", "type": "type", "question": "Není zač.", "answer": "You're welcome.", "reviewed": false },
+        { "id": "u1-l2-e10", "type": "speak", "text": "Here you are.", "native": "Tady máte.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "title": "Jak se jmenujete?",
+      "titleTarget": "What's your name?",
+      "reviewed": false,
+      "tip": {
+        "title": "Vždy řekněte „I“",
+        "text": "Česky stačí říct „Jsem Eva“. Anglicky musíte vždy říct, kdo: I am Eva. Slovo I (já) se píše vždy velkým písmenem. V hovoru se zkracuje: I am → I'm, you are → you're. A ještě jedna dobrá zpráva: you znamená „ty“ i „vy“. Angličtina vykání nezná, zdvořilost vyjádříte slovy please a thank you a přátelským tónem.",
+        "examples": [
+          { "target": "I'm Eva.", "native": "Jsem Eva." },
+          { "target": "My name is Eva.", "native": "Jmenuji se Eva." },
+          { "target": "How are you? – I'm fine, thanks.", "native": "Jak se máte? – Mám se dobře, díky." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l3-w1", "target": "I am", "native": "já jsem", "note": "Zkráceně I'm. I se píše vždy velké.", "reviewed": false },
+        { "id": "u1-l3-w2", "target": "you are", "native": "ty jsi; vy jste", "note": "Zkráceně you're.", "reviewed": false },
+        { "id": "u1-l3-w3", "target": "my name is", "native": "jmenuji se", "note": "Doslova „moje jméno je“.", "reviewed": false },
+        { "id": "u1-l3-w4", "target": "What's your name?", "native": "Jak se jmenujete?", "note": "What's = What is. Platí i pro „Jak se jmenuješ?“.", "reviewed": false },
+        { "id": "u1-l3-w5", "target": "Nice to meet you.", "native": "Těší mě.", "note": "Při seznámení.", "reviewed": false },
+        { "id": "u1-l3-w6", "target": "How are you?", "native": "Jak se máte?", "note": "Platí i pro „Jak se máš?“.", "reviewed": false },
+        { "id": "u1-l3-w7", "target": "I'm fine.", "native": "Mám se dobře.", "note": "Často: I'm fine, thanks.", "reviewed": false },
+        { "id": "u1-l3-w8", "target": "And you?", "native": "A vy?", "note": "Platí i pro „A ty?“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l3-e1", "type": "choice", "question": "How are you?", "questionLang": "target", "options": ["Jak se máte?", "Jak se jmenujete?", "Těší mě."], "answer": "Jak se máte?", "reviewed": false },
+        { "id": "u1-l3-e2", "type": "choice", "question": "Těší mě.", "questionLang": "native", "options": ["Nice to meet you.", "How are you?", "You're welcome."], "answer": "Nice to meet you.", "reviewed": false },
+        { "id": "u1-l3-e3", "type": "match", "pairs": [
+          { "target": "I am", "native": "já jsem" },
+          { "target": "you are", "native": "vy jste" },
+          { "target": "my name is", "native": "jmenuji se" },
+          { "target": "And you?", "native": "A vy?" }
+        ], "reviewed": false },
+        { "id": "u1-l3-e4", "type": "listen", "audio": "What's your name?", "options": ["What's your name?", "How are you?", "Nice to meet you."], "answer": "What's your name?", "reviewed": false },
+        { "id": "u1-l3-e5", "type": "listen", "audio": "I'm fine, thank you.", "options": ["Mám se dobře, děkuji.", "Jmenuji se Eva.", "Těší mě."], "answer": "Mám se dobře, děkuji.", "reviewed": false },
+        { "id": "u1-l3-e6", "type": "type", "question": "Jsem Eva.", "answer": "I'm Eva.", "reviewed": false },
+        { "id": "u1-l3-e7", "type": "fill", "sentence": "___ fine, thanks.", "translation": "Mám se dobře, díky.", "options": ["I'm", "Am", "You"], "answer": "I'm", "explain": "Anglicky musíte vždy říct, kdo: I'm = I am (já jsem).", "reviewed": false },
+        { "id": "u1-l3-e8", "type": "build", "question": "Jmenuji se Eva.", "answer": "My name is Eva.", "extra": ["am"], "reviewed": false },
+        { "id": "u1-l3-e9", "type": "build", "question": "Dobrý den, jak se máte?", "answer": "Hello, how are you?", "extra": ["is"], "reviewed": false },
+        { "id": "u1-l3-e10", "type": "speak", "text": "Nice to meet you.", "native": "Těší mě.", "reviewed": false }
+      ]
+    }
+  ]
+}

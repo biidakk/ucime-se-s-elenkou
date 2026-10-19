@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Učíme se s Elenkou",
+    "slug": "czech-lang-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.biidakk.ucimeseselenkou"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1E5AA8",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.biidakk.ucimeseselenkou"
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Učíme se s Elenkou",
+      "shortName": "Elenka",
+      "lang": "cs",
+      "themeColor": "#1E5AA8",
+      "backgroundColor": "#F6F8FB"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "scheme": "jazyky",
+    "experiments": {
+      "typedRoutes": true,
+      "baseUrl": "/ucime-se-s-elenkou"
+    }
+  }
+}

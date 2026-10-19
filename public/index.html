@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="%LANG_ISO_CODE%">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover: the app draws under the notch and home bar and keeps clear of
+         them itself (src/lib/insets.web.ts). Zooming stays allowed. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>%WEB_TITLE%</title>
+    <meta name="description" content="Angličtina, němčina a rumunština pro česky mluvící. Soukromá aplikace." />
+    <meta name="theme-color" content="#F6F8FB" />
+    <!-- Home Screen app on iPhone (__BASE__ is replaced by scripts/build-web.mjs). -->
+    <link rel="manifest" href="__BASE__manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="__BASE__icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="__BASE__icons/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Elenka" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+        background-color: #f6f8fb;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+        overscroll-behavior: none;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+        margin: 0;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+    <script src="__BASE__register-sw.js" defer></script>
+  </head>
+
+  <body>
+    <noscript>Tato aplikace potřebuje zapnutý JavaScript.</noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "id": "u1",
+  "level": "A1",
+  "title": "Pozdravy",
+  "titleTarget": "Salut!",
+  "description": "Jak pozdravit, poděkovat, poprosit a zeptat se „jak se máte?“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "Dobrý den a na shledanou",
+      "titleTarget": "Bună ziua și la revedere",
+      "reviewed": false,
+      "tip": {
+        "title": "Nová písmena a přízvuk",
+        "text": "Rumunština se čte skoro tak, jak se píše. Nová jsou jen některá písmena: ș se čte jako české š, ț jako české c a ă je krátký nejasný zvuk, jako když váháte: „ehm“. Pozor na přízvuk: v češtině je vždy na první slabice, v rumunštině bývá i jinde – „la reveDEre“. A jedna úleva: rumunština nemá dlouhé samohlásky – všechny se čtou krátce.",
+        "examples": [
+          { "target": "Bună ziua!", "native": "Dobrý den! – čte se BU-nă ZI-ua" },
+          { "target": "Bună dimineața!", "native": "Dobré ráno! – ț jako c: di-mi-NEA-ca" },
+          { "target": "La revedere!", "native": "Na shledanou! – přízvuk: re-ve-DE-re" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l1-w1", "target": "Bună ziua", "native": "dobrý den", "note": "Zdvořilý pozdrav přes den, při vykání.", "reviewed": false },
+        { "id": "u1-l1-w2", "target": "Bună dimineața", "native": "dobré ráno", "note": "Říká se asi do deseti dopoledne.", "reviewed": false },
+        { "id": "u1-l1-w3", "target": "Bună seara", "native": "dobrý večer", "reviewed": false },
+        { "id": "u1-l1-w4", "target": "Noapte bună", "native": "dobrou noc", "note": "Jen při loučení na noc. Doslova „noc dobrá“.", "reviewed": false },
+        { "id": "u1-l1-w5", "target": "Salut", "native": "ahoj", "note": "Neformální, při příchodu i odchodu. Mezi přáteli také „Bună!“.", "reviewed": false },
+        { "id": "u1-l1-w6", "target": "La revedere", "native": "na shledanou", "note": "Zdvořilé rozloučení.", "reviewed": false },
+        { "id": "u1-l1-w7", "target": "Pa", "native": "pa; čau (při loučení)", "note": "Neformální rozloučení, jako české „pa pa“.", "reviewed": false },
+        { "id": "u1-l1-w8", "target": "O zi bună", "native": "hezký den", "note": "Přání při odchodu.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l1-e1", "type": "choice", "question": "Bună ziua", "questionLang": "target", "options": ["dobrý den", "dobrou noc", "na shledanou"], "answer": "dobrý den", "reviewed": false },
+        { "id": "u1-l1-e2", "type": "choice", "question": "na shledanou", "questionLang": "native", "options": ["La revedere", "Bună seara", "Noapte bună"], "answer": "La revedere", "reviewed": false },
+        { "id": "u1-l1-e3", "type": "match", "pairs": [
+          { "target": "Bună dimineața", "native": "dobré ráno" },
+          { "target": "Bună seara", "native": "dobrý večer" },
+          { "target": "Noapte bună", "native": "dobrou noc" },
+          { "target": "Salut", "native": "ahoj" }
+        ], "reviewed": false },
+        { "id": "u1-l1-e4", "type": "listen", "audio": "Bună seara", "options": ["Bună seara", "Bună ziua", "Noapte bună"], "answer": "Bună seara", "reviewed": false },
+        { "id": "u1-l1-e5", "type": "choice", "prompt": "Ráno potkáte sousedku. Co řeknete?", "question": "Dobré ráno!", "questionLang": "native", "options": ["Bună dimineața!", "Bună seara!", "Noapte bună!"], "answer": "Bună dimineața!", "reviewed": false },
+        { "id": "u1-l1-e6", "type": "listen", "audio": "La revedere", "options": ["na shledanou", "dobrý den", "dobrý večer"], "answer": "na shledanou", "reviewed": false },
+        { "id": "u1-l1-e7", "type": "type", "question": "dobrý den", "answer": "Bună ziua", "reviewed": false },
+        { "id": "u1-l1-e8", "type": "type", "question": "dobrou noc", "answer": "Noapte bună", "reviewed": false },
+        { "id": "u1-l1-e9", "type": "build", "question": "Na shledanou, hezký den!", "answer": "La revedere, o zi bună!", "extra": ["seara"], "reviewed": false },
+        { "id": "u1-l1-e10", "type": "speak", "text": "Bună dimineața!", "native": "Dobré ráno!", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "title": "Prosím a děkuji",
+      "titleTarget": "Vă rog și mulțumesc",
+      "reviewed": false,
+      "tip": {
+        "title": "Tykání a vykání",
+        "text": "Stejně jako v češtině se v rumunštině tyká a vyká. Kamarádovi řeknete „te rog“ (prosím tě), cizímu nebo staršímu člověku „vă rog“ (prosím vás). Vykání poznáte i podle konce slovesa na -ți: „scuză-mă“ (promiň) – „scuzați-mă“ (promiňte). Samotné zdvořilé „Vy“ je dlouhé slovo „dumneavoastră“, ale často ho ani není potřeba říkat – stačí správný tvar slovesa.",
+        "examples": [
+          { "target": "Te rog!", "native": "Prosím tě! (tykání)" },
+          { "target": "Vă rog!", "native": "Prosím vás! (vykání)" },
+          { "target": "Scuzați-mă!", "native": "Promiňte! (vykání)" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l2-w1", "target": "da", "native": "ano", "note": "Slovanské slovo – stejné jako v ruštině.", "reviewed": false },
+        { "id": "u1-l2-w2", "target": "nu", "native": "ne", "note": "Pozor: nezaměňte s českým „no“ (= ano).", "reviewed": false },
+        { "id": "u1-l2-w3", "target": "Mulțumesc", "native": "děkuji", "note": "Čte se „mulcumesk“. Hovorově také „mersi“.", "reviewed": false },
+        { "id": "u1-l2-w4", "target": "Mulțumesc frumos", "native": "děkuji pěkně", "reviewed": false },
+        { "id": "u1-l2-w5", "target": "Te rog", "native": "prosím tě", "note": "Při tykání.", "reviewed": false },
+        { "id": "u1-l2-w6", "target": "Vă rog", "native": "prosím vás", "note": "Při vykání.", "reviewed": false },
+        { "id": "u1-l2-w7", "target": "Cu plăcere", "native": "není zač", "note": "Doslova „s potěšením“. Odpověď na poděkování.", "reviewed": false },
+        { "id": "u1-l2-w8", "target": "Scuzați-mă", "native": "promiňte", "note": "Při tykání: scuză-mă (promiň).", "reviewed": false },
+        { "id": "u1-l2-w9", "target": "Îmi pare rău", "native": "je mi líto", "note": "î zní podobně jako ruské ы: temné „y“ vyslovené vzadu v ústech.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l2-e1", "type": "choice", "question": "Mulțumesc", "questionLang": "target", "options": ["děkuji", "promiňte", "je mi líto"], "answer": "děkuji", "reviewed": false },
+        { "id": "u1-l2-e2", "type": "choice", "prompt": "Mluvíte s cizí starší paní. Jak řeknete „prosím“?", "question": "prosím vás", "questionLang": "native", "options": ["Vă rog", "Te rog", "Cu plăcere"], "answer": "Vă rog", "reviewed": false },
+        { "id": "u1-l2-e3", "type": "match", "pairs": [
+          { "target": "da", "native": "ano" },
+          { "target": "nu", "native": "ne" },
+          { "target": "Cu plăcere", "native": "není zač" },
+          { "target": "Mulțumesc frumos", "native": "děkuji pěkně" }
+        ], "reviewed": false },
+        { "id": "u1-l2-e4", "type": "listen", "audio": "Scuzați-mă", "options": ["Scuzați-mă", "Mulțumesc", "Îmi pare rău"], "answer": "Scuzați-mă", "reviewed": false },
+        { "id": "u1-l2-e5", "type": "listen", "audio": "Îmi pare rău", "options": ["je mi líto", "děkuji pěkně", "prosím tě"], "answer": "je mi líto", "reviewed": false },
+        { "id": "u1-l2-e6", "type": "choice", "question": "nu", "questionLang": "target", "options": ["ne", "ano", "prosím vás"], "answer": "ne", "reviewed": false },
+        { "id": "u1-l2-e7", "type": "type", "question": "děkuji", "answer": "Mulțumesc", "accept": ["Mersi"], "reviewed": false },
+        { "id": "u1-l2-e8", "type": "choice", "prompt": "Někdo vám poděkuje. Co odpovíte?", "question": "není zač", "questionLang": "native", "options": ["Cu plăcere", "Îmi pare rău", "Te rog"], "answer": "Cu plăcere", "reviewed": false },
+        { "id": "u1-l2-e9", "type": "build", "question": "Ano, děkuji pěkně.", "answer": "Da, mulțumesc frumos.", "extra": ["rog"], "reviewed": false },
+        { "id": "u1-l2-e10", "type": "speak", "text": "Mulțumesc frumos!", "native": "Děkuji pěkně!", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "title": "Jak se máte?",
+      "titleTarget": "Ce mai faceți?",
+      "reviewed": false,
+      "tip": {
+        "title": "Jak se čte c a g",
+        "text": "Písmeno c se čte jako k, ale před e a i jako č: „ce“ = če. Když má být před e nebo i slyšet k, píše se ch: „che“ = ke, „chi“ = ki. Stejně je to s g: „ge, gi“ = dže, dži, ale „ghe, ghi“ = ge, gi. Písmeno h se tu nevyslovuje, jen „hlídá“ tvrdé k a g. Koncové -i je skoro neslyšné: „faci“ zní jako „fač“.",
+        "examples": [
+          { "target": "Ce mai faci?", "native": "Jak se máš? – čte se „če maj fač“" },
+          { "target": "Ce mai faceți?", "native": "Jak se máte? – čte se „če maj fačec“" },
+          { "target": "ochi", "native": "oči – čte se „oki“!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u1-l3-w1", "target": "Ce mai faci?", "native": "jak se máš?", "note": "Při tykání. Čte se „če maj fač“.", "reviewed": false },
+        { "id": "u1-l3-w2", "target": "Ce mai faceți?", "native": "jak se máte?", "note": "Při vykání nebo k více lidem.", "reviewed": false },
+        { "id": "u1-l3-w3", "target": "bine", "native": "dobře", "reviewed": false },
+        { "id": "u1-l3-w4", "target": "foarte bine", "native": "velmi dobře", "reviewed": false },
+        { "id": "u1-l3-w5", "target": "Așa și așa", "native": "ujde to", "note": "Doslova „tak a tak“.", "reviewed": false },
+        { "id": "u1-l3-w6", "target": "Nu prea bine", "native": "nic moc", "note": "Doslova „ne moc dobře“.", "reviewed": false },
+        { "id": "u1-l3-w7", "target": "Și tu?", "native": "a ty?", "note": "și = a; čte se „ši“.", "reviewed": false },
+        { "id": "u1-l3-w8", "target": "Și dumneavoastră?", "native": "a vy?", "note": "Zdvořilé „Vy“ při vykání.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u1-l3-e1", "type": "choice", "question": "Ce mai faci?", "questionLang": "target", "options": ["jak se máš?", "velmi dobře", "a vy?"], "answer": "jak se máš?", "reviewed": false },
+        { "id": "u1-l3-e2", "type": "choice", "prompt": "Ptáte se staršího pána, jak se má. Co řeknete?", "question": "jak se máte?", "questionLang": "native", "options": ["Ce mai faceți?", "Ce mai faci?", "Și tu?"], "answer": "Ce mai faceți?", "reviewed": false },
+        { "id": "u1-l3-e3", "type": "match", "pairs": [
+          { "target": "bine", "native": "dobře" },
+          { "target": "foarte bine", "native": "velmi dobře" },
+          { "target": "Așa și așa", "native": "ujde to" },
+          { "target": "Nu prea bine", "native": "nic moc" }
+        ], "reviewed": false },
+        { "id": "u1-l3-e4", "type": "listen", "audio": "Și dumneavoastră?", "options": ["Și dumneavoastră?", "Și tu?", "Ce mai faceți?"], "answer": "Și dumneavoastră?", "reviewed": false },
+        { "id": "u1-l3-e5", "type": "listen", "audio": "Foarte bine, mulțumesc.", "options": ["Velmi dobře, děkuji.", "Nic moc, děkuji.", "Ujde to, a vy?"], "answer": "Velmi dobře, děkuji.", "reviewed": false },
+        { "id": "u1-l3-e6", "type": "choice", "prompt": "Jak se čte rumunské „ce“?", "question": "ce", "questionLang": "target", "options": ["če", "ke", "ce"], "answer": "če", "reviewed": false },
+        { "id": "u1-l3-e7", "type": "type", "question": "a ty?", "answer": "Și tu?", "reviewed": false },
+        { "id": "u1-l3-e8", "type": "choice", "question": "Nu prea bine", "questionLang": "target", "options": ["nic moc", "velmi dobře", "a ty?"], "answer": "nic moc", "reviewed": false },
+        { "id": "u1-l3-e9", "type": "build", "question": "Dobře, děkuji. A vy?", "answer": "Bine, mulțumesc. Și dumneavoastră?", "extra": ["tu"], "reviewed": false },
+        { "id": "u1-l3-e10", "type": "build", "question": "Ahoj! Jak se máš?", "answer": "Salut! Ce mai faci?", "extra": ["faceți"], "reviewed": false }
+      ]
+    }
+  ]
+}
