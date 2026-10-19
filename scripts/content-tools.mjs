@@ -49,7 +49,7 @@ const LETTERS = {
   de: 'a-zA-ZäöüÄÖÜßé',
   ro: 'a-zA-ZăâîșțĂÂÎȘȚ',
 };
-const PUNCTUATION = String.raw`0-9\s.,!?;:'’‘"„“”‚‘«»()\[\]\-–…/%€£$+=&_→·*`;
+const PUNCTUATION = String.raw`0-9\s.,!?;:'’‘"„“”‚‘«»()\[\]\-–…/%€£$+=&_→←·*`;
 
 function badCharacters(text, lang, alsoLang) {
   const letters = LETTERS[lang] + (alsoLang ? LETTERS[alsoLang] : '');
