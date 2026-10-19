@@ -1,0 +1,21 @@
+# Cloudflare Worker for the AI conversation partner. See docs/CHAT_PLAN.md and README.md here.
+name = "elenka-chat"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Messages per day for the whole family (all languages together).
+DAILY_LIMIT = "200"
+# Pages allowed to call this function (the app, and the local test server).
+ALLOWED_ORIGINS = "https://biidakk.github.io,http://localhost:8090,http://localhost:8081"
+
+# Counts the messages per day. Create it once with:  npx wrangler kv namespace create CHAT_LIMIT
+# and put the id it prints here.
+[[kv_namespaces]]
+binding = "CHAT_LIMIT"
+id = "REPLACE_WITH_KV_ID"
+
+# Secrets (never in this file): set them with
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#   npx wrangler secret put FAMILY_CODE

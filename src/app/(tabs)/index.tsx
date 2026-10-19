@@ -4,6 +4,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { Flag } from '@/components/Flag';
 import { Screen } from '@/components/Screen';
 import { TextKey, useT } from '@/i18n';
+import { chatAvailable } from '@/lib/chat';
 import type { Unit } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
 import { currentStreak } from '@/lib/dates';
@@ -108,6 +109,7 @@ export default function CourseScreen() {
                 })}
 
                 <UnitTestRow unit={unit} />
+                {complete && chatAvailable() && <ChatRow unit={unit} />}
               </View>
             </View>
           );
@@ -143,6 +145,26 @@ function UnitTestRow({ unit }: { unit: Unit }) {
       ) : (
         <Ionicons name="chevron-forward" size={26} color={colors.textMuted} />
       )}
+    </Pressable>
+  );
+}
+
+// The AI conversation partner for a finished unit (only when the server is set up).
+function ChatRow({ unit }: { unit: Unit }) {
+  const t = useT();
+  const { accent } = useAccent();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={() => router.push({ pathname: '/chat/[unitId]', params: { unitId: unit.id } })}
+      style={({ pressed }) => [styles.lesson, styles.testRow, pressed && styles.pressed]}
+    >
+      <Ionicons name="chatbubbles" size={26} color={accent} />
+      <View style={styles.lessonTitles}>
+        <Text style={styles.lessonTitle}>{t('chat.open')}</Text>
+        <Text style={styles.lessonTitleTarget}>{t('chat.openHint')}</Text>
+      </View>
+      <Ionicons name="chevron-forward" size={26} color={colors.textMuted} />
     </Pressable>
   );
 }

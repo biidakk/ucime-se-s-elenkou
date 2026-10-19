@@ -17,6 +17,7 @@ export type Settings = {
   installHintSeen: boolean;
   lastBackup: string | null; // day key of the last backup
   voices: Partial<Record<LanguageCode, string>>; // the voice chosen for each language (else automatic)
+  chatCode: string; // the family code for the AI conversation partner (empty = not entered)
 };
 
 const DEFAULTS: Settings = {
@@ -28,6 +29,7 @@ const DEFAULTS: Settings = {
   installHintSeen: false,
   lastBackup: null,
   voices: {},
+  chatCode: '',
 };
 
 // Keep only valid values (the stored data may come from an older version or a backup).
@@ -37,6 +39,7 @@ function clean(saved: Partial<Settings>): Settings {
   if (merged.courseId && !isCourseId(merged.courseId)) merged.courseId = null;
   if (!merged.nativeLanguage || !merged.courseId) merged.onboarded = false;
   if (typeof merged.voices !== 'object' || merged.voices === null) merged.voices = {};
+  if (typeof merged.chatCode !== 'string') merged.chatCode = '';
   return merged;
 }
 

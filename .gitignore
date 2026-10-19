@@ -39,3 +39,8 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Secrets: never commit (the repository is public)
+api key.txt
+*.key.txt
+.dev.vars

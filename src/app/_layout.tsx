@@ -48,6 +48,7 @@ function RootStack() {
         <Stack.Screen name="test/[unitId]" />
         <Stack.Screen name="courses" />
         <Stack.Screen name="pronunciation" />
+        <Stack.Screen name="chat/[unitId]" />
       </Stack.Protected>
       <Stack.Protected guard={!settings.onboarded}>
         <Stack.Screen name="welcome" />

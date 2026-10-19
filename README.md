@@ -90,4 +90,4 @@ docs/               RESEARCH.md (sources and decisions), REVIEW_NOTES.md
 - **Native app later:** the code also runs on iOS/Android (`npx expo run:ios`). Speech
   recognition then needs `expo-speech-recognition` (see `src/lib/recognition.ts`).
 - **Moving the old Romanian → Czech app in:** see `MIGRATION.md`.
-- **AI conversation partner (planned, not built):** see `docs/CHAT_PLAN.md`; groundwork in `src/lib/chat.ts`.
+- **AI conversation partner:** see `docs/CHAT_PLAN.md`; app side in `src/app/chat/` and `src/lib/chat.ts`, server in `server/chat/` (setup steps in its README).

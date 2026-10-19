@@ -11,6 +11,7 @@ import { Segmented } from '@/components/Segmented';
 import { VoicePicker } from '@/components/VoicePicker';
 import { TextKey, useT } from '@/i18n';
 import { Backup, backupFileName, backupToText, createBackup, parseBackup, restoreBackup } from '@/lib/backup';
+import { chatAvailable } from '@/lib/chat';
 import { canCopyText, canPickFile, copyText, pickBackupFile, shareBackupFile } from '@/lib/backupFile';
 import { useCourse } from '@/lib/course';
 import { dayKey } from '@/lib/dates';
@@ -42,6 +43,7 @@ export default function SettingsScreen() {
   const [pasted, setPasted] = useState('');
   const [pendingRestore, setPendingRestore] = useState<Backup | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [chatCode, setChatCode] = useState(settings.chatCode);
 
   const languageName = t(`lang.${target.code}.name` as TextKey);
 
@@ -165,6 +167,31 @@ export default function SettingsScreen() {
           )}
         </Section>
 
+        {chatAvailable() && (
+          <Section title={t('settings.chatSection')}>
+            <Text style={styles.text}>{t('settings.chatText')}</Text>
+            <Text style={styles.label}>{t('settings.chatCode')}</Text>
+            <TextInput
+              value={chatCode}
+              onChangeText={setChatCode}
+              autoCapitalize="none"
+              autoCorrect={false}
+              secureTextEntry
+              style={styles.codeInput}
+              accessibilityLabel={t('settings.chatCode')}
+            />
+            <BigButton
+              label={t('settings.chatCodeSave')}
+              variant="secondary"
+              disabled={chatCode.trim() === settings.chatCode}
+              onPress={() => {
+                update({ chatCode: chatCode.trim() });
+                setMessage(t('settings.chatCodeSaved'));
+              }}
+            />
+          </Section>
+        )}
+
         {shouldShowInstallHint() && (
           <Section title={t('settings.installSection')}>
             <Text style={styles.text}>{t('install.text')}</Text>
@@ -235,6 +262,15 @@ const styles = StyleSheet.create({
   message: { backgroundColor: colors.successLight, borderRadius: radius.md, padding: spacing.md, borderWidth: 1, borderColor: colors.successBorder },
   messageText: { fontSize: font.body, color: colors.text, fontWeight: '600' },
   paste: { gap: spacing.sm },
+  codeInput: {
+    minHeight: 56,
+    borderWidth: 2,
+    borderColor: colors.border,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.md,
+    fontSize: font.large,
+    color: colors.text,
+  },
   pasteInput: {
     minHeight: 120,
     borderWidth: 2,

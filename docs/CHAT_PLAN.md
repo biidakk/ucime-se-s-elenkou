@@ -1,7 +1,7 @@
 # Plan: AI conversation partner („Konverzace“)
 
-**Status: planned, not built.** The app is prepared for it (see "Already in place"). Nothing
-here costs money until it is switched on.
+**Status: built (app screen + server in `server/chat`), waiting for the server to be deployed.
+It stays hidden in the app until `CHAT_URL` is set (see `server/chat/README.md`).
 
 ## What the learner sees
 
