@@ -74,6 +74,21 @@ export function tilesOf(sentence: string): string[] {
     .filter(Boolean);
 }
 
+// All correct sentences of a "build" exercise: the answer, the accepted orders, and each of
+// them without any combination of the optional words (e.g. "that" in "She said that …").
+export function buildAnswers(answer: string, accept: string[] = [], optional: string[] = []): string[] {
+  const results = new Set<string>();
+  const sentences = [answer, ...accept];
+  const combos = 1 << Math.min(optional.length, 4);
+  for (const sentence of sentences) {
+    for (let mask = 0; mask < combos; mask++) {
+      const drop = optional.filter((_, i) => mask & (1 << i)).map((w) => w.toLowerCase());
+      results.add(tilesOf(sentence).filter((t) => !drop.includes(t.toLowerCase())).join(' '));
+    }
+  }
+  return [...results];
+}
+
 // How much of the expected sentence the phone heard, from 0 to 1.
 // Accents, capitals and punctuation don't matter: speech recognition is not perfect.
 export function spokenMatch(heard: string, expected: string, lang?: LanguageCode): number {

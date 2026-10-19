@@ -1,0 +1,140 @@
+{
+  "id": "u23",
+  "level": "B1",
+  "title": "Zdravý životní styl",
+  "titleTarget": "Viață sănătoasă",
+  "description": "Zdravé jídlo, pohyb každý den a rady lékaře: někdo, něco, každý; tvar na -ând; ar trebui să.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u23-l1",
+      "title": "Zdravé jídlo",
+      "titleTarget": "Mâncare sănătoasă",
+      "reviewed": false,
+      "tip": {
+        "title": "Někdo, něco, každý, celý",
+        "text": "Cineva = někdo, ceva = něco: Vreau ceva sănătos. (Chci něco zdravého.) Všimněte si, že rumunsky přídavné jméno po ceva koncovku nemá: ceva bun = něco dobrého. Fiecare (každý) stojí vždy s jednotným číslem: fiecare zi, fiecare copil. Tot (celý, všechen) se mění jako přídavné jméno: tot timpul (celou dobu), toată ziua (celý den), toți copiii (všechny děti), toate legumele (všechna zelenina). Câțiva, câteva = několik; unii, unele = někteří, některé.",
+        "examples": [
+          { "target": "Vreau ceva sănătos.", "native": "Chci něco zdravého." },
+          { "target": "Cineva a mâncat tot tortul!", "native": "Někdo snědl celý dort!" },
+          { "target": "Toată familia mănâncă pește.", "native": "Celá rodina jí ryby." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l1-w1", "target": "o legumă", "native": "zelenina", "note": "leguma = ta zelenina; množné číslo: legume. Rumunsky se počítá jako jednotlivé druhy: multe legume = hodně zeleniny. Čte se „le-GU-mă“.", "reviewed": false },
+        { "id": "u23-l1-w2", "target": "un fruct", "native": "ovoce", "note": "fructul = to ovoce; množné číslo: fructe. Počítá se po kusech: două fructe = dva kusy ovoce.", "reviewed": false },
+        { "id": "u23-l1-w3", "target": "carne", "native": "maso", "note": "carnea = to maso. Nepočítá se, proto bez „o“: niște carne. Carne de porc = vepřové. Čte se „KAR-ne“.", "reviewed": false },
+        { "id": "u23-l1-w4", "target": "pește", "native": "ryba; ryby", "note": "peștele = ta ryba. Jako jídlo bez „un“: Mănânc pește. = Jím ryby. Jedna živá ryba: un pește, množné číslo: pești. Čte se „PEŠ-te“.", "reviewed": false },
+        { "id": "u23-l1-w5", "target": "sare", "native": "sůl", "note": "sarea = ta sůl. Nepočítá se: puțină sare = trochu soli. Čte se „SA-re“.", "reviewed": false },
+        { "id": "u23-l1-w6", "target": "sănătos", "native": "zdravý", "note": "Ženský rod: sănătoasă; množné číslo: sănătoși, sănătoase. Sănătatea = zdraví. Čte se „să-nă-TOS“.", "reviewed": false },
+        { "id": "u23-l1-w7", "target": "ceva", "native": "něco", "note": "Ceva bun = něco dobrého. Čte se „če-VA“.", "reviewed": false },
+        { "id": "u23-l1-w8", "target": "cineva", "native": "někdo", "note": "Cineva sună. = Někdo zvoní. Čte se „či-ne-VA“.", "reviewed": false },
+        { "id": "u23-l1-w9", "target": "fiecare", "native": "každý", "note": "Vždy s jednotným číslem a stejný pro muže i ženy: fiecare zi, fiecare oră. Každý den = în fiecare zi. Čte se „fi-je-KA-re“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l1-e1", "type": "choice", "question": "o legumă", "questionLang": "target", "options": ["zelenina", "ovoce", "maso"], "answer": "zelenina", "reviewed": false },
+        { "id": "u23-l1-e2", "type": "choice", "question": "sůl", "questionLang": "native", "options": ["sare", "zahăr", "carne"], "answer": "sare", "reviewed": false },
+        { "id": "u23-l1-e3", "type": "match", "pairs": [
+          { "target": "pește", "native": "ryba" },
+          { "target": "sănătos", "native": "zdravý" },
+          { "target": "ceva", "native": "něco" },
+          { "target": "cineva", "native": "někdo" }
+        ], "reviewed": false },
+        { "id": "u23-l1-e4", "type": "listen", "audio": "Mănânc legume în fiecare zi.", "options": ["Každý den jím zeleninu.", "Každý den jím ovoce.", "Celý den jím zeleninu."], "answer": "Každý den jím zeleninu.", "reviewed": false },
+        { "id": "u23-l1-e5", "type": "listen", "audio": "Unii copii nu mănâncă legume.", "options": ["Unii copii nu mănâncă legume.", "Toți copiii mănâncă legume.", "Câțiva copii mănâncă legume."], "answer": "Unii copii nu mănâncă legume.", "reviewed": false },
+        { "id": "u23-l1-e6", "type": "fill", "sentence": "Am lucrat ___ ziua.", "translation": "Celý den jsem pracoval(a).", "options": ["toată", "tot", "toți"], "answer": "toată", "explain": "Ziua je ženského rodu, proto toată ziua; tot je pro mužský a střední rod.", "reviewed": false },
+        { "id": "u23-l1-e7", "type": "fill", "sentence": "În ___ zi mănânc un fruct.", "translation": "Každý den sním jeden kus ovoce.", "options": ["fiecare", "toate", "toți"], "answer": "fiecare", "explain": "Každý = fiecare s jednotným číslem; toate a toți stojí s množným číslem a se členem.", "reviewed": false },
+        { "id": "u23-l1-e8", "type": "type", "question": "Chci něco zdravého.", "answer": "Vreau ceva sănătos.", "reviewed": false },
+        { "id": "u23-l1-e9", "type": "build", "question": "Všechny děti jedí ovoce a zeleninu.", "answer": "Toți copiii mănâncă fructe și legume.", "extra": ["Toate"], "accept": ["Toți copiii mănâncă legume și fructe."], "reviewed": false },
+        { "id": "u23-l1-e10", "type": "choice", "question": "Câteva fructe, vă rog.", "questionLang": "target", "options": ["Několik kusů ovoce, prosím.", "Všechno ovoce, prosím.", "Žádné ovoce, prosím."], "answer": "Několik kusů ovoce, prosím.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l2",
+      "title": "Pohyb každý den",
+      "titleTarget": "Mișcare în fiecare zi",
+      "reviewed": false,
+      "tip": {
+        "title": "Při chůzi = mergând",
+        "text": "Tvar na -ând / -ind se v rumunštině běžně používá i v řeči. Nemění se podle osoby ani rodu: mergând (při chůzi), citind (při čtení), alergând (při běhu). Je to jako starý český přechodník (jda, čtouc), jen živý. Česky ho přeložte slovy „při…“, „když…“ nebo „tím, že…“: Slăbesc mergând pe jos. = Hubnu tím, že chodím pěšky. Zvratné zájmeno se přidá na konec přes -u-: odihnindu-mă (když odpočívám), plimbându-ne (když se procházíme).",
+        "examples": [
+          { "target": "Slăbesc mergând pe jos.", "native": "Hubnu tím, že chodím pěšky." },
+          { "target": "Mă odihnesc citind.", "native": "Odpočívám při čtení." },
+          { "target": "Mergând cu bicicleta, văd tot orașul.", "native": "Když jezdím na kole, vidím celé město." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l2-w1", "target": "mișcare", "native": "pohyb", "note": "mișcarea = ten pohyb. Ve smyslu cvičení bez „o“: Faceți mișcare! = Hýbejte se! Čte se „miš-KA-re“.", "reviewed": false },
+        { "id": "u23-l2-w2", "target": "a face sport", "native": "sportovat", "note": "eu fac sport, el face sport; am făcut sport. Čte se „a FA-če sport“.", "reviewed": false },
+        { "id": "u23-l2-w3", "target": "a alerga", "native": "běhat; běžet", "note": "eu alerg, el aleargă. Čte se „a a-ler-GA“.", "reviewed": false },
+        { "id": "u23-l2-w4", "target": "o bicicletă", "native": "kolo; jízdní kolo", "note": "bicicleta = to kolo; množné číslo: biciclete. Jezdit na kole: a merge cu bicicleta. Čte se „bi-či-KLE-tă“.", "reviewed": false },
+        { "id": "u23-l2-w5", "target": "a se odihni", "native": "odpočívat; odpočinout si", "note": "Skupina -esc: eu mă odihnesc, el se odihnește. Čte se „a se o-dih-NI“.", "reviewed": false },
+        { "id": "u23-l2-w6", "target": "a slăbi", "native": "hubnout; zhubnout", "note": "Skupina -esc: eu slăbesc. Od slab = hubený. Čte se „a slă-BI“.", "reviewed": false },
+        { "id": "u23-l2-w7", "target": "a respira", "native": "dýchat", "note": "eu respir, el respiră. Čte se „a res-pi-RA“.", "reviewed": false },
+        { "id": "u23-l2-w8", "target": "regulat", "native": "pravidelně; pravidelný", "note": "Jako příslovce se nemění: Fac sport regulat. = Pravidelně sportuji. Čte se „re-gu-LAT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l2-e1", "type": "choice", "question": "a se odihni", "questionLang": "target", "options": ["odpočívat; odpočinout si", "dýchat", "běhat; běžet"], "answer": "odpočívat; odpočinout si", "reviewed": false },
+        { "id": "u23-l2-e2", "type": "choice", "question": "kolo; jízdní kolo", "questionLang": "native", "options": ["o bicicletă", "un tren", "un tramvai"], "answer": "o bicicletă", "reviewed": false },
+        { "id": "u23-l2-e3", "type": "match", "pairs": [
+          { "target": "mișcare", "native": "pohyb" },
+          { "target": "a face sport", "native": "sportovat" },
+          { "target": "a slăbi", "native": "zhubnout" },
+          { "target": "a respira", "native": "dýchat" }
+        ], "reviewed": false },
+        { "id": "u23-l2-e4", "type": "listen", "audio": "Slăbesc mergând pe jos.", "options": ["Hubnu tím, že chodím pěšky.", "Hubnu tím, že jezdím na kole.", "Chodím pěšky, ale nehubnu."], "answer": "Hubnu tím, že chodím pěšky.", "reviewed": false },
+        { "id": "u23-l2-e5", "type": "listen", "audio": "Merg cu bicicleta la piață.", "options": ["Merg cu bicicleta la piață.", "Merg cu autobuzul la piață.", "Merg pe jos la piață."], "answer": "Merg cu bicicleta la piață.", "reviewed": false },
+        { "id": "u23-l2-e6", "type": "fill", "sentence": "Mă odihnesc ___ o carte.", "translation": "Odpočívám při čtení knihy.", "options": ["citind", "citesc", "citit"], "answer": "citind", "explain": "Při čtení, když čtu = citind (tvar na -ind).", "reviewed": false },
+        { "id": "u23-l2-e7", "type": "fill", "sentence": "Fac sport ___ ca să slăbesc.", "translation": "Pravidelně sportuji, abych zhubl(a).", "options": ["regulat", "regulată", "regulați"], "answer": "regulat", "explain": "Jako příslovce (jak často?) se regulat nemění.", "reviewed": false },
+        { "id": "u23-l2-e8", "type": "type", "question": "Každé ráno běhám.", "answer": "Alerg în fiecare dimineață.", "accept": ["În fiecare dimineață alerg.", "Alerg dimineața."], "reviewed": false },
+        { "id": "u23-l2-e9", "type": "build", "question": "Hubnu tím, že jezdím na kole.", "answer": "Slăbesc mergând cu bicicleta.", "extra": ["merg"], "reviewed": false },
+        { "id": "u23-l2-e10", "type": "speak", "text": "Fac mișcare în fiecare zi.", "native": "Každý den se hýbu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l3",
+      "title": "Rada lékaře",
+      "titleTarget": "Sfatul medicului",
+      "reviewed": false,
+      "tip": {
+        "title": "Rada: ar trebui să",
+        "text": "Lékař radí podmiňovacím způsobem: Ar trebui să faceți mai multă mișcare. Česky „měl byste“ nebo „měla byste“, rumunsky jen ar trebui să – bez rozdílu mezi mužem a ženou. Ar trebui zůstává pro všechny osoby stejné, osobu ukáže až sloveso po să: ar trebui să plec (měl(a) bych odejít), ar trebui să mergeți (měl(a) byste jít). Podobně Ar fi bine să… = Bylo by dobré…: Ar fi bine să mâncați mai puțină sare.",
+        "examples": [
+          { "target": "Ar trebui să faceți mai multă mișcare.", "native": "Měl(a) byste se víc hýbat." },
+          { "target": "Ar trebui să mergeți la un specialist.", "native": "Měl(a) byste jít k odbornému lékaři." },
+          { "target": "Ar fi bine să mâncați mai puțină sare.", "native": "Bylo by dobré jíst méně soli." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l3-w1", "target": "tensiune", "native": "krevní tlak", "note": "tensiunea = ten tlak. Bez „o“: Am tensiune mare. = Mám vysoký tlak. Čte se „ten-si-U-ne“.", "reviewed": false },
+        { "id": "u23-l3-w2", "target": "o analiză", "native": "rozbor; vyšetření krve", "note": "analiza = ten rozbor; množné číslo: analize. A face analize = jít na rozbory. Čte se „a-na-LI-ză“.", "reviewed": false },
+        { "id": "u23-l3-w3", "target": "un specialist", "native": "odborný lékař; odborník", "note": "specialistul = ten odborník; množné číslo: specialiști. Čte se „spe-či-a-LIST“.", "reviewed": false },
+        { "id": "u23-l3-w4", "target": "o programare", "native": "objednání; termín", "note": "programarea = to objednání; množné číslo: programări. Am o programare la ora zece. = Mám termín v deset. Čte se „pro-gra-MA-re“.", "reviewed": false },
+        { "id": "u23-l3-w5", "target": "un tratament", "native": "léčba", "note": "tratamentul = ta léčba; množné číslo: tratamente (střední rod). Čte se „tra-ta-MENT“.", "reviewed": false },
+        { "id": "u23-l3-w6", "target": "o alergie", "native": "alergie", "note": "alergia = ta alergie; množné číslo: alergii. Am alergie la… = Mám alergii na… Čte se „a-ler-DŽI-e“.", "reviewed": false },
+        { "id": "u23-l3-w7", "target": "ar trebui să", "native": "měl byste; měla byste", "note": "Nemění se podle osoby ani rodu: ar trebui să plec = měl(a) bych odejít. Čte se „ar tre-BUJ să“.", "reviewed": false },
+        { "id": "u23-l3-w8", "target": "a se simți", "native": "cítit se", "note": "eu mă simt, tu te simți, el se simte. Mă simt bine. = Cítím se dobře. Čte se „a se sim-CI“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l3-e1", "type": "choice", "question": "un tratament", "questionLang": "target", "options": ["léčba", "alergie", "objednání; termín"], "answer": "léčba", "reviewed": false },
+        { "id": "u23-l3-e2", "type": "choice", "question": "krevní tlak", "questionLang": "native", "options": ["tensiune", "febră", "o analiză"], "answer": "tensiune", "reviewed": false },
+        { "id": "u23-l3-e3", "type": "match", "pairs": [
+          { "target": "o analiză", "native": "rozbor krve" },
+          { "target": "un specialist", "native": "odborný lékař" },
+          { "target": "o programare", "native": "termín" },
+          { "target": "a se simți", "native": "cítit se" }
+        ], "reviewed": false },
+        { "id": "u23-l3-e4", "type": "listen", "audio": "Ar trebui să mâncați mai puțină sare.", "options": ["Měl(a) byste jíst méně soli.", "Měl(a) byste jíst víc soli.", "Nesmíte jíst sůl."], "answer": "Měl(a) byste jíst méně soli.", "reviewed": false },
+        { "id": "u23-l3-e5", "type": "listen", "audio": "Am o programare la specialist.", "options": ["Am o programare la specialist.", "Am o programare la medic.", "Am o alergie la pește."], "answer": "Am o programare la specialist.", "reviewed": false },
+        { "id": "u23-l3-e6", "type": "fill", "sentence": "Ar ___ să faceți mai multă mișcare.", "translation": "Měl(a) byste se víc hýbat.", "options": ["trebui", "trebuie", "trebuia"], "answer": "trebui", "explain": "Po ar stojí vždy trebui: ar trebui să.", "reviewed": false },
+        { "id": "u23-l3-e7", "type": "fill", "sentence": "Cum vă ___ azi?", "translation": "Jak se dnes cítíte?", "options": ["simțiți", "simți", "simțit"], "answer": "simțiți", "explain": "K vă (vy) patří tvar simțiți: vă simțiți.", "reviewed": false },
+        { "id": "u23-l3-e8", "type": "type", "question": "Mám alergii na ryby.", "answer": "Am alergie la pește.", "accept": ["Sunt alergic la pește.", "Sunt alergică la pește.", "Am o alergie la pește."], "reviewed": false },
+        { "id": "u23-l3-e9", "type": "build", "question": "Bylo by dobré, abyste si nechal(a) udělat rozbory.", "answer": "Ar fi bine să faceți analize.", "extra": ["face"], "reviewed": false },
+        { "id": "u23-l3-e10", "type": "choice", "question": "Cítím se dobře.", "questionLang": "native", "options": ["Mă simt bine.", "Mă simt rău.", "Mi-e rău."], "answer": "Mă simt bine.", "reviewed": false }
+      ]
+    }
+  ]
+}

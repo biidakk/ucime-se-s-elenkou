@@ -1,6 +1,6 @@
 # Angličtina pro Čechy (britská) – plán kurzu
 
-Kurz `cs-en`: 20 lekcí (units) po 3 lekcích. A1 = units 1–10, A2 = units 11–20.
+Kurz `cs-en`: 30 lekcí (units) po 3 lekcích. A1 = units 1–10, A2 = units 11–20, B1 = units 21–30.
 Pořadí podle CEFR A1/A2 (Cambridge A2 Key, British Council/EAQUALS Core Inventory) a typických
 chyb Čechů (docs/RESEARCH.md, část 3).
 
@@ -163,3 +163,90 @@ perfect (*I was never in London*) · **DUR** přítomný čas pro trvání (*I a
 | 3 | Oslavy | present perfect pro novinky (We've had a baby!); opakování | wedding, Christmas, Easter, present, invitation, Congratulations!, Happy birthday!, Best wishes, Merry Christmas! | – |
 
 Poznámka: v U12-2 je *first, second, third* (řadové číslovky); v U19-1 proto *first of all*.
+
+---
+
+## B1 (units 21–30)
+
+Pořadí podle Cambridge B1 Preliminary (vocabulary list) a British Council/EAQUALS Core Inventory B1;
+slovíčka ověřena proti units 1–20 (žádné se neopakuje). *would* pro zvyky v minulosti jen pasivně
+(English Profile ho řadí spíš na B1+).
+
+Další zkratky chyb: **COND** *If I would…* · **TO** chybějící/přebytečné *to* (*He said me*, *explain me*) ·
+**ING** tvar po slovese/předložce (*I enjoy to read*, *interested in to learn*) · **PV** frázová slovesa
+(*switch off it*) · **MOD** *mustn't* místo *can't* (*It mustn't be true*) · **WO** slovosled v nepřímé otázce.
+
+### Unit 21 – Práce a kariéra / Work and career — `unit21-work.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Dřív a dnes | used to / didn't use to (dřívější zvyky a stavy) | used to, didn't use to, colleague, boss, salary, part-time, full-time, career, pension | *I use to get up early* (dnes = usually) |
+| 2 | Pracovní pohovor | present perfect continuous: How long have you been working…? | interview, apply for, CV, experience, skill, earn, unemployed | DUR (*I work here for ten years*, *I am working here since 2010*) |
+| 3 | Make, nebo do? | kolokace make × do (obojí „dělat“) | make a decision, make a mistake, make a phone call, do the housework, do the shopping, do someone a favour, do your best | *do a mistake*, *make the shopping* |
+
+### Unit 22 – Učení a vzdělání / Learning and education — `unit22-learning.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Školní léta | used to × past simple; *would* pro zvyky (jen poznat) | primary school, secondary school, subject, exam, pass, fail, uniform, strict | FF (gymnázium ≠ gym); *make an exam* → take an exam |
+| 2 | Kurzy pro dospělé | předložka + -ing (interested in learning, good at speaking) | course, learn, study, improve, practise, interested in, good at, afraid of | ING (*interested in to learn*); practise × practice (brit.) |
+| 3 | Velké rozhodnutí | sloveso + to / + -ing (decide to, enjoy -ing; remember, stop) | decide, enjoy, hope, manage, avoid, remember, stop, mind | ING (*I enjoy to read*, *I decided going*) |
+
+### Unit 23 – Zdraví a životní styl / Health and lifestyle — `unit23-lifestyle.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Zdravý život | too / enough u přídavných jmen (too tired to walk, not fit enough) | healthy, unhealthy, fit, diet, exercise, put on weight, lose weight, stressed | *enough fit*, *too much tired* |
+| 2 | Zlozvyky | frázová slovesa; give up + -ing | give up, cut down on, take up, look after, get over, smoke, habit | PV, ING (*give up to smoke*) |
+| 3 | Nehoda | so + přídavné jméno × such a + podstatné jméno | accident, emergency, fall over, painful, hospital, ambulance, bandage, plaster | ART (*so nice day*, *such nice day*) |
+
+### Unit 24 – Média a technologie / Media and technology — `unit24-media.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Zprávy | trpný rod v přítomnosti (is shown, are written) | the news, newspaper, article, programme, channel, advert, journalist, headline | *The news are…*, *a news* (nepočitatelné) |
+| 2 | Vynálezy | trpný rod v minulosti (was invented by…) | invent, discover, laptop, screen, battery, charge, signal | chybí *was* (*It invented in…*) |
+| 3 | Aplikace | frázová slovesa s předmětem (switch it on) | switch on, switch off, set up, look up, download, app, update, online | PV (*switch off it*) |
+
+### Unit 25 – Problémy na cestách / Travel problems — `unit25-travel-problems.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Zpoždění | past perfect: When we arrived, the train had left. | flight, delay, on time, cancel, check in, gate, connection, platform | jen past simple tam, kde je třeba „už předtím“ |
+| 2 | Ztracené zavazadlo | past perfect s already / by the time; vyprávění | luggage, lost property, complain, complaint, damaged, refund, form | ART (*a luggage*, *luggages*) |
+| 3 | Zdvořilé prosby | Would you mind + -ing? Do you mind if I…? | Would you mind waiting a moment?, Could you possibly help me?, Do you mind if I open the window?, I'm sorry to bother you., Not at all., apologise, in a hurry | odpověď *Yes* = vadí mi (ano/ne opačně než česky) |
+
+### Unit 26 – Peníze a banka / Money and banking — `unit26-money.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Půjčit, nebo půjčit si? | slovesa se dvěma předměty: lend me, borrow from | borrow, lend, owe, pay back, save, afford, spend, wallet | *Can you borrow me…?* (půjčit = lend i borrow) |
+| 2 | Kdybychom vyhráli… | 2. kondicionál: If I had…, I would…; If I were you | rich, poor, win the lottery, If I were you, imagine, dream, million, charity | COND (*If I would have*) |
+| 3 | V bance | Could you tell me…? (opakování); částky | bank account, cash machine, coin, note, transfer, loan, interest, fee | *moneys*, *the money are* (nepočitatelné); cashpoint = cash machine |
+
+### Unit 27 – Názory a diskuse / Opinions and discussion — `unit27-opinions.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Souhlasím | agree with; I think so × I don't think so | I agree., I disagree., opinion, In my opinion, I think so., I don't think so., That's true., It depends., Exactly! | *I am agree*, *According to me* |
+| 2 | Řekl mi, že… | nepřímá řeč: oznamovací věty, posun časů; say × tell | say, tell, explain, reply, mention, repeat | TO (*He said me*, *explain me*) |
+| 3 | Zeptala se, jestli… | nepřímé otázky a žádosti: asked if…, asked me to… | ask, whether, wonder, advice, advise, recommend, suggest | WO (*She asked where do I live*); *an advice* |
+
+### Unit 28 – Bydlení a jeho problémy / Housing problems — `unit28-housing.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Něco je špatně | dedukce: must be / might be / can't be | leak, heating, pipe, tap, roof, ceiling, smell, noisy | MOD (*It mustn't be the pipe* → can't) |
+| 2 | Opravy | frázová slovesa v domácnosti (break down, sort out, turn down) | repair, plumber, landlord, rent, washing machine, break down, sort out, turn down | FF (renta ≠ rent; rent = nájem) |
+| 3 | Kde jsme vyrůstali | vztažné věty who / which / that / where | move house, grow up, area, block of flats, terraced house, village, countryside, owner | *the man which*, *the house where I live in* |
+
+### Unit 29 – Kultura a akce / Culture and events — `unit29-culture.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Výstava a festival | tázací dovětky (jen poznat): It's lovely, isn't it? | exhibition, museum, gallery, festival, performance, audience, stage, queue | české „že?“ → vždy *isn't it?* |
+| 2 | Jaké to bylo? | přídavná jména -ed × -ing (bored × boring) | boring, bored, exciting, excited, disappointing, disappointed, amazing, surprised | *I am boring* (= jsem nudný) |
+| 3 | Kniha a film | although × however (kontrast) | novel, author, character, review, although, however, story, ending | FF (novela ≠ novel; román = novel) |
+
+### Unit 30 – Životní prostředí / The environment — `unit30-environment.json`
+| # | Téma | Gramatika | Slovíčka | Chyba |
+|---|---|---|---|---|
+| 1 | Třídění odpadu | trpný rod s modálními slovesy: can be recycled, must be put | recycle, rubbish, bin, plastic, glass, tin, bottle, environment | ART (*a rubbish*; *the environment* se členem) |
+| 2 | Počasí se mění | předpovědi: will / might / be likely to | climate, pollution, air, flood, storm, global warming, might, likely | *It will maybe rain* → It might rain |
+| 3 | Co můžeme udělat | 2. kondicionál (opakování) + should | save energy, public transport, reduce, protect, nature, wildlife, planet, waste | ART (*the nature*), COND |
+
+Poznámka B1: *ask, say, tell, learn, study, school, museum, hospital* nebyly v units 1–20 jako
+slovíčka, proto jsou až zde. *May* (měsíc) už existuje, proto v U30-2 *likely*, ne *may*.
+*pension, plaster, leak, plumber, landlord, terraced house* nejsou v seznamu B1 Preliminary, ale
+jsou pro dospělého uživatele v Británii užitečné.

@@ -1,0 +1,144 @@
+{
+  "id": "u22",
+  "level": "B1",
+  "title": "Vzdělávání",
+  "titleTarget": "Lernen und Kurse",
+  "description": "Kurzy, škola za starých časů a učení v dospělosti: um … zu, damit a jednoduchý minulý čas (préteritum).",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u22-l1",
+      "title": "Kurz pro dospělé",
+      "titleTarget": "Ein Kurs an der Volkshochschule",
+      "reviewed": false,
+      "tip": {
+        "title": "um … zu a damit = abych",
+        "text": "České „abych, abychom“ řeknete německy dvěma způsoby. Když je podmět v obou částech věty stejný, použijte um … zu a sloveso dejte na konec: Wir machen einen Kurs, um Deutsch zu lernen. (Chodíme do kurzu, abychom se učili německy.) Když je podmět jiný, použijte damit, sloveso jde také na konec: Ich spreche langsam, damit Sie mich verstehen. (Mluvím pomalu, abyste mi rozuměli.) Pozor: „für zu lernen“ je chyba, správně je um … zu.",
+        "examples": [
+          { "target": "Wir machen einen Kurs, um Deutsch zu lernen.", "native": "Chodíme do kurzu, abychom se učili německy." },
+          { "target": "Ich spreche langsam, damit Sie mich verstehen.", "native": "Mluvím pomalu, abyste mi rozuměli." },
+          { "target": "Sie übt jeden Tag, um besser zu sprechen.", "native": "Cvičí každý den, aby mluvila lépe." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l1-w1", "target": "der Kurs", "native": "kurz", "note": "einen Kurs machen = chodit do kurzu; množné číslo: die Kurse", "reviewed": false },
+        { "id": "u22-l1-w2", "target": "die Volkshochschule", "native": "vzdělávací centrum pro dospělé", "note": "Zkratka VHS, kurzy pro veřejnost skoro v každém městě. Čte se [FOLKS-hóch-šú-le]; množné číslo: die Volkshochschulen", "reviewed": false },
+        { "id": "u22-l1-w3", "target": "sich anmelden", "native": "přihlásit se", "note": "Ich melde mich für den Kurs an. = Přihlašuji se do kurzu. Příčestí: angemeldet", "reviewed": false },
+        { "id": "u22-l1-w4", "target": "die Anmeldung", "native": "přihláška; přihlášení", "note": "množné číslo: die Anmeldungen", "reviewed": false },
+        { "id": "u22-l1-w5", "target": "der Teilnehmer", "native": "účastník", "note": "Čte se [TAJL-né-ma]; množné číslo: die Teilnehmer", "reviewed": false },
+        { "id": "u22-l1-w6", "target": "die Teilnehmerin", "native": "účastnice", "note": "množné číslo: die Teilnehmerinnen", "reviewed": false },
+        { "id": "u22-l1-w7", "target": "der Anfänger", "native": "začátečník", "note": "Žena: die Anfängerin. Deutsch für Anfänger = němčina pro začátečníky. Množné číslo: die Anfänger", "reviewed": false },
+        { "id": "u22-l1-w8", "target": "die Übung", "native": "cvičení", "note": "množné číslo: die Übungen", "reviewed": false },
+        { "id": "u22-l1-w9", "target": "üben", "native": "cvičit; procvičovat", "note": "ü: řekněte i a rty zaokrouhlete jako na u.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l1-e1", "type": "choice", "question": "der Anfänger", "questionLang": "target", "options": ["začátečník", "účastník", "učitel"], "answer": "začátečník", "reviewed": false },
+        { "id": "u22-l1-e2", "type": "choice", "question": "cvičení", "questionLang": "native", "options": ["die Übung", "der Kurs", "die Anmeldung"], "answer": "die Übung", "reviewed": false },
+        { "id": "u22-l1-e3", "type": "match", "pairs": [
+          { "target": "der Kurs", "native": "kurz" },
+          { "target": "sich anmelden", "native": "přihlásit se" },
+          { "target": "der Teilnehmer", "native": "účastník" },
+          { "target": "die Teilnehmerin", "native": "účastnice" },
+          { "target": "üben", "native": "procvičovat" }
+        ], "reviewed": false },
+        { "id": "u22-l1-e4", "type": "listen", "audio": "Ich melde mich für den Kurs an.", "options": ["Ich melde mich für den Kurs an.", "Ich melde mich morgen für den Kurs an.", "Melden Sie sich für den Kurs an."], "answer": "Ich melde mich für den Kurs an.", "reviewed": false },
+        { "id": "u22-l1-e5", "type": "fill", "sentence": "Wir machen den Kurs, ___ besser Deutsch zu sprechen.", "translation": "Chodíme do kurzu, abychom lépe mluvili německy.", "options": ["um", "damit", "für"], "answer": "um", "explain": "Podmět je stejný (wir) a na konci stojí zu sprechen, proto um … zu.", "reviewed": false },
+        { "id": "u22-l1-e6", "type": "fill", "sentence": "Ich spreche langsam, ___ Sie mich verstehen.", "translation": "Mluvím pomalu, abyste mi rozuměli.", "options": ["damit", "um", "für"], "answer": "damit", "explain": "Podmět je jiný (ich – Sie), proto damit a sloveso na konci.", "reviewed": false },
+        { "id": "u22-l1-e7", "type": "type", "question": "začátečník", "answer": "der Anfänger", "reviewed": false },
+        { "id": "u22-l1-e8", "type": "build", "question": "Musím víc cvičit.", "answer": "Ich muss mehr üben.", "extra": ["zu"], "reviewed": false },
+        { "id": "u22-l1-e9", "type": "listen", "audio": "Der Kurs hat zwölf Teilnehmer.", "options": ["Kurz má dvanáct účastníků.", "Kurz má dvacet účastníků.", "Kurz začíná ve dvanáct."], "answer": "Kurz má dvanáct účastníků.", "reviewed": false },
+        { "id": "u22-l1-e10", "type": "build", "question": "Učíme se německy, abychom rozuměli vnoučatům.", "answer": "Wir lernen Deutsch, um die Enkel zu verstehen.", "accept": ["Um die Enkel zu verstehen, lernen wir Deutsch."], "extra": ["für"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l2",
+      "title": "Škola za starých časů",
+      "titleTarget": "Die Schule früher",
+      "reviewed": false,
+      "tip": {
+        "title": "Vyprávění: lernte, wohnte",
+        "text": "Když Němci vyprávějí nebo píšou o minulosti, používají často préteritum, jednoduchý minulý čas. U pravidelných sloves přidáte ke kmeni -te: lernen → ich lernte, wohnen → ich wohnte. Koncovky: ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten. Tvar pro ich a er je stejný, „er lerntet“ je chyba. Po t a d se vkládá e: arbeiten → er arbeitete. V hovoru se častěji říká perfektum (ich habe gelernt), význam je stejný. Préteritum už znáte u war, hatte a musste.",
+        "examples": [
+          { "target": "Früher wohnten wir in einem Dorf.", "native": "Dříve jsme bydleli na vesnici." },
+          { "target": "In der Schule lernten wir Russisch.", "native": "Ve škole jsme se učili rusky." },
+          { "target": "Mein Vater arbeitete in einer Fabrik.", "native": "Táta pracoval v továrně." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l2-w1", "target": "der Schüler", "native": "žák", "note": "ü: řekněte i se zaokrouhlenými rty; množné číslo: die Schüler", "reviewed": false },
+        { "id": "u22-l2-w2", "target": "die Schülerin", "native": "žákyně", "note": "množné číslo: die Schülerinnen", "reviewed": false },
+        { "id": "u22-l2-w3", "target": "die Klasse", "native": "třída", "note": "Skupina žáků i ročník: in der dritten Klasse = ve třetí třídě. Množné číslo: die Klassen", "reviewed": false },
+        { "id": "u22-l2-w4", "target": "die Note", "native": "známka", "note": "Ve škole známka (v hudbě i nota). Nejlepší je die Eins, jako u nás jednička. Množné číslo: die Noten", "reviewed": false },
+        { "id": "u22-l2-w5", "target": "die Prüfung", "native": "zkouška", "note": "eine Prüfung machen = dělat zkoušku; množné číslo: die Prüfungen", "reviewed": false },
+        { "id": "u22-l2-w6", "target": "bestehen", "native": "složit zkoušku", "note": "die Prüfung bestehen; příčestí: bestanden. Pozor: bestehen aus = skládat se z", "reviewed": false },
+        { "id": "u22-l2-w7", "target": "das Zeugnis", "native": "vysvědčení", "note": "Čte se [COJK-nis]; množné číslo: die Zeugnisse", "reviewed": false },
+        { "id": "u22-l2-w8", "target": "das Fach", "native": "školní předmět", "note": "Mathe ist mein Lieblingsfach. = Matika je můj oblíbený předmět. Množné číslo: die Fächer", "reviewed": false },
+        { "id": "u22-l2-w9", "target": "der Unterricht", "native": "vyučování; výuka", "note": "Jen jednotné číslo. Der Unterricht beginnt um acht.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l2-e1", "type": "choice", "question": "das Zeugnis", "questionLang": "target", "options": ["vysvědčení", "známka", "zkouška"], "answer": "vysvědčení", "reviewed": false },
+        { "id": "u22-l2-e2", "type": "choice", "question": "školní předmět", "questionLang": "native", "options": ["das Fach", "die Klasse", "die Note"], "answer": "das Fach", "reviewed": false },
+        { "id": "u22-l2-e3", "type": "match", "pairs": [
+          { "target": "der Schüler", "native": "žák" },
+          { "target": "die Schülerin", "native": "žákyně" },
+          { "target": "die Klasse", "native": "třída" },
+          { "target": "die Prüfung", "native": "zkouška" },
+          { "target": "der Unterricht", "native": "výuka" }
+        ], "reviewed": false },
+        { "id": "u22-l2-e4", "type": "listen", "audio": "Früher wohnten wir in einem Dorf.", "options": ["Früher wohnten wir in einem Dorf.", "Früher wohnten wir in einer Stadt.", "Heute wohnen wir in einem Dorf."], "answer": "Früher wohnten wir in einem Dorf.", "reviewed": false },
+        { "id": "u22-l2-e5", "type": "fill", "sentence": "Mein Vater ___ als Kind gern Fußball.", "translation": "Táta jako dítě rád hrál fotbal.", "options": ["spielte", "spieltet", "spielten"], "answer": "spielte", "explain": "Tvar pro er je stejný jako pro ich: er spielte, bez koncovky.", "reviewed": false },
+        { "id": "u22-l2-e6", "type": "fill", "sentence": "In der Schule ___ wir Russisch.", "translation": "Ve škole jsme se učili rusky.", "options": ["lernten", "lernte", "lerntet"], "answer": "lernten", "explain": "Pro wir je koncovka -ten: wir lernten.", "reviewed": false },
+        { "id": "u22-l2-e7", "type": "type", "question": "zkouška", "answer": "die Prüfung", "reviewed": false },
+        { "id": "u22-l2-e8", "type": "build", "question": "Babička bydlela v malé vesnici.", "answer": "Meine Großmutter wohnte in einem kleinen Dorf.", "accept": ["In einem kleinen Dorf wohnte meine Großmutter."], "extra": ["wohnten"], "reviewed": false },
+        { "id": "u22-l2-e9", "type": "listen", "audio": "Welche Note hast du in Deutsch?", "options": ["Jakou máš známku z němčiny?", "Jaké máš vysvědčení z němčiny?", "Kdy máš zkoušku z němčiny?"], "answer": "Jakou máš známku z němčiny?", "reviewed": false },
+        { "id": "u22-l2-e10", "type": "build", "question": "Syn udělal zkoušku.", "answer": "Mein Sohn hat die Prüfung bestanden.", "accept": ["Die Prüfung hat mein Sohn bestanden."], "extra": ["bestehen"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l3",
+      "title": "Učíme se celý život",
+      "titleTarget": "Lebenslanges Lernen",
+      "reviewed": false,
+      "tip": {
+        "title": "Nepravidelné préteritum: ging, kam",
+        "text": "Nepravidelná slovesa mají v préteritu nový kmen a nemají -te: gehen → ging, kommen → kam, finden → fand, beginnen → begann, lesen → las, sprechen → sprach. „Gehte“ je proto chyba. Tvar pro ich a er je stejný a nemá koncovku: ich ging, er ging; „er gingt“ je chyba. Pro wir a sie přidáte -en: wir gingen, sie kamen. Tyto tvary se musíte naučit nazpaměť, podobně jako v češtině „jdu – šel“.",
+        "examples": [
+          { "target": "Der Kurs begann im Oktober.", "native": "Kurz začal v říjnu." },
+          { "target": "Sie kam mit sechzig an die Universität.", "native": "Na univerzitu přišla v šedesáti." },
+          { "target": "Wir sprachen nur Deutsch.", "native": "Mluvili jsme jen německy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l3-w1", "target": "die Weiterbildung", "native": "další vzdělávání", "note": "Čte se [VAJ-ta-bil-dung]; množné číslo: die Weiterbildungen", "reviewed": false },
+        { "id": "u22-l3-w2", "target": "die Universität", "native": "univerzita", "note": "Přízvuk na konci: [u-ni-ver-zi-TÉT]; hovorově die Uni; množné číslo: die Universitäten", "reviewed": false },
+        { "id": "u22-l3-w3", "target": "das Studium", "native": "studium", "note": "Čte se [ŠTÚ-dium]; množné číslo: die Studien", "reviewed": false },
+        { "id": "u22-l3-w4", "target": "der Abschluss", "native": "ukončené vzdělání", "note": "Dokončená škola s vysvědčením nebo diplomem: einen Abschluss machen = dokončit školu. Množné číslo: die Abschlüsse", "reviewed": false },
+        { "id": "u22-l3-w5", "target": "das Ziel", "native": "cíl", "note": "ie = í: [cíl]; množné číslo: die Ziele", "reviewed": false },
+        { "id": "u22-l3-w6", "target": "schaffen", "native": "zvládnout", "note": "Das schaffe ich! = To zvládnu! Příčestí: geschafft", "reviewed": false },
+        { "id": "u22-l3-w7", "target": "die Fremdsprache", "native": "cizí jazyk", "note": "množné číslo: die Fremdsprachen", "reviewed": false },
+        { "id": "u22-l3-w8", "target": "das Wörterbuch", "native": "slovník", "note": "ö: řekněte e se zaokrouhlenými rty; množné číslo: die Wörterbücher", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l3-e1", "type": "choice", "question": "das Ziel", "questionLang": "target", "options": ["cíl", "úspěch", "studium"], "answer": "cíl", "reviewed": false },
+        { "id": "u22-l3-e2", "type": "choice", "question": "slovník", "questionLang": "native", "options": ["das Wörterbuch", "die Fremdsprache", "das Studium"], "answer": "das Wörterbuch", "reviewed": false },
+        { "id": "u22-l3-e3", "type": "match", "pairs": [
+          { "target": "die Weiterbildung", "native": "další vzdělávání" },
+          { "target": "die Universität", "native": "univerzita" },
+          { "target": "der Abschluss", "native": "ukončené vzdělání" },
+          { "target": "schaffen", "native": "zvládnout" },
+          { "target": "die Fremdsprache", "native": "cizí jazyk" }
+        ], "reviewed": false },
+        { "id": "u22-l3-e4", "type": "listen", "audio": "Der Kurs begann im Oktober.", "options": ["Der Kurs begann im Oktober.", "Der Kurs beginnt im Oktober.", "Der Kurs begann im November."], "answer": "Der Kurs begann im Oktober.", "reviewed": false },
+        { "id": "u22-l3-e5", "type": "fill", "sentence": "Gestern ___ er zu Fuß zur Arbeit.", "translation": "Včera šel do práce pěšky.", "options": ["ging", "gehte", "gingt"], "answer": "ging", "explain": "gehen je nepravidelné: er ging, bez -te a bez koncovky.", "reviewed": false },
+        { "id": "u22-l3-e6", "type": "fill", "sentence": "Der Großvater ___ jeden Abend.", "translation": "Dědeček každý večer četl.", "options": ["las", "laste", "lasen"], "answer": "las", "explain": "lesen je nepravidelné: er las.", "reviewed": false },
+        { "id": "u22-l3-e7", "type": "type", "question": "cizí jazyk", "answer": "die Fremdsprache", "reviewed": false },
+        { "id": "u22-l3-e8", "type": "build", "question": "Studium začalo v září.", "answer": "Das Studium begann im September.", "accept": ["Im September begann das Studium."], "extra": ["beginnte"], "reviewed": false },
+        { "id": "u22-l3-e9", "type": "listen", "audio": "Meine Mutter fand den Kurs sehr gut.", "options": ["Mamince se kurz moc líbil.", "Maminka našla velmi dobrý kurz.", "Maminka chodila do dobrého kurzu."], "answer": "Mamince se kurz moc líbil.", "reviewed": false },
+        { "id": "u22-l3-e10", "type": "build", "question": "Ve třídě jsme mluvili jen německy.", "answer": "In der Klasse sprachen wir nur Deutsch.", "accept": ["Wir sprachen in der Klasse nur Deutsch."], "extra": ["sprechten"], "reviewed": false }
+      ]
+    }
+  ]
+}

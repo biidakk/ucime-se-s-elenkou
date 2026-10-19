@@ -1,0 +1,141 @@
+{
+  "id": "u22",
+  "level": "B1",
+  "title": "Vzdělávání",
+  "titleTarget": "Educația",
+  "description": "Kurzy a lekce, škola vnoučat a učení v každém věku: časové věty, 2. a 3. pád, să po slovesech.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u22-l1",
+      "title": "Než začne kurz",
+      "titleTarget": "Înainte să înceapă cursul",
+      "reviewed": false,
+      "tip": {
+        "title": "Než, potom co, jakmile",
+        "text": "Po înainte să (než) přijde sloveso ve stejném tvaru jako po vreau să: Înainte să plec, sun acasă. (Než odejdu, zavolám domů.) Ostatní časové spojky mají obyčejný čas jako v češtině: după ce (potom, co), până când (až do chvíle, kdy), în timp ce (zatímco), de îndată ce (jakmile). O budoucnosti se po nich mluví v přítomném čase: De îndată ce vine profesoara, începem. (Jakmile přijde učitelka, začneme.) Să tedy patří jen k înainte.",
+        "examples": [
+          { "target": "Înainte să plec, sun acasă.", "native": "Než odejdu, zavolám domů." },
+          { "target": "După ce mănânc, mă plimb.", "native": "Když se najím, jdu se projít." },
+          { "target": "De îndată ce vine profesoara, începem.", "native": "Jakmile přijde učitelka, začneme." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l1-w1", "target": "un curs", "native": "kurz", "note": "cursul = ten kurz; množné číslo: cursuri. Un curs de limba română = kurz rumunštiny.", "reviewed": false },
+        { "id": "u22-l1-w2", "target": "o lecție", "native": "lekce; vyučovací hodina", "note": "lecția = ta lekce; množné číslo: lecții. Čte se „LEK-ci-e“.", "reviewed": false },
+        { "id": "u22-l1-w3", "target": "un elev", "native": "žák", "note": "elevul = ten žák; množné číslo: elevi. Žák základní nebo střední školy. Čte se „e-LEV“.", "reviewed": false },
+        { "id": "u22-l1-w4", "target": "o elevă", "native": "žákyně", "note": "eleva = ta žákyně; množné číslo: eleve. Čte se „e-LE-vă“.", "reviewed": false },
+        { "id": "u22-l1-w5", "target": "un student", "native": "student", "note": "studentul = ten student; množné číslo: studenți. Jen na vysoké škole; na střední je un elev. Čte se „stu-DENT“.", "reviewed": false },
+        { "id": "u22-l1-w6", "target": "o studentă", "native": "studentka", "note": "studenta = ta studentka; množné číslo: studente. Čte se „stu-DEN-tă“.", "reviewed": false },
+        { "id": "u22-l1-w7", "target": "o temă", "native": "domácí úkol", "note": "tema = ten úkol; množné číslo: teme. Celé: temă pentru acasă. Znamená i téma. Úkol v práci je o sarcină. Čte se „TE-mă“.", "reviewed": false },
+        { "id": "u22-l1-w8", "target": "a învăța", "native": "učit se; naučit se", "note": "eu învăț, tu înveți, el învață. A învăța pe cineva = učit někoho. Čte se „a yn-vă-CA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l1-e1", "type": "choice", "question": "o temă", "questionLang": "target", "options": ["domácí úkol", "lekce; vyučovací hodina", "kurz"], "answer": "domácí úkol", "reviewed": false },
+        { "id": "u22-l1-e2", "type": "choice", "question": "žákyně", "questionLang": "native", "options": ["o elevă", "o studentă", "un elev"], "answer": "o elevă", "reviewed": false },
+        { "id": "u22-l1-e3", "type": "match", "pairs": [
+          { "target": "un curs", "native": "kurz" },
+          { "target": "un elev", "native": "žák" },
+          { "target": "un student", "native": "student" },
+          { "target": "a învăța", "native": "učit se" }
+        ], "reviewed": false },
+        { "id": "u22-l1-e4", "type": "listen", "audio": "Înainte să încep lecția, beau o cafea.", "options": ["Než začnu hodinu, vypiju kávu.", "Po hodině si dám kávu.", "Během hodiny piju kávu."], "answer": "Než začnu hodinu, vypiju kávu.", "reviewed": false },
+        { "id": "u22-l1-e5", "type": "listen", "audio": "După ce fac tema, citesc.", "options": ["După ce fac tema, citesc.", "Înainte să fac tema, citesc.", "În timp ce fac tema, citesc."], "answer": "După ce fac tema, citesc.", "reviewed": false },
+        { "id": "u22-l1-e6", "type": "fill", "sentence": "Înainte ___ plec la curs, beau o cafea.", "translation": "Než odejdu na kurz, vypiju kávu.", "options": ["să", "ce", "de"], "answer": "să", "explain": "Než = înainte să a sloveso jako po vreau să.", "reviewed": false },
+        { "id": "u22-l1-e7", "type": "fill", "sentence": "După ce ___ cursul, mergem la o cafea.", "translation": "Až skončí kurz, půjdeme na kávu.", "options": ["se termină", "să se termine", "se terminat"], "answer": "se termină", "explain": "Po după ce stojí obyčejný čas; să patří jen k înainte.", "reviewed": false },
+        { "id": "u22-l1-e8", "type": "type", "question": "Učím se rumunsky.", "answer": "Învăț românește.", "accept": ["Învăț limba română.", "Învăț română."], "reviewed": false },
+        { "id": "u22-l1-e9", "type": "build", "question": "Zatímco vnučka dělá úkol, vařím.", "answer": "În timp ce nepoata face tema, gătesc.", "extra": ["să"], "accept": ["Gătesc în timp ce nepoata face tema."], "reviewed": false },
+        { "id": "u22-l1-e10", "type": "choice", "question": "Než odejdu, zavolám ti.", "questionLang": "native", "options": ["Înainte să plec, te sun.", "După ce am plecat, te sun.", "În timp ce plec, te sun."], "answer": "Înainte să plec, te sun.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l2",
+      "title": "Škola mých vnoučat",
+      "titleTarget": "Școala nepoților mei",
+      "reviewed": false,
+      "tip": {
+        "title": "2. a 3. pád: -ului, -ei, -lor",
+        "text": "Rumunský 2. a 3. pád mají jeden společný tvar: elevului znamená „žáka“ i „žákovi“. Pád poznáte jen na konci slova, na členu: elevul → elevului, eleva → elevei, școala → școlii, a v množném čísle vždy -lor: cărțile elevilor (knihy žáků). Přídavné jméno ženského rodu přitom vezme tvar jako v množném čísle: profesoara nouă → profesoarei noi. Na otázku Komu? i Čí? je tedy stejné slovo: Trimit un mesaj profesoarei. (Posílám zprávu učitelce.) – cartea profesoarei (kniha učitelky).",
+        "examples": [
+          { "target": "Aici e clasa nepotului meu.", "native": "Tady je třída mého vnuka." },
+          { "target": "Profesoara explică lecția elevilor.", "native": "Učitelka vysvětluje lekci žákům." },
+          { "target": "Am vorbit cu mama elevei.", "native": "Mluvil(a) jsem s maminkou té žákyně." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l2-w1", "target": "o clasă", "native": "třída", "note": "clasa = ta třída; množné číslo: clase. Místnost i ročník: în clasa a treia = ve třetí třídě.", "reviewed": false },
+        { "id": "u22-l2-w2", "target": "un examen", "native": "zkouška", "note": "examenul = ta zkouška; množné číslo: examene (střední rod). A da un examen = skládat zkoušku. Čte se „eg-ZA-men“.", "reviewed": false },
+        { "id": "u22-l2-w3", "target": "o materie", "native": "předmět", "note": "materia = ten předmět; množné číslo: materii. Školní předmět, třeba matematica. Čte se „ma-TE-ri-e“.", "reviewed": false },
+        { "id": "u22-l2-w4", "target": "o diplomă", "native": "diplom", "note": "diploma = ten diplom; množné číslo: diplome. Čte se „di-PLO-mă“.", "reviewed": false },
+        { "id": "u22-l2-w5", "target": "o universitate", "native": "univerzita; vysoká škola", "note": "universitatea = ta univerzita; množné číslo: universități. Čte se „u-ni-ver-si-TA-te“.", "reviewed": false },
+        { "id": "u22-l2-w6", "target": "un liceu", "native": "gymnázium; střední škola", "note": "liceul = to gymnázium; množné číslo: licee. Čte se „li-ČEU“.", "reviewed": false },
+        { "id": "u22-l2-w7", "target": "o bursă", "native": "stipendium", "note": "bursa = to stipendium; množné číslo: burse. Znamená i burza. Čte se „BUR-să“.", "reviewed": false },
+        { "id": "u22-l2-w8", "target": "a absolvi", "native": "vystudovat; dokončit školu", "note": "Skupina -esc: eu absolvesc. A absolvit liceul. = Vychodil(a) gymnázium. Čte se „a ab-sol-VI“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l2-e1", "type": "choice", "question": "o materie", "questionLang": "target", "options": ["předmět", "zkouška", "třída"], "answer": "předmět", "reviewed": false },
+        { "id": "u22-l2-e2", "type": "choice", "question": "stipendium", "questionLang": "native", "options": ["o bursă", "o diplomă", "un examen"], "answer": "o bursă", "reviewed": false },
+        { "id": "u22-l2-e3", "type": "match", "pairs": [
+          { "target": "un liceu", "native": "gymnázium" },
+          { "target": "o universitate", "native": "univerzita" },
+          { "target": "o diplomă", "native": "diplom" },
+          { "target": "a absolvi", "native": "vystudovat" }
+        ], "reviewed": false },
+        { "id": "u22-l2-e4", "type": "listen", "audio": "Aici e școala nepoților mei.", "options": ["Tady je škola mých vnoučat.", "Tady je škola mé vnučky.", "Tady je třída mých vnoučat."], "answer": "Tady je škola mých vnoučat.", "reviewed": false },
+        { "id": "u22-l2-e5", "type": "listen", "audio": "Am dat examenul ieri.", "options": ["Am dat examenul ieri.", "Am un examen mâine.", "Am făcut tema ieri."], "answer": "Am dat examenul ieri.", "reviewed": false },
+        { "id": "u22-l2-e6", "type": "fill", "sentence": "Cărțile ___ sunt pe masă.", "translation": "Knihy žáků jsou na stole.", "options": ["elevilor", "elevii", "elevul"], "answer": "elevilor", "explain": "Čí? v množném čísle = -lor: elevii → elevilor.", "reviewed": false },
+        { "id": "u22-l2-e7", "type": "fill", "sentence": "Trimit un mesaj ___ noi.", "translation": "Posílám zprávu nové učitelce.", "options": ["profesoarei", "profesoara", "profesoarele"], "answer": "profesoarei", "explain": "Komu? = 3. pád: profesoara → profesoarei; i přídavné jméno má tvar noi.", "reviewed": false },
+        { "id": "u22-l2-e8", "type": "type", "question": "Vnuk vystudoval univerzitu.", "answer": "Nepotul a absolvit universitatea.", "accept": ["Nepotul meu a absolvit universitatea.", "Nepotul a absolvit facultatea.", "Nepotul meu a absolvit facultatea.", "Nepotul a terminat facultatea."], "reviewed": false },
+        { "id": "u22-l2-e9", "type": "build", "question": "Učitel mého vnuka je velmi laskavý.", "answer": "Profesorul nepotului meu e foarte amabil.", "extra": ["mea"], "reviewed": false },
+        { "id": "u22-l2-e10", "type": "speak", "text": "Nepoata mea e în clasa a treia.", "native": "Moje vnučka je ve třetí třídě.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l3",
+      "title": "Nikdy není pozdě",
+      "titleTarget": "Niciodată nu e prea târziu",
+      "reviewed": false,
+      "tip": {
+        "title": "Začínám se učit = încep să învăț",
+        "text": "Česky dáváme za sloveso neurčitý tvar: začínám se učit, zkouším mluvit. Rumunsky tu stojí să a sloveso v osobě: Încep să învăț. Încerc să vorbesc. Reușesc să înțeleg. (Daří se mi rozumět.) Jen po a putea (moct) může stát i krátký neurčitý tvar bez să a bez „a“: Pot să vin mâine. = Pot veni mâine. (Můžu přijít zítra.) A pozor: a renunța (vzdát se) chce vždy la: Nu renunț la curs! (Kurz nevzdám!)",
+        "examples": [
+          { "target": "Încep să învăț românește.", "native": "Začínám se učit rumunsky." },
+          { "target": "Reușesc să înțeleg aproape tot.", "native": "Daří se mi rozumět skoro všemu." },
+          { "target": "Pot veni mâine.", "native": "Můžu přijít zítra." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l3-w1", "target": "a încerca", "native": "zkusit; zkoušet", "note": "eu încerc, el încearcă. Încerc să… = Zkouším… Čte se „a yn-čer-KA“.", "reviewed": false },
+        { "id": "u22-l3-w2", "target": "a reuși", "native": "dokázat; podařit se", "note": "Skupina -esc: eu reușesc. Reușesc să… = Daří se mi… Am reușit! = Povedlo se! Čte se „a re-u-ŠI“.", "reviewed": false },
+        { "id": "u22-l3-w3", "target": "a renunța", "native": "vzdát se; přestat", "note": "eu renunț, el renunță; vždy s la: a renunța la cafea = přestat pít kávu. Čte se „a re-nun-CA“.", "reviewed": false },
+        { "id": "u22-l3-w4", "target": "a se înscrie", "native": "přihlásit se; zapsat se", "note": "eu mă înscriu, el se înscrie; m-am înscris la un curs = přihlásil(a) jsem se do kurzu. Čte se „a se yn-SKRI-e“.", "reviewed": false },
+        { "id": "u22-l3-w5", "target": "a exersa", "native": "procvičovat; cvičit", "note": "Skupina -ez: eu exersez. Čte se „a eg-zer-SA“.", "reviewed": false },
+        { "id": "u22-l3-w6", "target": "a repeta", "native": "opakovat", "note": "eu repet, el repetă. Repetați, vă rog! = Zopakujte to, prosím! Čte se „a re-pe-TA“.", "reviewed": false },
+        { "id": "u22-l3-w7", "target": "o greșeală", "native": "chyba", "note": "greșeala = ta chyba; množné číslo: greșeli. Čte se „gre-ŠEA-lă“.", "reviewed": false },
+        { "id": "u22-l3-w8", "target": "un dicționar", "native": "slovník", "note": "dicționarul = ten slovník; množné číslo: dicționare (střední rod). Čte se „dik-ci-o-NAR“.", "reviewed": false },
+        { "id": "u22-l3-w9", "target": "o limbă străină", "native": "cizí jazyk", "note": "limba = ten jazyk; množné číslo: limbi străine. Limba română = rumunština. Čte se „LIM-bă stră-I-nă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l3-e1", "type": "choice", "question": "a renunța", "questionLang": "target", "options": ["vzdát se; přestat", "zkusit; zkoušet", "opakovat"], "answer": "vzdát se; přestat", "reviewed": false },
+        { "id": "u22-l3-e2", "type": "choice", "question": "chyba", "questionLang": "native", "options": ["o greșeală", "o temă", "o lecție"], "answer": "o greșeală", "reviewed": false },
+        { "id": "u22-l3-e3", "type": "match", "pairs": [
+          { "target": "a încerca", "native": "zkusit" },
+          { "target": "a exersa", "native": "procvičovat" },
+          { "target": "a repeta", "native": "opakovat" },
+          { "target": "un dicționar", "native": "slovník" },
+          { "target": "a se înscrie", "native": "přihlásit se" }
+        ], "reviewed": false },
+        { "id": "u22-l3-e4", "type": "listen", "audio": "M-am înscris la un curs de limba română.", "options": ["Přihlásil(a) jsem se do kurzu rumunštiny.", "Vzdal(a) jsem kurz rumunštiny.", "Hledám kurz rumunštiny."], "answer": "Přihlásil(a) jsem se do kurzu rumunštiny.", "reviewed": false },
+        { "id": "u22-l3-e5", "type": "listen", "audio": "Încerc să vorbesc mai mult.", "options": ["Încerc să vorbesc mai mult.", "Încep să vorbesc mai mult.", "Reușesc să vorbesc mai mult."], "answer": "Încerc să vorbesc mai mult.", "reviewed": false },
+        { "id": "u22-l3-e6", "type": "fill", "sentence": "Încep ___ înțeleg românește.", "translation": "Začínám rozumět rumunsky.", "options": ["să", "a", "că"], "answer": "să", "explain": "Po încep (začínám) přijde să a sloveso v osobě: încep să înțeleg.", "reviewed": false },
+        { "id": "u22-l3-e7", "type": "fill", "sentence": "Nu renunț ___ cursul de română.", "translation": "Kurz rumunštiny nevzdám.", "options": ["la", "de", "pe"], "answer": "la", "explain": "A renunța se pojí vždy s la: renunț la curs.", "reviewed": false },
+        { "id": "u22-l3-e8", "type": "type", "question": "Dělám hodně chyb.", "answer": "Fac multe greșeli.", "accept": ["Fac foarte multe greșeli."], "reviewed": false },
+        { "id": "u22-l3-e9", "type": "build", "question": "Zkouším se učit s vnoučaty.", "answer": "Încerc să învăț cu nepoții.", "extra": ["învăța"], "reviewed": false },
+        { "id": "u22-l3-e10", "type": "build", "question": "Můžu přijít zítra.", "answer": "Pot veni mâine.", "extra": ["venit"], "accept": ["Mâine pot veni."], "reviewed": false }
+      ]
+    }
+  ]
+}

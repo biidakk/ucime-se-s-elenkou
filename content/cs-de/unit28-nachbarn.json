@@ -1,0 +1,145 @@
+{
+  "id": "u28",
+  "level": "B1",
+  "title": "Sousedé",
+  "titleTarget": "Nachbarn",
+  "description": "Noví sousedé, hluk a vzájemná pomoc: den Nachbarn, zdvořilé würden a wäre a koncovky přídavných jmen po členu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u28-l1",
+      "title": "Noví sousedé",
+      "titleTarget": "Neue Nachbarn",
+      "reviewed": false,
+      "tip": {
+        "title": "Der Nachbar, den Nachbarn",
+        "text": "Některá podstatná jména mužského rodu dostávají ve všech pádech kromě 1. pádu koncovku -n nebo -en: der Nachbar → den Nachbarn, dem Nachbarn. Stejně se chovají der Herr → den Herrn, der Kollege → den Kollegen, der Kunde → dem Kunden. Česky se koncovka také mění (soused, souseda, se sousedem), takže to znáte. Chyba je „mit dem Nachbar“. Pozor ještě na sich vorstellen: Ich stelle mich vor = představím se, ale Ich stelle mir das vor = představím si to.",
+        "examples": [
+          { "target": "Ich spreche oft mit dem Nachbarn.", "native": "Často mluvím se sousedem." },
+          { "target": "Kennen Sie den Herrn dort?", "native": "Znáte tamtoho pána?" },
+          { "target": "Es klingelt. Das ist bestimmt die Nachbarin.", "native": "Někdo zvoní. To je určitě sousedka." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l1-w1", "target": "der Nachbar", "native": "soused", "note": "Ve 4. a 3. pádě -n: den Nachbarn, dem Nachbarn; množné číslo: die Nachbarn", "reviewed": false },
+        { "id": "u28-l1-w2", "target": "die Nachbarin", "native": "sousedka", "note": "množné číslo: die Nachbarinnen", "reviewed": false },
+        { "id": "u28-l1-w3", "target": "das Treppenhaus", "native": "schodiště", "note": "im Treppenhaus = na schodišti; množné číslo: die Treppenhäuser", "reviewed": false },
+        { "id": "u28-l1-w4", "target": "der Hausmeister", "native": "domovník", "note": "ei = aj: [HAUS-maj-sta]; množné číslo: die Hausmeister", "reviewed": false },
+        { "id": "u28-l1-w5", "target": "die Hausordnung", "native": "domovní řád", "note": "množné číslo: die Hausordnungen", "reviewed": false },
+        { "id": "u28-l1-w6", "target": "klingeln", "native": "zvonit", "note": "Es klingelt. = Někdo zvoní. ng zní jako n ve slově banka, g se zvlášť nečte.", "reviewed": false },
+        { "id": "u28-l1-w7", "target": "grüßen", "native": "zdravit; pozdravit", "note": "Grüßen Sie Ihre Frau! = Pozdravujte manželku! ß = ostré s", "reviewed": false },
+        { "id": "u28-l1-w8", "target": "sich vorstellen", "native": "představit se", "note": "Ich stelle mich vor. = Představím se. Ale: Ich stelle mir das vor. = Představím si to.", "reviewed": false },
+        { "id": "u28-l1-w9", "target": "duzen", "native": "tykat", "note": "Čte se [DÚ-cen]. Vykat = siezen. Wollen wir uns duzen? = Budeme si tykat?", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l1-e1", "type": "choice", "question": "das Treppenhaus", "questionLang": "target", "options": ["schodiště", "domovník", "domovní řád"], "answer": "schodiště", "reviewed": false },
+        { "id": "u28-l1-e2", "type": "choice", "question": "tykat", "questionLang": "native", "options": ["duzen", "grüßen", "klingeln"], "answer": "duzen", "reviewed": false },
+        { "id": "u28-l1-e3", "type": "match", "pairs": [
+          { "target": "der Nachbar", "native": "soused" },
+          { "target": "die Nachbarin", "native": "sousedka" },
+          { "target": "der Hausmeister", "native": "domovník" },
+          { "target": "die Hausordnung", "native": "domovní řád" },
+          { "target": "klingeln", "native": "zvonit" }
+        ], "reviewed": false },
+        { "id": "u28-l1-e4", "type": "listen", "audio": "Ich möchte mich vorstellen.", "options": ["Ich möchte mich vorstellen.", "Ich möchte mich ausruhen.", "Ich möchte mich anziehen."], "answer": "Ich möchte mich vorstellen.", "reviewed": false },
+        { "id": "u28-l1-e5", "type": "fill", "sentence": "Ich spreche oft mit dem ___.", "translation": "Často mluvím se sousedem.", "options": ["Nachbarn", "Nachbar", "Nachbarin"], "answer": "Nachbarn", "explain": "Nachbar má ve 3. pádě koncovku -n: mit dem Nachbarn.", "reviewed": false },
+        { "id": "u28-l1-e6", "type": "fill", "sentence": "Kennst du meinen ___?", "translation": "Znáš mého kolegu?", "options": ["Kollegen", "Kollege", "Kollegin"], "answer": "Kollegen", "explain": "Kollege patří mezi slova s -n: ve 4. pádě meinen Kollegen.", "reviewed": false },
+        { "id": "u28-l1-e7", "type": "type", "question": "domovník", "answer": "der Hausmeister", "reviewed": false },
+        { "id": "u28-l1-e8", "type": "build", "question": "Mluvíme se sousedem.", "answer": "Wir sprechen mit dem Nachbarn.", "accept": ["Mit dem Nachbarn sprechen wir."], "extra": ["Nachbar"], "reviewed": false },
+        { "id": "u28-l1-e9", "type": "listen", "audio": "Unsere Nachbarin grüßt uns immer.", "options": ["Naše sousedka nás vždycky zdraví.", "Naše sousedka nás nikdy nezdraví.", "Naše sousedka u nás často zvoní."], "answer": "Naše sousedka nás vždycky zdraví.", "reviewed": false },
+        { "id": "u28-l1-e10", "type": "build", "question": "Budeme si tykat?", "answer": "Wollen wir uns duzen?", "extra": ["sich"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l2",
+      "title": "Hluk a hádky",
+      "titleTarget": "Lärm und Streit",
+      "reviewed": false,
+      "tip": {
+        "title": "Würden Sie bitte …?",
+        "text": "Rozkaz „Machen Sie die Musik leiser!“ zní v němčině příkře. Se sousedy mluvte raději zdvořile: Würden Sie bitte … a infinitiv na konci? Je to jako české „Mohli byste prosím…?“. Hodí se i věta Es wäre nett, wenn … (Bylo by milé, kdyby…). U sloves sein a haben se würde obvykle nepoužívá: místo „würde sein“ se řekne wäre, místo „würde haben“ hätte. Tedy Es wäre nett. Ich hätte eine Bitte. (Mám jednu prosbu.)",
+        "examples": [
+          { "target": "Würden Sie bitte die Musik leiser machen?", "native": "Mohli byste prosím ztišit hudbu?" },
+          { "target": "Entschuldigung, störe ich?", "native": "Promiňte, neruším?" },
+          { "target": "Bitte nehmen Sie Rücksicht auf die Nachbarn.", "native": "Berte prosím ohled na sousedy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l2-w1", "target": "der Lärm", "native": "hluk", "note": "ä = e: [lerm]; množné číslo se nepoužívá", "reviewed": false },
+        { "id": "u28-l2-w2", "target": "stören", "native": "rušit", "note": "Störe ich? = Neruším? ö: řekněte e a zaokrouhlete rty.", "reviewed": false },
+        { "id": "u28-l2-w3", "target": "der Streit", "native": "hádka; spor", "note": "st = št, ei = aj: [štrajt]; množné číslo se skoro nepoužívá", "reviewed": false },
+        { "id": "u28-l2-w4", "target": "sich streiten", "native": "hádat se", "note": "sich streiten mit = hádat se s; příčestí: gestritten", "reviewed": false },
+        { "id": "u28-l2-w5", "target": "leise", "native": "tichý; potichu", "note": "s mezi samohláskami zní jako z: [LAJ-ze]. Opak: laut", "reviewed": false },
+        { "id": "u28-l2-w6", "target": "die Rücksicht", "native": "ohled", "note": "Rücksicht nehmen auf = brát ohled na; jen jednotné číslo", "reviewed": false },
+        { "id": "u28-l2-w7", "target": "das Haustier", "native": "domácí zvíře", "note": "množné číslo: die Haustiere", "reviewed": false },
+        { "id": "u28-l2-w8", "target": "erlauben", "native": "dovolit; povolit", "note": "Pevná předpona: Das ist nicht erlaubt. = To není dovoleno.", "reviewed": false },
+        { "id": "u28-l2-w9", "target": "verboten", "native": "zakázaný; zakázáno", "note": "v = f: [fer-BÓ-ten]. Das ist verboten. = To je zakázané.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l2-e1", "type": "choice", "question": "der Lärm", "questionLang": "target", "options": ["hluk", "hádka; spor", "ohled"], "answer": "hluk", "reviewed": false },
+        { "id": "u28-l2-e2", "type": "choice", "question": "domácí zvíře", "questionLang": "native", "options": ["das Haustier", "der Streit", "die Rücksicht"], "answer": "das Haustier", "reviewed": false },
+        { "id": "u28-l2-e3", "type": "match", "pairs": [
+          { "target": "stören", "native": "rušit" },
+          { "target": "leise", "native": "tichý" },
+          { "target": "erlauben", "native": "dovolit" },
+          { "target": "verboten", "native": "zakázaný" },
+          { "target": "sich streiten", "native": "hádat se" }
+        ], "reviewed": false },
+        { "id": "u28-l2-e4", "type": "listen", "audio": "Würden Sie bitte die Musik leiser machen?", "options": ["Würden Sie bitte die Musik leiser machen?", "Würden Sie bitte die Musik lauter machen?", "Könnten Sie bitte die Musik leiser machen?"], "answer": "Würden Sie bitte die Musik leiser machen?", "reviewed": false },
+        { "id": "u28-l2-e5", "type": "fill", "sentence": "Es ___ sehr nett von Ihnen.", "translation": "To by od Vás bylo moc milé.", "options": ["wäre", "würde", "hätte"], "answer": "wäre", "explain": "„Bylo by“ je u slovesa sein wäre; würde by potřebovalo infinitiv.", "reviewed": false },
+        { "id": "u28-l2-e6", "type": "fill", "sentence": "___ Sie bitte die Musik leiser machen?", "translation": "Mohli byste prosím ztišit hudbu?", "options": ["Würden", "Würde", "Wären"], "answer": "Würden", "explain": "K Sie patří würden; infinitiv machen stojí na konci.", "reviewed": false },
+        { "id": "u28-l2-e7", "type": "type", "question": "hluk", "answer": "der Lärm", "reviewed": false },
+        { "id": "u28-l2-e8", "type": "build", "question": "Mohli byste prosím mluvit tišeji?", "answer": "Würden Sie bitte leiser sprechen?", "accept": ["Würden Sie leiser sprechen, bitte?"], "extra": ["Würde"], "reviewed": false },
+        { "id": "u28-l2-e9", "type": "listen", "audio": "Haustiere sind im Haus nicht erlaubt.", "options": ["V domě nejsou povolená domácí zvířata.", "V domě jsou povolená domácí zvířata.", "Na schodišti je zakázané kouřit."], "answer": "V domě nejsou povolená domácí zvířata.", "reviewed": false },
+        { "id": "u28-l2-e10", "type": "build", "question": "Sousedé se často hádají.", "answer": "Die Nachbarn streiten sich oft.", "accept": ["Oft streiten sich die Nachbarn."], "extra": ["streitet"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l3",
+      "title": "Pomáháme si",
+      "titleTarget": "Hilfe unter Nachbarn",
+      "reviewed": false,
+      "tip": {
+        "title": "Der nette Nachbar, dem netten Nachbarn",
+        "text": "V jednotném čísle má přídavné jméno po der, die, das koncovku -e: der nette Nachbar, die nette Nachbarin, das neue Haus. Stejně je to ve 4. pádě u die a das. Ve všech ostatních tvarech a v množném čísle je koncovka -en: Ich kenne den netten Nachbarn. Ich helfe dem netten Nachbarn und der netten Nachbarin. Die netten Nachbarn helfen uns. Česky se koncovky mění víc (milý, milého, milému, s milým), němčina má po členu jen dvě: -e a -en.",
+        "examples": [
+          { "target": "Der neue Mieter ist sehr freundlich.", "native": "Nový nájemník je velmi vlídný." },
+          { "target": "Wir helfen der alten Nachbarin.", "native": "Pomáháme staré sousedce." },
+          { "target": "Ich kümmere mich um die Blumen.", "native": "Starám se o květiny." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l3-w1", "target": "gießen", "native": "zalévat", "note": "die Blumen gießen = zalévat květiny; příčestí: gegossen. Čte se [GÍ-sen].", "reviewed": false },
+        { "id": "u28-l3-w2", "target": "der Briefkasten", "native": "poštovní schránka", "note": "množné číslo: die Briefkästen", "reviewed": false },
+        { "id": "u28-l3-w3", "target": "aufpassen", "native": "dávat pozor; hlídat", "note": "aufpassen auf + 4. pád: Ich passe auf die Kinder auf. = Hlídám děti.", "reviewed": false },
+        { "id": "u28-l3-w4", "target": "sich kümmern", "native": "starat se", "note": "sich kümmern um + 4. pád: Ich kümmere mich um den Garten.", "reviewed": false },
+        { "id": "u28-l3-w5", "target": "die Hilfe", "native": "pomoc", "note": "Danke für Ihre Hilfe! = Děkuji za pomoc! Množné číslo se běžně nepoužívá.", "reviewed": false },
+        { "id": "u28-l3-w6", "target": "hilfsbereit", "native": "ochotný", "note": "Čte se [HILFS-be-rajt].", "reviewed": false },
+        { "id": "u28-l3-w7", "target": "freundlich", "native": "vlídný; přátelský", "note": "eu = oj: [FROJNT-lich]", "reviewed": false },
+        { "id": "u28-l3-w8", "target": "nett", "native": "milý", "note": "Das ist nett von Ihnen. = To je od Vás milé.", "reviewed": false },
+        { "id": "u28-l3-w9", "target": "der Mieter", "native": "nájemník", "note": "Žena: die Mieterin. Množné číslo: die Mieter", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l3-e1", "type": "choice", "question": "gießen", "questionLang": "target", "options": ["zalévat", "starat se", "uklízet"], "answer": "zalévat", "reviewed": false },
+        { "id": "u28-l3-e2", "type": "choice", "question": "poštovní schránka", "questionLang": "native", "options": ["der Briefkasten", "der Brief", "der Umschlag"], "answer": "der Briefkasten", "reviewed": false },
+        { "id": "u28-l3-e3", "type": "match", "pairs": [
+          { "target": "die Hilfe", "native": "pomoc" },
+          { "target": "hilfsbereit", "native": "ochotný" },
+          { "target": "freundlich", "native": "vlídný" },
+          { "target": "nett", "native": "milý" },
+          { "target": "der Mieter", "native": "nájemník" }
+        ], "reviewed": false },
+        { "id": "u28-l3-e4", "type": "listen", "audio": "Können Sie bitte meine Blumen gießen?", "options": ["Können Sie bitte meine Blumen gießen?", "Können Sie bitte auf meine Wohnung aufpassen?", "Können Sie bitte meinen Briefkasten leeren?"], "answer": "Können Sie bitte meine Blumen gießen?", "reviewed": false },
+        { "id": "u28-l3-e5", "type": "fill", "sentence": "Der Hausmeister hilft der ___ Nachbarin.", "translation": "Domovník pomáhá staré sousedce.", "options": ["alten", "alte", "alter"], "answer": "alten", "explain": "Ve 3. pádě je po členu vždy -en: der alten Nachbarin.", "reviewed": false },
+        { "id": "u28-l3-e6", "type": "fill", "sentence": "Das ist der ___ Mieter aus dem zweiten Stock.", "translation": "To je ten nový nájemník z druhého patra.", "options": ["neue", "neuen", "neuer"], "answer": "neue", "explain": "V 1. pádě po der je koncovka -e: der neue Mieter.", "reviewed": false },
+        { "id": "u28-l3-e7", "type": "type", "question": "pomoc", "answer": "die Hilfe", "reviewed": false },
+        { "id": "u28-l3-e8", "type": "build", "question": "Děkujeme milému domovníkovi za pomoc.", "answer": "Wir danken dem netten Hausmeister für die Hilfe.", "accept": ["Für die Hilfe danken wir dem netten Hausmeister.", "Dem netten Hausmeister danken wir für die Hilfe."], "extra": ["nette"], "reviewed": false },
+        { "id": "u28-l3-e9", "type": "listen", "audio": "Die Nachbarin passt auf unsere Kinder auf.", "options": ["Sousedka nám hlídá děti.", "Sousedka nám zalévá květiny.", "Sousedka se stará o naši zahradu."], "answer": "Sousedka nám hlídá děti.", "reviewed": false },
+        { "id": "u28-l3-e10", "type": "build", "question": "Kdo se stará o zahradu?", "answer": "Wer kümmert sich um den Garten?", "extra": ["dem"], "reviewed": false }
+      ]
+    }
+  ]
+}

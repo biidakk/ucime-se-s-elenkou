@@ -1,0 +1,144 @@
+{
+  "id": "u29",
+  "level": "B1",
+  "title": "Kultura a akce",
+  "titleTarget": "Culture and events",
+  "description": "Výstavy, festivaly, knihy a filmy: dovětky typu isn't it?, přídavná jména bored a boring, spojky although a however.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u29-l1",
+      "title": "Výstava a festival",
+      "titleTarget": "Exhibitions and festivals",
+      "reviewed": false,
+      "tip": {
+        "title": "Že? = isn't it?",
+        "text": "Česky na konec věty přidáte jen „že?“ nebo „že ne?“. Angličtina místo toho zopakuje sloveso z věty: It's nice, isn't it? You were there, weren't you? Když je věta kladná, dovětek je záporný, a naopak: It isn't far, is it? Tvořit je zatím nemusíte, stačí je poznat. Mluvčí jimi obvykle jen čeká na souhlas, proto odpovězte krátce: Yes, it is.",
+        "examples": [
+          { "target": "It's a nice exhibition, isn't it?", "native": "Je to pěkná výstava, že?" },
+          { "target": "The queue is very long, isn't it?", "native": "Ta fronta je hrozně dlouhá, že?" },
+          { "target": "You went to the festival, didn't you?", "native": "Byli jste na festivalu, že?" },
+          { "target": "The museum isn't open today, is it?", "native": "Muzeum dnes nemá otevřeno, že ne?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l1-w1", "target": "exhibition", "native": "výstava", "note": "Čte se „ek-si-BI-šn“, h se nečte.", "reviewed": false },
+        { "id": "u29-l1-w2", "target": "museum", "native": "muzeum", "note": "Čte se „mju-ZÍ-em“.", "reviewed": false },
+        { "id": "u29-l1-w3", "target": "gallery", "native": "galerie", "note": "Čte se „ge-le-ri“.", "reviewed": false },
+        { "id": "u29-l1-w4", "target": "festival", "native": "festival", "note": "Čte se „fes-ti-vl“.", "reviewed": false },
+        { "id": "u29-l1-w5", "target": "performance", "native": "představení; výkon", "note": "Čte se „pe-FÓ-mens“.", "reviewed": false },
+        { "id": "u29-l1-w6", "target": "audience", "native": "publikum; diváci", "note": "Čte se „ó-di-jens“.", "reviewed": false },
+        { "id": "u29-l1-w7", "target": "stage", "native": "jeviště; pódium", "note": "on stage = na jevišti. Čte se „stejdž“.", "reviewed": false },
+        { "id": "u29-l1-w8", "target": "queue", "native": "fronta", "note": "Čte se „kjú“, stejně jako písmeno Q. Také sloveso: We queued for an hour. = Hodinu jsme stáli ve frontě.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l1-e1", "type": "choice", "question": "audience", "questionLang": "target", "options": ["publikum; diváci", "jeviště; pódium", "představení; výkon"], "answer": "publikum; diváci", "reviewed": false },
+        { "id": "u29-l1-e2", "type": "choice", "question": "fronta", "questionLang": "native", "options": ["queue", "stage", "gallery"], "answer": "queue", "reviewed": false },
+        { "id": "u29-l1-e3", "type": "match", "pairs": [
+          { "target": "exhibition", "native": "výstava" },
+          { "target": "museum", "native": "muzeum" },
+          { "target": "gallery", "native": "galerie" },
+          { "target": "stage", "native": "jeviště" },
+          { "target": "performance", "native": "představení" }
+        ], "reviewed": false },
+        { "id": "u29-l1-e4", "type": "listen", "audio": "The queue is very long, isn't it?", "options": ["The queue is very long, isn't it?", "The queue isn't very long, is it?", "The queue is very long today."], "answer": "The queue is very long, isn't it?", "reviewed": false },
+        { "id": "u29-l1-e5", "type": "listen", "audio": "You went to the festival, didn't you?", "options": ["Byli jste na festivalu, že?", "Půjdete na festival, že?", "Nebyli jste na festivalu?"], "answer": "Byli jste na festivalu, že?", "reviewed": false },
+        { "id": "u29-l1-e6", "type": "fill", "sentence": "It's nice, isn't it? Yes, it ___.", "translation": "Je to pěkné, že? Ano, je.", "options": ["is", "does", "isn't"], "answer": "is", "explain": "Na It's… isn't it? odpovíte krátce stejným slovesem: Yes, it is.", "reviewed": false },
+        { "id": "u29-l1-e7", "type": "fill", "sentence": "The museum ___ open on Mondays.", "translation": "Muzeum v pondělí nemá otevřeno.", "options": ["isn't", "not", "don't"], "answer": "isn't", "explain": "Open je tu přídavné jméno, proto zápor se slovesem be: isn't open.", "reviewed": false },
+        { "id": "u29-l1-e8", "type": "type", "question": "Výstava je v muzeu.", "answer": "The exhibition is in the museum.", "accept": ["The exhibition is at the museum."], "reviewed": false },
+        { "id": "u29-l1-e9", "type": "build", "question": "Publiku se představení moc líbilo.", "answer": "The audience loved the performance.", "extra": ["were"], "reviewed": false },
+        { "id": "u29-l1-e10", "type": "speak", "text": "It's a nice day, isn't it?", "native": "Je pěkný den, že?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l2",
+      "title": "Jaké to bylo?",
+      "titleTarget": "What was it like?",
+      "reviewed": false,
+      "tip": {
+        "title": "Bored, nebo boring?",
+        "text": "Přídavné jméno na -ing popisuje věc nebo člověka, který pocit vyvolává: The film was boring. (Film byl nudný.) Přídavné jméno na -ed popisuje, jak se cítí člověk: We were bored. (Nudili jsme se.) Když se nudíte, neříkejte I'm boring. Znamená to, že nudní jste vy! Stejně je to u dalších dvojic: exciting (napínavý) a excited (nadšený), disappointing a disappointed (zklamaný).",
+        "examples": [
+          { "target": "The film was boring.", "native": "Ten film byl nudný." },
+          { "target": "We were bored.", "native": "Nudili jsme se." },
+          { "target": "The concert was amazing.", "native": "Koncert byl úžasný." },
+          { "target": "The children are very excited about Christmas.", "native": "Děti se moc těší na Vánoce." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l2-w1", "target": "boring", "native": "nudný", "note": "Čte se „bó-ring“.", "reviewed": false },
+        { "id": "u29-l2-w2", "target": "bored", "native": "znuděný", "note": "I'm bored. = Nudím se. Čte se „bód“.", "reviewed": false },
+        { "id": "u29-l2-w3", "target": "exciting", "native": "napínavý; vzrušující", "note": "Čte se „ik-SAJ-ting“.", "reviewed": false },
+        { "id": "u29-l2-w4", "target": "excited", "native": "nadšený; natěšený", "note": "I'm excited about the holiday. = Těším se na dovolenou. Čte se „ik-SAJ-tid“.", "reviewed": false },
+        { "id": "u29-l2-w5", "target": "disappointing", "native": "nepovedený; neuspokojivý", "note": "The film was disappointing. = Film byl zklamáním. Čte se „di-se-POJN-ting“.", "reviewed": false },
+        { "id": "u29-l2-w6", "target": "disappointed", "native": "zklamaný", "note": "I'm disappointed. = Jsem zklamaný; jsem zklamaná. Čte se „di-se-POJN-tid“.", "reviewed": false },
+        { "id": "u29-l2-w7", "target": "amazing", "native": "úžasný", "note": "Čte se „e-MEJ-zing“.", "reviewed": false },
+        { "id": "u29-l2-w8", "target": "surprised", "native": "překvapený", "note": "surprising = překvapivý. Čte se „se-PRAJZD“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l2-e1", "type": "choice", "question": "bored", "questionLang": "target", "options": ["znuděný", "nudný", "překvapený"], "answer": "znuděný", "reviewed": false },
+        { "id": "u29-l2-e2", "type": "choice", "question": "úžasný", "questionLang": "native", "options": ["amazing", "surprised", "excited"], "answer": "amazing", "reviewed": false },
+        { "id": "u29-l2-e3", "type": "match", "pairs": [
+          { "target": "boring", "native": "nudný" },
+          { "target": "exciting", "native": "napínavý" },
+          { "target": "excited", "native": "nadšený" },
+          { "target": "disappointed", "native": "zklamaný" },
+          { "target": "surprised", "native": "překvapený" }
+        ], "reviewed": false },
+        { "id": "u29-l2-e4", "type": "listen", "audio": "The film was very boring.", "options": ["The film was very boring.", "We were very bored.", "The film was very exciting."], "answer": "The film was very boring.", "reviewed": false },
+        { "id": "u29-l2-e5", "type": "listen", "audio": "We were very surprised.", "options": ["Byli jsme velmi překvapení.", "Bylo to velmi překvapivé.", "Byli jsme velmi zklamaní."], "answer": "Byli jsme velmi překvapení.", "reviewed": false },
+        { "id": "u29-l2-e6", "type": "fill", "sentence": "The book was ___.", "translation": "Ta kniha byla nudná.", "options": ["boring", "bored", "bore"], "answer": "boring", "explain": "Kniha pocit vyvolává, sama se nenudí: boring.", "reviewed": false },
+        { "id": "u29-l2-e7", "type": "fill", "sentence": "I'm very ___ about the holiday.", "translation": "Na dovolenou se moc těším.", "options": ["excited", "exciting", "excite"], "answer": "excited", "explain": "Jak se cítí člověk: přídavné jméno na -ed.", "reviewed": false },
+        { "id": "u29-l2-e8", "type": "fill", "sentence": "We were ___ with the hotel.", "translation": "Hotel nás zklamal.", "options": ["disappointed", "disappointing", "disappoint"], "answer": "disappointed", "explain": "Jak jsme se cítili my: disappointed.", "reviewed": false },
+        { "id": "u29-l2-e9", "type": "type", "question": "Ten koncert byl úžasný!", "answer": "The concert was amazing!", "accept": ["That concert was amazing!"], "reviewed": false },
+        { "id": "u29-l2-e10", "type": "build", "question": "Děti se na koncert moc těší.", "answer": "The children are very excited about the concert.", "extra": ["exciting"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l3",
+      "title": "Kniha a film",
+      "titleTarget": "Books and films",
+      "reviewed": false,
+      "tip": {
+        "title": "Although, nebo however?",
+        "text": "Although znamená „i když, přestože“ a spojuje dvě části jedné věty: Although the film was long, it wasn't boring. However znamená „avšak, nicméně“. Obvykle začíná novou větu a píše se za ním čárka: The book was great. However, the ending was disappointing. Pozor na falešného přítele: novel je román, ne novela. Českou novelu Britové nazvou novella nebo short novel.",
+        "examples": [
+          { "target": "Although the film was long, it wasn't boring.", "native": "I když byl film dlouhý, nebyl nudný." },
+          { "target": "The story was good. However, the ending was disappointing.", "native": "Příběh byl dobrý. Konec byl ale zklamáním." },
+          { "target": "Have you read her new novel?", "native": "Četli jste její nový román?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l3-w1", "target": "novel", "native": "román", "note": "Pozor: česká novela není novel. Čte se „no-vl“.", "reviewed": false },
+        { "id": "u29-l3-w2", "target": "author", "native": "autor; autorka", "note": "Čte se „ó-tha“, th jako ve slově three.", "reviewed": false },
+        { "id": "u29-l3-w3", "target": "character", "native": "postava; povaha", "note": "ch se čte jako k: „ke-rek-ta“.", "reviewed": false },
+        { "id": "u29-l3-w4", "target": "review", "native": "recenze; kritika", "note": "Čte se „ri-VJÚ“.", "reviewed": false },
+        { "id": "u29-l3-w5", "target": "although", "native": "i když; přestože", "note": "gh se nečte, th jako ve slově the: „ól-DOU“.", "reviewed": false },
+        { "id": "u29-l3-w6", "target": "however", "native": "avšak; nicméně", "note": "Za ním čárka: However, … Čte se „hau-E-va“.", "reviewed": false },
+        { "id": "u29-l3-w7", "target": "story", "native": "příběh", "note": "a short story = povídka.", "reviewed": false },
+        { "id": "u29-l3-w8", "target": "ending", "native": "konec; závěr", "note": "Konec knihy nebo filmu. a happy ending = šťastný konec.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l3-e1", "type": "choice", "question": "novel", "questionLang": "target", "options": ["román", "novela", "povídka"], "answer": "román", "reviewed": false },
+        { "id": "u29-l3-e2", "type": "choice", "question": "recenze; kritika", "questionLang": "native", "options": ["review", "character", "author"], "answer": "review", "reviewed": false },
+        { "id": "u29-l3-e3", "type": "match", "pairs": [
+          { "target": "author", "native": "autor" },
+          { "target": "character", "native": "postava" },
+          { "target": "story", "native": "příběh" },
+          { "target": "ending", "native": "konec" },
+          { "target": "novel", "native": "román" }
+        ], "reviewed": false },
+        { "id": "u29-l3-e4", "type": "listen", "audio": "Have you read her new novel?", "options": ["Have you read her new novel?", "Have you read his new novel?", "Have you read her new story?"], "answer": "Have you read her new novel?", "reviewed": false },
+        { "id": "u29-l3-e5", "type": "listen", "audio": "The review was very good.", "options": ["Recenze byla velmi dobrá.", "Konec byl velmi dobrý.", "Román byl velmi dobrý."], "answer": "Recenze byla velmi dobrá.", "reviewed": false },
+        { "id": "u29-l3-e6", "type": "fill", "sentence": "___ it was raining, we went to the festival.", "translation": "I když pršelo, šli jsme na festival.", "options": ["Although", "However", "But"], "answer": "Although", "explain": "Dvě části jedné věty spojí although.", "reviewed": false },
+        { "id": "u29-l3-e7", "type": "fill", "sentence": "The story was good. ___, the ending was disappointing.", "translation": "Příběh byl dobrý. Konec byl ale zklamáním.", "options": ["However", "Although", "Because"], "answer": "However", "explain": "Na začátku nové věty a s čárkou stojí however.", "reviewed": false },
+        { "id": "u29-l3-e8", "type": "type", "question": "Kdo je autor?", "answer": "Who is the author?", "reviewed": false },
+        { "id": "u29-l3-e9", "type": "build", "question": "I když byla kniha dlouhá, nebyla nudná.", "answer": "Although the book was long, it wasn't boring.", "extra": ["bored"], "reviewed": false },
+        { "id": "u29-l3-e10", "type": "speak", "text": "The ending was amazing.", "native": "Konec byl úžasný.", "reviewed": false }
+      ]
+    }
+  ]
+}

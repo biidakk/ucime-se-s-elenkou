@@ -130,3 +130,82 @@ Points the content authors were unsure about. Check them together with `CONTENT_
 - Still check with the voice: two listen items with digit options (u17-l2-e4 1958, u19-l1-e9 0648); auto-generated
   listening quiz can still play „das Tablet“ with „podnos“ as an option (vowels differ too, [ˈtɛblət] / [taˈblɛt]).
 - Wording kept (natural, please confirm): "Das kostet zwei Euro Gebühr.", "Wie ist das Passwort?", "Bezahlen Sie bar oder mit Karte?".
+
+### cs-ro units 25–27 (B1)
+- Resolved in strict review: u27-l3-e6 options now mă / eu / mine (no „Ajutați-mi“); „Am pierdut legătura spre Cluj“
+  (u27-l1-e10, unambiguous); hints checked (loterie/chirie now „-RI-e“ like baterie); „vyhrál(a)“ in sentences kept as in A2.
+- u26-l3-e6/e7 se vs își fills keep only 2 options (îi/le/ne would be grammatical; „să“ is a common native misspelling of se).
+- „la urgență“ (colloquial) vs „la Urgențe“; „salvarea“ only in a note and an accept.
+- Meanings to confirm: întreținere „poplatky za byt“, un bloc „panelák; činžovní dům“, o centrală „kotel“, la sută „procento; procent“.
+- Untaught (glossed in notes/tips): a locui, parter, din cauza, amânat, hotel, Viena, totul.
+
+### cs-ro units 28–30 (B1)
+- Resolved in strict review: hints match IPA (râu [rɨw] „ryu“, deal, zmeu, știut, în schimb); „Vara trecută a fost o secetă mare“;
+  u30-l2-e6 distractor „Femei“ (common native misspelling) → „Femeile“; un dar now „dar“ (un cadou = dárek in U20),
+  un târg „jarmark; trhy“ (o piață = trh in U5); zmeu note says folk monster ≈ drak. Open points:
+- Past conditional cards: Aș fi vrut „byl bych chtěl; byla bych chtěla“, Dacă aș fi știut „kdybych to věděl; kdybych to věděla“.
+- Kept, please confirm: „Pe întâi martie se obișnuiește să se dea mărțișoare“ (se dăruiesc?), „Împăratul făcu o petrecere“ (ospăț?),
+  „Nașii au făcut un dar frumos“, o colindă (un colind accepted).
+
+### cs-en units 25–27 (B1)
+- Strict review done (hints checked against British IPA; u26-l2 title now „Kdybychom vyhráli…“; flight „let; letecký spoj“,
+  no longer the same as years old „let“; u27-l2-e9 answer now "She said she was tired." so no tile can be left out). Open points:
+- "If I were you" only as a card („na vašem místě“), tip, choice and type; "If I was you" not accepted.
+- Build answers can't accept a shorter sentence (checker: same tiles only): u25-l1-e9 without "already" is marked wrong.
+- Meanings to confirm: on time „načas; podle plánu“ (vs in time „včas“), gate „východ k letadlu“, wonder „uvažovat; být zvědavý“.
+
+### cs-en units 28–30 (B1)
+- Strict review done: wrong options replaced where natives do say them — "mustn't" → "doesn't" (u28-l1-e6; AmE "must not"
+  for deduction), "will maybe" → "might to" (u30-l2-e6; "It'll maybe rain" is normal in Scotland), "would use" → "using"/"uses"
+  (u30-l3-e6). "The book was bored" / "it wasn't bored" kept (wrong for every native). Meanings made distinct: turn down
+  „ztlumit; zeslabit“ (download = stáhnout), reduce „snížit; zmenšit“ (cut down on = omezit), might „mohlo by; možná by“
+  (maybe = možná). Hints checked against British IPA. Open points:
+- "might" used in u28-l1 (tip explains it) before it is a card in u30-l2.
+- Meanings to confirm: disappointing „nepovedený; neuspokojivý“, leak „únik vody; téct“, smell „vonět; páchnout“.
+
+### cs-de units 25–27 (B1)
+- Strict review done. Resolved: als/wenn fills u26-l1-e5/e6 are unambiguous (one past event / present); „Morgen wird es heiß.“
+  (was „heiß sein“); „In der Rechnung“ kept (auf also normal); „Kann das umgetauscht werden?“, „Das Papier wird am Montag
+  gesammelt“ kept (natural); Anzeige note now adds „úředně Anzeige erstatten“; leihen note adds „sich etwas leihen = půjčit si“;
+  Genitiv lines now „Náklady na opravu/pojištění jsou vysoké“. Open points:
+- Meanings: die Anzeige „trestní oznámení“, ausfallen „nekonat se; vypadnout“, der Beitrag „příspěvek; pojistné“, die Beratung „poradenství“, zuständig „příslušný; odpovědný“, die Werkstatt „autoservis; dílna“, die Erde „Země; půda“.
+- Used before taught: der Regen, zu spät, meines Sohnes, die gelbe Tonne, Wien.
+- Hints: Papier „pa-PÍR“, Beschwerde „be-ŠVÉR-de“, funktionieren „funk-cjo-NÍ-ren“, zuständig „CÚ-šten-dich“, Überweisung „ü-ba-VAJ-zung“.
+
+### cs-en units 21–24 (B1)
+- Strict review of B1 (units 21–30) done; SYLLABUS.md B1 titles and word lists now match the unit files. Resolved:
+  make a decision „přijmout rozhodnutí“, give up „přestat s; vzdát se“ (distinct from stop), u22-l3 tip wording,
+  u23 accepts ("She quickly got over it.", "That's a bad habit."). Open points:
+- "didn't used to" treated as wrong (u21-l1-e7); "do an exam" / "sit an exam" not taught (only take an exam).
+- Build distractor "very" kept (He's very tired to walk, u23-l1-e9) — "much" would build the correct "much too tired".
+- "My sister is in the hospital." accepted besides the British "in hospital" (u23-l3-e8).
+
+### cs-de units 28–30 (B1)
+- Strict review done. Resolved: „mit dem Nachbar“ kept as extra tile/wrong option (non-standard, it is the lesson's point);
+  u28-l2 tip now „würde se obvykle nepoužívá“; Silvester note „an Silvester nebo zu Silvester“; recht/Recht haben both correct
+  (build tiles compare case-insensitively); „ztišit hudbu“ (was „dát hudbu tišeji“); Jahrhundert „jár-HUN-dat“, andererseits
+  „AN-de-ra-zajc“ (vocalised r = „a“ as in A1/A2). Open points:
+- Meanings: einverstanden „souhlasím; platí“ vs zustimmen „souhlasit“, dafür „pro“, dagegen „proti“, der Fasching „masopust; karneval“, die Führung „prohlídka s průvodcem“, sich vorstellen „představit se“, träumen „snít; mít sen“.
+- Variants: an/zu Silvester, recht/Recht haben, auf der Burg.
+- Hints still to listen to: Hausmeister „HAUS-maj-sta“, einverstanden „AJN-fer-štan-den“, Theater „te-Á-ta“, Kostüm, Silvester „zil-VES-ta“, Schauspieler „ŠAU-špí-la“.
+- Untaught: bestimmt, leeren, danken, Applaus, recht, stimmt, anders, wirklich, immer.
+
+### cs-ro units 21–24 (B1)
+- Strict review of B1 (units 21–30) done; SYLLABUS.md B1 titles and word lists match the unit files. Resolved: hints checked
+  against IPA (CV now „če-VE“, ziar, experiență, fiecare, tensiune, a demisiona, e-mail OK); clitic spellings mi-l, ți-o, i-l,
+  Ți l-am trimis, Trimite-mi-o!, Nu mi-o trimite! correct; u22-l2-e8 now also accepts „facultatea“. Open points:
+- un CV is read aloud as letters („če-ve“); corporate speech also says „si-vi“ — fine with the voice?
+- Colloquial but kept: „Care e parola de la internet?“ (= Wi-Fi password). Uncountables bare: experiență, carne, pește, sare, mișcare, tensiune, internet.
+- Glosses to confirm: ar trebui să „měl byste; měla byste“, o știre „zpráva v médiích; novinka“, o tabletă „tablet“.
+
+### cs-de units 21–24 (B1)
+- Strict review of B1 (units 21–30) done; SYLLABUS.md B1 titles and word lists match the unit files. Resolved: odd accepted
+  orders removed („Deutsch zu lernen, habe ich vor.“, „Noch warte ich auf den Vertrag.“, „Mehr muss ich üben.“, „Deutsch lernen
+  wir, um …“); kept as natural: „Der Krimi ist gut, der heute läuft.“, „Schnell, rufen Sie einen Krankenwagen!“; u23-l3 tip
+  example „kouřil(a)“ replaced by „Der Arzt sagt, Sie sollen weniger essen.“; „Das Passwort ist privat“ → „Das Foto ist privat“;
+  u24-l2-e8 shortened to 8 words; Untersuchung hint „un-ta-ZÚ-chung“; die Note note already mentions the musical note. Open points:
+- sich bewerben: für/auf not used as wrong options (both common); "auf was" not used as a wrong option.
+- Glosses: die Volkshochschule „vzdělávací centrum pro dospělé“, der Abschluss „ukončené vzdělání“, der Notfall „naléhavý případ“, bestehen „složit zkoušku“, die Ausbildung „vyučení; odborné vzdělání“, der Bericht „reportáž; zpráva“, online „na internetu; online“.
+- Hints keep the prefixes ver-/er-/zer- as „fer-/er-/cer-“ (as A2 „fer-KOJ-fa“), e.g. zuverlässig „CÚ-fer-le-sich“, zerstören „cer-ŠTÖ-ren“.
+- „die Webseite, auf der das steht“ = „stránka, na které to stojí“ (bookish but correct Czech) — OK?
+- Untaught: lernen (never a card in 1–20!), das Thema, Fußball, Russisch, weniger, Deutschkenntnisse.

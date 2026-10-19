@@ -1,0 +1,139 @@
+{
+  "id": "u21",
+  "level": "B1",
+  "title": "Kariéra",
+  "titleTarget": "Cariera",
+  "description": "Hledání práce, kolegové a úkoly, co řekl šéf: ca să, vztažná zájmena a nepřímá řeč.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u21-l1",
+      "title": "Hledám práci",
+      "titleTarget": "Caut un loc de muncă",
+      "reviewed": false,
+      "tip": {
+        "title": "Abych = ca să",
+        "text": "Účel („abych, aby“) se rumunsky řekne ca să a za ním sloveso ve stejném tvaru jako po vreau să: Caut un loc de muncă aici ca să rămân în România. Samotné ca să se nemění, osobu ukazuje sloveso: ca să rămân (abych zůstal(a)), ca să rămâi (abys zůstal(a)), ca să rămânem (abychom zůstali). Pozor, nepleťte si ca să (aby) a că (že): Spune că are un interviu. = Říká, že má pohovor.",
+        "examples": [
+          { "target": "Caut un loc de muncă aici ca să rămân în România.", "native": "Hledám tady práci, abych zůstal(a) v Rumunsku." },
+          { "target": "Am sunat ca să vorbesc cu șeful.", "native": "Volal(a) jsem, abych mluvil(a) se šéfem." },
+          { "target": "Spune că are un interviu mâine.", "native": "Říká, že má zítra pohovor." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l1-w1", "target": "un loc de muncă", "native": "pracovní místo", "note": "locul de muncă = to pracovní místo; množné číslo: locuri de muncă. Hovorově také de lucru: Caut de lucru. = Hledám práci. Čte se „lok de MUN-kă“.", "reviewed": false },
+        { "id": "u21-l1-w2", "target": "un anunț", "native": "inzerát; oznámení", "note": "anunțul = ten inzerát; množné číslo: anunțuri. Čte se „a-NUNC“.", "reviewed": false },
+        { "id": "u21-l1-w3", "target": "un CV", "native": "životopis", "note": "CV-ul = ten životopis; množné číslo: CV-uri. Rumunsky se čte jako dvě písmena: „če-VE“; ve firmách občas i anglicky „si-VI“.", "reviewed": false },
+        { "id": "u21-l1-w4", "target": "un interviu", "native": "pohovor", "note": "interviul = ten pohovor; množné číslo: interviuri. Znamená i rozhovor v novinách. Čte se „in-ter-VJU“.", "reviewed": false },
+        { "id": "u21-l1-w5", "target": "experiență", "native": "zkušenost; praxe", "note": "experiența = ta zkušenost. Ve smyslu praxe bez „o“: Am experiență. = Mám praxi. Čte se „eks-pe-ri-EN-că“.", "reviewed": false },
+        { "id": "u21-l1-w6", "target": "a căuta", "native": "hledat", "note": "eu caut, tu cauți, el caută; am căutat. Čte se „a kă-u-TA“.", "reviewed": false },
+        { "id": "u21-l1-w7", "target": "a angaja", "native": "zaměstnat; přijmout do práce", "note": "Skupina -ez: eu angajez, el angajează. M-au angajat. = Vzali mě do práce. Čte se „a an-ga-ŽA“.", "reviewed": false },
+        { "id": "u21-l1-w8", "target": "un contract", "native": "smlouva", "note": "contractul = ta smlouva; množné číslo: contracte (střední rod). Čte se „kon-TRAKT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l1-e1", "type": "choice", "question": "un anunț", "questionLang": "target", "options": ["inzerát; oznámení", "pohovor", "smlouva"], "answer": "inzerát; oznámení", "reviewed": false },
+        { "id": "u21-l1-e2", "type": "choice", "question": "pohovor", "questionLang": "native", "options": ["un interviu", "un contract", "un anunț"], "answer": "un interviu", "reviewed": false },
+        { "id": "u21-l1-e3", "type": "match", "pairs": [
+          { "target": "un loc de muncă", "native": "pracovní místo" },
+          { "target": "a căuta", "native": "hledat" },
+          { "target": "a angaja", "native": "zaměstnat" },
+          { "target": "un CV", "native": "životopis" }
+        ], "reviewed": false },
+        { "id": "u21-l1-e4", "type": "listen", "audio": "Mâine am un interviu la o firmă.", "options": ["Zítra mám pohovor ve firmě.", "Včera jsem měl(a) pohovor ve firmě.", "Zítra podepíšu smlouvu ve firmě."], "answer": "Zítra mám pohovor ve firmě.", "reviewed": false },
+        { "id": "u21-l1-e5", "type": "listen", "audio": "Caut un loc de muncă.", "options": ["Caut un loc de muncă.", "Am un loc de muncă.", "Caut un apartament."], "answer": "Caut un loc de muncă.", "reviewed": false },
+        { "id": "u21-l1-e6", "type": "fill", "sentence": "Caut un loc de muncă aici ___ să rămân în România.", "translation": "Hledám tady práci, abych zůstal(a) v Rumunsku.", "options": ["ca", "că", "dacă"], "answer": "ca", "explain": "Účel (aby) = ca să; că znamená „že“ a dacă „jestli“.", "reviewed": false },
+        { "id": "u21-l1-e7", "type": "fill", "sentence": "Firma vrea să mă ___.", "translation": "Firma mě chce zaměstnat.", "options": ["angajeze", "angaja", "angajat"], "answer": "angajeze", "explain": "Po să má on/ona (tady firma) tvar na -e: să angajeze, podobně jako o să meargă.", "reviewed": false },
+        { "id": "u21-l1-e8", "type": "type", "question": "Hledám práci.", "answer": "Caut un loc de muncă.", "accept": ["Caut de lucru.", "Caut o slujbă.", "Caut serviciu.", "Caut de muncă.", "Caut un job."], "reviewed": false },
+        { "id": "u21-l1-e9", "type": "build", "question": "Volám do firmy, abych mluvil(a) se šéfem.", "answer": "Sun la firmă ca să vorbesc cu șeful.", "extra": ["vorbi"], "reviewed": false },
+        { "id": "u21-l1-e10", "type": "speak", "text": "Am experiență și caut un loc de muncă.", "native": "Mám praxi a hledám práci.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l2",
+      "title": "Kolega, kterému věřím",
+      "titleTarget": "Colegul în care am încredere",
+      "reviewed": false,
+      "tip": {
+        "title": "Který, kterého, kterému",
+        "text": "Care (který, která, které) se nemění: colegul care lucrează aici = kolega, který tu pracuje. Ve 4. pádě (kterého) se před něj dává pe a ke slovesu ještě zájmeno: clientul pe care îl văd azi = klient, kterého dnes uvidím. Ve 3. pádě (kterému) je căruia, u ženského rodu căreia, v množném čísle cărora. Řídí se slovem před sebou, jako česky kterému, které, kterým. I tady se přidá zájmeno: colegul căruia îi spun tot = kolega, kterému říkám všechno.",
+        "examples": [
+          { "target": "Colegul care lucrează aici e foarte amabil.", "native": "Kolega, který tu pracuje, je velmi laskavý." },
+          { "target": "Clientul pe care îl văd azi e nou.", "native": "Klient, kterého dnes uvidím, je nový." },
+          { "target": "Colega căreia îi trimit mesajul e în concediu.", "native": "Kolegyně, které posílám zprávu, je na dovolené." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l2-w1", "target": "un angajat", "native": "zaměstnanec", "note": "angajatul = ten zaměstnanec; množné číslo: angajați. Čte se „an-ga-ŽAT“.", "reviewed": false },
+        { "id": "u21-l2-w2", "target": "o angajată", "native": "zaměstnankyně", "note": "angajata = ta zaměstnankyně; množné číslo: angajate. Čte se „an-ga-ŽA-tă“.", "reviewed": false },
+        { "id": "u21-l2-w3", "target": "un client", "native": "zákazník; klient", "note": "clientul = ten zákazník; množné číslo: clienți. Ženský rod: o clientă. Čte se „kli-JENT“.", "reviewed": false },
+        { "id": "u21-l2-w4", "target": "o sarcină", "native": "úkol", "note": "sarcina = ten úkol; množné číslo: sarcini. Pozor: znamená i těhotenství. Čte se „SAR-či-nă“.", "reviewed": false },
+        { "id": "u21-l2-w5", "target": "o responsabilitate", "native": "odpovědnost", "note": "responsabilitatea = ta odpovědnost; množné číslo: responsabilități. Čte se „res-pon-sa-bi-li-TA-te“.", "reviewed": false },
+        { "id": "u21-l2-w6", "target": "a se ocupa de", "native": "starat se o; mít na starosti", "note": "eu mă ocup de, tu te ocupi de, el se ocupă de. Mă ocup de clienți. = Mám na starosti zákazníky. Čte se „a se o-ku-PA de“.", "reviewed": false },
+        { "id": "u21-l2-w7", "target": "cu normă întreagă", "native": "na plný úvazek", "note": "normă = úvazek. Na poloviční úvazek: cu jumătate de normă. Čte se „ku NOR-mă yn-TREA-gă“.", "reviewed": false },
+        { "id": "u21-l2-w8", "target": "ore suplimentare", "native": "přesčasy", "note": "o oră suplimentară = hodina přesčasu. A face ore suplimentare = dělat přesčasy. Čte se „O-re su-pli-men-TA-re“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l2-e1", "type": "choice", "question": "o sarcină", "questionLang": "target", "options": ["úkol", "odpovědnost", "přesčasy"], "answer": "úkol", "reviewed": false },
+        { "id": "u21-l2-e2", "type": "choice", "question": "na plný úvazek", "questionLang": "native", "options": ["cu normă întreagă", "ore suplimentare", "o responsabilitate"], "answer": "cu normă întreagă", "reviewed": false },
+        { "id": "u21-l2-e3", "type": "match", "pairs": [
+          { "target": "un angajat", "native": "zaměstnanec" },
+          { "target": "o angajată", "native": "zaměstnankyně" },
+          { "target": "un client", "native": "zákazník" },
+          { "target": "a se ocupa de", "native": "starat se o" }
+        ], "reviewed": false },
+        { "id": "u21-l2-e4", "type": "listen", "audio": "Colegul care lucrează aici e foarte amabil.", "options": ["Kolega, který tu pracuje, je velmi laskavý.", "Kolega, kterému volám, je velmi laskavý.", "Kolegyně, která tu pracuje, je velmi laskavá."], "answer": "Kolega, který tu pracuje, je velmi laskavý.", "reviewed": false },
+        { "id": "u21-l2-e5", "type": "listen", "audio": "Lucrez cu normă întreagă.", "options": ["Lucrez cu normă întreagă.", "Lucrez ore suplimentare.", "Lucrez de acasă."], "answer": "Lucrez cu normă întreagă.", "reviewed": false },
+        { "id": "u21-l2-e6", "type": "fill", "sentence": "Clientul pe ___ îl văd azi e nou.", "translation": "Klient, kterého dnes uvidím, je nový.", "options": ["care", "căruia", "ce"], "answer": "care", "explain": "Kterého (4. pád) = pe care; căruia je 3. pád (kterému).", "reviewed": false },
+        { "id": "u21-l2-e7", "type": "fill", "sentence": "Colega ___ îi trimit mesajul e în concediu.", "translation": "Kolegyně, které posílám zprávu, je na dovolené.", "options": ["căreia", "căruia", "cărora"], "answer": "căreia", "explain": "Căreia = které (3. pád, ženský rod), řídí se slovem colega; căruia je pro mužský rod, cărora pro množné číslo.", "reviewed": false },
+        { "id": "u21-l2-e8", "type": "type", "question": "Mám na starosti zákazníky.", "answer": "Mă ocup de clienți.", "reviewed": false },
+        { "id": "u21-l2-e9", "type": "build", "question": "Kolega, kterému říkám všechno, je tady.", "answer": "Colegul căruia îi spun tot e aici.", "extra": ["căreia"], "reviewed": false },
+        { "id": "u21-l2-e10", "type": "build", "question": "Nedělám přesčasy.", "answer": "Nu fac ore suplimentare.", "extra": ["făcut"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l3",
+      "title": "Co řekl šéf?",
+      "titleTarget": "Ce a spus șeful?",
+      "reviewed": false,
+      "tip": {
+        "title": "Nepřímá řeč jako v češtině",
+        "text": "Když opakujete, co kdo řekl, čas se nemění – stejně jako česky: „Mám čas.“ → Șeful a spus că are timp. (Šéf řekl, že má čas.) Otázka bez tázacího slova dostane dacă (jestli): M-a întrebat dacă vin mâine. (Zeptal se mě, jestli zítra přijdu.) Prosba nebo příkaz se převede přes să a sloveso: Mi-a cerut să trimit contractul. (Požádal mě, abych poslal(a) smlouvu.) Česky „abych“, rumunsky jen să, bez ca.",
+        "examples": [
+          { "target": "Șeful a spus că are timp.", "native": "Šéf řekl, že má čas." },
+          { "target": "M-a întrebat dacă vin mâine.", "native": "Zeptal se mě, jestli zítra přijdu." },
+          { "target": "Mi-a cerut să trimit contractul.", "native": "Požádal mě, abych poslal(a) smlouvu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l3-w1", "target": "a explica", "native": "vysvětlit; vysvětlovat", "note": "eu explic, tu explici, el explică; am explicat. Čte se „a eks-pli-KA“.", "reviewed": false },
+        { "id": "u21-l3-w2", "target": "a promite", "native": "slíbit; slibovat", "note": "eu promit, tu promiți, el promite; minulý čas: am promis. Čte se „a pro-MI-te“.", "reviewed": false },
+        { "id": "u21-l3-w3", "target": "a cere", "native": "žádat; požádat", "note": "eu cer, tu ceri, el cere; minulý čas: am cerut. Mi-a cerut să… = Požádal(a) mě, abych… Čte se „a ČE-re“.", "reviewed": false },
+        { "id": "u21-l3-w4", "target": "a răspunde", "native": "odpovědět; odpovídat", "note": "eu răspund, el răspunde; minulý čas: am răspuns. Čte se „a răs-PUN-de“.", "reviewed": false },
+        { "id": "u21-l3-w5", "target": "o promovare", "native": "povýšení", "note": "promovarea = to povýšení; množné číslo: promovări. Čte se „pro-mo-VA-re“.", "reviewed": false },
+        { "id": "u21-l3-w6", "target": "o mărire de salariu", "native": "zvýšení platu", "note": "mărirea de salariu = to zvýšení platu. Mărire je od mare (velký). Čte se „mă-RI-re de sa-LA-rju“.", "reviewed": false },
+        { "id": "u21-l3-w7", "target": "a demisiona", "native": "dát výpověď", "note": "Skupina -ez: eu demisionez. A demisionat. = Dal(a) výpověď. Čte se „a de-mi-si-o-NA“.", "reviewed": false },
+        { "id": "u21-l3-w8", "target": "a ieși la pensie", "native": "odejít do důchodu", "note": "eu ies, el iese; am ieșit. Mama a ieșit la pensie. = Máma odešla do důchodu. Čte se „a je-ŠI la PEN-si-e“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l3-e1", "type": "choice", "question": "a promite", "questionLang": "target", "options": ["slíbit; slibovat", "vysvětlit; vysvětlovat", "odpovědět; odpovídat"], "answer": "slíbit; slibovat", "reviewed": false },
+        { "id": "u21-l3-e2", "type": "choice", "question": "povýšení", "questionLang": "native", "options": ["o promovare", "o mărire de salariu", "un contract"], "answer": "o promovare", "reviewed": false },
+        { "id": "u21-l3-e3", "type": "match", "pairs": [
+          { "target": "a cere", "native": "požádat" },
+          { "target": "a răspunde", "native": "odpovědět" },
+          { "target": "a demisiona", "native": "dát výpověď" },
+          { "target": "a ieși la pensie", "native": "odejít do důchodu" }
+        ], "reviewed": false },
+        { "id": "u21-l3-e4", "type": "listen", "audio": "Șeful a spus că are o ședință.", "options": ["Šéf řekl, že má poradu.", "Šéf řekl, že nemá poradu.", "Šéf se zeptal, jestli máme poradu."], "answer": "Šéf řekl, že má poradu.", "reviewed": false },
+        { "id": "u21-l3-e5", "type": "listen", "audio": "M-a întrebat dacă vin mâine.", "options": ["M-a întrebat dacă vin mâine.", "Mi-a spus că vin mâine.", "Mi-a cerut să vin mâine."], "answer": "M-a întrebat dacă vin mâine.", "reviewed": false },
+        { "id": "u21-l3-e6", "type": "fill", "sentence": "Șeful mi-a cerut ___ trimit contractul.", "translation": "Šéf mě požádal, abych poslal(a) smlouvu.", "options": ["să", "că", "dacă"], "answer": "să", "explain": "Prosba se převádí přes să a sloveso: mi-a cerut să trimit.", "reviewed": false },
+        { "id": "u21-l3-e7", "type": "fill", "sentence": "Colega m-a întrebat ___ am timp.", "translation": "Kolegyně se mě zeptala, jestli mám čas.", "options": ["dacă", "să", "ca"], "answer": "dacă", "explain": "Jestli = dacă; să patří k prosbě, ca să k účelu.", "reviewed": false },
+        { "id": "u21-l3-e8", "type": "type", "question": "Šéf mi vysvětlil úkol.", "answer": "Șeful mi-a explicat sarcina.", "reviewed": false },
+        { "id": "u21-l3-e9", "type": "build", "question": "Šéf mi slíbil zvýšení platu.", "answer": "Șeful mi-a promis o mărire de salariu.", "extra": ["promite"], "reviewed": false },
+        { "id": "u21-l3-e10", "type": "speak", "text": "Anul viitor ies la pensie.", "native": "Příští rok odcházím do důchodu.", "reviewed": false }
+      ]
+    }
+  ]
+}

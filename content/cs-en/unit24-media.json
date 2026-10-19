@@ -1,0 +1,144 @@
+{
+  "id": "u24",
+  "level": "B1",
+  "title": "Média a technologie",
+  "titleTarget": "Media and technology",
+  "description": "Zprávy a noviny, vynálezy v trpném rodě a frázová slovesa pro telefon a aplikace.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u24-l1",
+      "title": "Zprávy",
+      "titleTarget": "The news",
+      "reviewed": false,
+      "tip": {
+        "title": "Trpný rod: is shown, are written",
+        "text": "Když není důležité, kdo něco dělá, použijte trpný rod: is nebo are + třetí tvar slovesa. The programme is shown every evening. (Pořad se vysílá každý večer.) Česky často stačí „se“: vysílá se, píše se, čte se. Pozor: the news je jednotné číslo, i když končí na -s: The news is good. Neříkejte the news are ani a news. Jedna zpráva je a piece of news.",
+        "examples": [
+          { "target": "The programme is shown every evening.", "native": "Ten pořad se vysílá každý večer." },
+          { "target": "This newspaper is read by a lot of people.", "native": "Tyhle noviny čte hodně lidí." },
+          { "target": "The news is good today.", "native": "Dnes jsou dobré zprávy." },
+          { "target": "It's good news.", "native": "To je dobrá zpráva." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l1-w1", "target": "the news", "native": "zprávy", "note": "Vždy jednotné číslo: The news is… Čte se „njúz“.", "reviewed": false },
+        { "id": "u24-l1-w2", "target": "newspaper", "native": "noviny", "note": "Jedny noviny = a newspaper. Čte se „njúzpejpa“.", "reviewed": false },
+        { "id": "u24-l1-w3", "target": "article", "native": "článek", "note": "Čte se „átikl“.", "reviewed": false },
+        { "id": "u24-l1-w4", "target": "programme", "native": "pořad", "note": "Pořad v televizi nebo rádiu. Televizní „program“, tedy stanice, je channel.", "reviewed": false },
+        { "id": "u24-l1-w5", "target": "channel", "native": "televizní kanál; stanice", "note": "Čte se „čenl“.", "reviewed": false },
+        { "id": "u24-l1-w6", "target": "advert", "native": "reklama", "note": "Hovorově také ad. Čte se „edvét“.", "reviewed": false },
+        { "id": "u24-l1-w7", "target": "journalist", "native": "novinář; novinářka", "note": "Čte se „džénelist“.", "reviewed": false },
+        { "id": "u24-l1-w8", "target": "headline", "native": "titulek", "note": "Velký nadpis v novinách. the headlines = hlavní zprávy. Čte se „hedlajn“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l1-e1", "type": "choice", "question": "headline", "questionLang": "target", "options": ["titulek", "článek", "pořad"], "answer": "titulek", "reviewed": false },
+        { "id": "u24-l1-e2", "type": "choice", "question": "reklama", "questionLang": "native", "options": ["advert", "article", "channel"], "answer": "advert", "reviewed": false },
+        { "id": "u24-l1-e3", "type": "match", "pairs": [
+          { "target": "the news", "native": "zprávy" },
+          { "target": "newspaper", "native": "noviny" },
+          { "target": "programme", "native": "pořad" },
+          { "target": "channel", "native": "televizní kanál" },
+          { "target": "journalist", "native": "novinář" }
+        ], "reviewed": false },
+        { "id": "u24-l1-e4", "type": "listen", "audio": "The news is on at six.", "options": ["The news is on at six.", "The news is on at seven.", "The film is on at six."], "answer": "The news is on at six.", "reviewed": false },
+        { "id": "u24-l1-e5", "type": "listen", "audio": "This newspaper is read by a lot of people.", "options": ["Tyhle noviny čte hodně lidí.", "Tyhle noviny skoro nikdo nečte.", "Do těchhle novin píše hodně lidí."], "answer": "Tyhle noviny čte hodně lidí.", "reviewed": false },
+        { "id": "u24-l1-e6", "type": "fill", "sentence": "The news ___ very good today.", "translation": "Dnes jsou velmi dobré zprávy.", "options": ["is", "are", "have"], "answer": "is", "explain": "The news je anglicky jednotné číslo: the news is.", "reviewed": false },
+        { "id": "u24-l1-e7", "type": "fill", "sentence": "This programme is ___ by millions of people.", "translation": "Ten pořad sledují miliony lidí.", "options": ["watched", "watch", "watching"], "answer": "watched", "explain": "Trpný rod: is + třetí tvar slovesa, tedy is watched.", "reviewed": false },
+        { "id": "u24-l1-e8", "type": "type", "question": "Četli jste ten článek?", "answer": "Have you read the article?", "accept": ["Did you read the article?", "Have you read that article?", "Did you read that article?"], "reviewed": false },
+        { "id": "u24-l1-e9", "type": "build", "question": "Ten pořad se vysílá každý večer.", "answer": "The programme is shown every evening.", "extra": ["are"], "reviewed": false },
+        { "id": "u24-l1-e10", "type": "build", "question": "To je dobrá zpráva.", "answer": "It's good news.", "extra": ["a"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l2",
+      "title": "Vynálezy",
+      "titleTarget": "Inventions",
+      "reviewed": false,
+      "tip": {
+        "title": "Was invented, were made",
+        "text": "O minulosti řeknete trpný rod s was nebo were a třetím tvarem slovesa: The telephone was invented in the nineteenth century. Kdo to udělal, řeknete s by: This photo was taken by my grandson. Česky „byl vynalezen“ nebo „vynalezli“. Nezapomeňte na was: The telephone invented… by znamenalo, že telefon něco vynalezl.",
+        "examples": [
+          { "target": "When was the telephone invented?", "native": "Kdy byl vynalezen telefon?" },
+          { "target": "Penicillin was discovered in nineteen twenty-eight.", "native": "Penicilin byl objeven v roce 1928." },
+          { "target": "This photo was taken by my grandson.", "native": "Tuhle fotku vyfotil můj vnuk." },
+          { "target": "The first laptops were made in the nineteen eighties.", "native": "První notebooky vznikly v osmdesátých letech." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l2-w1", "target": "invent", "native": "vynalézt", "note": "invention = vynález. Čte se „in-VENT“.", "reviewed": false },
+        { "id": "u24-l2-w2", "target": "discover", "native": "objevit", "note": "Čte se „di-SKA-va“.", "reviewed": false },
+        { "id": "u24-l2-w3", "target": "laptop", "native": "notebook", "note": "Anglicky je notebook sešit. Čte se „leptop“.", "reviewed": false },
+        { "id": "u24-l2-w4", "target": "screen", "native": "obrazovka; displej", "note": "Čte se „skrín“.", "reviewed": false },
+        { "id": "u24-l2-w5", "target": "battery", "native": "baterie", "note": "My battery is low. = Mám skoro vybitou baterii. Čte se „beteri“.", "reviewed": false },
+        { "id": "u24-l2-w6", "target": "charge", "native": "nabít; nabíjet", "note": "charge your phone = nabít telefon. Čte se „čádž“.", "reviewed": false },
+        { "id": "u24-l2-w7", "target": "signal", "native": "signál", "note": "There's no signal. = Není tu signál. Čte se „signl“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l2-e1", "type": "choice", "question": "charge", "questionLang": "target", "options": ["nabít; nabíjet", "vynalézt", "objevit"], "answer": "nabít; nabíjet", "reviewed": false },
+        { "id": "u24-l2-e2", "type": "choice", "question": "notebook", "questionLang": "native", "options": ["laptop", "screen", "battery"], "answer": "laptop", "reviewed": false },
+        { "id": "u24-l2-e3", "type": "match", "pairs": [
+          { "target": "invent", "native": "vynalézt" },
+          { "target": "discover", "native": "objevit" },
+          { "target": "screen", "native": "obrazovka" },
+          { "target": "battery", "native": "baterie" },
+          { "target": "signal", "native": "signál" }
+        ], "reviewed": false },
+        { "id": "u24-l2-e4", "type": "listen", "audio": "When was the telephone invented?", "options": ["When was the telephone invented?", "Who invented the telephone?", "When was the computer invented?"], "answer": "When was the telephone invented?", "reviewed": false },
+        { "id": "u24-l2-e5", "type": "listen", "audio": "My phone battery is low.", "options": ["Mám skoro vybitý telefon.", "Nemám tu signál.", "Telefon mám v tašce."], "answer": "Mám skoro vybitý telefon.", "reviewed": false },
+        { "id": "u24-l2-e6", "type": "fill", "sentence": "The telephone ___ invented in the nineteenth century.", "translation": "Telefon byl vynalezen v devatenáctém století.", "options": ["was", "is", "were"], "answer": "was", "explain": "Minulost a jedna věc: was + třetí tvar slovesa.", "reviewed": false },
+        { "id": "u24-l2-e7", "type": "fill", "sentence": "Penicillin was ___ in nineteen twenty-eight.", "translation": "Penicilin byl objeven v roce 1928.", "options": ["discovered", "discover", "discovering"], "answer": "discovered", "explain": "Po was patří v trpném rodě třetí tvar slovesa.", "reviewed": false },
+        { "id": "u24-l2-e8", "type": "type", "question": "Musím nabít telefon.", "answer": "I need to charge my phone.", "accept": ["I have to charge my phone.", "I must charge my phone.", "I've got to charge my phone."], "reviewed": false },
+        { "id": "u24-l2-e9", "type": "build", "question": "Tuhle fotku vyfotila moje vnučka.", "answer": "This photo was taken by my granddaughter.", "extra": ["were"], "reviewed": false },
+        { "id": "u24-l2-e10", "type": "build", "question": "Tady není signál.", "answer": "There's no signal here.", "extra": ["not"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l3",
+      "title": "Aplikace",
+      "titleTarget": "Apps",
+      "reviewed": false,
+      "tip": {
+        "title": "Switch it off, ne switch off it",
+        "text": "U sloves jako switch on, switch off, set up a look up může věc stát za celým slovesem i uprostřed: Switch off the light. Switch the light off. Když je to ale zájmeno (it, them), musí stát uprostřed: Switch it off. Neříkejte switch off it. Čeština nic takového nemá, proto si zapamatujte: it a them vždy doprostřed.",
+        "examples": [
+          { "target": "Can you switch on the TV?", "native": "Můžete zapnout televizi?" },
+          { "target": "Switch it off, please.", "native": "Vypněte to, prosím." },
+          { "target": "My grandson set it up for me.", "native": "Vnuk mi to nastavil." },
+          { "target": "Look it up on the internet.", "native": "Vyhledejte si to na internetu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l3-w1", "target": "switch on", "native": "zapnout", "note": "Switch it on. = Zapněte to.", "reviewed": false },
+        { "id": "u24-l3-w2", "target": "switch off", "native": "vypnout", "note": "Switch it off. = Vypněte to.", "reviewed": false },
+        { "id": "u24-l3-w3", "target": "set up", "native": "nastavit; zřídit", "note": "set up a new phone = nastavit nový telefon. Minulý čas set up.", "reviewed": false },
+        { "id": "u24-l3-w4", "target": "look up", "native": "vyhledat", "note": "look up a word = vyhledat slovo", "reviewed": false },
+        { "id": "u24-l3-w5", "target": "download", "native": "stáhnout", "note": "Čte se „daun-LOUD“.", "reviewed": false },
+        { "id": "u24-l3-w6", "target": "app", "native": "aplikace", "note": "Čte se „ep“.", "reviewed": false },
+        { "id": "u24-l3-w7", "target": "update", "native": "aktualizace; aktualizovat", "note": "Podstatné jméno se čte „apdejt“, sloveso „ap-DEJT“.", "reviewed": false },
+        { "id": "u24-l3-w8", "target": "online", "native": "na internetu; online", "note": "Čte se „on-LAJN“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l3-e1", "type": "choice", "question": "look up", "questionLang": "target", "options": ["vyhledat", "nastavit; zřídit", "stáhnout"], "answer": "vyhledat", "reviewed": false },
+        { "id": "u24-l3-e2", "type": "choice", "question": "vypnout", "questionLang": "native", "options": ["switch off", "switch on", "set up"], "answer": "switch off", "reviewed": false },
+        { "id": "u24-l3-e3", "type": "match", "pairs": [
+          { "target": "switch on", "native": "zapnout" },
+          { "target": "set up", "native": "nastavit" },
+          { "target": "download", "native": "stáhnout" },
+          { "target": "app", "native": "aplikace" },
+          { "target": "online", "native": "na internetu" }
+        ], "reviewed": false },
+        { "id": "u24-l3-e4", "type": "listen", "audio": "Can you switch it off, please?", "options": ["Can you switch it off, please?", "Can you switch it on, please?", "Can you set it up, please?"], "answer": "Can you switch it off, please?", "reviewed": false },
+        { "id": "u24-l3-e5", "type": "listen", "audio": "We've downloaded a new app.", "options": ["Stáhli jsme si novou aplikaci.", "Smazali jsme starou aplikaci.", "Hledáme novou aplikaci."], "answer": "Stáhli jsme si novou aplikaci.", "reviewed": false },
+        { "id": "u24-l3-e6", "type": "fill", "sentence": "The TV is on. Can you switch ___?", "translation": "Televize je zapnutá. Můžete ji vypnout?", "options": ["it off", "off it", "on it"], "answer": "it off", "explain": "Zájmeno it stojí uprostřed: switch it off.", "reviewed": false },
+        { "id": "u24-l3-e7", "type": "fill", "sentence": "My grandson ___ it up for me.", "translation": "Vnuk mi to nastavil.", "options": ["set", "setted", "setting"], "answer": "set", "explain": "Set je nepravidelné, minulý čas je také set.", "reviewed": false },
+        { "id": "u24-l3-e8", "type": "type", "question": "Vyhledejte si to na internetu.", "answer": "Look it up on the internet.", "accept": ["Look it up online."], "reviewed": false },
+        { "id": "u24-l3-e9", "type": "build", "question": "Zapněte to, prosím.", "answer": "Switch it on, please.", "accept": ["Please switch it on."], "reviewed": false },
+        { "id": "u24-l3-e10", "type": "build", "question": "Můžete mi nastavit e-mail?", "answer": "Can you set up my email?", "accept": ["Can you set my email up?"], "reviewed": false }
+      ]
+    }
+  ]
+}

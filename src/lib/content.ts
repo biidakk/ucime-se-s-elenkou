@@ -62,6 +62,7 @@ export type BuildExercise = ExerciseBase & {
   answer: string; // the sentence in the language being learned; its words become the tiles
   extra?: string[]; // wrong tiles mixed in
   accept?: string[]; // other correct word orders
+  optional?: string[]; // words of the answer that may be left out (still correct without them)
 };
 
 // Fill the gap: a sentence with "___", pick the missing word or ending.

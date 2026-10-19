@@ -1,0 +1,144 @@
+{
+  "id": "u30",
+  "level": "B1",
+  "title": "Kultura a tradice",
+  "titleTarget": "Kultur und Feste",
+  "description": "Památky, zvyky a svátky, divadlo a koncerty: wurde gebaut, bevor a seitdem a přídavná jména bez členu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u30-l1",
+      "title": "Památky a dějiny",
+      "titleTarget": "Sehenswürdigkeiten",
+      "reviewed": false,
+      "tip": {
+        "title": "Die Burg wurde gebaut",
+        "text": "Když vyprávíte, co se s něčím v minulosti stalo, použijte wurde + příčestí na konci: Die Burg wurde im vierzehnten Jahrhundert gebaut. = Hrad byl postaven ve 14. století. Česky říkáme „byl“, ale „war gebaut“ znamená jen to, že stavba už stála hotová. Pro děj je wurde, v množném čísle wurden: Die Häuser wurden zerstört. Pozor i na slova: das Schloss = zámek, die Burg = hrad. Pražský hrad je die Prager Burg.",
+        "examples": [
+          { "target": "Die Burg wurde im vierzehnten Jahrhundert gebaut.", "native": "Hrad byl postaven ve čtrnáctém století." },
+          { "target": "Die Prager Burg ist eine berühmte Sehenswürdigkeit.", "native": "Pražský hrad je slavná pamětihodnost." },
+          { "target": "Viele Häuser wurden zerstört.", "native": "Mnoho domů bylo zničeno." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l1-w1", "target": "die Sehenswürdigkeit", "native": "pamětihodnost; památka", "note": "Čte se [ZÉ-ens-vür-dich-kajt]; množné číslo: die Sehenswürdigkeiten", "reviewed": false },
+        { "id": "u30-l1-w2", "target": "das Schloss", "native": "zámek", "note": "Také zámek u dveří. Hrad je die Burg. Množné číslo: die Schlösser", "reviewed": false },
+        { "id": "u30-l1-w3", "target": "die Burg", "native": "hrad", "note": "auf der Burg = na hradě; g na konci zní jako k: [burk]; množné číslo: die Burgen", "reviewed": false },
+        { "id": "u30-l1-w4", "target": "das Denkmal", "native": "pomník; památník", "note": "množné číslo: die Denkmäler", "reviewed": false },
+        { "id": "u30-l1-w5", "target": "bauen", "native": "stavět; postavit", "note": "Das Haus wurde gebaut. = Dům byl postaven.", "reviewed": false },
+        { "id": "u30-l1-w6", "target": "die Führung", "native": "prohlídka s průvodcem", "note": "eine Führung durch das Schloss = prohlídka zámku; množné číslo: die Führungen", "reviewed": false },
+        { "id": "u30-l1-w7", "target": "das Jahrhundert", "native": "století", "note": "Přízvuk na druhé slabice: [jár-HUN-dat]; množné číslo: die Jahrhunderte", "reviewed": false },
+        { "id": "u30-l1-w8", "target": "zerstören", "native": "zničit", "note": "Pevná předpona zer-, z = c: [cer-ŠTÖ-ren]; příčestí: zerstört", "reviewed": false },
+        { "id": "u30-l1-w9", "target": "die Ausstellung", "native": "výstava", "note": "množné číslo: die Ausstellungen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l1-e1", "type": "choice", "question": "die Burg", "questionLang": "target", "options": ["hrad", "zámek", "výstava"], "answer": "hrad", "reviewed": false },
+        { "id": "u30-l1-e2", "type": "choice", "question": "výstava", "questionLang": "native", "options": ["die Ausstellung", "die Führung", "die Sehenswürdigkeit"], "answer": "die Ausstellung", "reviewed": false },
+        { "id": "u30-l1-e3", "type": "match", "pairs": [
+          { "target": "das Schloss", "native": "zámek" },
+          { "target": "das Denkmal", "native": "pomník" },
+          { "target": "bauen", "native": "stavět" },
+          { "target": "das Jahrhundert", "native": "století" },
+          { "target": "zerstören", "native": "zničit" }
+        ], "reviewed": false },
+        { "id": "u30-l1-e4", "type": "listen", "audio": "Das Schloss wurde vor dreihundert Jahren gebaut.", "options": ["Das Schloss wurde vor dreihundert Jahren gebaut.", "Das Schloss wurde vor dreihundert Jahren zerstört.", "Die Burg wurde vor dreihundert Jahren gebaut."], "answer": "Das Schloss wurde vor dreihundert Jahren gebaut.", "reviewed": false },
+        { "id": "u30-l1-e5", "type": "fill", "sentence": "Die Kirche ___ im vierzehnten Jahrhundert gebaut.", "translation": "Kostel byl postaven ve čtrnáctém století.", "options": ["wurde", "wurden", "würde"], "answer": "wurde", "explain": "Děj v minulosti: wurde + příčestí; die Kirche je jednotné číslo.", "reviewed": false },
+        { "id": "u30-l1-e6", "type": "fill", "sentence": "Früher ___ hier Autos gebaut.", "translation": "Dřív se tady vyráběla auta.", "options": ["wurden", "wurde", "wurdet"], "answer": "wurden", "explain": "Autos je množné číslo, proto wurden.", "reviewed": false },
+        { "id": "u30-l1-e7", "type": "type", "question": "století", "answer": "das Jahrhundert", "reviewed": false },
+        { "id": "u30-l1-e8", "type": "build", "question": "Kdy byl zámek postaven?", "answer": "Wann wurde das Schloss gebaut?", "extra": ["wurden"], "reviewed": false },
+        { "id": "u30-l1-e9", "type": "listen", "audio": "Um zehn Uhr gibt es eine Führung durch das Schloss.", "options": ["V deset hodin je prohlídka zámku s průvodcem.", "V deset hodin začíná výstava na zámku.", "V deset hodin se zámek zavírá."], "answer": "V deset hodin je prohlídka zámku s průvodcem.", "reviewed": false },
+        { "id": "u30-l1-e10", "type": "build", "question": "Navštívili jsme výstavu na hradě.", "answer": "Wir haben die Ausstellung auf der Burg besucht.", "accept": ["Auf der Burg haben wir die Ausstellung besucht."], "extra": ["den"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l2",
+      "title": "Zvyky a svátky",
+      "titleTarget": "Bräuche und Feste",
+      "reviewed": false,
+      "tip": {
+        "title": "Bevor, nicht vor",
+        "text": "Spojky bevor (než), während (zatímco), seitdem (od té doby, co) a bis (až, dokud ne-) posílají sloveso na konec: Bevor wir essen, … Česky říkáme „před tím, než“, proto se plete vor a bevor. Vor stojí jen před podstatným jménem: vor dem Essen (před jídlem). Před větou je bevor: bevor wir essen (než se najíme). Pozor u bis: česky „dokud nepřijde“ má zápor, německy ne: Wir warten, bis er kommt.",
+        "examples": [
+          { "target": "Bevor wir essen, zünden wir eine Kerze an.", "native": "Než se najíme, zapálíme svíčku." },
+          { "target": "Während die Kinder schlafen, packen wir die Geschenke ein.", "native": "Zatímco děti spí, balíme dárky." },
+          { "target": "Wir warten, bis er kommt.", "native": "Počkáme, dokud nepřijde." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l2-w1", "target": "die Tradition", "native": "tradice", "note": "Přízvuk na konci: [tra-di-CJÓN]; množné číslo: die Traditionen", "reviewed": false },
+        { "id": "u30-l2-w2", "target": "der Brauch", "native": "zvyk; obyčej", "note": "množné číslo: die Bräuche", "reviewed": false },
+        { "id": "u30-l2-w3", "target": "Silvester", "native": "Silvestr", "note": "Bez členu: an Silvester nebo zu Silvester = na Silvestra. Čte se [zil-VES-ta].", "reviewed": false },
+        { "id": "u30-l2-w4", "target": "der Weihnachtsmarkt", "native": "vánoční trh", "note": "auf dem Weihnachtsmarkt = na vánočním trhu; množné číslo: die Weihnachtsmärkte", "reviewed": false },
+        { "id": "u30-l2-w5", "target": "der Fasching", "native": "masopust; karneval", "note": "V Porýní se říká der Karneval. sch = š; množné číslo se skoro nepoužívá", "reviewed": false },
+        { "id": "u30-l2-w6", "target": "das Kostüm", "native": "kostým; převlek", "note": "Přízvuk na konci: [kos-TÜM]; množné číslo: die Kostüme", "reviewed": false },
+        { "id": "u30-l2-w7", "target": "die Kerze", "native": "svíčka", "note": "z = c: [KER-ce]; množné číslo: die Kerzen", "reviewed": false },
+        { "id": "u30-l2-w8", "target": "die Stimmung", "native": "nálada; atmosféra", "note": "st = št: [ŠTI-mung]; množné číslo: die Stimmungen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l2-e1", "type": "choice", "question": "die Kerze", "questionLang": "target", "options": ["svíčka", "kostým; převlek", "nálada; atmosféra"], "answer": "svíčka", "reviewed": false },
+        { "id": "u30-l2-e2", "type": "choice", "question": "zvyk; obyčej", "questionLang": "native", "options": ["der Brauch", "die Stimmung", "der Fasching"], "answer": "der Brauch", "reviewed": false },
+        { "id": "u30-l2-e3", "type": "match", "pairs": [
+          { "target": "die Tradition", "native": "tradice" },
+          { "target": "Silvester", "native": "Silvestr" },
+          { "target": "der Weihnachtsmarkt", "native": "vánoční trh" },
+          { "target": "der Fasching", "native": "masopust" },
+          { "target": "das Kostüm", "native": "kostým" }
+        ], "reviewed": false },
+        { "id": "u30-l2-e4", "type": "listen", "audio": "Auf dem Weihnachtsmarkt ist die Stimmung immer gut.", "options": ["Auf dem Weihnachtsmarkt ist die Stimmung immer gut.", "Auf dem Weihnachtsmarkt ist es immer sehr kalt.", "Auf dem Weihnachtsmarkt gibt es immer Kerzen."], "answer": "Auf dem Weihnachtsmarkt ist die Stimmung immer gut.", "reviewed": false },
+        { "id": "u30-l2-e5", "type": "fill", "sentence": "Wir gehen auf den Weihnachtsmarkt, ___ wir nach Hause fahren.", "translation": "Půjdeme na vánoční trh, než pojedeme domů.", "options": ["bevor", "vor", "nach"], "answer": "bevor", "explain": "Před větou se slovesem stojí bevor; vor a nach jdou jen před podstatné jméno.", "reviewed": false },
+        { "id": "u30-l2-e6", "type": "fill", "sentence": "Wir warten, bis die Führung ___.", "translation": "Počkáme, až začne prohlídka.", "options": ["anfängt", "fängt an", "anfangen"], "answer": "anfängt", "explain": "Po bis jde sloveso na konec a předpona zůstane přilepená: anfängt.", "reviewed": false },
+        { "id": "u30-l2-e7", "type": "type", "question": "svíčka", "answer": "die Kerze", "reviewed": false },
+        { "id": "u30-l2-e8", "type": "build", "question": "Od té doby, co tady bydlíme, slavíme masopust.", "answer": "Seitdem wir hier wohnen, feiern wir Fasching.", "accept": ["Wir feiern Fasching, seitdem wir hier wohnen."], "extra": ["feiert"], "reviewed": false },
+        { "id": "u30-l2-e9", "type": "listen", "audio": "Was machen Sie an Silvester?", "options": ["Co děláte na Silvestra?", "Co děláte o Vánocích?", "Co děláte o masopustu?"], "answer": "Co děláte na Silvestra?", "reviewed": false },
+        { "id": "u30-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Než odjedeme, koupíme svíčky.", "questionLang": "native", "options": ["Bevor wir fahren, kaufen wir Kerzen.", "Vor wir fahren, kaufen wir Kerzen.", "Bevor wir fahren, wir kaufen Kerzen."], "answer": "Bevor wir fahren, kaufen wir Kerzen.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l3",
+      "title": "Divadlo a koncerty",
+      "titleTarget": "Theater und Konzerte",
+      "reviewed": false,
+      "tip": {
+        "title": "Mit großem Applaus",
+        "text": "Když před přídavným jménem nestojí žádný člen, ukazuje pád samo přídavné jméno. Dostane skoro stejnou koncovku, jakou by měl člen: der Wein → guter Wein, das Wasser → kaltes Wasser, mit dem Applaus → mit großem Applaus, mit der Musik → mit guter Musik. Bez koncovky to nejde: „mit groß Applaus“ je chyba. Čeština to má stejně, přídavné jméno má koncovku vždycky: s velkým potleskem.",
+        "examples": [
+          { "target": "Die Vorstellung endete mit großem Applaus.", "native": "Představení skončilo velkým potleskem." },
+          { "target": "Im Theater gibt es heute klassische Musik.", "native": "V divadle je dnes klasická hudba." },
+          { "target": "Haben Sie noch Eintrittskarten für heute Abend?", "native": "Máte ještě vstupenky na dnešní večer?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l3-w1", "target": "das Theater", "native": "divadlo", "note": "Přízvuk na druhé slabice: [te-Á-ta]; množné číslo: die Theater", "reviewed": false },
+        { "id": "u30-l3-w2", "target": "das Konzert", "native": "koncert", "note": "z = c: [kon-CERT]; množné číslo: die Konzerte", "reviewed": false },
+        { "id": "u30-l3-w3", "target": "die Vorstellung", "native": "představení; představa", "note": "Jako sich vorstellen: představení v divadle i představa v hlavě. Množné číslo: die Vorstellungen", "reviewed": false },
+        { "id": "u30-l3-w4", "target": "die Eintrittskarte", "native": "vstupenka", "note": "Čte se [AJN-trits-kar-te]; množné číslo: die Eintrittskarten", "reviewed": false },
+        { "id": "u30-l3-w5", "target": "das Publikum", "native": "publikum; diváci", "note": "Přízvuk na první slabice: [PÚ-bli-kum]; jen jednotné číslo", "reviewed": false },
+        { "id": "u30-l3-w6", "target": "die Bühne", "native": "jeviště", "note": "h se nečte: [BÜ-ne]; množné číslo: die Bühnen", "reviewed": false },
+        { "id": "u30-l3-w7", "target": "der Schauspieler", "native": "herec", "note": "Čte se [ŠAU-špí-la]; množné číslo: die Schauspieler", "reviewed": false },
+        { "id": "u30-l3-w8", "target": "die Schauspielerin", "native": "herečka", "note": "množné číslo: die Schauspielerinnen", "reviewed": false },
+        { "id": "u30-l3-w9", "target": "die Oper", "native": "opera", "note": "Čte se [Ó-pa]; in die Oper gehen = jít do opery; množné číslo: die Opern", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l3-e1", "type": "choice", "question": "die Bühne", "questionLang": "target", "options": ["jeviště", "publikum; diváci", "vstupenka"], "answer": "jeviště", "reviewed": false },
+        { "id": "u30-l3-e2", "type": "choice", "question": "herečka", "questionLang": "native", "options": ["die Schauspielerin", "der Schauspieler", "das Publikum"], "answer": "die Schauspielerin", "reviewed": false },
+        { "id": "u30-l3-e3", "type": "match", "pairs": [
+          { "target": "das Theater", "native": "divadlo" },
+          { "target": "das Konzert", "native": "koncert" },
+          { "target": "die Eintrittskarte", "native": "vstupenka" },
+          { "target": "die Oper", "native": "opera" },
+          { "target": "der Schauspieler", "native": "herec" }
+        ], "reviewed": false },
+        { "id": "u30-l3-e4", "type": "listen", "audio": "Haben Sie noch Eintrittskarten für das Konzert?", "options": ["Haben Sie noch Eintrittskarten für das Konzert?", "Haben Sie noch Eintrittskarten für die Oper?", "Haben Sie noch Eintrittskarten für morgen?"], "answer": "Haben Sie noch Eintrittskarten für das Konzert?", "reviewed": false },
+        { "id": "u30-l3-e5", "type": "fill", "sentence": "Die Vorstellung endete mit ___ Applaus.", "translation": "Představení skončilo velkým potleskem.", "options": ["großem", "groß", "großen"], "answer": "großem", "explain": "Bez členu ukazuje 3. pád přídavné jméno: mit großem Applaus, jako mit dem.", "reviewed": false },
+        { "id": "u30-l3-e6", "type": "fill", "sentence": "Mein Vater hört gern ___ Musik.", "translation": "Tatínek rád poslouchá klasickou hudbu.", "options": ["klassische", "klassischer", "klassisches"], "answer": "klassische", "explain": "die Musik, 4. pád bez členu: klassische Musik, jako die Musik.", "reviewed": false },
+        { "id": "u30-l3-e7", "type": "type", "question": "divadlo", "answer": "das Theater", "reviewed": false },
+        { "id": "u30-l3-e8", "type": "build", "question": "Koupili jsme dvě vstupenky do opery.", "answer": "Wir haben zwei Eintrittskarten für die Oper gekauft.", "accept": ["Für die Oper haben wir zwei Eintrittskarten gekauft."], "extra": ["kaufen"], "reviewed": false },
+        { "id": "u30-l3-e9", "type": "listen", "audio": "Die Vorstellung beginnt um acht Uhr.", "options": ["Představení začíná v osm hodin.", "Koncert začíná v osm hodin.", "Představení končí v osm hodin."], "answer": "Představení začíná v osm hodin.", "reviewed": false },
+        { "id": "u30-l3-e10", "type": "speak", "text": "Das Konzert war wirklich schön.", "native": "Ten koncert byl opravdu krásný.", "reviewed": false }
+      ]
+    }
+  ]
+}

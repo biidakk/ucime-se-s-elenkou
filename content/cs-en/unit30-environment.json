@@ -1,0 +1,142 @@
+{
+  "id": "u30",
+  "level": "B1",
+  "title": "Životní prostředí",
+  "titleTarget": "The environment",
+  "description": "Třídění odpadu, měnící se podnebí a co můžeme udělat pro přírodu: can be recycled, might a věty s if a would.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u30-l1",
+      "title": "Třídění odpadu",
+      "titleTarget": "Recycling",
+      "reviewed": false,
+      "tip": {
+        "title": "Can be recycled = dá se recyklovat",
+        "text": "Když není důležité, kdo něco dělá, použijte trpný rod: be a třetí tvar slovesa. Po can, must nebo should je vždy be: Glass can be recycled. (Sklo se dá recyklovat.) Rubbish must be put in the bin. (Odpadky se musí vyhazovat do koše.) Česky tu často stačí „se“. Pozor: rubbish (odpadky) je nepočitatelné, neříká se a rubbish. A environment má vždy the: the environment.",
+        "examples": [
+          { "target": "Glass can be recycled.", "native": "Sklo se dá recyklovat." },
+          { "target": "Plastic must be put in this bin.", "native": "Plasty se musí dávat do tohohle koše." },
+          { "target": "Plastic bags are bad for the environment.", "native": "Igelitové tašky škodí životnímu prostředí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l1-w1", "target": "recycle", "native": "recyklovat; třídit odpad", "note": "We recycle. = Třídíme odpad. Čte se „rí-SAJ-kl“.", "reviewed": false },
+        { "id": "u30-l1-w2", "target": "rubbish", "native": "odpadky", "note": "Britsky. Nepočitatelné: ne a rubbish. Také „nesmysl“. Čte se „ra-biš“.", "reviewed": false },
+        { "id": "u30-l1-w3", "target": "bin", "native": "koš; popelnice", "note": "Britsky. in the bin = do koše.", "reviewed": false },
+        { "id": "u30-l1-w4", "target": "plastic", "native": "plast; plastový", "note": "Čte se „ples-tik“.", "reviewed": false },
+        { "id": "u30-l1-w5", "target": "glass", "native": "sklo; sklenice", "note": "Pozor: glasses = brýle. Čte se „glás“.", "reviewed": false },
+        { "id": "u30-l1-w6", "target": "tin", "native": "plechovka; konzerva", "note": "Britsky, také can. tin = také cín.", "reviewed": false },
+        { "id": "u30-l1-w7", "target": "bottle", "native": "láhev", "note": "Čte se „botl“.", "reviewed": false },
+        { "id": "u30-l1-w8", "target": "environment", "native": "životní prostředí", "note": "Vždy the environment. Čte se „in-VAJ-ren-ment“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l1-e1", "type": "choice", "question": "tin", "questionLang": "target", "options": ["plechovka; konzerva", "láhev", "koš; popelnice"], "answer": "plechovka; konzerva", "reviewed": false },
+        { "id": "u30-l1-e2", "type": "choice", "question": "odpadky", "questionLang": "native", "options": ["rubbish", "recycle", "environment"], "answer": "rubbish", "reviewed": false },
+        { "id": "u30-l1-e3", "type": "match", "pairs": [
+          { "target": "recycle", "native": "recyklovat" },
+          { "target": "bin", "native": "koš" },
+          { "target": "plastic", "native": "plast" },
+          { "target": "glass", "native": "sklo" },
+          { "target": "bottle", "native": "láhev" }
+        ], "reviewed": false },
+        { "id": "u30-l1-e4", "type": "listen", "audio": "Glass can be recycled.", "options": ["Glass can be recycled.", "Glasses can be recycled.", "Plastic can be recycled."], "answer": "Glass can be recycled.", "reviewed": false },
+        { "id": "u30-l1-e5", "type": "listen", "audio": "Put the bottles in the bin, please.", "options": ["Dejte prosím lahve do koše.", "Dejte prosím plechovky do koše.", "Vyndejte prosím lahve z koše."], "answer": "Dejte prosím lahve do koše.", "reviewed": false },
+        { "id": "u30-l1-e6", "type": "fill", "sentence": "Plastic bottles can ___ recycled.", "translation": "Plastové lahve se dají recyklovat.", "options": ["be", "is", "are"], "answer": "be", "explain": "Po can je vždy be, ne is nebo are.", "reviewed": false },
+        { "id": "u30-l1-e7", "type": "fill", "sentence": "There's ___ rubbish in the garden.", "translation": "Na zahradě je spousta odpadků.", "options": ["a lot of", "a", "many"], "answer": "a lot of", "explain": "Rubbish je nepočitatelné: bez a a bez many.", "reviewed": false },
+        { "id": "u30-l1-e8", "type": "type", "question": "Plast se dá recyklovat.", "answer": "Plastic can be recycled.", "reviewed": false },
+        { "id": "u30-l1-e9", "type": "build", "question": "Odpadky se musí vyhazovat do koše.", "answer": "Rubbish must be put in the bin.", "extra": ["are"], "reviewed": false },
+        { "id": "u30-l1-e10", "type": "build", "question": "Tohle škodí životnímu prostředí.", "answer": "This is bad for the environment.", "extra": ["a"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l2",
+      "title": "Počasí se mění",
+      "titleTarget": "A changing climate",
+      "reviewed": false,
+      "tip": {
+        "title": "Will, likely, might",
+        "text": "O budoucnosti mluvíte s různou jistotou. Will znamená „určitě“: It will be hot tomorrow. Be likely to znamená „pravděpodobně“: It's likely to rain. Might znamená „možná“: There might be a storm. Po might je sloveso bez to. Češi často řeknou It will maybe rain, správně je ale It might rain. Probably stojí za will: It will probably rain.",
+        "examples": [
+          { "target": "It might rain tonight.", "native": "Večer možná bude pršet." },
+          { "target": "There's likely to be a storm.", "native": "Pravděpodobně bude bouřka." },
+          { "target": "It will probably be hot tomorrow.", "native": "Zítra bude asi horko." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l2-w1", "target": "climate", "native": "podnebí; klima", "note": "Čte se „klaj-mit“.", "reviewed": false },
+        { "id": "u30-l2-w2", "target": "pollution", "native": "znečištění", "note": "air pollution = znečištění ovzduší. Čte se „pe-LÚ-šn“.", "reviewed": false },
+        { "id": "u30-l2-w3", "target": "air", "native": "vzduch; ovzduší", "note": "Čte se „é“, r se nečte.", "reviewed": false },
+        { "id": "u30-l2-w4", "target": "flood", "native": "povodeň; záplava", "note": "Čte se „flad“.", "reviewed": false },
+        { "id": "u30-l2-w5", "target": "storm", "native": "bouřka; bouře", "note": "Čte se „stóm“.", "reviewed": false },
+        { "id": "u30-l2-w6", "target": "global warming", "native": "globální oteplování", "note": "Čte se „glou-bl wó-ming“.", "reviewed": false },
+        { "id": "u30-l2-w7", "target": "might", "native": "mohlo by; možná by", "note": "It might rain. = Možná bude pršet. Po might sloveso bez to. Čte se „majt“.", "reviewed": false },
+        { "id": "u30-l2-w8", "target": "likely", "native": "pravděpodobný", "note": "It's likely to rain. = Pravděpodobně bude pršet. Čte se „lajk-li“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l2-e1", "type": "choice", "question": "flood", "questionLang": "target", "options": ["povodeň; záplava", "bouřka; bouře", "znečištění"], "answer": "povodeň; záplava", "reviewed": false },
+        { "id": "u30-l2-e2", "type": "choice", "question": "vzduch; ovzduší", "questionLang": "native", "options": ["air", "climate", "storm"], "answer": "air", "reviewed": false },
+        { "id": "u30-l2-e3", "type": "match", "pairs": [
+          { "target": "climate", "native": "podnebí" },
+          { "target": "pollution", "native": "znečištění" },
+          { "target": "storm", "native": "bouřka" },
+          { "target": "flood", "native": "povodeň" },
+          { "target": "global warming", "native": "globální oteplování" }
+        ], "reviewed": false },
+        { "id": "u30-l2-e4", "type": "listen", "audio": "It might rain tonight.", "options": ["It might rain tonight.", "It will rain tonight.", "It won't rain tonight."], "answer": "It might rain tonight.", "reviewed": false },
+        { "id": "u30-l2-e5", "type": "listen", "audio": "There's likely to be a storm.", "options": ["Pravděpodobně bude bouřka.", "Určitě nebude bouřka.", "Včera byla bouřka."], "answer": "Pravděpodobně bude bouřka.", "reviewed": false },
+        { "id": "u30-l2-e6", "type": "fill", "sentence": "It ___ rain tomorrow.", "translation": "Zítra možná bude pršet.", "options": ["might", "might to", "maybe"], "answer": "might", "explain": "Možná v budoucnosti: It might rain. Po might je sloveso bez to, maybe sloveso nenahradí.", "reviewed": false },
+        { "id": "u30-l2-e7", "type": "fill", "sentence": "It's likely ___ snow tonight.", "translation": "Večer bude pravděpodobně sněžit.", "options": ["to", "that", "for"], "answer": "to", "explain": "Be likely to a sloveso: It's likely to snow.", "reviewed": false },
+        { "id": "u30-l2-e8", "type": "fill", "sentence": "It might ___ windy tomorrow.", "translation": "Zítra možná bude foukat.", "options": ["be", "is", "to be"], "answer": "be", "explain": "Po might je sloveso bez to: might be.", "reviewed": false },
+        { "id": "u30-l2-e9", "type": "type", "question": "Znečištění ovzduší je velký problém.", "answer": "Air pollution is a big problem.", "reviewed": false },
+        { "id": "u30-l2-e10", "type": "build", "question": "Možná bude povodeň.", "answer": "There might be a flood.", "extra": ["to"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l3",
+      "title": "Co můžeme udělat",
+      "titleTarget": "What we can do",
+      "reviewed": false,
+      "tip": {
+        "title": "If we used…, we would…",
+        "text": "O něčem, co je jen představa, mluvíte větou s if: po if je minulý čas, ve druhé části would. If more people used public transport, the air would be cleaner. (Kdyby víc lidí jezdilo hromadnou dopravou, vzduch by byl čistší.) Would za if nepatří, neříká se If people would use… Radu řeknete se should: We should save energy. Pozor: nature (příroda) je bez the: We must protect nature.",
+        "examples": [
+          { "target": "If we saved energy, we would save money.", "native": "Kdybychom šetřili energií, ušetřili bychom peníze." },
+          { "target": "We should use public transport more.", "native": "Měli bychom víc jezdit hromadnou dopravou." },
+          { "target": "We must protect nature.", "native": "Musíme chránit přírodu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l3-w1", "target": "save energy", "native": "šetřit energií", "note": "save = šetřit; také zachránit. Čte se „sejv e-ne-dži“.", "reviewed": false },
+        { "id": "u30-l3-w2", "target": "public transport", "native": "hromadná doprava; MHD", "note": "by public transport = hromadnou dopravou. Čte se „pab-lik trens-pót“.", "reviewed": false },
+        { "id": "u30-l3-w3", "target": "reduce", "native": "snížit; zmenšit", "note": "Čte se „ri-DJÚS“.", "reviewed": false },
+        { "id": "u30-l3-w4", "target": "protect", "native": "chránit", "note": "Čte se „pre-TEKT“.", "reviewed": false },
+        { "id": "u30-l3-w5", "target": "nature", "native": "příroda", "note": "Bez the: protect nature. Čte se „nej-ča“.", "reviewed": false },
+        { "id": "u30-l3-w6", "target": "wildlife", "native": "volně žijící zvířata", "note": "Zvířata a rostliny v přírodě. Čte se „wajld-lajf“.", "reviewed": false },
+        { "id": "u30-l3-w7", "target": "planet", "native": "planeta", "note": "Čte se „ple-nit“.", "reviewed": false },
+        { "id": "u30-l3-w8", "target": "waste", "native": "odpad; plýtvat", "note": "food waste = vyhozené jídlo. Don't waste water. = Neplýtvejte vodou. Čte se „wejst“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l3-e1", "type": "choice", "question": "wildlife", "questionLang": "target", "options": ["volně žijící zvířata", "příroda", "planeta"], "answer": "volně žijící zvířata", "reviewed": false },
+        { "id": "u30-l3-e2", "type": "choice", "question": "snížit; zmenšit", "questionLang": "native", "options": ["reduce", "protect", "waste"], "answer": "reduce", "reviewed": false },
+        { "id": "u30-l3-e3", "type": "match", "pairs": [
+          { "target": "save energy", "native": "šetřit energií" },
+          { "target": "public transport", "native": "hromadná doprava" },
+          { "target": "protect", "native": "chránit" },
+          { "target": "nature", "native": "příroda" },
+          { "target": "waste", "native": "plýtvat" }
+        ], "reviewed": false },
+        { "id": "u30-l3-e4", "type": "listen", "audio": "We should use public transport more.", "options": ["We should use public transport more.", "We use public transport more.", "We should use public transport less."], "answer": "We should use public transport more.", "reviewed": false },
+        { "id": "u30-l3-e5", "type": "listen", "audio": "We should protect wildlife.", "options": ["Měli bychom chránit volně žijící zvířata.", "Chráníme volně žijící zvířata.", "Měli bychom chránit planetu."], "answer": "Měli bychom chránit volně žijící zvířata.", "reviewed": false },
+        { "id": "u30-l3-e6", "type": "fill", "sentence": "If more people ___ public transport, the air would be cleaner.", "translation": "Kdyby víc lidí jezdilo hromadnou dopravou, vzduch by byl čistší.", "options": ["used", "using", "uses"], "answer": "used", "explain": "Po if je minulý čas (used), would patří jen do druhé části.", "reviewed": false },
+        { "id": "u30-l3-e7", "type": "fill", "sentence": "We must protect ___.", "translation": "Musíme chránit přírodu.", "options": ["nature", "the nature", "a nature"], "answer": "nature", "explain": "Nature ve smyslu příroda je bez členu.", "reviewed": false },
+        { "id": "u30-l3-e8", "type": "fill", "sentence": "We ___ waste so much water.", "translation": "Neměli bychom tolik plýtvat vodou.", "options": ["shouldn't", "don't should", "shouldn't to"], "answer": "shouldn't", "explain": "Zápor je shouldn't a sloveso bez to.", "reviewed": false },
+        { "id": "u30-l3-e9", "type": "type", "question": "Měli bychom šetřit energií.", "answer": "We should save energy.", "reviewed": false },
+        { "id": "u30-l3-e10", "type": "build", "question": "Kdybychom šetřili energií, ušetřili bychom peníze.", "answer": "If we saved energy, we would save money.", "extra": ["will"], "accept": ["We would save money if we saved energy."], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "id": "u25",
+  "level": "B1",
+  "title": "Problémy na cestách",
+  "titleTarget": "Travel problems",
+  "description": "Zpožděné a zrušené lety, ztracená zavazadla, stížnosti a zdvořilé prosby. Předminulý čas: the train had left.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u25-l1",
+      "title": "Zpoždění",
+      "titleTarget": "Delays",
+      "reviewed": false,
+      "tip": {
+        "title": "Had left: co se stalo ještě dřív",
+        "text": "Když vyprávíte o minulosti a jedna věc se stala ještě před druhou, použijte pro tu dřívější past perfect: had a třetí tvar slovesa (leave, left, left). When we arrived, the train had left. (Když jsme přišli, vlak už byl pryč.) Bez had to znamená něco jiného: When we arrived, the train left. (Vlak odjel, až když jsme přišli.) Česky stačí minulý čas a slovo „už“. Had je stejné pro všechny osoby: I had, she had, they had.",
+        "examples": [
+          {
+            "target": "When we arrived, the train had left.",
+            "native": "Když jsme přišli, vlak už odjel."
+          },
+          {
+            "target": "We had already checked in when they cancelled the flight.",
+            "native": "Už jsme byli odbavení, když let zrušili."
+          },
+          {
+            "target": "Our train is delayed.",
+            "native": "Náš vlak má zpoždění."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u25-l1-w1",
+          "target": "flight",
+          "native": "let; letecký spoj",
+          "note": "Čte se „flajt“, gh se nevyslovuje.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w2",
+          "target": "delay",
+          "native": "zpoždění",
+          "note": "Čte se „di-LEJ“. The train is delayed. = Vlak má zpoždění.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w3",
+          "target": "on time",
+          "native": "načas; podle plánu",
+          "note": "Přesně podle jízdního řádu. In time = včas, dost brzy.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w4",
+          "target": "cancel",
+          "native": "zrušit",
+          "note": "Čte se „KEN-sl“. Britsky cancelled se dvěma l.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w5",
+          "target": "check in",
+          "native": "odbavit se",
+          "note": "Na letišti. V hotelu znamená „ubytovat se“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w6",
+          "target": "gate",
+          "native": "východ k letadlu",
+          "note": "Na letišti místo, kde se nastupuje. Čte se „gejt“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w7",
+          "target": "connection",
+          "native": "přípoj; spojení",
+          "note": "Čte se „ke-NEK-šn“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-w8",
+          "target": "platform",
+          "native": "nástupiště",
+          "note": "Čte se „PLET-fóm“. Britské platform three odpovídá spíš české „třetí koleji“.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u25-l1-e1",
+          "type": "choice",
+          "question": "delay",
+          "questionLang": "target",
+          "options": [
+            "zpoždění",
+            "nástupiště",
+            "přípoj; spojení"
+          ],
+          "answer": "zpoždění",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e2",
+          "type": "choice",
+          "question": "zrušit",
+          "questionLang": "native",
+          "options": [
+            "cancel",
+            "delay",
+            "check in"
+          ],
+          "answer": "cancel",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "flight",
+              "native": "let"
+            },
+            {
+              "target": "gate",
+              "native": "východ k letadlu"
+            },
+            {
+              "target": "platform",
+              "native": "nástupiště"
+            },
+            {
+              "target": "connection",
+              "native": "přípoj"
+            },
+            {
+              "target": "on time",
+              "native": "načas"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e4",
+          "type": "listen",
+          "audio": "Our flight is delayed.",
+          "options": [
+            "Our flight is delayed.",
+            "Our flight is cancelled.",
+            "Our train is delayed."
+          ],
+          "answer": "Our flight is delayed.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e5",
+          "type": "listen",
+          "audio": "When we arrived at the station, the train had already left.",
+          "options": [
+            "Když jsme přišli na nádraží, vlak už odjel.",
+            "Když jsme přišli na nádraží, vlak právě přijížděl.",
+            "Když jsme přišli na nádraží, vlak ještě stál."
+          ],
+          "answer": "Když jsme přišli na nádraží, vlak už odjel.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e6",
+          "type": "fill",
+          "sentence": "When we arrived, the train ___ left.",
+          "translation": "Když jsme přišli, vlak už odjel.",
+          "options": [
+            "had",
+            "has",
+            "have"
+          ],
+          "answer": "had",
+          "explain": "Vlak odjel ještě před naším příchodem, proto past perfect: had left.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e7",
+          "type": "fill",
+          "sentence": "The plane had already ___ when we arrived at the gate.",
+          "translation": "Když jsme přišli k východu, letadlo už odletělo.",
+          "options": [
+            "left",
+            "leave",
+            "leaves"
+          ],
+          "answer": "left",
+          "explain": "Po had je třetí tvar slovesa: leave, left, left.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e8",
+          "type": "type",
+          "question": "Náš let má zpoždění.",
+          "answer": "Our flight is delayed.",
+          "accept": [
+            "Our flight has been delayed.",
+            "Our plane is delayed.",
+            "Our flight is late."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e9",
+          "type": "build",
+          "question": "Když jsme přijeli, vlak už odjel.",
+          "answer": "When we arrived, the train had already left.",
+          "extra": [
+            "has"
+          ],
+          "accept": [
+            "The train had already left when we arrived."
+          ],
+          "optional": [
+            "already"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l1-e10",
+          "type": "speak",
+          "text": "We missed our connection.",
+          "native": "Ujel nám přípoj.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u25-l2",
+      "title": "Ztracené zavazadlo",
+      "titleTarget": "Lost luggage",
+      "reviewed": false,
+      "tip": {
+        "title": "By the time… had…",
+        "text": "Při vyprávění se hodí by the time (než; do té doby, než). Za ním je obyčejný minulý čas, ve druhé části věty past perfect: By the time we found the office, it had closed. (Než jsme kancelář našli, už bylo zavřeno.) Already dejte mezi had a sloveso: They had already lost our luggage. A pozor: luggage (zavazadla) je anglicky nepočitatelné, nikdy a luggage ani luggages. Jeden kufr je a suitcase nebo a bag.",
+        "examples": [
+          {
+            "target": "By the time we found the office, it had closed.",
+            "native": "Než jsme kancelář našli, už bylo zavřeno."
+          },
+          {
+            "target": "They had already lost our luggage.",
+            "native": "Už předtím nám ztratili zavazadla."
+          },
+          {
+            "target": "We'd like to make a complaint.",
+            "native": "Chtěli bychom podat stížnost."
+          },
+          {
+            "target": "Please fill in this form.",
+            "native": "Vyplňte prosím tento formulář."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u25-l2-w1",
+          "target": "luggage",
+          "native": "zavazadla",
+          "note": "Nepočitatelné: my luggage is…, nikdy a luggage. Čte se „LA-gidž“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w2",
+          "target": "lost property",
+          "native": "ztráty a nálezy",
+          "note": "Kancelář na nádraží nebo letišti. Čte se „lost PRO-pe-ti“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w3",
+          "target": "complain",
+          "native": "stěžovat si",
+          "note": "complain about = stěžovat si na. Čte se „kem-PLEJN“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w4",
+          "target": "complaint",
+          "native": "stížnost",
+          "note": "make a complaint = podat stížnost. Na konci je t.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w5",
+          "target": "damaged",
+          "native": "poškozený",
+          "note": "Čte se „DE-midžd“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w6",
+          "target": "refund",
+          "native": "vrácení peněz",
+          "note": "get a refund = dostat peníze zpět. Čte se „RÍ-fand“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-w7",
+          "target": "form",
+          "native": "formulář",
+          "note": "fill in a form = vyplnit formulář. Čte se „fóm“.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u25-l2-e1",
+          "type": "choice",
+          "question": "refund",
+          "questionLang": "target",
+          "options": [
+            "vrácení peněz",
+            "stížnost",
+            "formulář"
+          ],
+          "answer": "vrácení peněz",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e2",
+          "type": "choice",
+          "question": "stěžovat si",
+          "questionLang": "native",
+          "options": [
+            "complain",
+            "complaint",
+            "refund"
+          ],
+          "answer": "complain",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "luggage",
+              "native": "zavazadla"
+            },
+            {
+              "target": "complain",
+              "native": "stěžovat si"
+            },
+            {
+              "target": "complaint",
+              "native": "stížnost"
+            },
+            {
+              "target": "damaged",
+              "native": "poškozený"
+            },
+            {
+              "target": "form",
+              "native": "formulář"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e4",
+          "type": "listen",
+          "audio": "My suitcase is damaged.",
+          "options": [
+            "My suitcase is damaged.",
+            "My suitcase isn't here.",
+            "My bag is damaged."
+          ],
+          "answer": "My suitcase is damaged.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e5",
+          "type": "listen",
+          "audio": "Excuse me, where's the lost property office?",
+          "options": [
+            "Promiňte, kde jsou ztráty a nálezy?",
+            "Promiňte, kde je pokladna?",
+            "Promiňte, kde je nástupiště?"
+          ],
+          "answer": "Promiňte, kde jsou ztráty a nálezy?",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e6",
+          "type": "fill",
+          "sentence": "By the time we found the office, it ___ closed.",
+          "translation": "Než jsme kancelář našli, už bylo zavřeno.",
+          "options": [
+            "had",
+            "has",
+            "have"
+          ],
+          "answer": "had",
+          "explain": "Kancelář zavřela ještě předtím, než jsme ji našli: had closed.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e7",
+          "type": "fill",
+          "sentence": "Where is your ___?",
+          "translation": "Kde máte zavazadla?",
+          "options": [
+            "luggage",
+            "luggages",
+            "a luggage"
+          ],
+          "answer": "luggage",
+          "explain": "Luggage je nepočitatelné: bez a a bez -s.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e8",
+          "type": "type",
+          "question": "Chtěli bychom peníze zpět.",
+          "answer": "We'd like a refund.",
+          "accept": [
+            "We want a refund.",
+            "We'd like our money back.",
+            "We want our money back."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e9",
+          "type": "build",
+          "question": "Už předtím nám ztratili zavazadla.",
+          "answer": "They had already lost our luggage.",
+          "extra": [
+            "luggages"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l2-e10",
+          "type": "build",
+          "question": "Musíme vyplnit tenhle formulář?",
+          "answer": "Do we have to fill in this form?",
+          "extra": [
+            "filling"
+          ],
+          "accept": [
+            "Do we have to fill this form in?"
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u25-l3",
+      "title": "Zdvořilé prosby",
+      "titleTarget": "Polite requests",
+      "reviewed": false,
+      "tip": {
+        "title": "Would you mind…? Do you mind if I…?",
+        "text": "Velmi zdvořilá prosba je Would you mind + sloveso s -ing: Would you mind waiting? (Nevadilo by vám počkat?) Když se ptáte, jestli smíte něco udělat vy, řekněte Do you mind if I + přítomný čas: Do you mind if I open the window? Pozor na odpověď: mind znamená „vadit“. Když vám to nevadí, řekněte No, not at all. (Vůbec ne, klidně.) Yes by znamenalo, že vám to vadí. Jemná prosba je také Could you possibly…?",
+        "examples": [
+          {
+            "target": "Would you mind closing the door?",
+            "native": "Nevadilo by vám zavřít dveře?"
+          },
+          {
+            "target": "Do you mind if I open the window?",
+            "native": "Nevadí vám, když otevřu okno?"
+          },
+          {
+            "target": "No, not at all.",
+            "native": "Vůbec ne, klidně."
+          },
+          {
+            "target": "I'm sorry to bother you, but could you possibly help me?",
+            "native": "Promiňte, že vás obtěžuji, ale nemohli byste mi pomoct?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u25-l3-w1",
+          "target": "Would you mind waiting a moment?",
+          "native": "Nevadilo by vám chvilku počkat?",
+          "note": "Po Would you mind je sloveso s -ing.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w2",
+          "target": "Could you possibly help me?",
+          "native": "Nemohli byste mi prosím pomoct?",
+          "note": "Velmi zdvořilé. Possibly se čte „PO-si-bli“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w3",
+          "target": "Do you mind if I open the window?",
+          "native": "Nevadí vám, když otevřu okno?",
+          "note": "Po if I je přítomný čas. Odpověď No, not at all. znamená, že to nevadí.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w4",
+          "target": "I'm sorry to bother you.",
+          "native": "Promiňte, že vás obtěžuji.",
+          "note": "Bother se čte „BO-da“, ale th jako ve slově the.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w5",
+          "target": "Not at all.",
+          "native": "Vůbec ne.",
+          "note": "Na Do you mind…? znamená „klidně, nevadí mi to“. Na Thank you znamená „není zač“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w6",
+          "target": "apologise",
+          "native": "omluvit se",
+          "note": "apologise for = omluvit se za. Britsky -ise. Čte se „e-PO-le-džajz“.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-w7",
+          "target": "in a hurry",
+          "native": "ve spěchu",
+          "note": "I'm in a hurry. = Spěchám. Čte se „in e HA-ri“.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u25-l3-e1",
+          "type": "choice",
+          "question": "Not at all.",
+          "questionLang": "target",
+          "options": [
+            "Vůbec ne.",
+            "Omlouvám se.",
+            "Spěchám."
+          ],
+          "answer": "Vůbec ne.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e2",
+          "type": "choice",
+          "question": "Promiňte, že vás obtěžuji.",
+          "questionLang": "native",
+          "options": [
+            "I'm sorry to bother you.",
+            "I'm sorry I'm late.",
+            "I'm afraid I can't."
+          ],
+          "answer": "I'm sorry to bother you.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "apologise",
+              "native": "omluvit se"
+            },
+            {
+              "target": "in a hurry",
+              "native": "ve spěchu"
+            },
+            {
+              "target": "Not at all.",
+              "native": "Vůbec ne."
+            },
+            {
+              "target": "Could you possibly help me?",
+              "native": "Nemohli byste mi prosím pomoct?"
+            },
+            {
+              "target": "Do you mind if I open the window?",
+              "native": "Nevadí vám, když otevřu okno?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e4",
+          "type": "listen",
+          "audio": "Would you mind closing the door?",
+          "options": [
+            "Would you mind closing the door?",
+            "Would you mind opening the door?",
+            "Do you mind if I close the door?"
+          ],
+          "answer": "Would you mind closing the door?",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e5",
+          "type": "listen",
+          "audio": "Do you mind if I wait here?",
+          "options": [
+            "Nevadí vám, když tady počkám?",
+            "Mohli byste tady počkat?",
+            "Čekáte tady?"
+          ],
+          "answer": "Nevadí vám, když tady počkám?",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e6",
+          "type": "fill",
+          "sentence": "Would you mind ___ the window?",
+          "translation": "Nevadilo by vám otevřít okno?",
+          "options": [
+            "opening",
+            "to open",
+            "open"
+          ],
+          "answer": "opening",
+          "explain": "Po Would you mind je sloveso s -ing.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e7",
+          "type": "fill",
+          "sentence": "Do you mind if I ___ the door?",
+          "translation": "Nevadí vám, když zavřu dveře?",
+          "options": [
+            "close",
+            "closing",
+            "will close"
+          ],
+          "answer": "close",
+          "explain": "Po if je přítomný čas, ne will a ne -ing.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e8",
+          "type": "type",
+          "question": "Spěchám.",
+          "answer": "I'm in a hurry.",
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e9",
+          "type": "build",
+          "question": "Nevadilo by vám chvilku počkat?",
+          "answer": "Would you mind waiting a moment?",
+          "extra": [
+            "to",
+            "wait"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u25-l3-e10",
+          "type": "speak",
+          "text": "No, not at all.",
+          "native": "Vůbec ne, klidně.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

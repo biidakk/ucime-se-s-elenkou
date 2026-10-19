@@ -226,6 +226,11 @@ export function checkCourse(courseId, units) {
           }
           // Capitals don't matter: another word order may start with a different word.
           const sameTiles = (s) => tilesOf(s).map((t) => t.toLowerCase()).sort().join(' ');
+          for (const o of ex.optional ?? []) {
+            if (!tiles.map((x) => x.toLowerCase()).includes(String(o).toLowerCase())) {
+              error(e, `optional word "${o}" is not a tile of the answer`);
+            }
+          }
           for (const a of ex.accept ?? []) {
             if (sameTiles(a) !== sameTiles(ex.answer)) error(e, `accepted answer "${a}" must use the same tiles`);
           }

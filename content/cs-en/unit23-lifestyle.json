@@ -1,0 +1,144 @@
+{
+  "id": "u23",
+  "level": "B1",
+  "title": "Zdraví a životní styl",
+  "titleTarget": "Health and lifestyle",
+  "description": "Zdravý život, zlozvyky a frázová slovesa, nehody a rozdíl mezi so a such.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u23-l1",
+      "title": "Zdravý život",
+      "titleTarget": "A healthy life",
+      "reviewed": false,
+      "tip": {
+        "title": "Too tired, fit enough",
+        "text": "Too stojí před přídavným jménem a znamená „příliš“: It's too hot. Enough (dost) stojí za přídavným jménem: She isn't fit enough. Neříkejte enough fit. Často pokračuje to + sloveso: He's too tired to walk. (Je příliš unavený na to, aby šel pěšky.) U přídavného jména je jen too, ne too much: too tired, ne too much tired.",
+        "examples": [
+          { "target": "This coffee is too hot.", "native": "Ta káva je moc horká." },
+          { "target": "He's too tired to walk.", "native": "Je příliš unavený na to, aby šel pěšky." },
+          { "target": "She isn't fit enough to run.", "native": "Nemá dost kondice na běhání." },
+          { "target": "Is it warm enough?", "native": "Je dost teplo?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l1-w1", "target": "healthy", "native": "zdravý", "note": "Čte se „helthi“, th jako ve slově three.", "reviewed": false },
+        { "id": "u23-l1-w2", "target": "unhealthy", "native": "nezdravý", "reviewed": false },
+        { "id": "u23-l1-w3", "target": "fit", "native": "v kondici; ve formě", "note": "keep fit = udržovat se v kondici", "reviewed": false },
+        { "id": "u23-l1-w4", "target": "diet", "native": "strava; dieta", "note": "a healthy diet = zdravá strava; be on a diet = držet dietu. Čte se „dajet“.", "reviewed": false },
+        { "id": "u23-l1-w5", "target": "exercise", "native": "pohyb; cvičení", "note": "do exercise = cvičit, hýbat se. Čte se „eksesajz“.", "reviewed": false },
+        { "id": "u23-l1-w6", "target": "put on weight", "native": "přibrat", "note": "Čte se „wejt“, gh se nečte.", "reviewed": false },
+        { "id": "u23-l1-w7", "target": "lose weight", "native": "zhubnout", "note": "Minulý čas lost weight.", "reviewed": false },
+        { "id": "u23-l1-w8", "target": "stressed", "native": "ve stresu", "note": "I'm stressed. = Jsem ve stresu. Čte se „strest“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l1-e1", "type": "choice", "question": "diet", "questionLang": "target", "options": ["strava; dieta", "pohyb; cvičení", "v kondici; ve formě"], "answer": "strava; dieta", "reviewed": false },
+        { "id": "u23-l1-e2", "type": "choice", "question": "zhubnout", "questionLang": "native", "options": ["lose weight", "put on weight", "keep fit"], "answer": "lose weight", "reviewed": false },
+        { "id": "u23-l1-e3", "type": "match", "pairs": [
+          { "target": "healthy", "native": "zdravý" },
+          { "target": "unhealthy", "native": "nezdravý" },
+          { "target": "exercise", "native": "pohyb" },
+          { "target": "put on weight", "native": "přibrat" },
+          { "target": "stressed", "native": "ve stresu" }
+        ], "reviewed": false },
+        { "id": "u23-l1-e4", "type": "listen", "audio": "It isn't warm enough to swim.", "options": ["It isn't warm enough to swim.", "It's too warm to swim.", "It isn't warm enough to walk."], "answer": "It isn't warm enough to swim.", "reviewed": false },
+        { "id": "u23-l1-e5", "type": "listen", "audio": "He isn't fit enough.", "options": ["Nemá dost kondice.", "Je ve velmi dobré kondici.", "Je příliš unavený."], "answer": "Nemá dost kondice.", "reviewed": false },
+        { "id": "u23-l1-e6", "type": "fill", "sentence": "She isn't ___ to run.", "translation": "Nemá dost kondice na běhání.", "options": ["fit enough", "enough fit", "too much fit"], "answer": "fit enough", "explain": "Enough stojí za přídavným jménem: fit enough.", "reviewed": false },
+        { "id": "u23-l1-e7", "type": "fill", "sentence": "This tea is ___ hot.", "translation": "Ten čaj je moc horký.", "options": ["too", "too much", "enough"], "answer": "too", "explain": "Před přídavným jménem je jen too, ne too much.", "reviewed": false },
+        { "id": "u23-l1-e8", "type": "type", "question": "Potřebuji zhubnout.", "answer": "I need to lose weight.", "reviewed": false },
+        { "id": "u23-l1-e9", "type": "build", "question": "Je příliš unavený na to, aby šel pěšky.", "answer": "He's too tired to walk.", "extra": ["very"], "reviewed": false },
+        { "id": "u23-l1-e10", "type": "build", "question": "Dnes není dost teplo.", "answer": "It isn't warm enough today.", "extra": ["much"], "accept": ["Today it isn't warm enough."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l2",
+      "title": "Zlozvyky",
+      "titleTarget": "Bad habits",
+      "reviewed": false,
+      "tip": {
+        "title": "Frázová slovesa: give up smoking",
+        "text": "Frázové sloveso má dvě nebo tři části a jeho význam často nejde odhadnout: give up = přestat, look after = starat se o. V hovorové angličtině jsou velmi častá, učte se je vcelku. Když po nich následuje další sloveso, má -ing: He gave up smoking. (Přestal kouřit.) She has taken up swimming. (Začala chodit plavat.) Neříkejte give up to smoke.",
+        "examples": [
+          { "target": "He gave up smoking ten years ago.", "native": "Před deseti lety přestal kouřit." },
+          { "target": "We should cut down on sugar.", "native": "Měli bychom omezit cukr." },
+          { "target": "She has taken up swimming.", "native": "Začala chodit plavat." },
+          { "target": "Who looks after your dog?", "native": "Kdo se vám stará o psa?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l2-w1", "target": "give up", "native": "přestat s; vzdát se", "note": "give up smoking = přestat kouřit. Minulý čas gave up.", "reviewed": false },
+        { "id": "u23-l2-w2", "target": "cut down on", "native": "omezit", "note": "cut down on sugar = omezit cukr", "reviewed": false },
+        { "id": "u23-l2-w3", "target": "take up", "native": "začít se věnovat", "note": "Nový koníček: take up painting. Minulý čas took up.", "reviewed": false },
+        { "id": "u23-l2-w4", "target": "look after", "native": "starat se o; hlídat", "note": "look after the children = hlídat děti", "reviewed": false },
+        { "id": "u23-l2-w5", "target": "get over", "native": "dostat se z; překonat", "note": "get over a cold = vyléčit se z nachlazení. Minulý čas got over.", "reviewed": false },
+        { "id": "u23-l2-w6", "target": "smoke", "native": "kouřit", "note": "No smoking. = Kouření zakázáno.", "reviewed": false },
+        { "id": "u23-l2-w7", "target": "habit", "native": "zvyk; návyk", "note": "a bad habit = zlozvyk. Čte se „hebit“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l2-e1", "type": "choice", "question": "get over", "questionLang": "target", "options": ["dostat se z; překonat", "starat se o; hlídat", "začít se věnovat"], "answer": "dostat se z; překonat", "reviewed": false },
+        { "id": "u23-l2-e2", "type": "choice", "question": "omezit", "questionLang": "native", "options": ["cut down on", "take up", "look after"], "answer": "cut down on", "reviewed": false },
+        { "id": "u23-l2-e3", "type": "match", "pairs": [
+          { "target": "give up", "native": "přestat s" },
+          { "target": "take up", "native": "začít se věnovat" },
+          { "target": "look after", "native": "starat se o" },
+          { "target": "smoke", "native": "kouřit" },
+          { "target": "habit", "native": "zvyk" }
+        ], "reviewed": false },
+        { "id": "u23-l2-e4", "type": "listen", "audio": "He gave up smoking last year.", "options": ["He gave up smoking last year.", "He took up smoking last year.", "He gave up sugar last year."], "answer": "He gave up smoking last year.", "reviewed": false },
+        { "id": "u23-l2-e5", "type": "listen", "audio": "Who looks after the children?", "options": ["Kdo hlídá děti?", "Kdo hledá děti?", "Kdo vozí děti?"], "answer": "Kdo hlídá děti?", "reviewed": false },
+        { "id": "u23-l2-e6", "type": "fill", "sentence": "My husband gave up ___.", "translation": "Můj manžel přestal kouřit.", "options": ["smoking", "to smoke", "smoke"], "answer": "smoking", "explain": "Po give up je sloveso s -ing.", "reviewed": false },
+        { "id": "u23-l2-e7", "type": "fill", "sentence": "We should cut down ___ sugar.", "translation": "Měli bychom omezit cukr.", "options": ["on", "of", "at"], "answer": "on", "explain": "Omezit něco = cut down on something.", "reviewed": false },
+        { "id": "u23-l2-e8", "type": "type", "question": "Je to zlozvyk.", "answer": "It's a bad habit.", "accept": ["That's a bad habit."], "reviewed": false },
+        { "id": "u23-l2-e9", "type": "build", "question": "Máma nám hlídá děti.", "answer": "My mum looks after our children.", "extra": ["look"], "reviewed": false },
+        { "id": "u23-l2-e10", "type": "build", "question": "Rychle se z toho dostala.", "answer": "She got over it quickly.", "extra": ["get"], "accept": ["She quickly got over it."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l3",
+      "title": "Nehoda",
+      "titleTarget": "An accident",
+      "reviewed": false,
+      "tip": {
+        "title": "So painful, such a bad accident",
+        "text": "Česky řeknete „tak“ nebo „takový“, anglicky záleží na tom, co následuje. Před samotné přídavné jméno dejte so: It was so painful! Před přídavné jméno s podstatným jménem dejte such a: It was such a bad accident! V množném čísle je such bez a: such nice people. Neříkejte so bad accident ani such nice day. A pozor: a plaster je v Británii náplast, ale in plaster znamená v sádře.",
+        "examples": [
+          { "target": "It was so painful!", "native": "Tak to bolelo!" },
+          { "target": "It was such a bad accident.", "native": "Byla to tak vážná nehoda." },
+          { "target": "They're such nice people.", "native": "Jsou to tak milí lidé." },
+          { "target": "His arm is in plaster.", "native": "Má ruku v sádře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l3-w1", "target": "accident", "native": "nehoda; úraz", "note": "by accident = omylem, náhodou. Čte se „eksident“.", "reviewed": false },
+        { "id": "u23-l3-w2", "target": "emergency", "native": "nouzová situace", "note": "V Británii tísňová linka 999. Čte se „i-MÉ-džen-si“.", "reviewed": false },
+        { "id": "u23-l3-w3", "target": "fall over", "native": "upadnout; spadnout", "note": "Minulý čas fell over.", "reviewed": false },
+        { "id": "u23-l3-w4", "target": "painful", "native": "bolestivý", "note": "It's painful. = Bolí to.", "reviewed": false },
+        { "id": "u23-l3-w5", "target": "hospital", "native": "nemocnice", "note": "in hospital = v nemocnici, britsky obvykle bez the. Čte se „hospitl“.", "reviewed": false },
+        { "id": "u23-l3-w6", "target": "ambulance", "native": "sanitka; záchranka", "note": "Čte se „embjulens“.", "reviewed": false },
+        { "id": "u23-l3-w7", "target": "bandage", "native": "obvaz", "note": "Čte se „bendidž“.", "reviewed": false },
+        { "id": "u23-l3-w8", "target": "plaster", "native": "náplast; sádra", "note": "a plaster = náplast; in plaster = v sádře. Čte se „plásta“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l3-e1", "type": "choice", "question": "bandage", "questionLang": "target", "options": ["obvaz", "náplast; sádra", "sanitka; záchranka"], "answer": "obvaz", "reviewed": false },
+        { "id": "u23-l3-e2", "type": "choice", "question": "nemocnice", "questionLang": "native", "options": ["hospital", "ambulance", "accident"], "answer": "hospital", "reviewed": false },
+        { "id": "u23-l3-e3", "type": "match", "pairs": [
+          { "target": "accident", "native": "nehoda" },
+          { "target": "emergency", "native": "nouzová situace" },
+          { "target": "fall over", "native": "upadnout" },
+          { "target": "painful", "native": "bolestivý" },
+          { "target": "ambulance", "native": "sanitka" }
+        ], "reviewed": false },
+        { "id": "u23-l3-e4", "type": "listen", "audio": "Call an ambulance!", "options": ["Call an ambulance!", "Call a taxi!", "Call the doctor!"], "answer": "Call an ambulance!", "reviewed": false },
+        { "id": "u23-l3-e5", "type": "listen", "audio": "My grandmother fell over and broke her arm.", "options": ["Babička upadla a zlomila si ruku.", "Babička upadla a zlomila si nohu.", "Babička si zlomila ruku na zahradě."], "answer": "Babička upadla a zlomila si ruku.", "reviewed": false },
+        { "id": "u23-l3-e6", "type": "fill", "sentence": "It was ___ a bad accident.", "translation": "Byla to tak vážná nehoda.", "options": ["such", "so", "very"], "answer": "such", "explain": "Před a + přídavné jméno + podstatné jméno je such.", "reviewed": false },
+        { "id": "u23-l3-e7", "type": "fill", "sentence": "My leg is ___ painful!", "translation": "Noha mě tak bolí!", "options": ["so", "such", "such a"], "answer": "so", "explain": "Před samotným přídavným jménem je so.", "reviewed": false },
+        { "id": "u23-l3-e8", "type": "type", "question": "Moje sestra je v nemocnici.", "answer": "My sister is in hospital.", "accept": ["My sister is in the hospital."], "reviewed": false },
+        { "id": "u23-l3-e9", "type": "build", "question": "Jsou to tak milí lidé.", "answer": "They're such nice people.", "extra": ["a"], "reviewed": false },
+        { "id": "u23-l3-e10", "type": "build", "question": "Upadla na ulici.", "answer": "She fell over in the street.", "extra": ["fall"], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "u26",
+  "level": "B1",
+  "title": "Problémy na cestách",
+  "titleTarget": "Probleme unterwegs",
+  "description": "Krádež, porucha auta a stížnost v hotelu: als a wenn, lassen, obwohl a trotzdem.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u26-l1",
+      "title": "Krádež",
+      "titleTarget": "Hilfe, ein Dieb!",
+      "reviewed": false,
+      "tip": {
+        "title": "als a wenn = když",
+        "text": "Česky říkáme vždy „když“, německy máme dvě slova. Als použijete pro jednu událost v minulosti: Als wir in Wien waren, … Wenn použijete pro věci, které se opakují (pokaždé když), a pro přítomnost a budoucnost: Wenn ich nach Wien fahre, … Po als i wenn jde sloveso na konec. Pro jednu událost v minulosti je tedy chyba říct „Wenn wir in Wien waren“. A pozor, wann znamená „kdy“ v otázce: Wann kommst du?",
+        "examples": [
+          { "target": "Als wir in Wien waren, hat ein Dieb meine Tasche gestohlen.", "native": "Když jsme byli ve Vídni, zloděj mi ukradl tašku." },
+          { "target": "Wenn ich nach Wien fahre, besuche ich meine Schwester.", "native": "Když jedu do Vídně, vždycky navštívím sestru." },
+          { "target": "Was ist passiert?", "native": "Co se stalo?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l1-w1", "target": "passieren", "native": "stát se", "note": "Minulý čas se sein: Was ist passiert? Přízvuk: [pa-SÍ-ren]", "reviewed": false },
+        { "id": "u26-l1-w2", "target": "verlieren", "native": "ztratit", "note": "Příčestí: verloren. Přízvuk: [fer-LÍ-ren]", "reviewed": false },
+        { "id": "u26-l1-w3", "target": "stehlen", "native": "ukrást; krást", "note": "h se nečte: [ŠTÉ-len]; er stiehlt, příčestí: gestohlen", "reviewed": false },
+        { "id": "u26-l1-w4", "target": "der Dieb", "native": "zloděj", "note": "Na konci zní p: [díp]; množné číslo: die Diebe", "reviewed": false },
+        { "id": "u26-l1-w5", "target": "die Polizei", "native": "policie", "note": "Přízvuk na konci: [po-li-CAJ]; zur Polizei gehen = jít na policii", "reviewed": false },
+        { "id": "u26-l1-w6", "target": "die Anzeige", "native": "trestní oznámení", "note": "eine Anzeige machen = nahlásit na policii (úředně Anzeige erstatten); také inzerát. Množné číslo: die Anzeigen", "reviewed": false },
+        { "id": "u26-l1-w7", "target": "das Fundbüro", "native": "ztráty a nálezy", "note": "Úřad, kam se nosí nalezené věci. Množné číslo: die Fundbüros", "reviewed": false },
+        { "id": "u26-l1-w8", "target": "die Tasche", "native": "taška", "note": "Také kapsa; kabelka je die Handtasche. Množné číslo: die Taschen", "reviewed": false },
+        { "id": "u26-l1-w9", "target": "die Geldbörse", "native": "peněženka", "note": "Hovorově také das Portemonnaie. Množné číslo: die Geldbörsen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l1-e1", "type": "choice", "question": "der Dieb", "questionLang": "target", "options": ["zloděj", "policie", "taška"], "answer": "zloděj", "reviewed": false },
+        { "id": "u26-l1-e2", "type": "choice", "question": "ztráty a nálezy", "questionLang": "native", "options": ["das Fundbüro", "die Polizei", "die Anzeige"], "answer": "das Fundbüro", "reviewed": false },
+        { "id": "u26-l1-e3", "type": "match", "pairs": [
+          { "target": "passieren", "native": "stát se" },
+          { "target": "verlieren", "native": "ztratit" },
+          { "target": "stehlen", "native": "ukrást" },
+          { "target": "die Tasche", "native": "taška" },
+          { "target": "die Geldbörse", "native": "peněženka" }
+        ], "reviewed": false },
+        { "id": "u26-l1-e4", "type": "listen", "audio": "Ich möchte eine Anzeige machen.", "options": ["Ich möchte eine Anzeige machen.", "Ich möchte eine Pause machen.", "Ich möchte einen Ausflug machen."], "answer": "Ich möchte eine Anzeige machen.", "reviewed": false },
+        { "id": "u26-l1-e5", "type": "fill", "sentence": "___ Eva gestern in der Stadt war, hat sie ihre Geldbörse verloren.", "translation": "Když byla Eva včera ve městě, ztratila peněženku.", "options": ["Als", "Wenn", "Wann"], "answer": "Als", "explain": "Jedna událost v minulosti (gestern), proto als.", "reviewed": false },
+        { "id": "u26-l1-e6", "type": "fill", "sentence": "___ ich nach Wien fahre, besuche ich immer meine Schwester.", "translation": "Když jedu do Vídně, vždycky navštívím sestru.", "options": ["Wenn", "Als", "Wann"], "answer": "Wenn", "explain": "Děje se to pokaždé a v přítomnosti, proto wenn; als jen pro jednu událost v minulosti.", "reviewed": false },
+        { "id": "u26-l1-e7", "type": "type", "question": "policie", "answer": "die Polizei", "reviewed": false },
+        { "id": "u26-l1-e8", "type": "build", "question": "Zloděj mi ukradl peněženku.", "answer": "Ein Dieb hat mir die Geldbörse gestohlen.", "accept": ["Mir hat ein Dieb die Geldbörse gestohlen.", "Die Geldbörse hat mir ein Dieb gestohlen."], "extra": ["ist"], "reviewed": false },
+        { "id": "u26-l1-e9", "type": "listen", "audio": "Mein Mann hat seine Geldbörse verloren.", "options": ["Manžel ztratil peněženku.", "Manželovi ukradli peněženku.", "Manžel našel peněženku."], "answer": "Manžel ztratil peněženku.", "reviewed": false },
+        { "id": "u26-l1-e10", "type": "build", "question": "Musíme jít na policii.", "answer": "Wir müssen zur Polizei gehen.", "extra": ["zum"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l2",
+      "title": "Porucha auta",
+      "titleTarget": "Eine Panne",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich lasse das Auto reparieren",
+        "text": "Když něco neděláte sami, ale někdo to udělá pro vás, použijete lassen a infinitiv na konci: Ich lasse das Auto reparieren. = Nechám si opravit auto. Mezi lassen a infinitiv nepatří zu: chybně je „Ich lasse das Auto zu reparieren“. Lassen mění samohlásku: ich lasse, du lässt, er lässt. V minulém čase zůstane na konci infinitiv lassen: Wir haben das Auto reparieren lassen. = Nechali jsme si opravit auto.",
+        "examples": [
+          { "target": "Ich lasse das Auto reparieren.", "native": "Nechám si opravit auto." },
+          { "target": "Wir haben eine Panne.", "native": "Máme poruchu." },
+          { "target": "Wir haben das Auto reparieren lassen.", "native": "Nechali jsme si opravit auto." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l2-w1", "target": "die Panne", "native": "porucha", "note": "Hlavně u auta: eine Panne haben. Množné číslo: die Pannen", "reviewed": false },
+        { "id": "u26-l2-w2", "target": "die Werkstatt", "native": "autoservis; dílna", "note": "Čte se [VERK-štat]; množné číslo: die Werkstätten", "reviewed": false },
+        { "id": "u26-l2-w3", "target": "reparieren", "native": "opravit", "note": "Příčestí bez ge-: repariert. Přízvuk: [re-pa-RÍ-ren]", "reviewed": false },
+        { "id": "u26-l2-w4", "target": "die Reparatur", "native": "oprava", "note": "Přízvuk na konci: [re-pa-ra-TÚR]; množné číslo: die Reparaturen", "reviewed": false },
+        { "id": "u26-l2-w5", "target": "der Reifen", "native": "pneumatika", "note": "ei = aj: [RAJ-fen]; množné číslo: die Reifen", "reviewed": false },
+        { "id": "u26-l2-w6", "target": "die Tankstelle", "native": "benzinová pumpa", "note": "množné číslo: die Tankstellen", "reviewed": false },
+        { "id": "u26-l2-w7", "target": "tanken", "native": "tankovat", "note": "Příčestí: getankt", "reviewed": false },
+        { "id": "u26-l2-w8", "target": "der Stau", "native": "zácpa; kolona", "note": "Čte se [štau]; im Stau stehen = stát v koloně. Množné číslo: die Staus", "reviewed": false },
+        { "id": "u26-l2-w9", "target": "ausfallen", "native": "nekonat se; vypadnout", "note": "Der Zug fällt aus. = Vlak nejede. Der Strom fällt aus. = Vypadne proud. Minulý čas se sein.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l2-e1", "type": "choice", "question": "die Panne", "questionLang": "target", "options": ["porucha", "oprava", "pneumatika"], "answer": "porucha", "reviewed": false },
+        { "id": "u26-l2-e2", "type": "choice", "question": "benzinová pumpa", "questionLang": "native", "options": ["die Tankstelle", "die Werkstatt", "der Reifen"], "answer": "die Tankstelle", "reviewed": false },
+        { "id": "u26-l2-e3", "type": "match", "pairs": [
+          { "target": "die Werkstatt", "native": "autoservis" },
+          { "target": "reparieren", "native": "opravit" },
+          { "target": "der Reifen", "native": "pneumatika" },
+          { "target": "tanken", "native": "tankovat" },
+          { "target": "der Stau", "native": "zácpa" }
+        ], "reviewed": false },
+        { "id": "u26-l2-e4", "type": "listen", "audio": "Wir stehen im Stau.", "options": ["Stojíme v koloně.", "Stojíme u benzinové pumpy.", "Máme poruchu."], "answer": "Stojíme v koloně.", "reviewed": false },
+        { "id": "u26-l2-e5", "type": "fill", "sentence": "Ich lasse das Auto in der Werkstatt ___.", "translation": "Nechám si opravit auto v servisu.", "options": ["reparieren", "zu reparieren", "repariert"], "answer": "reparieren", "explain": "Po lassen stojí infinitiv bez zu.", "reviewed": false },
+        { "id": "u26-l2-e6", "type": "fill", "sentence": "Mein Vater ___ sein Auto reparieren.", "translation": "Táta si nechá opravit auto.", "options": ["lässt", "lasst", "lasse"], "answer": "lässt", "explain": "lassen mění a na ä: du lässt, er lässt.", "reviewed": false },
+        { "id": "u26-l2-e7", "type": "type", "question": "oprava", "answer": "die Reparatur", "reviewed": false },
+        { "id": "u26-l2-e8", "type": "build", "question": "Nechali jsme si opravit auto.", "answer": "Wir haben das Auto reparieren lassen.", "accept": ["Das Auto haben wir reparieren lassen."], "extra": ["lässt"], "reviewed": false },
+        { "id": "u26-l2-e9", "type": "listen", "audio": "Der Zug fällt heute aus.", "options": ["Der Zug fällt heute aus.", "Der Zug fährt heute ab.", "Der Zug kommt heute an."], "answer": "Der Zug fällt heute aus.", "reviewed": false },
+        { "id": "u26-l2-e10", "type": "speak", "text": "Wir haben eine Panne.", "native": "Máme poruchu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l3",
+      "title": "Stížnost v hotelu",
+      "titleTarget": "Beschwerde im Hotel",
+      "reviewed": false,
+      "tip": {
+        "title": "obwohl a trotzdem",
+        "text": "Obwohl znamená „i když, přestože“. Je to spojka jako weil, takže sloveso jde na konec: Wir bleiben hier, obwohl das Zimmer laut ist. Trotzdem znamená „přesto“ a chová se jako deshalb: sloveso stojí hned za ním, na 2. místě: Das Zimmer ist laut, trotzdem bleiben wir hier. Chybně je „obwohl das Zimmer ist laut“ i „trotzdem wir bleiben“. Zdvořilá stížnost začíná třeba takto: Entschuldigung, die Klimaanlage funktioniert nicht.",
+        "examples": [
+          { "target": "Wir bleiben hier, obwohl das Zimmer laut ist.", "native": "Zůstaneme tady, i když je pokoj hlučný." },
+          { "target": "Das Zimmer ist laut, trotzdem bleiben wir hier.", "native": "Pokoj je hlučný, přesto tu zůstaneme." },
+          { "target": "Die Klimaanlage funktioniert nicht.", "native": "Klimatizace nefunguje." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l3-w1", "target": "sich beschweren", "native": "stěžovat si", "note": "sich beschweren über + 4. pád; příčestí bez ge-: beschwert", "reviewed": false },
+        { "id": "u26-l3-w2", "target": "die Beschwerde", "native": "stížnost", "note": "Přízvuk: [be-ŠVÉR-de]; množné číslo die Beschwerden = také zdravotní potíže", "reviewed": false },
+        { "id": "u26-l3-w3", "target": "funktionieren", "native": "fungovat", "note": "Čte se [funk-cjo-NÍ-ren]; příčestí: funktioniert", "reviewed": false },
+        { "id": "u26-l3-w4", "target": "kaputt", "native": "rozbitý", "note": "Přízvuk na konci: [ka-PUT]", "reviewed": false },
+        { "id": "u26-l3-w5", "target": "laut", "native": "hlučný; nahlas", "note": "Opak: leise = tiše", "reviewed": false },
+        { "id": "u26-l3-w6", "target": "die Klimaanlage", "native": "klimatizace", "note": "Čte se [KLÍ-ma-an-lá-ge]; množné číslo: die Klimaanlagen", "reviewed": false },
+        { "id": "u26-l3-w7", "target": "die Rechnung", "native": "účet", "note": "Účet v hotelu nebo restauraci, také faktura. Bankovní účet je das Konto. Množné číslo: die Rechnungen", "reviewed": false },
+        { "id": "u26-l3-w8", "target": "der Fehler", "native": "chyba", "note": "množné číslo: die Fehler", "reviewed": false },
+        { "id": "u26-l3-w9", "target": "sich entschuldigen", "native": "omluvit se", "note": "sich entschuldigen für + 4. pád; Entschuldigung = promiňte", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l3-e1", "type": "choice", "question": "die Rechnung", "questionLang": "target", "options": ["účet", "stížnost", "chyba"], "answer": "účet", "reviewed": false },
+        { "id": "u26-l3-e2", "type": "choice", "question": "klimatizace", "questionLang": "native", "options": ["die Klimaanlage", "die Heizung", "die Beschwerde"], "answer": "die Klimaanlage", "reviewed": false },
+        { "id": "u26-l3-e3", "type": "match", "pairs": [
+          { "target": "funktionieren", "native": "fungovat" },
+          { "target": "kaputt", "native": "rozbitý" },
+          { "target": "laut", "native": "hlučný" },
+          { "target": "der Fehler", "native": "chyba" },
+          { "target": "sich entschuldigen", "native": "omluvit se" }
+        ], "reviewed": false },
+        { "id": "u26-l3-e4", "type": "listen", "audio": "Die Klimaanlage funktioniert nicht.", "options": ["Die Klimaanlage funktioniert nicht.", "Die Heizung funktioniert nicht.", "Das Licht funktioniert nicht."], "answer": "Die Klimaanlage funktioniert nicht.", "reviewed": false },
+        { "id": "u26-l3-e5", "type": "fill", "sentence": "Wir bleiben im Hotel, ___ das Zimmer laut ist.", "translation": "Zůstaneme v hotelu, i když je pokoj hlučný.", "options": ["obwohl", "trotzdem", "deshalb"], "answer": "obwohl", "explain": "Sloveso ist stojí na konci, to je možné jen po spojce obwohl.", "reviewed": false },
+        { "id": "u26-l3-e6", "type": "fill", "sentence": "Das Hotel ist teuer, trotzdem ___ hier.", "translation": "Hotel je drahý, přesto tu zůstaneme.", "options": ["bleiben wir", "wir bleiben", "bleiben"], "answer": "bleiben wir", "explain": "Po trotzdem jde sloveso hned na 2. místo, podmět wir až za něj.", "reviewed": false },
+        { "id": "u26-l3-e7", "type": "type", "question": "stížnost", "answer": "die Beschwerde", "reviewed": false },
+        { "id": "u26-l3-e8", "type": "build", "question": "Chci si stěžovat.", "answer": "Ich möchte mich beschweren.", "extra": ["sich"], "reviewed": false },
+        { "id": "u26-l3-e9", "type": "listen", "audio": "In der Rechnung ist ein Fehler.", "options": ["V účtu je chyba.", "Účet je zaplacený.", "Pokoj je hlučný."], "answer": "V účtu je chyba.", "reviewed": false },
+        { "id": "u26-l3-e10", "type": "build", "question": "Omlouváme se za chybu.", "answer": "Wir entschuldigen uns für den Fehler.", "accept": ["Für den Fehler entschuldigen wir uns."], "extra": ["sich"], "reviewed": false }
+      ]
+    }
+  ]
+}

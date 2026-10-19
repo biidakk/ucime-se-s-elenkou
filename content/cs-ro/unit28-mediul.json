@@ -1,0 +1,139 @@
+{
+  "id": "u28",
+  "level": "B1",
+  "title": "Životní prostředí",
+  "titleTarget": "Mediul înconjurător",
+  "description": "Třídění odpadu, příroda kolem nás a klima: „se“ jako v češtině, příslovce a „ačkoli“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u28-l1",
+      "title": "Třídíme odpad",
+      "titleTarget": "Reciclăm",
+      "reviewed": false,
+      "tip": {
+        "title": "Se jako v češtině",
+        "text": "Na kontejnerech a v návodech se píše se + sloveso, stejně jako česky „vyhazuje se“: Sticlele se aruncă aici. = Lahve se vyhazují sem. Sloveso se řídí věcí: hârtia se pune (papír se dává), pungile se pun (tašky se dávají). U sloves na -a je ale tvar pro jednu i víc věcí stejný: sticla se aruncă i sticlele se aruncă. V Rumunsku patří papír do modrého koše, plast do žlutého a sklo do zeleného. Pozor: o sticlă = láhev, ale sticlă bez o = sklo.",
+        "examples": [
+          { "target": "Sticlele se aruncă aici.", "native": "Lahve se vyhazují sem." },
+          { "target": "Hârtia se pune în coșul albastru.", "native": "Papír se dává do modrého koše." },
+          { "target": "Aici se reciclează plasticul.", "native": "Tady se recykluje plast." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l1-w1", "target": "gunoi", "native": "odpad; odpadky", "note": "gunoiul = ten odpad. Niște gunoi = nějaké odpadky. Čte se „gu-NOJ“.", "reviewed": false },
+        { "id": "u28-l1-w2", "target": "un coș de gunoi", "native": "odpadkový koš", "note": "coșul de gunoi = ten koš; množné číslo: coșuri de gunoi. Čte se „koš de gu-NOJ“.", "reviewed": false },
+        { "id": "u28-l1-w3", "target": "o sticlă", "native": "láhev", "note": "sticla = ta láhev; množné číslo: sticle. Bez členu sticlă = sklo. Čte se „STIK-lă“.", "reviewed": false },
+        { "id": "u28-l1-w4", "target": "plastic", "native": "plast; umělá hmota", "note": "plasticul = ten plast. O pungă de plastic = igelitová taška. Čte se „PLAS-tik“.", "reviewed": false },
+        { "id": "u28-l1-w5", "target": "hârtie", "native": "papír", "note": "hârtia = ten papír. Niște hârtie = trochu papíru. Čte se „hyr-TI-e“.", "reviewed": false },
+        { "id": "u28-l1-w6", "target": "a recicla", "native": "recyklovat", "note": "Skupina -ez: eu reciclez, el reciclează. Čte se „a re-či-KLA“.", "reviewed": false },
+        { "id": "u28-l1-w7", "target": "a arunca", "native": "vyhodit; hodit", "note": "eu arunc, tu arunci, el aruncă. Čte se „a a-run-KA“.", "reviewed": false },
+        { "id": "u28-l1-w8", "target": "o pungă", "native": "igelitka; sáček", "note": "punga = ta taška; množné číslo: pungi. O pungă de hârtie = papírový sáček. Čte se „PUN-gă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l1-e1", "type": "choice", "question": "o pungă", "questionLang": "target", "options": ["igelitka; sáček", "láhev", "papír"], "answer": "igelitka; sáček", "reviewed": false },
+        { "id": "u28-l1-e2", "type": "choice", "question": "recyklovat", "questionLang": "native", "options": ["a recicla", "a arunca", "a găti"], "answer": "a recicla", "reviewed": false },
+        { "id": "u28-l1-e3", "type": "match", "pairs": [
+          { "target": "gunoi", "native": "odpad" },
+          { "target": "o sticlă", "native": "láhev" },
+          { "target": "hârtie", "native": "papír" },
+          { "target": "plastic", "native": "plast" }
+        ], "reviewed": false },
+        { "id": "u28-l1-e4", "type": "listen", "audio": "Sticlele se aruncă aici.", "options": ["Lahve se vyhazují sem.", "Papír se vyhazuje sem.", "Lahve se tady prodávají."], "answer": "Lahve se vyhazují sem.", "reviewed": false },
+        { "id": "u28-l1-e5", "type": "listen", "audio": "Hârtia se pune în coșul albastru.", "options": ["Hârtia se pune în coșul albastru.", "Hârtia se pune în coșul galben.", "Plasticul se pune în coșul albastru."], "answer": "Hârtia se pune în coșul albastru.", "reviewed": false },
+        { "id": "u28-l1-e6", "type": "fill", "sentence": "Pungile de plastic se ___ în coșul galben.", "translation": "Igelitové tašky se dávají do žlutého koše.", "options": ["pun", "pune", "pus"], "answer": "pun", "explain": "Tašek je víc (pungile), proto se pun; se pune je pro jednu věc.", "reviewed": false },
+        { "id": "u28-l1-e7", "type": "fill", "sentence": "Unde se ___ sticlele?", "translation": "Kam se vyhazují lahve?", "options": ["aruncă", "arunc", "aruncăm"], "answer": "aruncă", "explain": "U sloves na -a je tvar pro jednu i víc věcí stejný: se aruncă.", "reviewed": false },
+        { "id": "u28-l1-e8", "type": "type", "question": "Kde je odpadkový koš?", "answer": "Unde este coșul de gunoi?", "accept": ["Unde e coșul de gunoi?", "Unde este un coș de gunoi?", "Unde e un coș de gunoi?"], "reviewed": false },
+        { "id": "u28-l1-e9", "type": "build", "question": "Lahve se vyhazují do zeleného koše.", "answer": "Sticlele se aruncă în coșul verde.", "extra": ["arunc"], "reviewed": false },
+        { "id": "u28-l1-e10", "type": "build", "question": "Recyklujeme plast a papír.", "answer": "Reciclăm plasticul și hârtia.", "extra": ["reciclat"], "accept": ["Reciclăm hârtia și plasticul."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l2",
+      "title": "V přírodě",
+      "titleTarget": "În natură",
+      "reviewed": false,
+      "tip": {
+        "title": "Hezký i hezky: frumos",
+        "text": "Česky máme dva tvary: hezký a hezky. Rumunsky stačí jeden – přídavné jméno v mužském rodě jednotného čísla slouží i jako příslovce: un copac frumos (hezký strom), Copiii cântă frumos. (Děti zpívají hezky.) Příslovce se nemění, ani když jde o ženu nebo o víc lidí. Výjimku už znáte: bun (dobrý), ale bine (dobře). Hodí se i încet = pomalu: Mergem încet prin pădure. A pozor na množná čísla: un râu – râuri, o floare – flori, un copac – copaci.",
+        "examples": [
+          { "target": "Copiii cântă frumos.", "native": "Děti zpívají hezky." },
+          { "target": "Mergem încet prin pădure.", "native": "Jdeme pomalu lesem." },
+          { "target": "În pădure sunt mulți copaci.", "native": "V lese je hodně stromů." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l2-w1", "target": "natură", "native": "příroda", "note": "natura = ta příroda. În natură = v přírodě. Čte se „na-TU-ră“.", "reviewed": false },
+        { "id": "u28-l2-w2", "target": "o pădure", "native": "les", "note": "pădurea = ten les; množné číslo: păduri. Čte se „pă-DU-re“.", "reviewed": false },
+        { "id": "u28-l2-w3", "target": "un râu", "native": "řeka", "note": "râul = ta řeka; množné číslo: râuri (střední rod). Čte se „ryu“, jedna slabika.", "reviewed": false },
+        { "id": "u28-l2-w4", "target": "un lac", "native": "jezero", "note": "lacul = to jezero; množné číslo: lacuri (střední rod).", "reviewed": false },
+        { "id": "u28-l2-w5", "target": "un deal", "native": "kopec", "note": "dealul = ten kopec; množné číslo: dealuri. Čte se „deal“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u28-l2-w6", "target": "o floare", "native": "květina", "note": "floarea = ta květina; množné číslo: flori. Čte se „FLOA-re“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u28-l2-w7", "target": "un copac", "native": "strom", "note": "copacul = ten strom; množné číslo: copaci. Čte se „ko-PAK“, v množném čísle „ko-PAČ“.", "reviewed": false },
+        { "id": "u28-l2-w8", "target": "un animal", "native": "zvíře", "note": "animalul = to zvíře; množné číslo: animale (střední rod). Čte se „a-ni-MAL“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l2-e1", "type": "choice", "question": "un deal", "questionLang": "target", "options": ["kopec", "jezero", "les"], "answer": "kopec", "reviewed": false },
+        { "id": "u28-l2-e2", "type": "choice", "question": "květina", "questionLang": "native", "options": ["o floare", "un copac", "un râu"], "answer": "o floare", "reviewed": false },
+        { "id": "u28-l2-e3", "type": "match", "pairs": [
+          { "target": "o pădure", "native": "les" },
+          { "target": "un râu", "native": "řeka" },
+          { "target": "un lac", "native": "jezero" },
+          { "target": "un animal", "native": "zvíře" }
+        ], "reviewed": false },
+        { "id": "u28-l2-e4", "type": "listen", "audio": "Mergem încet prin pădure.", "options": ["Jdeme pomalu lesem.", "Jdeme rychle lesem.", "Jdeme pomalu k řece."], "answer": "Jdeme pomalu lesem.", "reviewed": false },
+        { "id": "u28-l2-e5", "type": "listen", "audio": "Pe deal sunt mulți copaci.", "options": ["Pe deal sunt mulți copaci.", "Pe deal sunt multe flori.", "Lângă lac sunt mulți copaci."], "answer": "Pe deal sunt mulți copaci.", "reviewed": false },
+        { "id": "u28-l2-e6", "type": "fill", "sentence": "Copiii cântă foarte ___.", "translation": "Děti zpívají moc hezky.", "options": ["frumos", "frumoși", "frumoase"], "answer": "frumos", "explain": "Příslovce má vždy tvar mužského rodu jednotného čísla: frumos, i když zpívají děti.", "reviewed": false },
+        { "id": "u28-l2-e7", "type": "fill", "sentence": "În grădină sunt multe ___.", "translation": "Na zahradě je hodně květin.", "options": ["flori", "floare", "floarea"], "answer": "flori", "explain": "Po multe stojí množné číslo: o floare – flori.", "reviewed": false },
+        { "id": "u28-l2-e8", "type": "type", "question": "Řeka je daleko.", "answer": "Râul e departe.", "accept": ["Râul este departe."], "reviewed": false },
+        { "id": "u28-l2-e9", "type": "build", "question": "Vesnice je u velkého jezera.", "answer": "Satul e lângă un lac mare.", "extra": ["mari"], "reviewed": false },
+        { "id": "u28-l2-e10", "type": "build", "question": "Les je v létě krásný.", "answer": "Pădurea e frumoasă vara.", "extra": ["frumos"], "accept": ["Vara pădurea e frumoasă."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l3",
+      "title": "Klima a budoucnost",
+      "titleTarget": "Clima și viitorul",
+      "reviewed": false,
+      "tip": {
+        "title": "Ačkoli a i když",
+        "text": "Deși = ačkoli: Deși plouă, mergem în pădure. Chiar dacă = i když, i kdyby: Chiar dacă e greu, protejăm natura. Pozor: samotné dacă znamená jestli nebo když – teprve s chiar („dokonce“) vznikne „i když“. Po obou spojkách stojí obyčejný tvar slovesa, jako v češtině. A když chcete říct, co z toho plyne, použijte așa că = takže: A plouat mult, așa că râul a crescut.",
+        "examples": [
+          { "target": "Deși plouă, mergem în pădure.", "native": "Ačkoli prší, jdeme do lesa." },
+          { "target": "Chiar dacă e greu, protejăm natura.", "native": "I když je to těžké, chráníme přírodu." },
+          { "target": "A plouat mult, așa că râul a crescut.", "native": "Hodně pršelo, takže řeka stoupla." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l3-w1", "target": "climă", "native": "podnebí; klima", "note": "clima = to podnebí. Schimbările climatice = změny klimatu. Čte se „KLI-mă“.", "reviewed": false },
+        { "id": "u28-l3-w2", "target": "poluare", "native": "znečištění", "note": "poluarea = to znečištění. A polua = znečišťovat. Čte se „po-lu-A-re“.", "reviewed": false },
+        { "id": "u28-l3-w3", "target": "o secetă", "native": "sucho", "note": "seceta = to sucho; množné číslo: secete. Čte se „SE-če-tă“.", "reviewed": false },
+        { "id": "u28-l3-w4", "target": "o inundație", "native": "povodeň; záplava", "note": "inundația = ta povodeň; množné číslo: inundații. Čte se „i-nun-DA-ci-e“.", "reviewed": false },
+        { "id": "u28-l3-w5", "target": "a proteja", "native": "chránit", "note": "Skupina -ez: eu protejez, noi protejăm. Čte se „a pro-te-ŽA“.", "reviewed": false },
+        { "id": "u28-l3-w6", "target": "energie", "native": "energie", "note": "energia = ta energie. Energie solară = sluneční energie. Čte se „e-ner-DŽI-e“.", "reviewed": false },
+        { "id": "u28-l3-w7", "target": "deși", "native": "ačkoli", "note": "Deși e frig, mergem la plimbare. = Ačkoli je zima, jdeme na procházku. Čte se „de-ŠI“.", "reviewed": false },
+        { "id": "u28-l3-w8", "target": "chiar dacă", "native": "i když; i kdyby", "note": "chiar = dokonce, opravdu; samotné dacă = jestli. Čte se „kjar DA-kă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l3-e1", "type": "choice", "question": "o secetă", "questionLang": "target", "options": ["sucho", "povodeň; záplava", "znečištění"], "answer": "sucho", "reviewed": false },
+        { "id": "u28-l3-e2", "type": "choice", "question": "ačkoli", "questionLang": "native", "options": ["deși", "dacă", "pentru că"], "answer": "deși", "reviewed": false },
+        { "id": "u28-l3-e3", "type": "match", "pairs": [
+          { "target": "climă", "native": "podnebí" },
+          { "target": "poluare", "native": "znečištění" },
+          { "target": "a proteja", "native": "chránit" },
+          { "target": "o inundație", "native": "povodeň" }
+        ], "reviewed": false },
+        { "id": "u28-l3-e4", "type": "listen", "audio": "Deși plouă, mergem în pădure.", "options": ["Ačkoli prší, jdeme do lesa.", "Protože prší, nejdeme do lesa.", "Jestli bude pršet, půjdeme do lesa."], "answer": "Ačkoli prší, jdeme do lesa.", "reviewed": false },
+        { "id": "u28-l3-e5", "type": "listen", "audio": "Vara trecută a fost o secetă mare.", "options": ["Vara trecută a fost o secetă mare.", "Vara trecută a fost o inundație mare.", "Iarna trecută a fost o secetă mare."], "answer": "Vara trecută a fost o secetă mare.", "reviewed": false },
+        { "id": "u28-l3-e6", "type": "fill", "sentence": "Deși ___ frig, mergem la plimbare.", "translation": "Ačkoli je zima, jdeme na procházku.", "options": ["e", "să fie", "fi"], "answer": "e", "explain": "Po deși stojí obyčejný tvar slovesa, jako česky: deși e frig.", "reviewed": false },
+        { "id": "u28-l3-e7", "type": "fill", "sentence": "A plouat mult, așa ___ râul a crescut.", "translation": "Hodně pršelo, takže řeka stoupla.", "options": ["că", "să", "dacă"], "answer": "că", "explain": "Takže = așa că.", "reviewed": false },
+        { "id": "u28-l3-e8", "type": "type", "question": "Musíme chránit přírodu.", "answer": "Trebuie să protejăm natura.", "reviewed": false },
+        { "id": "u28-l3-e9", "type": "build", "question": "I když prší, jedeme na hory.", "answer": "Chiar dacă plouă, mergem la munte.", "extra": ["mers"], "accept": ["Mergem la munte chiar dacă plouă."], "reviewed": false },
+        { "id": "u28-l3-e10", "type": "build", "question": "Chráníme lesy a řeky.", "answer": "Protejăm pădurile și râurile.", "extra": ["pădure"], "accept": ["Protejăm râurile și pădurile."], "reviewed": false }
+      ]
+    }
+  ]
+}

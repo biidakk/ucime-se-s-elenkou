@@ -1,0 +1,144 @@
+{
+  "id": "u21",
+  "level": "B1",
+  "title": "Hledání práce",
+  "titleTarget": "Arbeitssuche",
+  "description": "Inzeráty, pohovor a první den v práci: slovesa s předložkami, worauf a darauf, zu + infinitiv.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u21-l1",
+      "title": "Pracovní inzeráty",
+      "titleTarget": "Stellenanzeigen",
+      "reviewed": false,
+      "tip": {
+        "title": "Sloveso a jeho předložka",
+        "text": "Mnoho německých sloves má pevnou předložku, která se často liší od češtiny. Učte se je proto vždy i s předložkou: sich bewerben um (ucházet se o), sich interessieren für (zajímat se o), Angst haben vor (bát se), warten auf (čekat na). Po um, für a auf je tu 4. pád: um die Stelle. Po vor je 3. pád: Angst vor dem Arzt. Česky říkáme „strach z“, německy ale nikdy „Angst von“. Firmu připojíte předložkou bei: Ich bewerbe mich bei der Firma um die Stelle. (Ucházím se ve firmě o místo.)",
+        "examples": [
+          { "target": "Ich bewerbe mich um die Stelle.", "native": "Ucházím se o to místo." },
+          { "target": "Er interessiert sich für die Stelle.", "native": "Zajímá se o to místo." },
+          { "target": "Wir warten auf die Antwort.", "native": "Čekáme na odpověď." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l1-w1", "target": "die Stelle", "native": "pracovní místo", "note": "Také místo obecně: an Ihrer Stelle = na Vašem místě. Množné číslo: die Stellen", "reviewed": false },
+        { "id": "u21-l1-w2", "target": "die Ausbildung", "native": "vyučení; odborné vzdělání", "note": "eine Ausbildung machen = vyučit se; množné číslo: die Ausbildungen", "reviewed": false },
+        { "id": "u21-l1-w3", "target": "die Bewerbung", "native": "žádost o místo", "note": "Přízvuk: [be-VER-bung]; množné číslo: die Bewerbungen", "reviewed": false },
+        { "id": "u21-l1-w4", "target": "sich bewerben", "native": "ucházet se o místo", "note": "sich bewerben um + 4. pád; er bewirbt sich, hat sich beworben", "reviewed": false },
+        { "id": "u21-l1-w5", "target": "der Lebenslauf", "native": "životopis", "note": "Čte se [LÉ-bens-lauf]; množné číslo: die Lebensläufe", "reviewed": false },
+        { "id": "u21-l1-w6", "target": "die Erfahrung", "native": "zkušenost", "note": "Přízvuk: [er-FÁ-rung]; množné číslo: die Erfahrungen", "reviewed": false },
+        { "id": "u21-l1-w7", "target": "das Gehalt", "native": "plat", "note": "Přízvuk: [ge-HALT]; množné číslo: die Gehälter", "reviewed": false },
+        { "id": "u21-l1-w8", "target": "die Teilzeit", "native": "částečný úvazek", "note": "in Teilzeit arbeiten; čte se [TAJL-cajt]; jen jednotné číslo", "reviewed": false },
+        { "id": "u21-l1-w9", "target": "die Vollzeit", "native": "plný úvazek", "note": "in Vollzeit arbeiten; v = f: [FOL-cajt]; jen jednotné číslo", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l1-e1", "type": "choice", "question": "der Lebenslauf", "questionLang": "target", "options": ["životopis", "žádost o místo", "zkušenost"], "answer": "životopis", "reviewed": false },
+        { "id": "u21-l1-e2", "type": "choice", "question": "plat", "questionLang": "native", "options": ["das Gehalt", "die Stelle", "die Ausbildung"], "answer": "das Gehalt", "reviewed": false },
+        { "id": "u21-l1-e3", "type": "match", "pairs": [
+          { "target": "die Stelle", "native": "pracovní místo" },
+          { "target": "die Erfahrung", "native": "zkušenost" },
+          { "target": "die Teilzeit", "native": "částečný úvazek" },
+          { "target": "die Vollzeit", "native": "plný úvazek" },
+          { "target": "die Bewerbung", "native": "žádost o místo" }
+        ], "reviewed": false },
+        { "id": "u21-l1-e4", "type": "listen", "audio": "Wir suchen eine Verkäuferin in Teilzeit.", "options": ["Wir suchen eine Verkäuferin in Teilzeit.", "Wir suchen eine Verkäuferin in Vollzeit.", "Wir suchen einen Verkäufer in Teilzeit."], "answer": "Wir suchen eine Verkäuferin in Teilzeit.", "reviewed": false },
+        { "id": "u21-l1-e5", "type": "fill", "sentence": "Ich bewerbe mich ___ die Stelle als Lehrerin.", "translation": "Ucházím se o místo učitelky.", "options": ["um", "von", "bei"], "answer": "um", "explain": "Česky „ucházet se o“, německy sich bewerben um + 4. pád.", "reviewed": false },
+        { "id": "u21-l1-e6", "type": "fill", "sentence": "Die Kinder haben Angst ___ dem Arzt.", "translation": "Děti se bojí doktora.", "options": ["vor", "von", "aus"], "answer": "vor", "explain": "Česky „strach z“, německy vždy Angst vor + 3. pád.", "reviewed": false },
+        { "id": "u21-l1-e7", "type": "type", "question": "životopis", "answer": "der Lebenslauf", "reviewed": false },
+        { "id": "u21-l1-e8", "type": "build", "question": "Zajímám se o to místo.", "answer": "Ich interessiere mich für die Stelle.", "accept": ["Für die Stelle interessiere ich mich."], "extra": ["um"], "reviewed": false },
+        { "id": "u21-l1-e9", "type": "listen", "audio": "Haben Sie Erfahrung als Verkäufer?", "options": ["Máte zkušenosti jako prodavač?", "Máte vyučení na prodavače?", "Hledáte místo prodavače?"], "answer": "Máte zkušenosti jako prodavač?", "reviewed": false },
+        { "id": "u21-l1-e10", "type": "build", "question": "Posílám Vám svůj životopis.", "answer": "Ich schicke Ihnen meinen Lebenslauf.", "accept": ["Meinen Lebenslauf schicke ich Ihnen."], "extra": ["mein"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l2",
+      "title": "Přijímací pohovor",
+      "titleTarget": "Das Vorstellungsgespräch",
+      "reviewed": false,
+      "tip": {
+        "title": "Worauf? – Darauf.",
+        "text": "Ptáte-li se na věc po slovese s předložkou, použijte jedno slovo: wo + předložka. Worauf warten Sie? (Na co čekáte?) Wofür interessieren Sie sich? (O co se zajímáte?) V odpovědi stojí da + předložka: Ich warte darauf. (Čekám na to.) Začíná-li předložka samohláskou, vloží se r: wo-r-auf, da-r-auf. Česky řekneme „na to“, ale „auf es“ se německy neříká: Ich freue mich darauf. U osob zůstane předložka se zájmenem: Auf wen warten Sie? Auf ihn.",
+        "examples": [
+          { "target": "Worauf warten Sie?", "native": "Na co čekáte?" },
+          { "target": "Wofür interessieren Sie sich?", "native": "O co se zajímáte?" },
+          { "target": "Wir freuen uns darauf.", "native": "Těšíme se na to." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l2-w1", "target": "das Vorstellungsgespräch", "native": "přijímací pohovor", "note": "Čte se [FÓR-šte-lungs-ge-šprech]; množné číslo: die Vorstellungsgespräche", "reviewed": false },
+        { "id": "u21-l2-w2", "target": "die Aufgabe", "native": "úkol", "note": "množné číslo: die Aufgaben", "reviewed": false },
+        { "id": "u21-l2-w3", "target": "der Vertrag", "native": "smlouva", "note": "der Arbeitsvertrag = pracovní smlouva; množné číslo: die Verträge", "reviewed": false },
+        { "id": "u21-l2-w4", "target": "die Bedingung", "native": "podmínka", "note": "množné číslo: die Bedingungen", "reviewed": false },
+        { "id": "u21-l2-w5", "target": "die Kenntnisse", "native": "znalosti", "note": "Používá se hlavně v množném čísle (jednotné die Kenntnis je vzácné): gute Deutschkenntnisse", "reviewed": false },
+        { "id": "u21-l2-w6", "target": "der Erfolg", "native": "úspěch", "note": "Viel Erfolg! = Hodně úspěchů! Množné číslo: die Erfolge", "reviewed": false },
+        { "id": "u21-l2-w7", "target": "zuverlässig", "native": "spolehlivý", "note": "Čte se [CÚ-fer-le-sich]", "reviewed": false },
+        { "id": "u21-l2-w8", "target": "selbstständig", "native": "samostatný", "note": "Ich bin selbstständig. = Podnikám (pracuji na sebe). Čte se [ZELPST-šten-dich]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l2-e1", "type": "choice", "question": "der Vertrag", "questionLang": "target", "options": ["smlouva", "podmínka", "úkol"], "answer": "smlouva", "reviewed": false },
+        { "id": "u21-l2-e2", "type": "choice", "question": "spolehlivý", "questionLang": "native", "options": ["zuverlässig", "selbstständig", "pünktlich"], "answer": "zuverlässig", "reviewed": false },
+        { "id": "u21-l2-e3", "type": "match", "pairs": [
+          { "target": "das Vorstellungsgespräch", "native": "přijímací pohovor" },
+          { "target": "die Aufgabe", "native": "úkol" },
+          { "target": "die Bedingung", "native": "podmínka" },
+          { "target": "die Kenntnisse", "native": "znalosti" },
+          { "target": "der Erfolg", "native": "úspěch" }
+        ], "reviewed": false },
+        { "id": "u21-l2-e4", "type": "listen", "audio": "Worauf warten Sie?", "options": ["Worauf warten Sie?", "Woran denken Sie?", "Wo arbeiten Sie?"], "answer": "Worauf warten Sie?", "reviewed": false },
+        { "id": "u21-l2-e5", "type": "fill", "sentence": "___ interessieren Sie sich?", "translation": "O co se zajímáte?", "options": ["Wofür", "Worauf", "Wovor"], "answer": "Wofür", "explain": "sich interessieren für, proto wo + für = wofür.", "reviewed": false },
+        { "id": "u21-l2-e6", "type": "fill", "sentence": "Das Vorstellungsgespräch ist morgen. Ich freue mich ___.", "translation": "Pohovor je zítra. Těším se na to.", "options": ["darauf", "auf es", "worauf"], "answer": "darauf", "explain": "Na věc odkazuje da + předložka: darauf. „Auf es“ se neříká.", "reviewed": false },
+        { "id": "u21-l2-e7", "type": "type", "question": "smlouva", "answer": "der Vertrag", "reviewed": false },
+        { "id": "u21-l2-e8", "type": "build", "question": "Na co se těšíte?", "answer": "Worauf freuen Sie sich?", "extra": ["es"], "reviewed": false },
+        { "id": "u21-l2-e9", "type": "listen", "audio": "Was sind Ihre Aufgaben?", "options": ["Jaké jsou Vaše úkoly?", "Jaké jsou Vaše podmínky?", "Jaké máte znalosti?"], "answer": "Jaké jsou Vaše úkoly?", "reviewed": false },
+        { "id": "u21-l2-e10", "type": "build", "question": "Na smlouvu ještě čekám.", "answer": "Ich warte noch auf den Vertrag.", "accept": ["Auf den Vertrag warte ich noch."], "extra": ["von"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l3",
+      "title": "První den v práci",
+      "titleTarget": "Der erste Arbeitstag",
+      "reviewed": false,
+      "tip": {
+        "title": "Druhé sloveso se zu",
+        "text": "Po slovesech jako vergessen, versuchen, vorhaben nebo anfangen přijde druhé sloveso na konec věty se zu: Er versucht, pünktlich zu kommen. (Snaží se přijít včas.) U odlučitelných sloves se zu vloží doprostřed, do jednoho slova: anrufen → anzurufen, aufstehen → aufzustehen. „Zu anrufen“ je chyba. Po modálních slovesech (können, müssen, wollen) se zu nepíše: Ich muss anrufen. Čeština nic jako zu nemá, proto se na něj snadno zapomene.",
+        "examples": [
+          { "target": "Er hat vergessen, den Kunden anzurufen.", "native": "Zapomněl zavolat zákazníkovi." },
+          { "target": "Ich versuche, pünktlich zu sein.", "native": "Snažím se být včas." },
+          { "target": "Die Besprechung fängt um zehn an.", "native": "Porada začíná v deset." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l3-w1", "target": "anfangen", "native": "začít; začínat", "note": "Předpona jde na konec: Die Arbeit fängt um acht an. Příčestí: angefangen", "reviewed": false },
+        { "id": "u21-l3-w2", "target": "vergessen", "native": "zapomenout", "note": "er vergisst, hat vergessen", "reviewed": false },
+        { "id": "u21-l3-w3", "target": "versuchen", "native": "zkusit; snažit se", "note": "Přízvuk: [fer-ZÚ-chen]; příčestí bez ge-: versucht", "reviewed": false },
+        { "id": "u21-l3-w4", "target": "vorhaben", "native": "mít v plánu", "note": "Was haben Sie vor? = Co máte v plánu? Příčestí: vorgehabt", "reviewed": false },
+        { "id": "u21-l3-w5", "target": "die Besprechung", "native": "porada", "note": "Přízvuk: [be-ŠPRE-chung]; množné číslo: die Besprechungen", "reviewed": false },
+        { "id": "u21-l3-w6", "target": "die Abteilung", "native": "oddělení", "note": "Přízvuk: [ap-TAJ-lung]; množné číslo: die Abteilungen", "reviewed": false },
+        { "id": "u21-l3-w7", "target": "der Kunde", "native": "zákazník", "note": "4. a 3. pád: den Kunden, dem Kunden; množné číslo: die Kunden", "reviewed": false },
+        { "id": "u21-l3-w8", "target": "die Kundin", "native": "zákaznice", "note": "množné číslo: die Kundinnen", "reviewed": false },
+        { "id": "u21-l3-w9", "target": "die Überstunde", "native": "přesčas", "note": "Überstunden machen = dělat přesčasy; množné číslo: die Überstunden", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l3-e1", "type": "choice", "question": "die Besprechung", "questionLang": "target", "options": ["porada", "oddělení", "přesčas"], "answer": "porada", "reviewed": false },
+        { "id": "u21-l3-e2", "type": "choice", "question": "zákaznice", "questionLang": "native", "options": ["die Kundin", "der Kunde", "die Kollegin"], "answer": "die Kundin", "reviewed": false },
+        { "id": "u21-l3-e3", "type": "match", "pairs": [
+          { "target": "anfangen", "native": "začít" },
+          { "target": "vergessen", "native": "zapomenout" },
+          { "target": "versuchen", "native": "zkusit" },
+          { "target": "vorhaben", "native": "mít v plánu" },
+          { "target": "die Abteilung", "native": "oddělení" }
+        ], "reviewed": false },
+        { "id": "u21-l3-e4", "type": "listen", "audio": "Die Besprechung fängt um neun an.", "options": ["Die Besprechung fängt um neun an.", "Die Besprechung fängt um zehn an.", "Die Arbeit fängt um neun an."], "answer": "Die Besprechung fängt um neun an.", "reviewed": false },
+        { "id": "u21-l3-e5", "type": "fill", "sentence": "Peter hat vergessen, die Kundin ___.", "translation": "Petr zapomněl zavolat zákaznici.", "options": ["anzurufen", "zu anrufen", "anrufen"], "answer": "anzurufen", "explain": "U odlučitelného slovesa se zu vloží mezi předponu a sloveso: anzurufen.", "reviewed": false },
+        { "id": "u21-l3-e6", "type": "fill", "sentence": "Wir versuchen, pünktlich ___ kommen.", "translation": "Snažíme se přijít včas.", "options": ["zu", "um", "für"], "answer": "zu", "explain": "Po versuchen stojí druhé sloveso se zu: zu kommen.", "reviewed": false },
+        { "id": "u21-l3-e7", "type": "type", "question": "porada", "answer": "die Besprechung", "reviewed": false },
+        { "id": "u21-l3-e8", "type": "build", "question": "Mám v plánu učit se německy.", "answer": "Ich habe vor, Deutsch zu lernen.", "extra": ["um"], "reviewed": false },
+        { "id": "u21-l3-e9", "type": "listen", "audio": "Ich muss heute Überstunden machen.", "options": ["Dnes musím dělat přesčasy.", "Dnes musím na poradu.", "Dnes mám volno."], "answer": "Dnes musím dělat přesčasy.", "reviewed": false },
+        { "id": "u21-l3-e10", "type": "build", "question": "Práce začíná v osm.", "answer": "Die Arbeit fängt um acht an.", "accept": ["Um acht fängt die Arbeit an."], "extra": ["zu"], "reviewed": false }
+      ]
+    }
+  ]
+}

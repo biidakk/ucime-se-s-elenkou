@@ -1,0 +1,143 @@
+{
+  "id": "u24",
+  "level": "B1",
+  "title": "Média",
+  "titleTarget": "Medien",
+  "description": "Noviny, televize, internet a bezpečnost: vztažné věty (který, která, které) se slovesem na konci.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u24-l1",
+      "title": "Noviny, televize, rádio",
+      "titleTarget": "Zeitung, Fernsehen, Radio",
+      "reviewed": false,
+      "tip": {
+        "title": "der, die, das = který, která, které",
+        "text": "Vztažná věta popisuje podstatné jméno, česky začíná slovem který, která, které. Německy použijete der, die, das podle rodu toho jména a sloveso jde na konec: der Krimi, der heute läuft (detektivka, která dnes běží); das Programm, das um acht beginnt. V množném čísle je die: die Sendungen, die … Pozor na rod: noviny jsou česky množné číslo, ale die Zeitung je jednotné: die Zeitung, die hier liegt. Před vztažnou větou je čárka jako v češtině.",
+        "examples": [
+          { "target": "Der Krimi, der heute läuft, ist gut.", "native": "Detektivka, která dnes běží, je dobrá." },
+          { "target": "Die Zeitung, die hier liegt, ist von heute.", "native": "Noviny, které tu leží, jsou dnešní." },
+          { "target": "Das ist eine Sendung, die mir gefällt.", "native": "To je pořad, který se mi líbí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l1-w1", "target": "die Zeitung", "native": "noviny", "note": "Česky množné číslo, německy jednotné: Die Zeitung ist neu. Čte se [CAJ-tung]; množné číslo: die Zeitungen", "reviewed": false },
+        { "id": "u24-l1-w2", "target": "die Zeitschrift", "native": "časopis", "note": "množné číslo: die Zeitschriften", "reviewed": false },
+        { "id": "u24-l1-w3", "target": "die Sendung", "native": "pořad", "note": "Pořad v televizi nebo v rádiu; množné číslo: die Sendungen", "reviewed": false },
+        { "id": "u24-l1-w4", "target": "das Programm", "native": "program", "note": "Přízvuk: [pro-GRAM]; množné číslo: die Programme", "reviewed": false },
+        { "id": "u24-l1-w5", "target": "der Bericht", "native": "reportáž; zpráva", "note": "množné číslo: die Berichte. Zprávy v televizi jsou die Nachrichten.", "reviewed": false },
+        { "id": "u24-l1-w6", "target": "die Werbung", "native": "reklama", "note": "obvykle jen jednotné číslo; im Fernsehen läuft Werbung", "reviewed": false },
+        { "id": "u24-l1-w7", "target": "das Radio", "native": "rádio", "note": "Radio hören = poslouchat rádio; množné číslo: die Radios", "reviewed": false },
+        { "id": "u24-l1-w8", "target": "der Krimi", "native": "detektivka", "note": "Film nebo kniha; množné číslo: die Krimis", "reviewed": false },
+        { "id": "u24-l1-w9", "target": "aktuell", "native": "aktuální", "note": "Přízvuk na konci: [ak-tu-EL]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l1-e1", "type": "choice", "question": "die Zeitschrift", "questionLang": "target", "options": ["časopis", "noviny", "pořad"], "answer": "časopis", "reviewed": false },
+        { "id": "u24-l1-e2", "type": "choice", "question": "reklama", "questionLang": "native", "options": ["die Werbung", "die Sendung", "der Bericht"], "answer": "die Werbung", "reviewed": false },
+        { "id": "u24-l1-e3", "type": "match", "pairs": [
+          { "target": "die Zeitung", "native": "noviny" },
+          { "target": "das Radio", "native": "rádio" },
+          { "target": "der Krimi", "native": "detektivka" },
+          { "target": "das Programm", "native": "program" },
+          { "target": "aktuell", "native": "aktuální" }
+        ], "reviewed": false },
+        { "id": "u24-l1-e4", "type": "listen", "audio": "Heute Abend läuft ein Krimi im Fernsehen.", "options": ["Heute Abend läuft ein Krimi im Fernsehen.", "Heute Abend läuft ein Film im Fernsehen.", "Morgen Abend läuft ein Krimi im Fernsehen."], "answer": "Heute Abend läuft ein Krimi im Fernsehen.", "reviewed": false },
+        { "id": "u24-l1-e5", "type": "fill", "sentence": "Das ist die Zeitung, ___ jeden Tag kommt.", "translation": "To jsou noviny, které chodí každý den.", "options": ["die", "der", "das"], "answer": "die", "explain": "die Zeitung je ženský rod v jednotném čísle, proto die.", "reviewed": false },
+        { "id": "u24-l1-e6", "type": "fill", "sentence": "Wir sehen gern Sendungen, die interessant ___.", "translation": "Rádi se díváme na pořady, které jsou zajímavé.", "options": ["sind", "ist", "sein"], "answer": "sind", "explain": "die Sendungen je množné číslo, proto sind, na konci věty.", "reviewed": false },
+        { "id": "u24-l1-e7", "type": "type", "question": "noviny", "answer": "die Zeitung", "reviewed": false },
+        { "id": "u24-l1-e8", "type": "build", "question": "Detektivka, která dnes běží, je dobrá.", "answer": "Der Krimi, der heute läuft, ist gut.", "accept": ["Der Krimi ist gut, der heute läuft."], "extra": ["die"], "reviewed": false },
+        { "id": "u24-l1-e9", "type": "listen", "audio": "Hören Sie gern Radio?", "options": ["Posloucháte rádi rádio?", "Díváte se rádi na televizi?", "Čtete rádi noviny?"], "answer": "Posloucháte rádi rádio?", "reviewed": false },
+        { "id": "u24-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Noviny, které leží na stole, jsou nové.", "questionLang": "native", "options": ["Die Zeitung, die auf dem Tisch liegt, ist neu.", "Die Zeitung, die liegt auf dem Tisch, ist neu.", "Die Zeitung, die auf dem Tisch liegt, sind neu."], "answer": "Die Zeitung, die auf dem Tisch liegt, ist neu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l2",
+      "title": "Internet a mobil",
+      "titleTarget": "Internet und Handy",
+      "reviewed": false,
+      "tip": {
+        "title": "den, dem, denen",
+        "text": "Vztažné zájmeno má pád podle své role ve vztažné větě, jako české který, kterého, kterému. 4. pád: der Film, den wir sehen (film, který vidíme). 3. pád: der Kollege, dem ich helfe (kolega, kterému pomáhám). Ženský rod má ve 3. pádě der: die Frau, der ich helfe. Množné číslo má ve 3. pádě denen: die Kinder, denen wir helfen. Ostatní tvary, které zatím potřebujete, jsou stejné jako člen. Pozor: helfen chce 3. pád, proto „der Mann, den ich helfe“ je chyba.",
+        "examples": [
+          { "target": "Das ist das Handy, das wir gekauft haben.", "native": "To je ten mobil, který jsme koupili." },
+          { "target": "Der Kollege, dem ich helfe, ist neu.", "native": "Kolega, kterému pomáhám, je nový." },
+          { "target": "Das sind die Enkel, denen ich die App zeige.", "native": "To jsou vnoučata, kterým ukazuji tu aplikaci." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l2-w1", "target": "die App", "native": "aplikace", "note": "Čte se [ep]; množné číslo: die Apps", "reviewed": false },
+        { "id": "u24-l2-w2", "target": "herunterladen", "native": "stáhnout", "note": "Ich lade die App herunter. Příčestí: heruntergeladen. Čte se [he-RUN-ta-lá-den]", "reviewed": false },
+        { "id": "u24-l2-w3", "target": "das Gerät", "native": "přístroj; zařízení", "note": "Přízvuk: [ge-RÉT]; množné číslo: die Geräte", "reviewed": false },
+        { "id": "u24-l2-w4", "target": "der Bildschirm", "native": "obrazovka", "note": "Čte se [BILT-širm]; množné číslo: die Bildschirme", "reviewed": false },
+        { "id": "u24-l2-w5", "target": "speichern", "native": "uložit", "note": "Čte se [ŠPAJ-chern]; příčestí: gespeichert", "reviewed": false },
+        { "id": "u24-l2-w6", "target": "löschen", "native": "smazat", "note": "ö: řekněte e se zaokrouhlenými rty; příčestí: gelöscht", "reviewed": false },
+        { "id": "u24-l2-w7", "target": "die Datei", "native": "soubor", "note": "Přízvuk na konci: [da-TAJ]; množné číslo: die Dateien", "reviewed": false },
+        { "id": "u24-l2-w8", "target": "online", "native": "na internetu; online", "note": "Čte se jako v angličtině: [ON-lajn]", "reviewed": false },
+        { "id": "u24-l2-w9", "target": "ausdrucken", "native": "vytisknout", "note": "Předpona jde na konec: Ich drucke die Datei aus.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l2-e1", "type": "choice", "question": "der Bildschirm", "questionLang": "target", "options": ["obrazovka", "soubor", "aplikace"], "answer": "obrazovka", "reviewed": false },
+        { "id": "u24-l2-e2", "type": "build", "question": "Smažte prosím ten soubor.", "answer": "Löschen Sie bitte die Datei.", "accept": ["Bitte löschen Sie die Datei.", "Löschen Sie die Datei bitte."], "extra": ["den"], "reviewed": false },
+        { "id": "u24-l2-e3", "type": "match", "pairs": [
+          { "target": "die App", "native": "aplikace" },
+          { "target": "herunterladen", "native": "stáhnout" },
+          { "target": "das Gerät", "native": "přístroj" },
+          { "target": "speichern", "native": "uložit" },
+          { "target": "die Datei", "native": "soubor" }
+        ], "reviewed": false },
+        { "id": "u24-l2-e4", "type": "listen", "audio": "Ich lade die App herunter.", "options": ["Ich lade die App herunter.", "Ich lade das Video herunter.", "Ich lösche die App."], "answer": "Ich lade die App herunter.", "reviewed": false },
+        { "id": "u24-l2-e5", "type": "fill", "sentence": "Das ist der Kollege, ___ ich oft helfe.", "translation": "To je kolega, kterému často pomáhám.", "options": ["dem", "den", "der"], "answer": "dem", "explain": "helfen chce 3. pád: kterému = dem.", "reviewed": false },
+        { "id": "u24-l2-e6", "type": "fill", "sentence": "Wo ist die Datei, ___ Sie gestern gespeichert haben?", "translation": "Kde je ten soubor, který jste včera uložili?", "options": ["die", "der", "den"], "answer": "die", "explain": "die Datei je ženský rod, ve 4. pádě zůstává die.", "reviewed": false },
+        { "id": "u24-l2-e7", "type": "type", "question": "vytisknout", "answer": "ausdrucken", "reviewed": false },
+        { "id": "u24-l2-e8", "type": "build", "question": "To je ten film, který jsme viděli.", "answer": "Das ist der Film, den wir gesehen haben.", "extra": ["dem"], "reviewed": false },
+        { "id": "u24-l2-e9", "type": "listen", "audio": "Können Sie mir das ausdrucken?", "options": ["Můžete mi to vytisknout?", "Můžete mi to uložit?", "Můžete mi to smazat?"], "answer": "Můžete mi to vytisknout?", "reviewed": false },
+        { "id": "u24-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "To jsou děti, kterým pomáháme.", "questionLang": "native", "options": ["Das sind die Kinder, denen wir helfen.", "Das sind die Kinder, die wir helfen.", "Das sind die Kinder, den wir helfen."], "answer": "Das sind die Kinder, denen wir helfen.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l3",
+      "title": "Informace a bezpečnost",
+      "titleTarget": "Informationen und Sicherheit",
+      "reviewed": false,
+      "tip": {
+        "title": "Předložka před der, die, das",
+        "text": "Když sloveso potřebuje předložku, stojí ve vztažné větě předložka na začátku, před der, die, das, stejně jako v češtině: das Thema, über das wir sprechen (téma, o kterém mluvíme); die Webseite, auf der das steht (stránka, na které to stojí). Pád určuje předložka: sprechen über má 4. pád, proto über das; auf na otázku wo? má 3. pád, proto auf der. Předložku nevynechávejte: „das Thema, das wir sprechen“ je chyba.",
+        "examples": [
+          { "target": "Das ist das Thema, über das wir sprechen.", "native": "To je téma, o kterém mluvíme." },
+          { "target": "Die Webseite, auf der das steht, ist aktuell.", "native": "Stránka, na které to stojí, je aktuální." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l3-w1", "target": "die Information", "native": "informace", "note": "Čte se [in-for-ma-CJÓN]; množné číslo: die Informationen", "reviewed": false },
+        { "id": "u24-l3-w2", "target": "sich informieren", "native": "informovat se", "note": "sich informieren über + 4. pád; přízvuk: [in-for-MÍ-ren]", "reviewed": false },
+        { "id": "u24-l3-w3", "target": "berichten", "native": "podat zprávu; referovat", "note": "berichten über + 4. pád: Die Zeitung berichtet über den Unfall.", "reviewed": false },
+        { "id": "u24-l3-w4", "target": "die Gefahr", "native": "nebezpečí", "note": "Přízvuk: [ge-FÁR]; množné číslo: die Gefahren", "reviewed": false },
+        { "id": "u24-l3-w5", "target": "gefährlich", "native": "nebezpečný", "note": "Přízvuk: [ge-FÉR-lich]", "reviewed": false },
+        { "id": "u24-l3-w6", "target": "die Sicherheit", "native": "bezpečnost; jistota", "note": "Čte se [ZI-cha-hajt]; obvykle jen jednotné číslo", "reviewed": false },
+        { "id": "u24-l3-w7", "target": "privat", "native": "soukromý", "note": "Přízvuk: [pri-VÁT]", "reviewed": false },
+        { "id": "u24-l3-w8", "target": "das Ergebnis", "native": "výsledek", "note": "Přízvuk: [er-GÉP-nis]; množné číslo: die Ergebnisse", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l3-e1", "type": "choice", "question": "die Gefahr", "questionLang": "target", "options": ["nebezpečí", "bezpečnost", "výsledek"], "answer": "nebezpečí", "reviewed": false },
+        { "id": "u24-l3-e2", "type": "choice", "question": "soukromý", "questionLang": "native", "options": ["privat", "gefährlich", "aktuell"], "answer": "privat", "reviewed": false },
+        { "id": "u24-l3-e3", "type": "match", "pairs": [
+          { "target": "die Information", "native": "informace" },
+          { "target": "sich informieren", "native": "informovat se" },
+          { "target": "berichten", "native": "podat zprávu" },
+          { "target": "gefährlich", "native": "nebezpečný" },
+          { "target": "das Ergebnis", "native": "výsledek" }
+        ], "reviewed": false },
+        { "id": "u24-l3-e4", "type": "listen", "audio": "Das Foto ist privat.", "options": ["Das Foto ist privat.", "Das Foto ist neu.", "Das Foto ist schön."], "answer": "Das Foto ist privat.", "reviewed": false },
+        { "id": "u24-l3-e5", "type": "fill", "sentence": "Die Sendung, über ___ alle sprechen, kommt heute.", "translation": "Pořad, o kterém všichni mluví, dávají dnes.", "options": ["die", "den", "das"], "answer": "die", "explain": "die Sendung je ženský rod; sprechen über má 4. pád, proto über die.", "reviewed": false },
+        { "id": "u24-l3-e6", "type": "fill", "sentence": "Der Unfall, über ___ die Zeitung berichtet, war gestern.", "translation": "Nehoda, o které píšou noviny, byla včera.", "options": ["den", "der", "das"], "answer": "den", "explain": "der Unfall je mužský rod; berichten über má 4. pád, proto über den.", "reviewed": false },
+        { "id": "u24-l3-e7", "type": "type", "question": "výsledek", "answer": "das Ergebnis", "reviewed": false },
+        { "id": "u24-l3-e8", "type": "build", "question": "To je ta stránka, na které to stojí.", "answer": "Das ist die Webseite, auf der das steht.", "extra": ["dem"], "reviewed": false },
+        { "id": "u24-l3-e9", "type": "listen", "audio": "Das ist gefährlich!", "options": ["To je nebezpečné!", "To je bezpečné!", "To je soukromé!"], "answer": "To je nebezpečné!", "reviewed": false },
+        { "id": "u24-l3-e10", "type": "build", "question": "Informujte se na internetu.", "answer": "Informieren Sie sich im Internet.", "extra": ["mich"], "reviewed": false }
+      ]
+    }
+  ]
+}

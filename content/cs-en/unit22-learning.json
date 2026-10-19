@@ -1,0 +1,145 @@
+{
+  "id": "u22",
+  "level": "B1",
+  "title": "Učení a vzdělání",
+  "titleTarget": "Learning and education",
+  "description": "Vzpomínky na školu, kurzy pro dospělé a slovesa, po kterých stojí to nebo -ing.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u22-l1",
+      "title": "Školní léta",
+      "titleTarget": "School days",
+      "reviewed": false,
+      "tip": {
+        "title": "Used to, nebo minulý čas?",
+        "text": "Used to použijte pro to, co se dřív dělo pravidelně nebo dlouho: We used to wear a uniform. Pro jednu událost je obyčejný minulý čas: She passed the exam in June. Ve vyprávění uslyšíte i would pro dřívější zvyky: Every day we would walk to school. Stačí mu rozumět. Pozor: zkoušku „děláte“ slovem take: take an exam, ne make an exam. A gymnázium není gym, to je posilovna. Gymnázium je druh secondary school.",
+        "examples": [
+          { "target": "We used to wear a uniform.", "native": "Nosili jsme uniformu." },
+          { "target": "She passed the exam in June.", "native": "V červnu udělala zkoušku." },
+          { "target": "Every day we would walk to school.", "native": "Každý den jsme chodili do školy pěšky." },
+          { "target": "Our teacher was very strict.", "native": "Náš učitel byl velmi přísný." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l1-w1", "target": "primary school", "native": "základní škola", "note": "V Británii pro děti od pěti do jedenácti let.", "reviewed": false },
+        { "id": "u22-l1-w2", "target": "secondary school", "native": "střední škola", "note": "V Británii od jedenácti let, tedy i náš druhý stupeň. Gymnázium není gym.", "reviewed": false },
+        { "id": "u22-l1-w3", "target": "subject", "native": "předmět", "note": "Školní předmět. Čte se „sabdžikt“.", "reviewed": false },
+        { "id": "u22-l1-w4", "target": "exam", "native": "zkouška", "note": "take an exam = dělat zkoušku. Čte se „ig-ZEM“.", "reviewed": false },
+        { "id": "u22-l1-w5", "target": "pass", "native": "udělat zkoušku; projít", "note": "pass an exam = udělat zkoušku", "reviewed": false },
+        { "id": "u22-l1-w6", "target": "fail", "native": "neudělat; propadnout", "note": "fail an exam = neudělat zkoušku. Čte se „fejl“.", "reviewed": false },
+        { "id": "u22-l1-w7", "target": "uniform", "native": "uniforma", "note": "school uniform = školní uniforma. Čte se „júnifóm“.", "reviewed": false },
+        { "id": "u22-l1-w8", "target": "strict", "native": "přísný", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l1-e1", "type": "choice", "question": "strict", "questionLang": "target", "options": ["přísný", "laskavý; hodný", "unavený"], "answer": "přísný", "reviewed": false },
+        { "id": "u22-l1-e2", "type": "choice", "question": "střední škola", "questionLang": "native", "options": ["secondary school", "primary school", "gym"], "answer": "secondary school", "reviewed": false },
+        { "id": "u22-l1-e3", "type": "match", "pairs": [
+          { "target": "primary school", "native": "základní škola" },
+          { "target": "subject", "native": "předmět" },
+          { "target": "exam", "native": "zkouška" },
+          { "target": "fail", "native": "neudělat" },
+          { "target": "uniform", "native": "uniforma" }
+        ], "reviewed": false },
+        { "id": "u22-l1-e4", "type": "listen", "audio": "Every day we would walk to school.", "options": ["Every day we would walk to school.", "Every day we walk to school.", "Every day we would go to school by bus."], "answer": "Every day we would walk to school.", "reviewed": false },
+        { "id": "u22-l1-e5", "type": "listen", "audio": "She passed all her exams.", "options": ["Udělala všechny zkoušky.", "Neudělala žádnou zkoušku.", "Všechny zkoušky má ještě před sebou."], "answer": "Udělala všechny zkoušky.", "reviewed": false },
+        { "id": "u22-l1-e6", "type": "fill", "sentence": "We ___ walk to school every day.", "translation": "Každý den jsme chodili do školy pěšky.", "options": ["used to", "use to", "were"], "answer": "used to", "explain": "Dřívější zvyk: used to + sloveso.", "reviewed": false },
+        { "id": "u22-l1-e7", "type": "fill", "sentence": "Did you ___ an exam in English?", "translation": "Dělali jste zkoušku z angličtiny?", "options": ["take", "make", "taking"], "answer": "take", "explain": "Zkouška se dělá slovesem take: take an exam.", "reviewed": false },
+        { "id": "u22-l1-e8", "type": "type", "question": "Ve škole jsme nosili uniformu.", "answer": "We used to wear a uniform at school.", "accept": ["At school we used to wear a uniform.", "We wore a uniform at school.", "At school we wore a uniform."], "reviewed": false },
+        { "id": "u22-l1-e9", "type": "build", "question": "Neudělal zkoušku z angličtiny.", "answer": "He failed his English exam.", "extra": ["fail"], "reviewed": false },
+        { "id": "u22-l1-e10", "type": "build", "question": "Náš učitel byl velmi přísný.", "answer": "Our teacher was very strict.", "extra": ["were"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l2",
+      "title": "Kurzy pro dospělé",
+      "titleTarget": "Courses for adults",
+      "reviewed": false,
+      "tip": {
+        "title": "Po předložce sloveso s -ing",
+        "text": "Když za předložkou (in, at, of, about) následuje sloveso, má v angličtině vždy -ing: I'm interested in learning English. She's good at speaking English. He's afraid of making mistakes. Česky tu je často infinitiv nebo „že…“. Neříkejte interested in to learn. Britský pravopis: practise se -s je sloveso (procvičovat), practice s -c je podstatné jméno (cvičení, praxe).",
+        "examples": [
+          { "target": "I'm interested in learning English.", "native": "Mám zájem učit se anglicky." },
+          { "target": "She's good at speaking English.", "native": "Umí dobře mluvit anglicky." },
+          { "target": "He's afraid of making mistakes.", "native": "Bojí se, že udělá chybu." },
+          { "target": "We practise every day.", "native": "Cvičíme každý den." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l2-w1", "target": "course", "native": "kurz", "note": "an English course = kurz angličtiny. Čte se „kós“.", "reviewed": false },
+        { "id": "u22-l2-w2", "target": "learn", "native": "učit se; naučit se", "note": "Učit někoho = teach. Čte se „lén“.", "reviewed": false },
+        { "id": "u22-l2-w3", "target": "study", "native": "studovat", "note": "Čte se „stadi“.", "reviewed": false },
+        { "id": "u22-l2-w4", "target": "improve", "native": "zlepšit; zlepšovat", "note": "improve my English = zlepšit si angličtinu. Čte se „im-PRÚV“.", "reviewed": false },
+        { "id": "u22-l2-w5", "target": "practise", "native": "procvičovat; trénovat", "note": "Britsky sloveso se -s. Podstatné jméno practice = cvičení. Čte se „prektis“.", "reviewed": false },
+        { "id": "u22-l2-w6", "target": "interested in", "native": "zajímat se o", "note": "I'm interested in music. = Zajímám se o hudbu. Čte se „intrestid“.", "reviewed": false },
+        { "id": "u22-l2-w7", "target": "good at", "native": "dobrý v; šikovný v", "note": "She's good at drawing. = Umí dobře kreslit.", "reviewed": false },
+        { "id": "u22-l2-w8", "target": "afraid of", "native": "bát se", "note": "I'm afraid of dogs. = Bojím se psů. Ale I'm afraid I can't. = Bohužel nemůžu.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l2-e1", "type": "choice", "question": "improve", "questionLang": "target", "options": ["zlepšit; zlepšovat", "procvičovat; trénovat", "studovat"], "answer": "zlepšit; zlepšovat", "reviewed": false },
+        { "id": "u22-l2-e2", "type": "choice", "question": "bát se", "questionLang": "native", "options": ["afraid of", "interested in", "good at"], "answer": "afraid of", "reviewed": false },
+        { "id": "u22-l2-e3", "type": "match", "pairs": [
+          { "target": "course", "native": "kurz" },
+          { "target": "learn", "native": "učit se" },
+          { "target": "study", "native": "studovat" },
+          { "target": "practise", "native": "procvičovat" },
+          { "target": "interested in", "native": "zajímat se o" }
+        ], "reviewed": false },
+        { "id": "u22-l2-e4", "type": "listen", "audio": "She's good at speaking English.", "options": ["She's good at speaking English.", "She's good at singing.", "She's interested in English."], "answer": "She's good at speaking English.", "reviewed": false },
+        { "id": "u22-l2-e5", "type": "listen", "audio": "I want to improve my English.", "options": ["Chci si zlepšit angličtinu.", "Chci studovat angličtinu.", "Chci učit angličtinu."], "answer": "Chci si zlepšit angličtinu.", "reviewed": false },
+        { "id": "u22-l2-e6", "type": "fill", "sentence": "Are you interested in ___ to dance?", "translation": "Máte zájem naučit se tančit?", "options": ["learning", "learn", "to learn"], "answer": "learning", "explain": "Po předložce in je sloveso s -ing.", "reviewed": false },
+        { "id": "u22-l2-e7", "type": "fill", "sentence": "He's afraid ___ making mistakes.", "translation": "Bojí se, že udělá chybu.", "options": ["of", "at", "in"], "answer": "of", "explain": "Bát se = be afraid of.", "reviewed": false },
+        { "id": "u22-l2-e8", "type": "type", "question": "Procvičujeme každý den.", "answer": "We practise every day.", "reviewed": false },
+        { "id": "u22-l2-e9", "type": "build", "question": "Moje babička umí dobře kreslit.", "answer": "My grandmother is good at drawing.", "extra": ["draw"], "reviewed": false },
+        { "id": "u22-l2-e10", "type": "build", "question": "Mám zájem zlepšit si angličtinu.", "answer": "I'm interested in improving my English.", "extra": ["improve"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u22-l3",
+      "title": "Velké rozhodnutí",
+      "titleTarget": "A big decision",
+      "reviewed": false,
+      "tip": {
+        "title": "Decide to, ale enjoy -ing",
+        "text": "Po decide, hope a manage stojí to + sloveso: We decided to stay. Po enjoy, avoid a mind stojí sloveso s -ing: I enjoy reading. Neříkejte I enjoy to read. Nedá se to odvodit, učte se to u každého slovesa. U stop a remember se mění význam. She stopped eating meat. (Přestala jíst maso.) She stopped to eat. (Zastavila se, aby se najedla.) Remember to ring Mum. (Nezapomeňte zavolat mámě.) We remember meeting him. (Pamatujeme si, jak jsme ho potkali.)",
+        "examples": [
+          { "target": "We decided to stay at home.", "native": "Rozhodli jsme se zůstat doma." },
+          { "target": "I enjoy reading.", "native": "Baví mě číst." },
+          { "target": "She stopped eating meat.", "native": "Přestala jíst maso." },
+          { "target": "Remember to ring Mum.", "native": "Nezapomeňte zavolat mámě." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u22-l3-w1", "target": "decide", "native": "rozhodnout se", "note": "+ to: We decided to stay. Čte se „di-SAJD“.", "reviewed": false },
+        { "id": "u22-l3-w2", "target": "enjoy", "native": "užívat si; bavit", "note": "+ -ing: I enjoy cooking. = Baví mě vařit. Čte se „in-DŽOJ“.", "reviewed": false },
+        { "id": "u22-l3-w3", "target": "hope", "native": "doufat", "note": "+ to: We hope to see you soon. Čte se „houp“.", "reviewed": false },
+        { "id": "u22-l3-w4", "target": "manage", "native": "zvládnout; podařit se", "note": "We managed to find it. = Podařilo se nám to najít. Čte se „menidž“.", "reviewed": false },
+        { "id": "u22-l3-w5", "target": "avoid", "native": "vyhýbat se", "note": "+ -ing: avoid driving at night. Čte se „e-VOJD“.", "reviewed": false },
+        { "id": "u22-l3-w6", "target": "remember", "native": "pamatovat si; nezapomenout", "note": "Remember to… = nezapomeňte; remember + -ing = pamatovat si, co se stalo. Čte se „ri-MEM-ba“.", "reviewed": false },
+        { "id": "u22-l3-w7", "target": "stop", "native": "přestat; zastavit", "note": "stop + -ing = přestat; stop to… = zastavit se, aby…", "reviewed": false },
+        { "id": "u22-l3-w8", "target": "mind", "native": "vadit", "note": "Hlavně v otázce a záporu, + -ing: I don't mind waiting. = Nevadí mi počkat. Čte se „majnd“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u22-l3-e1", "type": "choice", "question": "avoid", "questionLang": "target", "options": ["vyhýbat se", "doufat", "zvládnout; podařit se"], "answer": "vyhýbat se", "reviewed": false },
+        { "id": "u22-l3-e2", "type": "choice", "question": "vadit", "questionLang": "native", "options": ["mind", "manage", "hope"], "answer": "mind", "reviewed": false },
+        { "id": "u22-l3-e3", "type": "match", "pairs": [
+          { "target": "decide", "native": "rozhodnout se" },
+          { "target": "enjoy", "native": "užívat si" },
+          { "target": "hope", "native": "doufat" },
+          { "target": "remember", "native": "pamatovat si" },
+          { "target": "stop", "native": "přestat" }
+        ], "reviewed": false },
+        { "id": "u22-l3-e4", "type": "listen", "audio": "We decided to stay at home.", "options": ["We decided to stay at home.", "We decided to go home.", "We wanted to stay at home."], "answer": "We decided to stay at home.", "reviewed": false },
+        { "id": "u22-l3-e5", "type": "listen", "audio": "I don't mind waiting.", "options": ["Nevadí mi počkat.", "Nechci čekat.", "Nebaví mě čekat."], "answer": "Nevadí mi počkat.", "reviewed": false },
+        { "id": "u22-l3-e6", "type": "fill", "sentence": "I enjoy ___ in the garden.", "translation": "Baví mě pracovat na zahradě.", "options": ["working", "to work", "work"], "answer": "working", "explain": "Po enjoy je sloveso s -ing.", "reviewed": false },
+        { "id": "u22-l3-e7", "type": "fill", "sentence": "We hope ___ you soon.", "translation": "Doufáme, že vás brzy uvidíme.", "options": ["to see", "seeing", "see"], "answer": "to see", "explain": "Po hope je to + sloveso.", "reviewed": false },
+        { "id": "u22-l3-e8", "type": "type", "question": "Nezapomeňte zavolat mámě.", "answer": "Remember to ring Mum.", "accept": ["Remember to call Mum.", "Don't forget to ring Mum.", "Don't forget to call Mum."], "reviewed": false },
+        { "id": "u22-l3-e9", "type": "build", "question": "Přestala jíst maso.", "answer": "She stopped eating meat.", "extra": ["to"], "reviewed": false },
+        { "id": "u22-l3-e10", "type": "build", "question": "Podařilo se nám najít hotel.", "answer": "We managed to find a hotel.", "extra": ["finding"], "reviewed": false }
+      ]
+    }
+  ]
+}

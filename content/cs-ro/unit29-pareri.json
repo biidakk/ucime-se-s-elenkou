@@ -1,0 +1,139 @@
+{
+  "id": "u29",
+  "level": "B1",
+  "title": "Názory a diskuse",
+  "titleTarget": "Păreri",
+  "description": "Jak říct svůj názor, vážit argumenty a mluvit o tom, co mohlo být jinak.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u29-l1",
+      "title": "Podle mě",
+      "titleTarget": "După părerea mea",
+      "reviewed": false,
+      "tip": {
+        "title": "Myslím, že… Zdá se mi, že…",
+        "text": "Názor řeknete skoro jako česky. Cred că… = Myslím, že…, Nu cred că… = Nemyslím si, že…, Mi se pare că… = Zdá se mi, že… – mi je tu stejné jako české mi. Formálněji: Sunt de părere că… nebo După părerea mea… (Podle mě…). Po těchto slovech následuje obyčejný tvar slovesa: Cred că e adevărat. A „mít pravdu“ se řekne také s „mít“: a avea dreptate. Ai dreptate. = Máš pravdu. Aveți dreptate. = Máte pravdu.",
+        "examples": [
+          { "target": "Cred că aveți dreptate.", "native": "Myslím, že máte pravdu." },
+          { "target": "Mi se pare că e prea scump.", "native": "Zdá se mi, že je to moc drahé." },
+          { "target": "După părerea mea, e prea târziu.", "native": "Podle mě je příliš pozdě." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l1-w1", "target": "o părere", "native": "názor", "note": "părerea = ten názor; množné číslo: păreri. Čte se „pă-RE-re“.", "reviewed": false },
+        { "id": "u29-l1-w2", "target": "după părerea mea", "native": "podle mě; podle mého názoru", "note": "Vykání: după părerea dumneavoastră. Čte se „DU-pă pă-RE-rea mea“.", "reviewed": false },
+        { "id": "u29-l1-w3", "target": "Sunt de părere că", "native": "jsem toho názoru, že", "note": "Formálnější než Cred că. Čte se „sunt de pă-RE-re kă“.", "reviewed": false },
+        { "id": "u29-l1-w4", "target": "Ai dreptate.", "native": "máš pravdu", "note": "Vykání: Aveți dreptate. Zápor: N-ai dreptate. Čte se „aj drep-TA-te“.", "reviewed": false },
+        { "id": "u29-l1-w5", "target": "Mi se pare că", "native": "zdá se mi, že", "note": "Jako česky: mi = mi. Ti se pare? = Zdá se ti? Čte se „mi se PA-re kă“.", "reviewed": false },
+        { "id": "u29-l1-w6", "target": "a se îndoi", "native": "pochybovat", "note": "Skupina -esc: mă îndoiesc = pochybuji. Čte se „a se yn-do-I“.", "reviewed": false },
+        { "id": "u29-l1-w7", "target": "un argument", "native": "argument", "note": "argumentul; množné číslo: argumente (střední rod). Čte se „ar-gu-MENT“.", "reviewed": false },
+        { "id": "u29-l1-w8", "target": "a convinge", "native": "přesvědčit", "note": "eu conving, el convinge; minulý čas: am convins. Čte se „a kon-VIN-dže“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l1-e1", "type": "choice", "question": "a se îndoi", "questionLang": "target", "options": ["pochybovat", "přesvědčit", "souhlasit"], "answer": "pochybovat", "reviewed": false },
+        { "id": "u29-l1-e2", "type": "choice", "question": "máš pravdu", "questionLang": "native", "options": ["Ai dreptate.", "Mi se pare că", "Sunt de părere că"], "answer": "Ai dreptate.", "reviewed": false },
+        { "id": "u29-l1-e3", "type": "match", "pairs": [
+          { "target": "o părere", "native": "názor" },
+          { "target": "a convinge", "native": "přesvědčit" },
+          { "target": "Mi se pare că", "native": "zdá se mi, že" },
+          { "target": "după părerea mea", "native": "podle mě" }
+        ], "reviewed": false },
+        { "id": "u29-l1-e4", "type": "listen", "audio": "Cred că ai dreptate.", "options": ["Myslím, že máš pravdu.", "Nemyslím si, že máš pravdu.", "Myslím, že nemáš pravdu."], "answer": "Myslím, že máš pravdu.", "reviewed": false },
+        { "id": "u29-l1-e5", "type": "listen", "audio": "Mi se pare că e prea scump.", "options": ["Mi se pare că e prea scump.", "Mi se pare că e prea mic.", "Cred că e prea scump."], "answer": "Mi se pare că e prea scump.", "reviewed": false },
+        { "id": "u29-l1-e6", "type": "fill", "sentence": "Mi se ___ că plouă.", "translation": "Zdá se mi, že prší.", "options": ["pare", "par", "pară"], "answer": "pare", "explain": "Jako české „zdá se mi“: mi se pare, sloveso je ve 3. osobě jednotného čísla.", "reviewed": false },
+        { "id": "u29-l1-e7", "type": "fill", "sentence": "___ dreptate, doamnă.", "translation": "Máte pravdu, paní.", "options": ["Aveți", "Sunteți", "Ați"], "answer": "Aveți", "explain": "Mít pravdu = a avea dreptate, stejně jako česky se slovesem „mít“.", "reviewed": false },
+        { "id": "u29-l1-e8", "type": "type", "question": "Podle mě máte pravdu.", "answer": "După părerea mea, aveți dreptate.", "accept": ["După mine, aveți dreptate."], "reviewed": false },
+        { "id": "u29-l1-e9", "type": "build", "question": "Nemyslím si, že je to pravda.", "answer": "Nu cred că e adevărat.", "extra": ["să"], "reviewed": false },
+        { "id": "u29-l1-e10", "type": "build", "question": "Ten argument mě nepřesvědčil.", "answer": "Argumentul ăsta nu m-a convins.", "extra": ["convinge"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l2",
+      "title": "Ano, ale…",
+      "titleTarget": "Da, dar totuși",
+      "reviewed": false,
+      "tip": {
+        "title": "Slůvka do diskuse",
+        "text": "Tato slůvka spojují myšlenky: totuși = přesto, desigur = samozřejmě, de fapt = vlastně, mai ales = hlavně, zvlášť. Pozor na dvě z nich. Oricum = stejně, tak jako tak: Oricum, nu pot să vin. = Stejně nemůžu přijít. În schimb = zato, naopak – ne „výměnou“: Apartamentul e mic, în schimb e ieftin. = Byt je malý, zato je levný. A když vážíte dvě strany: pe de o parte… pe de altă parte… = na jednu stranu… na druhou stranu…",
+        "examples": [
+          { "target": "Plouă, totuși mergem la plimbare.", "native": "Prší, přesto jdeme na procházku." },
+          { "target": "Apartamentul e mic, în schimb e ieftin.", "native": "Byt je malý, zato je levný." },
+          { "target": "Desigur, vă ajut.", "native": "Samozřejmě, pomůžu vám." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l2-w1", "target": "totuși", "native": "přesto; přece jen", "note": "E scump, totuși îl iau. = Je to drahé, přesto to beru. Čte se „TO-tuš“.", "reviewed": false },
+        { "id": "u29-l2-w2", "target": "desigur", "native": "samozřejmě", "note": "Hovorově také sigur. Čte se „de-SI-gur“.", "reviewed": false },
+        { "id": "u29-l2-w3", "target": "de fapt", "native": "vlastně; ve skutečnosti", "note": "De fapt, nu știu. = Vlastně nevím.", "reviewed": false },
+        { "id": "u29-l2-w4", "target": "oricum", "native": "stejně; tak jako tak", "note": "Oricum, n-am timp. = Stejně nemám čas. Čte se „o-ri-KUM“.", "reviewed": false },
+        { "id": "u29-l2-w5", "target": "mai ales", "native": "hlavně; zvlášť", "note": "Îmi place marea, mai ales vara. = Líbí se mi moře, hlavně v létě. Čte se „maj a-LES“.", "reviewed": false },
+        { "id": "u29-l2-w6", "target": "în schimb", "native": "zato; naopak", "note": "Nepřekládejte „výměnou“. Čte se „yn skimb“.", "reviewed": false },
+        { "id": "u29-l2-w7", "target": "pe de o parte", "native": "na jednu stranu", "note": "o parte = část, strana. Čte se „pe de o PAR-te“.", "reviewed": false },
+        { "id": "u29-l2-w8", "target": "pe de altă parte", "native": "na druhou stranu", "note": "Parte je ženského rodu, proto altă. Čte se „pe de AL-tă PAR-te“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l2-e1", "type": "choice", "question": "oricum", "questionLang": "target", "options": ["stejně; tak jako tak", "samozřejmě", "vlastně; ve skutečnosti"], "answer": "stejně; tak jako tak", "reviewed": false },
+        { "id": "u29-l2-e2", "type": "choice", "question": "zato; naopak", "questionLang": "native", "options": ["în schimb", "totuși", "mai ales"], "answer": "în schimb", "reviewed": false },
+        { "id": "u29-l2-e3", "type": "match", "pairs": [
+          { "target": "desigur", "native": "samozřejmě" },
+          { "target": "de fapt", "native": "vlastně" },
+          { "target": "mai ales", "native": "hlavně" },
+          { "target": "totuși", "native": "přesto" }
+        ], "reviewed": false },
+        { "id": "u29-l2-e4", "type": "listen", "audio": "Plouă, totuși mergem la plimbare.", "options": ["Prší, přesto jdeme na procházku.", "Prší, takže nejdeme na procházku.", "Neprší, a tak jdeme na procházku."], "answer": "Prší, přesto jdeme na procházku.", "reviewed": false },
+        { "id": "u29-l2-e5", "type": "listen", "audio": "Îmi place marea, mai ales vara.", "options": ["Îmi place marea, mai ales vara.", "Îmi place marea, mai ales iarna.", "Îmi place muntele, mai ales vara."], "answer": "Îmi place marea, mai ales vara.", "reviewed": false },
+        { "id": "u29-l2-e6", "type": "fill", "sentence": "Pe de o parte e scump, pe de ___ parte e bun.", "translation": "Na jednu stranu je to drahé, na druhou stranu je to dobré.", "options": ["altă", "alt", "alte"], "answer": "altă", "explain": "Parte je ženského rodu jednotného čísla, proto altă parte.", "reviewed": false },
+        { "id": "u29-l2-e7", "type": "fill", "sentence": "Satul e departe, în ___ e frumos.", "translation": "Vesnice je daleko, zato je krásná.", "options": ["schimb", "schimbă", "schimbat"], "answer": "schimb", "explain": "Zato = în schimb, pevné spojení, které se nemění.", "reviewed": false },
+        { "id": "u29-l2-e8", "type": "type", "question": "Samozřejmě!", "answer": "Desigur!", "accept": ["Sigur!", "Bineînțeles!", "Sigur că da!"], "reviewed": false },
+        { "id": "u29-l2-e9", "type": "build", "question": "Vlastně nemám čas.", "answer": "De fapt, n-am timp.", "accept": ["N-am timp, de fapt."], "reviewed": false },
+        { "id": "u29-l2-e10", "type": "build", "question": "Stejně nemůžu přijít.", "answer": "Oricum, nu pot să vin.", "extra": ["vii"], "accept": ["Nu pot să vin oricum."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l3",
+      "title": "Kdyby se to stalo jinak",
+      "titleTarget": "Dacă ar fi fost altfel",
+      "reviewed": false,
+      "tip": {
+        "title": "Co by bývalo bylo",
+        "text": "O tom, co se mohlo stát jinak, mluví rumunština tvarem aș fi + příčestí: aș fi vrut, ar fi fost, aș fi știut. Česky se tvar mění podle rodu (on by byl chtěl, ona by byla chtěla), rumunsky ne – ar fi vrut platí pro oba. Osoba se pozná jen podle prvního slova: aș, ai, ar, am, ați, ar fi venit. Stejný tvar stojí i po dacă: Dacă am fi știut, am fi venit. = Kdybychom to věděli, přišli bychom. Častá lítost: Ar fi fost mai bine. = Bývalo by lepší.",
+        "examples": [
+          { "target": "Ar fi fost mai bine să rămânem acasă.", "native": "Bývalo by lepší zůstat doma." },
+          { "target": "Dacă am fi știut, am fi venit.", "native": "Kdybychom to věděli, přišli bychom." },
+          { "target": "Ce ați fi făcut în locul meu?", "native": "Co byste udělali na mém místě?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l3-w1", "target": "Aș fi vrut", "native": "byl bych chtěl; byla bych chtěla", "note": "Muž i žena řeknou stejně. Dál následuje să: Aș fi vrut să vin.", "reviewed": false },
+        { "id": "u29-l3-w2", "target": "Ar fi fost mai bine", "native": "bývalo by lepší", "note": "Ar fi fost mai bine să rămânem acasă. = Bývalo by lepší zůstat doma.", "reviewed": false },
+        { "id": "u29-l3-w3", "target": "Dacă aș fi știut", "native": "kdybych to věděl; kdybych to věděla", "note": "Celá věta: Dacă aș fi știut, aș fi venit. Čte se „DA-kă aš fi šti-UT“.", "reviewed": false },
+        { "id": "u29-l3-w4", "target": "a regreta", "native": "litovat", "note": "eu regret, tu regreți, el regretă. Nu regret nimic. = Ničeho nelituji. Čte se „a re-gre-TA“.", "reviewed": false },
+        { "id": "u29-l3-w5", "target": "o șansă", "native": "šance", "note": "șansa = ta šance; množné číslo: șanse. Čte se „ŠAN-să“.", "reviewed": false },
+        { "id": "u29-l3-w6", "target": "o alegere", "native": "volba; výběr", "note": "alegerea = ta volba; množné číslo: alegeri = také volby. A alege = vybrat si. Čte se „a-LE-dže-re“.", "reviewed": false },
+        { "id": "u29-l3-w7", "target": "o decizie", "native": "rozhodnutí", "note": "decizia = to rozhodnutí; množné číslo: decizii. A lua o decizie = rozhodnout se. Čte se „de-ČI-zi-e“.", "reviewed": false },
+        { "id": "u29-l3-w8", "target": "a hotărî", "native": "rozhodnout; rozhodnout se", "note": "eu hotărăsc; minulý čas: am hotărât. Čte se „a ho-tă-RY“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l3-e1", "type": "choice", "question": "o alegere", "questionLang": "target", "options": ["volba; výběr", "rozhodnutí", "šance"], "answer": "volba; výběr", "reviewed": false },
+        { "id": "u29-l3-e2", "type": "choice", "question": "litovat", "questionLang": "native", "options": ["a regreta", "a hotărî", "a convinge"], "answer": "a regreta", "reviewed": false },
+        { "id": "u29-l3-e3", "type": "match", "pairs": [
+          { "target": "o șansă", "native": "šance" },
+          { "target": "o decizie", "native": "rozhodnutí" },
+          { "target": "a hotărî", "native": "rozhodnout" },
+          { "target": "Ar fi fost mai bine", "native": "bývalo by lepší" }
+        ], "reviewed": false },
+        { "id": "u29-l3-e4", "type": "listen", "audio": "Dacă am fi știut, am fi venit.", "options": ["Kdybychom to věděli, přišli bychom.", "Když jsme to věděli, přišli jsme.", "Až to budeme vědět, přijdeme."], "answer": "Kdybychom to věděli, přišli bychom.", "reviewed": false },
+        { "id": "u29-l3-e5", "type": "listen", "audio": "Ar fi fost mai bine să rămânem acasă.", "options": ["Ar fi fost mai bine să rămânem acasă.", "Ar fi mai bine să rămânem acasă.", "A fost mai bine să rămânem acasă."], "answer": "Ar fi fost mai bine să rămânem acasă.", "reviewed": false },
+        { "id": "u29-l3-e6", "type": "fill", "sentence": "Ar fi ___ mai bine așa.", "translation": "Takhle by bývalo lépe.", "options": ["fost", "fi", "fiind"], "answer": "fost", "explain": "Minulý podmiňovací způsob: ar fi + příčestí, tady fost.", "reviewed": false },
+        { "id": "u29-l3-e7", "type": "fill", "sentence": "Dacă ___ fi știut, am fi venit.", "translation": "Kdybychom to věděli, přišli bychom.", "options": ["am", "suntem", "avem"], "answer": "am", "explain": "I po dacă stojí podmiňovací způsob: am fi știut (my).", "reviewed": false },
+        { "id": "u29-l3-e8", "type": "type", "question": "Bývalo by lepší.", "answer": "Ar fi fost mai bine.", "reviewed": false },
+        { "id": "u29-l3-e9", "type": "build", "question": "Nelituji svého rozhodnutí.", "answer": "Nu regret decizia mea.", "extra": ["meu"], "reviewed": false },
+        { "id": "u29-l3-e10", "type": "build", "question": "Rozhodli jsme se zůstat.", "answer": "Am hotărât să rămânem.", "extra": ["rămâne"], "reviewed": false }
+      ]
+    }
+  ]
+}

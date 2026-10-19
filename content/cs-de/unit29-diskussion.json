@@ -1,0 +1,145 @@
+{
+  "id": "u29",
+  "level": "B1",
+  "title": "Diskuse",
+  "titleTarget": "Diskutieren",
+  "description": "Výhody a nevýhody, souhlas a nesouhlas, sny a přání: weder … noch, slovosled po vedlejší větě a „kdyby“ s hätte, wäre a würde.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u29-l1",
+      "title": "Pro a proti",
+      "titleTarget": "Vor- und Nachteile",
+      "reviewed": false,
+      "tip": {
+        "title": "Weder … noch = ani … ani",
+        "text": "Dvojité spojky: sowohl … als auch = jak …, tak i; entweder … oder = buď …, nebo; weder … noch = ani …, ani. Pozor na zápor: česky řekneme „Nemám ani čas, ani peníze“, zápor je tam dvakrát (ani i ne-). V němčině je zápor už ve weder … noch, žádné další nicht nebo kein se nepřidává: Ich habe weder Zeit noch Geld. Chyba je „Ich habe weder Zeit noch kein Geld“. Výslovnost: sowohl [zo-VÓL], weder [VÉ-da], entweder [ent-VÉ-da].",
+        "examples": [
+          { "target": "Das hat sowohl Vorteile als auch Nachteile.", "native": "Má to výhody i nevýhody." },
+          { "target": "Wir fahren entweder mit dem Zug oder mit dem Auto.", "native": "Pojedeme buď vlakem, nebo autem." },
+          { "target": "Ich habe weder Zeit noch Lust.", "native": "Nemám ani čas, ani chuť." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l1-w1", "target": "der Vorteil", "native": "výhoda", "note": "v = f: [FOR-tajl]; množné číslo: die Vorteile", "reviewed": false },
+        { "id": "u29-l1-w2", "target": "der Nachteil", "native": "nevýhoda", "note": "množné číslo: die Nachteile", "reviewed": false },
+        { "id": "u29-l1-w3", "target": "einerseits", "native": "na jedné straně", "note": "Čte se [AJ-na-zajc]. Většinou s andererseits.", "reviewed": false },
+        { "id": "u29-l1-w4", "target": "andererseits", "native": "na druhé straně", "note": "Čte se [AN-de-ra-zajc]. Sloveso jde hned za něj: andererseits ist es teuer.", "reviewed": false },
+        { "id": "u29-l1-w5", "target": "die Möglichkeit", "native": "možnost", "note": "Čte se [MÖK-lich-kajt]; množné číslo: die Möglichkeiten", "reviewed": false },
+        { "id": "u29-l1-w6", "target": "das Problem", "native": "problém", "note": "Česky ten problém, německy das. Přízvuk: [pro-BLÉM]; množné číslo: die Probleme", "reviewed": false },
+        { "id": "u29-l1-w7", "target": "die Lösung", "native": "řešení", "note": "s mezi samohláskami zní jako z: [LÖ-zung]; množné číslo: die Lösungen", "reviewed": false },
+        { "id": "u29-l1-w8", "target": "begründen", "native": "zdůvodnit", "note": "Pevná předpona: er hat es begründet.", "reviewed": false },
+        { "id": "u29-l1-w9", "target": "überzeugen", "native": "přesvědčit", "note": "Pevná předpona, přízvuk: [ü-ba-COJ-gen]. Das überzeugt mich. = To mě přesvědčuje.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l1-e1", "type": "choice", "question": "der Nachteil", "questionLang": "target", "options": ["nevýhoda", "výhoda", "možnost"], "answer": "nevýhoda", "reviewed": false },
+        { "id": "u29-l1-e2", "type": "choice", "question": "řešení", "questionLang": "native", "options": ["die Lösung", "das Problem", "die Möglichkeit"], "answer": "die Lösung", "reviewed": false },
+        { "id": "u29-l1-e3", "type": "match", "pairs": [
+          { "target": "der Vorteil", "native": "výhoda" },
+          { "target": "die Möglichkeit", "native": "možnost" },
+          { "target": "das Problem", "native": "problém" },
+          { "target": "begründen", "native": "zdůvodnit" },
+          { "target": "überzeugen", "native": "přesvědčit" }
+        ], "reviewed": false },
+        { "id": "u29-l1-e4", "type": "listen", "audio": "Das hat sowohl Vorteile als auch Nachteile.", "options": ["Das hat sowohl Vorteile als auch Nachteile.", "Das hat weder Vorteile noch Nachteile.", "Das hat nur Vorteile und keine Nachteile."], "answer": "Das hat sowohl Vorteile als auch Nachteile.", "reviewed": false },
+        { "id": "u29-l1-e5", "type": "fill", "sentence": "Ich habe weder Zeit ___ Geld.", "translation": "Nemám ani čas, ani peníze.", "options": ["noch", "oder", "und"], "answer": "noch", "explain": "K weder patří vždy noch: weder … noch = ani … ani.", "reviewed": false },
+        { "id": "u29-l1-e6", "type": "fill", "sentence": "Wir fahren ___ mit dem Zug oder mit dem Auto.", "translation": "Pojedeme buď vlakem, nebo autem.", "options": ["entweder", "weder", "sowohl"], "answer": "entweder", "explain": "K oder patří entweder; weder jde s noch a sowohl s als auch.", "reviewed": false },
+        { "id": "u29-l1-e7", "type": "type", "question": "výhoda", "answer": "der Vorteil", "reviewed": false },
+        { "id": "u29-l1-e8", "type": "build", "question": "Mluvím jak německy, tak česky.", "answer": "Ich spreche sowohl Deutsch als auch Tschechisch.", "accept": ["Sowohl Deutsch als auch Tschechisch spreche ich."], "extra": ["noch"], "reviewed": false },
+        { "id": "u29-l1-e9", "type": "listen", "audio": "Einerseits ist die Wohnung schön, andererseits ist sie zu teuer.", "options": ["Na jedné straně je byt hezký, na druhé straně je moc drahý.", "Byt je hezký a také levný.", "Byt není ani hezký, ani levný."], "answer": "Na jedné straně je byt hezký, na druhé straně je moc drahý.", "reviewed": false },
+        { "id": "u29-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Nepiju ani kávu, ani čaj.", "questionLang": "native", "options": ["Ich trinke weder Kaffee noch Tee.", "Ich trinke weder Kaffee noch keinen Tee.", "Ich trinke nicht weder Kaffee noch Tee."], "answer": "Ich trinke weder Kaffee noch Tee.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l2",
+      "title": "Souhlas a nesouhlas",
+      "titleTarget": "Zustimmen und widersprechen",
+      "reviewed": false,
+      "tip": {
+        "title": "Wenn das stimmt, bin ich dafür",
+        "text": "Vedlejší věta (s wenn, weil, dass, ob) může stát na začátku. Pak se počítá jako první místo, a proto hned za čárkou následuje sloveso, teprve potom podmět: Wenn das stimmt, bin ich dafür. Česky slovosled zůstává („Jestli je to pravda, jsem pro“), proto se snadno řekne chybně „Wenn das stimmt, ich bin dafür“. Užitečné věty do diskuse: Da stimme ich Ihnen zu. (S tím souhlasím.) Das sehe ich anders. (Já to vidím jinak.)",
+        "examples": [
+          { "target": "Wenn das stimmt, bin ich dafür.", "native": "Jestli je to pravda, jsem pro." },
+          { "target": "Das sehe ich eigentlich anders.", "native": "Já to vlastně vidím jinak." },
+          { "target": "Vielleicht haben Sie recht.", "native": "Možná máte pravdu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l2-w1", "target": "zustimmen", "native": "souhlasit", "note": "Odlučitelné, + 3. pád: Ich stimme Ihnen zu. = Souhlasím s Vámi. Čte se [CÚ-šti-men].", "reviewed": false },
+        { "id": "u29-l2-w2", "target": "widersprechen", "native": "odporovat; nesouhlasit", "note": "Pevná předpona, + 3. pád: Ich widerspreche Ihnen. Přízvuk: [ví-da-ŠPRE-chen]", "reviewed": false },
+        { "id": "u29-l2-w3", "target": "einverstanden", "native": "souhlasím; platí", "note": "Ich bin einverstanden. = Souhlasím. Einverstanden! = Platí! Čte se [AJN-fer-štan-den].", "reviewed": false },
+        { "id": "u29-l2-w4", "target": "dafür", "native": "pro", "note": "Ich bin dafür. = Jsem pro. Přízvuk: [da-FÜR]", "reviewed": false },
+        { "id": "u29-l2-w5", "target": "dagegen", "native": "proti", "note": "Ich bin dagegen. = Jsem proti. Přízvuk: [da-GÉ-gen]", "reviewed": false },
+        { "id": "u29-l2-w6", "target": "eigentlich", "native": "vlastně", "note": "ei = aj: [AJ-gent-lich]", "reviewed": false },
+        { "id": "u29-l2-w7", "target": "vielleicht", "native": "možná", "note": "v = f, přízvuk na druhé slabice: [fi-LAJCHT]", "reviewed": false },
+        { "id": "u29-l2-w8", "target": "sicher", "native": "jistě; jistý", "note": "s na začátku zní jako z: [ZI-cha]; ch jako v ich. Ich bin nicht sicher. = Nevím to jistě.", "reviewed": false },
+        { "id": "u29-l2-w9", "target": "genau", "native": "přesně", "note": "Genau! = Přesně tak! Přízvuk: [ge-NAU]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l2-e1", "type": "choice", "question": "vielleicht", "questionLang": "target", "options": ["možná", "vlastně", "přesně"], "answer": "možná", "reviewed": false },
+        { "id": "u29-l2-e2", "type": "choice", "question": "proti", "questionLang": "native", "options": ["dagegen", "dafür", "genau"], "answer": "dagegen", "reviewed": false },
+        { "id": "u29-l2-e3", "type": "match", "pairs": [
+          { "target": "zustimmen", "native": "souhlasit" },
+          { "target": "widersprechen", "native": "odporovat" },
+          { "target": "eigentlich", "native": "vlastně" },
+          { "target": "sicher", "native": "jistě" },
+          { "target": "genau", "native": "přesně" }
+        ], "reviewed": false },
+        { "id": "u29-l2-e4", "type": "listen", "audio": "Da stimme ich Ihnen zu.", "options": ["Da stimme ich Ihnen zu.", "Da widerspreche ich Ihnen.", "Da bin ich nicht sicher."], "answer": "Da stimme ich Ihnen zu.", "reviewed": false },
+        { "id": "u29-l2-e5", "type": "fill", "sentence": "Wenn das stimmt, ___ dafür.", "translation": "Jestli je to pravda, jsem pro.", "options": ["bin ich", "ich bin", "ich"], "answer": "bin ich", "explain": "Vedlejší věta je na prvním místě, proto hned za čárkou stojí sloveso: bin ich.", "reviewed": false },
+        { "id": "u29-l2-e6", "type": "fill", "sentence": "Ich ___ Ihnen nicht zu.", "translation": "Nesouhlasím s Vámi.", "options": ["stimme", "zustimme", "stimmt"], "answer": "stimme", "explain": "zustimmen je odlučitelné: Ich stimme … zu.", "reviewed": false },
+        { "id": "u29-l2-e7", "type": "type", "question": "přesně", "answer": "genau", "reviewed": false },
+        { "id": "u29-l2-e8", "type": "build", "question": "Protože je to moc drahé, jsem proti.", "answer": "Weil es zu teuer ist, bin ich dagegen.", "accept": ["Ich bin dagegen, weil es zu teuer ist."], "reviewed": false },
+        { "id": "u29-l2-e9", "type": "listen", "audio": "Gut, ich bin einverstanden.", "options": ["Dobře, souhlasím.", "Dobře, jsem proti.", "Dobře, ještě si to rozmyslím."], "answer": "Dobře, souhlasím.", "reviewed": false },
+        { "id": "u29-l2-e10", "type": "build", "question": "Možná máte pravdu.", "answer": "Vielleicht haben Sie recht.", "accept": ["Sie haben vielleicht recht."], "extra": ["sind"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u29-l3",
+      "title": "Sny a přání",
+      "titleTarget": "Träume und Wünsche",
+      "reviewed": false,
+      "tip": {
+        "title": "Wenn wir reich wären … = Kdybychom byli bohatí …",
+        "text": "Nereálnou podmínku (česky „kdyby“) řeknete takto: wenn + hätte nebo wäre, v hlavní větě würde + infinitiv na konci. Wenn wir Geld hätten, würden wir reisen. = Kdybychom měli peníze, cestovali bychom. Tvary: ich hätte, wir hätten; ich wäre, wir wären; ich würde, wir würden. Pozor: Wenn ich Geld habe, … znamená „Až budu mít peníze, …“, to je skutečný plán. A ve vedlejší větě se neříká „wenn ich würde haben“, ale wenn ich hätte.",
+        "examples": [
+          { "target": "Wenn wir Geld hätten, würden wir reisen.", "native": "Kdybychom měli peníze, cestovali bychom." },
+          { "target": "Wenn das Wetter schön wäre, würden wir wandern.", "native": "Kdyby bylo hezky, šli bychom na túru." },
+          { "target": "Ich träume von einer Reise ans Meer.", "native": "Sním o cestě k moři." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u29-l3-w1", "target": "der Traum", "native": "sen", "note": "množné číslo: die Träume", "reviewed": false },
+        { "id": "u29-l3-w2", "target": "träumen", "native": "snít; mít sen", "note": "äu = oj: [TROJ-men]. träumen von + 3. pád = snít o", "reviewed": false },
+        { "id": "u29-l3-w3", "target": "der Wunsch", "native": "přání", "note": "množné číslo: die Wünsche", "reviewed": false },
+        { "id": "u29-l3-w4", "target": "wünschen", "native": "přát; přát si", "note": "Ich wünsche Ihnen alles Gute. = Přeji Vám vše dobré.", "reviewed": false },
+        { "id": "u29-l3-w5", "target": "das Glück", "native": "štěstí", "note": "Viel Glück! = Hodně štěstí! Glück haben = mít štěstí", "reviewed": false },
+        { "id": "u29-l3-w6", "target": "glücklich", "native": "šťastný", "note": "ü: řekněte i a rty zaokrouhlete jako na u.", "reviewed": false },
+        { "id": "u29-l3-w7", "target": "reich", "native": "bohatý", "note": "ei = aj: [rajch]", "reviewed": false },
+        { "id": "u29-l3-w8", "target": "das Abenteuer", "native": "dobrodružství", "note": "eu = oj: [Á-ben-toj-a]; množné číslo: die Abenteuer", "reviewed": false },
+        { "id": "u29-l3-w9", "target": "die Reise", "native": "cesta", "note": "Gute Reise! = Šťastnou cestu! Cesta jako trasa je der Weg. Množné číslo: die Reisen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u29-l3-e1", "type": "choice", "question": "das Abenteuer", "questionLang": "target", "options": ["dobrodružství", "cesta", "sen"], "answer": "dobrodružství", "reviewed": false },
+        { "id": "u29-l3-e2", "type": "choice", "question": "bohatý", "questionLang": "native", "options": ["reich", "glücklich", "sicher"], "answer": "reich", "reviewed": false },
+        { "id": "u29-l3-e3", "type": "match", "pairs": [
+          { "target": "der Traum", "native": "sen" },
+          { "target": "der Wunsch", "native": "přání" },
+          { "target": "das Glück", "native": "štěstí" },
+          { "target": "glücklich", "native": "šťastný" },
+          { "target": "die Reise", "native": "cesta" }
+        ], "reviewed": false },
+        { "id": "u29-l3-e4", "type": "listen", "audio": "Wenn ich reich wäre, würde ich viel reisen.", "options": ["Wenn ich reich wäre, würde ich viel reisen.", "Wenn ich reich bin, reise ich viel.", "Wenn ich Zeit hätte, würde ich viel reisen."], "answer": "Wenn ich reich wäre, würde ich viel reisen.", "reviewed": false },
+        { "id": "u29-l3-e5", "type": "fill", "sentence": "Wenn mein Mann mehr Zeit ___, würde er mehr lesen.", "translation": "Kdyby měl manžel víc času, víc by četl.", "options": ["hätte", "hätten", "würde haben"], "answer": "hätte", "explain": "„Kdyby měl“ = wenn er hätte; ve vedlejší větě se „würde haben“ neříká.", "reviewed": false },
+        { "id": "u29-l3-e6", "type": "fill", "sentence": "Wenn wir reich wären, ___ wir eine lange Reise machen.", "translation": "Kdybychom byli bohatí, vydali bychom se na dlouhou cestu.", "options": ["würden", "würde", "würdet"], "answer": "würden", "explain": "K wir patří würden; infinitiv machen stojí na konci.", "reviewed": false },
+        { "id": "u29-l3-e7", "type": "type", "question": "štěstí", "answer": "das Glück", "reviewed": false },
+        { "id": "u29-l3-e8", "type": "build", "question": "Kdyby Anna měla čas, přišla by.", "answer": "Wenn Anna Zeit hätte, würde sie kommen.", "accept": ["Anna würde kommen, wenn sie Zeit hätte."], "extra": ["wäre"], "reviewed": false },
+        { "id": "u29-l3-e9", "type": "listen", "audio": "Ich wünsche Ihnen viel Glück!", "options": ["Přeji Vám hodně štěstí!", "Přeji Vám šťastnou cestu!", "Měli jste velké štěstí!"], "answer": "Přeji Vám hodně štěstí!", "reviewed": false },
+        { "id": "u29-l3-e10", "type": "speak", "text": "Gute Reise und viel Glück!", "native": "Šťastnou cestu a hodně štěstí!", "reviewed": false }
+      ]
+    }
+  ]
+}

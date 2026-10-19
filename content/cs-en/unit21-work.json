@@ -1,0 +1,144 @@
+{
+  "id": "u21",
+  "level": "B1",
+  "title": "Práce a kariéra",
+  "titleTarget": "Work and career",
+  "description": "Jak to bývalo dřív (used to), pracovní pohovor a rozdíl mezi make a do.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u21-l1",
+      "title": "Dřív a dnes",
+      "titleTarget": "Then and now",
+      "reviewed": false,
+      "tip": {
+        "title": "Used to: dřív ano, dnes už ne",
+        "text": "Česky řeknete „dřív“ a minulý čas: Dřív jsme bydleli v Brně. Anglicky použijte used to + sloveso: We used to live in Brno. Znamená to, že dnes už to neplatí. V záporu a v otázce je did a use bez -d: She didn't use to like coffee. Did you use to work full-time? Pozor: o dnešních zvycích se used to neříká. „Obvykle vstávám v šest“ je I usually get up at six. Used to se čte „júste“, s ostrým s jako v „sůl“.",
+        "examples": [
+          { "target": "We used to live in Brno.", "native": "Dřív jsme bydleli v Brně." },
+          { "target": "My dad used to be a driver.", "native": "Můj táta býval řidič." },
+          { "target": "She didn't use to like coffee.", "native": "Dřív jí káva nechutnala." },
+          { "target": "Did you use to work full-time?", "native": "Pracovali jste dřív na plný úvazek?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l1-w1", "target": "used to", "native": "dřív; kdysi", "note": "used to + sloveso: We used to live here. = Dřív jsme tu bydleli. Čte se „júste“.", "reviewed": false },
+        { "id": "u21-l1-w2", "target": "didn't use to", "native": "dřív ne", "note": "Po didn't je use bez -d: I didn't use to like tea. = Dřív mi čaj nechutnal.", "reviewed": false },
+        { "id": "u21-l1-w3", "target": "colleague", "native": "kolega; kolegyně", "note": "Čte se „kolíg“.", "reviewed": false },
+        { "id": "u21-l1-w4", "target": "boss", "native": "šéf; šéfová", "note": "Čte se „bos“.", "reviewed": false },
+        { "id": "u21-l1-w5", "target": "salary", "native": "plat", "note": "Pravidelný měsíční nebo roční plat. Čte se „seleri“.", "reviewed": false },
+        { "id": "u21-l1-w6", "target": "part-time", "native": "na částečný úvazek", "note": "a part-time job = práce na částečný úvazek", "reviewed": false },
+        { "id": "u21-l1-w7", "target": "full-time", "native": "na plný úvazek", "note": "She works full-time. = Pracuje na plný úvazek.", "reviewed": false },
+        { "id": "u21-l1-w8", "target": "career", "native": "kariéra", "note": "Čte se „ke-RIA“, přízvuk na druhé slabice.", "reviewed": false },
+        { "id": "u21-l1-w9", "target": "pension", "native": "důchod; penze", "note": "Peníze, které dostáváte v důchodu. Být v důchodu = be retired. Čte se „penšn“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l1-e1", "type": "choice", "question": "salary", "questionLang": "target", "options": ["plat", "šéf; šéfová", "důchod; penze"], "answer": "plat", "reviewed": false },
+        { "id": "u21-l1-e2", "type": "choice", "question": "na částečný úvazek", "questionLang": "native", "options": ["part-time", "full-time", "career"], "answer": "part-time", "reviewed": false },
+        { "id": "u21-l1-e3", "type": "match", "pairs": [
+          { "target": "colleague", "native": "kolega" },
+          { "target": "boss", "native": "šéf" },
+          { "target": "career", "native": "kariéra" },
+          { "target": "pension", "native": "důchod" },
+          { "target": "full-time", "native": "na plný úvazek" }
+        ], "reviewed": false },
+        { "id": "u21-l1-e4", "type": "listen", "audio": "My grandfather used to work in a factory.", "options": ["My grandfather used to work in a factory.", "My grandfather works in a factory.", "My grandfather used to work in an office."], "answer": "My grandfather used to work in a factory.", "reviewed": false },
+        { "id": "u21-l1-e5", "type": "listen", "audio": "She didn't use to like her job.", "options": ["Dřív ji práce nebavila.", "Teď ji práce nebaví.", "Dřív ji práce bavila."], "answer": "Dřív ji práce nebavila.", "reviewed": false },
+        { "id": "u21-l1-e6", "type": "fill", "sentence": "We ___ to live in a small flat.", "translation": "Dřív jsme bydleli v malém bytě.", "options": ["used", "use", "using"], "answer": "used", "explain": "V kladné větě je used to s -d.", "reviewed": false },
+        { "id": "u21-l1-e7", "type": "fill", "sentence": "We didn't ___ to have a car.", "translation": "Dřív jsme neměli auto.", "options": ["use", "used", "using"], "answer": "use", "explain": "Po didn't je use bez -d, stejně jako didn't work.", "reviewed": false },
+        { "id": "u21-l1-e8", "type": "type", "question": "Dřív jsme pracovali na plný úvazek.", "answer": "We used to work full-time.", "accept": ["We used to work full time."], "reviewed": false },
+        { "id": "u21-l1-e9", "type": "build", "question": "Můj táta býval řidič.", "answer": "My dad used to be a driver.", "extra": ["use"], "reviewed": false },
+        { "id": "u21-l1-e10", "type": "build", "question": "Dřív jsme neměli rádi kávu.", "answer": "We didn't use to like coffee.", "extra": ["liked"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l2",
+      "title": "Pracovní pohovor",
+      "titleTarget": "A job interview",
+      "reviewed": false,
+      "tip": {
+        "title": "Pracuji tady deset let = I've been working here for ten years.",
+        "text": "Česky řeknete „Pracuji tady deset let“ přítomným časem. Anglicky u činnosti, která začala v minulosti a pořád trvá, použijte have been + sloveso s -ing: I've been working here for ten years. Zeptáte se: How long have you been working here? Neříkejte I work here for ten years ani I am working here since… U sloves know, like a be se -ing nepoužívá, tam zůstává I've known her for years nebo He has been unemployed for a year.",
+        "examples": [
+          { "target": "I've been working here for ten years.", "native": "Pracuji tady deset let." },
+          { "target": "How long have you been waiting?", "native": "Jak dlouho čekáte?" },
+          { "target": "She's been applying for jobs since March.", "native": "Od března se uchází o práci." },
+          { "target": "He has been unemployed for a year.", "native": "Je už rok nezaměstnaný." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l2-w1", "target": "interview", "native": "pohovor; rozhovor", "note": "a job interview = pracovní pohovor. Čte se „intevjú“.", "reviewed": false },
+        { "id": "u21-l2-w2", "target": "apply for", "native": "ucházet se o; podat žádost o", "note": "apply for a job = ucházet se o místo. Čte se „e-PLAJ“.", "reviewed": false },
+        { "id": "u21-l2-w3", "target": "CV", "native": "životopis", "note": "Čte se „sí ví“.", "reviewed": false },
+        { "id": "u21-l2-w4", "target": "experience", "native": "zkušenost; praxe", "note": "work experience = pracovní praxe. Čte se „ik-SPIA-ri-ens“.", "reviewed": false },
+        { "id": "u21-l2-w5", "target": "skill", "native": "dovednost", "note": "computer skills = práce s počítačem", "reviewed": false },
+        { "id": "u21-l2-w6", "target": "earn", "native": "vydělávat", "note": "earn money = vydělávat peníze. Čte se „én“.", "reviewed": false },
+        { "id": "u21-l2-w7", "target": "unemployed", "native": "nezaměstnaný", "note": "Čte se „an-im-PLOJD“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l2-e1", "type": "choice", "question": "skill", "questionLang": "target", "options": ["dovednost", "zkušenost; praxe", "životopis"], "answer": "dovednost", "reviewed": false },
+        { "id": "u21-l2-e2", "type": "choice", "question": "vydělávat", "questionLang": "native", "options": ["earn", "want", "need"], "answer": "earn", "reviewed": false },
+        { "id": "u21-l2-e3", "type": "match", "pairs": [
+          { "target": "interview", "native": "pohovor" },
+          { "target": "CV", "native": "životopis" },
+          { "target": "experience", "native": "zkušenost" },
+          { "target": "unemployed", "native": "nezaměstnaný" },
+          { "target": "apply for", "native": "ucházet se o" }
+        ], "reviewed": false },
+        { "id": "u21-l2-e4", "type": "listen", "audio": "How long have you been working here?", "options": ["How long have you been working here?", "How long have you been waiting here?", "How long have you lived here?"], "answer": "How long have you been working here?", "reviewed": false },
+        { "id": "u21-l2-e5", "type": "listen", "audio": "I've got a job interview tomorrow.", "options": ["Zítra mám pracovní pohovor.", "Zítra začínám v nové práci.", "Zítra posílám životopis."], "answer": "Zítra mám pracovní pohovor.", "reviewed": false },
+        { "id": "u21-l2-e6", "type": "fill", "sentence": "She has been ___ here for five years.", "translation": "Pracuje tady pět let.", "options": ["working", "work", "works"], "answer": "working", "explain": "Po have been nebo has been je sloveso s -ing.", "reviewed": false },
+        { "id": "u21-l2-e7", "type": "fill", "sentence": "I ___ been working here for ten years.", "translation": "Pracuji tady deset let.", "options": ["have", "am", "was"], "answer": "have", "explain": "Trvá to od minulosti dodnes: I have been working.", "reviewed": false },
+        { "id": "u21-l2-e8", "type": "type", "question": "Jak dlouho čekáte?", "answer": "How long have you been waiting?", "accept": ["How long have you waited?"], "reviewed": false },
+        { "id": "u21-l2-e9", "type": "build", "question": "Je nezaměstnaný od ledna.", "answer": "He has been unemployed since January.", "extra": ["is"], "reviewed": false },
+        { "id": "u21-l2-e10", "type": "build", "question": "Pracuji tady deset let.", "answer": "I've been working here for ten years.", "extra": ["since"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u21-l3",
+      "title": "Make, nebo do?",
+      "titleTarget": "Make or do?",
+      "reviewed": false,
+      "tip": {
+        "title": "Dvě slovesa pro „dělat“",
+        "text": "Česky máte jedno sloveso „dělat“, anglicky jsou dvě. Make se často pojí s tím, co vytvoříte nebo rozhodnete: make a decision, make a mistake, make a phone call, make a cake. Do se pojí s prací, úkoly a činnostmi: do the housework, do the shopping, do your best. Pravidlo neplatí vždy, proto se učte celá spojení. Neříkejte do a mistake ani make the shopping.",
+        "examples": [
+          { "target": "We've made a decision.", "native": "Rozhodli jsme se." },
+          { "target": "Everyone makes mistakes.", "native": "Každý dělá chyby." },
+          { "target": "Can you do the shopping today?", "native": "Můžete dnes nakoupit?" },
+          { "target": "Could you do me a favour?", "native": "Mohli byste mi udělat laskavost?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u21-l3-w1", "target": "make a decision", "native": "přijmout rozhodnutí", "note": "Česky často prostě „rozhodnout se“. Ne do a decision.", "reviewed": false },
+        { "id": "u21-l3-w2", "target": "make a mistake", "native": "udělat chybu", "note": "Ne do a mistake.", "reviewed": false },
+        { "id": "u21-l3-w3", "target": "make a phone call", "native": "telefonovat", "note": "I need to make a phone call. = Potřebuji si zavolat.", "reviewed": false },
+        { "id": "u21-l3-w4", "target": "do the housework", "native": "dělat domácí práce", "note": "Uklízení, praní, žehlení. Housework nemá množné číslo.", "reviewed": false },
+        { "id": "u21-l3-w5", "target": "do the shopping", "native": "nakupovat; nakoupit", "note": "Běžný nákup jídla. Ne make the shopping.", "reviewed": false },
+        { "id": "u21-l3-w6", "target": "do someone a favour", "native": "udělat někomu laskavost", "note": "Could you do me a favour? = Mohli byste mi udělat laskavost? Britsky favour s -our.", "reviewed": false },
+        { "id": "u21-l3-w7", "target": "do your best", "native": "snažit se ze všech sil", "note": "I'll do my best. = Udělám, co budu moct.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u21-l3-e1", "type": "choice", "question": "make a mistake", "questionLang": "target", "options": ["udělat chybu", "přijmout rozhodnutí", "snažit se ze všech sil"], "answer": "udělat chybu", "reviewed": false },
+        { "id": "u21-l3-e2", "type": "choice", "question": "nakupovat; nakoupit", "questionLang": "native", "options": ["do the shopping", "make the shopping", "do the housework"], "answer": "do the shopping", "reviewed": false },
+        { "id": "u21-l3-e3", "type": "match", "pairs": [
+          { "target": "make a decision", "native": "přijmout rozhodnutí" },
+          { "target": "make a phone call", "native": "telefonovat" },
+          { "target": "do the housework", "native": "dělat domácí práce" },
+          { "target": "do someone a favour", "native": "udělat někomu laskavost" },
+          { "target": "do your best", "native": "snažit se ze všech sil" }
+        ], "reviewed": false },
+        { "id": "u21-l3-e4", "type": "listen", "audio": "Could you do me a favour?", "options": ["Could you do me a favour?", "Could you do the shopping?", "Could you make a phone call?"], "answer": "Could you do me a favour?", "reviewed": false },
+        { "id": "u21-l3-e5", "type": "listen", "audio": "We've made a decision.", "options": ["Rozhodli jsme se.", "Udělali jsme chybu.", "Uklidili jsme."], "answer": "Rozhodli jsme se.", "reviewed": false },
+        { "id": "u21-l3-e6", "type": "fill", "sentence": "Everyone ___ mistakes.", "translation": "Každý dělá chyby.", "options": ["makes", "does", "make"], "answer": "makes", "explain": "Chyba se dělá slovesem make, a u everyone je -s: everyone makes.", "reviewed": false },
+        { "id": "u21-l3-e7", "type": "fill", "sentence": "Who ___ the housework in your family?", "translation": "Kdo u vás doma dělá domácí práce?", "options": ["does", "makes", "do"], "answer": "does", "explain": "Domácí práce se dělají slovesem do, u who je does.", "reviewed": false },
+        { "id": "u21-l3-e8", "type": "type", "question": "Udělám, co budu moct.", "answer": "I'll do my best.", "reviewed": false },
+        { "id": "u21-l3-e9", "type": "build", "question": "Potřebuji si zavolat.", "answer": "I need to make a phone call.", "extra": ["do"], "reviewed": false },
+        { "id": "u21-l3-e10", "type": "build", "question": "Mohli byste mi udělat laskavost?", "answer": "Could you do me a favour?", "extra": ["make"], "reviewed": false }
+      ]
+    }
+  ]
+}

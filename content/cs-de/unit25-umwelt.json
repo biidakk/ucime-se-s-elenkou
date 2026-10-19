@@ -1,0 +1,145 @@
+{
+  "id": "u25",
+  "level": "B1",
+  "title": "Životní prostředí",
+  "titleTarget": "Umwelt",
+  "description": "Třídění odpadu, šetření energií a budoucnost planety: trpný rod, deshalb a budoucí čas s werden.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u25-l1",
+      "title": "Třídění odpadu",
+      "titleTarget": "Müll trennen",
+      "reviewed": false,
+      "tip": {
+        "title": "Der Müll wird getrennt",
+        "text": "Když není důležité, kdo něco dělá, použije němčina trpný rod: werden + příčestí na konci věty. Der Müll wird getrennt. = Odpad se třídí. Die Dosen werden gesammelt. = Plechovky se sbírají. Česky řekneme „se třídí“ nebo „je tříděn“, německy sem ale nepatří sein, nýbrž werden: ich werde, du wirst, er wird, wir werden, sie werden. Věta Das Glas ist getrennt znamená něco jiného: sklo už je roztříděné. Kdo to dělá, řeknete pomocí von: von der Stadt.",
+        "examples": [
+          { "target": "In Deutschland wird der Müll getrennt.", "native": "V Německu se třídí odpad." },
+          { "target": "Glas wird getrennt gesammelt.", "native": "Sklo se sbírá zvlášť." },
+          { "target": "Wo wird das Plastik gesammelt?", "native": "Kde se sbírá plast?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l1-w1", "target": "die Umwelt", "native": "životní prostředí", "note": "Čte se [UM-velt]; množné číslo se nepoužívá", "reviewed": false },
+        { "id": "u25-l1-w2", "target": "trennen", "native": "třídit; oddělovat", "note": "den Müll trennen = třídit odpad; příčestí: getrennt", "reviewed": false },
+        { "id": "u25-l1-w3", "target": "das Plastik", "native": "plast", "note": "Pozor: die Plastik je socha. Množné číslo se běžně nepoužívá", "reviewed": false },
+        { "id": "u25-l1-w4", "target": "das Glas", "native": "sklo; sklenice", "note": "množné číslo: die Gläser (sklenice)", "reviewed": false },
+        { "id": "u25-l1-w5", "target": "das Papier", "native": "papír", "note": "Přízvuk na druhé slabice: [pa-PÍR]; množné číslo die Papiere = doklady", "reviewed": false },
+        { "id": "u25-l1-w6", "target": "die Dose", "native": "plechovka", "note": "s před samohláskou zní jako z: [DÓ-ze]; množné číslo: die Dosen", "reviewed": false },
+        { "id": "u25-l1-w7", "target": "sammeln", "native": "sbírat", "note": "ich sammle, er sammelt; příčestí: gesammelt", "reviewed": false },
+        { "id": "u25-l1-w8", "target": "die Mülltonne", "native": "popelnice", "note": "Často jen die Tonne: die gelbe Tonne = žlutá popelnice. Množné číslo: die Mülltonnen", "reviewed": false },
+        { "id": "u25-l1-w9", "target": "die Verpackung", "native": "obal", "note": "Přízvuk: [fer-PA-kung]; množné číslo: die Verpackungen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l1-e1", "type": "choice", "question": "die Umwelt", "questionLang": "target", "options": ["životní prostředí", "obal", "popelnice"], "answer": "životní prostředí", "reviewed": false },
+        { "id": "u25-l1-e2", "type": "choice", "question": "plechovka", "questionLang": "native", "options": ["die Dose", "die Verpackung", "das Glas"], "answer": "die Dose", "reviewed": false },
+        { "id": "u25-l1-e3", "type": "match", "pairs": [
+          { "target": "das Plastik", "native": "plast" },
+          { "target": "das Papier", "native": "papír" },
+          { "target": "sammeln", "native": "sbírat" },
+          { "target": "trennen", "native": "třídit" },
+          { "target": "die Mülltonne", "native": "popelnice" }
+        ], "reviewed": false },
+        { "id": "u25-l1-e4", "type": "listen", "audio": "Das Papier wird gesammelt.", "options": ["Das Papier wird gesammelt.", "Das Glas wird gesammelt.", "Das Papier wird getrennt."], "answer": "Das Papier wird gesammelt.", "reviewed": false },
+        { "id": "u25-l1-e5", "type": "fill", "sentence": "In Deutschland wird der Müll ___.", "translation": "V Německu se odpad třídí.", "options": ["getrennt", "trennt", "getrennen"], "answer": "getrennt", "explain": "Trpný rod: werden + příčestí na konci (getrennt).", "reviewed": false },
+        { "id": "u25-l1-e6", "type": "fill", "sentence": "Die Dosen ___ gesammelt.", "translation": "Plechovky se sbírají.", "options": ["werden", "wird", "wirst"], "answer": "werden", "explain": "Die Dosen je množné číslo, proto werden (jednotné číslo: wird).", "reviewed": false },
+        { "id": "u25-l1-e7", "type": "type", "question": "obal", "answer": "die Verpackung", "reviewed": false },
+        { "id": "u25-l1-e8", "type": "build", "question": "Papír se sbírá v pondělí.", "answer": "Das Papier wird am Montag gesammelt.", "accept": ["Am Montag wird das Papier gesammelt."], "extra": ["werden"], "reviewed": false },
+        { "id": "u25-l1-e9", "type": "listen", "audio": "Das Plastik kommt in die gelbe Tonne.", "options": ["Plast patří do žluté popelnice.", "Papír patří do žluté popelnice.", "Plast patří do modré popelnice."], "answer": "Plast patří do žluté popelnice.", "reviewed": false },
+        { "id": "u25-l1-e10", "type": "speak", "text": "Wir trennen den Müll.", "native": "Třídíme odpad.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u25-l2",
+      "title": "Šetříme energií",
+      "titleTarget": "Energie im Haushalt",
+      "reviewed": false,
+      "tip": {
+        "title": "deshalb = proto",
+        "text": "Deshalb a deswegen znamenají „proto“. Stojí obvykle na začátku druhé věty a sloveso jde hned za ně, na 2. místo: Der Strom ist teuer, deshalb schalte ich das Licht aus. Chybně je „deshalb ich schalte“. Srovnejte s weil (protože): po weil jde sloveso na konec: …, weil der Strom teuer ist. Pozor na zrádné slovo: der Strom je elektřina, elektrický proud. Strom na zahradě se řekne der Baum.",
+        "examples": [
+          { "target": "Der Strom ist teuer, deshalb schalte ich das Licht aus.", "native": "Elektřina je drahá, proto zhasínám světlo." },
+          { "target": "Es ist kalt, deswegen schalten wir die Heizung ein.", "native": "Je zima, proto zapínáme topení." },
+          { "target": "Ich schalte das Licht aus, weil der Strom teuer ist.", "native": "Zhasínám světlo, protože elektřina je drahá." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l2-w1", "target": "die Energie", "native": "energie", "note": "Přízvuk na konci, g jako v „guma“: [e-ner-GÍ]; množné číslo: die Energien", "reviewed": false },
+        { "id": "u25-l2-w2", "target": "der Strom", "native": "elektřina; proud", "note": "Pozor: strom je der Baum! Množné číslo: die Ströme", "reviewed": false },
+        { "id": "u25-l2-w3", "target": "die Heizung", "native": "topení", "note": "Čte se [HAJ-cung]; množné číslo: die Heizungen", "reviewed": false },
+        { "id": "u25-l2-w4", "target": "verbrauchen", "native": "spotřebovat", "note": "Pevná předpona: Wir haben viel Strom verbraucht.", "reviewed": false },
+        { "id": "u25-l2-w5", "target": "ausschalten", "native": "vypnout", "note": "Předpona jde na konec: Ich schalte das Licht aus. = Zhasnu.", "reviewed": false },
+        { "id": "u25-l2-w6", "target": "einschalten", "native": "zapnout", "note": "Předpona jde na konec: Ich schalte die Heizung ein.", "reviewed": false },
+        { "id": "u25-l2-w7", "target": "das Licht", "native": "světlo", "note": "ch jako v „ich“; množné číslo: die Lichter", "reviewed": false },
+        { "id": "u25-l2-w8", "target": "die Luft", "native": "vzduch", "note": "Obvykle jen jednotné číslo", "reviewed": false },
+        { "id": "u25-l2-w9", "target": "die Natur", "native": "příroda", "note": "Přízvuk na druhé slabice: [na-TÚR]; množné číslo se nepoužívá", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l2-e1", "type": "choice", "question": "der Strom", "questionLang": "target", "options": ["elektřina; proud", "strom", "topení"], "answer": "elektřina; proud", "reviewed": false },
+        { "id": "u25-l2-e2", "type": "choice", "question": "vypnout", "questionLang": "native", "options": ["ausschalten", "einschalten", "verbrauchen"], "answer": "ausschalten", "reviewed": false },
+        { "id": "u25-l2-e3", "type": "match", "pairs": [
+          { "target": "die Energie", "native": "energie" },
+          { "target": "die Heizung", "native": "topení" },
+          { "target": "das Licht", "native": "světlo" },
+          { "target": "die Luft", "native": "vzduch" },
+          { "target": "die Natur", "native": "příroda" }
+        ], "reviewed": false },
+        { "id": "u25-l2-e4", "type": "listen", "audio": "Schalten Sie bitte das Licht aus.", "options": ["Schalten Sie bitte das Licht aus.", "Schalten Sie bitte das Licht ein.", "Schalten Sie bitte die Heizung aus."], "answer": "Schalten Sie bitte das Licht aus.", "reviewed": false },
+        { "id": "u25-l2-e5", "type": "fill", "sentence": "Der Strom ist teuer, deshalb ___ das Licht aus.", "translation": "Elektřina je drahá, proto zhasínám světlo.", "options": ["schalte ich", "ich schalte", "schalten ich"], "answer": "schalte ich", "explain": "Po deshalb jde sloveso hned na 2. místo, podmět ich až za něj.", "reviewed": false },
+        { "id": "u25-l2-e6", "type": "fill", "sentence": "Ich schalte die Heizung aus, ___ es warm ist.", "translation": "Vypínám topení, protože je teplo.", "options": ["weil", "deshalb", "denn"], "answer": "weil", "explain": "Sloveso ist stojí na konci, to je možné jen po weil.", "reviewed": false },
+        { "id": "u25-l2-e7", "type": "type", "question": "vzduch", "answer": "die Luft", "reviewed": false },
+        { "id": "u25-l2-e8", "type": "build", "question": "Proto zhasínám světlo.", "answer": "Deshalb schalte ich das Licht aus.", "accept": ["Ich schalte deshalb das Licht aus."], "extra": ["schalten"], "reviewed": false },
+        { "id": "u25-l2-e9", "type": "listen", "audio": "Wir verbrauchen zu viel Strom.", "options": ["Spotřebováváme příliš mnoho elektřiny.", "Spotřebováváme příliš mnoho vody.", "Spotřebováváme málo elektřiny."], "answer": "Spotřebováváme příliš mnoho elektřiny.", "reviewed": false },
+        { "id": "u25-l2-e10", "type": "build", "question": "V přírodě je čistý vzduch.", "answer": "In der Natur ist die Luft sauber.", "accept": ["Die Luft ist in der Natur sauber."], "extra": ["dem"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u25-l3",
+      "title": "Klima a budoucnost",
+      "titleTarget": "Klima und Zukunft",
+      "reviewed": false,
+      "tip": {
+        "title": "Es wird regnen = bude pršet",
+        "text": "Budoucnost vyjádříte slovesem werden a infinitivem na konci věty: Morgen wird es regnen. = Zítra bude pršet. Česky stojí „bude“ hned u slovesa, německy jde infinitiv až na konec. Chybně je „Es wird regnen morgen“. Když je jasné, že jde o budoucnost, stačí i přítomný čas: Morgen regnet es. Pozor, werden má víc významů: s infinitivem = budu (Ich werde arbeiten.), samo = stávat se (Es wird warm. = Otepluje se.), s příčestím = trpný rod z první lekce.",
+        "examples": [
+          { "target": "Morgen wird es regnen.", "native": "Zítra bude pršet." },
+          { "target": "Die Temperaturen werden steigen.", "native": "Teploty budou stoupat." },
+          { "target": "Es wird warm.", "native": "Otepluje se." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l3-w1", "target": "das Klima", "native": "klima; podnebí", "note": "Čte se [KLÍ-ma]; množné číslo se skoro nepoužívá", "reviewed": false },
+        { "id": "u25-l3-w2", "target": "die Temperatur", "native": "teplota", "note": "Přízvuk na konci: [tem-pe-ra-TÚR]; množné číslo: die Temperaturen", "reviewed": false },
+        { "id": "u25-l3-w3", "target": "die Zukunft", "native": "budoucnost", "note": "Čte se [CÚ-kunft]; in der Zukunft = v budoucnu", "reviewed": false },
+        { "id": "u25-l3-w4", "target": "die Hitze", "native": "horko; vedro", "note": "Čte se [HI-ce]; množné číslo se nepoužívá", "reviewed": false },
+        { "id": "u25-l3-w5", "target": "das Tier", "native": "zvíře", "note": "množné číslo: die Tiere", "reviewed": false },
+        { "id": "u25-l3-w6", "target": "die Pflanze", "native": "rostlina", "note": "Vyslovte p i f: [PFLAN-ce]; množné číslo: die Pflanzen", "reviewed": false },
+        { "id": "u25-l3-w7", "target": "die Erde", "native": "Země; půda", "note": "Planeta i hlína. Země jako stát je das Land.", "reviewed": false },
+        { "id": "u25-l3-w8", "target": "schützen", "native": "chránit", "note": "ü: řekněte i a rty zaokrouhlete jako na u. Příčestí: geschützt", "reviewed": false },
+        { "id": "u25-l3-w9", "target": "steigen", "native": "stoupat", "note": "Perfektum se sein: Die Preise sind gestiegen.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l3-e1", "type": "choice", "question": "die Zukunft", "questionLang": "target", "options": ["budoucnost", "teplota", "příroda"], "answer": "budoucnost", "reviewed": false },
+        { "id": "u25-l3-e2", "type": "choice", "question": "rostlina", "questionLang": "native", "options": ["die Pflanze", "das Tier", "die Erde"], "answer": "die Pflanze", "reviewed": false },
+        { "id": "u25-l3-e3", "type": "match", "pairs": [
+          { "target": "das Klima", "native": "podnebí" },
+          { "target": "das Tier", "native": "zvíře" },
+          { "target": "die Hitze", "native": "horko" },
+          { "target": "schützen", "native": "chránit" },
+          { "target": "steigen", "native": "stoupat" }
+        ], "reviewed": false },
+        { "id": "u25-l3-e4", "type": "listen", "audio": "Morgen wird es heiß.", "options": ["Zítra bude horko.", "Včera bylo horko.", "Zítra bude zima."], "answer": "Zítra bude horko.", "reviewed": false },
+        { "id": "u25-l3-e5", "type": "fill", "sentence": "Die Temperatur wird im Sommer ___.", "translation": "Teplota bude v létě stoupat.", "options": ["steigen", "gestiegen", "steigt"], "answer": "steigen", "explain": "Budoucí čas: werden + infinitiv na konci (steigen).", "reviewed": false },
+        { "id": "u25-l3-e6", "type": "fill", "sentence": "Ich ___ morgen mit dem Zug fahren.", "translation": "Zítra pojedu vlakem.", "options": ["werde", "wird", "werden"], "answer": "werde", "explain": "S ich se pojí werde: ich werde, du wirst, er wird.", "reviewed": false },
+        { "id": "u25-l3-e7", "type": "type", "question": "zvíře", "answer": "das Tier", "reviewed": false },
+        { "id": "u25-l3-e8", "type": "build", "question": "Zítra bude pršet.", "answer": "Morgen wird es regnen.", "accept": ["Es wird morgen regnen."], "extra": ["werden"], "reviewed": false },
+        { "id": "u25-l3-e9", "type": "listen", "audio": "Wir müssen die Natur schützen.", "options": ["Wir müssen die Natur schützen.", "Wir müssen die Tiere schützen.", "Wir wollen die Natur schützen."], "answer": "Wir müssen die Natur schützen.", "reviewed": false },
+        { "id": "u25-l3-e10", "type": "build", "question": "Musíme chránit zvířata a rostliny.", "answer": "Wir müssen Tiere und Pflanzen schützen.", "accept": ["Wir müssen Pflanzen und Tiere schützen.", "Tiere und Pflanzen müssen wir schützen."], "extra": ["schützt"], "reviewed": false }
+      ]
+    }
+  ]
+}

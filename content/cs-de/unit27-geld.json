@@ -1,0 +1,143 @@
+{
+  "id": "u27",
+  "level": "B1",
+  "title": "Peníze a pojištění",
+  "titleTarget": "Geld und Versicherungen",
+  "description": "Pojištění, převody v bance a reklamace: 2. pád, wegen, trotz a während a trpný rod se způsobovými slovesy.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u27-l1",
+      "title": "Pojištění",
+      "titleTarget": "Versicherungen",
+      "reviewed": false,
+      "tip": {
+        "title": "Genitiv jako 2. pád",
+        "text": "Německý Genitiv odpovídá českému 2. pádu (koho? čeho?): die Nummer des Kontos = číslo účtu. Členy der a das se změní na des a podstatné jméno dostane -s nebo -es: des Autos, des Schadens, des Hauses. Ženský člen die se změní na der a jméno zůstane stejné: die Kosten der Versicherung. Častá chyba je zapomenout -s: „des Beitrag“ místo des Beitrags. Zrádné slovo: kündigen znamená vypovědět (smlouvu, pojištění, byt), ne oznámit.",
+        "examples": [
+          { "target": "Das ist das Auto meines Sohnes.", "native": "To je auto mého syna." },
+          { "target": "Die Kosten der Reparatur sind hoch.", "native": "Náklady na opravu jsou vysoké." },
+          { "target": "Ich möchte die Versicherung kündigen.", "native": "Chci vypovědět pojištění." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l1-w1", "target": "die Versicherung", "native": "pojištění; pojišťovna", "note": "Čte se [fer-ZI-che-rung]; množné číslo: die Versicherungen", "reviewed": false },
+        { "id": "u27-l1-w2", "target": "versichern", "native": "pojistit", "note": "Pevná předpona: Das Auto ist versichert.", "reviewed": false },
+        { "id": "u27-l1-w3", "target": "der Schaden", "native": "škoda; poškození", "note": "Jen ve smyslu poškození; „to je škoda“ = Das ist schade. Množné číslo: die Schäden", "reviewed": false },
+        { "id": "u27-l1-w4", "target": "die Kosten", "native": "náklady", "note": "Jen množné číslo: Die Kosten sind hoch.", "reviewed": false },
+        { "id": "u27-l1-w5", "target": "der Beitrag", "native": "příspěvek; pojistné", "note": "Čte se [BAJ-trák]; množné číslo: die Beiträge", "reviewed": false },
+        { "id": "u27-l1-w6", "target": "monatlich", "native": "měsíčně", "note": "-lich čtěte s ch jako v „ich“", "reviewed": false },
+        { "id": "u27-l1-w7", "target": "jährlich", "native": "ročně", "note": "h se nečte: [JÉR-lich]", "reviewed": false },
+        { "id": "u27-l1-w8", "target": "kündigen", "native": "vypovědět", "note": "Pozor: ne oznámit! Příčestí: gekündigt", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l1-e1", "type": "choice", "question": "kündigen", "questionLang": "target", "options": ["vypovědět", "oznámit", "pojistit"], "answer": "vypovědět", "reviewed": false },
+        { "id": "u27-l1-e2", "type": "choice", "question": "náklady", "questionLang": "native", "options": ["die Kosten", "der Schaden", "der Beitrag"], "answer": "die Kosten", "reviewed": false },
+        { "id": "u27-l1-e3", "type": "match", "pairs": [
+          { "target": "die Versicherung", "native": "pojištění" },
+          { "target": "versichern", "native": "pojistit" },
+          { "target": "der Schaden", "native": "škoda" },
+          { "target": "monatlich", "native": "měsíčně" },
+          { "target": "jährlich", "native": "ročně" }
+        ], "reviewed": false },
+        { "id": "u27-l1-e4", "type": "listen", "audio": "Ich bezahle monatlich zwanzig Euro.", "options": ["Platím měsíčně dvacet eur.", "Platím ročně dvacet eur.", "Platím měsíčně dvanáct eur."], "answer": "Platím měsíčně dvacet eur.", "reviewed": false },
+        { "id": "u27-l1-e5", "type": "fill", "sentence": "Das ist die Nummer des ___.", "translation": "To je číslo účtu.", "options": ["Kontos", "Konto", "Kontoes"], "answer": "Kontos", "explain": "Po des dostane podstatné jméno koncovku -s: des Kontos.", "reviewed": false },
+        { "id": "u27-l1-e6", "type": "fill", "sentence": "Die Kosten ___ Versicherung sind hoch.", "translation": "Náklady na pojištění jsou vysoké.", "options": ["der", "des", "die"], "answer": "der", "explain": "die Versicherung je ženského rodu, ve 2. pádě má člen der.", "reviewed": false },
+        { "id": "u27-l1-e7", "type": "type", "question": "pojištění", "answer": "die Versicherung", "reviewed": false },
+        { "id": "u27-l1-e8", "type": "build", "question": "Chci vypovědět pojištění.", "answer": "Ich möchte die Versicherung kündigen.", "accept": ["Die Versicherung möchte ich kündigen."], "extra": ["möchten"], "reviewed": false },
+        { "id": "u27-l1-e9", "type": "listen", "audio": "Ist das Auto versichert?", "options": ["Ist das Auto versichert?", "Ist das Auto repariert?", "Ist das Haus versichert?"], "answer": "Ist das Auto versichert?", "reviewed": false },
+        { "id": "u27-l1-e10", "type": "build", "question": "Oprava auta je drahá.", "answer": "Die Reparatur des Autos ist teuer.", "extra": ["Auto"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l2",
+      "title": "Převody a úvěry",
+      "titleTarget": "Überweisungen und Kredite",
+      "reviewed": false,
+      "tip": {
+        "title": "wegen, trotz, während",
+        "text": "Wegen (kvůli), trotz (i přes) a während (během) se ve spisovné němčině pojí s 2. pádem: wegen des Wetters, trotz des Regens, während der Arbeit. U „během“ je i česky 2. pád (během práce). Po „kvůli“ je ale česky 3. pád (kvůli dešti), a tak se snadno řekne „wegen dem Wetter“. V hovorové řeči to tak říká i mnoho Němců. V dopisech, na úřadě a v bance ale používejte 2. pád.",
+        "examples": [
+          { "target": "Wegen des Wetters bleiben wir zu Hause.", "native": "Kvůli počasí zůstaneme doma." },
+          { "target": "Trotz des Regens machen wir einen Ausflug.", "native": "I přes déšť jedeme na výlet." },
+          { "target": "Ich überweise den Betrag heute.", "native": "Částku převedu dnes." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l2-w1", "target": "die Überweisung", "native": "bankovní převod", "note": "Čte se [ü-ba-VAJ-zung]; množné číslo: die Überweisungen", "reviewed": false },
+        { "id": "u27-l2-w2", "target": "überweisen", "native": "převést peníze", "note": "Pevná předpona: ich überweise, ich habe überwiesen", "reviewed": false },
+        { "id": "u27-l2-w3", "target": "der Betrag", "native": "částka", "note": "množné číslo: die Beträge", "reviewed": false },
+        { "id": "u27-l2-w4", "target": "die Zinsen", "native": "úroky", "note": "Množné číslo; čte se [CIN-zen]", "reviewed": false },
+        { "id": "u27-l2-w5", "target": "sparen", "native": "šetřit; spořit", "note": "sparen für = šetřit na: Ich spare für den Urlaub.", "reviewed": false },
+        { "id": "u27-l2-w6", "target": "der Kredit", "native": "úvěr", "note": "Přízvuk na konci: [kre-DÍT]; množné číslo: die Kredite", "reviewed": false },
+        { "id": "u27-l2-w7", "target": "leihen", "native": "půjčit", "note": "jemandem etwas leihen = někomu něco půjčit, sich etwas leihen = půjčit si; příčestí: geliehen", "reviewed": false },
+        { "id": "u27-l2-w8", "target": "die Schulden", "native": "dluhy", "note": "Obvykle jen množné číslo: Schulden haben = mít dluhy", "reviewed": false },
+        { "id": "u27-l2-w9", "target": "der Antrag", "native": "žádost", "note": "einen Antrag stellen = podat žádost; množné číslo: die Anträge", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l2-e1", "type": "choice", "question": "die Schulden", "questionLang": "target", "options": ["dluhy", "úroky", "částka"], "answer": "dluhy", "reviewed": false },
+        { "id": "u27-l2-e2", "type": "choice", "question": "žádost", "questionLang": "native", "options": ["der Antrag", "der Betrag", "der Kredit"], "answer": "der Antrag", "reviewed": false },
+        { "id": "u27-l2-e3", "type": "match", "pairs": [
+          { "target": "die Überweisung", "native": "bankovní převod" },
+          { "target": "der Betrag", "native": "částka" },
+          { "target": "die Zinsen", "native": "úroky" },
+          { "target": "sparen", "native": "šetřit" },
+          { "target": "leihen", "native": "půjčit" }
+        ], "reviewed": false },
+        { "id": "u27-l2-e4", "type": "listen", "audio": "Ich möchte Geld überweisen.", "options": ["Ich möchte Geld überweisen.", "Ich möchte Geld abheben.", "Ich möchte Geld sparen."], "answer": "Ich möchte Geld überweisen.", "reviewed": false },
+        { "id": "u27-l2-e5", "type": "fill", "sentence": "Wegen ___ Regens bleiben wir zu Hause.", "translation": "Kvůli dešti zůstaneme doma.", "options": ["des", "dem", "der"], "answer": "des", "explain": "wegen + 2. pád: der Regen → wegen des Regens.", "reviewed": false },
+        { "id": "u27-l2-e6", "type": "fill", "sentence": "Während ___ Arbeit trinke ich viel Kaffee.", "translation": "Během práce piju hodně kávy.", "options": ["der", "die", "des"], "answer": "der", "explain": "während + 2. pád; die Arbeit je ženského rodu, proto der Arbeit.", "reviewed": false },
+        { "id": "u27-l2-e7", "type": "type", "question": "úvěr", "answer": "der Kredit", "reviewed": false },
+        { "id": "u27-l2-e8", "type": "build", "question": "Kvůli zácpě přijedeme pozdě.", "answer": "Wegen des Staus kommen wir zu spät.", "accept": ["Wir kommen wegen des Staus zu spät."], "extra": ["dem"], "reviewed": false },
+        { "id": "u27-l2-e9", "type": "listen", "audio": "Können Sie mir hundert Euro leihen?", "options": ["Můžete mi půjčit sto eur?", "Můžete mi poslat sto eur?", "Můžete mi vrátit sto eur?"], "answer": "Můžete mi půjčit sto eur?", "reviewed": false },
+        { "id": "u27-l2-e10", "type": "build", "question": "Šetřím na dovolenou.", "answer": "Ich spare für den Urlaub.", "accept": ["Für den Urlaub spare ich."], "extra": ["dem"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l3",
+      "title": "Reklamace",
+      "titleTarget": "Die Reklamation",
+      "reviewed": false,
+      "tip": {
+        "title": "Das muss repariert werden",
+        "text": "Trpný rod se způsobovým slovesem: müssen nebo können stojí na obvyklém místě a na konci je příčestí a werden: Der Computer muss repariert werden. = Počítač se musí opravit. Kann das umgetauscht werden? = Dá se to vyměnit? Chybně je „muss reparieren werden“: před werden patří příčestí, ne infinitiv. Zrádné slovo: die Reklame je reklama. Reklamace se řekne die Reklamation, reklamovat = reklamieren.",
+        "examples": [
+          { "target": "Das Handy muss repariert werden.", "native": "Mobil se musí opravit." },
+          { "target": "Kann ich das umtauschen?", "native": "Můžu to vyměnit?" },
+          { "target": "Ich möchte das reklamieren.", "native": "Chci to reklamovat." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l3-w1", "target": "die Garantie", "native": "záruka", "note": "Přízvuk na konci: [ga-ran-TÍ]; množné číslo: die Garantien", "reviewed": false },
+        { "id": "u27-l3-w2", "target": "umtauschen", "native": "vyměnit", "note": "Zboží v obchodě. Předpona jde na konec: Ich tausche das um. Příčestí: umgetauscht", "reviewed": false },
+        { "id": "u27-l3-w3", "target": "zurückgeben", "native": "vrátit", "note": "Předpona jde na konec: Ich gebe das zurück. Přízvuk: [cu-RÜK-gé-ben]", "reviewed": false },
+        { "id": "u27-l3-w4", "target": "die Quittung", "native": "účtenka", "note": "qu = kv: [KVI-tung]; množné číslo: die Quittungen", "reviewed": false },
+        { "id": "u27-l3-w5", "target": "kaputtgehen", "native": "rozbít se", "note": "Minulý čas se sein: Das Handy ist kaputtgegangen.", "reviewed": false },
+        { "id": "u27-l3-w6", "target": "ersetzen", "native": "nahradit", "note": "Pevná předpona, příčestí bez ge-: ersetzt", "reviewed": false },
+        { "id": "u27-l3-w7", "target": "die Beratung", "native": "poradenství", "note": "Přízvuk: [be-RÁ-tung]; množné číslo: die Beratungen", "reviewed": false },
+        { "id": "u27-l3-w8", "target": "zuständig", "native": "příslušný; odpovědný", "note": "Wer ist hier zuständig? = Kdo to tu má na starost? Čte se [CÚ-šten-dich]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l3-e1", "type": "choice", "question": "die Quittung", "questionLang": "target", "options": ["účtenka", "záruka", "reklama"], "answer": "účtenka", "reviewed": false },
+        { "id": "u27-l3-e2", "type": "choice", "question": "vyměnit", "questionLang": "native", "options": ["umtauschen", "zurückgeben", "kaputtgehen"], "answer": "umtauschen", "reviewed": false },
+        { "id": "u27-l3-e3", "type": "match", "pairs": [
+          { "target": "die Garantie", "native": "záruka" },
+          { "target": "zurückgeben", "native": "vrátit" },
+          { "target": "kaputtgehen", "native": "rozbít se" },
+          { "target": "ersetzen", "native": "nahradit" },
+          { "target": "die Beratung", "native": "poradenství" }
+        ], "reviewed": false },
+        { "id": "u27-l3-e4", "type": "listen", "audio": "Haben Sie die Quittung?", "options": ["Haben Sie die Quittung?", "Haben Sie die Rechnung?", "Haben Sie den Schlüssel?"], "answer": "Haben Sie die Quittung?", "reviewed": false },
+        { "id": "u27-l3-e5", "type": "fill", "sentence": "Der Computer muss repariert ___.", "translation": "Počítač se musí opravit.", "options": ["werden", "wird", "worden"], "answer": "werden", "explain": "Po muss je na konci infinitiv werden: muss repariert werden.", "reviewed": false },
+        { "id": "u27-l3-e6", "type": "fill", "sentence": "Die Hose kann nicht ___ werden.", "translation": "Kalhoty se nedají vyměnit.", "options": ["umgetauscht", "umtauschen", "umgetauschen"], "answer": "umgetauscht", "explain": "Před werden patří příčestí: umgetauscht.", "reviewed": false },
+        { "id": "u27-l3-e7", "type": "type", "question": "záruka", "answer": "die Garantie", "reviewed": false },
+        { "id": "u27-l3-e8", "type": "build", "question": "Dá se to vyměnit?", "answer": "Kann das umgetauscht werden?", "extra": ["umtauschen"], "reviewed": false },
+        { "id": "u27-l3-e9", "type": "listen", "audio": "Mein Handy ist kaputtgegangen.", "options": ["Rozbil se mi mobil.", "Ztratil se mi mobil.", "Ukradli mi mobil."], "answer": "Rozbil se mi mobil.", "reviewed": false },
+        { "id": "u27-l3-e10", "type": "build", "question": "Kdo to tu má na starost?", "answer": "Wer ist hier zuständig?", "extra": ["sind"], "reviewed": false }
+      ]
+    }
+  ]
+}

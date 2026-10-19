@@ -1,0 +1,143 @@
+{
+  "id": "u27",
+  "level": "B1",
+  "title": "Názory a diskuse",
+  "titleTarget": "Opinions and discussion",
+  "description": "Jak říct svůj názor, souhlasit a nesouhlasit a jak předat, co kdo řekl nebo na co se ptal.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u27-l1",
+      "title": "Souhlasím",
+      "titleTarget": "I agree",
+      "reviewed": false,
+      "tip": {
+        "title": "I agree, bez am",
+        "text": "Česky řeknete „souhlasím“ jedním slovesem a anglicky také: I agree. Neříkejte I am agree. Zápor je I don't agree nebo I disagree. S kým souhlasíte: I agree with you. Na otázku Is it true? odpovězte I think so. (Myslím, že ano.) nebo I don't think so. (Myslím, že ne.), ne I think yes. Místo „podle mě“ řekněte In my opinion, ne According to me.",
+        "examples": [
+          { "target": "I agree with you.", "native": "Souhlasím s vámi." },
+          { "target": "I don't think so.", "native": "Myslím, že ne." },
+          { "target": "In my opinion, it's too expensive.", "native": "Podle mě je to příliš drahé." },
+          { "target": "It depends on the weather.", "native": "Záleží na počasí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l1-w1", "target": "I agree.", "native": "Souhlasím.", "note": "Bez am. agree with = souhlasit s. Čte se „aj e-GRÍ“.", "reviewed": false },
+        { "id": "u27-l1-w2", "target": "I disagree.", "native": "Nesouhlasím.", "note": "Také I don't agree. Čte se „aj dis-e-GRÍ“.", "reviewed": false },
+        { "id": "u27-l1-w3", "target": "opinion", "native": "názor", "note": "Čte se „e-PI-njen“.", "reviewed": false },
+        { "id": "u27-l1-w4", "target": "In my opinion", "native": "podle mě; podle mého názoru", "note": "Na začátku věty, za ním čárka. Ne According to me.", "reviewed": false },
+        { "id": "u27-l1-w5", "target": "I think so.", "native": "Myslím, že ano.", "note": "Ne I think yes.", "reviewed": false },
+        { "id": "u27-l1-w6", "target": "I don't think so.", "native": "Myslím, že ne.", "note": "Ne I think no. Česky také „Nemyslím si.“", "reviewed": false },
+        { "id": "u27-l1-w7", "target": "That's true.", "native": "To je pravda.", "note": "That's se čte s th jako ve slově the, true „trú“.", "reviewed": false },
+        { "id": "u27-l1-w8", "target": "It depends.", "native": "Záleží na tom.", "note": "It depends on the price. = Záleží na ceně. Čte se „it di-PENDZ“.", "reviewed": false },
+        { "id": "u27-l1-w9", "target": "Exactly!", "native": "Přesně tak!", "note": "Čte se „ig-ZEKT-li“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l1-e1", "type": "choice", "question": "It depends.", "questionLang": "target", "options": ["Záleží na tom.", "To je pravda.", "Přesně tak!"], "answer": "Záleží na tom.", "reviewed": false },
+        { "id": "u27-l1-e2", "type": "choice", "question": "Souhlasím.", "questionLang": "native", "options": ["I agree.", "I am agree.", "I agrees."], "answer": "I agree.", "reviewed": false },
+        { "id": "u27-l1-e3", "type": "match", "pairs": [
+          { "target": "opinion", "native": "názor" },
+          { "target": "That's true.", "native": "To je pravda." },
+          { "target": "Exactly!", "native": "Přesně tak!" },
+          { "target": "I disagree.", "native": "Nesouhlasím." },
+          { "target": "It depends.", "native": "Záleží na tom." }
+        ], "reviewed": false },
+        { "id": "u27-l1-e4", "type": "listen", "audio": "I don't think so.", "options": ["I don't think so.", "I think so.", "I don't know."], "answer": "I don't think so.", "reviewed": false },
+        { "id": "u27-l1-e5", "type": "listen", "audio": "It depends on the weather.", "options": ["Záleží na počasí.", "Jaké bude počasí?", "Počasí je krásné."], "answer": "Záleží na počasí.", "reviewed": false },
+        { "id": "u27-l1-e6", "type": "fill", "sentence": "I ___ with you.", "translation": "Souhlasím s vámi.", "options": ["agree", "am agree", "agreeing"], "answer": "agree", "explain": "Agree je sloveso, am před ním nepatří: I agree.", "reviewed": false },
+        { "id": "u27-l1-e7", "type": "fill", "sentence": "___ my opinion, the film was too long.", "translation": "Podle mě byl ten film příliš dlouhý.", "options": ["In", "According to", "On"], "answer": "In", "explain": "Podle mě = in my opinion. According to my opinion se neříká.", "reviewed": false },
+        { "id": "u27-l1-e8", "type": "type", "question": "Myslím, že ne.", "answer": "I don't think so.", "reviewed": false },
+        { "id": "u27-l1-e9", "type": "build", "question": "Souhlasím s vámi.", "answer": "I agree with you.", "extra": ["am"], "reviewed": false },
+        { "id": "u27-l1-e10", "type": "build", "question": "Podle mě je ten hotel příliš drahý.", "answer": "In my opinion, the hotel is too expensive.", "extra": ["According"], "accept": ["The hotel is too expensive in my opinion.", "The hotel, in my opinion, is too expensive."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l2",
+      "title": "Řekl mi, že…",
+      "titleTarget": "He told me that…",
+      "reviewed": false,
+      "tip": {
+        "title": "Say, nebo tell?",
+        "text": "Česky „řekl“ i „řekl mi“, anglicky dvě slovesa. Tell potřebuje osobu: She told me that… Say se říká bez osoby: She said that… Nikdy She said me. Podobně explain it to me, ne explain me. Pozor na čas: česky „Řekla, že je unavená“, anglicky se čas posune do minulosti: She said she was tired. Am nebo is se změní na was, can na could, will na would.",
+        "examples": [
+          { "target": "She said she was tired.", "native": "Řekla, že je unavená." },
+          { "target": "He told me he was busy.", "native": "Řekl mi, že má hodně práce." },
+          { "target": "Could you explain it to me?", "native": "Mohli byste mi to vysvětlit?" },
+          { "target": "They said they would come.", "native": "Řekli, že přijdou." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l2-w1", "target": "say", "native": "říct; říkat", "note": "say, said, said. Said se čte „sed“.", "reviewed": false },
+        { "id": "u27-l2-w2", "target": "tell", "native": "říct někomu; vyprávět", "note": "tell, told, told. Vždy s osobou: tell me, tell her.", "reviewed": false },
+        { "id": "u27-l2-w3", "target": "explain", "native": "vysvětlit", "note": "explain it to me, ne explain me. Čte se „ik-SPLEJN“.", "reviewed": false },
+        { "id": "u27-l2-w4", "target": "reply", "native": "odpovědět", "note": "Hlavně na dopis nebo e-mail. Čte se „ri-PLAJ“.", "reviewed": false },
+        { "id": "u27-l2-w5", "target": "mention", "native": "zmínit se", "note": "Bez předložky: He mentioned the party. Čte se „MEN-šn“.", "reviewed": false },
+        { "id": "u27-l2-w6", "target": "repeat", "native": "zopakovat", "note": "Čte se „ri-PÍT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l2-e1", "type": "choice", "question": "mention", "questionLang": "target", "options": ["zmínit se", "zopakovat", "vysvětlit"], "answer": "zmínit se", "reviewed": false },
+        { "id": "u27-l2-e2", "type": "choice", "question": "odpovědět", "questionLang": "native", "options": ["reply", "repeat", "explain"], "answer": "reply", "reviewed": false },
+        { "id": "u27-l2-e3", "type": "match", "pairs": [
+          { "target": "say", "native": "říct" },
+          { "target": "tell", "native": "říct někomu" },
+          { "target": "explain", "native": "vysvětlit" },
+          { "target": "repeat", "native": "zopakovat" },
+          { "target": "reply", "native": "odpovědět" }
+        ], "reviewed": false },
+        { "id": "u27-l2-e4", "type": "listen", "audio": "She said she was tired.", "options": ["She said she was tired.", "She told me she was tired.", "She says she's tired."], "answer": "She said she was tired.", "reviewed": false },
+        { "id": "u27-l2-e5", "type": "listen", "audio": "He told me he was busy.", "options": ["Řekl mi, že má hodně práce.", "Řekl mi, že je unavený.", "Řekl mi, že je nemocný."], "answer": "Řekl mi, že má hodně práce.", "reviewed": false },
+        { "id": "u27-l2-e6", "type": "fill", "sentence": "She ___ me that the shop was closed.", "translation": "Řekla mi, že je obchod zavřený.", "options": ["told", "said", "explained"], "answer": "told", "explain": "S osobou (me) je tell: she told me. Said me ani explained me se neříká.", "reviewed": false },
+        { "id": "u27-l2-e7", "type": "fill", "sentence": "He ___ that he was cold.", "translation": "Řekl, že je mu zima.", "options": ["said", "told", "spoke"], "answer": "said", "explain": "Bez osoby je say: he said that… Tell potřebuje osobu.", "reviewed": false },
+        { "id": "u27-l2-e8", "type": "type", "question": "Můžete to zopakovat?", "answer": "Can you repeat that?", "accept": ["Could you repeat that?", "Can you repeat it?", "Could you repeat it?"], "reviewed": false },
+        { "id": "u27-l2-e9", "type": "build", "question": "Řekla, že je unavená.", "answer": "She said she was tired.", "extra": ["me"], "reviewed": false },
+        { "id": "u27-l2-e10", "type": "build", "question": "Vysvětlil nám to.", "answer": "He explained it to us.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l3",
+      "title": "Zeptala se, jestli…",
+      "titleTarget": "She asked if…",
+      "reviewed": false,
+      "tip": {
+        "title": "She asked where I lived.",
+        "text": "V nepřímé otázce je pořadí slov jako v oznamovací větě a bez do: Where do you live? se změní na She asked where I lived. (ne where do I live). U otázek ano a ne použijte if nebo whether (jestli): He asked if we were ready. Když někoho o něco žádáte, řekněte ask + osoba + to: She asked me to wait. Česky jsou to dvě slovesa, „zeptat se“ a „požádat“, anglicky obojí ask.",
+        "examples": [
+          { "target": "She asked where I lived.", "native": "Zeptala se, kde bydlím." },
+          { "target": "He asked if we were ready.", "native": "Zeptal se, jestli jsme připravení." },
+          { "target": "They asked us to wait.", "native": "Požádali nás, abychom počkali." },
+          { "target": "I wonder whether it's true.", "native": "Zajímalo by mě, jestli je to pravda." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l3-w1", "target": "ask", "native": "zeptat se; požádat", "note": "ask me to wait = požádat mě, ať počkám. Čte se „ásk“.", "reviewed": false },
+        { "id": "u27-l3-w2", "target": "whether", "native": "zda", "note": "Jako if v nepřímé otázce. Čte se stejně jako weather.", "reviewed": false },
+        { "id": "u27-l3-w3", "target": "wonder", "native": "uvažovat; být zvědavý", "note": "I wonder if… = Zajímalo by mě, jestli… Čte se „WAN-da“.", "reviewed": false },
+        { "id": "u27-l3-w4", "target": "advice", "native": "rada", "note": "Nepočitatelné: some advice, ne an advice. Čte se „ed-VAJS“.", "reviewed": false },
+        { "id": "u27-l3-w5", "target": "advise", "native": "radit; poradit", "note": "Sloveso, na konci zní z: „ed-VAJZ“.", "reviewed": false },
+        { "id": "u27-l3-w6", "target": "recommend", "native": "doporučit", "note": "Jedno c, dvě m. Čte se „re-ke-MEND“.", "reviewed": false },
+        { "id": "u27-l3-w7", "target": "suggest", "native": "navrhnout", "note": "I suggest going by train. Ne suggest me to. Čte se „se-DŽEST“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l3-e1", "type": "choice", "question": "advice", "questionLang": "target", "options": ["rada", "radit; poradit", "doporučit"], "answer": "rada", "reviewed": false },
+        { "id": "u27-l3-e2", "type": "choice", "question": "navrhnout", "questionLang": "native", "options": ["suggest", "recommend", "wonder"], "answer": "suggest", "reviewed": false },
+        { "id": "u27-l3-e3", "type": "match", "pairs": [
+          { "target": "ask", "native": "zeptat se" },
+          { "target": "whether", "native": "zda" },
+          { "target": "recommend", "native": "doporučit" },
+          { "target": "advise", "native": "poradit" },
+          { "target": "advice", "native": "rada" }
+        ], "reviewed": false },
+        { "id": "u27-l3-e4", "type": "listen", "audio": "She asked me where I lived.", "options": ["She asked me where I lived.", "She asked me when I left.", "She asked me why I left."], "answer": "She asked me where I lived.", "reviewed": false },
+        { "id": "u27-l3-e5", "type": "listen", "audio": "Can you give me some advice?", "options": ["Můžete mi poradit?", "Můžete mi něco prodat?", "Můžete mi to zopakovat?"], "answer": "Můžete mi poradit?", "reviewed": false },
+        { "id": "u27-l3-e6", "type": "fill", "sentence": "She asked me where I ___.", "translation": "Zeptala se mě, kde bydlím.", "options": ["lived", "did I live", "do I live"], "answer": "lived", "explain": "V nepřímé otázce je pořadí jako v oznamovací větě a bez do.", "reviewed": false },
+        { "id": "u27-l3-e7", "type": "fill", "sentence": "Can I give you some ___?", "translation": "Můžu vám poradit?", "options": ["advice", "advices", "an advice"], "answer": "advice", "explain": "Advice je nepočitatelné: some advice, bez -s a bez an.", "reviewed": false },
+        { "id": "u27-l3-e8", "type": "type", "question": "Zeptali se, jestli máme čas.", "answer": "They asked if we had time.", "accept": ["They asked whether we had time.", "They asked us if we had time.", "They asked us whether we had time.", "They asked if we had any time."], "reviewed": false },
+        { "id": "u27-l3-e9", "type": "build", "question": "Zeptal se mě, kolik je hodin.", "answer": "He asked me what time it was.", "extra": ["did"], "reviewed": false },
+        { "id": "u27-l3-e10", "type": "build", "question": "Požádali nás, abychom počkali.", "answer": "They asked us to wait.", "extra": ["that"], "reviewed": false }
+      ]
+    }
+  ]
+}

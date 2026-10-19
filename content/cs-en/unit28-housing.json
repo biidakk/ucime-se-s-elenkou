@@ -1,0 +1,143 @@
+{
+  "id": "u28",
+  "level": "B1",
+  "title": "Bydlení a jeho problémy",
+  "titleTarget": "Housing problems",
+  "description": "Když doma něco nefunguje: dohady (must be, can't be), opravy s frázovými slovesy a vztažné věty o místě, kde žijete.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u28-l1",
+      "title": "Něco je špatně",
+      "titleTarget": "Something's wrong",
+      "reviewed": false,
+      "tip": {
+        "title": "Must be, might be, can't be",
+        "text": "Když jste si něčím skoro jistí, řeknete must be: It must be the pipe. (To bude určitě trubka.) Když si jistí nejste, řeknete might be: It might be the roof. (Možná je to střecha.) Když jste si jistí, že to tak není, řeknete can't be: It can't be the heating. (Topením to být nemůže.) Pozor: v tomto smyslu se neříká mustn't be. Mustn't znamená zákaz: nesmíte.",
+        "examples": [
+          { "target": "There's water on the floor. It must be the pipe.", "native": "Na podlaze je voda. To bude určitě trubka." },
+          { "target": "It might be the roof.", "native": "Možná je to střecha." },
+          { "target": "It can't be the heating, it's new.", "native": "Topením to být nemůže, je nové." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l1-w1", "target": "leak", "native": "únik vody; téct", "note": "There's a leak. = Někde to teče. The roof leaks. = Střecha zatéká. Čte se „lík“.", "reviewed": false },
+        { "id": "u28-l1-w2", "target": "heating", "native": "topení", "note": "central heating = ústřední topení. Čte se „hí-ting“.", "reviewed": false },
+        { "id": "u28-l1-w3", "target": "pipe", "native": "trubka", "note": "Čte se „pajp“.", "reviewed": false },
+        { "id": "u28-l1-w4", "target": "tap", "native": "kohoutek", "note": "Britské slovo. Čte se „tep“ s hodně otevřeným e.", "reviewed": false },
+        { "id": "u28-l1-w5", "target": "roof", "native": "střecha", "note": "Čte se „rúf“.", "reviewed": false },
+        { "id": "u28-l1-w6", "target": "ceiling", "native": "strop", "note": "Čte se „sí-ling“.", "reviewed": false },
+        { "id": "u28-l1-w7", "target": "smell", "native": "vonět; páchnout", "note": "It smells of gas. = Je cítit plyn. Také podstatné jméno: a smell = vůně, zápach.", "reviewed": false },
+        { "id": "u28-l1-w8", "target": "noisy", "native": "hlučný", "note": "Čte se „noj-zi“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l1-e1", "type": "choice", "question": "ceiling", "questionLang": "target", "options": ["strop", "střecha", "trubka"], "answer": "strop", "reviewed": false },
+        { "id": "u28-l1-e2", "type": "choice", "question": "kohoutek", "questionLang": "native", "options": ["tap", "pipe", "roof"], "answer": "tap", "reviewed": false },
+        { "id": "u28-l1-e3", "type": "match", "pairs": [
+          { "target": "heating", "native": "topení" },
+          { "target": "pipe", "native": "trubka" },
+          { "target": "roof", "native": "střecha" },
+          { "target": "noisy", "native": "hlučný" },
+          { "target": "leak", "native": "únik vody" }
+        ], "reviewed": false },
+        { "id": "u28-l1-e4", "type": "listen", "audio": "It must be the pipe.", "options": ["It must be the pipe.", "It might be the pipe.", "It can't be the pipe."], "answer": "It must be the pipe.", "reviewed": false },
+        { "id": "u28-l1-e5", "type": "listen", "audio": "The heating isn't working.", "options": ["Topení nefunguje.", "Topení je nové.", "Kohoutek nefunguje."], "answer": "Topení nefunguje.", "reviewed": false },
+        { "id": "u28-l1-e6", "type": "fill", "sentence": "It ___ be the heating, it's new.", "translation": "Topením to být nemůže, je nové.", "options": ["can't", "doesn't", "isn't"], "answer": "can't", "explain": "Jistota, že to tak není: can't be. Doesn't ani isn't před be nepatří.", "reviewed": false },
+        { "id": "u28-l1-e7", "type": "fill", "sentence": "There must ___ a leak.", "translation": "Někde to určitě teče.", "options": ["be", "is", "to be"], "answer": "be", "explain": "Po must je sloveso bez to: must be.", "reviewed": false },
+        { "id": "u28-l1-e8", "type": "type", "question": "Možná je to střecha.", "answer": "It might be the roof.", "accept": ["Maybe it's the roof.", "It could be the roof.", "It may be the roof."], "reviewed": false },
+        { "id": "u28-l1-e9", "type": "build", "question": "Střechou to být nemůže, je nová.", "answer": "It can't be the roof, it's new.", "extra": ["to"], "reviewed": false },
+        { "id": "u28-l1-e10", "type": "build", "question": "Naši sousedi jsou velmi hluční.", "answer": "Our neighbours are very noisy.", "extra": ["is"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l2",
+      "title": "Opravy",
+      "titleTarget": "Repairs",
+      "reviewed": false,
+      "tip": {
+        "title": "Break down, sort out, turn down",
+        "text": "Anglicky se často řekne sloveso a malé slovíčko, které změní význam: break down (porouchat se), sort out (vyřešit), turn down (ztlumit, stáhnout). Předmět může stát za celým slovesem (turn down the music) nebo uprostřed (turn the music down). It ale stojí vždy uprostřed: turn it down, sort it out. Pozor na falešného přítele: rent je nájem. Česká renta je anglicky pension.",
+        "examples": [
+          { "target": "The washing machine has broken down.", "native": "Pračka se porouchala." },
+          { "target": "The landlord will sort it out.", "native": "Pronajímatel to vyřeší." },
+          { "target": "Could you turn the music down, please?", "native": "Mohli byste ztlumit hudbu, prosím?" },
+          { "target": "We pay the rent every month.", "native": "Nájem platíme každý měsíc." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l2-w1", "target": "repair", "native": "opravit; oprava", "note": "Hovorově také fix. Čte se „ri-PÉ“.", "reviewed": false },
+        { "id": "u28-l2-w2", "target": "plumber", "native": "instalatér", "note": "Čte se „pla-ma“, b se nevyslovuje.", "reviewed": false },
+        { "id": "u28-l2-w3", "target": "landlord", "native": "pronajímatel", "note": "Žena: landlady. Čte se „lend-lód“.", "reviewed": false },
+        { "id": "u28-l2-w4", "target": "rent", "native": "nájem; nájemné", "note": "Pozor: česká renta = pension. pay the rent = platit nájem.", "reviewed": false },
+        { "id": "u28-l2-w5", "target": "washing machine", "native": "pračka", "note": "Čte se „wo-šing me-ŠÍN“.", "reviewed": false },
+        { "id": "u28-l2-w6", "target": "break down", "native": "porouchat se", "note": "broke down, broken down. The car has broken down. = Auto se porouchalo.", "reviewed": false },
+        { "id": "u28-l2-w7", "target": "sort out", "native": "vyřešit; dát do pořádku", "note": "I'll sort it out. = Já to vyřeším. It stojí uprostřed.", "reviewed": false },
+        { "id": "u28-l2-w8", "target": "turn down", "native": "ztlumit; zeslabit", "note": "turn down the heating = stáhnout topení. Opak: turn up.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l2-e1", "type": "choice", "question": "plumber", "questionLang": "target", "options": ["instalatér", "pronajímatel", "pračka"], "answer": "instalatér", "reviewed": false },
+        { "id": "u28-l2-e2", "type": "choice", "question": "nájem; nájemné", "questionLang": "native", "options": ["rent", "repair", "roof"], "answer": "rent", "reviewed": false },
+        { "id": "u28-l2-e3", "type": "match", "pairs": [
+          { "target": "repair", "native": "opravit" },
+          { "target": "washing machine", "native": "pračka" },
+          { "target": "landlord", "native": "pronajímatel" },
+          { "target": "break down", "native": "porouchat se" },
+          { "target": "sort out", "native": "vyřešit" }
+        ], "reviewed": false },
+        { "id": "u28-l2-e4", "type": "listen", "audio": "The washing machine has broken down.", "options": ["The washing machine has broken down.", "The washing machine is new.", "The car has broken down."], "answer": "The washing machine has broken down.", "reviewed": false },
+        { "id": "u28-l2-e5", "type": "listen", "audio": "Could you turn the music down, please?", "options": ["Mohli byste ztlumit hudbu, prosím?", "Mohli byste pustit hudbu, prosím?", "Mohli byste vypnout hudbu, prosím?"], "answer": "Mohli byste ztlumit hudbu, prosím?", "reviewed": false },
+        { "id": "u28-l2-e6", "type": "fill", "sentence": "Don't worry, I'll sort it ___.", "translation": "Nebojte se, já to vyřeším.", "options": ["out", "off", "up"], "answer": "out", "explain": "Vyřešit = sort out; it stojí uprostřed.", "reviewed": false },
+        { "id": "u28-l2-e7", "type": "fill", "sentence": "The music is very loud. Could you ___, please?", "translation": "Hudba je moc nahlas. Mohli byste ji ztlumit, prosím?", "options": ["turn it down", "turn down it", "it turn down"], "answer": "turn it down", "explain": "It stojí vždy uprostřed: turn it down.", "reviewed": false },
+        { "id": "u28-l2-e8", "type": "type", "question": "Kolik je nájem?", "answer": "How much is the rent?", "reviewed": false },
+        { "id": "u28-l2-e9", "type": "build", "question": "Pračka se porouchala.", "answer": "The washing machine has broken down.", "extra": ["did"], "reviewed": false },
+        { "id": "u28-l2-e10", "type": "build", "question": "Pronajímatel to musí vyřešit.", "answer": "The landlord must sort it out.", "extra": ["to"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u28-l3",
+      "title": "Kde jsme vyrůstali",
+      "titleTarget": "Where we grew up",
+      "reviewed": false,
+      "tip": {
+        "title": "Who, which, that, where",
+        "text": "Česky stačí jedno slovo „který“. Anglicky řeknete who u lidí (the woman who lives opposite) a which u věcí (the house which has a big garden). That můžete použít u lidí i věcí. U míst je where: the village where we grew up (vesnice, kde jsme vyrůstali). Po where už na konci věty nepatří in: the house where we live, ne the house where we live in.",
+        "examples": [
+          { "target": "This is the village where we grew up.", "native": "Tohle je vesnice, kde jsme vyrůstali." },
+          { "target": "The woman who lives opposite is very kind.", "native": "Paní, která bydlí naproti, je moc milá." },
+          { "target": "It's a house which has a big garden.", "native": "Je to dům, který má velkou zahradu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u28-l3-w1", "target": "move house", "native": "stěhovat se", "note": "We moved house last year. = Loni jsme se stěhovali. Stačí i jen move.", "reviewed": false },
+        { "id": "u28-l3-w2", "target": "grow up", "native": "vyrůstat; vyrůst", "note": "grew up, grown up. Čte se „grou ap“.", "reviewed": false },
+        { "id": "u28-l3-w3", "target": "area", "native": "oblast; čtvrť", "note": "Čte se „é-ri-ja“.", "reviewed": false },
+        { "id": "u28-l3-w4", "target": "block of flats", "native": "bytový dům; panelák", "note": "Britsky. flat = byt.", "reviewed": false },
+        { "id": "u28-l3-w5", "target": "terraced house", "native": "řadový dům", "note": "Typický britský dům v dlouhé řadě. Čte se „te-rist haus“.", "reviewed": false },
+        { "id": "u28-l3-w6", "target": "village", "native": "vesnice", "note": "Čte se „vi-lidž“.", "reviewed": false },
+        { "id": "u28-l3-w7", "target": "countryside", "native": "venkov; krajina", "note": "in the countryside = na venkově. Čte se „kan-tri-sajd“.", "reviewed": false },
+        { "id": "u28-l3-w8", "target": "owner", "native": "majitel; vlastník", "note": "own = vlastnit. Čte se „ou-na“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u28-l3-e1", "type": "choice", "question": "countryside", "questionLang": "target", "options": ["venkov; krajina", "vesnice", "oblast; čtvrť"], "answer": "venkov; krajina", "reviewed": false },
+        { "id": "u28-l3-e2", "type": "choice", "question": "řadový dům", "questionLang": "native", "options": ["terraced house", "block of flats", "living room"], "answer": "terraced house", "reviewed": false },
+        { "id": "u28-l3-e3", "type": "match", "pairs": [
+          { "target": "move house", "native": "stěhovat se" },
+          { "target": "grow up", "native": "vyrůstat" },
+          { "target": "village", "native": "vesnice" },
+          { "target": "owner", "native": "majitel" },
+          { "target": "area", "native": "oblast" }
+        ], "reviewed": false },
+        { "id": "u28-l3-e4", "type": "listen", "audio": "This is the village where I grew up.", "options": ["This is the village where I grew up.", "This is the village where I live.", "This is the town where I grew up."], "answer": "This is the village where I grew up.", "reviewed": false },
+        { "id": "u28-l3-e5", "type": "listen", "audio": "We moved house last year.", "options": ["Loni jsme se stěhovali.", "Příští rok se budeme stěhovat.", "Loni jsme koupili dům."], "answer": "Loni jsme se stěhovali.", "reviewed": false },
+        { "id": "u28-l3-e6", "type": "fill", "sentence": "The woman ___ lives opposite is a nurse.", "translation": "Paní, která bydlí naproti, je zdravotní sestra.", "options": ["who", "which", "where"], "answer": "who", "explain": "U lidí je who (nebo that), which je pro věci.", "reviewed": false },
+        { "id": "u28-l3-e7", "type": "fill", "sentence": "This is the house where we grew ___.", "translation": "Tohle je dům, kde jsme vyrůstali.", "options": ["up", "up in", "in"], "answer": "up", "explain": "Po where už in na konci nepatří.", "reviewed": false },
+        { "id": "u28-l3-e8", "type": "fill", "sentence": "We live in a block of flats ___ has a lift.", "translation": "Bydlíme v bytovém domě, který má výtah.", "options": ["which", "who", "where"], "answer": "which", "explain": "U věcí je which (nebo that), who je pro lidi.", "reviewed": false },
+        { "id": "u28-l3-e9", "type": "type", "question": "Vyrůstali jsme na venkově.", "answer": "We grew up in the countryside.", "accept": ["We grew up in the country."], "reviewed": false },
+        { "id": "u28-l3-e10", "type": "build", "question": "Tohle je čtvrť, kde bydlíme.", "answer": "This is the area where we live.", "extra": ["who"], "reviewed": false }
+      ]
+    }
+  ]
+}

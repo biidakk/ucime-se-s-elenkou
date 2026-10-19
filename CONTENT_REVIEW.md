@@ -10,6 +10,6 @@
 
 | Kurz | Kapitoly | Zkontrolováno |
 |------|-------|---------------|
-| [cs-de](review/cs-de.md) | 20 | 0 / 1268 |
-| [cs-en](review/cs-en.md) | 20 | 0 / 1249 |
-| [cs-ro](review/cs-ro.md) | 20 | 0 / 1198 |
+| [cs-de](review/cs-de.md) | 30 | 0 / 1901 |
+| [cs-en](review/cs-en.md) | 30 | 0 / 1852 |
+| [cs-ro](review/cs-ro.md) | 30 | 0 / 1810 |

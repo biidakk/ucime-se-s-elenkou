@@ -1,0 +1,139 @@
+{
+  "id": "u24",
+  "level": "B1",
+  "title": "Média a technologie",
+  "titleTarget": "Media și tehnologia",
+  "description": "Zprávy a noviny, mobil a internet, videohovor s vnoučaty: se spune, anglická slova se členem, mi-l a ți-o.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u24-l1",
+      "title": "Zprávy",
+      "titleTarget": "Știrile",
+      "reviewed": false,
+      "tip": {
+        "title": "Říká se, prodává se",
+        "text": "Rumunsky se jako česky často mluví neosobně se zvratným se: Se spune că… (Říká se, že…), Se anunță vreme frumoasă. (Hlásí hezké počasí.) Sloveso se řídí tím, o čem je řeč: Se vinde un ziar. – Se vând ziare. Stejně jako česky: prodávají se noviny, ale prodává se kniha. U sloves na -a je tvar pro jednu i víc věcí stejný: se anunță.",
+        "examples": [
+          { "target": "Se spune că va ploua.", "native": "Říká se, že bude pršet." },
+          { "target": "Aici se vând ziare.", "native": "Tady se prodávají noviny." },
+          { "target": "Se anunță vreme frumoasă.", "native": "Hlásí hezké počasí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l1-w1", "target": "o știre", "native": "zpráva v médiích; novinka", "note": "știrea = ta zpráva; množné číslo: știri. Știrile = zprávy v televizi. Zpráva v telefonu je un mesaj. Čte se „ŠTI-re“.", "reviewed": false },
+        { "id": "u24-l1-w2", "target": "un ziar", "native": "noviny", "note": "ziarul = ty noviny; množné číslo: ziare. Rumunsky jednotné číslo: un ziar = jedny noviny. Čte se „zi-AR“.", "reviewed": false },
+        { "id": "u24-l1-w3", "target": "o revistă", "native": "časopis", "note": "revista = ten časopis; množné číslo: reviste. Čte se „re-VIS-tă“.", "reviewed": false },
+        { "id": "u24-l1-w4", "target": "un articol", "native": "článek", "note": "articolul = ten článek; množné číslo: articole (střední rod). Čte se „ar-TI-kol“.", "reviewed": false },
+        { "id": "u24-l1-w5", "target": "un post de radio", "native": "rozhlasová stanice", "note": "postul de radio = ta stanice; množné číslo: posturi de radio. Televizní stanice: un post de televiziune. Čte se „post de RA-di-o“.", "reviewed": false },
+        { "id": "u24-l1-w6", "target": "o emisiune", "native": "pořad", "note": "emisiunea = ten pořad; množné číslo: emisiuni. Čte se „e-mi-si-U-ne“.", "reviewed": false },
+        { "id": "u24-l1-w7", "target": "a anunța", "native": "oznámit; hlásit", "note": "eu anunț, el anunță. Un anunț = oznámení, inzerát. Čte se „a a-nun-CA“.", "reviewed": false },
+        { "id": "u24-l1-w8", "target": "Se spune că", "native": "říká se, že", "note": "Za ním obyčejný čas: Se spune că va ploua. = Říká se, že bude pršet. Čte se „se SPU-ne kă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l1-e1", "type": "choice", "question": "o emisiune", "questionLang": "target", "options": ["pořad", "časopis", "článek"], "answer": "pořad", "reviewed": false },
+        { "id": "u24-l1-e2", "type": "choice", "question": "noviny", "questionLang": "native", "options": ["un ziar", "o revistă", "o știre"], "answer": "un ziar", "reviewed": false },
+        { "id": "u24-l1-e3", "type": "match", "pairs": [
+          { "target": "o știre", "native": "zpráva v médiích" },
+          { "target": "un articol", "native": "článek" },
+          { "target": "un post de radio", "native": "rozhlasová stanice" },
+          { "target": "a anunța", "native": "oznámit" }
+        ], "reviewed": false },
+        { "id": "u24-l1-e4", "type": "listen", "audio": "Se spune că mâine ninge.", "options": ["Říká se, že zítra bude sněžit.", "Říká se, že zítra bude pršet.", "Včera sněžilo."], "answer": "Říká se, že zítra bude sněžit.", "reviewed": false },
+        { "id": "u24-l1-e5", "type": "listen", "audio": "Aici se vând ziare și reviste.", "options": ["Aici se vând ziare și reviste.", "Aici se vinde un ziar.", "Aici se citesc ziare și reviste."], "answer": "Aici se vând ziare și reviste.", "reviewed": false },
+        { "id": "u24-l1-e6", "type": "fill", "sentence": "Aici se ___ ziare.", "translation": "Tady se prodávají noviny.", "options": ["vând", "vinde", "vândut"], "answer": "vând", "explain": "Ziare je množné číslo, proto se vând; se vinde je pro jednu věc.", "reviewed": false },
+        { "id": "u24-l1-e7", "type": "fill", "sentence": "Se ___ ploaie pentru mâine.", "translation": "Na zítřek hlásí déšť.", "options": ["anunță", "anunț", "anunțat"], "answer": "anunță", "explain": "Neosobně se + tvar pro on/ona: se anunță.", "reviewed": false },
+        { "id": "u24-l1-e8", "type": "type", "question": "Říká se, že bude teplo.", "answer": "Se spune că va fi cald.", "accept": ["Se spune că o să fie cald.", "Se zice că va fi cald.", "Se zice că o să fie cald."], "reviewed": false },
+        { "id": "u24-l1-e9", "type": "build", "question": "Čtu článek v novinách.", "answer": "Citesc un articol în ziar.", "extra": ["ziarul"], "reviewed": false },
+        { "id": "u24-l1-e10", "type": "speak", "text": "Se spune că e o emisiune bună.", "native": "Říká se, že je to dobrý pořad.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l2",
+      "title": "Mobil a internet",
+      "titleTarget": "Mobilul și internetul",
+      "reviewed": false,
+      "tip": {
+        "title": "Anglická slova s rumunským členem",
+        "text": "Slova z angličtiny dostanou rumunský člen i množné číslo, většinou jako střední rod: internetul, un laptop – două laptopuri. Když se slovo čte jinak, než se píše, oddělí se člen spojovníkem: site-ul (čte se „saj-tul“), mouse-ul. Pozor na přízvuk, není na první slabice jako v češtině: a-pli-CA-ți-e, cal-cu-la-TOR. A ještě jedna past: calculator je rumunsky hlavně počítač, ne kalkulačka.",
+        "examples": [
+          { "target": "Ai internet acasă?", "native": "Máš doma internet?" },
+          { "target": "Am două aplicații noi.", "native": "Mám dvě nové aplikace." },
+          { "target": "Site-ul nu merge.", "native": "Webová stránka nefunguje." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l2-w1", "target": "un telefon mobil", "native": "mobilní telefon", "note": "telefonul mobil; množné číslo: telefoane mobile. Hovorově jen mobilul. Čte se „te-le-FON mo-BIL“.", "reviewed": false },
+        { "id": "u24-l2-w2", "target": "internet", "native": "internet", "note": "internetul = ten internet. Bez „un“: Am internet. Pe internet = na internetu. Čte se „in-ter-NET“.", "reviewed": false },
+        { "id": "u24-l2-w3", "target": "un e-mail", "native": "e-mail", "note": "e-mailul = ten e-mail; množné číslo: e-mailuri. Čte se „i-MEJL“.", "reviewed": false },
+        { "id": "u24-l2-w4", "target": "o parolă", "native": "heslo", "note": "parola = to heslo; množné číslo: parole. Čte se „pa-RO-lă“.", "reviewed": false },
+        { "id": "u24-l2-w5", "target": "o aplicație", "native": "aplikace", "note": "aplicația = ta aplikace; množné číslo: aplicații. Čte se „a-pli-KA-ci-e“.", "reviewed": false },
+        { "id": "u24-l2-w6", "target": "un calculator", "native": "počítač", "note": "calculatorul = ten počítač; množné číslo: calculatoare. Pozor: hlavně počítač, ne kalkulačka. Čte se „kal-ku-la-TOR“.", "reviewed": false },
+        { "id": "u24-l2-w7", "target": "a descărca", "native": "stáhnout; stahovat", "note": "eu descarc, el descarcă; am descărcat. Bateria e descărcată. = Baterie je vybitá. Čte se „a des-kăr-KA“.", "reviewed": false },
+        { "id": "u24-l2-w8", "target": "a apăsa", "native": "zmáčknout; stisknout", "note": "eu apăs, el apasă; am apăsat. Apăsați aici! = Stiskněte tady! Čte se „a a-pă-SA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l2-e1", "type": "choice", "question": "o parolă", "questionLang": "target", "options": ["heslo", "aplikace", "e-mail"], "answer": "heslo", "reviewed": false },
+        { "id": "u24-l2-e2", "type": "choice", "question": "počítač", "questionLang": "native", "options": ["un calculator", "un telefon mobil", "o aplicație"], "answer": "un calculator", "reviewed": false },
+        { "id": "u24-l2-e3", "type": "match", "pairs": [
+          { "target": "internet", "native": "internet" },
+          { "target": "a descărca", "native": "stáhnout" },
+          { "target": "a apăsa", "native": "stisknout" },
+          { "target": "un telefon mobil", "native": "mobilní telefon" }
+        ], "reviewed": false },
+        { "id": "u24-l2-e4", "type": "listen", "audio": "Am descărcat o aplicație nouă.", "options": ["Stáhl(a) jsem novou aplikaci.", "Smazal(a) jsem novou aplikaci.", "Hledám novou aplikaci."], "answer": "Stáhl(a) jsem novou aplikaci.", "reviewed": false },
+        { "id": "u24-l2-e5", "type": "listen", "audio": "Care e parola de la internet?", "options": ["Care e parola de la internet?", "Care e adresa de e-mail?", "Unde e telefonul mobil?"], "answer": "Care e parola de la internet?", "reviewed": false },
+        { "id": "u24-l2-e6", "type": "fill", "sentence": "Azi am scris trei ___.", "translation": "Dnes jsem napsal(a) tři e-maily.", "options": ["e-mailuri", "e-mail", "e-mailul"], "answer": "e-mailuri", "explain": "Po trei stojí množné číslo: un e-mail – trei e-mailuri.", "reviewed": false },
+        { "id": "u24-l2-e7", "type": "fill", "sentence": "Am ___ un film de pe internet.", "translation": "Stáhl(a) jsem film z internetu.", "options": ["descărcat", "descarc", "descărcând"], "answer": "descărcat", "explain": "Minulý čas: am + příčestí, tedy am descărcat.", "reviewed": false },
+        { "id": "u24-l2-e8", "type": "type", "question": "Jaké je heslo?", "answer": "Care e parola?", "accept": ["Care este parola?"], "reviewed": false },
+        { "id": "u24-l2-e9", "type": "build", "question": "Stiskněte tady a stáhněte si aplikaci.", "answer": "Apăsați aici și descărcați aplicația.", "extra": ["descărca"], "reviewed": false },
+        { "id": "u24-l2-e10", "type": "speak", "text": "Calculatorul meu e foarte vechi.", "native": "Můj počítač je hodně starý.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u24-l3",
+      "title": "Videohovor s vnoučaty",
+      "titleTarget": "Apel video cu nepoții",
+      "reviewed": false,
+      "tip": {
+        "title": "Mi ho = mi-l",
+        "text": "Dvě zájmena za sebou stojí jako v češtině: nejdřív komu, pak co. Mi ho = mi-l, ti ji = ți-o, spojená spojovníkem: Mi-l dai? (Dáš mi ho?) V minulém čase: Ți l-am trimis. (Poslal(a) jsem ti ho.) Pozor na „mu ho, jí ho“: neříká se îi îl, ale i-l: I-l dau mâine. (Dám mu ho zítra.) Po kladném rozkazu jdou zájmena za sloveso: Trimite-mi-o! (Pošli mi ji!) V záporu zůstávají před ním: Nu mi-o trimite! (Neposílej mi ji!)",
+        "examples": [
+          { "target": "Mi-l dai?", "native": "Dáš mi ho?" },
+          { "target": "I-l dau mâine.", "native": "Dám mu ho zítra." },
+          { "target": "Trimite-mi-o!", "native": "Pošli mi ji!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u24-l3-w1", "target": "un apel video", "native": "videohovor", "note": "apelul video = ten videohovor; množné číslo: apeluri video. Čte se „a-PEL VI-de-o“.", "reviewed": false },
+        { "id": "u24-l3-w2", "target": "un ecran", "native": "obrazovka", "note": "ecranul = ta obrazovka; množné číslo: ecrane (střední rod). Čte se „e-KRAN“.", "reviewed": false },
+        { "id": "u24-l3-w3", "target": "o tabletă", "native": "tablet", "note": "tableta = ten tablet; množné číslo: tablete. Znamená i tableta (lék). Čte se „ta-BLE-tă“.", "reviewed": false },
+        { "id": "u24-l3-w4", "target": "o fotografie", "native": "fotografie; fotka", "note": "fotografia = ta fotka; množné číslo: fotografii. Hovorově o poză. Čte se „fo-to-gra-FI-e“.", "reviewed": false },
+        { "id": "u24-l3-w5", "target": "a încărca", "native": "nabít; nahrát", "note": "eu încarc, el încarcă. A încărca telefonul = nabít telefon; a încărca o fotografie = nahrát fotku. Čte se „a yn-kăr-KA“.", "reviewed": false },
+        { "id": "u24-l3-w6", "target": "a șterge", "native": "smazat; utřít", "note": "eu șterg, el șterge; am șters. Čte se „a ŠTER-dže“.", "reviewed": false },
+        { "id": "u24-l3-w7", "target": "o baterie", "native": "baterie", "note": "bateria = ta baterie; množné číslo: baterii. Čte se „ba-te-RI-e“.", "reviewed": false },
+        { "id": "u24-l3-w8", "target": "a se conecta", "native": "připojit se", "note": "Skupina -ez: eu mă conectez. Nu mă pot conecta. = Nemůžu se připojit. Čte se „a se ko-nek-TA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u24-l3-e1", "type": "choice", "question": "a șterge", "questionLang": "target", "options": ["smazat; utřít", "nabít; nahrát", "připojit se"], "answer": "smazat; utřít", "reviewed": false },
+        { "id": "u24-l3-e2", "type": "choice", "question": "obrazovka", "questionLang": "native", "options": ["un ecran", "o tabletă", "o baterie"], "answer": "un ecran", "reviewed": false },
+        { "id": "u24-l3-e3", "type": "match", "pairs": [
+          { "target": "un apel video", "native": "videohovor" },
+          { "target": "o fotografie", "native": "fotka" },
+          { "target": "a se conecta", "native": "připojit se" },
+          { "target": "o baterie", "native": "baterie" }
+        ], "reviewed": false },
+        { "id": "u24-l3-e4", "type": "listen", "audio": "Ți l-am trimis ieri.", "options": ["Poslal(a) jsem ti ho včera.", "Poslal(a) jsem ti ji včera.", "Poslal mi ho včera."], "answer": "Poslal(a) jsem ti ho včera.", "reviewed": false },
+        { "id": "u24-l3-e5", "type": "listen", "audio": "Trimite-mi-o, te rog!", "options": ["Trimite-mi-o, te rog!", "Trimite-mi-l, te rog!", "Nu mi-o trimite!"], "answer": "Trimite-mi-o, te rog!", "reviewed": false },
+        { "id": "u24-l3-e6", "type": "fill", "sentence": "Telefonul? ___ dau mâine.", "translation": "Telefon? Dám mu ho zítra.", "options": ["I-l", "Îi îl", "Îl îi"], "answer": "I-l", "explain": "Îi (mu) a îl (ho) se spojí do i-l.", "reviewed": false },
+        { "id": "u24-l3-e7", "type": "fill", "sentence": "Am uitat să ___ telefonul.", "translation": "Zapomněl(a) jsem nabít telefon.", "options": ["încarc", "încărca", "încărcat"], "answer": "încarc", "explain": "Po să přijde sloveso v osobě: să încarc (jako vreau să merg).", "reviewed": false },
+        { "id": "u24-l3-e8", "type": "type", "question": "Smažte tu fotku.", "answer": "Ștergeți fotografia.", "accept": ["Ștergeți poza."], "reviewed": false },
+        { "id": "u24-l3-e9", "type": "build", "question": "Dám ti ho zítra.", "answer": "Ți-l dau mâine.", "extra": ["dat"], "accept": ["Mâine ți-l dau."], "reviewed": false },
+        { "id": "u24-l3-e10", "type": "build", "question": "Nemůžu se připojit k internetu.", "answer": "Nu mă pot conecta la internet.", "extra": ["conectez"], "reviewed": false }
+      ]
+    }
+  ]
+}

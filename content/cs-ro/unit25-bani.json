@@ -1,0 +1,140 @@
+{
+  "id": "u25",
+  "level": "B1",
+  "title": "Peníze a banka",
+  "titleTarget": "Bani și bănci",
+  "description": "V bance: velká čísla a procenta, účty a platby v trpném rodě a co bychom dělali, kdybychom byli bohatí.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u25-l1",
+      "title": "V bance",
+      "titleTarget": "La bancă",
+      "reviewed": false,
+      "tip": {
+        "title": "Milion, procenta a desetinná čárka",
+        "text": "Velká čísla fungují jako o sută a o mie: un milion, două milioane (střední rod, jako un scaun – două scaune). Od dvaceti výš se před podstatné jméno vkládá de – i po milionu: douăzeci de lei, un milion de lei, două milioane de lei. Procenta se řeknou la sută, doslova „na sto“: cinci la sută = pět procent. Desetinná čárka je stejně jako v češtině čárka – virgulă: doi virgulă cinci la sută = 2,5 %. U úroku se přidává de: Dobânda este de trei la sută.",
+        "examples": [
+          { "target": "Apartamentul costă un milion de lei.", "native": "Byt stojí milion lei." },
+          { "target": "Dobânda este de trei la sută.", "native": "Úrok je tři procenta." },
+          { "target": "Dobânda este de doi virgulă cinci la sută.", "native": "Úrok je 2,5 %." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l1-w1", "target": "un cont", "native": "bankovní účet", "note": "contul = ten účet; množné číslo: conturi. Účet v restauraci je nota.", "reviewed": false },
+        { "id": "u25-l1-w2", "target": "un bancomat", "native": "bankomat", "note": "bancomatul = ten bankomat; množné číslo: bancomate. Čte se „ban-ko-MAT“.", "reviewed": false },
+        { "id": "u25-l1-w3", "target": "o dobândă", "native": "úrok", "note": "dobânda = ten úrok; množné číslo: dobânzi. Čte se „do-BYN-dă“.", "reviewed": false },
+        { "id": "u25-l1-w4", "target": "un împrumut", "native": "půjčka; úvěr", "note": "împrumutul = ta půjčka; množné číslo: împrumuturi. Čte se „ym-pru-MUT“.", "reviewed": false },
+        { "id": "u25-l1-w5", "target": "un milion", "native": "milion", "note": "Množné číslo: milioane (două milioane). Vždy s de: un milion de lei. Čte se „mi-li-ON“.", "reviewed": false },
+        { "id": "u25-l1-w6", "target": "la sută", "native": "procento; procent", "note": "Doslova „na sto“: cinci la sută = pět procent. Čte se „la SU-tă“.", "reviewed": false },
+        { "id": "u25-l1-w7", "target": "a retrage", "native": "vybrat peníze", "note": "eu retrag, el retrage; minulý čas: am retras. Hovorově a scoate bani. Čte se „a re-TRA-dže“.", "reviewed": false },
+        { "id": "u25-l1-w8", "target": "a depune", "native": "vložit peníze", "note": "eu depun, el depune; minulý čas: am depus. A depune bani în cont = vložit peníze na účet. Čte se „a de-PU-ne“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l1-e1", "type": "choice", "question": "o dobândă", "questionLang": "target", "options": ["úrok", "půjčka; úvěr", "bankomat"], "answer": "úrok", "reviewed": false },
+        { "id": "u25-l1-e2", "type": "choice", "question": "bankomat", "questionLang": "native", "options": ["un bancomat", "un cont", "un împrumut"], "answer": "un bancomat", "reviewed": false },
+        { "id": "u25-l1-e3", "type": "match", "pairs": [
+          { "target": "un cont", "native": "bankovní účet" },
+          { "target": "a retrage", "native": "vybrat peníze" },
+          { "target": "a depune", "native": "vložit peníze" },
+          { "target": "un milion", "native": "milion" }
+        ], "reviewed": false },
+        { "id": "u25-l1-e4", "type": "listen", "audio": "Vreau să retrag bani de la bancomat.", "options": ["Chci vybrat peníze z bankomatu.", "Chci vložit peníze na účet.", "Chci si vzít půjčku."], "answer": "Chci vybrat peníze z bankomatu.", "reviewed": false },
+        { "id": "u25-l1-e5", "type": "listen", "audio": "Dobânda este de cinci la sută.", "options": ["Dobânda este de cinci la sută.", "Dobânda este de șase la sută.", "Dobânda este de cincizeci la sută."], "answer": "Dobânda este de cinci la sută.", "reviewed": false },
+        { "id": "u25-l1-e6", "type": "fill", "sentence": "Apartamentul costă un milion ___ lei.", "translation": "Byt stojí milion lei.", "options": ["de", "la", "cu"], "answer": "de", "explain": "Po milionu, stejně jako po číslech od dvaceti výš, stojí de.", "reviewed": false },
+        { "id": "u25-l1-e7", "type": "fill", "sentence": "Casa costă două ___ de lei.", "translation": "Dům stojí dva miliony lei.", "options": ["milioane", "milion", "milioni"], "answer": "milioane", "explain": "Milion je střední rod, v množném čísle má -e: două milioane.", "reviewed": false },
+        { "id": "u25-l1-e8", "type": "type", "question": "Chci vložit peníze na účet.", "answer": "Vreau să depun bani în cont.", "accept": ["Vreau să depun banii în cont.", "Aș vrea să depun bani în cont."], "reviewed": false },
+        { "id": "u25-l1-e9", "type": "build", "question": "Úrok je tři procenta.", "answer": "Dobânda este de trei la sută.", "extra": ["dobândă"], "reviewed": false },
+        { "id": "u25-l1-e10", "type": "speak", "text": "Vreau să retrag o sută de lei.", "native": "Chci vybrat sto lei.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u25-l2",
+      "title": "Účty a platby",
+      "titleTarget": "Facturi și plăți",
+      "reviewed": false,
+      "tip": {
+        "title": "Faktura byla zaplacena",
+        "text": "Trpný rod se tvoří slovesem a fi a příčestím – úplně jako české „byla zaplacena“: Factura a fost plătită. Příčestí se shoduje s podmětem jako přídavné jméno: abonamentul a fost plătit, factura a fost plătită, banii au fost transferați, facturile au fost plătite. Když nejde o jeden konkrétní případ, ale o to, jak se něco obvykle dělá, Rumuni raději použijí se, jako české „platí se“: Chiria se plătește la bancă. (Nájem se platí v bance.)",
+        "examples": [
+          { "target": "Factura a fost plătită.", "native": "Faktura byla zaplacena." },
+          { "target": "Banii au fost transferați ieri.", "native": "Peníze byly převedeny včera." },
+          { "target": "Chiria se plătește la bancă.", "native": "Nájem se platí v bance." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l2-w1", "target": "o factură", "native": "faktura; vyúčtování", "note": "factura = ta faktura; množné číslo: facturi. Factura la curent = účet za elektřinu. Čte se „fak-TU-ră“.", "reviewed": false },
+        { "id": "u25-l2-w2", "target": "o plată", "native": "platba", "note": "plata = ta platba; množné číslo: plăți. Od a plăti.", "reviewed": false },
+        { "id": "u25-l2-w3", "target": "o chirie", "native": "nájem; nájemné", "note": "chiria = ten nájem; množné číslo: chirii. Čte se „ki-RI-e“.", "reviewed": false },
+        { "id": "u25-l2-w4", "target": "curent", "native": "elektřina; proud", "note": "Bez členu: Nu avem curent. = Nemáme proud. Curentul = ta elektřina. Čte se „ku-RENT“.", "reviewed": false },
+        { "id": "u25-l2-w5", "target": "întreținere", "native": "poplatky za byt", "note": "Měsíční platba v domě za vodu, teplo a úklid. Întreținerea = ty poplatky. Čte se „yn-tre-ci-NE-re“.", "reviewed": false },
+        { "id": "u25-l2-w6", "target": "un abonament", "native": "předplatné; paušál", "note": "abonamentul = to předplatné; množné číslo: abonamente. Také permanentka na tramvaj. Čte se „a-bo-na-MENT“.", "reviewed": false },
+        { "id": "u25-l2-w7", "target": "o taxă", "native": "poplatek", "note": "taxa = ten poplatek; množné číslo: taxe. Daň z příjmu je impozit. Čte se „TAK-să“.", "reviewed": false },
+        { "id": "u25-l2-w8", "target": "a transfera", "native": "převést peníze", "note": "eu transfer, el transferă; minulý čas: am transferat. Čte se „a trans-fe-RA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l2-e1", "type": "choice", "question": "o chirie", "questionLang": "target", "options": ["nájem; nájemné", "faktura; vyúčtování", "předplatné; paušál"], "answer": "nájem; nájemné", "reviewed": false },
+        { "id": "u25-l2-e2", "type": "choice", "question": "platba", "questionLang": "native", "options": ["o plată", "o taxă", "o factură"], "answer": "o plată", "reviewed": false },
+        { "id": "u25-l2-e3", "type": "match", "pairs": [
+          { "target": "curent", "native": "elektřina" },
+          { "target": "întreținere", "native": "poplatky za byt" },
+          { "target": "un abonament", "native": "předplatné" },
+          { "target": "a transfera", "native": "převést peníze" }
+        ], "reviewed": false },
+        { "id": "u25-l2-e4", "type": "listen", "audio": "Factura a fost plătită ieri.", "options": ["Faktura byla zaplacena včera.", "Faktura bude zaplacena zítra.", "Nájem byl zaplacen včera."], "answer": "Faktura byla zaplacena včera.", "reviewed": false },
+        { "id": "u25-l2-e5", "type": "listen", "audio": "Cât e factura la curent?", "options": ["Cât e factura la curent?", "Cât e factura la telefon?", "Cât e chiria pe lună?"], "answer": "Cât e factura la curent?", "reviewed": false },
+        { "id": "u25-l2-e6", "type": "fill", "sentence": "Factura a fost ___.", "translation": "Faktura byla zaplacena.", "options": ["plătită", "plătit", "plătiți"], "answer": "plătită", "explain": "Příčestí se shoduje s podmětem: factura je ženský rod, proto plătită, jako česky „zaplacena“.", "reviewed": false },
+        { "id": "u25-l2-e7", "type": "fill", "sentence": "Banii au fost ___ în cont.", "translation": "Peníze byly převedeny na účet.", "options": ["transferați", "transferată", "transferate"], "answer": "transferați", "explain": "Banii je mužský rod v množném čísle, proto transferați.", "reviewed": false },
+        { "id": "u25-l2-e8", "type": "type", "question": "Nájem byl zaplacen.", "answer": "Chiria a fost plătită.", "accept": ["Chiria s-a plătit."], "reviewed": false },
+        { "id": "u25-l2-e9", "type": "build", "question": "Účet za elektřinu byl zaplacen.", "answer": "Factura la curent a fost plătită.", "extra": ["plătit"], "reviewed": false },
+        { "id": "u25-l2-e10", "type": "choice", "question": "Abonamentul a fost plătit.", "questionLang": "target", "options": ["Předplatné bylo zaplaceno.", "Předplatné se platí.", "Předplatné bude zaplaceno."], "answer": "Předplatné bylo zaplaceno.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u25-l3",
+      "title": "Co kdyby…?",
+      "titleTarget": "Dacă am fi bogați",
+      "reviewed": false,
+      "tip": {
+        "title": "Kdyby = dacă + aș",
+        "text": "Česky říkáme „kdyby“ a v druhé části „by“: Kdybychom vyhráli, koupili bychom si dům. Rumunsky je to stejné: dacă a podmiňovací způsob v obou částech věty: Dacă am câștiga, am cumpăra o casă. Podmiňovací způsob znáte z aș vrea: aș, ai, ar, am, ați, ar a sloveso bez „a“. Pozor: a împrumuta znamená půjčit i půjčit si – rozhodne předložka: îi împrumut bani = půjčím mu peníze, împrumut bani de la bancă = půjčím si peníze od banky.",
+        "examples": [
+          { "target": "Dacă am câștiga la loterie, am cumpăra o casă.", "native": "Kdybychom vyhráli v loterii, koupili bychom si dům." },
+          { "target": "Dacă am economisi, am avea mai mulți bani.", "native": "Kdybychom šetřili, měli bychom víc peněz." },
+          { "target": "Ce ați face dacă ați fi bogați?", "native": "Co byste dělali, kdybyste byli bohatí?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u25-l3-w1", "target": "a economisi", "native": "šetřit; spořit", "note": "Skupina -esc: eu economisesc. Čte se „a e-ko-no-mi-SI“.", "reviewed": false },
+        { "id": "u25-l3-w2", "target": "a câștiga", "native": "vyhrát; vydělat", "note": "eu câștig, el câștigă. A câștiga la loterie = vyhrát v loterii. Čte se „a kyš-ti-GA“.", "reviewed": false },
+        { "id": "u25-l3-w3", "target": "o loterie", "native": "loterie", "note": "loteria = ta loterie; množné číslo: loterii. Čte se „lo-te-RI-e“.", "reviewed": false },
+        { "id": "u25-l3-w4", "target": "un buget", "native": "rozpočet", "note": "bugetul = ten rozpočet; množné číslo: bugete. Čte se „bu-DŽET“.", "reviewed": false },
+        { "id": "u25-l3-w5", "target": "o reducere", "native": "sleva", "note": "reducerea = ta sleva; množné číslo: reduceri. La reducere = ve slevě. Čte se „re-DU-če-re“.", "reviewed": false },
+        { "id": "u25-l3-w6", "target": "a cheltui", "native": "utrácet; utratit", "note": "Skupina -esc: eu cheltuiesc. Čte se „a kel-tu-I“.", "reviewed": false },
+        { "id": "u25-l3-w7", "target": "a împrumuta", "native": "půjčit; půjčit si", "note": "eu împrumut. Îi împrumut bani = půjčím mu peníze; împrumut de la bancă = půjčím si od banky. Čte se „a ym-pru-mu-TA“.", "reviewed": false },
+        { "id": "u25-l3-w8", "target": "bogat", "native": "bohatý", "note": "Ženský rod: bogată, množné číslo: bogați. Slovanské slovo. Čte se „bo-GAT“.", "reviewed": false },
+        { "id": "u25-l3-w9", "target": "sărac", "native": "chudý", "note": "Ženský rod: săracă, množné číslo: săraci. Čte se „să-RAK“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u25-l3-e1", "type": "choice", "question": "a cheltui", "questionLang": "target", "options": ["utrácet; utratit", "šetřit; spořit", "vyhrát; vydělat"], "answer": "utrácet; utratit", "reviewed": false },
+        { "id": "u25-l3-e2", "type": "choice", "question": "sleva", "questionLang": "native", "options": ["o reducere", "o loterie", "un buget"], "answer": "o reducere", "reviewed": false },
+        { "id": "u25-l3-e3", "type": "match", "pairs": [
+          { "target": "bogat", "native": "bohatý" },
+          { "target": "sărac", "native": "chudý" },
+          { "target": "un buget", "native": "rozpočet" },
+          { "target": "o loterie", "native": "loterie" }
+        ], "reviewed": false },
+        { "id": "u25-l3-e4", "type": "listen", "audio": "Dacă am câștiga la loterie, am cumpăra o casă.", "options": ["Kdybychom vyhráli v loterii, koupili bychom si dům.", "Vyhráli jsme v loterii a koupili jsme si dům.", "Až vyhrajeme v loterii, koupíme si dům."], "answer": "Kdybychom vyhráli v loterii, koupili bychom si dům.", "reviewed": false },
+        { "id": "u25-l3-e5", "type": "listen", "audio": "Economisim bani pentru concediu.", "options": ["Economisim bani pentru concediu.", "Cheltuim bani în concediu.", "Câștigăm bani în concediu."], "answer": "Economisim bani pentru concediu.", "reviewed": false },
+        { "id": "u25-l3-e6", "type": "fill", "sentence": "Dacă aș ___ la loterie, aș cumpăra o casă.", "translation": "Kdybych vyhrál(a) v loterii, koupil(a) bych si dům.", "options": ["câștiga", "câștigat", "câștig"], "answer": "câștiga", "explain": "Po aș přijde sloveso v neurčitém tvaru bez „a“: aș câștiga.", "reviewed": false },
+        { "id": "u25-l3-e7", "type": "fill", "sentence": "Am împrumutat bani ___ la bancă.", "translation": "Půjčili jsme si peníze od banky.", "options": ["de", "din", "cu"], "answer": "de", "explain": "Od koho si půjčujeme, se řekne de la: de la bancă = od banky.", "reviewed": false },
+        { "id": "u25-l3-e8", "type": "type", "question": "Šetříme na dovolenou.", "answer": "Economisim pentru concediu.", "accept": ["Economisim bani pentru concediu.", "Economisim pentru vacanță.", "Economisim bani pentru vacanță."], "reviewed": false },
+        { "id": "u25-l3-e9", "type": "build", "question": "Co byste dělali, kdybyste byli bohatí?", "answer": "Ce ați face dacă ați fi bogați?", "extra": ["făcut"], "accept": ["Dacă ați fi bogați, ce ați face?"], "reviewed": false },
+        { "id": "u25-l3-e10", "type": "choice", "question": "Îmi împrumuți o sută de lei?", "questionLang": "target", "options": ["Půjčíš mi sto lei?", "Vyhraješ sto lei?", "Ušetříš sto lei?"], "answer": "Půjčíš mi sto lei?", "reviewed": false }
+      ]
+    }
+  ]
+}

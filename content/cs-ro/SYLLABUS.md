@@ -1,6 +1,6 @@
-# Syllabus: Czech → Romanian (cs-ro), A1–A2
+# Syllabus: Czech → Romanian (cs-ro), A1–B1
 
-20 units × 3 lessons. Order follows the CEFR / *Nivel prag* A1–A2 topics and docs/RESEARCH.md §5.
+30 units × 3 lessons (A1 1–10, A2 11–20, B1 21–30). Order follows the CEFR / *Nivel prag* A1–A2 topics and docs/RESEARCH.md §5.
 Each word is taught (listed) once only; later lessons recycle it in exercises.
 Nouns are listed with un/o; definite form and plural go in the word note.
 "Difficulty" = the typical Czech-speaker problem the lesson's tip targets.
@@ -108,3 +108,60 @@ Nouns are listed with un/o; definite form and plural go in the word note.
 - **L1 Vánoce a Velikonoce** – wishes; *Crăciun, Paște* with article. Words: Crăciun fericit!, Paște fericit!, La mulți ani!, un cadou, un brad, un ou roșu, Hristos a înviat!. Difficulty: *La mulți ani* for birthdays and New Year.
 - **L2 Nikdo nic** – double negation *nimeni nu, nimic nu* (just like Czech!). Words: nimeni, nimic, niciodată, nicăieri, nici… nici, încă nu. Difficulty: easy – same as Czech *nikdo nepřišel*.
 - **L3 Oslava** – revision: invitation, food, wishes, past and future. Words: o petrecere, un tort, o lumânare, Noroc!, Poftă bună!, a sărbători, un musafir. Difficulty: *Noroc!* (Slavic, ≈ na zdraví) – review of the whole course.
+
+## B1 (units 21–30)
+
+Sources for B1: CEFR global scale (B1 = independent user); *Nivel prag* (Moldovan, Pop, Uricaru, Council of Europe 2001);
+Sonea, Vasiu, Vîlcu *Manual de limba română ca limbă străină, B1* (Cluj, 2021) and the NOVA Lisboa B1.1/B1.2 syllabi built on it;
+Gönczöl-Davies *Romanian: An Essential Grammar*; Pană Dindelegan *The Grammar of Romanian*.
+Perfect simplu and mai-mult-ca-perfectul are taught for recognition only.
+
+### Unit 21 – Kariéra / Cariera – `unit21-cariera.json`
+- **L1 Hledám práci** – purpose clause *ca să* + conjunctive (*Învăț ca să găsesc un loc de muncă.*). Words: un loc de muncă, un anunț, un CV, un interviu, experiență, a căuta, a angaja, un contract. Difficulty: Czech *abych* → *ca să* + conjunctive; *ca să* ≠ *că*.
+- **L2 Kolega, kterému věřím** – relatives *care, pe care, căruia, căreia, cărora* (*colegul căruia îi spun tot*). Words: un angajat, o angajată, un client, o sarcină, o responsabilitate, a se ocupa de, cu normă întreagă, ore suplimentare. Difficulty: *pe care* in the 4th case; *căruia/căreia* agree with the noun before it, plus the doubled *îi*.
+- **L3 Co řekl šéf?** – reported speech: *a spus că*, *m-a întrebat dacă*, *mi-a cerut să*. Words: a explica, a promite, a cere, a răspunde, o promovare, o mărire de salariu, a demisiona, a ieși la pensie. Difficulty: no tense shift (like Czech); a request is reported with *să* + conjunctive.
+
+### Unit 22 – Vzdělávání / Educația – `unit22-educatia.json`
+- **L1 Než začne kurz** – time clauses: *înainte să* + conjunctive; *după ce, până când, în timp ce, de îndată ce* + indicative. Words: un curs, o lecție, un elev, o elevă, un student, o studentă, o temă, a învăța. Difficulty: *înainte să plec* (conjunctive) but *după ce am plecat* (indicative); Czech uses the indicative in both.
+- **L2 Škola mých vnoučat** – genitive-dative consolidated: plural *-lor*, with adjectives (*profesoarei noi*, *cărțile elevilor*). Words: o clasă, un examen, o materie, o diplomă, o universitate, un liceu, o bursă, a absolvi. Difficulty: case is marked only on the article (*-ei, -ului, -lor*); one form for the 2nd and 3rd case.
+- **L3 Nikdy není pozdě** – conjunctive vs infinitive: *încep să învăț*, *reușesc să*, but *pot învăța* = *pot să învăț*. Words: a încerca, a reuși, a renunța, a se înscrie, a exersa, a repeta, o greșeală, un dicționar, o limbă străină. Difficulty: Czech infinitive (*zkusit se naučit*) → *să* + conjunctive; *a renunța la*.
+
+### Unit 23 – Zdravý životní styl / Viață sănătoasă – `unit23-viata-sanatoasa.json`
+- **L1 Zdravé jídlo** – indefinites *cineva, ceva, fiecare, câțiva/câteva, unii/unele, tot/toată/toți/toate*. Words: o legumă, un fruct, carne, pește, sare, sănătos, ceva, cineva, fiecare. Difficulty: *fiecare* + singular; *tot/toată/toți/toate* agree like an adjective (*toată ziua*, *toți copiii*).
+- **L2 Pohyb každý den** – gerund *-ând/-ind* (*mergând pe jos, citind*); pronoun after it (*odihnindu-mă*). Words: mișcare, a face sport, a alerga, o bicicletă, a se odihni, a slăbi, a respira, regulat. Difficulty: one invariable form; Czech přechodník is obsolete, so translate as „při chůzi / když jdu“.
+- **L3 Rada lékaře** – conditional present for advice: *ar trebui să, ar fi bine să*. Words: tensiune, o analiză, un specialist, o programare, un tratament, o alergie, ar trebui să, a se simți. Difficulty: *Ar trebui să…* = „měl(a) byste“, no gender in Romanian; stress *tra-ta-MENT*, *a-na-LI-ză*.
+
+### Unit 24 – Média a technologie / Media și tehnologia – `unit24-media.json`
+- **L1 Zprávy** – reflexive passive *se spune, se anunță, se vinde / se vând*. Words: o știre, un ziar, o revistă, un articol, un post de radio, o emisiune, a anunța, Se spune că. Difficulty: same logic as Czech *říká se, prodává se*; the verb agrees: *se vând ziare*.
+- **L2 Mobil a internet** – English loanwords with the article and plural (*e-mailul, site-ul, laptopuri*). Words: un telefon mobil, internet, un e-mail, o parolă, o aplicație, un calculator, a descărca, a apăsa. Difficulty: stress (*a-pli-CA-ți-e*, *cal-cu-la-TOR*); hyphen before the article when spelling ≠ sound (*site-ul*).
+- **L3 Videohovor s vnoučaty** – clitic clusters *mi-l, ți-o, i-l, ni-le* (*Ți l-am trimis. Trimite-mi-o!*). Words: un apel video, un ecran, o tabletă, o fotografie, a încărca, a șterge, o baterie, a se conecta. Difficulty: fixed order dative + accusative, like Czech *mi ho*, but *i-l* (not „îi îl“) and position after the imperative.
+
+### Unit 25 – Peníze a banka / Bani și bănci – `unit25-bani.json`
+- **L1 V bance** – big numbers and percentages (*un milion de lei, două milioane, cinci la sută*). Words: un cont, un bancomat, o dobândă, un împrumut, un milion, la sută, a retrage, a depune. Difficulty: *de* after 20+ also with *milion*; *virgulă* for the decimal comma (like Czech).
+- **L2 Účty a platby** – passive with *a fi* (*Factura a fost plătită.*); participle agreement. Words: o factură, o plată, o chirie, curent, întreținere, un abonament, o taxă, a transfera. Difficulty: participle agrees like Czech *byla zaplacena*; *a fi* passive vs *se* passive.
+- **L3 Co kdyby…?** – hypothetical *dacă* + conditional in both clauses (*Dacă aș câștiga, aș călători.*). Words: a economisi, a câștiga, o loterie, un buget, o reducere, a cheltui, a împrumuta, bogat, sărac. Difficulty: Czech *kdyby* = *dacă aș*; *a împrumuta* = půjčit i půjčit si.
+
+### Unit 26 – Bydlení / Locuința – `unit26-locuinta.json`
+- **L1 Hledám byt** – demonstrative article *cel/cea/cei/cele* (*apartamentul cel nou, cel de la etajul doi*). Words: o locuință, un bloc, un etaj, un balcon, un lift, a închiria, mobilat, o centrală. Difficulty: *cel de la etajul doi* ≈ „ten ve druhém patře“; *etajul doi* = 2. patro (ground floor = *parter*).
+- **L2 Něco se pokazilo** – *a ruga / a chema pe cineva să* + conjunctive with clitic doubling (*Îl rog pe vecin să mă ajute.*). Words: a se strica, a repara, un instalator, un electrician, o țeavă, un robinet, o priză, o reparație. Difficulty: double object *îl… pe*; *s-a stricat* = pokazilo se.
+- **L3 Sousedé** – reciprocal reflexives *ne ajutăm, se ceartă, își spun*. Words: un vecin, o vecină, a se certa, a se înțelege, zgomot, a deranja, liniște, a se muta. Difficulty: accusative *se* vs dative *își* (*se văd* but *își scriu*), where Czech has *se / si*.
+
+### Unit 27 – Potíže na cestách / Probleme în călătorie – `unit27-probleme.json`
+- **L1 Vlak už odjel** – mai-mult-ca-perfectul for recognition (*Când am ajuns, trenul plecase deja.*). Words: un zbor, o escală, a ajunge, a anula, o grevă, o legătură, a aștepta, deja. Difficulty: Czech uses the plain past (*už odjel*); recognise the *-se-* (*plecase, ajunsesem*).
+- **L2 Reklamace** – polite complaints; *ar fi trebuit să* (*Camera ar fi trebuit să fie curată.*). Words: o reclamație, murdar, defect, zgomotos, o despăgubire, a se plânge, un ghid, nemulțumit. Difficulty: false friend *reclamă* = reklama; a complaint = *reclamație*.
+- **L3 Nemoc v cizině** – imperative with clitics (*Ajutați-mă! Nu mă lăsați!*); *în caz că*. Words: o asigurare, o urgență, o ambulanță, o ambasadă, un accident, a fura, în străinătate. Difficulty: pronoun after a positive imperative, before a negative one.
+
+### Unit 28 – Životní prostředí / Mediul înconjurător – `unit28-mediul.json`
+- **L1 Třídíme odpad** – reflexive passive in instructions (*Sticlele se aruncă aici.*). Words: gunoi, un coș de gunoi, o sticlă, plastic, hârtie, a recicla, a arunca, o pungă. Difficulty: for *-a* verbs 3rd person sg = pl (*se aruncă* for one or many); *o sticlă* = láhev, *sticlă* = sklo.
+- **L2 V přírodě** – adverbs = masc. sg. adjective (*vorbește frumos, merge încet*). Words: natură, o pădure, un râu, un lac, un deal, o floare, un copac, un animal. Difficulty: Czech has two forms (*hezký / hezky*), Romanian one; plurals *râuri, flori, copaci*.
+- **L3 Klima a budoucnost** – concession *deși, chiar dacă* + indicative; *așa că* (result). Words: climă, poluare, o secetă, o inundație, a proteja, energie, deși, chiar dacă. Difficulty: *deși* = ačkoli, *chiar dacă* = i když (not *dacă* = jestli).
+
+### Unit 29 – Názory a diskuse / Păreri – `unit29-pareri.json`
+- **L1 Podle mě** – giving opinions: *Cred că, Mi se pare că, Nu cred că* + indicative. Words: o părere, după părerea mea, Sunt de părere că, Ai dreptate., Mi se pare că, a se îndoi, un argument, a convinge. Difficulty: *Mi se pare* (dative, like Czech *zdá se mi*); *a avea dreptate* = mít pravdu (same logic).
+- **L2 Ano, ale…** – linking adverbs *totuși, desigur, de fapt, oricum, mai ales, în schimb*. Words: totuși, desigur, de fapt, oricum, mai ales, în schimb, pe de o parte, pe de altă parte. Difficulty: *oricum* = stejně / tak jako tak; *în schimb* = zato (not „výměnou“).
+- **L3 Kdyby se to stalo jinak** – past conditional *aș fi vrut, ar fi fost, dacă aș fi știut*. Words: Aș fi vrut, Ar fi fost mai bine, Dacă aș fi știut, a regreta, o șansă, o alegere, o decizie, a hotărî. Difficulty: *aș fi* + invariable participle, no gender (Czech *byl(a) bych chtěl(a)*).
+
+### Unit 30 – Kultura a tradice / Tradiții – `unit30-traditii.json`
+- **L1 Bylo nebylo** – perfect simplu for recognition in tales and in Oltenia (*fu, zise, plecă, veni, făcu*). Words: o poveste, un basm, A fost odată, un împărat, o împărăteasă, un zmeu, un cal, fermecat. Difficulty: recognition only (speech uses perfect compus); *zmeu* = drak and also papírový drak, as in Czech.
+- **L2 Zvyky během roku** – *se obișnuiește să* + conjunctive; genitive with feasts (*Ziua Femeii*). Words: o ie, o tradiție, un mărțișor, o colindă, o horă, un costum popular, un târg, a se obișnui. Difficulty: Slavic words *colindă* ≈ koleda, *târg* ≈ trh; *o ie* is one syllable [je].
+- **L3 Svatba a křtiny** – revision of past tenses (perfect compus, imperfect, mai-mult-ca-perfectul). Words: o nuntă, un botez, un mire, o mireasă, un naș, o nașă, o logodnă, un dar. Difficulty: *mireasă* = nevěsta, *nevastă* = manželka; *naș/nașă* = kmotr/kmotra (also at a wedding) – review of the whole course.

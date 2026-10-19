@@ -1,0 +1,144 @@
+{
+  "id": "u23",
+  "level": "B1",
+  "title": "U lékaře",
+  "titleTarget": "Beim Arzt",
+  "description": "V ordinaci, po úrazu a zdravý životní styl: nepřímé otázky, předminulý čas a rady se sollten.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u23-l1",
+      "title": "V ordinaci",
+      "titleTarget": "In der Praxis",
+      "reviewed": false,
+      "tip": {
+        "title": "Können Sie mir sagen, wann …?",
+        "text": "Zdvořileji se zeptáte nepřímou otázkou: Können Sie mir sagen, …? nebo Wissen Sie, …? Za čárkou stojí tázací slovo (wann, wo, wie lange) a sloveso jde až na konec: Können Sie mir sagen, wann die Sprechstunde ist? „…, wann ist die Sprechstunde?“ je chyba. Když otázka nemá tázací slovo, použijte ob (jestli): Wissen Sie, ob der Arzt heute da ist? Česky se slovosled nemění, německy funguje stejně jako po weil a dass.",
+        "examples": [
+          { "target": "Können Sie mir sagen, wann die Sprechstunde ist?", "native": "Můžete mi říct, kdy jsou ordinační hodiny?" },
+          { "target": "Wissen Sie, wo die Praxis ist?", "native": "Nevíte, kde je ordinace?" },
+          { "target": "Wissen Sie, ob der Arzt heute da ist?", "native": "Nevíte, jestli je pan doktor dnes tady?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l1-w1", "target": "die Praxis", "native": "ordinace", "note": "Lékařská ordinace; také praxe. Množné číslo: die Praxen", "reviewed": false },
+        { "id": "u23-l1-w2", "target": "der Patient", "native": "pacient", "note": "Čte se [pa-CJENT]; 4. pád: den Patienten; množné číslo: die Patienten", "reviewed": false },
+        { "id": "u23-l1-w3", "target": "die Patientin", "native": "pacientka", "note": "Čte se [pa-CJEN-tin]; množné číslo: die Patientinnen", "reviewed": false },
+        { "id": "u23-l1-w4", "target": "die Sprechstunde", "native": "ordinační hodiny", "note": "Německy jednotné číslo: Die Sprechstunde ist am Montag. Množné číslo: die Sprechstunden", "reviewed": false },
+        { "id": "u23-l1-w5", "target": "die Krankenkasse", "native": "zdravotní pojišťovna", "note": "množné číslo: die Krankenkassen", "reviewed": false },
+        { "id": "u23-l1-w6", "target": "die Untersuchung", "native": "vyšetření", "note": "Přízvuk: [un-ta-ZÚ-chung]; množné číslo: die Untersuchungen", "reviewed": false },
+        { "id": "u23-l1-w7", "target": "untersuchen", "native": "vyšetřit", "note": "Pevná předpona: Der Arzt untersucht mich. Příčestí: untersucht", "reviewed": false },
+        { "id": "u23-l1-w8", "target": "die Behandlung", "native": "léčba; ošetření", "note": "Přízvuk: [be-HAND-lung]; množné číslo: die Behandlungen", "reviewed": false },
+        { "id": "u23-l1-w9", "target": "der Notfall", "native": "naléhavý případ", "note": "im Notfall = v naléhavém případě; množné číslo: die Notfälle", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l1-e1", "type": "choice", "question": "die Krankenkasse", "questionLang": "target", "options": ["zdravotní pojišťovna", "ordinace", "ordinační hodiny"], "answer": "zdravotní pojišťovna", "reviewed": false },
+        { "id": "u23-l1-e2", "type": "choice", "question": "vyšetření", "questionLang": "native", "options": ["die Untersuchung", "die Behandlung", "die Sprechstunde"], "answer": "die Untersuchung", "reviewed": false },
+        { "id": "u23-l1-e3", "type": "match", "pairs": [
+          { "target": "die Praxis", "native": "ordinace" },
+          { "target": "der Patient", "native": "pacient" },
+          { "target": "die Patientin", "native": "pacientka" },
+          { "target": "die Sprechstunde", "native": "ordinační hodiny" },
+          { "target": "der Notfall", "native": "naléhavý případ" }
+        ], "reviewed": false },
+        { "id": "u23-l1-e4", "type": "listen", "audio": "Können Sie mir sagen, wann der Arzt kommt?", "options": ["Können Sie mir sagen, wann der Arzt kommt?", "Können Sie mir sagen, wo der Arzt ist?", "Wissen Sie, ob der Arzt kommt?"], "answer": "Können Sie mir sagen, wann der Arzt kommt?", "reviewed": false },
+        { "id": "u23-l1-e5", "type": "fill", "sentence": "Wissen Sie, ___ der Arzt heute da ist?", "translation": "Nevíte, jestli je pan doktor dnes tady?", "options": ["ob", "denn", "weil"], "answer": "ob", "explain": "Otázka bez tázacího slova se uvede slovem ob (jestli) a sloveso jde na konec.", "reviewed": false },
+        { "id": "u23-l1-e6", "type": "fill", "sentence": "Die Ärztin ___ den Patienten.", "translation": "Lékařka vyšetřuje pacienta.", "options": ["untersucht", "untersuchen", "geuntersucht"], "answer": "untersucht", "explain": "unter- je tu pevná předpona, zůstává u slovesa: sie untersucht.", "reviewed": false },
+        { "id": "u23-l1-e7", "type": "type", "question": "pacientka", "answer": "die Patientin", "reviewed": false },
+        { "id": "u23-l1-e8", "type": "build", "question": "Můžete mi říct, kdy jsou ordinační hodiny?", "answer": "Können Sie mir sagen, wann die Sprechstunde ist?", "extra": ["sind"], "reviewed": false },
+        { "id": "u23-l1-e9", "type": "listen", "audio": "Die Sprechstunde ist heute nur bis zwölf Uhr.", "options": ["Dnes se ordinuje jen do dvanácti.", "Dnes se ordinuje až od dvanácti.", "Dnes se neordinuje."], "answer": "Dnes se ordinuje jen do dvanácti.", "reviewed": false },
+        { "id": "u23-l1-e10", "type": "build", "question": "Nevíte, jestli je paní doktorka tady?", "answer": "Wissen Sie, ob die Ärztin da ist?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l2",
+      "title": "Úraz",
+      "titleTarget": "Ein Unfall",
+      "reviewed": false,
+      "tip": {
+        "title": "Co se stalo ještě předtím",
+        "text": "Když vyprávíte o minulosti a chcete říct, co se stalo ještě předtím, použijte předminulý čas: hatte nebo war a příčestí. Tvoří se jako perfektum, jen místo habe/bin řeknete hatte/war: er hat sich verletzt → er hatte sich verletzt. Slovesa, která mají v perfektu sein, mají tady war: sie ist gefallen → sie war gefallen. „Sie hatte gefallen“ je chyba. Často stojí po nachdem (poté co). Čeština takový čas nemá, stačí jí slovo „předtím“.",
+        "examples": [
+          { "target": "Nachdem sie gefallen war, tat ihr das Bein weh.", "native": "Poté co upadla, bolela ji noha." },
+          { "target": "Er hatte sich am Arm verletzt.", "native": "Předtím se zranil na ruce." },
+          { "target": "Der Krankenwagen war schon gekommen.", "native": "Sanitka už předtím přijela." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l2-w1", "target": "der Unfall", "native": "nehoda; úraz", "note": "einen Unfall haben = mít nehodu; množné číslo: die Unfälle", "reviewed": false },
+        { "id": "u23-l2-w2", "target": "sich verletzen", "native": "zranit se", "note": "Er hat sich am Arm verletzt. Příčestí bez ge-: verletzt", "reviewed": false },
+        { "id": "u23-l2-w3", "target": "die Verletzung", "native": "zranění", "note": "množné číslo: die Verletzungen", "reviewed": false },
+        { "id": "u23-l2-w4", "target": "brechen", "native": "zlomit", "note": "Er hat sich den Arm gebrochen. = Zlomil si ruku. er bricht", "reviewed": false },
+        { "id": "u23-l2-w5", "target": "wehtun", "native": "bolet", "note": "Mir tut das Bein weh. = Bolí mě noha (česky mě, německy mir). Předpona jde na konec.", "reviewed": false },
+        { "id": "u23-l2-w6", "target": "das Krankenhaus", "native": "nemocnice", "note": "im Krankenhaus = v nemocnici; množné číslo: die Krankenhäuser", "reviewed": false },
+        { "id": "u23-l2-w7", "target": "der Krankenwagen", "native": "sanitka", "note": "množné číslo: die Krankenwagen", "reviewed": false },
+        { "id": "u23-l2-w8", "target": "bluten", "native": "krvácet", "note": "Die Hand blutet. Příčestí: geblutet", "reviewed": false },
+        { "id": "u23-l2-w9", "target": "fallen", "native": "upadnout; spadnout", "note": "er fällt; perfektum se sein: ich bin gefallen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l2-e1", "type": "choice", "question": "der Krankenwagen", "questionLang": "target", "options": ["sanitka", "nemocnice", "zranění"], "answer": "sanitka", "reviewed": false },
+        { "id": "u23-l2-e2", "type": "choice", "question": "zranění", "questionLang": "native", "options": ["die Verletzung", "der Unfall", "die Behandlung"], "answer": "die Verletzung", "reviewed": false },
+        { "id": "u23-l2-e3", "type": "match", "pairs": [
+          { "target": "das Krankenhaus", "native": "nemocnice" },
+          { "target": "bluten", "native": "krvácet" },
+          { "target": "fallen", "native": "upadnout" },
+          { "target": "brechen", "native": "zlomit" },
+          { "target": "sich verletzen", "native": "zranit se" }
+        ], "reviewed": false },
+        { "id": "u23-l2-e4", "type": "listen", "audio": "Mir tut das Bein weh.", "options": ["Mir tut das Bein weh.", "Mir tut der Arm weh.", "Mir tut der Kopf weh."], "answer": "Mir tut das Bein weh.", "reviewed": false },
+        { "id": "u23-l2-e5", "type": "fill", "sentence": "Nachdem sie gefallen ___, kam der Krankenwagen.", "translation": "Poté co upadla, přijela sanitka.", "options": ["war", "hatte", "wurde"], "answer": "war", "explain": "fallen má v perfektu sein (ist gefallen), proto v předminulém čase war gefallen.", "reviewed": false },
+        { "id": "u23-l2-e6", "type": "fill", "sentence": "Nachdem er sich verletzt ___, ging er zum Arzt.", "translation": "Poté co se zranil, šel k lékaři.", "options": ["hatte", "war", "wurde"], "answer": "hatte", "explain": "Zvratná slovesa mají haben: er hat sich verletzt, proto er hatte sich verletzt.", "reviewed": false },
+        { "id": "u23-l2-e7", "type": "type", "question": "nemocnice", "answer": "das Krankenhaus", "reviewed": false },
+        { "id": "u23-l2-e8", "type": "build", "question": "Bolí mě noha.", "answer": "Mir tut das Bein weh.", "accept": ["Das Bein tut mir weh."], "extra": ["mich"], "reviewed": false },
+        { "id": "u23-l2-e9", "type": "listen", "audio": "Mein Bruder hatte gestern einen Unfall.", "options": ["Bratr měl včera nehodu.", "Bratr byl včera v nemocnici.", "Bratr si včera zlomil ruku."], "answer": "Bratr měl včera nehodu.", "reviewed": false },
+        { "id": "u23-l2-e10", "type": "build", "question": "Rychle zavolejte sanitku!", "answer": "Rufen Sie schnell einen Krankenwagen!", "accept": ["Schnell, rufen Sie einen Krankenwagen!"], "extra": ["einem"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u23-l3",
+      "title": "Zdravý život",
+      "titleTarget": "Gesund leben",
+      "reviewed": false,
+      "tip": {
+        "title": "Rada: Sie sollten …",
+        "text": "Radu dáte slovem sollten (česky „měl byste, měla byste“): Sie sollten mehr schlafen. Druhé sloveso jde na konec, bez zu. Tvar Sie sollen zní spíš jako příkaz nebo vzkaz od někoho jiného: Der Arzt sagt, Sie sollen weniger essen. (Lékař říká, že máte jíst méně.) Ještě vlídnější je: An Ihrer Stelle würde ich … (na Vašem místě bych …). Pozor na abnehmen: znamená zhubnout, ale také zvednout telefon: Niemand nimmt ab. (Nikdo to nebere.)",
+        "examples": [
+          { "target": "Sie sollten mehr schlafen.", "native": "Měli byste víc spát." },
+          { "target": "Der Arzt sagt, Sie sollen weniger essen.", "native": "Lékař říká, že máte jíst méně." },
+          { "target": "Mein Vater hat drei Kilo abgenommen.", "native": "Táta zhubl tři kila." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u23-l3-w1", "target": "die Ernährung", "native": "strava; výživa", "note": "gesunde Ernährung = zdravá strava; obvykle jen jednotné číslo", "reviewed": false },
+        { "id": "u23-l3-w2", "target": "das Gewicht", "native": "váha; hmotnost", "note": "Váha jako přístroj je die Waage. Množné číslo: die Gewichte", "reviewed": false },
+        { "id": "u23-l3-w3", "target": "abnehmen", "native": "zhubnout", "note": "Ich habe drei Kilo abgenommen. Pozor: také zvednout telefon.", "reviewed": false },
+        { "id": "u23-l3-w4", "target": "zunehmen", "native": "přibrat", "note": "er nimmt zu, hat zugenommen", "reviewed": false },
+        { "id": "u23-l3-w5", "target": "sich bewegen", "native": "hýbat se", "note": "Sie sollten sich mehr bewegen. Příčestí bez ge-: bewegt", "reviewed": false },
+        { "id": "u23-l3-w6", "target": "die Bewegung", "native": "pohyb", "note": "množné číslo: die Bewegungen", "reviewed": false },
+        { "id": "u23-l3-w7", "target": "rauchen", "native": "kouřit", "note": "Ich rauche nicht. = Nekouřím. das Rauchen = kouření", "reviewed": false },
+        { "id": "u23-l3-w8", "target": "aufhören", "native": "přestat", "note": "mit dem Rauchen aufhören = přestat kouřit; předpona jde na konec: Ich höre auf.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u23-l3-e1", "type": "choice", "question": "zunehmen", "questionLang": "target", "options": ["přibrat", "zhubnout", "hýbat se"], "answer": "přibrat", "reviewed": false },
+        { "id": "u23-l3-e2", "type": "choice", "question": "pohyb", "questionLang": "native", "options": ["die Bewegung", "die Ernährung", "das Gewicht"], "answer": "die Bewegung", "reviewed": false },
+        { "id": "u23-l3-e3", "type": "match", "pairs": [
+          { "target": "die Ernährung", "native": "strava" },
+          { "target": "das Gewicht", "native": "váha" },
+          { "target": "abnehmen", "native": "zhubnout" },
+          { "target": "rauchen", "native": "kouřit" },
+          { "target": "aufhören", "native": "přestat" }
+        ], "reviewed": false },
+        { "id": "u23-l3-e4", "type": "listen", "audio": "An Ihrer Stelle würde ich weniger rauchen.", "options": ["An Ihrer Stelle würde ich weniger rauchen.", "An Ihrer Stelle würde ich mehr schlafen.", "An Ihrer Stelle würde ich mehr Obst essen."], "answer": "An Ihrer Stelle würde ich weniger rauchen.", "reviewed": false },
+        { "id": "u23-l3-e5", "type": "fill", "sentence": "Herr Wagner, Sie ___ sich mehr bewegen.", "translation": "Pane Wagnere, měl byste se víc hýbat.", "options": ["sollten", "solltet", "sollte"], "answer": "sollten", "explain": "S vykáním Sie je tvar sollten, stejný jako pro wir a sie.", "reviewed": false },
+        { "id": "u23-l3-e6", "type": "fill", "sentence": "Mein Vater hat mit dem Rauchen ___.", "translation": "Táta přestal kouřit.", "options": ["aufgehört", "aufgehören", "geaufhört"], "answer": "aufgehört", "explain": "U odlučitelného slovesa je ge- uprostřed: auf-ge-hört.", "reviewed": false },
+        { "id": "u23-l3-e7", "type": "type", "question": "kouřit", "answer": "rauchen", "reviewed": false },
+        { "id": "u23-l3-e8", "type": "build", "question": "Měli byste přestat kouřit.", "answer": "Sie sollten mit dem Rauchen aufhören.", "accept": ["Mit dem Rauchen sollten Sie aufhören."], "extra": ["zu"], "reviewed": false },
+        { "id": "u23-l3-e9", "type": "listen", "audio": "Er hat fünf Kilo abgenommen.", "options": ["Zhubl pět kilo.", "Přibral pět kilo.", "Uběhl pět kilometrů."], "answer": "Zhubl pět kilo.", "reviewed": false },
+        { "id": "u23-l3-e10", "type": "speak", "text": "Sie sollten mehr Obst essen.", "native": "Měli byste jíst víc ovoce.", "reviewed": false }
+      ]
+    }
+  ]
+}

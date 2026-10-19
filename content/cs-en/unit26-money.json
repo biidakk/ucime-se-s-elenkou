@@ -1,0 +1,144 @@
+{
+  "id": "u26",
+  "level": "B1",
+  "title": "Peníze a banka",
+  "titleTarget": "Money and banking",
+  "description": "Půjčit, nebo půjčit si, věty s „kdyby“ (2. kondicionál) a vyřizování v bance.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u26-l1",
+      "title": "Půjčit, nebo půjčit si?",
+      "titleTarget": "Borrow or lend?",
+      "reviewed": false,
+      "tip": {
+        "title": "Lend, nebo borrow?",
+        "text": "Česky říkáte „půjčit“ i „půjčit si“, anglicky jsou to dvě různá slovesa. Lend = půjčit někomu: Can you lend me ten pounds? Borrow = půjčit si od někoho: Can I borrow your pen? We borrowed it from our neighbour. Nikdy neříkejte Can you borrow me…? Po lend mohou stát dva předměty bez předložky: lend me the money. Pay back = vrátit peníze: I'll pay you back tomorrow.",
+        "examples": [
+          { "target": "Could you lend me ten pounds?", "native": "Mohli byste mi půjčit deset liber?" },
+          { "target": "Can I borrow your umbrella?", "native": "Můžu si půjčit váš deštník?" },
+          { "target": "We borrowed the car from our son.", "native": "Půjčili jsme si auto od syna." },
+          { "target": "I'll pay you back on Friday.", "native": "V pátek vám to vrátím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l1-w1", "target": "borrow", "native": "půjčit si", "note": "borrow from = půjčit si od. Čte se „BO-rou“.", "reviewed": false },
+        { "id": "u26-l1-w2", "target": "lend", "native": "půjčit někomu", "note": "lend, lent, lent. Lend me… = Půjčte mi…", "reviewed": false },
+        { "id": "u26-l1-w3", "target": "owe", "native": "dlužit", "note": "Čte se „ou“. How much do I owe you? = Kolik vám dlužím?", "reviewed": false },
+        { "id": "u26-l1-w4", "target": "pay back", "native": "vrátit peníze; splatit", "note": "I'll pay you back. = Vrátím vám to.", "reviewed": false },
+        { "id": "u26-l1-w5", "target": "save", "native": "šetřit; ušetřit", "note": "save money = šetřit peníze. Také „zachránit“.", "reviewed": false },
+        { "id": "u26-l1-w6", "target": "afford", "native": "dovolit si", "note": "Hlavně o penězích, s can: We can't afford it. Čte se „e-FÓD“.", "reviewed": false },
+        { "id": "u26-l1-w7", "target": "spend", "native": "utrácet; trávit", "note": "spend, spent, spent. spend money = utrácet, spend time = trávit čas.", "reviewed": false },
+        { "id": "u26-l1-w8", "target": "wallet", "native": "peněženka", "note": "Čte se „WO-lit“. Dámská peněženka je často purse.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l1-e1", "type": "choice", "question": "owe", "questionLang": "target", "options": ["dlužit", "šetřit; ušetřit", "utrácet; trávit"], "answer": "dlužit", "reviewed": false },
+        { "id": "u26-l1-e2", "type": "choice", "question": "půjčit si", "questionLang": "native", "options": ["borrow", "lend", "owe"], "answer": "borrow", "reviewed": false },
+        { "id": "u26-l1-e3", "type": "match", "pairs": [
+          { "target": "lend", "native": "půjčit někomu" },
+          { "target": "save", "native": "šetřit" },
+          { "target": "spend", "native": "utrácet" },
+          { "target": "afford", "native": "dovolit si" },
+          { "target": "wallet", "native": "peněženka" }
+        ], "reviewed": false },
+        { "id": "u26-l1-e4", "type": "listen", "audio": "Could you lend me ten pounds?", "options": ["Could you lend me ten pounds?", "Could you lend me two pounds?", "Could I borrow ten pounds?"], "answer": "Could you lend me ten pounds?", "reviewed": false },
+        { "id": "u26-l1-e5", "type": "listen", "audio": "I'll pay you back tomorrow.", "options": ["Zítra vám to vrátím.", "Zítra vám to pošlu.", "Zítra si to půjčím."], "answer": "Zítra vám to vrátím.", "reviewed": false },
+        { "id": "u26-l1-e6", "type": "fill", "sentence": "Can you ___ me your umbrella?", "translation": "Můžete mi půjčit deštník?", "options": ["lend", "borrow", "lending"], "answer": "lend", "explain": "Půjčit někomu = lend. Borrow znamená půjčit si.", "reviewed": false },
+        { "id": "u26-l1-e7", "type": "fill", "sentence": "We borrowed this book ___ our neighbour.", "translation": "Tu knihu jsme si půjčili od souseda.", "options": ["from", "to", "at"], "answer": "from", "explain": "Půjčit si od někoho = borrow from.", "reviewed": false },
+        { "id": "u26-l1-e8", "type": "type", "question": "Kolik vám dlužím?", "answer": "How much do I owe you?", "reviewed": false },
+        { "id": "u26-l1-e9", "type": "build", "question": "Nemůžeme si dovolit nové auto.", "answer": "We can't afford a new car.", "extra": ["us"], "reviewed": false },
+        { "id": "u26-l1-e10", "type": "build", "question": "Můžu si půjčit vaše pero?", "answer": "Can I borrow your pen?", "extra": ["me"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l2",
+      "title": "Kdybychom vyhráli…",
+      "titleTarget": "If we won the lottery…",
+      "reviewed": false,
+      "tip": {
+        "title": "Kdyby…: If we had…, we would…",
+        "text": "Když mluvíte o něčem nereálném nebo vysněném, použijte 2. kondicionál. Česky je to „kdyby“ a tvar na -l: kdybychom měli peníze… Anglicky je po if minulý čas a ve druhé části would + sloveso: If we had more money, we would travel. Would nikdy nepatří za if, tedy ne If we would have. Zkráceně: we'd travel. U be se po if říká were i pro I, he, she: If I were you… (Na vašem místě…) je rada.",
+        "examples": [
+          { "target": "If we had more money, we would travel.", "native": "Kdybychom měli víc peněz, cestovali bychom." },
+          { "target": "If she won the lottery, she'd give money to charity.", "native": "Kdyby vyhrála v loterii, dala by peníze na charitu." },
+          { "target": "Imagine you were rich.", "native": "Představte si, že jste bohatí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l2-w1", "target": "rich", "native": "bohatý", "note": "Opak je poor.", "reviewed": false },
+        { "id": "u26-l2-w2", "target": "poor", "native": "chudý", "note": "Čte se „pó“.", "reviewed": false },
+        { "id": "u26-l2-w3", "target": "win the lottery", "native": "vyhrát v loterii", "note": "win, won, won. Lottery se čte „LO-te-ri“.", "reviewed": false },
+        { "id": "u26-l2-w4", "target": "If I were you", "native": "na vašem místě", "note": "Na začátku rady. Správně were, i když je to po I.", "reviewed": false },
+        { "id": "u26-l2-w5", "target": "imagine", "native": "představit si", "note": "Čte se „i-ME-džin“.", "reviewed": false },
+        { "id": "u26-l2-w6", "target": "dream", "native": "sen; snít", "note": "Sen ve spánku i velké přání: my dream = můj sen.", "reviewed": false },
+        { "id": "u26-l2-w7", "target": "million", "native": "milion", "note": "a million pounds = milion liber. Čte se „MI-ljen“.", "reviewed": false },
+        { "id": "u26-l2-w8", "target": "charity", "native": "charita; dobročinnost", "note": "give to charity = dát na charitu. Čte se „ČE-re-ti“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l2-e1", "type": "choice", "question": "If I were you", "questionLang": "target", "options": ["na vašem místě", "vyhrát v loterii", "představit si"], "answer": "na vašem místě", "reviewed": false },
+        { "id": "u26-l2-e2", "type": "choice", "question": "chudý", "questionLang": "native", "options": ["poor", "rich", "busy"], "answer": "poor", "reviewed": false },
+        { "id": "u26-l2-e3", "type": "match", "pairs": [
+          { "target": "rich", "native": "bohatý" },
+          { "target": "million", "native": "milion" },
+          { "target": "charity", "native": "charita" },
+          { "target": "dream", "native": "sen" },
+          { "target": "imagine", "native": "představit si" }
+        ], "reviewed": false },
+        { "id": "u26-l2-e4", "type": "listen", "audio": "If we won the lottery, we'd buy a house by the sea.", "options": ["If we won the lottery, we'd buy a house by the sea.", "If we win the lottery, we'll buy a house by the sea.", "If we won the lottery, we'd buy a flat by the sea."], "answer": "If we won the lottery, we'd buy a house by the sea.", "reviewed": false },
+        { "id": "u26-l2-e5", "type": "listen", "audio": "If we had more time, we'd travel more.", "options": ["Kdybychom měli víc času, víc bychom cestovali.", "Když budeme mít víc času, budeme víc cestovat.", "Měli jsme víc času, tak jsme víc cestovali."], "answer": "Kdybychom měli víc času, víc bychom cestovali.", "reviewed": false },
+        { "id": "u26-l2-e6", "type": "fill", "sentence": "If we ___ rich, we'd buy a big house.", "translation": "Kdybychom byli bohatí, koupili bychom si velký dům.", "options": ["were", "would be", "are"], "answer": "were", "explain": "Po if je ve 2. kondicionálu minulý čas, would tam nepatří.", "reviewed": false },
+        { "id": "u26-l2-e7", "type": "fill", "sentence": "If she won the lottery, she ___ give it all to charity.", "translation": "Kdyby vyhrála v loterii, dala by všechno na charitu.", "options": ["would", "will", "is"], "answer": "would", "explain": "Po if won (minulý čas) patří do druhé části would.", "reviewed": false },
+        { "id": "u26-l2-e8", "type": "type", "question": "na vašem místě", "answer": "If I were you", "reviewed": false },
+        { "id": "u26-l2-e9", "type": "build", "question": "Kdybychom byli bohatí, cestovali bychom.", "answer": "If we were rich, we would travel.", "extra": ["will"], "accept": ["We would travel if we were rich."], "reviewed": false },
+        { "id": "u26-l2-e10", "type": "speak", "text": "Imagine you were rich.", "native": "Představte si, že jste bohatí.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l3",
+      "title": "V bance",
+      "titleTarget": "At the bank",
+      "reviewed": false,
+      "tip": {
+        "title": "Could you tell me where… is?",
+        "text": "Zdvořilá otázka často začíná Could you tell me…? Pak ale pokračuje pořadím jako v oznamovací větě, bez do a bez prohození: Could you tell me where the cash machine is? (ne where is the cash machine). A pozor: money je anglicky jednotné číslo: The money is in my account. (Peníze jsou na účtu.) Nikdy moneys. Částky: two hundred and fifty pounds. Britové mezi stovky a desítky vkládají and.",
+        "examples": [
+          { "target": "Could you tell me where the cash machine is?", "native": "Můžete mi říct, kde je bankomat?" },
+          { "target": "Could you tell me how much the fee is?", "native": "Můžete mi říct, kolik je poplatek?" },
+          { "target": "The money is in my account.", "native": "Peníze jsou na mém účtu." },
+          { "target": "We'd like to transfer two hundred and fifty pounds.", "native": "Chtěli bychom převést dvě stě padesát liber." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l3-w1", "target": "bank account", "native": "bankovní účet", "note": "open an account = založit účet. Account se čte „e-KAUNT“.", "reviewed": false },
+        { "id": "u26-l3-w2", "target": "cash machine", "native": "bankomat", "note": "Britsky také cashpoint. Machine se čte „me-ŠÍN“.", "reviewed": false },
+        { "id": "u26-l3-w3", "target": "coin", "native": "mince", "note": "a one pound coin = mince jedna libra. Čte se „kojn“.", "reviewed": false },
+        { "id": "u26-l3-w4", "target": "note", "native": "bankovka", "note": "a ten pound note = desetilibrová bankovka. Také „poznámka“.", "reviewed": false },
+        { "id": "u26-l3-w5", "target": "transfer", "native": "převod; převést", "note": "Podstatné jméno se čte „TRENS-fé“, sloveso „trens-FÉ“.", "reviewed": false },
+        { "id": "u26-l3-w6", "target": "loan", "native": "půjčka; úvěr", "note": "Čte se „loun“.", "reviewed": false },
+        { "id": "u26-l3-w7", "target": "interest", "native": "úrok", "note": "Také „zájem“. Čte se „IN-trest“, často jen dvě slabiky.", "reviewed": false },
+        { "id": "u26-l3-w8", "target": "fee", "native": "poplatek", "note": "Čte se „fí“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l3-e1", "type": "choice", "question": "fee", "questionLang": "target", "options": ["poplatek", "úrok", "půjčka; úvěr"], "answer": "poplatek", "reviewed": false },
+        { "id": "u26-l3-e2", "type": "choice", "question": "bankomat", "questionLang": "native", "options": ["cash machine", "bank account", "coin"], "answer": "cash machine", "reviewed": false },
+        { "id": "u26-l3-e3", "type": "match", "pairs": [
+          { "target": "coin", "native": "mince" },
+          { "target": "note", "native": "bankovka" },
+          { "target": "loan", "native": "půjčka" },
+          { "target": "interest", "native": "úrok" },
+          { "target": "transfer", "native": "převod" }
+        ], "reviewed": false },
+        { "id": "u26-l3-e4", "type": "listen", "audio": "Could you tell me where the cash machine is?", "options": ["Could you tell me where the cash machine is?", "Could you tell me where the bank is?", "Could you tell me when the bank opens?"], "answer": "Could you tell me where the cash machine is?", "reviewed": false },
+        { "id": "u26-l3-e5", "type": "listen", "audio": "We'd like to open a bank account.", "options": ["Chtěli bychom si založit bankovní účet.", "Chtěli bychom zrušit bankovní účet.", "Máme bankovní účet v této bance."], "answer": "Chtěli bychom si založit bankovní účet.", "reviewed": false },
+        { "id": "u26-l3-e6", "type": "fill", "sentence": "Could you tell me how much the fee ___?", "translation": "Můžete mi říct, kolik je poplatek?", "options": ["is", "does", "are"], "answer": "is", "explain": "Po Could you tell me je pořadí jako v oznamovací větě: how much the fee is.", "reviewed": false },
+        { "id": "u26-l3-e7", "type": "fill", "sentence": "The money ___ in my account.", "translation": "Ty peníze jsou na mém účtu.", "options": ["is", "are", "have"], "answer": "is", "explain": "Money je anglicky jednotné číslo: the money is.", "reviewed": false },
+        { "id": "u26-l3-e8", "type": "type", "question": "Kde je bankomat?", "answer": "Where is the cash machine?", "accept": ["Where is the cashpoint?", "Where is a cash machine?", "Where is a cashpoint?"], "reviewed": false },
+        { "id": "u26-l3-e9", "type": "build", "question": "Můžete mi říct, kolik to stojí?", "answer": "Could you tell me how much it costs?", "extra": ["does"], "reviewed": false },
+        { "id": "u26-l3-e10", "type": "build", "question": "Chtěli bychom převést nějaké peníze.", "answer": "We'd like to transfer some money.", "extra": ["moneys"], "reviewed": false }
+      ]
+    }
+  ]
+}

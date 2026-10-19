@@ -1,0 +1,139 @@
+{
+  "id": "u30",
+  "level": "B1",
+  "title": "Kultura a tradice",
+  "titleTarget": "Tradiții",
+  "description": "Pohádky, zvyky během roku a svatba – opakování minulých časů a konec kurzu B1.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u30-l1",
+      "title": "Bylo nebylo",
+      "titleTarget": "A fost odată",
+      "reviewed": false,
+      "tip": {
+        "title": "Pohádkový minulý čas",
+        "text": "Rumunské pohádky začínají A fost odată ca niciodată… = Bylo nebylo… V pohádkách a starších knihách uvidíte zvláštní minulý čas, perfect simplu. Je krátký a nemá před sebou am, ai, a: fu = byl, zise = řekl, plecă = odešel, veni = přišel, făcu = udělal. Stačí ho poznat, sami ho používat nemusíte – v běžné řeči se říká a fost, a zis, a plecat. Jen na jihozápadě země, v Olténii, ho lidé používají i v hovoru. A zmeu je pohádkový drak, ale i papírový drak – úplně jako česky.",
+        "examples": [
+          { "target": "A fost odată un împărat.", "native": "Byl jednou jeden císař." },
+          { "target": "Atunci împăratul zise: Bine!", "native": "Tehdy císař řekl: Dobře!" },
+          { "target": "Împărăteasa veni la palat.", "native": "Císařovna přišla do paláce." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l1-w1", "target": "o poveste", "native": "příběh; vyprávění", "note": "povestea = ten příběh; množné číslo: povești. Čte se „po-VES-te“.", "reviewed": false },
+        { "id": "u30-l1-w2", "target": "un basm", "native": "pohádka", "note": "basmul = ta pohádka; množné číslo: basme (střední rod). Čte se „basm“, jedna slabika.", "reviewed": false },
+        { "id": "u30-l1-w3", "target": "A fost odată", "native": "bylo nebylo; byl jednou jeden", "note": "Celý začátek pohádky: A fost odată ca niciodată… Čte se „a fost o-DA-tă“.", "reviewed": false },
+        { "id": "u30-l1-w4", "target": "un împărat", "native": "císař", "note": "împăratul = ten císař; množné číslo: împărați. V pohádkách vládne hlavně císař. Čte se „ym-pă-RAT“.", "reviewed": false },
+        { "id": "u30-l1-w5", "target": "o împărăteasă", "native": "císařovna", "note": "împărăteasa = ta císařovna. Čte se „ym-pă-ră-TEA-să“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u30-l1-w6", "target": "un zmeu", "native": "drak", "note": "zmeul = ten drak; množné číslo: zmei. Pohádková obluda, česky nejblíž drak; znamená i papírový drak. Čte se „zmeu“, jedna slabika.", "reviewed": false },
+        { "id": "u30-l1-w7", "target": "un cal", "native": "kůň", "note": "calul = ten kůň; množné číslo: cai. Čte se „kal“, v množném čísle „kaj“.", "reviewed": false },
+        { "id": "u30-l1-w8", "target": "fermecat", "native": "kouzelný; začarovaný", "note": "Ženský rod: fermecată. Un cal fermecat = kouzelný kůň. Čte se „fer-me-KAT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l1-e1", "type": "choice", "question": "un basm", "questionLang": "target", "options": ["pohádka", "císař", "kůň"], "answer": "pohádka", "reviewed": false },
+        { "id": "u30-l1-e2", "type": "choice", "question": "císařovna", "questionLang": "native", "options": ["o împărăteasă", "o doamnă", "o bunică"], "answer": "o împărăteasă", "reviewed": false },
+        { "id": "u30-l1-e3", "type": "match", "pairs": [
+          { "target": "un împărat", "native": "císař" },
+          { "target": "un zmeu", "native": "drak" },
+          { "target": "un cal", "native": "kůň" },
+          { "target": "fermecat", "native": "kouzelný" }
+        ], "reviewed": false },
+        { "id": "u30-l1-e4", "type": "listen", "audio": "A fost odată un împărat.", "options": ["Byl jednou jeden císař.", "Byla jednou jedna císařovna.", "Byl jednou jeden kůň."], "answer": "Byl jednou jeden císař.", "reviewed": false },
+        { "id": "u30-l1-e5", "type": "listen", "audio": "Zmeul veni noaptea.", "options": ["Drak přišel v noci.", "Drak přijde v noci.", "Drak odešel v noci."], "answer": "Drak přišel v noci.", "reviewed": false },
+        { "id": "u30-l1-e6", "type": "choice", "prompt": "Věta z pohádky. Co znamená?", "question": "Împăratul făcu o petrecere.", "questionLang": "target", "options": ["Císař uspořádal oslavu.", "Císař pořádá oslavu.", "Císař uspořádá oslavu."], "answer": "Císař uspořádal oslavu.", "reviewed": false },
+        { "id": "u30-l1-e7", "type": "fill", "sentence": "Împăratul avea trei ___.", "translation": "Císař měl tři koně.", "options": ["cai", "cal", "calul"], "answer": "cai", "explain": "Množné číslo od un cal je cai.", "reviewed": false },
+        { "id": "u30-l1-e8", "type": "type", "question": "kouzelný kůň", "answer": "un cal fermecat", "accept": ["cal fermecat"], "reviewed": false },
+        { "id": "u30-l1-e9", "type": "build", "question": "Babička čte pohádku.", "answer": "Bunica citește un basm.", "extra": ["citesc"], "reviewed": false },
+        { "id": "u30-l1-e10", "type": "build", "question": "Císař měl kouzelného koně.", "answer": "Împăratul avea un cal fermecat.", "extra": ["fermecată"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l2",
+      "title": "Zvyky během roku",
+      "titleTarget": "Obiceiuri de peste an",
+      "reviewed": false,
+      "tip": {
+        "title": "Je zvykem…",
+        "text": "Zvyk popíšete slovy se obișnuiește să…, česky „je zvykem…“: Pe întâi martie se obișnuiește să se dea mărțișoare. = Prvního března je zvykem dávat jarní přívěsky pro štěstí s červenobílou šňůrkou. V názvech svátků je často genitiv: Ziua Femeii (Den žen, 8. března), Ziua Copilului (Den dětí). Mnoho slov znáte ze slovanských jazyků: colindă ≈ koleda, târg ≈ trh. A pozor na výslovnost: o ie (lidová vyšívaná halenka) je jediná slabika, čte se „je“.",
+        "examples": [
+          { "target": "De Crăciun se cântă colinde.", "native": "O Vánocích se zpívají koledy." },
+          { "target": "La sărbători se joacă hora.", "native": "O svátcích se tančí hora." },
+          { "target": "Pe întâi iunie e Ziua Copilului.", "native": "Prvního června je Den dětí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l2-w1", "target": "o ie", "native": "vyšívaná halenka", "note": "ia = ta halenka; množné číslo: ii. Část lidového kroje. Čte se „je“, jedna slabika.", "reviewed": false },
+        { "id": "u30-l2-w2", "target": "o tradiție", "native": "tradice", "note": "tradiția = ta tradice; množné číslo: tradiții. Čte se „tra-DI-ci-e“.", "reviewed": false },
+        { "id": "u30-l2-w3", "target": "un mărțișor", "native": "jarní přívěsek", "note": "Přívěsek s červenobílou šňůrkou, dává se prvního března; množné číslo: mărțișoare. Čte se „măr-ci-ŠOR“.", "reviewed": false },
+        { "id": "u30-l2-w4", "target": "o colindă", "native": "koleda", "note": "colinda = ta koleda; množné číslo: colinde. A colinda = koledovat. Čte se „ko-LIN-dă“.", "reviewed": false },
+        { "id": "u30-l2-w5", "target": "o horă", "native": "kolový tanec", "note": "hora = ten tanec; množné číslo: hore. A juca hora = tančit horu. Pozor: hora česky = un munte.", "reviewed": false },
+        { "id": "u30-l2-w6", "target": "un costum popular", "native": "kroj", "note": "costumul popular = ten kroj; množné číslo: costume populare. Čte se „kos-TUM po-pu-LAR“.", "reviewed": false },
+        { "id": "u30-l2-w7", "target": "un târg", "native": "jarmark; trhy", "note": "târgul = ten jarmark; množné číslo: târguri. Târgul de Crăciun = vánoční trhy. Čte se „tyrg“.", "reviewed": false },
+        { "id": "u30-l2-w8", "target": "a se obișnui", "native": "zvyknout si", "note": "Skupina -esc: mă obișnuiesc = zvykám si. Se obișnuiește să… = je zvykem… Čte se „a se o-biš-nu-I“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l2-e1", "type": "choice", "question": "o horă", "questionLang": "target", "options": ["kolový tanec", "koleda", "kroj"], "answer": "kolový tanec", "reviewed": false },
+        { "id": "u30-l2-e2", "type": "choice", "question": "kroj", "questionLang": "native", "options": ["un costum popular", "un târg", "o tradiție"], "answer": "un costum popular", "reviewed": false },
+        { "id": "u30-l2-e3", "type": "match", "pairs": [
+          { "target": "o colindă", "native": "koleda" },
+          { "target": "un târg", "native": "jarmark" },
+          { "target": "o tradiție", "native": "tradice" },
+          { "target": "un mărțișor", "native": "jarní přívěsek" }
+        ], "reviewed": false },
+        { "id": "u30-l2-e4", "type": "listen", "audio": "De Crăciun se cântă colinde.", "options": ["O Vánocích se zpívají koledy.", "O Velikonocích se zpívají koledy.", "O Vánocích se tančí hora."], "answer": "O Vánocích se zpívají koledy.", "reviewed": false },
+        { "id": "u30-l2-e5", "type": "listen", "audio": "Bunica are o ie veche.", "options": ["Bunica are o ie veche.", "Bunica are o ie nouă.", "Mama are o ie veche."], "answer": "Bunica are o ie veche.", "reviewed": false },
+        { "id": "u30-l2-e6", "type": "fill", "sentence": "Pe opt martie e Ziua ___.", "translation": "Osmého března je Den žen.", "options": ["Femeii", "Femeia", "Femeile"], "answer": "Femeii", "explain": "Den koho? Genitiv jednotného čísla: femeia → Femeii.", "reviewed": false },
+        { "id": "u30-l2-e7", "type": "fill", "sentence": "Pe întâi martie se obișnuiește ___ se dea mărțișoare.", "translation": "Prvního března je zvykem dávat jarní přívěsky.", "options": ["să", "că", "de"], "answer": "să", "explain": "Po se obișnuiește stojí să + sloveso.", "reviewed": false },
+        { "id": "u30-l2-e8", "type": "type", "question": "koleda", "answer": "o colindă", "accept": ["un colind"], "reviewed": false },
+        { "id": "u30-l2-e9", "type": "build", "question": "V prosinci jdeme na vánoční trhy.", "answer": "În decembrie mergem la târgul de Crăciun.", "extra": ["mers"], "accept": ["Mergem la târgul de Crăciun în decembrie."], "reviewed": false },
+        { "id": "u30-l2-e10", "type": "build", "question": "Je to stará tradice.", "answer": "E o tradiție veche.", "extra": ["vechi"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u30-l3",
+      "title": "Svatba a křtiny",
+      "titleTarget": "Nunta și botezul",
+      "reviewed": false,
+      "tip": {
+        "title": "Tři minulé časy na svatbě",
+        "text": "Při vyprávění o svatbě se hodí všechno, co už umíte. Co se stalo: perfect compus – Nunta a fost în august. Jak to vypadalo: imperfect – Mireasa era foarte frumoasă. Co se stalo ještě předtím: tvar s -se-, stačí ho poznat – Când am ajuns, nunta începuse deja. Pozor na falešné přátele: mireasă = nevěsta, ale nevastă = manželka. Naș a nașă jsou kmotr a kmotra u křtu a zároveň svědci na svatbě – často tytéž osoby. Gratulujeme, to je konec kurzu B1!",
+        "examples": [
+          { "target": "Nunta a fost în august.", "native": "Svatba byla v srpnu." },
+          { "target": "Mireasa era foarte frumoasă.", "native": "Nevěsta byla moc krásná." },
+          { "target": "Când am ajuns, nunta începuse deja.", "native": "Když jsme přišli, svatba už začala." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u30-l3-w1", "target": "o nuntă", "native": "svatba", "note": "nunta = ta svatba; množné číslo: nunți. Čte se „NUN-tă“.", "reviewed": false },
+        { "id": "u30-l3-w2", "target": "un botez", "native": "křtiny; křest", "note": "botezul = ty křtiny; množné číslo: botezuri. A boteza = křtít. Čte se „bo-TEZ“.", "reviewed": false },
+        { "id": "u30-l3-w3", "target": "un mire", "native": "ženich", "note": "mirele = ten ženich; množné číslo: miri. Mirii = novomanželé.", "reviewed": false },
+        { "id": "u30-l3-w4", "target": "o mireasă", "native": "nevěsta", "note": "mireasa = ta nevěsta; množné číslo: mirese. Pozor: nevastă = manželka. Čte se „mi-REA-să“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u30-l3-w5", "target": "un naș", "native": "kmotr", "note": "nașul = ten kmotr; množné číslo: nași. Nașii jsou i svědci na svatbě. Čte se „naš“.", "reviewed": false },
+        { "id": "u30-l3-w6", "target": "o nașă", "native": "kmotra", "note": "nașa = ta kmotra; množné číslo: nașe. Čte se „NA-šă“.", "reviewed": false },
+        { "id": "u30-l3-w7", "target": "o logodnă", "native": "zasnoubení", "note": "logodna = to zasnoubení; množné číslo: logodne. A se logodi = zasnoubit se. Čte se „lo-GOD-nă“.", "reviewed": false },
+        { "id": "u30-l3-w8", "target": "un dar", "native": "dar", "note": "darul = ten dar; množné číslo: daruri. Slavnostnější než un cadou. Pozor: dar bez členu = ale.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u30-l3-e1", "type": "choice", "question": "un mire", "questionLang": "target", "options": ["ženich", "nevěsta", "kmotr"], "answer": "ženich", "reviewed": false },
+        { "id": "u30-l3-e2", "type": "choice", "question": "nevěsta", "questionLang": "native", "options": ["o mireasă", "o nevastă", "o nașă"], "answer": "o mireasă", "reviewed": false },
+        { "id": "u30-l3-e3", "type": "match", "pairs": [
+          { "target": "o nuntă", "native": "svatba" },
+          { "target": "un botez", "native": "křtiny" },
+          { "target": "o logodnă", "native": "zasnoubení" },
+          { "target": "un dar", "native": "dar" }
+        ], "reviewed": false },
+        { "id": "u30-l3-e4", "type": "listen", "audio": "Nunta a fost în august, la țară.", "options": ["Svatba byla v srpnu na venkově.", "Svatba bude v srpnu na venkově.", "Křtiny byly v srpnu na venkově."], "answer": "Svatba byla v srpnu na venkově.", "reviewed": false },
+        { "id": "u30-l3-e5", "type": "listen", "audio": "Nașii au făcut un dar frumos.", "options": ["Nașii au făcut un dar frumos.", "Nașii au făcut un tort frumos.", "Nașa a făcut un dar frumos."], "answer": "Nașii au făcut un dar frumos.", "reviewed": false },
+        { "id": "u30-l3-e6", "type": "fill", "sentence": "Mireasa ___ o rochie albă.", "translation": "Nevěsta měla bílé šaty.", "options": ["avea", "aveau", "avem"], "answer": "avea", "explain": "Popis v minulosti je imperfect; ona (mireasa) → avea.", "reviewed": false },
+        { "id": "u30-l3-e7", "type": "fill", "sentence": "Ieri am ___ la un botez.", "translation": "Včera jsme byli na křtinách.", "options": ["fost", "fi", "fiind"], "answer": "fost", "explain": "Perfect compus: am + příčestí fost.", "reviewed": false },
+        { "id": "u30-l3-e8", "type": "choice", "prompt": "Co se stalo dřív?", "question": "Când am ajuns, mirii plecaseră deja.", "questionLang": "target", "options": ["Když jsme přišli, novomanželé už odjeli.", "Až přijdeme, novomanželé už odjedou.", "Když jsme přišli, novomanželé teprve odjížděli."], "answer": "Když jsme přišli, novomanželé už odjeli.", "reviewed": false },
+        { "id": "u30-l3-e9", "type": "type", "question": "Svatba byla krásná.", "answer": "Nunta a fost frumoasă.", "accept": ["Nunta era frumoasă."], "reviewed": false },
+        { "id": "u30-l3-e10", "type": "build", "question": "Ženich a nevěsta tančí horu.", "answer": "Mirele și mireasa joacă hora.", "extra": ["joc"], "accept": ["Mireasa și mirele joacă hora."], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "u27",
+  "level": "B1",
+  "title": "Potíže na cestách",
+  "titleTarget": "Probleme în călătorie",
+  "description": "Zrušené lety a ujeté spoje, zdvořilá stížnost v hotelu a pomoc v nouzi v cizině.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u27-l1",
+      "title": "Vlak už odjel",
+      "titleTarget": "Trenul plecase deja",
+      "reviewed": false,
+      "tip": {
+        "title": "Předminulý čas: plecase",
+        "text": "Rumunština má zvláštní čas pro děj, který proběhl ještě před jiným minulým dějem: Când am ajuns, trenul plecase deja. = Když jsme dorazili, vlak už odjel. Česky stačí obyčejný minulý čas a slovo „už“. Tento tvar stačí poznat, sami si vystačíte s am plecat. Poznáte ho podle -se- ve tvaru slovesa: plecase (už odjel), ajunsese (už dorazil), plecaseră (už odjeli). Uslyšíte ho hlavně ve vyprávění a ve zprávách.",
+        "examples": [
+          { "target": "Când am ajuns, trenul plecase deja.", "native": "Když jsme dorazili, vlak už odjel." },
+          { "target": "Zborul a fost anulat din cauza grevei.", "native": "Let byl zrušen kvůli stávce." },
+          { "target": "Așteptăm de două ore.", "native": "Čekáme už dvě hodiny." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l1-w1", "target": "un zbor", "native": "let", "note": "zborul = ten let; množné číslo: zboruri. Od a zbura = letět.", "reviewed": false },
+        { "id": "u27-l1-w2", "target": "o escală", "native": "mezipřistání", "note": "escala = to mezipřistání; množné číslo: escale. Fără escală = přímý let. Čte se „es-KA-lă“.", "reviewed": false },
+        { "id": "u27-l1-w3", "target": "a ajunge", "native": "dorazit; dojet", "note": "eu ajung, el ajunge; minulý čas: am ajuns. Čte se „a a-ŽUN-dže“.", "reviewed": false },
+        { "id": "u27-l1-w4", "target": "a anula", "native": "zrušit", "note": "Skupina -ez: eu anulez. Zborul a fost anulat. = Let byl zrušen. Čte se „a a-nu-LA“.", "reviewed": false },
+        { "id": "u27-l1-w5", "target": "o grevă", "native": "stávka", "note": "greva = ta stávka; množné číslo: greve. Din cauza grevei = kvůli stávce. Čte se „GRE-vă“.", "reviewed": false },
+        { "id": "u27-l1-w6", "target": "o legătură", "native": "spojení; přípoj", "note": "legătura = to spojení; množné číslo: legături. Am pierdut legătura spre Cluj. = Ujel nám přípoj do Kluže. Samotné Am pierdut legătura může znamenat i „ztratili jsme spojení“. Čte se „le-gă-TU-ră“.", "reviewed": false },
+        { "id": "u27-l1-w7", "target": "a aștepta", "native": "čekat", "note": "eu aștept, el așteaptă. Aștept trenul. = Čekám na vlak (bez předložky). Čte se „a aš-tep-TA“.", "reviewed": false },
+        { "id": "u27-l1-w8", "target": "deja", "native": "už", "note": "Jen v kladné větě: A plecat deja. = Už odjel. V záporu încă nu: Încă n-a plecat. Čte se „de-ŽA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l1-e1", "type": "choice", "question": "o grevă", "questionLang": "target", "options": ["stávka", "let", "mezipřistání"], "answer": "stávka", "reviewed": false },
+        { "id": "u27-l1-e2", "type": "choice", "question": "zrušit", "questionLang": "native", "options": ["a anula", "a aștepta", "a ajunge"], "answer": "a anula", "reviewed": false },
+        { "id": "u27-l1-e3", "type": "match", "pairs": [
+          { "target": "un zbor", "native": "let" },
+          { "target": "o escală", "native": "mezipřistání" },
+          { "target": "o legătură", "native": "přípoj" },
+          { "target": "deja", "native": "už" }
+        ], "reviewed": false },
+        { "id": "u27-l1-e4", "type": "listen", "audio": "Când am ajuns, trenul plecase deja.", "options": ["Když jsme dorazili, vlak už odjel.", "Když jsme dorazili, vlak ještě stál na nástupišti.", "Až dorazíme, vlak odjede."], "answer": "Když jsme dorazili, vlak už odjel.", "reviewed": false },
+        { "id": "u27-l1-e5", "type": "listen", "audio": "Zborul a fost anulat.", "options": ["Zborul a fost anulat.", "Zborul a fost amânat.", "Trenul a fost anulat."], "answer": "Zborul a fost anulat.", "reviewed": false },
+        { "id": "u27-l1-e6", "type": "fill", "sentence": "Când am ajuns la gară, trenul ___ deja.", "translation": "Když jsme dorazili na nádraží, vlak už odjel.", "options": ["plecase", "plecat", "plecasem"], "answer": "plecase", "explain": "Plecase = vlak už odjel dřív, než jsme dorazili; plecasem je tvar pro osobu „já“.", "reviewed": false },
+        { "id": "u27-l1-e7", "type": "fill", "sentence": "Așteptăm ___ trei ore.", "translation": "Čekáme už tři hodiny.", "options": ["de", "la", "cu"], "answer": "de", "explain": "„Už tři hodiny“ se řekne de trei ore, doslova „od tří hodin“.", "reviewed": false },
+        { "id": "u27-l1-e8", "type": "type", "question": "Let byl zrušen.", "answer": "Zborul a fost anulat.", "accept": ["Zborul s-a anulat."], "reviewed": false },
+        { "id": "u27-l1-e9", "type": "build", "question": "Let má mezipřistání ve Vídni.", "answer": "Zborul are o escală la Viena.", "extra": ["escale"], "accept": ["La Viena zborul are o escală."], "reviewed": false },
+        { "id": "u27-l1-e10", "type": "choice", "question": "Am pierdut legătura spre Cluj.", "questionLang": "target", "options": ["Ujel nám přípoj do Kluže.", "Přípoj do Kluže má zpoždění.", "Přípoj do Kluže byl zrušen."], "answer": "Ujel nám přípoj do Kluže.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l2",
+      "title": "Reklamace",
+      "titleTarget": "O reclamație",
+      "reviewed": false,
+      "tip": {
+        "title": "Mělo to být jinak: ar fi trebuit să",
+        "text": "Stížnost začněte zdvořile: Aș vrea să fac o reclamație. Pozor na falešného přítele: o reclamă je reklama, stížnost nebo reklamace je o reclamație. Co mělo být jinak, řeknete pomocí ar fi trebuit să: Camera ar fi trebuit să fie curată. = Pokoj měl být čistý. Tvar ar fi trebuit se nemění – platí pro muže i ženy, pro jednu věc i pro více věcí. Pak řekněte, co chcete: O altă cameră, vă rog. (Jiný pokoj, prosím.)",
+        "examples": [
+          { "target": "Vrem să facem o reclamație.", "native": "Chceme podat stížnost." },
+          { "target": "Camera ar fi trebuit să fie curată.", "native": "Pokoj měl být čistý." },
+          { "target": "Liftul e defect și camera e zgomotoasă.", "native": "Výtah nefunguje a pokoj je hlučný." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l2-w1", "target": "o reclamație", "native": "stížnost; reklamace", "note": "reclamația = ta stížnost; množné číslo: reclamații. Pozor: o reclamă = reklama! Čte se „re-kla-MA-ci-e“.", "reviewed": false },
+        { "id": "u27-l2-w2", "target": "murdar", "native": "špinavý", "note": "Ženský rod: murdară, množné číslo: murdari. Čte se „mur-DAR“.", "reviewed": false },
+        { "id": "u27-l2-w3", "target": "defect", "native": "rozbitý; nefunkční", "note": "Ženský rod: defectă. Liftul e defect. = Výtah nefunguje. Čte se „de-FEKT“.", "reviewed": false },
+        { "id": "u27-l2-w4", "target": "zgomotos", "native": "hlučný", "note": "Od zgomot = hluk. Ženský rod: zgomotoasă. Čte se „zgo-mo-TOS“.", "reviewed": false },
+        { "id": "u27-l2-w5", "target": "o despăgubire", "native": "odškodnění; náhrada", "note": "despăgubirea = to odškodnění; množné číslo: despăgubiri. Čte se „des-pă-gu-BI-re“.", "reviewed": false },
+        { "id": "u27-l2-w6", "target": "a se plânge", "native": "stěžovat si", "note": "mă plâng, se plânge; minulý čas: m-am plâns. Na co: de: mă plâng de zgomot. Čte se „a se PLYN-dže“.", "reviewed": false },
+        { "id": "u27-l2-w7", "target": "un ghid", "native": "průvodce", "note": "ghidul = ten průvodce; množné číslo: ghizi (lidé), ghiduri (knížky). Čte se „gid“.", "reviewed": false },
+        { "id": "u27-l2-w8", "target": "nemulțumit", "native": "nespokojený", "note": "Ženský rod: nemulțumită. Nemulțumit de = nespokojený s. Čte se „ne-mul-cu-MIT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l2-e1", "type": "choice", "question": "murdar", "questionLang": "target", "options": ["špinavý", "hlučný", "nespokojený"], "answer": "špinavý", "reviewed": false },
+        { "id": "u27-l2-e2", "type": "choice", "question": "stížnost; reklamace", "questionLang": "native", "options": ["o reclamație", "o reclamă", "o despăgubire"], "answer": "o reclamație", "reviewed": false },
+        { "id": "u27-l2-e3", "type": "match", "pairs": [
+          { "target": "defect", "native": "rozbitý" },
+          { "target": "un ghid", "native": "průvodce" },
+          { "target": "o despăgubire", "native": "odškodnění" },
+          { "target": "a se plânge", "native": "stěžovat si" }
+        ], "reviewed": false },
+        { "id": "u27-l2-e4", "type": "listen", "audio": "Camera ar fi trebuit să fie curată.", "options": ["Pokoj měl být čistý.", "Pokoj je čistý.", "Pokoj bude čistý."], "answer": "Pokoj měl být čistý.", "reviewed": false },
+        { "id": "u27-l2-e5", "type": "listen", "audio": "Suntem nemulțumiți de hotel.", "options": ["Suntem nemulțumiți de hotel.", "Suntem mulțumiți de hotel.", "Suntem nemulțumiți de ghid."], "answer": "Suntem nemulțumiți de hotel.", "reviewed": false },
+        { "id": "u27-l2-e6", "type": "fill", "sentence": "Camera ar fi trebuit să ___ curată.", "translation": "Pokoj měl být čistý.", "options": ["fie", "este", "fi"], "answer": "fie", "explain": "Po să má sloveso a fi tvar fie: să fie.", "reviewed": false },
+        { "id": "u27-l2-e7", "type": "fill", "sentence": "Liftul este ___.", "translation": "Výtah je rozbitý.", "options": ["defect", "defectă", "defecte"], "answer": "defect", "explain": "Lift je střední rod, v jednotném čísle se chová jako mužský: defect.", "reviewed": false },
+        { "id": "u27-l2-e8", "type": "type", "question": "Pokoj je špinavý a hlučný.", "answer": "Camera e murdară și zgomotoasă.", "accept": ["Camera este murdară și zgomotoasă."], "reviewed": false },
+        { "id": "u27-l2-e9", "type": "build", "question": "Chceme si stěžovat na hluk.", "answer": "Vrem să ne plângem de zgomot.", "extra": ["plânge"], "reviewed": false },
+        { "id": "u27-l2-e10", "type": "choice", "question": "Ghidul a fost foarte amabil.", "questionLang": "target", "options": ["Průvodce byl velmi laskavý.", "Průvodce byl velmi líný.", "Řidič byl velmi laskavý."], "answer": "Průvodce byl velmi laskavý.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u27-l3",
+      "title": "Nemoc v cizině",
+      "titleTarget": "Ajutor în străinătate",
+      "reviewed": false,
+      "tip": {
+        "title": "Pomozte mi! Nenechávejte mě tady!",
+        "text": "V kladném rozkazu stojí zájmeno za slovesem a píše se se spojovníkem: Ajutați-mă! (Pomozte mi!), Chemați-l! (Zavolejte ho!). V záporném rozkazu stojí zájmeno před slovesem: Nu mă lăsați aici! (Nenechávejte mě tady!). Všimněte si: a ajuta má 4. pád, proto ajutați-mă, i když česky řekneme „pomozte mi“. „Pro případ, že“ je în caz că a po něm obyčejné sloveso: În caz că pierdeți pașaportul, mergeți la ambasadă. Na pohotovost = la urgență.",
+        "examples": [
+          { "target": "Ajutați-mă, vă rog!", "native": "Pomozte mi, prosím!" },
+          { "target": "Nu mă lăsați aici!", "native": "Nenechávejte mě tady!" },
+          { "target": "În caz că pierdeți pașaportul, mergeți la ambasadă.", "native": "Kdybyste ztratili pas, jděte na velvyslanectví." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u27-l3-w1", "target": "o asigurare", "native": "pojištění", "note": "asigurarea = to pojištění; množné číslo: asigurări. Asigurare de călătorie = cestovní pojištění. Čte se „a-si-gu-RA-re“.", "reviewed": false },
+        { "id": "u27-l3-w2", "target": "o urgență", "native": "naléhavý případ; pohotovost", "note": "urgența = ten naléhavý případ; množné číslo: urgențe. La urgență = na pohotovost i na pohotovosti. Čte se „ur-DŽEN-că“.", "reviewed": false },
+        { "id": "u27-l3-w3", "target": "o ambulanță", "native": "sanitka; záchranka", "note": "ambulanța = ta sanitka; množné číslo: ambulanțe. Hovorově salvarea. Čte se „am-bu-LAN-că“.", "reviewed": false },
+        { "id": "u27-l3-w4", "target": "o ambasadă", "native": "velvyslanectví", "note": "ambasada = to velvyslanectví; množné číslo: ambasade. Ambasada Cehiei = české velvyslanectví. Čte se „am-ba-SA-dă“.", "reviewed": false },
+        { "id": "u27-l3-w5", "target": "un accident", "native": "nehoda; úraz", "note": "accidentul = ta nehoda; množné číslo: accidente. Čte se „ak-či-DENT“.", "reviewed": false },
+        { "id": "u27-l3-w6", "target": "a fura", "native": "ukrást; krást", "note": "eu fur, el fură. Mi-au furat portofelul. = Ukradli mi peněženku. Čte se „a fu-RA“.", "reviewed": false },
+        { "id": "u27-l3-w7", "target": "în străinătate", "native": "v cizině; do ciziny", "note": "Străin = cizí, cizinec. Čte se „yn stră-i-nă-TA-te“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u27-l3-e1", "type": "choice", "question": "o ambasadă", "questionLang": "target", "options": ["velvyslanectví", "pojištění", "sanitka; záchranka"], "answer": "velvyslanectví", "reviewed": false },
+        { "id": "u27-l3-e2", "type": "choice", "question": "nehoda; úraz", "questionLang": "native", "options": ["un accident", "o urgență", "o asigurare"], "answer": "un accident", "reviewed": false },
+        { "id": "u27-l3-e3", "type": "match", "pairs": [
+          { "target": "o asigurare", "native": "pojištění" },
+          { "target": "o ambulanță", "native": "sanitka" },
+          { "target": "a fura", "native": "ukrást" },
+          { "target": "în străinătate", "native": "v cizině" }
+        ], "reviewed": false },
+        { "id": "u27-l3-e4", "type": "listen", "audio": "Mi-e rău, trebuie să merg la urgență.", "options": ["Je mi zle, musím na pohotovost.", "Je mi zle, musím do lékárny.", "Je mi zima, musím jít domů."], "answer": "Je mi zle, musím na pohotovost.", "reviewed": false },
+        { "id": "u27-l3-e5", "type": "listen", "audio": "Mi-au furat portofelul.", "options": ["Mi-au furat portofelul.", "Mi-au furat pașaportul.", "Am pierdut portofelul."], "answer": "Mi-au furat portofelul.", "reviewed": false },
+        { "id": "u27-l3-e6", "type": "fill", "sentence": "Ajutați-___, vă rog!", "translation": "Pomozte mi, prosím!", "options": ["mă", "eu", "mine"], "answer": "mă", "explain": "A ajuta má 4. pád: ajutați-mă, i když česky „pomozte mi“; eu a mine se ke slovesu nepřipojují.", "reviewed": false },
+        { "id": "u27-l3-e7", "type": "fill", "sentence": "În caz ___ pierdeți pașaportul, mergeți la ambasadă.", "translation": "Kdybyste ztratili pas, jděte na velvyslanectví.", "options": ["că", "să", "de"], "answer": "că", "explain": "„Pro případ, že“ je în caz că a po něm obyčejné sloveso.", "reviewed": false },
+        { "id": "u27-l3-e8", "type": "type", "question": "Zavolejte sanitku!", "answer": "Chemați ambulanța!", "accept": ["Sunați la ambulanță!", "Chemați salvarea!", "Chemați o ambulanță!", "Sunați la salvare!"], "reviewed": false },
+        { "id": "u27-l3-e9", "type": "build", "question": "Nenechávejte mě tady!", "answer": "Nu mă lăsați aici!", "extra": ["mi"], "reviewed": false },
+        { "id": "u27-l3-e10", "type": "build", "question": "Pomozte nám, prosím, měli jsme nehodu.", "answer": "Ajutați-ne, vă rog, am avut un accident.", "extra": ["o"], "accept": ["Vă rog, ajutați-ne, am avut un accident."], "reviewed": false }
+      ]
+    }
+  ]
+}

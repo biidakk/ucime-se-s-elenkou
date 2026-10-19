@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useT } from '@/i18n';
-import { checkTypedAnswer, tilesOf } from '@/lib/answers';
+import { buildAnswers, checkTypedAnswer, tilesOf } from '@/lib/answers';
 import type { BuildExercise } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
 import { shuffle } from '@/lib/shuffle';
@@ -37,7 +37,7 @@ export function BuildExerciseView({ exercise, onResult }: Props) {
     if (placed.length === 0 || checked) return;
     setChecked(true);
     const built = placed.map((i) => tiles[i]).join(' ');
-    const outcome = checkTypedAnswer(built, [exercise.answer, ...(exercise.accept ?? [])], target.code);
+    const outcome = checkTypedAnswer(built, buildAnswers(exercise.answer, exercise.accept, exercise.optional), target.code);
     speak(exercise.answer);
     onResult({ correct: outcome === 'correct', correctAnswer: exercise.answer });
   };

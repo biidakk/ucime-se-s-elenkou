@@ -1,0 +1,140 @@
+{
+  "id": "u26",
+  "level": "B1",
+  "title": "Bydlení",
+  "titleTarget": "Locuința",
+  "description": "Hledání bytu, opravy v domácnosti a vztahy se sousedy.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u26-l1",
+      "title": "Hledám byt",
+      "titleTarget": "Caut o locuință",
+      "reviewed": false,
+      "tip": {
+        "title": "Ten nový, ten ve druhém patře: cel, cea",
+        "text": "Slovo cel (cea, cei, cele) znamená „ten“ a pomáhá vybrat jednu věc z více: apartamentul cel nou = ten nový byt (ne ten starý). Nejčastěji ho uslyšíte s předložkou: Care apartament? Cel de la etajul doi. = Který byt? Ten ve druhém patře. Mění se podle rodu jako přídavné jméno: cel (mužský a střední rod), cea (ženský rod), cei a cele (množné číslo). Patra se počítají jako v Česku: parter = přízemí, etajul unu = první patro.",
+        "examples": [
+          { "target": "Îmi place apartamentul cel mare.", "native": "Líbí se mi ten velký byt." },
+          { "target": "Care apartament? Cel de la etajul doi.", "native": "Který byt? Ten ve druhém patře." },
+          { "target": "Locuim la parter.", "native": "Bydlíme v přízemí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l1-w1", "target": "o locuință", "native": "bydlení; obydlí", "note": "locuința = to bydlení; množné číslo: locuințe. A locui = bydlet. Čte se „lo-ku-IN-că“.", "reviewed": false },
+        { "id": "u26-l1-w2", "target": "un bloc", "native": "panelák; činžovní dům", "note": "blocul = ten panelák; množné číslo: blocuri. Locuim la bloc. = Bydlíme v paneláku.", "reviewed": false },
+        { "id": "u26-l1-w3", "target": "un etaj", "native": "patro", "note": "etajul = to patro; množné číslo: etaje. La etajul doi = ve druhém patře; přízemí = parter. Čte se „e-TAŽ“.", "reviewed": false },
+        { "id": "u26-l1-w4", "target": "un balcon", "native": "balkon", "note": "balconul = ten balkon; množné číslo: balcoane. Čte se „bal-KON“.", "reviewed": false },
+        { "id": "u26-l1-w5", "target": "un lift", "native": "výtah", "note": "liftul = ten výtah; množné číslo: lifturi. Také un ascensor.", "reviewed": false },
+        { "id": "u26-l1-w6", "target": "a închiria", "native": "pronajmout; pronajmout si", "note": "Skupina -ez: eu închiriez. Platí pro majitele i nájemníka. Čte se „a yn-ki-ri-JA“.", "reviewed": false },
+        { "id": "u26-l1-w7", "target": "mobilat", "native": "zařízený nábytkem", "note": "Ženský rod: mobilată. Un apartament mobilat = zařízený byt. Čte se „mo-bi-LAT“.", "reviewed": false },
+        { "id": "u26-l1-w8", "target": "o centrală", "native": "kotel", "note": "centrala = ten kotel; množné číslo: centrale. Celým názvem centrală termică, plynový kotel v bytě. Čte se „čen-TRA-lă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l1-e1", "type": "choice", "question": "un etaj", "questionLang": "target", "options": ["patro", "výtah", "balkon"], "answer": "patro", "reviewed": false },
+        { "id": "u26-l1-e2", "type": "choice", "question": "pronajmout; pronajmout si", "questionLang": "native", "options": ["a închiria", "a cumpăra", "a vizita"], "answer": "a închiria", "reviewed": false },
+        { "id": "u26-l1-e3", "type": "match", "pairs": [
+          { "target": "o locuință", "native": "bydlení" },
+          { "target": "un bloc", "native": "panelák" },
+          { "target": "un balcon", "native": "balkon" },
+          { "target": "un lift", "native": "výtah" },
+          { "target": "o centrală", "native": "kotel" }
+        ], "reviewed": false },
+        { "id": "u26-l1-e4", "type": "listen", "audio": "Apartamentul e la etajul trei.", "options": ["Byt je ve třetím patře.", "Byt je v přízemí.", "Byt je ve druhém patře."], "answer": "Byt je ve třetím patře.", "reviewed": false },
+        { "id": "u26-l1-e5", "type": "listen", "audio": "Blocul nu are lift.", "options": ["Blocul nu are lift.", "Blocul are un lift nou.", "Blocul nu are balcon."], "answer": "Blocul nu are lift.", "reviewed": false },
+        { "id": "u26-l1-e6", "type": "fill", "sentence": "Îmi place apartamentul ___ nou.", "translation": "Líbí se mi ten nový byt.", "options": ["cel", "cea", "cele"], "answer": "cel", "explain": "Apartament je střední rod, v jednotném čísle se chová jako mužský: cel.", "reviewed": false },
+        { "id": "u26-l1-e7", "type": "fill", "sentence": "Care cameră? ___ cu balcon.", "translation": "Který pokoj? Ten s balkonem.", "options": ["Cea", "Cel", "Cele"], "answer": "Cea", "explain": "Cameră je ženský rod v jednotném čísle, proto cea.", "reviewed": false },
+        { "id": "u26-l1-e8", "type": "type", "question": "Hledám zařízený byt.", "answer": "Caut un apartament mobilat.", "accept": ["Caut o locuință mobilată."], "reviewed": false },
+        { "id": "u26-l1-e9", "type": "build", "question": "Chceme si pronajmout byt s balkonem.", "answer": "Vrem să închiriem un apartament cu balcon.", "extra": ["închiria"], "reviewed": false },
+        { "id": "u26-l1-e10", "type": "speak", "text": "Apartamentul e mobilat și are balcon.", "native": "Byt je zařízený a má balkon.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l2",
+      "title": "Něco se pokazilo",
+      "titleTarget": "S-a stricat ceva",
+      "reviewed": false,
+      "tip": {
+        "title": "Poprosit někoho, aby…",
+        "text": "Když chcete někoho poprosit nebo zavolat, aby něco udělal, řekněte: Îl rog pe instalator să vină. (Prosím instalatéra, aby přišel.) České „aby“ je să a sloveso. Osobu ještě ohlásí zájmeno: îl… pe u muže, o… pe u ženy – jako v Îl sun pe Mihai. Stejně funguje a chema (zavolat, přivolat): O chem pe fiica mea să mă ajute. Že se něco pokazilo, řeknete zvratně jako česky: S-a stricat robinetul. = Pokazil se kohoutek.",
+        "examples": [
+          { "target": "S-a stricat centrala.", "native": "Pokazil se kotel." },
+          { "target": "Îl chem pe instalator să repare țeava.", "native": "Zavolám instalatéra, aby opravil trubku." },
+          { "target": "Îl rog pe electrician să vină mâine.", "native": "Poprosím elektrikáře, aby přišel zítra." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l2-w1", "target": "a se strica", "native": "pokazit se; rozbít se", "note": "S-a stricat liftul. = Výtah se pokazil. Čte se „a se stri-KA“.", "reviewed": false },
+        { "id": "u26-l2-w2", "target": "a repara", "native": "opravit; opravovat", "note": "eu repar, el repară; să repare = aby opravil. Čte se „a re-pa-RA“.", "reviewed": false },
+        { "id": "u26-l2-w3", "target": "un instalator", "native": "instalatér", "note": "instalatorul = ten instalatér; množné číslo: instalatori. Čte se „in-sta-la-TOR“.", "reviewed": false },
+        { "id": "u26-l2-w4", "target": "un electrician", "native": "elektrikář", "note": "electricianul = ten elektrikář; množné číslo: electricieni. Čte se „e-lek-tri-či-AN“.", "reviewed": false },
+        { "id": "u26-l2-w5", "target": "o țeavă", "native": "trubka", "note": "țeava = ta trubka; množné číslo: țevi. Čte se „CEA-vă“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u26-l2-w6", "target": "un robinet", "native": "kohoutek", "note": "robinetul = ten kohoutek; množné číslo: robinete. Čte se „ro-bi-NET“.", "reviewed": false },
+        { "id": "u26-l2-w7", "target": "o priză", "native": "zásuvka", "note": "priza = ta zásuvka; množné číslo: prize. Myslí se elektrická zásuvka ve zdi.", "reviewed": false },
+        { "id": "u26-l2-w8", "target": "o reparație", "native": "oprava", "note": "reparația = ta oprava; množné číslo: reparații. Čte se „re-pa-RA-ci-e“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l2-e1", "type": "choice", "question": "o priză", "questionLang": "target", "options": ["zásuvka", "kohoutek", "trubka"], "answer": "zásuvka", "reviewed": false },
+        { "id": "u26-l2-e2", "type": "choice", "question": "elektrikář", "questionLang": "native", "options": ["un electrician", "un instalator", "un inginer"], "answer": "un electrician", "reviewed": false },
+        { "id": "u26-l2-e3", "type": "match", "pairs": [
+          { "target": "a repara", "native": "opravit" },
+          { "target": "o țeavă", "native": "trubka" },
+          { "target": "un robinet", "native": "kohoutek" },
+          { "target": "o reparație", "native": "oprava" }
+        ], "reviewed": false },
+        { "id": "u26-l2-e4", "type": "listen", "audio": "S-a stricat robinetul din baie.", "options": ["V koupelně se pokazil kohoutek.", "V kuchyni se pokazil kohoutek.", "V koupelně se pokazila zásuvka."], "answer": "V koupelně se pokazil kohoutek.", "reviewed": false },
+        { "id": "u26-l2-e5", "type": "listen", "audio": "Îl chem pe instalator.", "options": ["Îl chem pe instalator.", "Îl chem pe electrician.", "Îl rog pe instalator."], "answer": "Îl chem pe instalator.", "reviewed": false },
+        { "id": "u26-l2-e6", "type": "fill", "sentence": "___ rog pe electrician să vină mâine.", "translation": "Prosím elektrikáře, aby přišel zítra.", "options": ["Îl", "O", "Le"], "answer": "Îl", "explain": "Elektrikář je muž a stojí ve 4. pádě, proto îl… pe.", "reviewed": false },
+        { "id": "u26-l2-e7", "type": "fill", "sentence": "Îl rog pe instalator ___ repare țeava.", "translation": "Prosím instalatéra, aby opravil trubku.", "options": ["să", "că", "dacă"], "answer": "să", "explain": "České „aby“ je să a sloveso; că znamená „že“.", "reviewed": false },
+        { "id": "u26-l2-e8", "type": "type", "question": "Pokazila se zásuvka.", "answer": "S-a stricat priza.", "accept": ["Priza s-a stricat."], "reviewed": false },
+        { "id": "u26-l2-e9", "type": "build", "question": "Zavolám instalatéra, aby opravil kohoutek.", "answer": "Îl chem pe instalator să repare robinetul.", "extra": ["repară"], "reviewed": false },
+        { "id": "u26-l2-e10", "type": "choice", "question": "Reparația costă o sută de lei.", "questionLang": "target", "options": ["Oprava stojí sto lei.", "Oprava stojí tisíc lei.", "Trubka stojí sto lei."], "answer": "Oprava stojí sto lei.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u26-l3",
+      "title": "Sousedé",
+      "titleTarget": "Vecinii",
+      "reviewed": false,
+      "tip": {
+        "title": "Navzájem: se a își",
+        "text": "„Navzájem“ se rumunsky řekne zvratným zájmenem, podobně jako české se a si: Vecinii se ceartă. = Sousedé se hádají. Ve třetí osobě se volí podle slovesa: se u sloves se 4. pádem (a vedea pe cineva → se văd = vídají se), își u sloves se 3. pádem (a spune cuiva → își spun = říkají si, a scrie → își scriu = píšou si). Pozor: a ajuta má 4. pád, proto se ajută, i když česky „pomáhají si“. V první a druhé osobě je to snadné, tvar je pro oba pády stejný: ne ajutăm (pomáháme si), vă vedeți (vídáte se).",
+        "examples": [
+          { "target": "Ne înțelegem bine cu vecinii.", "native": "Se sousedy dobře vycházíme." },
+          { "target": "Vecinii se ceartă mereu.", "native": "Sousedé se pořád hádají." },
+          { "target": "Vecinele își spun totul.", "native": "Sousedky si říkají všechno." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u26-l3-w1", "target": "un vecin", "native": "soused", "note": "vecinul = ten soused; množné číslo: vecini. Čte se „ve-ČIN“.", "reviewed": false },
+        { "id": "u26-l3-w2", "target": "o vecină", "native": "sousedka", "note": "vecina = ta sousedka; množné číslo: vecine. Čte se „ve-ČI-nă“.", "reviewed": false },
+        { "id": "u26-l3-w3", "target": "a se certa", "native": "hádat se", "note": "ne certăm, se ceartă. Bez se: a certa pe cineva = vynadat někomu. Čte se „a se čer-TA“.", "reviewed": false },
+        { "id": "u26-l3-w4", "target": "a se înțelege", "native": "rozumět si; vycházet spolu", "note": "Ne înțelegem bine. = Dobře spolu vycházíme. Srovnejte: Nu înțeleg. = Nerozumím. Čte se „a se yn-ce-LE-dže“.", "reviewed": false },
+        { "id": "u26-l3-w5", "target": "zgomot", "native": "hluk", "note": "Bez členu: Fac zgomot. = Dělají hluk. Zgomotul = ten hluk. Čte se „ZGO-mot“.", "reviewed": false },
+        { "id": "u26-l3-w6", "target": "a deranja", "native": "rušit; obtěžovat", "note": "Skupina -ez: eu deranjez, el deranjează. Nu vă deranjez? = Neruším? Čte se „a de-ran-ŽA“.", "reviewed": false },
+        { "id": "u26-l3-w7", "target": "liniște", "native": "klid; ticho", "note": "Bez členu: Vreau liniște. = Chci klid. Liniștea = ten klid. Čte se „LI-niš-te“.", "reviewed": false },
+        { "id": "u26-l3-w8", "target": "a se muta", "native": "stěhovat se; přestěhovat se", "note": "ne mutăm, se mută; minulý čas: ne-am mutat. Čte se „a se mu-TA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u26-l3-e1", "type": "choice", "question": "liniște", "questionLang": "target", "options": ["klid; ticho", "hluk", "soused"], "answer": "klid; ticho", "reviewed": false },
+        { "id": "u26-l3-e2", "type": "choice", "question": "stěhovat se; přestěhovat se", "questionLang": "native", "options": ["a se muta", "a se certa", "a se înțelege"], "answer": "a se muta", "reviewed": false },
+        { "id": "u26-l3-e3", "type": "match", "pairs": [
+          { "target": "un vecin", "native": "soused" },
+          { "target": "o vecină", "native": "sousedka" },
+          { "target": "zgomot", "native": "hluk" },
+          { "target": "a deranja", "native": "rušit" }
+        ], "reviewed": false },
+        { "id": "u26-l3-e4", "type": "listen", "audio": "Vecinii fac mult zgomot.", "options": ["Sousedé dělají velký hluk.", "Sousedé jsou úplně potichu.", "Sousedé se stěhují."], "answer": "Sousedé dělají velký hluk.", "reviewed": false },
+        { "id": "u26-l3-e5", "type": "listen", "audio": "Ne mutăm luna viitoare.", "options": ["Ne mutăm luna viitoare.", "Ne mutăm săptămâna viitoare.", "Ne-am mutat luna trecută."], "answer": "Ne mutăm luna viitoare.", "reviewed": false },
+        { "id": "u26-l3-e6", "type": "fill", "sentence": "Vecinii ___ ceartă mereu.", "translation": "Sousedé se pořád hádají.", "options": ["se", "își"], "answer": "se", "explain": "A certa má 4. pád (pe cineva), proto ve třetí osobě se.", "reviewed": false },
+        { "id": "u26-l3-e7", "type": "fill", "sentence": "Vecinele ___ spun totul.", "translation": "Sousedky si říkají všechno.", "options": ["își", "se"], "answer": "își", "explain": "A spune má 3. pád (cuiva), proto ve třetí osobě își.", "reviewed": false },
+        { "id": "u26-l3-e8", "type": "type", "question": "Se sousedy dobře vycházíme.", "answer": "Ne înțelegem bine cu vecinii.", "accept": ["Cu vecinii ne înțelegem bine."], "reviewed": false },
+        { "id": "u26-l3-e9", "type": "build", "question": "Hluk sousedů nás ruší.", "answer": "Zgomotul vecinilor ne deranjează.", "extra": ["deranjez"], "reviewed": false },
+        { "id": "u26-l3-e10", "type": "speak", "text": "Nu vă deranjez?", "native": "Neruším vás?", "reviewed": false }
+      ]
+    }
+  ]
+}

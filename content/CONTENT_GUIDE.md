@@ -40,6 +40,8 @@ Fields are neutral so any language pair fits:
 }
 ```
 
+`level` is `"A1"`, `"A2"` or `"B1"` (the course map shows a heading for each level).
+
 ## Lesson
 
 ```json
@@ -98,7 +100,7 @@ answer, not even a synonym).
 | `match` | `pairs`: 3–5 × `{ "target": …, "native": … }` |
 | `type` | `question` (Czech), `answer` (target language, one plain answer), optional `accept` (other correct answers) |
 | `listen` | `audio` (target text spoken aloud), `options`, `answer`. Either *"what did you hear"* (options in target language, answer = audio) or *"what does it mean"* (options in Czech) |
-| `build` | `question` (Czech sentence), `answer` (target sentence, 3–8 words; its words become tiles), optional `extra` (1–2 wrong tiles, e.g. a wrong article), optional `accept` (other correct orders using the same tiles) |
+| `build` | `question` (Czech sentence), `answer` (target sentence, 3–8 words; its words become tiles), optional `extra` (1–2 wrong tiles, e.g. a wrong article), optional `accept` (other correct orders using the same tiles), optional `optional` (words of the answer the learner may leave out and still be right, e.g. `["that"]` in "She said that she was tired.") |
 | `fill` | `sentence` (target, with exactly one `___`), `translation` (Czech), `options`, `answer`, optional `explain` (one Czech sentence: why) |
 | `speak` | `text` (target, short, numbers written as words), `native` (Czech meaning) |
 

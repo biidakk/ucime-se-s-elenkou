@@ -1,6 +1,6 @@
 # Syllabus: German for Czech speakers (cs-de)
 
-20 units × 3 lessons. A1 = units 1–10 (≈ Goethe Start Deutsch 1), A2 = units 11–20 (≈ Goethe A2).
+30 units × 3 lessons. A1 = units 1–10 (≈ Goethe Start Deutsch 1), A2 = units 11–20 (≈ Goethe A2), B1 = units 21–30 (≈ Goethe-Zertifikat B1).
 Each word is taught once (listed here); later units recycle it in exercises only.
 Nouns are taught with der/die/das; plural goes in the word's note.
 
@@ -149,3 +149,78 @@ Error column = the typical Czech error the lesson targets (from docs/RESEARCH.md
 | 1 | At the bank | be-/unter- (inseparable) vs ab- (separable) | das Konto, die Kreditkarte, der Geldautomat, bar, bezahlen, abheben, unterschreiben, die Unterschrift, die Gebühr | *Ich abhebe Geld* |
 | 2 | Forms | vor + Dativ (vor zehn Jahren ≈ před deseti lety) | das Formular, ausfüllen, der Vorname, der Nachname, das Geburtsdatum, der Wohnort, die Staatsangehörigkeit, der Ausweis, der Reisepass | *vor zehn Jahre* |
 | 3 | At the spa | review of the false friends | die Kur, der Kurort, die Erholung, sich erholen, die Massage, die Quelle, die Ruhe, empfehlen, das Gift | false friends *Kur*, *Gift* (= jed) |
+
+## B1 (units 21–30)
+
+≈ Goethe-/ÖSD-Zertifikat B1; themes follow the Rahmencurriculum fields (Arbeitssuche, Aus- und Weiterbildung, Gesundheit, Mediennutzung, Mobilität, Banken und Versicherungen, Wohnen, Meinungen und Konflikte).
+Checked: no word below is taught in units 1–20, and none repeats inside B1.
+
+### Unit 21: Hledání práce / Arbeitssuche (`unit21-arbeitssuche.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Job adverts | verbs with prepositions (sich bewerben um, sich interessieren für, Angst haben vor) | die Stelle, die Ausbildung, die Bewerbung, sich bewerben, der Lebenslauf, die Erfahrung, das Gehalt, die Teilzeit, die Vollzeit | preposition copied from Czech (*Angst von* ← strach z; *bewerben für*) |
+| 2 | Job interview | wo-/da-compounds (Worauf? – Darauf.) | das Vorstellungsgespräch, die Aufgabe, der Vertrag, die Bedingung, die Kenntnisse, der Erfolg, zuverlässig, selbstständig | *Auf was wartest du?*; *Ich freue mich auf es* |
+| 3 | First day at work | Infinitiv mit zu (Ich habe vergessen, … anzurufen) | anfangen, vergessen, versuchen, vorhaben, die Besprechung, die Abteilung, der Kunde, die Kundin, die Überstunde | missing *zu*; *zu anrufen* instead of *anzurufen* |
+
+### Unit 22: Vzdělávání / Lernen und Kurse (`unit22-lernen.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | A course at the Volkshochschule | um … zu / damit (≈ abych) | der Kurs, die Volkshochschule, sich anmelden, die Anmeldung, der Teilnehmer, die Teilnehmerin, der Anfänger, die Übung, üben | *für zu lernen*; *um … zu* with a different subject (needs *damit*) |
+| 2 | School in the old days | Präteritum of regular verbs (lernte, wohnte, spielte) for stories | der Schüler, die Schülerin, die Klasse, die Note, die Prüfung, bestehen, das Zeugnis, das Fach, der Unterricht | *er lerntet*; false friend *Note* (= známka) |
+| 3 | Learning as an adult | Präteritum of irregular verbs (ging, kam, fand, begann, las) | die Weiterbildung, die Universität, das Studium, der Abschluss, das Ziel, schaffen, die Fremdsprache, das Wörterbuch | *gehte*; *er gingt* |
+
+### Unit 23: U lékaře / Beim Arzt (`unit23-arzt.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | In the surgery | indirect questions (Können Sie mir sagen, wann …?) | die Praxis, der Patient, die Patientin, die Sprechstunde, die Krankenkasse, die Untersuchung, untersuchen, die Behandlung, der Notfall | *…, wann ist die Sprechstunde?* (verb not last) |
+| 2 | An accident | Plusquamperfekt (hatte/war + participle); nachdem | der Unfall, sich verletzen, die Verletzung, brechen, wehtun, das Krankenhaus, der Krankenwagen, bluten, fallen | *ich hatte gefallen* (needs *war*); Czech has no such tense |
+| 3 | Living healthily | advice: Sie sollten … (≈ měl byste); An Ihrer Stelle würde ich … | die Ernährung, das Gewicht, abnehmen, zunehmen, sich bewegen, die Bewegung, rauchen, aufhören | *Sie sollen* for advice; *abnehmen* also = zvednout telefon |
+
+### Unit 24: Média / Medien (`unit24-medien.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Newspapers, TV, radio | relative clauses, Nominativ (der/die/das ≈ který/která/které; verb last) | die Zeitung, die Zeitschrift, die Sendung, das Programm, der Bericht, die Werbung, das Radio, der Krimi, aktuell | verb not last (*die Zeitung, die ist …*); gender from Czech (noviny = pl.) |
+| 2 | Internet and phone | relative clauses, Akkusativ/Dativ (den, dem, der, denen) | die App, herunterladen, das Gerät, der Bildschirm, speichern, löschen, die Datei, online, ausdrucken | wrong case of the pronoun (*der Mann, den ich helfe*) |
+| 3 | Information and safety | relative clauses with prepositions (die Seite, auf der …; ≈ o které) | die Information, sich informieren, berichten, die Gefahr, gefährlich, die Sicherheit, privat, das Ergebnis | preposition dropped (*das Thema, das ich spreche*) |
+
+### Unit 25: Životní prostředí / Umwelt (`unit25-umwelt.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Sorting rubbish | Passiv Präsens (Papier wird gesammelt) | die Umwelt, trennen, das Plastik, das Glas, das Papier, die Dose, sammeln, die Mülltonne, die Verpackung | *ist gesammelt* (← je sbírán) instead of *wird* |
+| 2 | Saving energy | deshalb/deswegen + verb 2nd (≈ proto) vs weil | die Energie, der Strom, die Heizung, verbrauchen, ausschalten, einschalten, das Licht, die Luft, die Natur | *deshalb ich spare*; false friend *Strom* (= proud, elektřina; strom = der Baum) |
+| 3 | Climate and the future | Futur I: werden + infinitive at the end | das Klima, die Temperatur, die Zukunft, die Hitze, das Tier, die Pflanze, die Erde, schützen, steigen | *Es wird regnen morgen*; *werden* = budu / stát se confused |
+
+### Unit 26: Problémy na cestách / Probleme unterwegs (`unit26-unterwegs.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Something was stolen | als (once in the past) vs wenn (every time) + Präteritum | passieren, verlieren, stehlen, der Dieb, die Polizei, die Anzeige, das Fundbüro, die Tasche, die Geldbörse | *Wenn ich in Rom war, …* for one event (needs *als*) |
+| 2 | Car breakdown | lassen + infinitive (≈ nechat opravit) | die Panne, die Werkstatt, reparieren, die Reparatur, der Reifen, die Tankstelle, tanken, der Stau, ausfallen | *Ich lasse das Auto zu reparieren* |
+| 3 | Complaining at the hotel | obwohl (verb last) vs trotzdem (verb 2nd) | sich beschweren, die Beschwerde, funktionieren, kaputt, laut, die Klimaanlage, die Rechnung, der Fehler, sich entschuldigen | *obwohl ich habe …*; *trotzdem ich gehe* |
+
+### Unit 27: Peníze a pojištění / Geld und Versicherungen (`unit27-geld.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Insurance | Genitiv des/der, -(e)s (≈ 2. pád: číslo smlouvy) | die Versicherung, versichern, der Schaden, die Kosten, der Beitrag, monatlich, jährlich, kündigen | -s forgotten (*des Vertrag*); *kündigen* = vypovědět (≠ oznámit) |
+| 2 | Bank transfers and loans | wegen, während, trotz + Genitiv | die Überweisung, überweisen, der Betrag, die Zinsen, sparen, der Kredit, leihen, die Schulden, der Antrag | *wegen dem* (← kvůli + 3. pád) in writing |
+| 3 | Returning faulty goods | Passiv with modal verbs (Das muss repariert werden.) | die Garantie, umtauschen, zurückgeben, die Quittung, kaputtgehen, ersetzen, die Beratung, zuständig | *muss reparieren werden*; false friend *Reklame* (= reklama, not reklamace) |
+
+### Unit 28: Sousedé / Nachbarn (`unit28-nachbarn.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | New neighbours | n-Deklination (den Nachbarn, dem Kunden, Herrn …) | der Nachbar, die Nachbarin, das Treppenhaus, der Hausmeister, die Hausordnung, klingeln, grüßen, sich vorstellen, duzen | *mit dem Nachbar*; *sich vorstellen* = představit se / představit si |
+| 2 | Noise and arguments | polite Konjunktiv II: Würden Sie bitte …? Es wäre nett, wenn … | der Lärm, stören, der Streit, sich streiten, leise, die Rücksicht, das Haustier, erlauben, verboten | *würde sein / würde haben* instead of *wäre / hätte*; imperative too direct |
+| 3 | Helping each other | adjective endings after der/den/dem (der nette Nachbar, mit dem netten Nachbarn) | gießen, der Briefkasten, aufpassen, sich kümmern, die Hilfe, hilfsbereit, freundlich, nett, der Mieter | endings mixed up (*mit dem nette Nachbar*) |
+
+### Unit 29: Diskuse / Diskutieren (`unit29-diskussion.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Pros and cons | sowohl … als auch, entweder … oder, weder … noch | der Vorteil, der Nachteil, einerseits, andererseits, die Möglichkeit, das Problem, die Lösung, begründen, überzeugen | double negation (*weder … noch nicht* ← ani … ani ne) |
+| 2 | Agreeing and disagreeing | subordinate clause first, then the verb (Wenn …, finde ich …) | zustimmen, widersprechen, einverstanden, dafür, dagegen, eigentlich, vielleicht, sicher, genau | *Wenn das stimmt, ich finde …* |
+| 3 | Dreams and wishes | Konjunktiv II unreal: Wenn ich … hätte/wäre, würde ich … (≈ kdybych) | der Traum, träumen, der Wunsch, wünschen, das Glück, glücklich, reich, das Abenteuer, die Reise | indicative for unreal (*Wenn ich Geld habe, …*); *wenn ich würde haben* |
+
+### Unit 30: Kultura a tradice / Kultur und Feste (`unit30-kultur.json`)
+| # | Theme | Grammar | Words | Czech error |
+|---|---|---|---|---|
+| 1 | Sights and history | Passiv Präteritum (wurde gebaut) | die Sehenswürdigkeit, das Schloss, die Burg, das Denkmal, bauen, die Führung, das Jahrhundert, zerstören, die Ausstellung | *war gebaut* (← byl postaven) instead of *wurde*; *Schloss* = zámek, hrad = *Burg* |
+| 2 | Customs and festivals | bevor, während, seitdem, bis (verb last) | die Tradition, der Brauch, Silvester, der Weihnachtsmarkt, der Fasching, das Kostüm, die Kerze, die Stimmung | *vor* instead of *bevor* (← před tím, než) |
+| 3 | Theatre and concerts | adjective endings without article (tolle Musik, mit großem Applaus) | das Theater, das Konzert, die Vorstellung, die Eintrittskarte, das Publikum, die Bühne, der Schauspieler, die Schauspielerin, die Oper | missing/wrong ending (*mit groß Applaus*); *Vorstellung* = představení / představa |
