@@ -1,0 +1,144 @@
+{
+  "id": "u13",
+  "level": "A2",
+  "title": "Práce",
+  "titleTarget": "Arbeit",
+  "description": "Povolání, práce dříve a dnes: ženské tvary na -in, musste, konnte, wollte a seit.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u13-l1",
+      "title": "Povolání",
+      "titleTarget": "Berufe",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich bin Lehrerin",
+        "text": "Ženský tvar povolání má koncovku -in, podobně jako česky -ka: der Lehrer → die Lehrerin (učitel → učitelka). Množné číslo je -innen: die Lehrerinnen. Když říkáte, čím jste, člen se nedává: Ich bin Lehrerin. Er ist Ingenieur. Pozor na falešného přítele: die Rente není renta, ale důchod. In Rente sein = být v důchodu, der Rentner = důchodce.",
+        "examples": [
+          { "target": "Was sind Sie von Beruf?", "native": "Jaké máte povolání?" },
+          { "target": "Ich bin Lehrerin.", "native": "Jsem učitelka." },
+          { "target": "Meine Eltern sind in Rente.", "native": "Moji rodiče jsou v důchodu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l1-w1", "target": "der Beruf", "native": "povolání", "note": "Přízvuk: be-RÚF; množné číslo: die Berufe", "reviewed": false },
+        { "id": "u13-l1-w2", "target": "der Lehrer", "native": "učitel", "note": "množné číslo: die Lehrer", "reviewed": false },
+        { "id": "u13-l1-w3", "target": "die Lehrerin", "native": "učitelka", "note": "množné číslo: die Lehrerinnen", "reviewed": false },
+        { "id": "u13-l1-w4", "target": "der Verkäufer", "native": "prodavač", "note": "äu = oj: [fer-KOJ-fa]; množné číslo: die Verkäufer", "reviewed": false },
+        { "id": "u13-l1-w5", "target": "die Verkäuferin", "native": "prodavačka", "note": "množné číslo: die Verkäuferinnen", "reviewed": false },
+        { "id": "u13-l1-w6", "target": "der Ingenieur", "native": "inženýr", "note": "Čte se zhruba [in-že-NJÖR]; die Ingenieurin = inženýrka; množné číslo: die Ingenieure", "reviewed": false },
+        { "id": "u13-l1-w7", "target": "die Rente", "native": "důchod", "note": "Pozor, ne renta! in Rente sein = být v důchodu; množné číslo: die Renten", "reviewed": false },
+        { "id": "u13-l1-w8", "target": "der Rentner", "native": "důchodce", "note": "množné číslo: die Rentner", "reviewed": false },
+        { "id": "u13-l1-w9", "target": "die Rentnerin", "native": "důchodkyně", "note": "množné číslo: die Rentnerinnen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l1-e1", "type": "choice", "question": "die Rente", "questionLang": "target", "options": ["důchod", "nájem", "povolání"], "answer": "důchod", "reviewed": false },
+        { "id": "u13-l1-e2", "type": "choice", "question": "prodavačka", "questionLang": "native", "options": ["die Verkäuferin", "der Verkäufer", "die Lehrerin"], "answer": "die Verkäuferin", "reviewed": false },
+        { "id": "u13-l1-e3", "type": "match", "pairs": [
+          { "target": "der Beruf", "native": "povolání" },
+          { "target": "der Lehrer", "native": "učitel" },
+          { "target": "der Ingenieur", "native": "inženýr" },
+          { "target": "der Rentner", "native": "důchodce" },
+          { "target": "die Rentnerin", "native": "důchodkyně" }
+        ], "reviewed": false },
+        { "id": "u13-l1-e4", "type": "listen", "audio": "Ich bin Lehrerin.", "options": ["Ich bin Lehrerin.", "Ich bin Lehrer.", "Ich bin Rentnerin."], "answer": "Ich bin Lehrerin.", "reviewed": false },
+        { "id": "u13-l1-e5", "type": "fill", "sentence": "Meine Eltern sind in ___.", "translation": "Moji rodiče jsou v důchodu.", "options": ["Rente", "Rentner", "Renten"], "answer": "Rente", "explain": "Být v důchodu = in Rente sein, bez členu a v jednotném čísle.", "reviewed": false },
+        { "id": "u13-l1-e6", "type": "fill", "sentence": "Was sind Sie von ___?", "translation": "Jaké máte povolání?", "options": ["Beruf", "Berufe", "Lehrer"], "answer": "Beruf", "explain": "Ustálená otázka: Was sind Sie von Beruf?", "reviewed": false },
+        { "id": "u13-l1-e7", "type": "type", "question": "učitelka", "answer": "die Lehrerin", "reviewed": false },
+        { "id": "u13-l1-e8", "type": "build", "question": "Můj manžel je inženýr.", "answer": "Mein Mann ist Ingenieur.", "extra": ["Ingenieurin"], "reviewed": false },
+        { "id": "u13-l1-e9", "type": "listen", "audio": "Meine Mutter ist Rentnerin.", "options": ["Maminka je důchodkyně.", "Maminka je učitelka.", "Maminka je prodavačka."], "answer": "Maminka je důchodkyně.", "reviewed": false },
+        { "id": "u13-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Jsem v důchodu.", "questionLang": "native", "options": ["Ich bin in Rente.", "Ich bin in Rentner.", "Ich bin eine Rente."], "answer": "Ich bin in Rente.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l2",
+      "title": "Dříve",
+      "titleTarget": "Früher",
+      "reviewed": false,
+      "tip": {
+        "title": "Musste, konnte, wollte",
+        "text": "U sloves müssen, können a wollen se v minulosti používá krátký tvar, stejně jako war a hatte: ich musste = musel jsem i musela jsem, ich konnte = mohl jsem, mohla jsem nebo uměl jsem, uměla jsem, ich wollte = chtěl jsem, chtěla jsem. Přehláska zmizí: müssen → musste, können → konnte. Tvar je stejný pro ich, er i sie (ona); s wir, sie (oni) a Sie má koncovku -n: wir mussten. Druhé sloveso jde jako v přítomném čase na konec věty.",
+        "examples": [
+          { "target": "Früher mussten wir um fünf Uhr aufstehen.", "native": "Dřív jsme museli vstávat v pět hodin." },
+          { "target": "Er konnte gut Deutsch sprechen.", "native": "Uměl dobře mluvit německy." },
+          { "target": "Sie wollte in Deutschland studieren.", "native": "Chtěla studovat v Německu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l2-w1", "target": "früher", "native": "dříve", "note": "Opak: heute = dnes", "reviewed": false },
+        { "id": "u13-l2-w2", "target": "die Schule", "native": "škola", "note": "sch = š: [ŠÚ-le]; in die Schule gehen = chodit do školy; množné číslo: die Schulen", "reviewed": false },
+        { "id": "u13-l2-w3", "target": "die Firma", "native": "firma", "note": "množné číslo: die Firmen", "reviewed": false },
+        { "id": "u13-l2-w4", "target": "die Fabrik", "native": "továrna", "note": "Přízvuk: fa-BRÍK; množné číslo: die Fabriken", "reviewed": false },
+        { "id": "u13-l2-w5", "target": "das Büro", "native": "kancelář", "note": "Přízvuk: bü-RÓ; množné číslo: die Büros", "reviewed": false },
+        { "id": "u13-l2-w6", "target": "studieren", "native": "studovat", "note": "Jen na vysoké škole; st = št: [štu-DÍ-ren]", "reviewed": false },
+        { "id": "u13-l2-w7", "target": "musste", "native": "musel; musela", "note": "ich musste, er musste; wir mussten, Sie mussten", "reviewed": false },
+        { "id": "u13-l2-w8", "target": "konnte", "native": "mohl; mohla", "note": "Také uměl, uměla. ich konnte; wir konnten, Sie konnten", "reviewed": false },
+        { "id": "u13-l2-w9", "target": "wollte", "native": "chtěl; chtěla", "note": "ich wollte; wir wollten, Sie wollten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l2-e1", "type": "choice", "question": "die Fabrik", "questionLang": "target", "options": ["továrna", "kancelář", "škola"], "answer": "továrna", "reviewed": false },
+        { "id": "u13-l2-e2", "type": "choice", "question": "kancelář", "questionLang": "native", "options": ["das Büro", "die Firma", "die Fabrik"], "answer": "das Büro", "reviewed": false },
+        { "id": "u13-l2-e3", "type": "match", "pairs": [
+          { "target": "früher", "native": "dříve" },
+          { "target": "die Schule", "native": "škola" },
+          { "target": "die Firma", "native": "firma" },
+          { "target": "studieren", "native": "studovat" },
+          { "target": "wollte", "native": "chtěl" }
+        ], "reviewed": false },
+        { "id": "u13-l2-e4", "type": "listen", "audio": "Früher musste ich am Samstag arbeiten.", "options": ["Früher musste ich am Samstag arbeiten.", "Heute muss ich am Samstag arbeiten.", "Früher konnte ich am Samstag arbeiten."], "answer": "Früher musste ich am Samstag arbeiten.", "reviewed": false },
+        { "id": "u13-l2-e5", "type": "fill", "sentence": "Gestern ___ wir nicht kommen.", "translation": "Včera jsme nemohli přijít.", "options": ["konnten", "konnte", "kannst"], "answer": "konnten", "explain": "S wir má minulý tvar koncovku -n: wir konnten.", "reviewed": false },
+        { "id": "u13-l2-e6", "type": "fill", "sentence": "Mein Vater ___ in einer Fabrik arbeiten.", "translation": "Otec musel pracovat v továrně.", "options": ["musste", "mussten", "müssen"], "answer": "musste", "explain": "U er a sie je musste bez -n; přehláska v minulém čase mizí.", "reviewed": false },
+        { "id": "u13-l2-e7", "type": "type", "question": "škola", "answer": "die Schule", "reviewed": false },
+        { "id": "u13-l2-e8", "type": "build", "question": "Chtěla studovat v Německu.", "answer": "Sie wollte in Deutschland studieren.", "accept": ["In Deutschland wollte sie studieren."], "extra": ["will"], "reviewed": false },
+        { "id": "u13-l2-e9", "type": "listen", "audio": "Mein Großvater konnte gut singen.", "options": ["Dědeček uměl dobře zpívat.", "Dědeček rád zpívá.", "Dědeček musel zpívat."], "answer": "Dědeček uměl dobře zpívat.", "reviewed": false },
+        { "id": "u13-l2-e10", "type": "choice", "question": "Děti musely chodit do školy.", "questionLang": "native", "options": ["Die Kinder mussten in die Schule gehen.", "Die Kinder müssen in die Schule gehen.", "Die Kinder wollten in die Schule gehen."], "answer": "Die Kinder mussten in die Schule gehen.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l3",
+      "title": "V práci",
+      "titleTarget": "Bei der Arbeit",
+      "reviewed": false,
+      "tip": {
+        "title": "Seit zehn Jahren",
+        "text": "Když něco začalo v minulosti a trvá dodnes, řekne se to německy v přítomném čase se seit: Ich arbeite seit zehn Jahren hier. = Pracuji tu už deset let. Česky je to stejné: „pracuji tu už deset let“, ne „pracoval jsem“. Neříkejte tedy „Ich habe seit … gearbeitet“. Po seit je 3. pád: seit einem Jahr = už rok, seit zwei Jahren = už dva roky (v množném čísle -n), seit Montag = od pondělí.",
+        "examples": [
+          { "target": "Ich arbeite seit zehn Jahren hier.", "native": "Pracuji tu už deset let." },
+          { "target": "Wir wohnen seit einem Jahr in Berlin.", "native": "V Berlíně bydlíme už rok." },
+          { "target": "Seit Montag habe ich Urlaub.", "native": "Od pondělí mám dovolenou." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l3-w1", "target": "die Arbeit", "native": "práce", "note": "zur Arbeit gehen = jít do práce; množné číslo: die Arbeiten", "reviewed": false },
+        { "id": "u13-l3-w2", "target": "der Kollege", "native": "kolega", "note": "Přízvuk: ko-LÉ-ge; množné číslo: die Kollegen", "reviewed": false },
+        { "id": "u13-l3-w3", "target": "die Kollegin", "native": "kolegyně", "note": "množné číslo: die Kolleginnen", "reviewed": false },
+        { "id": "u13-l3-w4", "target": "der Chef", "native": "šéf; vedoucí", "note": "ch = š: [šef]; die Chefin = šéfová; množné číslo: die Chefs", "reviewed": false },
+        { "id": "u13-l3-w5", "target": "die Pause", "native": "přestávka", "note": "Pause machen = dát si přestávku; množné číslo: die Pausen", "reviewed": false },
+        { "id": "u13-l3-w6", "target": "der Urlaub", "native": "dovolená", "note": "Pozor, mužský rod; im Urlaub = na dovolené; množné číslo: die Urlaube", "reviewed": false },
+        { "id": "u13-l3-w7", "target": "der Feierabend", "native": "konec pracovní doby", "note": "Čte se [FAJ-a-á-bent]; Schönen Feierabend! = Hezký večer po práci!", "reviewed": false },
+        { "id": "u13-l3-w8", "target": "verdienen", "native": "vydělávat", "note": "Přízvuk: fer-DÍ-nen; příčestí bez ge-: verdient", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l3-e1", "type": "choice", "question": "der Urlaub", "questionLang": "target", "options": ["dovolená", "přestávka", "práce"], "answer": "dovolená", "reviewed": false },
+        { "id": "u13-l3-e2", "type": "choice", "question": "kolegyně", "questionLang": "native", "options": ["die Kollegin", "der Kollege", "die Freundin"], "answer": "die Kollegin", "reviewed": false },
+        { "id": "u13-l3-e3", "type": "match", "pairs": [
+          { "target": "die Arbeit", "native": "práce" },
+          { "target": "der Chef", "native": "šéf" },
+          { "target": "die Pause", "native": "přestávka" },
+          { "target": "verdienen", "native": "vydělávat" },
+          { "target": "der Feierabend", "native": "konec pracovní doby" }
+        ], "reviewed": false },
+        { "id": "u13-l3-e4", "type": "listen", "audio": "Ich arbeite seit zehn Jahren hier.", "options": ["Ich arbeite seit zehn Jahren hier.", "Ich habe zehn Jahre hier gearbeitet.", "Ich arbeite seit zwei Jahren hier."], "answer": "Ich arbeite seit zehn Jahren hier.", "reviewed": false },
+        { "id": "u13-l3-e5", "type": "fill", "sentence": "Wir wohnen seit drei ___ in Deutschland.", "translation": "V Německu bydlíme už tři roky.", "options": ["Jahren", "Jahre", "Jahr"], "answer": "Jahren", "explain": "Po seit je 3. pád; v množném čísle dostane slovo -n: seit drei Jahren.", "reviewed": false },
+        { "id": "u13-l3-e6", "type": "fill", "sentence": "Meine Kollegin ___ seit Montag Urlaub.", "translation": "Kolegyně má od pondělí dovolenou.", "options": ["hat", "haben", "ist"], "answer": "hat", "explain": "Dovolenou „máme“: Urlaub haben; se seit stojí přítomný čas: sie hat.", "reviewed": false },
+        { "id": "u13-l3-e7", "type": "type", "question": "dovolená", "answer": "der Urlaub", "reviewed": false },
+        { "id": "u13-l3-e8", "type": "build", "question": "Syn pracuje v Berlíně už pět let.", "answer": "Mein Sohn arbeitet seit fünf Jahren in Berlin.", "accept": ["Seit fünf Jahren arbeitet mein Sohn in Berlin.", "In Berlin arbeitet mein Sohn seit fünf Jahren."], "extra": ["gearbeitet"], "reviewed": false },
+        { "id": "u13-l3-e9", "type": "listen", "audio": "Um fünf Uhr habe ich Feierabend.", "options": ["V pět hodin končím v práci.", "V pět hodin mám přestávku.", "V pět hodin začínám pracovat."], "answer": "V pět hodin končím v práci.", "reviewed": false },
+        { "id": "u13-l3-e10", "type": "speak", "text": "Schönen Feierabend!", "native": "Hezký večer po práci!", "reviewed": false }
+      ]
+    }
+  ]
+}

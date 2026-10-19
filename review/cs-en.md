@@ -2,7 +2,7 @@
 
 > **Generovaný soubor, needitujte ho ručně.** Vzniká z JSON souborů v `/content` příkazem `npm run review`.
 
-**Zkontrolováno: 0 / 628 položek.**
+**Zkontrolováno: 0 / 1249 položek.**
 
 ## [ ] Kapitola 1: Pozdravy (Hello!) · A1
 
@@ -1149,3 +1149,1161 @@ Soubor: `content/cs-en/unit10-weather.json` · ID: `u10` · Popis: Jaké je poč
 - [ ] `u10-l3-e8` *Psaní* — **Včera jsme byli unavení.** → ✔ **We were tired yesterday.** (uznává se i: „Yesterday we were tired.“)
 - [ ] `u10-l3-e9` *Skládání věty* — Kde jste byli včera večer? → ✔ **Where were you last night?** (chybné dílky: „did“)
 - [ ] `u10-l3-e10` *Mluvení* — 🎤 **It was cold yesterday.** — Včera byla zima.
+
+## [ ] Kapitola 11: Minulý víkend (Last weekend) · A2
+
+Soubor: `content/cs-en/unit11-last-weekend.json` · ID: `u11` · Popis: Co jste dělali o víkendu: minulý čas pravidelných a nepravidelných sloves a otázky s did.
+
+### [ ] 11.1: Co jsme dělali (What we did) · `u11-l1`
+
+**[ ] Tip: Minulý čas: -ed**
+
+> U pravidelných sloves stačí přidat -ed: visit → visited, clean → cleaned. Tvar je stejný pro všechny osoby: I, she, we, they cleaned. Česky „uklízela“ i „uklidila“, anglicky obojí cleaned. Pozor na výslovnost, -ed se čte třemi způsoby. Po t a d jako „id“: wanted, needed. Po k, p, s, š a č jen jako „t“: cooked, helped, watched. Jinak jen jako „d“: cleaned, stayed. Nikdy neříkejte „klíned“.
+>
+> - **We visited our daughter.** — Navštívili jsme naši dceru.
+> - **She cleaned the kitchen.** — Uklidila kuchyň.
+> - **My son wanted a coffee.** — Můj syn chtěl kávu.
+> - **We cooked chicken.** — Vařili jsme kuře.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l1-w1` | **visit** | navštívit | visited, čte se „vi-zi-tid“. |
+| [ ] | `u11-l1-w2` | **stay** | zůstat | stayed, čte se „stejd“. stay at home = zůstat doma. |
+| [ ] | `u11-l1-w3` | **clean** | uklízet; uklidit | cleaned, čte se „klínd“. |
+| [ ] | `u11-l1-w4` | **call** | zavolat; volat | called, čte se „kóld“. Call me! = Zavolejte mi! |
+| [ ] | `u11-l1-w5` | **wait** | čekat | waited, čte se „wej-tid“. Čekat na = wait for. |
+| [ ] | `u11-l1-w6` | **want** | chtít | wanted, čte se „won-tid“. |
+| [ ] | `u11-l1-w7` | **need** | potřebovat | needed, čte se „ní-did“. |
+| [ ] | `u11-l1-w8` | **open** | otevřít | opened, čte se „ou-pnd“. |
+| [ ] | `u11-l1-w9` | **close** | zavřít | Čte se „klouz“, closed „klouzd“. |
+
+**Cvičení**
+
+- [ ] `u11-l1-e1` *Výběr* — **wait** — možnosti: „čekat“, „zůstat“, „potřebovat“ — ✔ **čekat**
+- [ ] `u11-l1-e2` *Výběr* — **zavřít** — možnosti: „close“, „open“, „clean“ — ✔ **close**
+- [ ] `u11-l1-e3` *Dvojice* — **visit** = navštívit · **stay** = zůstat · **call** = zavolat · **want** = chtít · **need** = potřebovat
+- [ ] `u11-l1-e4` *Poslech* — 🔊 zazní: **We visited our grandson.** — možnosti: „We visited our grandson.“, „We visit our grandson.“, „We called our grandson.“ — ✔ **We visited our grandson.**
+- [ ] `u11-l1-e5` *Poslech* — 🔊 zazní: **She cleaned the kitchen yesterday.** — možnosti: „Včera uklidila kuchyň.“, „Včera uklidila koupelnu.“, „Každý den uklízí kuchyň.“ — ✔ **Včera uklidila kuchyň.**
+- [ ] `u11-l1-e6` *Doplňování* — **Yesterday we ___ at home.** (Včera jsme zůstali doma.) — možnosti: „stayed“, „stay“, „stays“ — ✔ **stayed** — vysvětlení: Včera = minulý čas: stay + -ed.
+- [ ] `u11-l1-e7` *Doplňování* — **My son ___ me last night.** (Můj syn mi včera večer volal.) — možnosti: „called“, „calls“, „call“ — ✔ **called** — vysvětlení: Last night = minulý čas, proto called.
+- [ ] `u11-l1-e8` *Psaní* — **Otevřela okno.** → ✔ **She opened the window.** (uznává se i: „She opened a window.“)
+- [ ] `u11-l1-e9` *Skládání věty* — Čekali jsme na autobusové zastávce. → ✔ **We waited at the bus stop.** (chybné dílky: „wait“)
+- [ ] `u11-l1-e10` *Výběr* — Vyberte správnou odpověď **Ve kterém slově se -ed čte jako „id“?** — možnosti: „wanted“, „cleaned“, „cooked“ — ✔ **wanted**
+
+### [ ] 11.2: Kam jsme jeli (Where we went) · `u11-l2`
+
+**[ ] Tip: Nepravidelná slovesa**
+
+> Mnoho častých sloves nemá v minulém čase -ed. Jejich tvar se musíte naučit zpaměti: go → went, have → had, see → saw, come → came, buy → bought, make → made, take → took, eat → ate, drink → drank. Dobrá zpráva: tvar se nemění podle osoby. Česky šel, šla, šli, anglicky vždy went: I went, she went, we went. A went znamená šel i jel: We went to Prague by train.
+>
+> - **We went to Prague by train.** — Jeli jsme vlakem do Prahy.
+> - **She bought a red bag.** — Koupila si červenou tašku.
+> - **They came home at ten.** — Přišli domů v deset.
+> - **We had fish and potatoes.** — Měli jsme rybu a brambory.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l2-w1` | **went** | šel jsem; šla jsem | Od go. Také jel jsem, jela jsem. Stejné pro všechny osoby. |
+| [ ] | `u11-l2-w2` | **had** | měl jsem; měla jsem | Od have. We had breakfast. = Nasnídali jsme se. |
+| [ ] | `u11-l2-w3` | **saw** | viděl jsem; viděla jsem | Od see. Čte se „só“. |
+| [ ] | `u11-l2-w4` | **came** | přišel jsem; přišla jsem | Od come. Čte se „kejm“. |
+| [ ] | `u11-l2-w5` | **bought** | koupil jsem; koupila jsem | Od buy. Čte se „bót“, gh se nečte. |
+| [ ] | `u11-l2-w6` | **made** | udělal jsem; udělala jsem | Od make: vyrobit, připravit. She made a cake. = Upekla dort. |
+| [ ] | `u11-l2-w7` | **took** | vzal jsem; vzala jsem | Od take. Čte se „tuk“. We took a taxi. = Jeli jsme taxíkem. |
+| [ ] | `u11-l2-w8` | **ate** | jedl jsem; jedla jsem | Od eat. Britové říkají „et“ i „ejt“. |
+| [ ] | `u11-l2-w9` | **drank** | pil jsem; pila jsem | Od drink. Čte se „drenk“. |
+
+**Cvičení**
+
+- [ ] `u11-l2-e1` *Výběr* — **We went to London by train.** — možnosti: „Jeli jsme vlakem do Londýna.“, „Jedeme vlakem do Londýna.“, „Jeli jsme autobusem do Londýna.“ — ✔ **Jeli jsme vlakem do Londýna.**
+- [ ] `u11-l2-e2` *Výběr* — **Koupila chléb.** — možnosti: „She bought bread.“, „She buyed bread.“, „She bought a bread.“ — ✔ **She bought bread.**
+- [ ] `u11-l2-e3` *Dvojice* — **went** = šli jsme · **saw** = viděli jsme · **came** = přišli jsme · **ate** = jedli jsme · **drank** = pili jsme
+- [ ] `u11-l2-e4` *Poslech* — 🔊 zazní: **My grandson came on Sunday.** — možnosti: „My grandson came on Sunday.“, „My grandson comes on Sunday.“, „My grandson came on Monday.“ — ✔ **My grandson came on Sunday.**
+- [ ] `u11-l2-e5` *Poslech* — 🔊 zazní: **We took a taxi to the station.** — možnosti: „Jeli jsme na nádraží taxíkem.“, „Jeli jsme na nádraží autobusem.“, „Šli jsme na nádraží pěšky.“ — ✔ **Jeli jsme na nádraží taxíkem.**
+- [ ] `u11-l2-e6` *Doplňování* — **Last week we ___ to Scotland.** (Minulý týden jsme jeli do Skotska.) — možnosti: „went“, „goed“, „go“ — ✔ **went** — vysvětlení: Go je nepravidelné: went, nikdy goed.
+- [ ] `u11-l2-e7` *Doplňování* — **She ___ a big cake.** (Upekla velký dort.) — možnosti: „made“, „maked“, „make“ — ✔ **made** — vysvětlení: Make je nepravidelné: minulý čas je made.
+- [ ] `u11-l2-e8` *Psaní* — **Viděli jsme vaši dceru.** → ✔ **We saw your daughter.**
+- [ ] `u11-l2-e9` *Skládání věty* — Na snídani jsme měli vejce. → ✔ **We had eggs for breakfast.** (chybné dílky: „have“) (uznává se i: „For breakfast we had eggs.“)
+- [ ] `u11-l2-e10` *Mluvení* — 🎤 **We ate at home.** — Jedli jsme doma.
+
+### [ ] 11.3: Co jste dělali? (What did you do?) · `u11-l3`
+
+**[ ] Tip: Otázka s did**
+
+> Česky stačí změnit melodii věty: Šli jste? Anglicky musí otázka v minulém čase mít did: Did you go? Where did you go? Did už nese minulost, proto je sloveso v základním tvaru: go, ne went. Neříkejte Where you went? ani Where did you went? Zápor je stejný: didn't + základní tvar: We didn't go. Jen was a were did nepotřebují: Where were you?
+>
+> - **Where did you go?** — Kam jste jeli?
+> - **Did you see the film? Yes, I did.** — Viděli jste ten film? Ano.
+> - **We didn't buy bread.** — Nekoupili jsme chleba.
+> - **Why did she call?** — Proč volala?
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l3-w1` | **did** | otázka v minulém čase | Did you go? = Šli jste? Po did je sloveso v základním tvaru. |
+| [ ] | `u11-l3-w2` | **didn't** | zápor v minulém čase | We didn't go. = Nešli jsme. Celý tvar: did not. |
+| [ ] | `u11-l3-w3` | **what** | co; jaký | What did you do? = Co jste dělali? What colour? = Jaká barva? |
+| [ ] | `u11-l3-w4` | **who** | kdo | Čte se „hú“. |
+| [ ] | `u11-l3-w5` | **when** | kdy | Čte se „wen“. |
+| [ ] | `u11-l3-w6` | **why** | proč | Čte se „waj“. |
+| [ ] | `u11-l3-w7` | **how** | jak | Čte se „hau“. |
+| [ ] | `u11-l3-w8` | **which** | který | Když vybíráte z několika: Which bus? Čte se „wič“. |
+
+**Cvičení**
+
+- [ ] `u11-l3-e1` *Výběr* — **why** — možnosti: „proč“, „kdy“, „jak“ — ✔ **proč**
+- [ ] `u11-l3-e2` *Výběr* — **Kdy jste přišli?** — možnosti: „When did you come?“, „When did you came?“, „When you came?“ — ✔ **When did you come?**
+- [ ] `u11-l3-e3` *Dvojice* — **what** = co · **who** = kdo · **when** = kdy · **how** = jak · **which** = který
+- [ ] `u11-l3-e4` *Poslech* — 🔊 zazní: **Who did you see?** — možnosti: „Who did you see?“, „Who do you see?“, „Who did you call?“ — ✔ **Who did you see?**
+- [ ] `u11-l3-e5` *Poslech* — 🔊 zazní: **We didn't go to the park.** — možnosti: „Nešli jsme do parku.“, „Šli jsme do parku.“, „Nepůjdeme do parku.“ — ✔ **Nešli jsme do parku.**
+- [ ] `u11-l3-e6` *Doplňování* — **Where ___ you go last weekend?** (Kam jste jeli minulý víkend?) — možnosti: „did“, „were“, „do“ — ✔ **did** — vysvětlení: Otázka v minulém čase potřebuje did.
+- [ ] `u11-l3-e7` *Doplňování* — **My husband didn't ___ the film.** (Manžel ten film neviděl.) — možnosti: „see“, „saw“, „seen“ — ✔ **see** — vysvětlení: Po didn't je sloveso v základním tvaru: didn't see.
+- [ ] `u11-l3-e8` *Psaní* — **Proč jste nepřišli?** → ✔ **Why didn't you come?** (uznává se i: „Why did you not come?“)
+- [ ] `u11-l3-e9` *Skládání věty* — Co jste dělali včera? → ✔ **What did you do yesterday?** (chybné dílky: „does“)
+- [ ] `u11-l3-e10` *Skládání věty* — Kterým autobusem jste jeli? → ✔ **Which bus did you take?** (chybné dílky: „took“)
+
+## [ ] Kapitola 12: Data a dovolená (Dates and holidays) · A2
+
+Soubor: `content/cs-en/unit12-holidays.json` · ID: `u12` · Popis: Měsíce, data a narozeniny a vyprávění o dovolené: co se právě dělo, když…
+
+### [ ] 12.1: Kdy máte narozeniny? (When is your birthday?) · `u12-l1`
+
+**[ ] Tip: In May: měsíce s in**
+
+> Měsíce se v angličtině píší vždy s velkým písmenem, stejně jako dny v týdnu: January, May. Před měsícem je in: in March = v březnu. In je i před rokem: in nineteen sixty = v roce 1960. Na narozeniny se zeptáte: When's your birthday? Odpověď: My birthday is in June. Pozor: birthday je jednotné číslo, i když česky říkáme „narozeniny“.
+>
+> - **When's your birthday?** — Kdy máte narozeniny?
+> - **My birthday is in May.** — Narozeniny mám v květnu.
+> - **We were in England in April.** — V dubnu jsme byli v Anglii.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l1-w1` | **January** | leden | Čte se „dže-nju-e-ri“. |
+| [ ] | `u12-l1-w2` | **February** | únor | Čte se „feb-ru-e-ri“. |
+| [ ] | `u12-l1-w3` | **March** | březen | Čte se „máč“. |
+| [ ] | `u12-l1-w4` | **April** | duben | Čte se „ej-prel“. |
+| [ ] | `u12-l1-w5` | **May** | květen | Čte se „mej“. |
+| [ ] | `u12-l1-w6` | **June** | červen | Čte se „džún“. |
+| [ ] | `u12-l1-w7` | **birthday** | narozeniny | Jednotné číslo. Th jako ve three. |
+| [ ] | `u12-l1-w8` | **month** | měsíc | Čte se „man“ a na konci th jako ve three. |
+| [ ] | `u12-l1-w9` | **year** | rok | Čte se „jía“, skoro jedna slabika. last year = loni. |
+
+**Cvičení**
+
+- [ ] `u12-l1-e1` *Výběr* — **March** — možnosti: „březen“, „květen“, „červen“ — ✔ **březen**
+- [ ] `u12-l1-e2` *Výběr* — **Narozeniny mám v květnu.** — možnosti: „My birthday is in May.“, „My birthday is on May.“, „My birthdays is in May.“ — ✔ **My birthday is in May.**
+- [ ] `u12-l1-e3` *Dvojice* — **January** = leden · **February** = únor · **April** = duben · **June** = červen · **month** = měsíc
+- [ ] `u12-l1-e4` *Poslech* — 🔊 zazní: **My birthday is in April.** — možnosti: „My birthday is in April.“, „My birthday is in May.“, „My birthday is in March.“ — ✔ **My birthday is in April.**
+- [ ] `u12-l1-e5` *Poslech* — 🔊 zazní: **When's your birthday?** — možnosti: „Kdy máte narozeniny?“, „Kolik je vám let?“, „Kde jste se narodili?“ — ✔ **Kdy máte narozeniny?**
+- [ ] `u12-l1-e6` *Doplňování* — **My grandson was born ___ February.** (Můj vnuk se narodil v únoru.) — možnosti: „in“, „on“, „at“ — ✔ **in** — vysvětlení: Před měsícem je vždy in.
+- [ ] `u12-l1-e7` *Doplňování* — **There are twelve ___ in a year.** (Rok má dvanáct měsíců.) — možnosti: „months“, „month“, „a month“ — ✔ **months** — vysvětlení: Po twelve je množné číslo: months.
+- [ ] `u12-l1-e8` *Psaní* — **Narodila se v lednu.** → ✔ **She was born in January.**
+- [ ] `u12-l1-e9` *Skládání věty* — Kdy máte narozeniny? → ✔ **When is your birthday?** (chybné dílky: „in“)
+- [ ] `u12-l1-e10` *Mluvení* — 🎤 **My birthday is in June.** — Narozeniny mám v červnu.
+
+### [ ] 12.2: Datum (The date) · `u12-l2`
+
+**[ ] Tip: On the first of July**
+
+> Pořadí: first, second, third. Dál stačí přidat -th: fourth, sixth, tenth. Pozor na fifth, twelfth a twentieth. Datum se píše 1 July nebo 1st July, ale čte se the first of July. Česky „prvního července“, anglicky doslova „ten první z července“. Před datem je on, před samotným měsícem in: on the second of May, ale in May.
+>
+> - **Today is the first of July.** — Dnes je prvního července.
+> - **My birthday is on the third of March.** — Narozeniny mám třetího března.
+> - **We were by the sea in August.** — V srpnu jsme byli u moře.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l2-w1` | **July** | červenec | Přízvuk na konci: „džu-LAJ“. |
+| [ ] | `u12-l2-w2` | **August** | srpen | Čte se „ó-gast“. |
+| [ ] | `u12-l2-w3` | **September** | září | Čte se „sep-TEM-ba“. |
+| [ ] | `u12-l2-w4` | **October** | říjen | Čte se „ok-TOU-ba“. |
+| [ ] | `u12-l2-w5` | **November** | listopad | Čte se „nou-VEM-ba“. |
+| [ ] | `u12-l2-w6` | **December** | prosinec | Čte se „di-SEM-ba“. |
+| [ ] | `u12-l2-w7` | **first** | první | the first of May = prvního května |
+| [ ] | `u12-l2-w8` | **second** | druhý | Také sekunda. Čte se „se-kend“. |
+| [ ] | `u12-l2-w9` | **third** | třetí | Th jako ve three, r se nečte. |
+
+**Cvičení**
+
+- [ ] `u12-l2-e1` *Výběr* — **October** — možnosti: „říjen“, „srpen“, „prosinec“ — ✔ **říjen**
+- [ ] `u12-l2-e2` *Výběr* — **Dnes je prvního srpna.** — možnosti: „Today is the first of August.“, „Today is the one of August.“, „Today is first of the August.“ — ✔ **Today is the first of August.**
+- [ ] `u12-l2-e3` *Dvojice* — **July** = červenec · **August** = srpen · **September** = září · **November** = listopad · **December** = prosinec
+- [ ] `u12-l2-e4` *Poslech* — 🔊 zazní: **My birthday is on the third of October.** — možnosti: „My birthday is on the third of October.“, „My birthday is on the first of October.“, „My birthday is on the third of December.“ — ✔ **My birthday is on the third of October.**
+- [ ] `u12-l2-e5` *Poslech* — 🔊 zazní: **We went to Scotland in August.** — možnosti: „V srpnu jsme jeli do Skotska.“, „V říjnu jsme jeli do Skotska.“, „V srpnu pojedeme do Skotska.“ — ✔ **V srpnu jsme jeli do Skotska.**
+- [ ] `u12-l2-e6` *Doplňování* — **My birthday is ___ the second of November.** (Narozeniny mám druhého listopadu.) — možnosti: „on“, „in“, „at“ — ✔ **on** — vysvětlení: Před datem je on, před samotným měsícem in.
+- [ ] `u12-l2-e7` *Doplňování* — **Today is the ___ of September.** (Dnes je třetího září.) — možnosti: „third“, „three“, „thirteen“ — ✔ **third** — vysvětlení: V datu je řadová číslovka: the third.
+- [ ] `u12-l2-e8` *Psaní* — **Je prvního prosince.** → ✔ **It's the first of December.** (uznává se i: „Today is the first of December.“, „It's December the first.“)
+- [ ] `u12-l2-e9` *Skládání věty* — Narozeniny mám prvního června. → ✔ **My birthday is on the first of June.** (chybné dílky: „in“)
+- [ ] `u12-l2-e10` *Mluvení* — 🎤 **Today is the second of July.** — Dnes je druhého července.
+
+### [ ] 12.3: Na dovolené (On holiday) · `u12-l3`
+
+**[ ] Tip: It was raining when…**
+
+> Co právě probíhalo, řeknete pomocí was nebo were a slovesa s -ing: It was raining. We were swimming. Často s krátkou událostí v prostém minulém čase: It was raining when we arrived. = Pršelo, když jsme přijeli. Pomůže čeština: pršelo (probíhalo) × přijeli (stalo se). Jednotlivé události z dovolené ale vyprávějte prostým časem: We stayed in a hotel. We went to the beach.
+>
+> - **It was raining when we arrived.** — Když jsme přijeli, pršelo.
+> - **My husband was reading when you called.** — Manžel četl, když jste volali.
+> - **What were you doing at eight?** — Co jste dělali v osm?
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l3-w1` | **holiday** | dovolená | on holiday = na dovolené. Britsky; americky vacation. |
+| [ ] | `u12-l3-w2` | **hotel** | hotel | Přízvuk na konci: „hou-TEL“. |
+| [ ] | `u12-l3-w3` | **beach** | pláž | Čte se „bíč“. |
+| [ ] | `u12-l3-w4` | **sea** | moře | Čte se „sí“. by the sea = u moře |
+| [ ] | `u12-l3-w5` | **mountains** | hory | in the mountains = na horách |
+| [ ] | `u12-l3-w6` | **suitcase** | kufr | Čte se „sút-kejs“. |
+| [ ] | `u12-l3-w7` | **passport** | cestovní pas | Čte se „pás-pót“. |
+| [ ] | `u12-l3-w8` | **abroad** | v zahraničí; do zahraničí | Bez to a bez in: go abroad. Čte se „e-BRÓD“. |
+
+**Cvičení**
+
+- [ ] `u12-l3-e1` *Výběr* — **suitcase** — možnosti: „kufr“, „cestovní pas“, „pláž“ — ✔ **kufr**
+- [ ] `u12-l3-e2` *Výběr* — **Jsme na dovolené.** — možnosti: „We're on holiday.“, „We're in holiday.“, „We're at holiday.“ — ✔ **We're on holiday.**
+- [ ] `u12-l3-e3` *Dvojice* — **hotel** = hotel · **beach** = pláž · **sea** = moře · **mountains** = hory · **passport** = cestovní pas
+- [ ] `u12-l3-e4` *Poslech* — 🔊 zazní: **It was raining when we arrived.** — možnosti: „It was raining when we arrived.“, „It was snowing when we arrived.“, „It was windy when we arrived.“ — ✔ **It was raining when we arrived.**
+- [ ] `u12-l3-e5` *Poslech* — 🔊 zazní: **We went abroad last year.** — možnosti: „Loni jsme jeli do zahraničí.“, „Loni jsme byli na horách.“, „Letos pojedeme do zahraničí.“ — ✔ **Loni jsme jeli do zahraničí.**
+- [ ] `u12-l3-e6` *Doplňování* — **We ___ swimming when it started to rain.** (Plavali jsme, když začalo pršet.) — možnosti: „were“, „was“, „are“ — ✔ **were** — vysvětlení: Co právě probíhalo: we were + sloveso s -ing.
+- [ ] `u12-l3-e7` *Doplňování* — **It ___ when we arrived at the hotel.** (Když jsme přijeli do hotelu, pršelo.) — možnosti: „was raining“, „were raining“, „was rain“ — ✔ **was raining** — vysvětlení: Déšť právě probíhal: it was raining.
+- [ ] `u12-l3-e8` *Psaní* — **Máte pas?** → ✔ **Have you got your passport?** (uznává se i: „Have you got a passport?“, „Do you have your passport?“, „Do you have a passport?“)
+- [ ] `u12-l3-e9` *Skládání věty* — Byli jsme na dovolené u moře. → ✔ **We were on holiday by the sea.** (chybné dílky: „in“) (uznává se i: „We were by the sea on holiday.“)
+- [ ] `u12-l3-e10` *Skládání věty* — Co jste dělali v osm? → ✔ **What were you doing at eight?** (chybné dílky: „did“)
+
+## [ ] Kapitola 13: Nakupování (Shopping) · A2
+
+Soubor: `content/cs-en/unit13-shopping.json` · ID: `u13` · Popis: Peníze a ceny, zkoušení oblečení a porovnávání: levnější, nejlevnější, lepší, nejlepší.
+
+### [ ] 13.1: Peníze (Money) · `u13-l1`
+
+**[ ] Tip: Much, many, a lot of**
+
+> Much patří k věcem, které nepočítáme (money, milk, water), many k věcem, které počítáme (cards, pounds, people). Používají se hlavně v otázce a v záporu: How much money? How many cards? I haven't got much money. V kladné větě se nejčastěji řekne a lot of, a to se hodí ke všemu: a lot of money, a lot of people. Pozor: money je jednotné číslo, i když česky říkáme „peníze“. A receipt není recept, ale účtenka.
+>
+> - **How much money have you got?** — Kolik máte peněz?
+> - **How many people are there?** — Kolik je tam lidí?
+> - **We haven't got much cash.** — Nemáme moc hotovosti.
+> - **There are a lot of shops here.** — Je tu hodně obchodů.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l1-w1` | **money** | peníze | Jednotné číslo: The money is on the table. |
+| [ ] | `u13-l1-w2` | **cash** | hotovost | pay in cash = platit hotově |
+| [ ] | `u13-l1-w3` | **card** | karta | pay by card = platit kartou |
+| [ ] | `u13-l1-w4` | **price** | cena | Čte se „prajs“. |
+| [ ] | `u13-l1-w5` | **cheap** | levný | Čte se „číp“. |
+| [ ] | `u13-l1-w6` | **expensive** | drahý | Čte se „ik-SPEN-siv“. |
+| [ ] | `u13-l1-w7` | **receipt** | účtenka | Pozor: recept = recipe. P se nečte: „ri-SÍT“. |
+| [ ] | `u13-l1-w8` | **change** | peníze nazpět; drobné | Here's your change. = Tady máte nazpět. Také změna. |
+
+**Cvičení**
+
+- [ ] `u13-l1-e1` *Výběr* — **receipt** — možnosti: „účtenka“, „recept“, „cena“ — ✔ **účtenka**
+- [ ] `u13-l1-e2` *Výběr* — **Kolik máte peněz?** — možnosti: „How much money have you got?“, „How many money have you got?“, „How many moneys have you got?“ — ✔ **How much money have you got?**
+- [ ] `u13-l1-e3` *Dvojice* — **money** = peníze · **cash** = hotovost · **card** = karta · **price** = cena · **expensive** = drahý
+- [ ] `u13-l1-e4` *Poslech* — 🔊 zazní: **Can I pay by card?** — možnosti: „Can I pay by card?“, „Can I pay in cash?“, „Can I have the receipt?“ — ✔ **Can I pay by card?**
+- [ ] `u13-l1-e5` *Poslech* — 🔊 zazní: **Here's your change.** — možnosti: „Tady máte nazpět.“, „Tady máte účtenku.“, „Tady máte kartu.“ — ✔ **Tady máte nazpět.**
+- [ ] `u13-l1-e6` *Doplňování* — **How ___ cards have you got?** (Kolik máte karet?) — možnosti: „many“, „much“, „lot“ — ✔ **many** — vysvětlení: Karty se dají spočítat, proto many.
+- [ ] `u13-l1-e7` *Doplňování* — **I haven't got ___ money.** (Nemám moc peněz.) — možnosti: „much“, „many“, „a lot“ — ✔ **much** — vysvětlení: Peníze nepočítáme po kusech, proto much.
+- [ ] `u13-l1-e8` *Psaní* — **Je to levné.** → ✔ **It's cheap.** (uznává se i: „That's cheap.“)
+- [ ] `u13-l1-e9` *Skládání věty* — V obchodě je hodně lidí. → ✔ **There are a lot of people in the shop.** (chybné dílky: „much“) (uznává se i: „In the shop there are a lot of people.“)
+- [ ] `u13-l1-e10` *Mluvení* — 🎤 **Can I have the receipt, please?** — Můžu dostat účtenku, prosím?
+
+### [ ] 13.2: Zkouším si (Trying things on) · `u13-l2`
+
+**[ ] Tip: Cheaper than…**
+
+> Krátká přídavná jména přidají -er: cheap → cheaper, long → longer, old → older. Pozor na pravopis: big → bigger, hot → hotter. Dlouhá slova dostanou more: expensive → more expensive. Česky je „dražší“ jedno slovo, anglicky dvě. Ale nikdy obojí: ne more cheaper. „Než“ se řekne than: This coat is cheaper than that coat.
+>
+> - **This dress is cheaper.** — Tyhle šaty jsou levnější.
+> - **These shoes are more expensive than those.** — Tyhle boty jsou dražší než tamty.
+> - **Have you got a bigger size?** — Máte větší velikost?
+> - **Can I try it on?** — Můžu si to zkusit?
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l2-w1` | **size** | velikost | What size is it? = Jaká je to velikost? |
+| [ ] | `u13-l2-w2` | **try on** | zkusit si | U oblečení. It stojí uprostřed: try it on. |
+| [ ] | `u13-l2-w3` | **long** | dlouhý | longer = delší |
+| [ ] | `u13-l2-w4` | **short** | krátký | shorter = kratší |
+| [ ] | `u13-l2-w5` | **new** | nový | newer = novější. Čte se „ňú“. |
+| [ ] | `u13-l2-w6` | **old** | starý | older = starší |
+| [ ] | `u13-l2-w7` | **more** | víc | more expensive = dražší |
+| [ ] | `u13-l2-w8` | **than** | než | Th jako ve slově the. |
+
+**Cvičení**
+
+- [ ] `u13-l2-e1` *Výběr* — **try on** — možnosti: „zkusit si“, „koupit si“, „nosit“ — ✔ **zkusit si**
+- [ ] `u13-l2-e2` *Výběr* — **Tahle sukně je kratší.** — možnosti: „This skirt is shorter.“, „This skirt is more short.“, „This skirt is more shorter.“ — ✔ **This skirt is shorter.**
+- [ ] `u13-l2-e3` *Dvojice* — **size** = velikost · **long** = dlouhý · **short** = krátký · **new** = nový · **old** = starý
+- [ ] `u13-l2-e4` *Poslech* — 🔊 zazní: **Have you got a smaller size?** — možnosti: „Have you got a smaller size?“, „Have you got a bigger size?“, „Have you got a small size?“ — ✔ **Have you got a smaller size?**
+- [ ] `u13-l2-e5` *Poslech* — 🔊 zazní: **This jacket is more expensive.** — možnosti: „Tahle bunda je dražší.“, „Tahle bunda je levnější.“, „Tahle bunda je delší.“ — ✔ **Tahle bunda je dražší.**
+- [ ] `u13-l2-e6` *Doplňování* — **This hat is cheaper ___ that hat.** (Tenhle klobouk je levnější než tamten.) — možnosti: „than“, „that“, „then“ — ✔ **than** — vysvětlení: Než = than. Then znamená „potom“.
+- [ ] `u13-l2-e7` *Doplňování* — **These trousers are ___ expensive.** (Tyhle kalhoty jsou dražší.) — možnosti: „more“, „much“, „than“ — ✔ **more** — vysvětlení: Dlouhé slovo: more expensive = dražší.
+- [ ] `u13-l2-e8` *Psaní* — **Můžu si to zkusit?** → ✔ **Can I try it on?** (uznává se i: „Can I try this on?“, „Could I try it on?“, „Could I try this on?“)
+- [ ] `u13-l2-e9` *Skládání věty* — Tyhle boty jsou novější než tamty. → ✔ **These shoes are newer than those.** (chybné dílky: „more“)
+- [ ] `u13-l2-e10` *Skládání věty* — Máte větší velikost? → ✔ **Have you got a bigger size?** (chybné dílky: „big“)
+
+### [ ] 13.3: Nejlepší (The best) · `u13-l3`
+
+**[ ] Tip: The cheapest, the best**
+
+> Nejvyšší stupeň: krátká slova přidají -est a před ně dejte the: the cheapest, the oldest. Dlouhá slova dostanou the most: the most expensive, the most popular. Některá slova jsou nepravidelná, stejně jako česky dobrý – lepší – nejlepší: good – better – best, bad – worse – worst. Česky je „nej-“ součást slova, anglicky nezapomeňte na the: the best.
+>
+> - **This is the cheapest bag.** — Tohle je nejlevnější taška.
+> - **It's the most popular shop in town.** — Je to nejoblíbenější obchod ve městě.
+> - **Your cake is the best!** — Váš dort je nejlepší!
+> - **The weather was worse yesterday.** — Včera bylo horší počasí.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l3-w1` | **good** | dobrý | good, better, best |
+| [ ] | `u13-l3-w2` | **bad** | špatný | bad, worse, worst. Čte se „bed“ s otevřeným e. |
+| [ ] | `u13-l3-w3` | **better** | lepší |  |
+| [ ] | `u13-l3-w4` | **worse** | horší | Čte se „wés“. |
+| [ ] | `u13-l3-w5` | **best** | nejlepší | Obvykle s the: the best. |
+| [ ] | `u13-l3-w6` | **worst** | nejhorší | Čte se „wést“. Obvykle s the: the worst. |
+| [ ] | `u13-l3-w7` | **most** | nejvíc | the most expensive = nejdražší |
+| [ ] | `u13-l3-w8` | **popular** | oblíbený | Čte se „po-pju-la“. |
+
+**Cvičení**
+
+- [ ] `u13-l3-e1` *Výběr* — **worse** — možnosti: „horší“, „nejhorší“, „špatný“ — ✔ **horší**
+- [ ] `u13-l3-e2` *Výběr* — **nejdražší** — možnosti: „the most expensive“, „the more expensive“, „the expensivest“ — ✔ **the most expensive**
+- [ ] `u13-l3-e3` *Dvojice* — **good** = dobrý · **bad** = špatný · **better** = lepší · **best** = nejlepší · **worst** = nejhorší
+- [ ] `u13-l3-e4` *Poslech* — 🔊 zazní: **This is the best hotel in town.** — možnosti: „This is the best hotel in town.“, „This is the worst hotel in town.“, „This is the best hotel in London.“ — ✔ **This is the best hotel in town.**
+- [ ] `u13-l3-e5` *Poslech* — 🔊 zazní: **It's the cheapest supermarket.** — možnosti: „Je to nejlevnější supermarket.“, „Je to nejdražší supermarket.“, „Je to levnější supermarket.“ — ✔ **Je to nejlevnější supermarket.**
+- [ ] `u13-l3-e6` *Doplňování* — **This is the ___ coffee in London.** (Tohle je nejlepší káva v Londýně.) — možnosti: „best“, „better“, „goodest“ — ✔ **best** — vysvětlení: Good je nepravidelné: good, better, the best.
+- [ ] `u13-l3-e7` *Doplňování* — **The weather was ___ yesterday than today.** (Včera bylo horší počasí než dnes.) — možnosti: „worse“, „worst“, „badder“ — ✔ **worse** — vysvětlení: Porovnáváte dvě věci s than, proto worse.
+- [ ] `u13-l3-e8` *Doplňování* — **It's the ___ popular shop in town.** (Je to nejoblíbenější obchod ve městě.) — možnosti: „most“, „much“, „best“ — ✔ **most** — vysvětlení: Dlouhé slovo: the most popular = nejoblíbenější.
+- [ ] `u13-l3-e9` *Psaní* — **Tohle je nejlevnější.** → ✔ **This is the cheapest.** (uznává se i: „This one is the cheapest.“)
+- [ ] `u13-l3-e10` *Skládání věty* — Které boty jsou nejlepší? → ✔ **Which shoes are the best?** (chybné dílky: „most“)
+
+## [ ] Kapitola 14: Zdraví (Health) · A2
+
+Soubor: `content/cs-en/unit14-health.json` · ID: `u14` · Popis: Co vás bolí, co vám poradí lékař a co musíte a nesmíte: should, must a have to.
+
+### [ ] 14.1: Co vás bolí? (Where does it hurt?) · `u14-l1`
+
+**[ ] Tip: Bolí mě záda = My back hurts.**
+
+> Česky řeknete „Bolí mě záda“. Anglicky je pořadí jiné: nejdřív část těla s my, pak sloveso hurt. My back hurts. Neříkejte Hurts me back. U jedné věci je na konci -s (my head hurts), u více věcí ne (my eyes hurt). Pozor: záda jsou česky v množném čísle, anglicky back v jednotném. Lékař se zeptá: Where does it hurt? (Kde vás to bolí?)
+>
+> - **My back hurts.** — Bolí mě záda.
+> - **My eyes hurt.** — Bolí mě oči.
+> - **Does your leg hurt?** — Bolí vás noha?
+> - **Where does it hurt?** — Kde vás to bolí?
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l1-w1` | **head** | hlava | Čte se „hed“. |
+| [ ] | `u14-l1-w2` | **back** | záda | Jednotné číslo: My back hurts. Čte se s krátkým otevřeným e, „bek“. |
+| [ ] | `u14-l1-w3` | **stomach** | břicho; žaludek | Čte se „stamek“. |
+| [ ] | `u14-l1-w4` | **tooth** | zub | Množné číslo: teeth. Th jako ve slově three. |
+| [ ] | `u14-l1-w5` | **arm** | paže | Celá ruka od ramene. Čte se „ám“. |
+| [ ] | `u14-l1-w6` | **leg** | noha |  |
+| [ ] | `u14-l1-w7` | **hand** | ruka; dlaň | Ruka od zápěstí dolů, s prsty. |
+| [ ] | `u14-l1-w8` | **eye** | oko | Čte se „aj“. Množné číslo: eyes. |
+| [ ] | `u14-l1-w9` | **hurt** | bolet | My head hurts. = Bolí mě hlava. Minulý čas je stejný: hurt. |
+
+**Cvičení**
+
+- [ ] `u14-l1-e1` *Výběr* — **stomach** — možnosti: „břicho; žaludek“, „záda“, „hlava“ — ✔ **břicho; žaludek**
+- [ ] `u14-l1-e2` *Výběr* — **zub** — možnosti: „tooth“, „eye“, „hand“ — ✔ **tooth**
+- [ ] `u14-l1-e3` *Dvojice* — **head** = hlava · **back** = záda · **leg** = noha · **eye** = oko · **arm** = paže
+- [ ] `u14-l1-e4` *Poslech* — 🔊 zazní: **My back hurts.** — možnosti: „My back hurts.“, „My head hurts.“, „My hand hurts.“ — ✔ **My back hurts.**
+- [ ] `u14-l1-e5` *Poslech* — 🔊 zazní: **My eyes hurt.** — možnosti: „Bolí mě oči.“, „Bolí mě zuby.“, „Bolí mě nohy.“ — ✔ **Bolí mě oči.**
+- [ ] `u14-l1-e6` *Doplňování* — **___ back hurts.** (Bolí mě záda.) — možnosti: „My“, „Me“, „I“ — ✔ **My** — vysvětlení: Anglicky říkáte „moje záda bolí“: my back hurts.
+- [ ] `u14-l1-e7` *Doplňování* — **My eyes ___.** (Bolí mě oči.) — možnosti: „hurt“, „hurts“, „is hurt“ — ✔ **hurt** — vysvětlení: Eyes je množné číslo (they), proto bez -s.
+- [ ] `u14-l1-e8` *Psaní* — **Bolí mě hlava.** → ✔ **My head hurts.** (uznává se i: „My head is hurting.“, „I've got a headache.“, „I have a headache.“)
+- [ ] `u14-l1-e9` *Skládání věty* — Bolí vás noha? → ✔ **Does your leg hurt?** (chybné dílky: „hurts“)
+- [ ] `u14-l1-e10` *Mluvení* — 🎤 **My arm hurts.** — Bolí mě ruka.
+
+### [ ] 14.2: U lékaře (At the doctor's) · `u14-l2`
+
+**[ ] Tip: Rada: You should rest.**
+
+> Radu dáte slovem should (česky „měl by“, „měli byste“). Má stejný tvar pro všechny osoby, bez -s, a sloveso za ním je bez to: She should rest. Zápor je shouldn't, v otázce jde should na začátek: Should I…? A pozor u nemocí: anglicky se říká I've got a cold, I've got a headache, vždy se členem a, i když česky „Mám rýmu“ nic takového nemá.
+>
+> - **You should rest.** — Měli byste odpočívat.
+> - **You shouldn't go to work.** — Neměli byste chodit do práce.
+> - **Should I go to the doctor's?** — Mám jít k lékaři?
+> - **I've got a cold.** — Mám rýmu.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l2-w1` | **doctor** | lékař; lékařka | At the doctor's = u lékaře. Čte se „dok-ta“. |
+| [ ] | `u14-l2-w2` | **appointment** | termín; objednání | I've got an appointment. = Mám termín u lékaře. Čte se „e-POJNT-ment“. |
+| [ ] | `u14-l2-w3` | **headache** | bolest hlavy | Se členem: I've got a headache. Čte se „hedejk“. |
+| [ ] | `u14-l2-w4` | **a cold** | rýma; nachlazení | I've got a cold. = Mám rýmu. Bez a by cold znamenalo „studený“. |
+| [ ] | `u14-l2-w5` | **temperature** | horečka; teplota | I've got a temperature. = Mám horečku. Čte se „tem-pri-ča“. |
+| [ ] | `u14-l2-w6` | **cough** | kašel; kašlat | Čte se „kof“. I've got a cough. = Mám kašel. |
+| [ ] | `u14-l2-w7` | **medicine** | lék; léky | Čte se „med-sn“. Obvykle bez a: some medicine. |
+| [ ] | `u14-l2-w8` | **rest** | odpočívat; odpočinek |  |
+| [ ] | `u14-l2-w9` | **should** | měl by; měla by | Pro všechny stejné: I should, she should. Zápor: shouldn't. Čte se „šud“. |
+
+**Cvičení**
+
+- [ ] `u14-l2-e1` *Výběr* — **headache** — možnosti: „bolest hlavy“, „kašel; kašlat“, „horečka; teplota“ — ✔ **bolest hlavy**
+- [ ] `u14-l2-e2` *Výběr* — **rýma; nachlazení** — možnosti: „a cold“, „a cough“, „a headache“ — ✔ **a cold**
+- [ ] `u14-l2-e3` *Dvojice* — **doctor** = lékař · **medicine** = lék · **rest** = odpočívat · **cough** = kašel · **temperature** = horečka
+- [ ] `u14-l2-e4` *Poslech* — 🔊 zazní: **I've got a temperature.** — možnosti: „I've got a temperature.“, „I've got a headache.“, „I've got a cough.“ — ✔ **I've got a temperature.**
+- [ ] `u14-l2-e5` *Poslech* — 🔊 zazní: **You should rest.** — možnosti: „Měli byste odpočívat.“, „Neměli byste odpočívat.“, „Musíte pracovat.“ — ✔ **Měli byste odpočívat.**
+- [ ] `u14-l2-e6` *Doplňování* — **I've got ___ cold.** (Mám rýmu.) — možnosti: „a“, „an“, „any“ — ✔ **a** — vysvětlení: U nemocí se říká I've got a cold, se členem a.
+- [ ] `u14-l2-e7` *Doplňování* — **You ___ go to work today.** (Dnes byste neměli chodit do práce.) — možnosti: „shouldn't“, „don't should“, „shouldn't to“ — ✔ **shouldn't** — vysvětlení: Zápor je shouldn't, bez do a bez to.
+- [ ] `u14-l2-e8` *Psaní* — **Mám kašel.** → ✔ **I've got a cough.** (uznává se i: „I have a cough.“)
+- [ ] `u14-l2-e9` *Skládání věty* — Měli byste odpočívat doma. → ✔ **You should rest at home.** (chybné dílky: „to“)
+- [ ] `u14-l2-e10` *Skládání věty* — Mám termín u lékaře. → ✔ **I've got an appointment with the doctor.** (chybné dílky: „a“)
+
+### [ ] 14.3: V lékárně (At the chemist's) · `u14-l3`
+
+**[ ] Tip: Mustn't = nesmět, don't have to = nemuset**
+
+> Must i have to se česky řeknou „muset“. Must je spíš to, co sami považujete za nutné, have to je povinnost nebo pravidlo. Velký rozdíl je v záporu: mustn't znamená „nesmět“, ale don't have to znamená „nemuset“. U he a she je has to a doesn't have to. Za must nikdy nedávejte to. Lék „berete“ slovem take: Take one tablet twice a day. A pozor: recept od lékaře je prescription.
+>
+> - **I have to go to the chemist's.** — Musím jít do lékárny.
+> - **You mustn't drive today.** — Dnes nesmíte řídit.
+> - **You don't have to get up.** — Nemusíte vstávat.
+> - **Take one tablet twice a day.** — Berte jednu tabletu dvakrát denně.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l3-w1` | **must** | muset | Bez to: I must go. Pro všechny stejné: she must. |
+| [ ] | `u14-l3-w2` | **mustn't** | nesmět | Čte se „masnt“, první t se nevyslovuje. |
+| [ ] | `u14-l3-w3` | **have to** | mít povinnost | Česky obvykle „musím“. U he a she: has to. Čte se „hef tu“. |
+| [ ] | `u14-l3-w4` | **don't have to** | nemuset | Pozor, neznamená „nesmět“. U he a she: doesn't have to. |
+| [ ] | `u14-l3-w5` | **prescription** | lékařský předpis; recept | Pozor: recept na jídlo je recipe, účtenka je receipt. Čte se „pri-SKRIP-šn“. |
+| [ ] | `u14-l3-w6` | **tablet** | tableta; prášek | Take a tablet. = Vezměte si prášek. |
+| [ ] | `u14-l3-w7` | **once** | jednou | Čte se „wans“. Once a day = jednou denně. |
+| [ ] | `u14-l3-w8` | **twice** | dvakrát | Čte se „twajs“. Třikrát = three times. |
+
+**Cvičení**
+
+- [ ] `u14-l3-e1` *Výběr* — **mustn't** — možnosti: „nesmět“, „nemuset“, „muset“ — ✔ **nesmět**
+- [ ] `u14-l3-e2` *Výběr* — **dvakrát** — možnosti: „twice“, „once“, „two“ — ✔ **twice**
+- [ ] `u14-l3-e3` *Dvojice* — **mustn't** = nesmět · **don't have to** = nemuset · **prescription** = recept · **tablet** = tableta · **once** = jednou
+- [ ] `u14-l3-e4` *Poslech* — 🔊 zazní: **Take one tablet twice a day.** — možnosti: „Take one tablet twice a day.“, „Take one tablet once a day.“, „Take two tablets once a day.“ — ✔ **Take one tablet twice a day.**
+- [ ] `u14-l3-e5` *Poslech* — 🔊 zazní: **You don't have to get up.** — možnosti: „Nemusíte vstávat.“, „Nesmíte vstávat.“, „Musíte vstávat.“ — ✔ **Nemusíte vstávat.**
+- [ ] `u14-l3-e6` *Doplňování* — **You ___ take more than two tablets a day.** (Nesmíte brát víc než dvě tablety denně.) — možnosti: „mustn't“, „don't must“, „mustn't to“ — ✔ **mustn't** — vysvětlení: Nesmět = mustn't; s must se nepoužívá do ani to.
+- [ ] `u14-l3-e7` *Doplňování* — **She ___ to work on Saturday.** (V sobotu musí pracovat.) — možnosti: „has“, „have“, „must“ — ✔ **has** — vysvětlení: U he a she se říká has to. Za must nikdy není to.
+- [ ] `u14-l3-e8` *Psaní* — **Nemusím pracovat.** → ✔ **I don't have to work.** (uznává se i: „I haven't got to work.“)
+- [ ] `u14-l3-e9` *Skládání věty* — Mám recept od lékaře. → ✔ **I've got a prescription from the doctor.** (chybné dílky: „an“)
+- [ ] `u14-l3-e10` *Skládání věty* — Dnes nesmíte řídit. → ✔ **You mustn't drive today.** (chybné dílky: „to“) (uznává se i: „Today you mustn't drive.“)
+
+## [ ] Kapitola 15: Zkušenosti (Experiences) · A2
+
+Soubor: `content/cs-en/unit15-experiences.json` · ID: `u15` · Popis: Co jste v životě zažili, co už je hotové a jak dlouho něco trvá: předpřítomný čas (present perfect).
+
+### [ ] 15.1: Byli jste někdy…? (Have you ever…?) · `u15-l1`
+
+**[ ] Tip: I've never been… (ne I was never…)**
+
+> Čeština má jeden minulý čas, angličtina dva. Když mluvíte o zkušenosti v životě a neříkáte kdy, použijte present perfect: have nebo has a třetí tvar slovesa. Have you ever been to London? I've never been to Scotland. Neříkejte I was never in Scotland. Jakmile řeknete kdy (yesterday, last week), patří tam obyčejný minulý čas: I was in London last week. Pozor: „být v“ se tu řekne been to.
+>
+> - **Have you ever been to London?** — Byli jste někdy v Londýně?
+> - **We've never been to Scotland.** — Ve Skotsku jsme nikdy nebyli.
+> - **She has seen this film three times.** — Ten film viděla třikrát.
+> - **We were in London last week.** — Minulý týden jsme byli v Londýně.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l1-w1` | **ever** | někdy v životě | Hlavně v otázce: Have you ever…? Na „někdy“ ve smyslu občas je sometimes. |
+| [ ] | `u15-l1-w2` | **been** | byl; byla | Třetí tvar od be. I've been = byl jsem; byla jsem. Čte se „bín“. |
+| [ ] | `u15-l1-w3` | **seen** | viděl; viděla | see, saw, seen. Čte se „sín“. |
+| [ ] | `u15-l1-w4` | **met** | potkal; potkala | meet, met, met. Také „seznámil se; seznámila se“. |
+| [ ] | `u15-l1-w5` | **tried** | zkusil; zkusila | try, tried. Čte se „trajd“. |
+| [ ] | `u15-l1-w6` | **done** | udělal; udělala | do, did, done. Čte se „dan“. |
+| [ ] | `u15-l1-w7` | **lost** | ztratil; ztratila | lose, lost, lost. |
+| [ ] | `u15-l1-w8` | **won** | vyhrál; vyhrála | win, won, won. Čte se „wan“, stejně jako one. |
+
+**Cvičení**
+
+- [ ] `u15-l1-e1` *Výběr* — **won** — možnosti: „vyhrál; vyhrála“, „ztratil; ztratila“, „zkusil; zkusila“ — ✔ **vyhrál; vyhrála**
+- [ ] `u15-l1-e2` *Výběr* — **někdy v životě** — možnosti: „ever“, „never“, „always“ — ✔ **ever**
+- [ ] `u15-l1-e3` *Dvojice* — **been** = byl; byla · **seen** = viděl; viděla · **met** = potkal; potkala · **done** = udělal; udělala · **lost** = ztratil; ztratila
+- [ ] `u15-l1-e4` *Poslech* — 🔊 zazní: **Have you ever been to Scotland?** — možnosti: „Have you ever been to Scotland?“, „Have you ever been to England?“, „Were you in Scotland?“ — ✔ **Have you ever been to Scotland?**
+- [ ] `u15-l1-e5` *Poslech* — 🔊 zazní: **We've never been to Germany.** — možnosti: „V Německu jsme nikdy nebyli.“, „V Německu jsme byli minulý týden.“, „V Anglii jsme nikdy nebyli.“ — ✔ **V Německu jsme nikdy nebyli.**
+- [ ] `u15-l1-e6` *Doplňování* — **Have you ever ___ to London?** (Byli jste někdy v Londýně?) — možnosti: „been“, „was“, „were“ — ✔ **been** — vysvětlení: Po have následuje třetí tvar slovesa: been.
+- [ ] `u15-l1-e7` *Doplňování* — **We ___ never been to Scotland.** (Ve Skotsku jsme nikdy nebyli.) — možnosti: „have“, „were“, „are“ — ✔ **have** — vysvětlení: Zkušenost v životě: we have never been, ne we were never.
+- [ ] `u15-l1-e8` *Psaní* — **Byli jste někdy v Anglii?** → ✔ **Have you ever been to England?** (uznává se i: „Have you been to England?“, „Have you ever been in England?“)
+- [ ] `u15-l1-e9` *Skládání věty* — Ztratili jste někdy telefon? → ✔ **Have you ever lost your phone?** (chybné dílky: „did“)
+- [ ] `u15-l1-e10` *Mluvení* — 🎤 **We've never tried it.** — Nikdy jsme to nezkusili.
+
+### [ ] 15.2: Už jste…? (Have you done it yet?) · `u15-l2`
+
+**[ ] Tip: Just, already, yet**
+
+> Česky řeknete „Už jsme to poslali“ minulým časem. Anglicky u věcí, které jsou teď hotové, použijte present perfect: We've already sent it. Just (právě) a already (už) stojí mezi have a slovesem. Yet stojí na konci věty: v otázce znamená „už“ (Have you found it yet?), v záporu „ještě“ (I haven't found it yet.). Still (pořád) dejte před haven't: I still haven't found it.
+>
+> - **We've just come home.** — Právě jsme přišli domů.
+> - **She has already sent it.** — Už to poslala.
+> - **Have you found your keys yet?** — Už jste našli klíče?
+> - **I still haven't found my glasses.** — Pořád nemůžu najít brýle.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l2-w1` | **just** | právě; zrovna | Mezi have a slovesem: I've just come home. Čte se „džast“. |
+| [ ] | `u15-l2-w2` | **already** | už | Mezi have a slovesem: I've already done it. Čte se „ól-RE-di“. |
+| [ ] | `u15-l2-w3` | **yet** | ještě; zatím | Na konci věty. Not yet = ještě ne. V otázce znamená „už“: Have you done it yet? |
+| [ ] | `u15-l2-w4` | **still** | pořád; stále | Před haven't: I still haven't done it. |
+| [ ] | `u15-l2-w5` | **broken** | rozbil; rozbila | break, broke, broken. Také „rozbitý“: It's broken. |
+| [ ] | `u15-l2-w6` | **forgotten** | zapomněl; zapomněla | forget, forgot, forgotten. Čte se „fe-GOTN“. |
+| [ ] | `u15-l2-w7` | **found** | našel; našla | find, found, found. Čte se „faund“. |
+| [ ] | `u15-l2-w8` | **sent** | poslal; poslala | send, sent, sent. |
+
+**Cvičení**
+
+- [ ] `u15-l2-e1` *Výběr* — **already** — možnosti: „už“, „pořád; stále“, „právě; zrovna“ — ✔ **už**
+- [ ] `u15-l2-e2` *Výběr* — **pořád; stále** — možnosti: „still“, „just“, „yet“ — ✔ **still**
+- [ ] `u15-l2-e3` *Dvojice* — **broken** = rozbil; rozbila · **forgotten** = zapomněl; zapomněla · **found** = našel; našla · **sent** = poslal; poslala · **just** = právě
+- [ ] `u15-l2-e4` *Poslech* — 🔊 zazní: **I've just found my keys.** — možnosti: „I've just found my keys.“, „I've just lost my keys.“, „I haven't found my keys yet.“ — ✔ **I've just found my keys.**
+- [ ] `u15-l2-e5` *Poslech* — 🔊 zazní: **Have you sent it yet?** — možnosti: „Už jste to poslali?“, „Ještě jste to neposlali.“, „Právě jste to poslali.“ — ✔ **Už jste to poslali?**
+- [ ] `u15-l2-e6` *Doplňování* — **We haven't sent it ___.** (Ještě jsme to neposlali.) — možnosti: „yet“, „just“, „never“ — ✔ **yet** — vysvětlení: V záporu na konci věty: not yet = ještě ne.
+- [ ] `u15-l2-e7` *Doplňování* — **Oh no, I've ___ my glasses!** (Ale ne, rozbily se mi brýle!) — možnosti: „broken“, „broke“, „break“ — ✔ **broken** — vysvětlení: Po have následuje třetí tvar: break, broke, broken.
+- [ ] `u15-l2-e8` *Psaní* — **Už jsme to udělali.** → ✔ **We've already done it.** (uznává se i: „We've done it already.“)
+- [ ] `u15-l2-e9` *Skládání věty* — Pořád nemůžu najít klíč. → ✔ **I still haven't found my key.** (chybné dílky: „don't“)
+- [ ] `u15-l2-e10` *Skládání věty* — Zapomněli jste moje jméno? → ✔ **Have you forgotten my name?** (chybné dílky: „did“)
+
+### [ ] 15.3: Jak dlouho? (How long?) · `u15-l3`
+
+**[ ] Tip: Bydlím tady deset let = I've lived here for ten years.**
+
+> Česky řeknete „Bydlím tady deset let“ přítomným časem. Anglicky u něčeho, co začalo v minulosti a trvá dodnes, použijte present perfect: I've lived here for ten years. Neříkejte I live here for ten years. For dejte před délku (for ten years, for a week), since před začátek (since Monday, since nineteen ninety). Ptáte se: How long have you lived here? Ago (před) patří k obyčejnému minulému času: We met ten years ago.
+>
+> - **I've lived here for ten years.** — Bydlím tady deset let.
+> - **We've been married since nineteen seventy-five.** — Jsme manželé od roku 1975.
+> - **How long have you been retired?** — Jak dlouho jste v důchodu?
+> - **We met thirty years ago.** — Poznali jsme se před třiceti lety.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l3-w1` | **for** | po dobu | Před délkou času: for two years = (už) dva roky. |
+| [ ] | `u15-l3-w2` | **since** | od; od té doby | Před začátkem: since Monday = od pondělí. Čte se „sins“. |
+| [ ] | `u15-l3-w3` | **How long?** | Jak dlouho? | How long have you lived here? = Jak dlouho tady bydlíte? |
+| [ ] | `u15-l3-w4` | **ago** | před | Stojí za časem: two years ago = před dvěma lety. Čte se „e-GOU“. |
+| [ ] | `u15-l3-w5` | **known** | znal; znala | know, knew, known. I've known her for years. = Znám ji léta. Čte se „noun“. |
+| [ ] | `u15-l3-w6` | **married** | ženatý; vdaná | We've been married for forty years. = Jsme manželé čtyřicet let. Čte se „merid“. |
+| [ ] | `u15-l3-w7` | **retired** | v důchodu | I'm retired. = Jsem v důchodu. He retired. = Šel do důchodu. Čte se „ri-TAJ-ed“. |
+| [ ] | `u15-l3-w8` | **recently** | nedávno; v poslední době | Čte se „rísntli“. |
+
+**Cvičení**
+
+- [ ] `u15-l3-e1` *Výběr* — **retired** — možnosti: „v důchodu“, „ženatý; vdaná“, „nedávno; v poslední době“ — ✔ **v důchodu**
+- [ ] `u15-l3-e2` *Výběr* — **Jak dlouho?** — možnosti: „How long?“, „How old?“, „How much?“ — ✔ **How long?**
+- [ ] `u15-l3-e3` *Dvojice* — **for** = po dobu · **since** = od · **ago** = před · **known** = znal; znala · **married** = ženatý; vdaná
+- [ ] `u15-l3-e4` *Poslech* — 🔊 zazní: **I've been retired for ten years.** — možnosti: „I've been retired for ten years.“, „I've been retired for two years.“, „I've been married for ten years.“ — ✔ **I've been retired for ten years.**
+- [ ] `u15-l3-e5` *Poslech* — 🔊 zazní: **We met thirty years ago.** — možnosti: „Poznali jsme se před třiceti lety.“, „Poznali jsme se před třinácti lety.“, „Poznali jsme se před třemi lety.“ — ✔ **Poznali jsme se před třiceti lety.**
+- [ ] `u15-l3-e6` *Doplňování* — **We ___ here for twenty years.** (Bydlíme tady dvacet let.) — možnosti: „have lived“, „live“, „lives“ — ✔ **have lived** — vysvětlení: Trvá to od minulosti dodnes, proto present perfect: we have lived.
+- [ ] `u15-l3-e7` *Doplňování* — **She has been ill ___ Monday.** (Je nemocná od pondělí.) — možnosti: „since“, „for“, „ago“ — ✔ **since** — vysvětlení: Since stojí před začátkem (Monday), for před délkou (two days).
+- [ ] `u15-l3-e8` *Psaní* — **Jak dlouho tady bydlíte?** → ✔ **How long have you lived here?** (uznává se i: „How long have you been living here?“)
+- [ ] `u15-l3-e9` *Skládání věty* — Jsme manželé třicet let. → ✔ **We've been married for thirty years.** (chybné dílky: „since“)
+- [ ] `u15-l3-e10` *Skládání věty* — Manžel šel do důchodu před dvěma lety. → ✔ **My husband retired two years ago.** (chybné dílky: „has“)
+
+## [ ] Kapitola 16: Plány (Plans) · A2
+
+Soubor: `content/cs-en/unit16-plans.json` · ID: `u16` · Popis: Co budete dělat, co máte domluvené a jak něco nabídnout nebo slíbit: going to, průběhový čas a will.
+
+### [ ] 16.1: Co budete dělat? (What are you going to do?) · `u16-l1`
+
+**[ ] Tip: Plán: I'm going to…**
+
+> Když už něco máte v plánu, řekněte am, is nebo are, pak going to a sloveso: I'm going to cook tonight. Česky stačí budoucí čas („budu vařit“, „uvařím“). Zápor: I'm not going to… Otázka: What are you going to do tomorrow? I když je tam going, nejde o chůzi. Going to se hodí i tehdy, když něco brzy určitě přijde: Look, it's going to rain. Příští týden je next week, bez the.
+>
+> - **I'm going to cook tonight.** — Dnes večer budu vařit.
+> - **We're going to travel next week.** — Příští týden budeme cestovat.
+> - **What are you going to do tomorrow?** — Co budete zítra dělat?
+> - **Look, it's going to rain.** — Podívejte, bude pršet.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l1-w1` | **going to** | chystat se | I'm going to cook. = Budu vařit; chystám se vařit. Čte se „gouing tu“. |
+| [ ] | `u16-l1-w2` | **tomorrow** | zítra | Čte se „te-MO-rou“. |
+| [ ] | `u16-l1-w3` | **tonight** | dnes večer | Také „dnes v noci“. Čte se „te-NAJT“. |
+| [ ] | `u16-l1-w4` | **next** | příští | Bez the: next week = příští týden. |
+| [ ] | `u16-l1-w5` | **plan** | plán; plánovat | Čte se s krátkým otevřeným e, „plen“. |
+| [ ] | `u16-l1-w6` | **soon** | brzy; zanedlouho | Čte se „sún“. |
+| [ ] | `u16-l1-w7` | **later** | později | See you later. = Uvidíme se později. Čte se „lej-ta“. |
+| [ ] | `u16-l1-w8` | **the day after tomorrow** | pozítří |  |
+
+**Cvičení**
+
+- [ ] `u16-l1-e1` *Výběr* — **the day after tomorrow** — možnosti: „pozítří“, „zítra“, „dnes večer“ — ✔ **pozítří**
+- [ ] `u16-l1-e2` *Výběr* — **později** — možnosti: „later“, „soon“, „next“ — ✔ **later**
+- [ ] `u16-l1-e3` *Dvojice* — **tomorrow** = zítra · **tonight** = dnes večer · **soon** = brzy · **plan** = plán · **next** = příští
+- [ ] `u16-l1-e4` *Poslech* — 🔊 zazní: **We're going to watch a film tonight.** — možnosti: „We're going to watch a film tonight.“, „We're going to watch a film tomorrow.“, „We watched a film last night.“ — ✔ **We're going to watch a film tonight.**
+- [ ] `u16-l1-e5` *Poslech* — 🔊 zazní: **It's going to rain.** — možnosti: „Bude pršet.“, „Prší.“, „Pršelo.“ — ✔ **Bude pršet.**
+- [ ] `u16-l1-e6` *Doplňování* — **I'm ___ to cook tomorrow.** (Zítra budu vařit.) — možnosti: „going“, „go“, „goes“ — ✔ **going** — vysvětlení: Plán: am, is nebo are a going to.
+- [ ] `u16-l1-e7` *Doplňování* — **We're going to travel ___ week.** (Příští týden budeme cestovat.) — možnosti: „next“, „after“, „later“ — ✔ **next** — vysvětlení: Příští týden = next week, bez the.
+- [ ] `u16-l1-e8` *Psaní* — **Co budete zítra dělat?** → ✔ **What are you going to do tomorrow?** (uznává se i: „What are you doing tomorrow?“, „What will you do tomorrow?“)
+- [ ] `u16-l1-e9` *Skládání věty* — Dnes večer budeme vařit. → ✔ **We're going to cook tonight.** (chybné dílky: „will“) (uznává se i: „Tonight we're going to cook.“)
+- [ ] `u16-l1-e10` *Mluvení* — 🎤 **I'm going to see my family soon.** — Brzy se uvidím s rodinou.
+
+### [ ] 16.2: Domluvené schůzky (Arrangements) · `u16-l2`
+
+**[ ] Tip: Domluveno: I'm meeting Jana on Friday.**
+
+> Když máte něco pevně domluveného (schůzku, lístky, návštěvu), angličtina používá průběhový čas, tedy am, is nebo are a sloveso s -ing: I'm meeting Jana on Friday. Česky řeknete prostě „V pátek se vidím s Janou“. Vždy ale řekněte kdy: tonight, on Saturday, next week. Bez času by věta znamenala „právě teď“. Jestli má někdo čas, zjistíte takto: Are you free on Sunday?
+>
+> - **I'm meeting Jana on Friday.** — V pátek se vidím s Janou.
+> - **We're going to the theatre on Saturday.** — V sobotu jdeme do divadla.
+> - **What are you doing tonight?** — Co děláte dnes večer?
+> - **Are you free on Sunday?** — Máte v neděli čas?
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l2-w1` | **meet** | sejít se; potkat | I'm meeting my sister. = Vidím se se sestrou. Minulý čas: met. |
+| [ ] | `u16-l2-w2` | **party** | večírek; oslava |  |
+| [ ] | `u16-l2-w3` | **concert** | koncert | Čte se „konset“. |
+| [ ] | `u16-l2-w4` | **theatre** | divadlo | Britský pravopis s -re. Čte se zhruba „THI-a-ta“, th jako ve slově three. |
+| [ ] | `u16-l2-w5` | **cinema** | kino | Čte se „sinema“. Go to the cinema = jít do kina. |
+| [ ] | `u16-l2-w6` | **free** | volný; zdarma | Are you free? = Máte čas? |
+| [ ] | `u16-l2-w7` | **arrive** | přijet; přijít | Čte se „e-RAJV“. |
+| [ ] | `u16-l2-w8` | **leave** | odejít; odjet | The train leaves at six. = Vlak odjíždí v šest. Čte se „lív“. |
+
+**Cvičení**
+
+- [ ] `u16-l2-e1` *Výběr* — **leave** — možnosti: „odejít; odjet“, „přijet; přijít“, „sejít se; potkat“ — ✔ **odejít; odjet**
+- [ ] `u16-l2-e2` *Výběr* — **divadlo** — možnosti: „theatre“, „cinema“, „concert“ — ✔ **theatre**
+- [ ] `u16-l2-e3` *Dvojice* — **party** = večírek · **concert** = koncert · **cinema** = kino · **free** = volný · **arrive** = přijet
+- [ ] `u16-l2-e4` *Poslech* — 🔊 zazní: **I'm meeting my sister on Saturday.** — možnosti: „I'm meeting my sister on Saturday.“, „I'm meeting my sister on Sunday.“, „I'm meeting my brother on Saturday.“ — ✔ **I'm meeting my sister on Saturday.**
+- [ ] `u16-l2-e5` *Poslech* — 🔊 zazní: **Are you free tonight?** — možnosti: „Máte dnes večer čas?“, „Jste dnes večer doma?“, „Máte zítra čas?“ — ✔ **Máte dnes večer čas?**
+- [ ] `u16-l2-e6` *Doplňování* — **We ___ going to a concert on Friday.** (V pátek jdeme na koncert.) — možnosti: „are“, „is“, „do“ — ✔ **are** — vysvětlení: Domluvený plán: we are a sloveso s -ing.
+- [ ] `u16-l2-e7` *Doplňování* — **My son ___ on Sunday.** (Syn přijede v neděli.) — možnosti: „is arriving“, „arriving“, „arrive“ — ✔ **is arriving** — vysvětlení: Domluvený příjezd: is a sloveso s -ing, is nesmí chybět.
+- [ ] `u16-l2-e8` *Psaní* — **Co děláte dnes večer?** → ✔ **What are you doing tonight?** (uznává se i: „What are you going to do tonight?“)
+- [ ] `u16-l2-e9` *Skládání věty* — V sobotu jdeme do kina. → ✔ **We're going to the cinema on Saturday.** (chybné dílky: „go“) (uznává se i: „On Saturday we're going to the cinema.“)
+- [ ] `u16-l2-e10` *Skládání věty* — Na večírek nejdu. → ✔ **I'm not going to the party.** (chybné dílky: „don't“)
+
+### [ ] 16.3: Pomůžu vám (I'll help you) · `u16-l3`
+
+**[ ] Tip: Nabídka a slib: I'll…**
+
+> Will (zkráceně 'll) použijte, když se rozhodnete právě teď, když něco nabízíte nebo slibujete: I'll help you. I'll carry your bag. A také když odhadujete, co bude: It will probably rain. Will má pro všechny osoby stejný tvar, sloveso za ním je bez to a bez -s. Zápor je won't. Probably stojí za will, ale před won't: It probably won't rain. Česky tomu odpovídá obyčejný budoucí čas: pomůžu, ponesu.
+>
+> - **I'll carry your bag.** — Ponesu vám tašku.
+> - **I promise I won't forget.** — Slibuji, že nezapomenu.
+> - **It will probably rain tomorrow.** — Zítra asi bude pršet.
+> - **Maybe I'll go for a walk.** — Možná půjdu na procházku.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l3-w1` | **will** | budu; bude | Budoucnost, pro všechny stejně: I will, she will. Zkráceně I'll. |
+| [ ] | `u16-l3-w2` | **won't** | nebudu; nebude | Zkratka will not. Čte se „wount“, jinak než want. |
+| [ ] | `u16-l3-w3` | **probably** | asi; pravděpodobně | Čte se „PRO-be-bli“. |
+| [ ] | `u16-l3-w4` | **maybe** | možná | Obvykle na začátku věty: Maybe I'll come. |
+| [ ] | `u16-l3-w5` | **sure** | jistý | I'm sure. = Jsem si jistý; jsem si jistá. Čte se „šó“. |
+| [ ] | `u16-l3-w6` | **promise** | slíbit; slib | I promise. = Slibuji. Čte se „promis“. |
+| [ ] | `u16-l3-w7` | **carry** | nést; nosit | Nosit v ruce. Nosit oblečení je wear. |
+| [ ] | `u16-l3-w8` | **I'll help you.** | Pomůžu vám. | Také „Pomůžu ti.“ I'll = I will. |
+
+**Cvičení**
+
+- [ ] `u16-l3-e1` *Výběr* — **probably** — možnosti: „asi; pravděpodobně“, „možná“, „jistý“ — ✔ **asi; pravděpodobně**
+- [ ] `u16-l3-e2` *Výběr* — **nést; nosit** — možnosti: „carry“, „promise“, „leave“ — ✔ **carry**
+- [ ] `u16-l3-e3` *Dvojice* — **will** = budu · **won't** = nebudu · **maybe** = možná · **sure** = jistý · **promise** = slíbit
+- [ ] `u16-l3-e4` *Poslech* — 🔊 zazní: **I'll help you.** — možnosti: „I'll help you.“, „I help you.“, „I'll call you.“ — ✔ **I'll help you.**
+- [ ] `u16-l3-e5` *Poslech* — 🔊 zazní: **It will probably rain tomorrow.** — možnosti: „Zítra asi bude pršet.“, „Zítra určitě bude pršet.“, „Zítra asi nebude pršet.“ — ✔ **Zítra asi bude pršet.**
+- [ ] `u16-l3-e6` *Doplňování* — **I ___ carry your bag.** (Ponesu vám tašku.) — možnosti: „will“, „am“, „going“ — ✔ **will** — vysvětlení: Nabídka: will a sloveso bez to.
+- [ ] `u16-l3-e7` *Doplňování* — **She ___ come today. She's ill.** (Dnes nepřijde. Je nemocná.) — možnosti: „won't“, „doesn't will“, „willn't“ — ✔ **won't** — vysvětlení: Zápor od will je won't, bez does.
+- [ ] `u16-l3-e8` *Psaní* — **Slibuji, že nezapomenu.** → ✔ **I promise I won't forget.** (uznává se i: „I promise that I won't forget.“)
+- [ ] `u16-l3-e9` *Skládání věty* — Možná přijdu později. → ✔ **Maybe I'll come later.** (chybné dílky: „going“)
+- [ ] `u16-l3-e10` *Skládání věty* — Zítra asi nebude pršet. → ✔ **It probably won't rain tomorrow.** (chybné dílky: „will“) (uznává se i: „Tomorrow it probably won't rain.“)
+
+## [ ] Kapitola 17: Lidé a práce (People and work) · A2
+
+Soubor: `content/cs-en/unit17-people.json` · ID: `u17` · Popis: Povolání, jak lidé vypadají a jací jsou, a jak co dělají: slowly, well, hard.
+
+### [ ] 17.1: Povolání (Jobs) · `u17-l1`
+
+**[ ] Tip: She's a nurse: člen u povolání**
+
+> Česky řeknete „Je zdravotní sestra.“ Anglicky musí před povoláním stát a, před samohláskou an: She's a nurse. My son is an engineer. V množném čísle člen není: They're farmers. Na povolání se zeptáte What do you do? nebo What's your job? Kdo už nepracuje, řekne I'm retired. Pozor na falešného přítele: továrna je factory. Fabric znamená látka.
+>
+> - **She's a nurse.** — Je zdravotní sestra.
+> - **My son is an engineer.** — Můj syn je inženýr.
+> - **What do you do?** — Čím jste? Jaké máte povolání?
+> - **They're farmers.** — Jsou zemědělci.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l1-w1` | **job** | práce; zaměstnání | Počitatelné: a job. What's your job? = Jaké máte povolání? |
+| [ ] | `u17-l1-w2` | **teacher** | učitel; učitelka | Jedno slovo pro muže i ženy, stejně jako u ostatních povolání. |
+| [ ] | `u17-l1-w3` | **nurse** | zdravotní sestra | Také zdravotní bratr. Čte se přibližně „nés“, r se nevyslovuje. |
+| [ ] | `u17-l1-w4` | **shop assistant** | prodavač; prodavačka |  |
+| [ ] | `u17-l1-w5` | **engineer** | inženýr; inženýrka | Přízvuk na konci: „en-dži-NÍ-a“. S členem an: an engineer. |
+| [ ] | `u17-l1-w6` | **driver** | řidič; řidička | Čte se „DRAJ-va“. Bus driver = řidič autobusu. |
+| [ ] | `u17-l1-w7` | **farmer** | zemědělec | Také farmář. Čte se „FÁ-ma“. |
+| [ ] | `u17-l1-w8` | **office** | kancelář | I work in an office. = Pracuji v kanceláři. |
+| [ ] | `u17-l1-w9` | **factory** | továrna | Falešný přítel: fabric je látka, ne fabrika. |
+
+**Cvičení**
+
+- [ ] `u17-l1-e1` *Výběr* — **factory** — možnosti: „továrna“, „látka“, „kancelář“ — ✔ **továrna**
+- [ ] `u17-l1-e2` *Výběr* — **Je zdravotní sestra.** — možnosti: „She's a nurse.“, „She's nurse.“, „She a nurse.“ — ✔ **She's a nurse.**
+- [ ] `u17-l1-e3` *Dvojice* — **job** = práce · **office** = kancelář · **factory** = továrna · **farmer** = zemědělec · **driver** = řidič
+- [ ] `u17-l1-e4` *Poslech* — 🔊 zazní: **He's an engineer.** — možnosti: „He's an engineer.“, „He's a teacher.“, „He's a farmer.“ — ✔ **He's an engineer.**
+- [ ] `u17-l1-e5` *Poslech* — 🔊 zazní: **My daughter works in an office.** — možnosti: „Moje dcera pracuje v kanceláři.“, „Moje dcera pracuje v továrně.“, „Moje dcera pracuje v obchodě.“ — ✔ **Moje dcera pracuje v kanceláři.**
+- [ ] `u17-l1-e6` *Doplňování* — **My son is ___ engineer.** (Můj syn je inženýr.) — možnosti: „an“, „a“ — ✔ **an** — vysvětlení: Engineer začíná samohláskou, proto an.
+- [ ] `u17-l1-e7` *Doplňování* — **My sons are ___.** (Moji synové jsou zemědělci.) — možnosti: „farmers“, „a farmers“, „farmer“ — ✔ **farmers** — vysvětlení: V množném čísle člen není: they're farmers.
+- [ ] `u17-l1-e8` *Psaní* — **Moje sestra je prodavačka.** → ✔ **My sister is a shop assistant.**
+- [ ] `u17-l1-e9` *Skládání věty* — Můj manžel pracuje v továrně. → ✔ **My husband works in a factory.** (chybné dílky: „fabric“)
+- [ ] `u17-l1-e10` *Skládání věty* — Jaké máte povolání? → ✔ **What do you do?** (chybné dílky: „are“)
+
+### [ ] 17.2: Jaký je? (What's she like?) · `u17-l2`
+
+**[ ] Tip: Jaká je, nebo jak vypadá?**
+
+> What's she like? znamená „Jaká je?“, tedy jaká je to osoba. Odpověď: She's kind. She's very nice. What does she look like? znamená „Jak vypadá?“. Odpověď: She's tall and slim. Like tu neznamená „mít rád“. Pozor: hair je jednotné číslo: Her hair is black. Česky jsou vlasy množné. Falešný přítel: sympatický člověk je nice. Sympathetic znamená soucitný.
+>
+> - **What's your neighbour like? She's very kind.** — Jaká je vaše sousedka? Je moc hodná.
+> - **What does he look like?** — Jak vypadá?
+> - **He's tall and he's got a beard.** — Je vysoký a má plnovous.
+> - **Her hair is black.** — Má černé vlasy.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l2-w1` | **tall** | vysoký | O lidech, stromech a budovách: She's tall. |
+| [ ] | `u17-l2-w2` | **young** | mladý | Čte se „jang“. |
+| [ ] | `u17-l2-w3` | **hair** | vlasy | Jednotné číslo: Her hair is long. Čte se přibližně „hé“, r se nevyslovuje. |
+| [ ] | `u17-l2-w4` | **beard** | vousy | He's got a beard. = Má plnovous. |
+| [ ] | `u17-l2-w5` | **slim** | štíhlý |  |
+| [ ] | `u17-l2-w6` | **kind** | laskavý; hodný | Čte se „kajnd“. |
+| [ ] | `u17-l2-w7` | **friendly** | přátelský |  |
+| [ ] | `u17-l2-w8` | **nice** | milý; sympatický | Falešný přítel: sympathetic znamená soucitný. |
+| [ ] | `u17-l2-w9` | **What's she like?** | Jaká je? | Ptá se na povahu. Jak vypadá? = What does she look like? |
+
+**Cvičení**
+
+- [ ] `u17-l2-e1` *Výběr* — **slim** — možnosti: „štíhlý“, „vysoký“, „mladý“ — ✔ **štíhlý**
+- [ ] `u17-l2-e2` *Výběr* — **Jak vypadá?** — možnosti: „What does she look like?“, „What's she like?“, „What does she like?“ — ✔ **What does she look like?**
+- [ ] `u17-l2-e3` *Dvojice* — **tall** = vysoký · **young** = mladý · **hair** = vlasy · **beard** = vousy · **friendly** = přátelský
+- [ ] `u17-l2-e4` *Poslech* — 🔊 zazní: **He's tall and slim.** — možnosti: „He's tall and slim.“, „He's young and slim.“, „He's tall and kind.“ — ✔ **He's tall and slim.**
+- [ ] `u17-l2-e5` *Poslech* — 🔊 zazní: **What's your neighbour like?** — možnosti: „Jaký je váš soused?“, „Jak vypadá váš soused?“, „Co má rád váš soused?“ — ✔ **Jaký je váš soused?**
+- [ ] `u17-l2-e6` *Doplňování* — **My grandson ___ got a beard.** (Můj vnuk má plnovous.) — možnosti: „has“, „have“, „is“ — ✔ **has** — vysvětlení: U he (můj vnuk) je has got.
+- [ ] `u17-l2-e7` *Doplňování* — **Her hair ___ black.** (Má černé vlasy.) — možnosti: „is“, „are“, „have“ — ✔ **is** — vysvětlení: Hair je anglicky jednotné číslo, proto is.
+- [ ] `u17-l2-e8` *Doplňování* — **What ___ he look like?** (Jak vypadá?) — možnosti: „does“, „is“, „do“ — ✔ **does** — vysvětlení: Look je sloveso, otázka u he má does.
+- [ ] `u17-l2-e9` *Psaní* — **Moje sousedka je milá.** → ✔ **My neighbour is nice.** (uznává se i: „My neighbour's nice.“)
+- [ ] `u17-l2-e10` *Skládání věty* — Je vysoký a má plnovous. → ✔ **He's tall and he's got a beard.** (chybné dílky: „have“)
+
+### [ ] 17.3: Jak to dělá? (How does she do it?) · `u17-l3`
+
+**[ ] Tip: Slowly, well: jak něco děláte**
+
+> Jak něco děláte, řeknete příslovcem. Většinou stačí přidat -ly: slow → slowly, careful → carefully. Výjimky: good → well, fast → fast, hard → hard. Příslovce stojí až za tím, co děláte: She speaks English well. Neříkejte She speaks well English. Česky je slovosled volný, anglicky sloveso a jeho předmět drží pohromadě.
+>
+> - **Please speak slowly.** — Mluvte prosím pomalu.
+> - **She speaks English well.** — Mluví dobře anglicky.
+> - **He drives carefully.** — Jezdí opatrně.
+> - **They work hard.** — Tvrdě pracují.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l3-w1` | **slowly** | pomalu | slow = pomalý. Čte se „SLOU-li“. |
+| [ ] | `u17-l3-w2` | **quickly** | rychle | quick = rychlý |
+| [ ] | `u17-l3-w3` | **carefully** | opatrně; pečlivě | careful = opatrný |
+| [ ] | `u17-l3-w4` | **well** | dobře | good = dobrý, ale dobře = well: She sings well. |
+| [ ] | `u17-l3-w5` | **hard** | tvrdě; usilovně | Bez -ly: work hard. Hardly znamená něco jiného: sotva. |
+| [ ] | `u17-l3-w6` | **fast** | rychlý | Také rychle, bez -ly: He drives fast. |
+| [ ] | `u17-l3-w7` | **loudly** | nahlas; hlasitě | Čte se „LAUD-li“. |
+| [ ] | `u17-l3-w8` | **quietly** | potichu | Čte se „KWAJ-et-li“. |
+
+**Cvičení**
+
+- [ ] `u17-l3-e1` *Výběr* — **quietly** — možnosti: „potichu“, „nahlas“, „pomalu“ — ✔ **potichu**
+- [ ] `u17-l3-e2` *Výběr* — **dobře** — možnosti: „well“, „good“, „fast“ — ✔ **well**
+- [ ] `u17-l3-e3` *Dvojice* — **slowly** = pomalu · **quickly** = rychle · **carefully** = opatrně · **hard** = usilovně · **loudly** = nahlas
+- [ ] `u17-l3-e4` *Poslech* — 🔊 zazní: **Please speak slowly.** — možnosti: „Please speak slowly.“, „Please speak quietly.“, „Please speak loudly.“ — ✔ **Please speak slowly.**
+- [ ] `u17-l3-e5` *Poslech* — 🔊 zazní: **My husband drives fast.** — možnosti: „Můj manžel jezdí rychle.“, „Můj manžel jezdí pomalu.“, „Můj manžel jezdí opatrně.“ — ✔ **Můj manžel jezdí rychle.**
+- [ ] `u17-l3-e6` *Doplňování* — **She speaks English ___.** (Mluví dobře anglicky.) — možnosti: „well“, „good“, „nice“ — ✔ **well** — vysvětlení: Good je přídavné jméno (a good teacher). Jak někdo mluví, řeknete well.
+- [ ] `u17-l3-e7` *Doplňování* — **He drives ___.** (Jezdí opatrně.) — možnosti: „carefully“, „careful“, „care“ — ✔ **carefully** — vysvětlení: Jak jezdí? Příslovce s -ly: carefully.
+- [ ] `u17-l3-e8` *Skládání věty* — Mluví dobře anglicky. → ✔ **She speaks English well.** (chybné dílky: „good“)
+- [ ] `u17-l3-e9` *Psaní* — **Moje dcera tvrdě pracuje.** → ✔ **My daughter works hard.**
+- [ ] `u17-l3-e10` *Mluvení* — 🎤 **Can you speak slowly, please?** — Můžete mluvit pomalu, prosím?
+
+## [ ] Kapitola 18: Jsme v kontaktu (Keeping in touch) · A2
+
+Soubor: `content/cs-en/unit18-in-touch.json` · ID: `u18` · Popis: Telefon, zprávy, e-maily a počítač: me, him, us, them, spojky and, but, because a want to.
+
+### [ ] 18.1: Telefon (On the phone) · `u18-l1`
+
+**[ ] Tip: Me, him, us, them**
+
+> Za slovesem a za předložkou mají zájmena jiný tvar, podobně jako česky já → mě, mi: I → me, he → him, she → her, we → us, they → them. Ring me. (Zavolejte mi.) Can you help us? (Můžete nám pomoct?) You a it zůstávají stejné. Them se říká i o věcech: Where are my keys? I can't see them. Česky zájmeno někdy vynecháte, anglicky ho vždy řekněte.
+>
+> - **Ring me, please.** — Zavolejte mi, prosím.
+> - **We often ring them.** — Často jim voláme.
+> - **Can you help us?** — Můžete nám pomoct?
+> - **Hold on, please.** — Moment, prosím.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l1-w1` | **me** | mě; mi | Za slovesem a předložkou: Ring me. Come with me. |
+| [ ] | `u18-l1-w2` | **him** | ho; mu | Jen o muži: I know him. = Znám ho. |
+| [ ] | `u18-l1-w3` | **us** | nás; nám |  |
+| [ ] | `u18-l1-w4` | **them** | je; jim | O lidech i věcech: I like them. |
+| [ ] | `u18-l1-w5` | **ring** | zavolat; zazvonit | Britsky, stejně jako call: I'll ring you. = Zavolám vám. |
+| [ ] | `u18-l1-w6` | **message** | zpráva; vzkaz | Can I leave a message? = Mohu nechat vzkaz? Čte se „ME-sidž“. |
+| [ ] | `u18-l1-w7` | **text** | poslat SMS; SMS | Can you text me? = Můžete mi poslat SMS? |
+| [ ] | `u18-l1-w8` | **Hold on.** | moment; vydržte | Na telefonu: Hold on, please. = Moment, prosím. |
+
+**Cvičení**
+
+- [ ] `u18-l1-e1` *Výběr* — **message** — možnosti: „zpráva; vzkaz“, „dopis“, „adresa“ — ✔ **zpráva; vzkaz**
+- [ ] `u18-l1-e2` *Výběr* — **Zavolejte mi, prosím.** — možnosti: „Ring me, please.“, „Ring I, please.“, „Ring my, please.“ — ✔ **Ring me, please.**
+- [ ] `u18-l1-e3` *Dvojice* — **me** = mě · **him** = ho · **us** = nás · **them** = je · **message** = vzkaz
+- [ ] `u18-l1-e4` *Poslech* — 🔊 zazní: **Hold on, please.** — možnosti: „Hold on, please.“, „Help us, please.“, „Ring me, please.“ — ✔ **Hold on, please.**
+- [ ] `u18-l1-e5` *Poslech* — 🔊 zazní: **Can you text me?** — možnosti: „Můžete mi poslat SMS?“, „Můžete mi zavolat?“, „Můžete mi pomoct?“ — ✔ **Můžete mi poslat SMS?**
+- [ ] `u18-l1-e6` *Doplňování* — **Can you help ___?** (Můžete nám pomoct?) — možnosti: „us“, „we“, „our“ — ✔ **us** — vysvětlení: Za slovesem je us, ne we.
+- [ ] `u18-l1-e7` *Doplňování* — **I often ring ___.** (Často mu volám.) — možnosti: „him“, „he“, „his“ — ✔ **him** — vysvětlení: Za slovesem je him, ne he.
+- [ ] `u18-l1-e8` *Doplňování* — **These are my neighbours. I like ___.** (Tohle jsou moji sousedé. Jsou mi sympatičtí.) — možnosti: „them“, „they“, „their“ — ✔ **them** — vysvětlení: Za slovesem like je them.
+- [ ] `u18-l1-e9` *Psaní* — **Zavolejte nám.** → ✔ **Ring us.** (uznává se i: „Call us.“, „Phone us.“, „Ring us, please.“, „Call us, please.“)
+- [ ] `u18-l1-e10` *Skládání věty* — Můžete mu zavolat? → ✔ **Can you ring him?** (chybné dílky: „he“)
+
+### [ ] 18.2: E-mail a dopis (Emails and letters) · `u18-l2`
+
+**[ ] Tip: And, but, or, because, so**
+
+> Věty spojíte jako v češtině: and (a), but (ale), or (nebo), because (protože), so (takže). Because říká důvod, so výsledek: I'm wearing a coat because it's cold. It's cold, so I'm wearing a coat. Rozdíl od češtiny: před because se čárka obvykle nepíše, před but a so ano. Also (také) stojí před slovesem: I also like tea.
+>
+> - **I'm wearing a coat because it's cold.** — Mám na sobě kabát, protože je zima.
+> - **It's cold, so I'm wearing a coat.** — Je zima, takže mám na sobě kabát.
+> - **Tea or coffee?** — Čaj, nebo kávu?
+> - **I've got her email, but not her address.** — Mám její e-mail, ale ne její adresu.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l2-w1` | **and** | a |  |
+| [ ] | `u18-l2-w2` | **but** | ale | Čte se „bat“. |
+| [ ] | `u18-l2-w3` | **because** | protože | Čte se „bi-KOZ“. Před because se čárka obvykle nepíše. |
+| [ ] | `u18-l2-w4` | **so** | takže | Výsledek: It's raining, so we're at home. |
+| [ ] | `u18-l2-w5` | **or** | nebo | Tea or coffee? = Čaj, nebo kávu? |
+| [ ] | `u18-l2-w6` | **also** | také | Stojí před slovesem: I also like tea. Čte se „ÓL-sou“. |
+| [ ] | `u18-l2-w7` | **letter** | dopis | Také písmeno abecedy. |
+| [ ] | `u18-l2-w8` | **email** | e-mail | Také sloveso: Email me. = Pošlete mi e-mail. |
+| [ ] | `u18-l2-w9` | **address** | adresa | Dvě d a dvě s. Britsky přízvuk na druhé slabice: „e-DRES“. |
+
+**Cvičení**
+
+- [ ] `u18-l2-e1` *Výběr* — **because** — možnosti: „protože“, „takže“, „ale“ — ✔ **protože**
+- [ ] `u18-l2-e2` *Výběr* — **nebo** — možnosti: „or“, „so“, „but“ — ✔ **or**
+- [ ] `u18-l2-e3` *Dvojice* — **and** = a · **but** = ale · **so** = takže · **letter** = dopis · **address** = adresa
+- [ ] `u18-l2-e4` *Poslech* — 🔊 zazní: **I've got her email, but not her address.** — možnosti: „I've got her email, but not her address.“, „I've got her email and her address.“, „I've got her address, but not her email.“ — ✔ **I've got her email, but not her address.**
+- [ ] `u18-l2-e5` *Poslech* — 🔊 zazní: **I'm at home because it's raining.** — možnosti: „Jsem doma, protože prší.“, „Jsem doma, ale neprší.“, „Jsem doma a je zima.“ — ✔ **Jsem doma, protože prší.**
+- [ ] `u18-l2-e6` *Doplňování* — **It's cold, ___ I'm wearing a coat.** (Je zima, takže mám na sobě kabát.) — možnosti: „so“, „because“, „than“ — ✔ **so** — vysvětlení: Výsledek (takže) = so. Because uvádí důvod.
+- [ ] `u18-l2-e7` *Doplňování* — **Would you like tea ___ coffee?** (Dáte si čaj, nebo kávu?) — možnosti: „or“, „but“, „because“ — ✔ **or** — vysvětlení: Výběr ze dvou věcí = or.
+- [ ] `u18-l2-e8` *Psaní* — **Jaká je vaše adresa?** → ✔ **What's your address?**
+- [ ] `u18-l2-e9` *Skládání věty* — Je nemocná, takže je doma. → ✔ **She's ill, so she's at home.** (chybné dílky: „because“)
+- [ ] `u18-l2-e10` *Skládání věty* — Zavolejte mi, nebo mi pošlete e-mail. → ✔ **Ring me or email me.** (chybné dílky: „but“) (uznává se i: „Email me or ring me.“)
+
+### [ ] 18.3: Počítač (Computers) · `u18-l3`
+
+**[ ] Tip: I want to… I need to… I'm trying to…**
+
+> Po want (chtít), need (potřebovat) a try (snažit se) přijde to a sloveso: I want to send a photo. I need to check my email. I'm trying to ring my son. Česky nic jako to nemáme, anglicky ho nevynechávejte. Pozor na falešné přátele: actually = vlastně, ne aktuálně (to je at the moment). In the end = nakonec, ne eventuálně. Zkontrolovat = check, ne control (to znamená řídit, ovládat).
+>
+> - **I need to check my email.** — Potřebuji zkontrolovat e-mail.
+> - **I want to send you a photo.** — Chci vám poslat fotku.
+> - **She's busy at the moment.** — Momentálně má hodně práce.
+> - **Actually, I haven't got a computer.** — Vlastně nemám počítač.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l3-w1` | **computer** | počítač | Čte se „kem-PJÚ-ta“. |
+| [ ] | `u18-l3-w2` | **internet** | internet | Obvykle s the: on the internet = na internetu. |
+| [ ] | `u18-l3-w3` | **password** | heslo | Čte se „PÁS-wéd“, r se nevyslovuje. |
+| [ ] | `u18-l3-w4` | **photo** | fotka; fotografie | Čte se „FOU-tou“. |
+| [ ] | `u18-l3-w5` | **video call** | videohovor | Have a video call = zavolat si přes video. |
+| [ ] | `u18-l3-w6` | **check** | zkontrolovat | Falešný přítel: control znamená řídit, ovládat. |
+| [ ] | `u18-l3-w7` | **actually** | vlastně; ve skutečnosti | Falešný přítel: aktuálně = at the moment. |
+| [ ] | `u18-l3-w8` | **at the moment** | momentálně; teď | Česky také „aktuálně“. |
+| [ ] | `u18-l3-w9` | **in the end** | nakonec | Falešný přítel: eventuálně = maybe. |
+
+**Cvičení**
+
+- [ ] `u18-l3-e1` *Výběr* — **actually** — možnosti: „vlastně; ve skutečnosti“, „aktuálně“, „nakonec“ — ✔ **vlastně; ve skutečnosti**
+- [ ] `u18-l3-e2` *Výběr* — **heslo** — možnosti: „password“, „address“, „message“ — ✔ **password**
+- [ ] `u18-l3-e3` *Dvojice* — **computer** = počítač · **photo** = fotka · **video call** = videohovor · **in the end** = nakonec · **at the moment** = momentálně
+- [ ] `u18-l3-e4` *Poslech* — 🔊 zazní: **I need to check my email.** — možnosti: „I need to check my email.“, „I want to check my email.“, „I need to check my phone.“ — ✔ **I need to check my email.**
+- [ ] `u18-l3-e5` *Poslech* — 🔊 zazní: **She's busy at the moment.** — možnosti: „Momentálně má hodně práce.“, „Nakonec má hodně práce.“, „Vlastně nemá žádnou práci.“ — ✔ **Momentálně má hodně práce.**
+- [ ] `u18-l3-e6` *Doplňování* — **I want ___ send you a photo.** (Chci vám poslat fotku.) — možnosti: „to“, „for“, „at“ — ✔ **to** — vysvětlení: Po want přijde to a sloveso.
+- [ ] `u18-l3-e7` *Doplňování* — **We need ___ the password.** (Potřebujeme zkontrolovat heslo.) — možnosti: „to check“, „check“, „checks“ — ✔ **to check** — vysvětlení: Po need přijde to a sloveso: need to check.
+- [ ] `u18-l3-e8` *Psaní* — **Momentálně jsem doma.** → ✔ **I'm at home at the moment.** (uznává se i: „At the moment I'm at home.“)
+- [ ] `u18-l3-e9` *Skládání věty* — Snažím se zavolat dceři. → ✔ **I'm trying to ring my daughter.** (chybné dílky: „for“)
+- [ ] `u18-l3-e10` *Skládání věty* — Nakonec jsme si zavolali přes video. → ✔ **We had a video call in the end.** (uznává se i: „In the end we had a video call.“)
+
+## [ ] Kapitola 19: Vaření a restaurace (Cooking and eating out) · A2
+
+Soubor: `content/cs-en/unit19-cooking.json` · ID: `u19` · Popis: Postup podle receptu, objednávka v restauraci a kolik čeho: a little, a few, too much, enough.
+
+### [ ] 19.1: Recept (A recipe) · `u19-l1`
+
+**[ ] Tip: Nejdřív, pak, nakonec**
+
+> Recept na jídlo je anglicky recipe, čte se „RE-se-pi“. Pozor: receipt je účtenka a recept od lékaře je prescription. Kroky receptu seřadíte slovy first of all (nejdřív), then (pak), after that (poté) a finally (na závěr). Sloveso je v rozkazovacím způsobu, stejně jako česky: Cut the potatoes. (Nakrájejte brambory.) Add the milk. (Přidejte mléko.)
+>
+> - **First of all, cut the potatoes.** — Nejdřív nakrájejte brambory.
+> - **Then add the milk.** — Pak přidejte mléko.
+> - **Boil the eggs for ten minutes.** — Vařte vejce deset minut.
+> - **Finally, bake the cake.** — Na závěr upečte dort.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l1-w1` | **first of all** | nejdřív; nejprve |  |
+| [ ] | `u19-l1-w2` | **then** | pak; tehdy | Další krok: Then add the sugar. |
+| [ ] | `u19-l1-w3` | **after that** | poté | Doslova „po tom“. Znamená skoro totéž co then. |
+| [ ] | `u19-l1-w4` | **finally** | na závěr; konečně | Poslední krok: Finally, add the salt. |
+| [ ] | `u19-l1-w5` | **cut** | krájet; nakrájet | Minulý čas je stejný: cut. |
+| [ ] | `u19-l1-w6` | **mix** | míchat; smíchat |  |
+| [ ] | `u19-l1-w7` | **add** | přidat |  |
+| [ ] | `u19-l1-w8` | **boil** | vařit ve vodě | Boil the potatoes. Vařit obecně je cook. Čte se „bojl“. |
+| [ ] | `u19-l1-w9` | **bake** | péct | V troubě: bake a cake. Čte se „bejk“. |
+
+**Cvičení**
+
+- [ ] `u19-l1-e1` *Výběr* — **bake** — možnosti: „péct“, „vařit ve vodě“, „míchat; smíchat“ — ✔ **péct**
+- [ ] `u19-l1-e2` *Výběr* — **přidat** — možnosti: „add“, „mix“, „cut“ — ✔ **add**
+- [ ] `u19-l1-e3` *Dvojice* — **first of all** = nejdřív · **cut** = krájet · **mix** = míchat · **boil** = vařit ve vodě · **finally** = na závěr
+- [ ] `u19-l1-e4` *Poslech* — 🔊 zazní: **Then add the sugar.** — možnosti: „Then add the sugar.“, „Then add the butter.“, „Then add the milk.“ — ✔ **Then add the sugar.**
+- [ ] `u19-l1-e5` *Poslech* — 🔊 zazní: **First of all, boil the water.** — možnosti: „Nejdřív uvařte vodu.“, „Na závěr uvařte vodu.“, „Nejdřív nalijte vodu.“ — ✔ **Nejdřív uvařte vodu.**
+- [ ] `u19-l1-e6` *Doplňování* — **___ the eggs and the sugar.** (Smíchejte vejce a cukr.) — možnosti: „Mix“, „Mixes“, „Mixing“ — ✔ **Mix** — vysvětlení: V receptu je rozkaz: sloveso bez -s a bez to.
+- [ ] `u19-l1-e7` *Doplňování* — **___ that, bake the cake.** (Poté dort upečte.) — možnosti: „After“, „Then“, „First“ — ✔ **After** — vysvětlení: After that = poté, doslova „po tom“.
+- [ ] `u19-l1-e8` *Psaní* — **Pak přidejte mléko.** → ✔ **Then add the milk.** (uznává se i: „Then add milk.“, „Then add some milk.“)
+- [ ] `u19-l1-e9` *Skládání věty* — Nejdřív nakrájejte chléb. → ✔ **First of all, cut the bread.** (chybné dílky: „cuts“)
+- [ ] `u19-l1-e10` *Skládání věty* — Vařte vejce deset minut. → ✔ **Boil the eggs for ten minutes.** (chybné dílky: „during“)
+
+### [ ] 19.2: V restauraci (At the restaurant) · `u19-l2`
+
+**[ ] Tip: Would you like…? nebo Do you like…?**
+
+> Would you like…? je zdvořilá nabídka: Dáte si…? Chtěli byste…? Would you like a coffee? = Dáte si kávu? Odpovíte Yes, please. nebo No, thank you. Do you like…? se ptá, co máte rádi obecně: Do you like coffee? = Máte rádi kávu? Odpovíte Yes, I do. nebo No, I don't. Sami si objednáte s I'd like: I'd like the fish, please.
+>
+> - **Would you like a dessert?** — Dáte si dezert?
+> - **Do you like fish? Yes, I do.** — Máte rádi ryby? Ano.
+> - **I'd like the soup as a starter.** — Jako předkrm si dám polévku.
+> - **This is delicious!** — Tohle je výborné!
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l2-w1` | **menu** | jídelní lístek | Čte se „MEN-jú“. |
+| [ ] | `u19-l2-w2` | **starter** | předkrm |  |
+| [ ] | `u19-l2-w3` | **main course** | hlavní chod | Čte se „mejn kós“. |
+| [ ] | `u19-l2-w4` | **dessert** | dezert; moučník | Přízvuk na druhé slabice: „di-ZÉT“. Desert s jedním s je poušť. |
+| [ ] | `u19-l2-w5` | **waiter** | číšník | Číšnice = waitress. |
+| [ ] | `u19-l2-w6` | **order** | objednat si | Také objednávka: Can I take your order? |
+| [ ] | `u19-l2-w7` | **delicious** | výborný; lahodný | O jídle. Čte se „di-LI-šes“. |
+| [ ] | `u19-l2-w8` | **Would you like a drink?** | Dáte si něco k pití? | Nabídka. Máte rádi…? = Do you like…? |
+
+**Cvičení**
+
+- [ ] `u19-l2-e1` *Výběr* — **starter** — možnosti: „předkrm“, „hlavní chod“, „dezert; moučník“ — ✔ **předkrm**
+- [ ] `u19-l2-e2` *Výběr* — **Dáte si něco k pití?** — možnosti: „Would you like a drink?“, „Do you like drinks?“, „Do you drink?“ — ✔ **Would you like a drink?**
+- [ ] `u19-l2-e3` *Dvojice* — **menu** = jídelní lístek · **main course** = hlavní chod · **dessert** = dezert · **waiter** = číšník · **order** = objednat si
+- [ ] `u19-l2-e4` *Poslech* — 🔊 zazní: **Would you like a dessert?** — možnosti: „Would you like a dessert?“, „Do you like dessert?“, „Would you like a starter?“ — ✔ **Would you like a dessert?**
+- [ ] `u19-l2-e5` *Poslech* — 🔊 zazní: **Do you like fish?** — možnosti: „Máte rádi ryby?“, „Dáte si rybu?“, „Je ta ryba dobrá?“ — ✔ **Máte rádi ryby?**
+- [ ] `u19-l2-e6` *Doplňování* — **___ you like a coffee? Yes, please.** (Dáte si kávu? Ano, prosím.) — možnosti: „Would“, „Do“, „Are“ — ✔ **Would** — vysvětlení: Odpověď Yes, please patří k nabídce, a nabídka je Would you like…?
+- [ ] `u19-l2-e7` *Doplňování* — **We'd like to ___, please.** (Chtěli bychom si objednat, prosím.) — možnosti: „order“, „ordering“, „orders“ — ✔ **order** — vysvětlení: Po would like to je sloveso v základním tvaru.
+- [ ] `u19-l2-e8` *Psaní* — **Tohle je výborné!** → ✔ **This is delicious!** (uznává se i: „It's delicious!“)
+- [ ] `u19-l2-e9` *Skládání věty* — Dám si kuře, prosím. → ✔ **I'd like the chicken, please.** (chybné dílky: „do“)
+- [ ] `u19-l2-e10` *Skládání věty* — Chtěli byste si objednat? → ✔ **Would you like to order?** (chybné dílky: „do“)
+
+### [ ] 19.3: Kolik? (How much?) · `u19-l3`
+
+**[ ] Tip: A little, a few, too much, too many**
+
+> Záleží na tom, jestli se věc dá počítat. Co počítat nejde (salt, milk, sugar), má a little (trochu) a too much (příliš mnoho). Co počítat jde (eggs, potatoes, people), má a few (pár) a too many (příliš mnoho). Enough (dost) se hodí k obojímu: enough bread, enough eggs. Česky obojí často řeknete „moc“, anglicky je potřeba vybrat.
+>
+> - **Add a little salt.** — Přidejte trochu soli.
+> - **I need a few eggs.** — Potřebuji pár vajec.
+> - **There's too much salt in the soup.** — V polévce je příliš mnoho soli.
+> - **We haven't got enough bread.** — Nemáme dost chleba.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l3-w1` | **a little** | trochu | U toho, co se nedá počítat: a little milk. |
+| [ ] | `u19-l3-w2` | **a few** | pár; několik | U toho, co se dá počítat: a few eggs. |
+| [ ] | `u19-l3-w3` | **too much** | příliš mnoho | U toho, co se nedá počítat: too much salt. |
+| [ ] | `u19-l3-w4` | **too many** | příliš mnoho kusů | U toho, co se dá počítat: too many eggs, too many people. |
+| [ ] | `u19-l3-w5` | **enough** | dost; dostatek | Čte se „i-NAF“. |
+| [ ] | `u19-l3-w6` | **salt** | sůl | Čte se „sólt“. |
+| [ ] | `u19-l3-w7` | **pepper** | pepř | Také paprika (zelenina): a red pepper. |
+| [ ] | `u19-l3-w8` | **spoon** | lžíce | Čajová lžička = teaspoon. |
+| [ ] | `u19-l3-w9` | **slice** | plátek; krajíc | a slice of bread = krajíc chleba. Čte se „slajs“. |
+
+**Cvičení**
+
+- [ ] `u19-l3-e1` *Výběr* — **spoon** — možnosti: „lžíce“, „plátek; krajíc“, „pepř“ — ✔ **lžíce**
+- [ ] `u19-l3-e2` *Výběr* — **sůl** — možnosti: „salt“, „pepper“, „slice“ — ✔ **salt**
+- [ ] `u19-l3-e3` *Dvojice* — **a little** = trochu · **a few** = pár · **enough** = dost · **pepper** = pepř · **slice** = plátek
+- [ ] `u19-l3-e4` *Poslech* — 🔊 zazní: **Add a little milk.** — možnosti: „Add a little milk.“, „Add a little salt.“, „Add a little sugar.“ — ✔ **Add a little milk.**
+- [ ] `u19-l3-e5` *Poslech* — 🔊 zazní: **There's too much salt in the soup.** — možnosti: „V polévce je příliš mnoho soli.“, „V polévce je málo soli.“, „V polévce je trochu soli.“ — ✔ **V polévce je příliš mnoho soli.**
+- [ ] `u19-l3-e6` *Doplňování* — **I need ___ eggs.** (Potřebuji pár vajec.) — možnosti: „a few“, „a little“, „much“ — ✔ **a few** — vysvětlení: Vejce se dají počítat, proto a few.
+- [ ] `u19-l3-e7` *Doplňování* — **There are too ___ people here.** (Je tu příliš mnoho lidí.) — možnosti: „many“, „much“, „lot“ — ✔ **many** — vysvětlení: Lidi se dají počítat, proto too many.
+- [ ] `u19-l3-e8` *Doplňování* — **Is there ___ bread for breakfast?** (Je dost chleba na snídani?) — možnosti: „enough“, „a few“, „many“ — ✔ **enough** — vysvětlení: Bread se nedá počítat. Enough se hodí ke všemu.
+- [ ] `u19-l3-e9` *Psaní* — **Dám si plátek sýra, prosím.** → ✔ **I'd like a slice of cheese, please.** (uznává se i: „A slice of cheese, please.“, „Can I have a slice of cheese, please?“)
+- [ ] `u19-l3-e10` *Skládání věty* — Přidejte trochu pepře. → ✔ **Add a little pepper.** (chybné dílky: „few“)
+
+## [ ] Kapitola 20: Pozvání a oslavy (Invitations and celebrations) · A2
+
+Soubor: `content/cs-en/unit20-celebrations.json` · ID: `u20` · Popis: Jak někoho pozvat a odpovědět, věty s if a přání k svátkům a oslavám.
+
+### [ ] 20.1: Pozvání (Invitations) · `u20-l1`
+
+**[ ] Tip: Let's…, Shall we…?, Would you like to…?**
+
+> Návrh uděláte s Let's (pojďme): Let's go for a walk. Jako otázku řeknete Shall we…? (Půjdeme…? Dáme si…?) nebo Why don't we…? (Co kdybychom…?). Po let's, shall we a why don't we je sloveso bez to. Zdvořilé pozvání je Would you like to come? (Chtěli byste přijít?) Přijmete ho s I'd love to. (S radostí.) Odmítnete zdvořile s I'm afraid I can't. (Bohužel nemůžu.)
+>
+> - **Let's go for a walk.** — Pojďme na procházku.
+> - **Shall we have a coffee?** — Dáme si kávu?
+> - **Would you like to come on Saturday?** — Chtěli byste přijít v sobotu?
+> - **I'd love to, thank you.** — S radostí, děkuji.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l1-w1` | **invite** | pozvat | Čte se „in-VAJT“. Pozvánka = invitation. |
+| [ ] | `u20-l1-w2` | **guest** | host | Čte se „gest“, u se nevyslovuje. |
+| [ ] | `u20-l1-w3` | **Let's go.** | Pojďme. | Let's + sloveso = pojďme něco udělat: Let's eat. |
+| [ ] | `u20-l1-w4` | **Shall we?** | Půjdeme? | Návrh: Shall we go for a walk? = Půjdeme na procházku? |
+| [ ] | `u20-l1-w5` | **Why don't we?** | Co kdybychom…? | Why don't we invite them? = Co kdybychom je pozvali? |
+| [ ] | `u20-l1-w6` | **I'd love to.** | S radostí. | Odpověď na pozvání. Krátce, bez dalšího slovesa. |
+| [ ] | `u20-l1-w7` | **I'm afraid I can't.** | Bohužel nemůžu. | Zdvořilé odmítnutí. I'm afraid tu neznamená strach. |
+
+**Cvičení**
+
+- [ ] `u20-l1-e1` *Výběr* — **I'm afraid I can't.** — možnosti: „Bohužel nemůžu.“, „Bojím se.“, „S radostí.“ — ✔ **Bohužel nemůžu.**
+- [ ] `u20-l1-e2` *Výběr* — **S radostí.** — možnosti: „I'd love to.“, „I love it.“, „Let's go.“ — ✔ **I'd love to.**
+- [ ] `u20-l1-e3` *Dvojice* — **invite** = pozvat · **guest** = host · **Let's go.** = Pojďme. · **Shall we?** = Půjdeme? · **Why don't we?** = Co kdybychom…?
+- [ ] `u20-l1-e4` *Poslech* — 🔊 zazní: **Shall we go to the park?** — možnosti: „Shall we go to the park?“, „Shall we go to the shop?“, „Let's go to the park.“ — ✔ **Shall we go to the park?**
+- [ ] `u20-l1-e5` *Poslech* — 🔊 zazní: **Would you like to come on Sunday?** — možnosti: „Chtěli byste přijít v neděli?“, „Chtěli byste přijít v sobotu?“, „Máte rádi neděli?“ — ✔ **Chtěli byste přijít v neděli?**
+- [ ] `u20-l1-e6` *Doplňování* — **Let's ___ for a walk.** (Pojďme na procházku.) — možnosti: „go“, „to go“, „going“ — ✔ **go** — vysvětlení: Po let's je sloveso bez to.
+- [ ] `u20-l1-e7` *Doplňování* — **Why ___ we invite the neighbours?** (Co kdybychom pozvali sousedy?) — možnosti: „don't“, „not“, „doesn't“ — ✔ **don't** — vysvětlení: Návrh s we: Why don't we…?
+- [ ] `u20-l1-e8` *Doplňování* — **Shall we ___ a coffee?** (Dáme si kávu?) — možnosti: „have“, „having“, „to have“ — ✔ **have** — vysvětlení: Po shall we je sloveso bez to.
+- [ ] `u20-l1-e9` *Psaní* — **Pojďme domů.** → ✔ **Let's go home.**
+- [ ] `u20-l1-e10` *Skládání věty* — Chtěli byste přijít v sobotu? → ✔ **Would you like to come on Saturday?** (chybné dílky: „do“)
+
+### [ ] 20.2: Když… (If…) · `u20-l2`
+
+**[ ] Tip: If it rains, bez will**
+
+> Česky řeknete „Když bude pršet, zůstaneme doma.“ Budoucí čas je v obou částech věty. Anglicky je po if přítomný čas a will jen ve druhé části: If it rains, we'll stay at home. Nikdy neříkejte If it will rain. Části věty můžete prohodit: We'll stay at home if it rains. Pak se čárka nepíše.
+>
+> - **If it rains, we'll stay at home.** — Když bude pršet, zůstaneme doma.
+> - **If you're late, you'll miss the train.** — Jestli přijdete pozdě, zmeškáte vlak.
+> - **I'll ring you if I'm late.** — Zavolám vám, když budu mít zpoždění.
+> - **Don't worry.** — Nebojte se.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l2-w1` | **if** | jestli; pokud | Česky také „když“. Po if bez will: if it rains. |
+| [ ] | `u20-l2-w2` | **late** | pozdě | I'm late. = Jdu pozdě. Mám zpoždění. |
+| [ ] | `u20-l2-w3` | **early** | časně; brzy | Opak late. Čte se přibližně „É-li“. |
+| [ ] | `u20-l2-w4` | **in time** | včas | We're in time. = Jsme tu včas. |
+| [ ] | `u20-l2-w5` | **miss** | zmeškat; chybět | miss the bus = zmeškat autobus. I miss you. = Chybíte mi. |
+| [ ] | `u20-l2-w6` | **lose** | ztratit; prohrát | Čte se „lúz“. Minulý čas lost. |
+| [ ] | `u20-l2-w7` | **worry** | dělat si starosti | Don't worry. = Nebojte se. Čte se „WA-ri“. |
+
+**Cvičení**
+
+- [ ] `u20-l2-e1` *Výběr* — **worry** — možnosti: „dělat si starosti“, „zmeškat; chybět“, „ztratit; prohrát“ — ✔ **dělat si starosti**
+- [ ] `u20-l2-e2` *Výběr* — **včas** — možnosti: „in time“, „late“, „early“ — ✔ **in time**
+- [ ] `u20-l2-e3` *Dvojice* — **if** = jestli · **late** = pozdě · **early** = brzy · **miss** = zmeškat · **lose** = ztratit
+- [ ] `u20-l2-e4` *Poslech* — 🔊 zazní: **If it rains, we'll stay at home.** — možnosti: „If it rains, we'll stay at home.“, „If it's cold, we'll stay at home.“, „If it rains, we'll go home.“ — ✔ **If it rains, we'll stay at home.**
+- [ ] `u20-l2-e5` *Poslech* — 🔊 zazní: **Don't worry, we'll be in time.** — možnosti: „Nebojte se, přijdeme včas.“, „Nebojte se, přijdeme pozdě.“, „Nebojte se, přijdeme zítra.“ — ✔ **Nebojte se, přijdeme včas.**
+- [ ] `u20-l2-e6` *Doplňování* — **If it ___, we'll stay at home.** (Když bude pršet, zůstaneme doma.) — možnosti: „rains“, „will rain“, „rain“ — ✔ **rains** — vysvětlení: Po if je přítomný čas, ne will: if it rains.
+- [ ] `u20-l2-e7` *Doplňování* — **If you're late, you ___ the bus.** (Když přijdete pozdě, zmeškáte autobus.) — možnosti: „will miss“, „missing“, „to miss“ — ✔ **will miss** — vysvětlení: Will patří do druhé části věty, ne za if.
+- [ ] `u20-l2-e8` *Psaní* — **Nebojte se.** → ✔ **Don't worry.**
+- [ ] `u20-l2-e9` *Skládání věty* — Zavolám vám, když budu mít zpoždění. → ✔ **I'll ring you if I'm late.** (chybné dílky: „will“, „be“) (uznává se i: „If I'm late, I'll ring you.“)
+- [ ] `u20-l2-e10` *Skládání věty* — Když zmeškáme vlak, pojedeme autobusem. → ✔ **If we miss the train, we'll go by bus.** (chybné dílky: „will“) (uznává se i: „We'll go by bus if we miss the train.“)
+
+### [ ] 20.3: Oslavy (Celebrations) · `u20-l3`
+
+**[ ] Tip: Novinky: We've had a baby!**
+
+> Čerstvou novinku, která je důležitá teď, řeknete anglicky časem present perfect: have nebo has a tvar slovesa jako had, got. We've had a baby! (Narodilo se nám miminko!) My son has got married. (Můj syn se oženil.) Česky stačí minulý čas. Když ale řeknete kdy, použijte i anglicky minulý čas: We had a baby last week. Na dobrou novinku odpovězte Congratulations!
+>
+> - **We've had a baby!** — Narodilo se nám miminko!
+> - **My granddaughter has got married.** — Moje vnučka se vdala.
+> - **Congratulations!** — Gratuluji!
+> - **Thank you for the invitation.** — Děkuji za pozvání.
+
+**Slovíčka**
+
+| OK | ID | angličtina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l3-w1` | **wedding** | svatba |  |
+| [ ] | `u20-l3-w2` | **Christmas** | Vánoce | Čte se „KRIS-mes“, t se nevyslovuje. Vždy velké písmeno. |
+| [ ] | `u20-l3-w3` | **Easter** | Velikonoce | Čte se „ÍS-ta“. |
+| [ ] | `u20-l3-w4` | **present** | dárek | Také gift. Jako přídavné jméno znamená přítomný. |
+| [ ] | `u20-l3-w5` | **invitation** | pozvánka; pozvání | pozvat = invite |
+| [ ] | `u20-l3-w6` | **Congratulations!** | Gratuluji! | Vždy s -s na konci. Čte se „ken-gre-ču-LEJ-šnz“. |
+| [ ] | `u20-l3-w7` | **Happy birthday!** | Všechno nejlepší k narozeninám! |  |
+| [ ] | `u20-l3-w8` | **Best wishes** | s pozdravem; všechno dobré | Na konci přání, dopisu nebo e-mailu. |
+| [ ] | `u20-l3-w9` | **Merry Christmas!** | Veselé Vánoce! | Britové říkají také Happy Christmas! |
+
+**Cvičení**
+
+- [ ] `u20-l3-e1` *Výběr* — **present** — možnosti: „dárek“, „pozvánka; pozvání“, „svatba“ — ✔ **dárek**
+- [ ] `u20-l3-e2` *Výběr* — **Veselé Vánoce!** — možnosti: „Merry Christmas!“, „Happy Easter!“, „Happy birthday!“ — ✔ **Merry Christmas!**
+- [ ] `u20-l3-e3` *Dvojice* — **wedding** = svatba · **Christmas** = Vánoce · **Easter** = Velikonoce · **invitation** = pozvánka · **present** = dárek
+- [ ] `u20-l3-e4` *Poslech* — 🔊 zazní: **We've had a baby!** — možnosti: „We've had a baby!“, „We've got a baby.“, „We had a baby.“ — ✔ **We've had a baby!**
+- [ ] `u20-l3-e5` *Poslech* — 🔊 zazní: **Happy birthday, Mum!** — možnosti: „Všechno nejlepší k narozeninám, mami!“, „Veselé Vánoce, mami!“, „Gratuluji ke svatbě, mami!“ — ✔ **Všechno nejlepší k narozeninám, mami!**
+- [ ] `u20-l3-e6` *Doplňování* — **My son ___ got married!** (Můj syn se oženil!) — možnosti: „has“, „have“, „is“ — ✔ **has** — vysvětlení: Čerstvá novinka: has nebo have a tvar slovesa. U he (můj syn) je has.
+- [ ] `u20-l3-e7` *Doplňování* — **We've ___ a baby!** (Narodilo se nám miminko!) — možnosti: „had“, „have“, „has“ — ✔ **had** — vysvětlení: Za we've přijde tvar slovesa had.
+- [ ] `u20-l3-e8` *Psaní* — **Gratuluji!** → ✔ **Congratulations!**
+- [ ] `u20-l3-e9` *Skládání věty* — Děkuji za pozvání. → ✔ **Thank you for the invitation.** (chybné dílky: „on“)
+- [ ] `u20-l3-e10` *Mluvení* — 🎤 **Merry Christmas and a Happy New Year!** — Veselé Vánoce a šťastný nový rok!

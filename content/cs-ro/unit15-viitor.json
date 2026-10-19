@@ -1,0 +1,135 @@
+{
+  "id": "u15",
+  "level": "A2",
+  "title": "Plány",
+  "titleTarget": "Planuri",
+  "description": "Budoucí čas: co budeme dělat zítra, v létě a kdy si zavoláme.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u15-l1",
+      "title": "Zítra",
+      "titleTarget": "Mâine",
+      "reviewed": false,
+      "tip": {
+        "title": "Budoucnost s o să",
+        "text": "V běžné řeči se budoucnost tvoří slovy o să a slovesem ve stejné osobě – podobně jako po vreau să: o să lucrez (budu pracovat), o să mergi (půjdeš), o să mâncăm (budeme jíst). Samotné „o să“ se nemění. A opět úleva: rumunština nemá vid. O să citesc znamená „budu číst“ i „přečtu“, o să gătesc „budu vařit“ i „uvařím“. Pozor jen na on, ona, oni – tam se sloveso trochu změní: o să meargă (půjde), o să fie (bude).",
+        "examples": [
+          { "target": "Mâine o să lucrez.", "native": "Zítra budu pracovat." },
+          { "target": "Deseară o să gătesc.", "native": "Dnes večer budu vařit." },
+          { "target": "O să fie bine.", "native": "Bude dobře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l1-w1", "target": "o să", "native": "budu; bude", "note": "Před slovesem o budoucnosti. Nemění se: o să lucrez = budu pracovat, o să lucrezi = budeš pracovat.", "reviewed": false },
+        { "id": "u15-l1-w2", "target": "poimâine", "native": "pozítří", "note": "Čte se „poj-MYJ-ne“. Srovnejte: alaltăieri = předevčírem.", "reviewed": false },
+        { "id": "u15-l1-w3", "target": "săptămâna viitoare", "native": "příští týden", "note": "viitor = příští, budoucí; u ženského rodu viitoare. Čte se „săp-tă-MY-na vi-i-TOA-re“.", "reviewed": false },
+        { "id": "u15-l1-w4", "target": "anul viitor", "native": "příští rok", "note": "anul = ten rok (un an). Čte se „A-nul vi-i-TOR“.", "reviewed": false },
+        { "id": "u15-l1-w5", "target": "deseară", "native": "dnes večer", "note": "Čte se „de-SEA-ră“, ea je jedna slabika. Srovnejte: aseară = včera večer.", "reviewed": false },
+        { "id": "u15-l1-w6", "target": "mai târziu", "native": "později", "note": "târziu = pozdě. Čte se „maj tyr-ZJU“.", "reviewed": false },
+        { "id": "u15-l1-w7", "target": "curând", "native": "brzy", "note": "Často în curând = brzy, zanedlouho. Pe curând! = Brzy na viděnou! Čte se „ku-RYND“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l1-e1", "type": "choice", "question": "poimâine", "questionLang": "target", "options": ["pozítří", "předevčírem", "zítra"], "answer": "pozítří", "reviewed": false },
+        { "id": "u15-l1-e2", "type": "choice", "question": "dnes večer", "questionLang": "native", "options": ["deseară", "aseară", "dimineața"], "answer": "deseară", "reviewed": false },
+        { "id": "u15-l1-e3", "type": "match", "pairs": [
+          { "target": "poimâine", "native": "pozítří" },
+          { "target": "săptămâna viitoare", "native": "příští týden" },
+          { "target": "anul viitor", "native": "příští rok" },
+          { "target": "mai târziu", "native": "později" }
+        ], "reviewed": false },
+        { "id": "u15-l1-e4", "type": "listen", "audio": "O să lucrez mâine.", "options": ["O să lucrez mâine.", "Am lucrat ieri.", "Lucrez azi."], "answer": "O să lucrez mâine.", "reviewed": false },
+        { "id": "u15-l1-e5", "type": "listen", "audio": "Deseară o să gătesc.", "options": ["Dnes večer budu vařit.", "Včera večer jsem vařil(a).", "Zítra budu vařit."], "answer": "Dnes večer budu vařit.", "reviewed": false },
+        { "id": "u15-l1-e6", "type": "fill", "sentence": "Mâine o ___ merg la piață.", "translation": "Zítra půjdu na trh.", "options": ["să", "am", "sunt"], "answer": "să", "explain": "Budoucí čas: o să + sloveso, tedy o să merg.", "reviewed": false },
+        { "id": "u15-l1-e7", "type": "fill", "sentence": "Săptămâna viitoare o să ___ la mare.", "translation": "Příští týden pojedu k moři.", "options": ["merg", "mers", "merge"], "answer": "merg", "explain": "Po o să přijde sloveso ve stejné osobě jako v přítomném čase: eu merg → o să merg.", "reviewed": false },
+        { "id": "u15-l1-e8", "type": "choice", "question": "O să fie bine.", "questionLang": "target", "options": ["Bude dobře.", "Bylo dobře.", "Je dobře."], "answer": "Bude dobře.", "reviewed": false },
+        { "id": "u15-l1-e9", "type": "type", "question": "Pozítří budu pracovat.", "answer": "Poimâine o să lucrez.", "accept": ["O să lucrez poimâine.", "Poimâine voi lucra.", "Voi lucra poimâine."], "reviewed": false },
+        { "id": "u15-l1-e10", "type": "build", "question": "Příští rok pojedu do Rumunska.", "answer": "Anul viitor o să merg în România.", "extra": ["am"], "accept": ["O să merg în România anul viitor."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "title": "Plány na léto",
+      "titleTarget": "Planuri pentru vară",
+      "reviewed": false,
+      "tip": {
+        "title": "Druhý budoucí čas: voi merge",
+        "text": "Vedle „o să“ má rumunština ještě spisovnější budoucí čas a ten je hodně podobný češtině: voi + neurčitý tvar, jako české „budu + infinitiv“. Voi lucra = budu pracovat, dál vei lucra, va lucra, vom lucra, veți lucra, vor lucra. Uslyšíte ho ve zprávách a na úřadech a najdete ho v novinách. V řeči je běžnější „o să“, ale znamenají totéž: Voi pleca mâine. = O să plec mâine. = Zítra odjedu. U zvratných sloves stojí mă před voi: mă voi întoarce = vrátím se.",
+        "examples": [
+          { "target": "Voi rămâne acasă.", "native": "Zůstanu doma." },
+          { "target": "Vom vizita orașul.", "native": "Prohlédneme si město." },
+          { "target": "Mă voi întoarce duminică.", "native": "Vrátím se v neděli." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l2-w1", "target": "a pleca", "native": "odejít; odjet", "note": "eu plec, tu pleci, el pleacă. Plec mâine. = Zítra odjíždím. Čte se „a ple-KA“.", "reviewed": false },
+        { "id": "u15-l2-w2", "target": "a vizita", "native": "navštívit; prohlédnout si", "note": "Skupina -ez: eu vizitez. Hlavně místa: a vizita orașul = prohlédnout si město. Čte se „a vi-zi-TA“.", "reviewed": false },
+        { "id": "u15-l2-w3", "target": "a se întoarce", "native": "vrátit se", "note": "eu mă întorc, tu te întorci, el se întoarce. Čte se „a se yn-TOAR-če“.", "reviewed": false },
+        { "id": "u15-l2-w4", "target": "a rămâne", "native": "zůstat", "note": "eu rămân, tu rămâi, el rămâne. Čte se „a ră-MY-ne“.", "reviewed": false },
+        { "id": "u15-l2-w5", "target": "o excursie", "native": "výlet", "note": "excursia = ten výlet; množné číslo: excursii. Jet na výlet: a pleca în excursie. Čte se „eks-KUR-si-e“.", "reviewed": false },
+        { "id": "u15-l2-w6", "target": "un plan", "native": "plán", "note": "planul = ten plán; množné číslo: planuri. Ce planuri aveți? = Jaké máte plány?", "reviewed": false },
+        { "id": "u15-l2-w7", "target": "sigur", "native": "jistě; jistý", "note": "Sigur! = Jasně! Ženský rod: sigură. Nu sunt sigur. = Nejsem si jistý. Žena řekne: Nu sunt sigură.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l2-e1", "type": "choice", "question": "a rămâne", "questionLang": "target", "options": ["zůstat", "vrátit se", "odejít; odjet"], "answer": "zůstat", "reviewed": false },
+        { "id": "u15-l2-e2", "type": "choice", "question": "výlet", "questionLang": "native", "options": ["o excursie", "un plan", "un concediu"], "answer": "o excursie", "reviewed": false },
+        { "id": "u15-l2-e3", "type": "match", "pairs": [
+          { "target": "a pleca", "native": "odjet" },
+          { "target": "a vizita", "native": "navštívit" },
+          { "target": "a se întoarce", "native": "vrátit se" },
+          { "target": "sigur", "native": "jistě" }
+        ], "reviewed": false },
+        { "id": "u15-l2-e4", "type": "listen", "audio": "Vom rămâne acasă.", "options": ["Zůstaneme doma.", "Vrátíme se domů.", "Pojedeme na výlet."], "answer": "Zůstaneme doma.", "reviewed": false },
+        { "id": "u15-l2-e5", "type": "listen", "audio": "Mă voi întoarce mâine.", "options": ["Mă voi întoarce mâine.", "Mă întorc azi.", "Voi rămâne mâine."], "answer": "Mă voi întoarce mâine.", "reviewed": false },
+        { "id": "u15-l2-e6", "type": "fill", "sentence": "Voi ___ la mare două săptămâni.", "translation": "Zůstanu u moře dva týdny.", "options": ["rămâne", "rămân", "rămas"], "answer": "rămâne", "explain": "Po voi přijde neurčitý tvar bez „a“: voi rămâne.", "reviewed": false },
+        { "id": "u15-l2-e7", "type": "fill", "sentence": "Noi ___ pleca la munte.", "translation": "My pojedeme na hory.", "options": ["vom", "vor", "veți"], "answer": "vom", "explain": "Noi (my) = vom: vom pleca. Vor je „oni“, veți je „vy“.", "reviewed": false },
+        { "id": "u15-l2-e8", "type": "choice", "question": "Ce planuri aveți?", "questionLang": "target", "options": ["Jaké máte plány?", "Kam jedete?", "Kdy se vrátíte?"], "answer": "Jaké máte plány?", "reviewed": false },
+        { "id": "u15-l2-e9", "type": "type", "question": "Vrátím se v neděli.", "answer": "Mă voi întoarce duminică.", "accept": ["O să mă întorc duminică.", "Mă întorc duminică."], "reviewed": false },
+        { "id": "u15-l2-e10", "type": "build", "question": "Pojedu na výlet na hory.", "answer": "Voi pleca în excursie la munte.", "extra": ["plecat"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "title": "Telefonujeme si",
+      "titleTarget": "Vorbim la telefon",
+      "reviewed": false,
+      "tip": {
+        "title": "Za hodinu = peste o oră",
+        "text": "Některé časové údaje se rumunsky řeknou jinak než česky. „Za hodinu“ je peste o oră (peste znamená i „přes“), „za týden“ peste o săptămână. „Do pěti“ je până la cinci: Lucrez până la ora cinci. Na čas se zeptáte La ce oră? (V kolik hodin?) a odpověď zní La ora trei. Když něco plánujete, řekněte Am de gând să… (Mám v úmyslu…). Za ním přijde să a sloveso, jako po vreau: Am de gând să plec mâine.",
+        "examples": [
+          { "target": "Vă sun peste o oră.", "native": "Zavolám vám za hodinu." },
+          { "target": "La ce oră e întâlnirea?", "native": "V kolik hodin je ta schůzka?" },
+          { "target": "Am de gând să rămân acasă.", "native": "Mám v úmyslu zůstat doma." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l3-w1", "target": "a avea de gând", "native": "mít v úmyslu; chystat se", "note": "Am de gând să… = Chystám se… Gând = myšlenka. Čte se „de gynd“.", "reviewed": false },
+        { "id": "u15-l3-w2", "target": "a suna", "native": "zavolat; telefonovat", "note": "eu sun, tu suni, el sună. Te sun mâine. = Zavolám ti zítra. Znamená i „zvonit“.", "reviewed": false },
+        { "id": "u15-l3-w3", "target": "o întâlnire", "native": "schůzka", "note": "întâlnirea = ta schůzka; množné číslo: întâlniri. Čte se „yn-tyl-NI-re“.", "reviewed": false },
+        { "id": "u15-l3-w4", "target": "la ce oră", "native": "v kolik hodin", "note": "Odpověď: la ora trei = ve tři hodiny.", "reviewed": false },
+        { "id": "u15-l3-w5", "target": "peste o oră", "native": "za hodinu", "note": "peste = za: peste o săptămână = za týden. Neplést s după o oră = po hodině.", "reviewed": false },
+        { "id": "u15-l3-w6", "target": "până la", "native": "až do; do", "note": "până la ora cinci = do pěti hodin; până la gară = až na nádraží. Čte se „PY-nă la“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l3-e1", "type": "choice", "question": "peste o oră", "questionLang": "target", "options": ["za hodinu", "před hodinou", "v jednu hodinu"], "answer": "za hodinu", "reviewed": false },
+        { "id": "u15-l3-e2", "type": "choice", "question": "schůzka", "questionLang": "native", "options": ["o întâlnire", "o excursie", "o pauză"], "answer": "o întâlnire", "reviewed": false },
+        { "id": "u15-l3-e3", "type": "match", "pairs": [
+          { "target": "a suna", "native": "zavolat" },
+          { "target": "la ce oră", "native": "v kolik hodin" },
+          { "target": "până la", "native": "až do" },
+          { "target": "a avea de gând", "native": "mít v úmyslu" }
+        ], "reviewed": false },
+        { "id": "u15-l3-e4", "type": "listen", "audio": "Vă sun peste o oră.", "options": ["Zavolám vám za hodinu.", "Zavolám vám zítra.", "Zavolám vám dnes večer."], "answer": "Zavolám vám za hodinu.", "reviewed": false },
+        { "id": "u15-l3-e5", "type": "listen", "audio": "La ce oră e întâlnirea?", "options": ["La ce oră e întâlnirea?", "Unde e întâlnirea?", "Cât e ceasul?"], "answer": "La ce oră e întâlnirea?", "reviewed": false },
+        { "id": "u15-l3-e6", "type": "fill", "sentence": "Am de gând ___ plec mâine.", "translation": "Chystám se zítra odjet.", "options": ["să", "la", "de"], "answer": "să", "explain": "Po am de gând přijde să a sloveso, stejně jako po vreau.", "reviewed": false },
+        { "id": "u15-l3-e7", "type": "fill", "sentence": "Lucrez ___ la ora cinci.", "translation": "Pracuji do pěti hodin.", "options": ["până", "peste", "în"], "answer": "până", "explain": "„Do“ (až do určité doby) se řekne până la.", "reviewed": false },
+        { "id": "u15-l3-e8", "type": "choice", "question": "Zavolám ti zítra.", "questionLang": "native", "options": ["Te sun mâine.", "Te sun deseară.", "Te sun peste o oră."], "answer": "Te sun mâine.", "reviewed": false },
+        { "id": "u15-l3-e9", "type": "type", "question": "Za hodinu jsem doma.", "answer": "Peste o oră sunt acasă.", "accept": ["Peste o oră o să fiu acasă.", "Peste o oră voi fi acasă."], "reviewed": false },
+        { "id": "u15-l3-e10", "type": "build", "question": "Mám v úmyslu zůstat doma.", "answer": "Am de gând să rămân acasă.", "extra": ["rămâne"], "reviewed": false }
+      ]
+    }
+  ]
+}

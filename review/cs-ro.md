@@ -2,7 +2,7 @@
 
 > **Generovaný soubor, needitujte ho ručně.** Vzniká z JSON souborů v `/content` příkazem `npm run review`.
 
-**Zkontrolováno: 0 / 611 položek.**
+**Zkontrolováno: 0 / 1198 položek.**
 
 ## [ ] Kapitola 1: Pozdravy (Salut!) · A1
 
@@ -1132,3 +1132,1107 @@ Soubor: `content/cs-ro/unit10-ieri.json` · ID: `u10` · Popis: Minulý čas: co
 - [ ] `u10-l3-e8` *Výběr* — **N-am fost la mare.** — možnosti: „Nebyl(a) jsem u moře.“, „Byl(a) jsem u moře.“, „Nebyl(a) jsem na horách.“ — ✔ **Nebyl(a) jsem u moře.**
 - [ ] `u10-l3-e9` *Psaní* — **Neměl(a) jsem čas.** → ✔ **N-am avut timp.** (uznává se i: „Nu am avut timp.“)
 - [ ] `u10-l3-e10` *Skládání věty* — O víkendu jsem četl(a) a spal(a). → ✔ **În weekend am citit și am dormit.** (chybné dílky: „n-am“)
+
+## [ ] Kapitola 11: Zdraví (Sănătatea) · A2
+
+Soubor: `content/cs-ro/unit11-sanatate.json` · ID: `u11` · Popis: Části těla, co vás bolí, jak je vám a co říká lékař a lékárník.
+
+### [ ] 11.1: Tělo (Corpul) · `u11-l1`
+
+**[ ] Tip: Bolí mě hlava: Mă doare capul**
+
+> Tady to jde skoro jako v češtině: Mă doare capul. = Bolí mě hlava. Mă = mě, doare = bolí. Rozdíl je jen jeden: rumunsky neříkáte „moje hlava“, ale „ta hlava“ – část těla dostane člen na konci: cap → capul. Když bolí víc věcí, je sloveso v množném čísle: Mă dor picioarele. = Bolí mě nohy. Při vykání se lékař zeptá: Ce vă doare? (Co vás bolí?)
+>
+> - **Mă doare capul.** — Bolí mě hlava.
+> - **Mă doare spatele.** — Bolí mě záda.
+> - **Mă dor picioarele.** — Bolí mě nohy.
+> - **Ce vă doare?** — Co vás bolí?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l1-w1` | **un cap** | hlava | capul = ta hlava; množné číslo: capete. |
+| [ ] | `u11-l1-w2` | **o mână** | ruka | mâna = ta ruka; množné číslo: mâini. Čte se „MY-nă“. |
+| [ ] | `u11-l1-w3` | **un picior** | noha | piciorul = ta noha; množné číslo: picioare. Čte se „pi-ČOR“. |
+| [ ] | `u11-l1-w4` | **un ochi** | oko | ochiul = to oko; množné číslo: ochi. Čte se skoro „ok“ (ch = k, koncové i skoro neslyšné). |
+| [ ] | `u11-l1-w5` | **un gât** | krk | gâtul = ten krk; množné číslo: gâturi. Čte se „gyt“. Mă doare gâtul. = Bolí mě v krku. |
+| [ ] | `u11-l1-w6` | **un spate** | záda | spatele = ta záda. Česky množné číslo, rumunsky jednotné: Mă doare spatele. |
+| [ ] | `u11-l1-w7` | **o burtă** | břicho | burta = to břicho; množné číslo: burți. Mă doare burta. = Bolí mě břicho. |
+| [ ] | `u11-l1-w8` | **un dinte** | zub | dintele = ten zub; množné číslo: dinți. |
+| [ ] | `u11-l1-w9` | **Mă doare** | bolí mě | Když bolí víc věcí: Mă dor. Čte se „mă DOA-re“, oa je jedna slabika. |
+
+**Cvičení**
+
+- [ ] `u11-l1-e1` *Výběr* — **un ochi** — možnosti: „oko“, „ruka“, „zub“ — ✔ **oko**
+- [ ] `u11-l1-e2` *Výběr* — **záda** — možnosti: „un spate“, „o burtă“, „un gât“ — ✔ **un spate**
+- [ ] `u11-l1-e3` *Dvojice* — **o mână** = ruka · **un picior** = noha · **un gât** = krk · **un dinte** = zub
+- [ ] `u11-l1-e4` *Poslech* — 🔊 zazní: **Mă doare capul.** — možnosti: „Bolí mě hlava.“, „Bolí mě břicho.“, „Bolí mě záda.“ — ✔ **Bolí mě hlava.**
+- [ ] `u11-l1-e5` *Poslech* — 🔊 zazní: **Mă dor picioarele.** — možnosti: „Mă dor picioarele.“, „Mă doare piciorul.“, „Mă doare spatele.“ — ✔ **Mă dor picioarele.**
+- [ ] `u11-l1-e6` *Doplňování* — **Mă ___ picioarele.** (Bolí mě nohy.) — možnosti: „dor“, „doare“, „durere“ — ✔ **dor** — vysvětlení: Picioarele (nohy) je množné číslo, proto mă dor; u jedné věci mă doare.
+- [ ] `u11-l1-e7` *Doplňování* — **Mă doare ___.** (Bolí mě hlava.) — možnosti: „capul“, „cap“, „capului“ — ✔ **capul** — vysvětlení: Část těla dostane člen na konci: capul, doslova „ta hlava“.
+- [ ] `u11-l1-e8` *Psaní* — **Bolí mě záda.** → ✔ **Mă doare spatele.**
+- [ ] `u11-l1-e9` *Skládání věty* — Dnes mě bolí zub. → ✔ **Azi mă doare un dinte.** (chybné dílky: „dor“) (uznává se i: „Mă doare un dinte azi.“)
+- [ ] `u11-l1-e10` *Mluvení* — 🎤 **Mă doare gâtul.** — Bolí mě v krku.
+
+### [ ] 11.2: U lékaře (La medic) · `u11-l2`
+
+**[ ] Tip: Je mi zima: Mi-e frig**
+
+> Tady se rumunština chová jako čeština. Česky říkáme „je mi zima“, ne „jsem zima“. Rumunsky stejně: Mi-e frig. Mi = mi, e = je. Mi-e se čte jako jedna slabika „mje“. Jen hlad a žízeň jsou jinak: česky „mám hlad“, rumunsky „je mi hlad“ – Mi-e foame. Mi-e rău znamená „je mi zle“; nepleťte si to s Îmi pare rău (je mi líto). Horečku a kašel ale „máte“ jako česky: Am febră. Am tuse.
+>
+> - **Mi-e frig.** — Je mi zima.
+> - **Mi-e foame și mi-e sete.** — Mám hlad a žízeň.
+> - **Domnule doctor, mi-e rău.** — Pane doktore, je mi zle.
+> - **Am febră și tuse.** — Mám horečku a kašel.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l2-w1` | **un medic** | lékař | medicul = ten lékař; množné číslo: medici. Běžně se říká i doctor; oslovení: Domnule doctor! |
+| [ ] | `u11-l2-w2` | **febră** | horečka | febra = ta horečka. Obvykle bez „o“: Am febră. = Mám horečku. |
+| [ ] | `u11-l2-w3` | **tuse** | kašel | tusea = ten kašel. Obvykle bez „o“: Am tuse. = Mám kašel. |
+| [ ] | `u11-l2-w4` | **o răceală** | nachlazení | răceala = to nachlazení; množné číslo: răceli. Am o răceală. = Mám nachlazení. Čte se „ră-ČEA-lă“, ea je jedna slabika. |
+| [ ] | `u11-l2-w5` | **Mi-e rău.** | je mi zle | Čte se „mje răw“. Neplést s Îmi pare rău. = Je mi líto. |
+| [ ] | `u11-l2-w6` | **Mi-e frig.** | je mi zima | Opak: Mi-e cald. = Je mi teplo. |
+| [ ] | `u11-l2-w7` | **Mi-e foame.** | mám hlad | Doslova „je mi hlad“. Čte se „mje FOA-me“, oa je jedna slabika. |
+| [ ] | `u11-l2-w8` | **Mi-e sete.** | mám žízeň | Doslova „je mi žízeň“. Čte se „mje SE-te“. |
+
+**Cvičení**
+
+- [ ] `u11-l2-e1` *Výběr* — **Mi-e frig.** — možnosti: „je mi zima“, „je mi zle“, „mám hlad“ — ✔ **je mi zima**
+- [ ] `u11-l2-e2` *Výběr* — **nachlazení** — možnosti: „o răceală“, „tuse“, „febră“ — ✔ **o răceală**
+- [ ] `u11-l2-e3` *Dvojice* — **un medic** = lékař · **febră** = horečka · **tuse** = kašel · **Mi-e sete.** = mám žízeň
+- [ ] `u11-l2-e4` *Poslech* — 🔊 zazní: **Mi-e foame.** — možnosti: „Mi-e foame.“, „Mi-e frig.“, „Mi-e sete.“ — ✔ **Mi-e foame.**
+- [ ] `u11-l2-e5` *Poslech* — 🔊 zazní: **Am febră și tuse.** — možnosti: „Mám horečku a kašel.“, „Mám hlad a žízeň.“, „Bolí mě hlava a záda.“ — ✔ **Mám horečku a kašel.**
+- [ ] `u11-l2-e6` *Doplňování* — **___ febră și tuse.** (Mám horečku a kašel.) — možnosti: „Am“, „Sunt“, „Mi-e“ — ✔ **Am** — vysvětlení: Horečku a kašel „máte“ jako česky: am febră, am tuse.
+- [ ] `u11-l2-e7` *Doplňování* — **Am o ___ și mă doare capul.** (Mám nachlazení a bolí mě hlava.) — možnosti: „răceală“, „răceli“, „răceala“ — ✔ **răceală** — vysvětlení: Po o stojí tvar bez členu v jednotném čísle: o răceală.
+- [ ] `u11-l2-e8` *Psaní* — **Mám hlad.** → ✔ **Mi-e foame.**
+- [ ] `u11-l2-e9` *Skládání věty* — Je mi zima a mám hlad. → ✔ **Mi-e frig și mi-e foame.** (chybné dílky: „sunt“)
+- [ ] `u11-l2-e10` *Mluvení* — 🎤 **Domnule doctor, mi-e rău.** — Pane doktore, je mi zle.
+
+### [ ] 11.3: V lékárně (La farmacie) · `u11-l3`
+
+**[ ] Tip: Luați! – Nu uita!**
+
+> Lékař i lékárník vám vykají, takže uslyšíte rozkaz na -ți: Luați o pastilă! (Vezměte si tabletu!) Zápor je při vykání snadný: nu + stejný tvar, Nu uitați! (Nezapomeňte!) Při tykání je to jinak: zápor se tvoří z neurčitku bez „a“: a uita → Nu uita! (Nezapomeň!), a fuma → Nu fuma! (Nekuř!). Znáte to i z češtiny, z cedulí: „Nekouřit!“
+>
+> - **Luați o pastilă de trei ori pe zi.** — Berte jednu tabletu třikrát denně.
+> - **Nu uitați rețeta!** — Nezapomeňte recept!
+> - **Nu fuma!** — Nekuř!
+> - **Nu uita pastilele!** — Nezapomeň na prášky!
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l3-w1` | **o pastilă** | tableta; prášek | pastila = ta tableta; množné číslo: pastile. Čte se „pas-TI-lă“. |
+| [ ] | `u11-l3-w2` | **o rețetă** | recept | rețeta = ten recept; množné číslo: rețete. Od lékaře i na vaření. Čte se „re-CE-tă“. |
+| [ ] | `u11-l3-w3` | **de trei ori pe zi** | třikrát denně | ori = krát, pe zi = za den. Dvakrát denně: de două ori pe zi. |
+| [ ] | `u11-l3-w4` | **înainte de masă** | před jídlem | masă = stůl i jídlo. Čte se „y-na-IN-te de MA-să“. |
+| [ ] | `u11-l3-w5` | **după masă** | po jídle | Se spojovníkem, după-masă, to znamená „odpoledne“. |
+| [ ] | `u11-l3-w6` | **Luați!** | vezměte si; berte | Rozkaz při vykání, od a lua (vzít). Čte se „lu-AC“. Při tykání: Ia! |
+| [ ] | `u11-l3-w7` | **Nu uitați!** | nezapomeňte | Od a uita (zapomenout). Při tykání: Nu uita! Čte se „nu uj-TAC“. |
+
+**Cvičení**
+
+- [ ] `u11-l3-e1` *Výběr* — **o rețetă** — možnosti: „recept“, „tableta“, „lékárna“ — ✔ **recept**
+- [ ] `u11-l3-e2` *Výběr* — **třikrát denně** — možnosti: „de trei ori pe zi“, „trei zile“, „de trei ori pe săptămână“ — ✔ **de trei ori pe zi**
+- [ ] `u11-l3-e3` *Dvojice* — **o pastilă** = tableta · **înainte de masă** = před jídlem · **după masă** = po jídle · **Nu uitați!** = nezapomeňte
+- [ ] `u11-l3-e4` *Poslech* — 🔊 zazní: **Luați o pastilă după masă.** — možnosti: „Vezměte si tabletu po jídle.“, „Vezměte si tabletu před jídlem.“, „Nezapomeňte recept.“ — ✔ **Vezměte si tabletu po jídle.**
+- [ ] `u11-l3-e5` *Poslech* — 🔊 zazní: **Nu uitați rețeta!** — možnosti: „Nu uitați rețeta!“, „Nu uita rețeta!“, „Luați rețeta!“ — ✔ **Nu uitați rețeta!**
+- [ ] `u11-l3-e6` *Doplňování* — **Luați o pastilă de trei ___ pe zi.** (Berte jednu tabletu třikrát denně.) — možnosti: „ori“, „oră“, „ora“ — ✔ **ori** — vysvětlení: „Krát“ se řekne ori: de două ori, de trei ori.
+- [ ] `u11-l3-e7` *Doplňování* — **Mihai, nu ___ pastilele!** (Mihai, nezapomeň na prášky!) — možnosti: „uita“, „uitat“, „uitând“ — ✔ **uita** — vysvětlení: Zápor při tykání: nu + neurčitek bez a, tedy nu uita.
+- [ ] `u11-l3-e8` *Psaní* — **Nezapomeňte!** → ✔ **Nu uitați!**
+- [ ] `u11-l3-e9` *Skládání věty* — Vezměte si jednu tabletu před jídlem. → ✔ **Luați o pastilă înainte de masă.** (chybné dílky: „luat“)
+- [ ] `u11-l3-e10` *Výběr* — **Nu fuma!** — možnosti: „Nekuř!“, „Kuř!“, „Nekouřím.“ — ✔ **Nekuř!**
+
+## [ ] Kapitola 12: Co se mi líbí (Îmi place) · A2
+
+Soubor: `content/cs-ro/unit12-imi-place.json` · ID: `u12` · Popis: Co se vám líbí, co děláte ve volném čase a jak někoho pozvat nebo zdvořile odmítnout.
+
+### [ ] 12.1: Líbí se mi (Îmi place) · `u12-l1`
+
+**[ ] Tip: Líbí se mi: Îmi place**
+
+> Dobrá zpráva: funguje to stejně jako česky. „Líbí se mi hudba“ – hudba je podmět, já jsem ve 3. pádě (mi). Rumunsky: Îmi place muzica. Îmi = mi. Když se líbí víc věcí, je sloveso v množném čísle: Îmi plac filmele. Pro další osoby: îți (ti), îi (jemu, jí), ne (nám), vă (vám), le (jim). O věcech obecně se mluví se členem: Îmi place cafeaua. (Chutná mi káva.) Place platí i pro jídlo.
+>
+> - **Îmi place muzica.** — Líbí se mi hudba.
+> - **Nu-mi plac filmele noi.** — Nelíbí se mi nové filmy.
+> - **Vă place grădina?** — Líbí se vám zahrada?
+> - **Îți place cafeaua?** — Chutná ti káva?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l1-w1` | **Îmi place** | líbí se mi | Pro jednu věc. Platí i pro jídlo: Îmi place supa. = Chutná mi polévka. Čte se „ym PLA-če“. |
+| [ ] | `u12-l1-w2` | **Nu-mi place** | nelíbí se mi | nu + îmi = nu-mi. Čte se „num PLA-če“. |
+| [ ] | `u12-l1-w3` | **Îmi plac** | líbí se mi ty věci | Pro víc věcí: Îmi plac filmele. = Líbí se mi filmy. Čte se „ym plak“. |
+| [ ] | `u12-l1-w4` | **a iubi** | milovat | Slovanské slovo, příbuzné s českým „líbit“. Te iubesc. = Miluji tě. Čte se „a ju-BI“. |
+| [ ] | `u12-l1-w5` | **muzică** | hudba | muzica = ta hudba. Obvykle bez „o“: Îmi place muzica. |
+| [ ] | `u12-l1-w6` | **un film** | film | filmul = ten film; množné číslo: filme. |
+| [ ] | `u12-l1-w7` | **o carte** | kniha | cartea = ta kniha; množné číslo: cărți, čte se „kărc“. |
+| [ ] | `u12-l1-w8` | **o grădină** | zahrada | grădina = ta zahrada; množné číslo: grădini. Slovanské slovo, srovnejte ohrada. Čte se „gră-DI-nă“. |
+
+**Cvičení**
+
+- [ ] `u12-l1-e1` *Výběr* — **Nu-mi place** — možnosti: „nelíbí se mi“, „líbí se mi“, „je mi líto“ — ✔ **nelíbí se mi**
+- [ ] `u12-l1-e2` *Výběr* — **zahrada** — možnosti: „o grădină“, „o carte“, „un film“ — ✔ **o grădină**
+- [ ] `u12-l1-e3` *Dvojice* — **muzică** = hudba · **un film** = film · **o carte** = kniha · **a iubi** = milovat
+- [ ] `u12-l1-e4` *Poslech* — 🔊 zazní: **Îmi place muzica.** — možnosti: „Líbí se mi hudba.“, „Nelíbí se mi hudba.“, „Líbí se mi film.“ — ✔ **Líbí se mi hudba.**
+- [ ] `u12-l1-e5` *Poslech* — 🔊 zazní: **Îmi plac cărțile.** — možnosti: „Îmi plac cărțile.“, „Îmi place cartea.“, „Nu-mi plac cărțile.“ — ✔ **Îmi plac cărțile.**
+- [ ] `u12-l1-e6` *Doplňování* — **Îmi ___ filmele.** (Líbí se mi filmy.) — možnosti: „plac“, „place“, „plăcut“ — ✔ **plac** — vysvětlení: Filmele (filmy) je množné číslo, proto îmi plac.
+- [ ] `u12-l1-e7` *Doplňování* — **___ place grădina?** (Líbí se vám zahrada?) — možnosti: „Vă“, „Voi“, „Dumneavoastră“ — ✔ **Vă** — vysvětlení: „Vám“ ve 3. pádě je vă, jako české „líbí se vám“.
+- [ ] `u12-l1-e8` *Psaní* — **Chutná mi káva.** → ✔ **Îmi place cafeaua.**
+- [ ] `u12-l1-e9` *Skládání věty* — Nelíbí se mi tento film. → ✔ **Nu-mi place acest film.** (chybné dílky: „plac“)
+- [ ] `u12-l1-e10` *Mluvení* — 🎤 **Îmi place grădina.** — Líbí se mi zahrada.
+
+### [ ] 12.2: Volný čas (Timpul liber) · `u12-l2`
+
+**[ ] Tip: Co děláte rádi: Îmi place să cânt**
+
+> „Rád(a) něco dělám“ se řekne Îmi place să… a sloveso v osobě: Îmi place să cânt. (Rád(a) zpívám.) Infinitiv se nepoužije, stejně jako u vreau să merg. Některá slovesa jsou zvratná jako v češtině: a se plimba = procházet se. Místo českého „se“ se ale mění zájmeno podle osoby: mă plimb (procházím se), te plimbi (procházíš se), se plimbă (prochází se). Proto: Îmi place să mă plimb. A pozor: dívat se na televizi = a se uita la televizor, s předložkou la.
+>
+> - **Îmi place să dansez.** — Rád(a) tancuji.
+> - **Duminica mă plimb în parc.** — Každou neděli se procházím v parku.
+> - **Bunica tricotează seara.** — Babička večer plete.
+> - **Ce îți place să faci în timpul liber?** — Co rád(a) děláš ve volném čase?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l2-w1` | **a cânta** | zpívat | Eu cânt. = Zpívám. Znamená i hrát na nástroj: cânt la pian. Čte se „a kyn-TA“. |
+| [ ] | `u12-l2-w2` | **a dansa** | tancovat | Eu dansez. = Tancuji. |
+| [ ] | `u12-l2-w3` | **a înota** | plavat | Eu înot. = Plavu. Čte se „a y-no-TA“. |
+| [ ] | `u12-l2-w4` | **a se plimba** | procházet se | Eu mă plimb, tu te plimbi, el se plimbă. Čte se „a se plim-BA“. |
+| [ ] | `u12-l2-w5` | **a tricota** | plést | Eu tricotez. = Pletu. Myslí se pletení z vlny. |
+| [ ] | `u12-l2-w6` | **a se uita la televizor** | dívat se na televizi | Eu mă uit la televizor. Čte se „a se uj-TA la te-le-vi-ZOR“. |
+| [ ] | `u12-l2-w7` | **o plimbare** | procházka | plimbarea = ta procházka; množné číslo: plimbări. Facem o plimbare? = Půjdeme se projít? Čte se „plim-BA-re“. |
+| [ ] | `u12-l2-w8` | **timp liber** | volný čas | Bez „un“, jako timp. În timpul liber = ve volném čase. |
+
+**Cvičení**
+
+- [ ] `u12-l2-e1` *Výběr* — **a înota** — možnosti: „plavat“, „tancovat“, „zpívat“ — ✔ **plavat**
+- [ ] `u12-l2-e2` *Výběr* — **plést** — možnosti: „a tricota“, „a dansa“, „a cânta“ — ✔ **a tricota**
+- [ ] `u12-l2-e3` *Dvojice* — **a cânta** = zpívat · **a dansa** = tancovat · **a se plimba** = procházet se · **timp liber** = volný čas
+- [ ] `u12-l2-e4` *Poslech* — 🔊 zazní: **Îmi place să înot.** — možnosti: „Rád(a) plavu.“, „Rád(a) tancuji.“, „Rád(a) zpívám.“ — ✔ **Rád(a) plavu.**
+- [ ] `u12-l2-e5` *Poslech* — 🔊 zazní: **Facem o plimbare?** — možnosti: „Facem o plimbare?“, „Faceți o plimbare?“, „Vrei o plimbare?“ — ✔ **Facem o plimbare?**
+- [ ] `u12-l2-e6` *Doplňování* — **Îmi place să ___.** (Rád(a) tancuji.) — možnosti: „dansez“, „dansa“, „dansat“ — ✔ **dansez** — vysvětlení: Po să stojí sloveso v osobě (să dansez), ne infinitiv.
+- [ ] `u12-l2-e7` *Doplňování* — **Duminica ___ plimb în parc.** (Každou neděli se procházím v parku.) — možnosti: „mă“, „îmi“, „se“ — ✔ **mă** — vysvětlení: Já se procházím = mă plimb; se plimbă = on nebo ona se prochází.
+- [ ] `u12-l2-e8` *Psaní* — **Dívám se na televizi.** → ✔ **Mă uit la televizor.** (uznává se i: „Eu mă uit la televizor.“)
+- [ ] `u12-l2-e9` *Skládání věty* — Co rád(a) děláš ve volném čase? → ✔ **Ce îți place să faci în timpul liber?** (chybné dílky: „îmi“)
+- [ ] `u12-l2-e10` *Mluvení* — 🎤 **Îmi place să mă plimb.** — Rád(a) se procházím.
+
+### [ ] 12.3: Pozvání (O invitație) · `u12-l3`
+
+**[ ] Tip: Hai să mergem! a zdvořilé ne**
+
+> Pozvat někoho je snadné: Hai să mergem! (Pojďme!) Hai să mâncăm! (Pojďme se najíst!) Po hai să stojí sloveso v 1. osobě množného čísla, jako u českého „pojďme“. Otázka: Vrei să vii? (Chceš přijít?), při vykání Vreți să veniți? Když ano: Cu drag! nebo De acord. Zdvořilé ne: Mulțumesc, dar nu pot. Poate altă dată. Pozor na drag: neznamená „drahý“ (to je scump), ale „milý“. Cu drag = s radostí.
+>
+> - **Hai să mergem la mare!** — Pojeďme k moři!
+> - **Vrei să vii la noi sâmbătă?** — Chceš k nám přijít v sobotu?
+> - **Mulțumesc, dar nu pot. Poate altă dată.** — Děkuji, ale nemůžu. Třeba jindy.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l3-w1` | **Hai să mergem!** | pojďme! | Hai să + tvar pro „my“: Hai să mâncăm! = Pojďme jíst! Čte se „haj să MER-džem“. |
+| [ ] | `u12-l3-w2` | **Vrei să vii?** | chceš přijít? | vii = přijdeš, od a veni. Při vykání: Vreți să veniți? Čte se „vrej să vij“. |
+| [ ] | `u12-l3-w3` | **Cu drag.** | s radostí | drag = milý, ne drahý. Odpověď na pozvání i na poděkování (rádo se stalo). |
+| [ ] | `u12-l3-w4` | **Nu pot.** | nemůžu | Od a putea (moct). Pot = můžu, jako v Pot să probez? |
+| [ ] | `u12-l3-w5` | **Poate altă dată.** | třeba jindy | poate = možná, altă dată = jindy. Čte se „POA-te AL-tă DA-tă“, oa je jedna slabika. |
+| [ ] | `u12-l3-w6` | **o invitație** | pozvání; pozvánka | invitația = to pozvání; množné číslo: invitații. Čte se „in-vi-TA-ci-e“. |
+| [ ] | `u12-l3-w7` | **De acord.** | souhlasím; platí | Celá věta: Sunt de acord. = Souhlasím. Čte se „de a-KORD“. |
+
+**Cvičení**
+
+- [ ] `u12-l3-e1` *Výběr* — **Poate altă dată.** — možnosti: „třeba jindy“, „s radostí“, „nemůžu“ — ✔ **třeba jindy**
+- [ ] `u12-l3-e2` *Výběr* — **pojďme!** — možnosti: „Hai să mergem!“, „Vrei să vii?“, „De acord.“ — ✔ **Hai să mergem!**
+- [ ] `u12-l3-e3` *Dvojice* — **Cu drag.** = s radostí · **Nu pot.** = nemůžu · **De acord.** = souhlasím · **o invitație** = pozvání
+- [ ] `u12-l3-e4` *Poslech* — 🔊 zazní: **Vrei să vii la noi duminică?** — možnosti: „Chceš k nám přijít v neděli?“, „Chceš k nám přijít v sobotu?“, „Můžeš přijít zítra?“ — ✔ **Chceš k nám přijít v neděli?**
+- [ ] `u12-l3-e5` *Poslech* — 🔊 zazní: **Hai să mâncăm!** — možnosti: „Hai să mâncăm!“, „Hai să mergem!“, „Hai să dansăm!“ — ✔ **Hai să mâncăm!**
+- [ ] `u12-l3-e6` *Doplňování* — **Hai să ___ la mare!** (Pojeďme k moři!) — možnosti: „mergem“, „merge“, „mers“ — ✔ **mergem** — vysvětlení: Po hai să stojí tvar pro „my“: să mergem.
+- [ ] `u12-l3-e7` *Doplňování* — **Mulțumesc, dar nu ___.** (Děkuji, ale nemůžu.) — možnosti: „pot“, „putut“, „a putea“ — ✔ **pot** — vysvětlení: Můžu = pot, nemůžu = nu pot.
+- [ ] `u12-l3-e8` *Psaní* — **Souhlasím.** → ✔ **De acord.** (uznává se i: „Sunt de acord.“)
+- [ ] `u12-l3-e9` *Skládání věty* — Děkuji za pozvání, ale nemůžu. → ✔ **Mulțumesc pentru invitație, dar nu pot.** (chybné dílky: „poate“)
+- [ ] `u12-l3-e10` *Mluvení* — 🎤 **Cu drag! Hai să mergem!** — S radostí! Pojďme!
+
+## [ ] Kapitola 13: Počasí (Vremea) · A2
+
+Soubor: `content/cs-ro/unit13-vremea.json` · ID: `u13` · Popis: Jaké je počasí, roční období, měsíce a data.
+
+### [ ] 13.1: Jaké je počasí? (Cum e vremea?) · `u13-l1`
+
+**[ ] Tip: Prší, je teplo: plouă, e cald**
+
+> O počasí se mluví bez podmětu, úplně jako česky: Plouă. = Prší. Ninge. = Sněží. E cald. = Je teplo. E frig. = Je zima. Pozor na rozdíl: E frig. znamená, že je zima venku, Mi-e frig. že je zima mně. Slovo vreme (počasí) je slovanské, srovnejte ruské „vremja“ (čas). Zeptáte se: Cum e vremea? (Jaké je počasí?) Slunce a vítr: E soare. (Je slunečno.) Bate vântul. (Fouká vítr.)
+>
+> - **Azi plouă.** — Dnes prší.
+> - **Cum e vremea?** — Jaké je počasí?
+> - **E soare și e cald.** — Je slunečno a teplo.
+> - **Bate vântul.** — Fouká vítr.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l1-w1` | **vremea** | počasí | Tvar se členem = to počasí; bez členu: vreme. Čte se „VRE-mea“, ea je jedna slabika. |
+| [ ] | `u13-l1-w2` | **soare** | slunce | soarele = to slunce. Obvykle bez „un“: E soare. = Je slunečno. Čte se „SOA-re“, oa je jedna slabika. |
+| [ ] | `u13-l1-w3` | **o ploaie** | déšť | ploaia = ten déšť; množné číslo: ploi. Čte se „PLOA-je“, oa je jedna slabika. |
+| [ ] | `u13-l1-w4` | **zăpadă** | sníh | zăpada = ten sníh. Nepočítá se, proto bez „o“. Čte se „ză-PA-dă“. |
+| [ ] | `u13-l1-w5` | **un vânt** | vítr | vântul = ten vítr; množné číslo: vânturi. Bate vântul. = Fouká vítr. Čte se „vynt“. |
+| [ ] | `u13-l1-w6` | **plouă** | prší | Od a ploua. Bez podmětu, jako česky. Čte se „PLO-wă“. |
+| [ ] | `u13-l1-w7` | **ninge** | sněží | Od a ninge. Čte se „NIN-dže“. |
+| [ ] | `u13-l1-w8` | **e cald** | je teplo | Opak: e frig = je zima. Čte se „je kald“. |
+
+**Cvičení**
+
+- [ ] `u13-l1-e1` *Výběr* — **ninge** — možnosti: „sněží“, „prší“, „fouká vítr“ — ✔ **sněží**
+- [ ] `u13-l1-e2` *Výběr* — **déšť** — možnosti: „o ploaie“, „zăpadă“, „un vânt“ — ✔ **o ploaie**
+- [ ] `u13-l1-e3` *Dvojice* — **soare** = slunce · **zăpadă** = sníh · **un vânt** = vítr · **vremea** = počasí
+- [ ] `u13-l1-e4` *Poslech* — 🔊 zazní: **Azi plouă și e frig.** — možnosti: „Dnes prší a je zima.“, „Dnes sněží a je zima.“, „Dnes prší a je teplo.“ — ✔ **Dnes prší a je zima.**
+- [ ] `u13-l1-e5` *Poslech* — 🔊 zazní: **Cum e vremea?** — možnosti: „Cum e vremea?“, „Cât e ceasul?“, „Ce mai faceți?“ — ✔ **Cum e vremea?**
+- [ ] `u13-l1-e6` *Doplňování* — **Azi ___ cald.** (Dnes je teplo.) — možnosti: „e“, „are“, „fac“ — ✔ **e** — vysvětlení: Je teplo = e cald, bez podmětu, jako česky.
+- [ ] `u13-l1-e7` *Doplňování* — **Azi ___ și e frig.** (Dnes sněží a je zima.) — možnosti: „ninge“, „zăpadă“, „ninsoare“ — ✔ **ninge** — vysvětlení: Sněží = ninge (sloveso); zăpadă je podstatné jméno, sníh.
+- [ ] `u13-l1-e8` *Psaní* — **Prší.** → ✔ **Plouă.**
+- [ ] `u13-l1-e9` *Skládání věty* — Je slunečno a fouká vítr. → ✔ **E soare și bate vântul.** (chybné dílky: „vânt“)
+- [ ] `u13-l1-e10` *Mluvení* — 🎤 **Azi e soare și e cald.** — Dnes je slunečno a teplo.
+
+### [ ] 13.2: Roční období (Anotimpurile) · `u13-l2`
+
+**[ ] Tip: Vara = v létě**
+
+> Roční období se členem na konci znamenají „kdy“: vara = v létě, iarna = v zimě, primăvara = na jaře, toamna = na podzim. Žádná předložka není potřeba. Je to podobné jako u dnů: lunea = každé pondělí. Vara merg la mare. = V létě jezdím k moři. Bez členu jsou to obyčejná podstatná jména: o vară, o iarnă. Pozor, česky jsou „zima“ i „je zima“ stejné slovo, rumunsky ne: iarna e frig = v zimě je zima.
+>
+> - **Vara merg la mare.** — V létě jezdím k moři.
+> - **Iarna ninge și e frig.** — V zimě sněží a je zima.
+> - **Primăvara lucrez în grădină.** — Na jaře pracuji na zahradě.
+> - **Toamna plouă.** — Na podzim prší.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l2-w1` | **o primăvară** | jaro | primăvara = to jaro i na jaře; množné číslo: primăveri. Čte se „pri-mă-VA-ră“. |
+| [ ] | `u13-l2-w2` | **o vară** | léto | vara = to léto; množné číslo: veri. |
+| [ ] | `u13-l2-w3` | **o toamnă** | podzim | toamna = ten podzim i na podzim; množné číslo: toamne. Čte se „TOAM-nă“, oa je jedna slabika. |
+| [ ] | `u13-l2-w4` | **o iarnă** | zima | iarna = ta zima; množné číslo: ierni. Čte se „JAR-nă“. |
+| [ ] | `u13-l2-w5` | **un anotimp** | roční období | anotimpul = to roční období; množné číslo: anotimpuri. Doslova an + timp, „roční čas“. Čte se „a-no-TIMP“. |
+| [ ] | `u13-l2-w6` | **iarna** | v zimě | Tvar se členem, bez předložky. Znamená i „ta zima“. |
+| [ ] | `u13-l2-w7` | **vara** | v létě | Tvar se členem, bez předložky. Znamená i „to léto“. |
+| [ ] | `u13-l2-w8` | **un nor** | mrak | norul = ten mrak; množné číslo: nori. E înnorat. = Je zataženo. |
+
+**Cvičení**
+
+- [ ] `u13-l2-e1` *Výběr* — **un anotimp** — možnosti: „roční období“, „rok“, „měsíc“ — ✔ **roční období**
+- [ ] `u13-l2-e2` *Výběr* — **podzim** — možnosti: „o toamnă“, „o primăvară“, „o iarnă“ — ✔ **o toamnă**
+- [ ] `u13-l2-e3` *Dvojice* — **o primăvară** = jaro · **o vară** = léto · **o iarnă** = zima · **un nor** = mrak
+- [ ] `u13-l2-e4` *Poslech* — 🔊 zazní: **Iarna ninge.** — možnosti: „V zimě sněží.“, „V létě prší.“, „Na jaře sněží.“ — ✔ **V zimě sněží.**
+- [ ] `u13-l2-e5` *Poslech* — 🔊 zazní: **Vara merg la mare.** — možnosti: „Vara merg la mare.“, „Iarna merg la munte.“, „Vara merg la munte.“ — ✔ **Vara merg la mare.**
+- [ ] `u13-l2-e6` *Doplňování* — **___ merg la mare.** (V létě jezdím k moři.) — možnosti: „Vara“, „Vară“, „În vara“ — ✔ **Vara** — vysvětlení: „V létě“ = vara: tvar se členem, bez předložky.
+- [ ] `u13-l2-e7` *Doplňování* — **Un an are patru ___.** (Rok má čtyři roční období.) — možnosti: „anotimpuri“, „anotimp“, „anotimpul“ — ✔ **anotimpuri** — vysvětlení: Po číslovce stojí množné číslo: patru anotimpuri.
+- [ ] `u13-l2-e8` *Psaní* — **V zimě sněží.** → ✔ **Iarna ninge.**
+- [ ] `u13-l2-e9` *Skládání věty* — Na podzim prší a je zima. → ✔ **Toamna plouă și e frig.** (chybné dílky: „toamnă“)
+- [ ] `u13-l2-e10` *Mluvení* — 🎤 **Iarna e frig.** — V zimě je zima.
+
+### [ ] 13.3: Měsíce a data (Lunile și datele) · `u13-l3`
+
+**[ ] Tip: Prvního května: pe întâi mai**
+
+> Datum se řekne s předložkou pe a obyčejnou číslovkou: pe cinci iunie = pátého června. Česky „pátého“, rumunsky jen „pět“. Výjimka je první den v měsíci: pe întâi mai = prvního května. „V květnu“ se řekne în mai. Měsíce se píšou malým písmenem: ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie. Většinu poznáte, jsou podobné latinským názvům.
+>
+> - **Ziua mea de naștere e pe cinci august.** — Mám narozeniny pátého srpna.
+> - **Pe întâi ianuarie nu lucrez.** — Prvního ledna nepracuji.
+> - **În decembrie ninge.** — V prosinci sněží.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l3-w1` | **o lună** | měsíc | luna = ten měsíc, i Měsíc na nebi; množné číslo: luni, stejně jako pondělí. |
+| [ ] | `u13-l3-w2` | **ianuarie** | leden | Měsíce se píšou malým písmenem. Čte se „ja-nu-A-ri-e“. |
+| [ ] | `u13-l3-w3` | **aprilie** | duben | Čte se „a-PRI-li-e“. |
+| [ ] | `u13-l3-w4` | **mai** | květen | Čte se „maj“. Pozor: mai znamená i „ještě, víc“, jako v Ce mai faci? |
+| [ ] | `u13-l3-w5` | **august** | srpen | Čte se „AU-gust“. |
+| [ ] | `u13-l3-w6` | **decembrie** | prosinec | Čte se „de-ČEM-bri-e“. |
+| [ ] | `u13-l3-w7` | **întâi** | prvního | Jen v datu: pe întâi mai. Jinak „první“ = primul, prima. Čte se „yn-TYJ“. |
+| [ ] | `u13-l3-w8` | **o zi de naștere** | narozeniny | ziua de naștere = ty narozeniny; množné číslo: zile de naștere. Doslova „den narození“. Čte se „zi de NAŠ-te-re“. |
+
+**Cvičení**
+
+- [ ] `u13-l3-e1` *Výběr* — **decembrie** — možnosti: „prosinec“, „listopad“, „leden“ — ✔ **prosinec**
+- [ ] `u13-l3-e2` *Výběr* — **narozeniny** — možnosti: „o zi de naștere“, „o lună“, „un an“ — ✔ **o zi de naștere**
+- [ ] `u13-l3-e3` *Dvojice* — **ianuarie** = leden · **aprilie** = duben · **mai** = květen · **august** = srpen
+- [ ] `u13-l3-e4` *Poslech* — 🔊 zazní: **Pe întâi mai merg la munte.** — možnosti: „Prvního května jedu na hory.“, „Prvního března jedu na hory.“, „Prvního května jedu k moři.“ — ✔ **Prvního května jedu na hory.**
+- [ ] `u13-l3-e5` *Poslech* — 🔊 zazní: **pe cinci august** — možnosti: „pe cinci august“, „pe șase august“, „pe cinci aprilie“ — ✔ **pe cinci august**
+- [ ] `u13-l3-e6` *Doplňování* — **Pe ___ ianuarie nu lucrez.** (Prvního ledna nepracuji.) — možnosti: „întâi“, „prima“, „unul“ — ✔ **întâi** — vysvětlení: První den v měsíci je întâi: pe întâi ianuarie.
+- [ ] `u13-l3-e7` *Doplňování* — **Merg la mare ___ august.** (V srpnu jedu k moři.) — možnosti: „în“, „pe“, „cu“ — ✔ **în** — vysvětlení: V měsíci = în: în august. Pe se dává jen k datu: pe cinci august.
+- [ ] `u13-l3-e8` *Psaní* — **v prosinci** → ✔ **în decembrie**
+- [ ] `u13-l3-e9` *Skládání věty* — Mám narozeniny pátého srpna. → ✔ **Ziua mea de naștere e pe cinci august.** (chybné dílky: „în“)
+- [ ] `u13-l3-e10` *Mluvení* — 🎤 **Ziua mea de naștere e în mai.** — Mám narozeniny v květnu.
+
+## [ ] Kapitola 14: Práce (Munca) · A2
+
+Soubor: `content/cs-ro/unit14-munca.json` · ID: `u14` · Popis: Povolání, čí co je a slova z práce: firma, šéf, porada, plat.
+
+### [ ] 14.1: Povolání (Meserii) · `u14-l1`
+
+**[ ] Tip: Učitel a učitelka**
+
+> Česky se ženský tvar povolání tvoří hlavně koncovkou -ka: učitel – učitelka, prodavač – prodavačka. Rumunsky také koncovkou, jen jinou: profesor – profesoară, vânzător – vânzătoare, pensionar – pensionară, asistent – asistentă. O ženě se někdy říká i mužským tvarem, hlavně u slova inginer. Po „sunt“ nebo „e“ stojí povolání bez un a bez o, stejně jako česky: Sunt profesoară. Soțul meu e șofer. Na povolání se zeptáte: Ce lucrați? (Co děláte?)
+>
+> - **Sunt profesoară.** — Jsem učitelka.
+> - **Soțul meu e inginer.** — Můj manžel je inženýr.
+> - **Ce lucrați?** — Co děláte? Jakou máte práci?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l1-w1` | **un profesor** | učitel | profesorul = ten učitel; množné číslo: profesori. Učitel na škole i profesor. Čte se „pro-fe-SOR“. |
+| [ ] | `u14-l1-w2` | **o profesoară** | učitelka | profesoara = ta učitelka; množné číslo: profesoare. Čte se „pro-fe-SOA-ră“, oa je jedna slabika. |
+| [ ] | `u14-l1-w3` | **un inginer** | inženýr | inginerul = ten inženýr; množné číslo: ingineri. O ženě se často říká také inginer. Čte se „in-dži-NER“. |
+| [ ] | `u14-l1-w4` | **o vânzătoare** | prodavačka | vânzătoarea = ta prodavačka; množné číslo: vânzătoare. Prodavač: un vânzător. Čte se „vyn-ză-TOA-re“. |
+| [ ] | `u14-l1-w5` | **un șofer** | řidič | șoferul = ten řidič; množné číslo: șoferi. Řidič autobusu: șofer de autobuz. Čte se „šo-FER“. |
+| [ ] | `u14-l1-w6` | **o asistentă** | zdravotní sestra | asistenta = ta sestra; množné číslo: asistente. Celým názvem asistentă medicală. Sestra v rodině je o soră. |
+| [ ] | `u14-l1-w7` | **un pensionar** | důchodce | pensionarul = ten důchodce; množné číslo: pensionari. Sunt la pensie. = Jsem v důchodu. Čte se „pen-sjo-NAR“. |
+| [ ] | `u14-l1-w8` | **o pensionară** | důchodkyně | pensionara = ta důchodkyně; množné číslo: pensionare. Čte se „pen-sjo-NA-ră“. |
+
+**Cvičení**
+
+- [ ] `u14-l1-e1` *Výběr* — **un șofer** — možnosti: „řidič“, „inženýr“, „učitel“ — ✔ **řidič**
+- [ ] `u14-l1-e2` *Výběr* — **prodavačka** — možnosti: „o vânzătoare“, „o profesoară“, „o asistentă“ — ✔ **o vânzătoare**
+- [ ] `u14-l1-e3` *Dvojice* — **un profesor** = učitel · **un inginer** = inženýr · **o asistentă** = zdravotní sestra · **un pensionar** = důchodce
+- [ ] `u14-l1-e4` *Poslech* — 🔊 zazní: **Sunt pensionară.** — možnosti: „Sunt pensionară.“, „Sunt pensionar.“, „Sunt profesoară.“ — ✔ **Sunt pensionară.**
+- [ ] `u14-l1-e5` *Poslech* — 🔊 zazní: **Soțul meu e șofer.** — možnosti: „Můj manžel je řidič.“, „Můj manžel je inženýr.“, „Můj bratr je řidič.“ — ✔ **Můj manžel je řidič.**
+- [ ] `u14-l1-e6` *Doplňování* — **Părinții mei sunt ___.** (Moji rodiče jsou důchodci.) — možnosti: „pensionari“, „pensionar“, „pensionară“ — ✔ **pensionari** — vysvětlení: Rodiče jsou dva, proto množné číslo: un pensionar – doi pensionari.
+- [ ] `u14-l1-e7` *Doplňování* — **Mama e profesoară, iar tata e ___.** (Máma je učitelka a táta je inženýr.) — možnosti: „inginer“, „profesoară“, „vânzătoare“ — ✔ **inginer** — vysvětlení: Profesoară a vânzătoare jsou ženské tvary, o tátovi je použít nelze.
+- [ ] `u14-l1-e8` *Výběr* — **důchodkyně** — možnosti: „o pensionară“, „un pensionar“, „o profesoară“ — ✔ **o pensionară**
+- [ ] `u14-l1-e9` *Psaní* — **Můj manžel je řidič.** → ✔ **Soțul meu e șofer.** (uznává se i: „Soțul meu este șofer.“)
+- [ ] `u14-l1-e10` *Skládání věty* — Moje dcera je zdravotní sestra. → ✔ **Fiica mea e asistentă.** (chybné dílky: „meu“)
+
+### [ ] 14.2: Čí to je? (Al cui e?) · `u14-l2`
+
+**[ ] Tip: Al, a, ai, ale: podle věci**
+
+> Na „čí?“ se rumunsky ptá Al cui e? Odpověď: E al meu. (Je můj.) Malé slovo al, a, ai, ale se řídí věcí, ne majitelem – stejně jako české můj, moje: Scaunul e al meu. Mașina e a mea. Copiii sunt ai mei. Scaunele sunt ale mele. Pozor jen na rod, který se od češtiny liší: židle je rumunsky un scaun, proto al meu. Majitel dostane koncovku, podobně jako český 2. pád: mužský rod -ului (mașina colegului = auto kolegy), ženský -ei (casa mamei = dům maminky).
+>
+> - **Al cui e scaunul? E al meu.** — Čí je ta židle? Moje.
+> - **A cui e mașina?** — Čí je to auto?
+> - **Mașina e a colegului.** — To auto je kolegovo.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l2-w1` | **Al cui e?** | čí je to? | Pro věc ženského rodu: A cui e? – A cui e mașina? Čte se „al kuj je“. |
+| [ ] | `u14-l2-w2` | **al meu** | můj | Pro věc mužského i středního rodu, tedy s un: Scaunul e al meu. |
+| [ ] | `u14-l2-w3` | **a mea** | má; moje | Pro věc ženského rodu, tedy s o: Mașina e a mea. Čte se „a MEA“, ea je jedna slabika. |
+| [ ] | `u14-l2-w4` | **ai mei** | mí; moji | Pro více lidí nebo věcí mužského rodu: Copiii sunt ai mei. Čte se „aj mej“. |
+| [ ] | `u14-l2-w5` | **ale mele** | mé | Pro více věcí ženského i středního rodu: Scaunele sunt ale mele. Česky také „moje“. |
+| [ ] | `u14-l2-w6` | **mașina** | auto | Tvar se členem = to auto; bez členu: o mașină; množné číslo: mașini. Čte se „ma-ŠI-na“. |
+| [ ] | `u14-l2-w7` | **colegul** | kolega | Tvar se členem = ten kolega; bez členu: un coleg; množné číslo: colegi. Kolegyně: o colegă. Čte se „ko-LE-gul“. |
+
+**Cvičení**
+
+- [ ] `u14-l2-e1` *Výběr* — **Al cui e?** — možnosti: „čí je to?“, „kde je to?“, „co je to?“ — ✔ **čí je to?**
+- [ ] `u14-l2-e2` *Výběr* — **To auto je moje.** — možnosti: „Mașina e a mea.“, „Mașina e al meu.“, „Mașina e ai mei.“ — ✔ **Mașina e a mea.**
+- [ ] `u14-l2-e3` *Dvojice* — **Al cui e?** = čí je to? · **mașina** = auto · **colegul** = kolega · **ai mei** = mí; moji
+- [ ] `u14-l2-e4` *Poslech* — 🔊 zazní: **Mașina e a colegului.** — možnosti: „To auto je kolegovo.“, „To auto je moje.“, „To auto je maminčino.“ — ✔ **To auto je kolegovo.**
+- [ ] `u14-l2-e5` *Poslech* — 🔊 zazní: **ale mele** — možnosti: „ale mele“, „a mea“, „ai mei“ — ✔ **ale mele**
+- [ ] `u14-l2-e6` *Doplňování* — **Scaunul e ___ meu.** (Ta židle je moje.) — možnosti: „al“, „a“, „ale“ — ✔ **al** — vysvětlení: Židle je rumunsky un scaun (ne ženský rod), proto al meu.
+- [ ] `u14-l2-e7` *Doplňování* — **Copiii sunt ___ mei.** (Ty děti jsou moje.) — možnosti: „ai“, „al“, „ale“ — ✔ **ai** — vysvětlení: Copii je množné číslo mužského rodu, proto ai mei.
+- [ ] `u14-l2-e8` *Doplňování* — **E mașina ___.** (To je kolegovo auto.) — možnosti: „colegului“, „colegul“, „coleg“ — ✔ **colegului** — vysvětlení: Čí? Mužský rod dostane koncovku -ului: colegul → colegului.
+- [ ] `u14-l2-e9` *Psaní* — **Čí je to auto?** → ✔ **A cui e mașina?** (uznává se i: „A cui este mașina?“)
+- [ ] `u14-l2-e10` *Skládání věty* — Ten byt je můj. → ✔ **Apartamentul e al meu.** (chybné dílky: „a“)
+
+### [ ] 14.3: V práci (La serviciu) · `u14-l3`
+
+**[ ] Tip: Šéf firmy = șeful firmei**
+
+> „Čí?“ se rumunsky vyjádří koncovkou, podobně jako český 2. pád: šéf firmy = șeful firmei. Pořadí je stejné jako v češtině: nejdřív věc, pak majitel. Mužský a střední rod dostane -ului: biroul șefului (kancelář šéfa). Ženský rod vypadá jako množné číslo a přidá -i: firmă – firme – firmei, mamă – mame – mamei. V množném čísle je koncovka -lor: salariile colegilor (platy kolegů), casa părinților (dům rodičů).
+>
+> - **Șeful firmei e în ședință.** — Šéf firmy je na poradě.
+> - **Biroul șefului e aici.** — Kancelář šéfa je tady.
+> - **Azi lucrez de acasă.** — Dnes pracuji z domova.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l3-w1` | **o firmă** | firma | firma = ta firma; množné číslo: firme. Šéf firmy: șeful firmei. |
+| [ ] | `u14-l3-w2` | **un birou** | kancelář; psací stůl | biroul = ta kancelář; množné číslo: birouri. Lucrez la birou. = Pracuji v kanceláři. Čte se „bi-ROU“, ou je jedna slabika. |
+| [ ] | `u14-l3-w3` | **un șef** | šéf | șeful = ten šéf; množné číslo: șefi. Šéfová: o șefă. |
+| [ ] | `u14-l3-w4` | **o ședință** | porada | ședința = ta porada; množné číslo: ședințe. Na poradě: în ședință. Čte se „še-DIN-că“. |
+| [ ] | `u14-l3-w5` | **un salariu** | plat | salariul = ten plat; množné číslo: salarii. Čte se „sa-LA-rju“. |
+| [ ] | `u14-l3-w6` | **o pauză** | přestávka | pauza = ta přestávka; množné číslo: pauze. Polední přestávka: pauza de prânz. |
+| [ ] | `u14-l3-w7` | **a lucra de acasă** | pracovat z domova | Lucrez de acasă. = Pracuji z domova. De acasă = z domova. |
+
+**Cvičení**
+
+- [ ] `u14-l3-e1` *Výběr* — **o ședință** — možnosti: „porada“, „přestávka“, „plat“ — ✔ **porada**
+- [ ] `u14-l3-e2` *Výběr* — **šéf** — možnosti: „un șef“, „un birou“, „o firmă“ — ✔ **un șef**
+- [ ] `u14-l3-e3` *Dvojice* — **o firmă** = firma · **un salariu** = plat · **o pauză** = přestávka · **a lucra de acasă** = pracovat z domova
+- [ ] `u14-l3-e4` *Poslech* — 🔊 zazní: **Șeful firmei e în ședință.** — možnosti: „Šéf firmy je na poradě.“, „Šéf firmy je na dovolené.“, „Kolega je na poradě.“ — ✔ **Šéf firmy je na poradě.**
+- [ ] `u14-l3-e5` *Poslech* — 🔊 zazní: **Lucrez de acasă.** — možnosti: „Lucrez de acasă.“, „Lucrez la birou.“, „Lucrez la firmă.“ — ✔ **Lucrez de acasă.**
+- [ ] `u14-l3-e6` *Doplňování* — **Biroul ___ e aici.** (Kancelář šéfa je tady.) — možnosti: „șefului“, „șeful“, „șefi“ — ✔ **șefului** — vysvětlení: Čí kancelář? Mužský rod dostane -ului: șeful → șefului.
+- [ ] `u14-l3-e7` *Doplňování* — **Șeful ___ e în concediu.** (Šéf firmy je na dovolené.) — možnosti: „firmei“, „firma“, „firmă“ — ✔ **firmei** — vysvětlení: Ženský rod: firmă – firme – firmei (šéf firmy).
+- [ ] `u14-l3-e8` *Doplňování* — **Salariile ___ sunt mici.** (Platy kolegů jsou malé.) — možnosti: „colegilor“, „colegii“, „colegul“ — ✔ **colegilor** — vysvětlení: V množném čísle je koncovka -lor: colegi → colegilor (kolegů).
+- [ ] `u14-l3-e9` *Psaní* — **Pracuji z domova.** → ✔ **Lucrez de acasă.**
+- [ ] `u14-l3-e10` *Skládání věty* — V poledne mám přestávku. → ✔ **La prânz am o pauză.** (chybné dílky: „un“) (uznává se i: „Am o pauză la prânz.“)
+
+## [ ] Kapitola 15: Plány (Planuri) · A2
+
+Soubor: `content/cs-ro/unit15-viitor.json` · ID: `u15` · Popis: Budoucí čas: co budeme dělat zítra, v létě a kdy si zavoláme.
+
+### [ ] 15.1: Zítra (Mâine) · `u15-l1`
+
+**[ ] Tip: Budoucnost s o să**
+
+> V běžné řeči se budoucnost tvoří slovy o să a slovesem ve stejné osobě – podobně jako po vreau să: o să lucrez (budu pracovat), o să mergi (půjdeš), o să mâncăm (budeme jíst). Samotné „o să“ se nemění. A opět úleva: rumunština nemá vid. O să citesc znamená „budu číst“ i „přečtu“, o să gătesc „budu vařit“ i „uvařím“. Pozor jen na on, ona, oni – tam se sloveso trochu změní: o să meargă (půjde), o să fie (bude).
+>
+> - **Mâine o să lucrez.** — Zítra budu pracovat.
+> - **Deseară o să gătesc.** — Dnes večer budu vařit.
+> - **O să fie bine.** — Bude dobře.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l1-w1` | **o să** | budu; bude | Před slovesem o budoucnosti. Nemění se: o să lucrez = budu pracovat, o să lucrezi = budeš pracovat. |
+| [ ] | `u15-l1-w2` | **poimâine** | pozítří | Čte se „poj-MYJ-ne“. Srovnejte: alaltăieri = předevčírem. |
+| [ ] | `u15-l1-w3` | **săptămâna viitoare** | příští týden | viitor = příští, budoucí; u ženského rodu viitoare. Čte se „săp-tă-MY-na vi-i-TOA-re“. |
+| [ ] | `u15-l1-w4` | **anul viitor** | příští rok | anul = ten rok (un an). Čte se „A-nul vi-i-TOR“. |
+| [ ] | `u15-l1-w5` | **deseară** | dnes večer | Čte se „de-SEA-ră“, ea je jedna slabika. Srovnejte: aseară = včera večer. |
+| [ ] | `u15-l1-w6` | **mai târziu** | později | târziu = pozdě. Čte se „maj tyr-ZJU“. |
+| [ ] | `u15-l1-w7` | **curând** | brzy | Často în curând = brzy, zanedlouho. Pe curând! = Brzy na viděnou! Čte se „ku-RYND“. |
+
+**Cvičení**
+
+- [ ] `u15-l1-e1` *Výběr* — **poimâine** — možnosti: „pozítří“, „předevčírem“, „zítra“ — ✔ **pozítří**
+- [ ] `u15-l1-e2` *Výběr* — **dnes večer** — možnosti: „deseară“, „aseară“, „dimineața“ — ✔ **deseară**
+- [ ] `u15-l1-e3` *Dvojice* — **poimâine** = pozítří · **săptămâna viitoare** = příští týden · **anul viitor** = příští rok · **mai târziu** = později
+- [ ] `u15-l1-e4` *Poslech* — 🔊 zazní: **O să lucrez mâine.** — možnosti: „O să lucrez mâine.“, „Am lucrat ieri.“, „Lucrez azi.“ — ✔ **O să lucrez mâine.**
+- [ ] `u15-l1-e5` *Poslech* — 🔊 zazní: **Deseară o să gătesc.** — možnosti: „Dnes večer budu vařit.“, „Včera večer jsem vařil(a).“, „Zítra budu vařit.“ — ✔ **Dnes večer budu vařit.**
+- [ ] `u15-l1-e6` *Doplňování* — **Mâine o ___ merg la piață.** (Zítra půjdu na trh.) — možnosti: „să“, „am“, „sunt“ — ✔ **să** — vysvětlení: Budoucí čas: o să + sloveso, tedy o să merg.
+- [ ] `u15-l1-e7` *Doplňování* — **Săptămâna viitoare o să ___ la mare.** (Příští týden pojedu k moři.) — možnosti: „merg“, „mers“, „merge“ — ✔ **merg** — vysvětlení: Po o să přijde sloveso ve stejné osobě jako v přítomném čase: eu merg → o să merg.
+- [ ] `u15-l1-e8` *Výběr* — **O să fie bine.** — možnosti: „Bude dobře.“, „Bylo dobře.“, „Je dobře.“ — ✔ **Bude dobře.**
+- [ ] `u15-l1-e9` *Psaní* — **Pozítří budu pracovat.** → ✔ **Poimâine o să lucrez.** (uznává se i: „O să lucrez poimâine.“, „Poimâine voi lucra.“, „Voi lucra poimâine.“)
+- [ ] `u15-l1-e10` *Skládání věty* — Příští rok pojedu do Rumunska. → ✔ **Anul viitor o să merg în România.** (chybné dílky: „am“) (uznává se i: „O să merg în România anul viitor.“)
+
+### [ ] 15.2: Plány na léto (Planuri pentru vară) · `u15-l2`
+
+**[ ] Tip: Druhý budoucí čas: voi merge**
+
+> Vedle „o să“ má rumunština ještě spisovnější budoucí čas a ten je hodně podobný češtině: voi + neurčitý tvar, jako české „budu + infinitiv“. Voi lucra = budu pracovat, dál vei lucra, va lucra, vom lucra, veți lucra, vor lucra. Uslyšíte ho ve zprávách a na úřadech a najdete ho v novinách. V řeči je běžnější „o să“, ale znamenají totéž: Voi pleca mâine. = O să plec mâine. = Zítra odjedu. U zvratných sloves stojí mă před voi: mă voi întoarce = vrátím se.
+>
+> - **Voi rămâne acasă.** — Zůstanu doma.
+> - **Vom vizita orașul.** — Prohlédneme si město.
+> - **Mă voi întoarce duminică.** — Vrátím se v neděli.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l2-w1` | **a pleca** | odejít; odjet | eu plec, tu pleci, el pleacă. Plec mâine. = Zítra odjíždím. Čte se „a ple-KA“. |
+| [ ] | `u15-l2-w2` | **a vizita** | navštívit; prohlédnout si | Skupina -ez: eu vizitez. Hlavně místa: a vizita orașul = prohlédnout si město. Čte se „a vi-zi-TA“. |
+| [ ] | `u15-l2-w3` | **a se întoarce** | vrátit se | eu mă întorc, tu te întorci, el se întoarce. Čte se „a se yn-TOAR-če“. |
+| [ ] | `u15-l2-w4` | **a rămâne** | zůstat | eu rămân, tu rămâi, el rămâne. Čte se „a ră-MY-ne“. |
+| [ ] | `u15-l2-w5` | **o excursie** | výlet | excursia = ten výlet; množné číslo: excursii. Jet na výlet: a pleca în excursie. Čte se „eks-KUR-si-e“. |
+| [ ] | `u15-l2-w6` | **un plan** | plán | planul = ten plán; množné číslo: planuri. Ce planuri aveți? = Jaké máte plány? |
+| [ ] | `u15-l2-w7` | **sigur** | jistě; jistý | Sigur! = Jasně! Ženský rod: sigură. Nu sunt sigur. = Nejsem si jistý. Žena řekne: Nu sunt sigură. |
+
+**Cvičení**
+
+- [ ] `u15-l2-e1` *Výběr* — **a rămâne** — možnosti: „zůstat“, „vrátit se“, „odejít; odjet“ — ✔ **zůstat**
+- [ ] `u15-l2-e2` *Výběr* — **výlet** — možnosti: „o excursie“, „un plan“, „un concediu“ — ✔ **o excursie**
+- [ ] `u15-l2-e3` *Dvojice* — **a pleca** = odjet · **a vizita** = navštívit · **a se întoarce** = vrátit se · **sigur** = jistě
+- [ ] `u15-l2-e4` *Poslech* — 🔊 zazní: **Vom rămâne acasă.** — možnosti: „Zůstaneme doma.“, „Vrátíme se domů.“, „Pojedeme na výlet.“ — ✔ **Zůstaneme doma.**
+- [ ] `u15-l2-e5` *Poslech* — 🔊 zazní: **Mă voi întoarce mâine.** — možnosti: „Mă voi întoarce mâine.“, „Mă întorc azi.“, „Voi rămâne mâine.“ — ✔ **Mă voi întoarce mâine.**
+- [ ] `u15-l2-e6` *Doplňování* — **Voi ___ la mare două săptămâni.** (Zůstanu u moře dva týdny.) — možnosti: „rămâne“, „rămân“, „rămas“ — ✔ **rămâne** — vysvětlení: Po voi přijde neurčitý tvar bez „a“: voi rămâne.
+- [ ] `u15-l2-e7` *Doplňování* — **Noi ___ pleca la munte.** (My pojedeme na hory.) — možnosti: „vom“, „vor“, „veți“ — ✔ **vom** — vysvětlení: Noi (my) = vom: vom pleca. Vor je „oni“, veți je „vy“.
+- [ ] `u15-l2-e8` *Výběr* — **Ce planuri aveți?** — možnosti: „Jaké máte plány?“, „Kam jedete?“, „Kdy se vrátíte?“ — ✔ **Jaké máte plány?**
+- [ ] `u15-l2-e9` *Psaní* — **Vrátím se v neděli.** → ✔ **Mă voi întoarce duminică.** (uznává se i: „O să mă întorc duminică.“, „Mă întorc duminică.“)
+- [ ] `u15-l2-e10` *Skládání věty* — Pojedu na výlet na hory. → ✔ **Voi pleca în excursie la munte.** (chybné dílky: „plecat“)
+
+### [ ] 15.3: Telefonujeme si (Vorbim la telefon) · `u15-l3`
+
+**[ ] Tip: Za hodinu = peste o oră**
+
+> Některé časové údaje se rumunsky řeknou jinak než česky. „Za hodinu“ je peste o oră (peste znamená i „přes“), „za týden“ peste o săptămână. „Do pěti“ je până la cinci: Lucrez până la ora cinci. Na čas se zeptáte La ce oră? (V kolik hodin?) a odpověď zní La ora trei. Když něco plánujete, řekněte Am de gând să… (Mám v úmyslu…). Za ním přijde să a sloveso, jako po vreau: Am de gând să plec mâine.
+>
+> - **Vă sun peste o oră.** — Zavolám vám za hodinu.
+> - **La ce oră e întâlnirea?** — V kolik hodin je ta schůzka?
+> - **Am de gând să rămân acasă.** — Mám v úmyslu zůstat doma.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l3-w1` | **a avea de gând** | mít v úmyslu; chystat se | Am de gând să… = Chystám se… Gând = myšlenka. Čte se „de gynd“. |
+| [ ] | `u15-l3-w2` | **a suna** | zavolat; telefonovat | eu sun, tu suni, el sună. Te sun mâine. = Zavolám ti zítra. Znamená i „zvonit“. |
+| [ ] | `u15-l3-w3` | **o întâlnire** | schůzka | întâlnirea = ta schůzka; množné číslo: întâlniri. Čte se „yn-tyl-NI-re“. |
+| [ ] | `u15-l3-w4` | **la ce oră** | v kolik hodin | Odpověď: la ora trei = ve tři hodiny. |
+| [ ] | `u15-l3-w5` | **peste o oră** | za hodinu | peste = za: peste o săptămână = za týden. Neplést s după o oră = po hodině. |
+| [ ] | `u15-l3-w6` | **până la** | až do; do | până la ora cinci = do pěti hodin; până la gară = až na nádraží. Čte se „PY-nă la“. |
+
+**Cvičení**
+
+- [ ] `u15-l3-e1` *Výběr* — **peste o oră** — možnosti: „za hodinu“, „před hodinou“, „v jednu hodinu“ — ✔ **za hodinu**
+- [ ] `u15-l3-e2` *Výběr* — **schůzka** — možnosti: „o întâlnire“, „o excursie“, „o pauză“ — ✔ **o întâlnire**
+- [ ] `u15-l3-e3` *Dvojice* — **a suna** = zavolat · **la ce oră** = v kolik hodin · **până la** = až do · **a avea de gând** = mít v úmyslu
+- [ ] `u15-l3-e4` *Poslech* — 🔊 zazní: **Vă sun peste o oră.** — možnosti: „Zavolám vám za hodinu.“, „Zavolám vám zítra.“, „Zavolám vám dnes večer.“ — ✔ **Zavolám vám za hodinu.**
+- [ ] `u15-l3-e5` *Poslech* — 🔊 zazní: **La ce oră e întâlnirea?** — možnosti: „La ce oră e întâlnirea?“, „Unde e întâlnirea?“, „Cât e ceasul?“ — ✔ **La ce oră e întâlnirea?**
+- [ ] `u15-l3-e6` *Doplňování* — **Am de gând ___ plec mâine.** (Chystám se zítra odjet.) — možnosti: „să“, „la“, „de“ — ✔ **să** — vysvětlení: Po am de gând přijde să a sloveso, stejně jako po vreau.
+- [ ] `u15-l3-e7` *Doplňování* — **Lucrez ___ la ora cinci.** (Pracuji do pěti hodin.) — možnosti: „până“, „peste“, „în“ — ✔ **până** — vysvětlení: „Do“ (až do určité doby) se řekne până la.
+- [ ] `u15-l3-e8` *Výběr* — **Zavolám ti zítra.** — možnosti: „Te sun mâine.“, „Te sun deseară.“, „Te sun peste o oră.“ — ✔ **Te sun mâine.**
+- [ ] `u15-l3-e9` *Psaní* — **Za hodinu jsem doma.** → ✔ **Peste o oră sunt acasă.** (uznává se i: „Peste o oră o să fiu acasă.“, „Peste o oră voi fi acasă.“)
+- [ ] `u15-l3-e10` *Skládání věty* — Mám v úmyslu zůstat doma. → ✔ **Am de gând să rămân acasă.** (chybné dílky: „rămâne“)
+
+## [ ] Kapitola 16: Na cestách (Călătorii) · A2
+
+Soubor: `content/cs-ro/unit16-calatorii.json` · ID: `u16` · Popis: V hotelu, na nádraží a na letišti a co říct, když se něco ztratí.
+
+### [ ] 16.1: V hotelu (La hotel) · `u16-l1`
+
+**[ ] Tip: Bych, bys, by = aș, ai, ar**
+
+> Zdvořilá prosba se rumunsky tvoří skoro stejně jako česky. Českým slovům bych, bys, by, bychom, byste, by odpovídá aș, ai, ar, am, ați, ar. Za ně přijde sloveso v neurčitém tvaru: aș vrea (chtěl(a) bych), aș dori (přál(a) bych si), ați putea (mohl(a) byste). Výhoda: rumunský tvar je stejný pro muže i ženy. Na recepci tak můžete poprosit: Ați putea să mă treziți la ora șapte? (Mohl(a) byste mě vzbudit v sedm?)
+>
+> - **Aș dori o cameră dublă.** — Přál(a) bych si dvoulůžkový pokoj.
+> - **Ați putea să mă treziți la ora șapte?** — Mohl(a) byste mě vzbudit v sedm?
+> - **Am dori două cafele, vă rog.** — Chtěli bychom dvě kávy, prosím.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l1-w1` | **o rezervare** | rezervace | rezervarea = ta rezervace; množné číslo: rezervări. Am o rezervare. = Mám rezervaci. Čte se „re-zer-VA-re“. |
+| [ ] | `u16-l1-w2` | **o cameră dublă** | dvoulůžkový pokoj | camera dublă = ten dvoulůžkový pokoj; množné číslo: camere duble. Jednolůžkový pokoj: cameră single. |
+| [ ] | `u16-l1-w3` | **o cheie** | klíč | cheia = ten klíč; množné číslo: chei. Che se čte „ke“: „KE-je“. |
+| [ ] | `u16-l1-w4` | **un mic dejun** | snídaně | micul dejun = ta snídaně; člen dostane první slovo. Množné číslo se skoro nepoužívá. Čte se „mik de-ŽUN“. |
+| [ ] | `u16-l1-w5` | **o recepție** | recepce | recepția = ta recepce; množné číslo: recepții. Na recepci: la recepție. Čte se „re-ČEP-ci-e“. |
+| [ ] | `u16-l1-w6` | **ați putea** | mohl byste; mohla byste | Zdvořilá prosba: Ați putea să…? K více lidem: mohli byste. Čte se „ac pu-TEA“. |
+| [ ] | `u16-l1-w7` | **aș dori** | přál bych si; přála bych si | Ještě zdvořilejší než aș vrea. Stejný tvar pro muže i ženy. Čte se „aš do-RI“. |
+
+**Cvičení**
+
+- [ ] `u16-l1-e1` *Výběr* — **o cheie** — možnosti: „klíč“, „pokoj“, „recepce“ — ✔ **klíč**
+- [ ] `u16-l1-e2` *Výběr* — **snídaně** — možnosti: „un mic dejun“, „o rezervare“, „o supă“ — ✔ **un mic dejun**
+- [ ] `u16-l1-e3` *Dvojice* — **o rezervare** = rezervace · **o recepție** = recepce · **o cameră dublă** = dvoulůžkový pokoj · **o cheie** = klíč
+- [ ] `u16-l1-e4` *Poslech* — 🔊 zazní: **Am o rezervare pentru două nopți.** — možnosti: „Mám rezervaci na dvě noci.“, „Mám rezervaci na dva týdny.“, „Nemám rezervaci.“ — ✔ **Mám rezervaci na dvě noci.**
+- [ ] `u16-l1-e5` *Poslech* — 🔊 zazní: **Ați putea să mă treziți la ora șapte?** — možnosti: „Ați putea să mă treziți la ora șapte?“, „Ați putea să mă sunați la ora șapte?“, „Mă trezesc la ora șapte.“ — ✔ **Ați putea să mă treziți la ora șapte?**
+- [ ] `u16-l1-e6` *Doplňování* — **___ dori o cameră dublă, vă rog.** (Přál(a) bych si dvoulůžkový pokoj, prosím.) — možnosti: „Aș“, „Vreau“, „Sunt“ — ✔ **Aș** — vysvětlení: Aș = bych. Po něm přijde neurčitý tvar: aș dori.
+- [ ] `u16-l1-e7` *Doplňování* — **Ați ___ să-mi dați cheia, vă rog?** (Mohl(a) byste mi dát klíč, prosím?) — možnosti: „putea“, „pot“, „poate“ — ✔ **putea** — vysvětlení: Ați = byste, za ním neurčitý tvar putea (moci).
+- [ ] `u16-l1-e8` *Výběr* — **Micul dejun e inclus?** — možnosti: „Je snídaně v ceně?“, „Kde je snídaně?“, „V kolik je snídaně?“ — ✔ **Je snídaně v ceně?**
+- [ ] `u16-l1-e9` *Psaní* — **Mám rezervaci.** → ✔ **Am o rezervare.**
+- [ ] `u16-l1-e10` *Skládání věty* — Chtěli bychom dvoulůžkový pokoj. → ✔ **Am dori o cameră dublă.** (chybné dílky: „aș“)
+
+### [ ] 16.2: Na nádraží a letišti (La gară și la aeroport) · `u16-l2`
+
+**[ ] Tip: Musím jet = trebuie să plec**
+
+> Česky po „musím“ přijde infinitiv: musím jet. Rumunsky, stejně jako po vreau a pot, přijde să a sloveso ve stejné osobě: trebuie să plec (musím odjet), trebuie să plecați (musíte odjet). Samotné trebuie se přitom nemění – je stejné pro všechny osoby, podobně jako české „je třeba“. Kdo potřebuje být někde včas, řekne: Trebuie să fiu la aeroport la ora cinci. (Musím být na letišti v pět.)
+>
+> - **Trebuie să plec acum.** — Musím teď odjet.
+> - **Trenul are întârziere.** — Vlak má zpoždění.
+> - **De la ce peron pleacă trenul?** — Z kterého nástupiště jede vlak?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l2-w1` | **un aeroport** | letiště | aeroportul = to letiště; množné číslo: aeroporturi. Čte se „a-e-ro-PORT“. |
+| [ ] | `u16-l2-w2` | **un pașaport** | pas | pașaportul = ten pas; množné číslo: pașapoarte. Čte se „pa-ša-PORT“. |
+| [ ] | `u16-l2-w3` | **un bagaj** | zavazadlo | bagajul = to zavazadlo; množné číslo: bagaje. Čte se „ba-GAŽ“. |
+| [ ] | `u16-l2-w4` | **o valiză** | kufr | valiza = ten kufr; množné číslo: valize. Čte se „va-LI-ză“. |
+| [ ] | `u16-l2-w5` | **un peron** | nástupiště | peronul = to nástupiště; množné číslo: peroane. Čte se „pe-RON“. |
+| [ ] | `u16-l2-w6` | **trebuie să** | musím; je třeba | Nemění se: trebuie să plec = musím odjet, trebuie să plecați = musíte odjet. Čte se „TRE-bu-je“. |
+| [ ] | `u16-l2-w7` | **o întârziere** | zpoždění | întârzierea = to zpoždění; množné číslo: întârzieri. Trenul are întârziere. = Vlak má zpoždění. Čte se „yn-tyr-ZJE-re“. |
+
+**Cvičení**
+
+- [ ] `u16-l2-e1` *Výběr* — **un peron** — možnosti: „nástupiště“, „letiště“, „zastávka“ — ✔ **nástupiště**
+- [ ] `u16-l2-e2` *Výběr* — **kufr** — možnosti: „o valiză“, „un pașaport“, „un bilet“ — ✔ **o valiză**
+- [ ] `u16-l2-e3` *Dvojice* — **un aeroport** = letiště · **un pașaport** = pas · **un bagaj** = zavazadlo · **o întârziere** = zpoždění
+- [ ] `u16-l2-e4` *Poslech* — 🔊 zazní: **Trenul are întârziere.** — možnosti: „Vlak má zpoždění.“, „Vlak už odjel.“, „Vlak je na nástupišti.“ — ✔ **Vlak má zpoždění.**
+- [ ] `u16-l2-e5` *Poslech* — 🔊 zazní: **De la ce peron pleacă trenul?** — možnosti: „De la ce peron pleacă trenul?“, „La ce oră pleacă trenul?“, „Unde este gara?“ — ✔ **De la ce peron pleacă trenul?**
+- [ ] `u16-l2-e6` *Doplňování* — **Trebuie ___ merg la aeroport.** (Musím jet na letiště.) — možnosti: „să“, „de“, „la“ — ✔ **să** — vysvětlení: Po trebuie přijde să a sloveso, ne infinitiv: trebuie să merg.
+- [ ] `u16-l2-e7` *Doplňování* — **Trebuie să ___ acum.** (Musím teď odjet.) — možnosti: „plec“, „pleca“, „plecat“ — ✔ **plec** — vysvětlení: Po să stojí sloveso v osobě „já“: plec (odjíždím) → trebuie să plec.
+- [ ] `u16-l2-e8` *Výběr* — **Kde je můj kufr?** — možnosti: „Unde e valiza mea?“, „Unde e valiza meu?“, „Unde e valiză mea?“ — ✔ **Unde e valiza mea?**
+- [ ] `u16-l2-e9` *Psaní* — **Musím odjet.** → ✔ **Trebuie să plec.**
+- [ ] `u16-l2-e10` *Skládání věty* — Máme dvě zavazadla a jeden kufr. → ✔ **Avem două bagaje și o valiză.** (chybné dílky: „bagaj“)
+
+### [ ] 16.3: Když se ztratíte (M-am rătăcit) · `u16-l3`
+
+**[ ] Tip: Zvratná slovesa v minulém čase**
+
+> U zvratných sloves se v minulém čase „mă“ zkrátí a spojí s „am“: mă rătăcesc → m-am rătăcit (zabloudil(a) jsem), mă trezesc → m-am trezit (probudil(a) jsem se), mă întorc → m-am întors (vrátil(a) jsem se). Odpovídá to českému „se“ ve „vrátil(a) jsem se“, jen stojí vždy před slovesem. Když se ztratí věc, řekne se Am pierdut portofelul (ztratil(a) jsem peněženku), nebo podobně jako české „ztratila se mi peněženka“: Mi s-a pierdut portofelul.
+>
+> - **M-am rătăcit. Mă puteți ajuta?** — Zabloudil(a) jsem. Můžete mi pomoct?
+> - **Am pierdut pașaportul.** — Ztratil(a) jsem pas.
+> - **Unde este poliția?** — Kde je policie?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l3-w1` | **Ajutor!** | pomoc! | Volání v nouzi. Ajutor = pomoc. Čte se „a-žu-TOR“. |
+| [ ] | `u16-l3-w2` | **M-am rătăcit.** | zabloudil jsem; zabloudila jsem | Od a se rătăci. Stejný tvar pro muže i ženy. Čte se „mam ră-tă-ČIT“. |
+| [ ] | `u16-l3-w3` | **Am pierdut** | ztratil jsem; ztratila jsem | Od a pierde. Am pierdut pașaportul. = Ztratil(a) jsem pas. Čte se „am pjer-DUT“. |
+| [ ] | `u16-l3-w4` | **un portofel** | peněženka | portofelul = ta peněženka; množné číslo: portofele. Čte se „por-to-FEL“. |
+| [ ] | `u16-l3-w5` | **o poliție** | policie | Většinou se členem: poliția = ta policie; množné číslo: poliții. Čte se „po-LI-ci-e“. |
+| [ ] | `u16-l3-w6` | **o hartă** | mapa | harta = ta mapa; množné číslo: hărți. Čte se „HAR-tă“. |
+| [ ] | `u16-l3-w7` | **Mă puteți ajuta?** | můžete mi pomoct? | Pozor: česky „mi“, rumunsky mă – doslova „můžete mě pomoct?“. Čte se „mă pu-TEC a-žu-TA“. |
+
+**Cvičení**
+
+- [ ] `u16-l3-e1` *Výběr* — **Ajutor!** — možnosti: „pomoc!“, „pozor!“, „promiňte!“ — ✔ **pomoc!**
+- [ ] `u16-l3-e2` *Výběr* — **mapa** — možnosti: „o hartă“, „un portofel“, „un bilet“ — ✔ **o hartă**
+- [ ] `u16-l3-e3` *Dvojice* — **un portofel** = peněženka · **o poliție** = policie · **o hartă** = mapa · **Ajutor!** = pomoc!
+- [ ] `u16-l3-e4` *Poslech* — 🔊 zazní: **Am pierdut portofelul.** — možnosti: „Ztratil(a) jsem peněženku.“, „Ztratil(a) jsem pas.“, „Koupil(a) jsem peněženku.“ — ✔ **Ztratil(a) jsem peněženku.**
+- [ ] `u16-l3-e5` *Poslech* — 🔊 zazní: **Mă puteți ajuta?** — možnosti: „Mă puteți ajuta?“, „Mă puteți suna?“, „Mă puteți trezi?“ — ✔ **Mă puteți ajuta?**
+- [ ] `u16-l3-e6` *Doplňování* — **___ rătăcit în oraș.** (Zabloudil(a) jsem ve městě.) — možnosti: „M-am“, „Mă“, „Mi“ — ✔ **M-am** — vysvětlení: Zvratné sloveso v minulém čase: mă + am = m-am.
+- [ ] `u16-l3-e7` *Doplňování* — **Unde este ___?** (Kde je policie?) — možnosti: „poliția“, „poliție“, „polițiile“ — ✔ **poliția** — vysvětlení: Bez předložky se člen přidá na konec: poliția. Polițiile je množné číslo.
+- [ ] `u16-l3-e8` *Výběr* — **Ztratila se mi peněženka.** — možnosti: „Mi s-a pierdut portofelul.“, „Mi s-a pierdut pașaportul.“, „Am pierdut harta.“ — ✔ **Mi s-a pierdut portofelul.**
+- [ ] `u16-l3-e9` *Psaní* — **Můžete mi pomoct?** → ✔ **Mă puteți ajuta?** (uznává se i: „Puteți să mă ajutați?“)
+- [ ] `u16-l3-e10` *Skládání věty* — Ztratil(a) jsem pas a mapu. → ✔ **Am pierdut pașaportul și harta.** (chybné dílky: „hartă“)
+
+## [ ] Kapitola 17: Vzpomínky (Pe vremuri) · A2
+
+Soubor: `content/cs-ro/unit17-amintiri.json` · ID: `u17` · Popis: Jak vyprávět o dětství a o tom, jak to bývalo dřív: minulý čas pro vzpomínky.
+
+### [ ] 17.1: V dětství (Când eram copil) · `u17-l1`
+
+**[ ] Tip: Čas pro vzpomínky: eram, aveam**
+
+> Pro vzpomínky má rumunština zvláštní minulý čas. Říká, jaké něco bývalo nebo co se dělo delší dobu – podobně jako české nedokonavé sloveso. Nejčastější tvary: eram (byl(a) jsem), era (byl, byla, bylo), aveam (měl(a) jsem), avea (měl, měla). Am fost znáte z lekce „Včera“: hodí se pro jednu uzavřenou událost. Când eram copil = když jsem byl(a) malý (doslova „když jsem byl(a) dítě“) – stejné pro muže i ženy. Eram se čte „je-RAM“, aveam „a-VEAM“.
+>
+> - **Când eram copil, eram mereu la bunica.** — Jako dítě jsem byl(a) pořád u babičky.
+> - **Bunicul avea o casă la țară.** — Dědeček měl dům na venkově.
+> - **Pe vremuri, satul era mic.** — Kdysi byla vesnice malá.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l1-w1` | **când eram copil** | když jsem byl malý; když jsem byla malá | Doslova „když jsem byl(a) dítě“, stejné pro muže i ženy. Când = když. Čte se „kynd je-RAM ko-PIL“. |
+| [ ] | `u17-l1-w2` | **o copilărie** | dětství | copilăria = to dětství; množné číslo: copilării. Od copil (dítě). În copilărie = v dětství. Čte se „ko-pi-lă-RI-e“. |
+| [ ] | `u17-l1-w3` | **un sat** | vesnice | satul = ta vesnice; množné číslo: sate (střední rod). În sat = ve vesnici. |
+| [ ] | `u17-l1-w4` | **o școală** | škola | școala = ta škola; množné číslo: școli. La școală = ve škole i do školy. Čte se „ŠKOA-lă“, oa je jedna slabika. |
+| [ ] | `u17-l1-w5` | **pe vremuri** | kdysi; za starých časů | Doslova „za časů“. Vreme je slovanské slovo, jako ruské „vremja“. Čte se „pe VRE-mur“. |
+| [ ] | `u17-l1-w6` | **de obicei** | obvykle | Obicei = zvyk, jako české „obyčej“. Čte se „de o-bi-ČEJ“. |
+| [ ] | `u17-l1-w7` | **mereu** | pořád; vždycky | Eram mereu acasă. = Byl(a) jsem pořád doma. Čte se „me-REU“. |
+
+**Cvičení**
+
+- [ ] `u17-l1-e1` *Výběr* — **o copilărie** — možnosti: „dětství“, „vesnice“, „škola“ — ✔ **dětství**
+- [ ] `u17-l1-e2` *Výběr* — **obvykle** — možnosti: „de obicei“, „mereu“, „pe vremuri“ — ✔ **de obicei**
+- [ ] `u17-l1-e3` *Dvojice* — **un sat** = vesnice · **o școală** = škola · **pe vremuri** = kdysi · **mereu** = pořád
+- [ ] `u17-l1-e4` *Poslech* — 🔊 zazní: **eram** — možnosti: „eram“, „era“, „erau“ — ✔ **eram**
+- [ ] `u17-l1-e5` *Poslech* — 🔊 zazní: **În copilărie, eram mereu la țară.** — možnosti: „V dětství jsem byl(a) pořád na venkově.“, „V dětství jsem byl(a) pořád u moře.“, „V dětství jsem byl(a) pořád na horách.“ — ✔ **V dětství jsem byl(a) pořád na venkově.**
+- [ ] `u17-l1-e6` *Doplňování* — **Pe vremuri, satul ___ mic.** (Kdysi byla vesnice malá.) — možnosti: „era“, „eram“, „erau“ — ✔ **era** — vysvětlení: Vesnice je jedna, proto era (byla); eram = byl(a) jsem, erau = byli.
+- [ ] `u17-l1-e7` *Doplňování* — **Bunicul ___ o casă la țară.** (Dědeček měl dům na venkově.) — možnosti: „avea“, „aveam“, „aveau“ — ✔ **avea** — vysvětlení: Dědeček = on, proto avea (měl); aveam = měl(a) jsem.
+- [ ] `u17-l1-e8` *Psaní* — **obvykle** → ✔ **de obicei**
+- [ ] `u17-l1-e9` *Skládání věty* — Kdysi byla škola ve vesnici. → ✔ **Pe vremuri, școala era în sat.** (chybné dílky: „eram“)
+- [ ] `u17-l1-e10` *Mluvení* — 🎤 **Pe vremuri, școala era mică.** — Kdysi byla škola malá.
+
+### [ ] 17.2: Moje babička vařila (Bunica mea gătea) · `u17-l2`
+
+**[ ] Tip: Co se dělo pravidelně**
+
+> Tento minulý čas se tvoří pravidelně. Slovesa na -a přidají ke kmeni -am, -ai, -a…: a lucra – lucram (pracoval(a) jsem), lucra (pracoval, pracovala). Ostatní slovesa přidají -eam, -eai, -ea…: a găti – găteam, gătea (vařila); a merge – mergeam, mergea. Používá se pro to, co se dělo pravidelně nebo dlouho – kde česky řeknete nedokonavé sloveso: Bunica gătea în fiecare duminică. (Babička vařila každou neděli.) Pro jednu hotovou věc zůstává am gătit (uvařil(a) jsem).
+>
+> - **Bunica gătea în fiecare duminică.** — Babička vařila každou neděli.
+> - **Mă jucam în curte cu fratele meu.** — Hrál(a) jsem si na dvoře s bratrem.
+> - **Mergeam la fântână după apă.** — Chodil(a) jsem ke studni pro vodu.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l2-w1` | **a crește** | růst; vyrůstat | eu cresc, el crește. Am crescut la țară. = Vyrostl(a) jsem na venkově. Také vychovávat děti a chovat zvířata. Čte se „a KREŠ-te“. |
+| [ ] | `u17-l2-w2` | **a se juca** | hrát si | eu mă joc, tu te joci, el se joacă; dřív: mă jucam. Čte se „a se žu-KA“. |
+| [ ] | `u17-l2-w3` | **a ajuta** | pomáhat; pomoct | eu ajut, el ajută; dřív: ajutam. Čte se „a a-žu-TA“. |
+| [ ] | `u17-l2-w4` | **o vacă** | kráva | vaca = ta kráva; množné číslo: vaci. Čte se „VA-kă“. |
+| [ ] | `u17-l2-w5` | **o curte** | dvůr | curtea = ten dvůr; množné číslo: curți. În curte = na dvoře. Pozor: ženský rod. |
+| [ ] | `u17-l2-w6` | **o fântână** | studna | fântâna = ta studna; množné číslo: fântâni. Ve městě také kašna. Čte se „fyn-TY-nă“. |
+| [ ] | `u17-l2-w7` | **un cuptor** | trouba; pec | cuptorul = ta trouba; množné číslo: cuptoare (střední rod). Venkovská pec i trouba v kuchyni. Čte se „kup-TOR“. |
+
+**Cvičení**
+
+- [ ] `u17-l2-e1` *Výběr* — **o fântână** — možnosti: „studna“, „dvůr“, „kráva“ — ✔ **studna**
+- [ ] `u17-l2-e2` *Výběr* — **hrát si** — možnosti: „a se juca“, „a ajuta“, „a crește“ — ✔ **a se juca**
+- [ ] `u17-l2-e3` *Dvojice* — **o vacă** = kráva · **o curte** = dvůr · **un cuptor** = trouba; pec · **a ajuta** = pomáhat
+- [ ] `u17-l2-e4` *Poslech* — 🔊 zazní: **Bunica gătea în fiecare duminică.** — možnosti: „Babička vařila každou neděli.“, „Dědeček vařil každou sobotu.“, „Babička vaří každou neděli.“ — ✔ **Babička vařila každou neděli.**
+- [ ] `u17-l2-e5` *Poslech* — 🔊 zazní: **Mă jucam în curte.** — možnosti: „Mă jucam în curte.“, „Mă joc în curte.“, „Mă jucam în casă.“ — ✔ **Mă jucam în curte.**
+- [ ] `u17-l2-e6` *Doplňování* — **În copilărie mă ___ în curte.** (V dětství jsem si hrál(a) na dvoře.) — možnosti: „jucam“, „jucai“, „jucați“ — ✔ **jucam** — vysvětlení: K mă patří tvar pro „já“: mă jucam. Jucai patří k te (te jucai), jucați k vă.
+- [ ] `u17-l2-e7` *Doplňování* — **Bunica ___ în fiecare zi.** (Babička vařila každý den.) — možnosti: „gătea“, „găteam“, „găteau“ — ✔ **gătea** — vysvětlení: Babička = ona, proto gătea; găteam = vařil(a) jsem, găteau = vařili.
+- [ ] `u17-l2-e8` *Psaní* — **Babička měla krávu.** → ✔ **Bunica avea o vacă.**
+- [ ] `u17-l2-e9` *Skládání věty* — Babička pekla chleba v peci. → ✔ **Bunica făcea pâine în cuptor.** (chybné dílky: „făceam“)
+- [ ] `u17-l2-e10` *Mluvení* — 🎤 **Bunica gătea foarte bine.** — Babička vařila moc dobře.
+
+### [ ] 17.3: Tehdy a dnes (Atunci și acum) · `u17-l3`
+
+**[ ] Tip: Atunci a acum**
+
+> Když srovnáváte dřív a dnes, pomohou dvě slova: atunci (tehdy) a acum (teď). Atunci se často pojí se vzpomínkovým časem: Atunci nu aveam telefon. (Tehdy jsem neměl(a) telefon.) Acum stojí s přítomným časem: Acum am telefon. „Dnes“ se řekne azi nebo astăzi – je to totéž slovo, astăzi je jen o něco formálnější. Hodí se i totul (všechno) a altfel (jinak): Totul s-a schimbat. (Všechno se změnilo.)
+>
+> - **Atunci nu aveam telefon.** — Tehdy jsem neměl(a) telefon.
+> - **Înainte era altfel.** — Dřív to bylo jinak.
+> - **Astăzi totul s-a schimbat.** — Dnes se všechno změnilo.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l3-w1` | **atunci** | tehdy; pak | Čte se „a-TUNČ“, koncové i je skoro neslyšné. |
+| [ ] | `u17-l3-w2` | **acum** | teď; nyní | Také „před“: acum doi ani = před dvěma lety. Čte se „a-KUM“. |
+| [ ] | `u17-l3-w3` | **demult** | dávno | Píše se dohromady. Odděleně de mult = dlouho: Lucrez aici de mult. = Pracuji tu dlouho. Čte se „de-MULT“. |
+| [ ] | `u17-l3-w4` | **s-a schimbat** | změnil se; změnilo se | Od a se schimba (měnit se). Stejný tvar pro všechny rody: satul s-a schimbat, casa s-a schimbat. Čte se „sa skim-BAT“. |
+| [ ] | `u17-l3-w5` | **înainte** | dřív | Znáte z drept înainte (rovně) – samo znamená i „vpředu“. Înainte era altfel. = Dřív to bylo jinak. Čte se „y-na-IN-te“. |
+| [ ] | `u17-l3-w6` | **astăzi** | dnes; v dnešní době | Totéž co azi, jen o něco formálnější; často ve smyslu „v dnešní době“. Čte se „as-TĂZ“. |
+
+**Cvičení**
+
+- [ ] `u17-l3-e1` *Výběr* — **demult** — možnosti: „dávno“, „teď; nyní“, „tehdy; pak“ — ✔ **dávno**
+- [ ] `u17-l3-e2` *Výběr* — **teď; nyní** — možnosti: „acum“, „atunci“, „înainte“ — ✔ **acum**
+- [ ] `u17-l3-e3` *Dvojice* — **atunci** = tehdy · **acum** = teď · **înainte** = dřív · **demult** = dávno
+- [ ] `u17-l3-e4` *Poslech* — 🔊 zazní: **Totul s-a schimbat.** — možnosti: „Všechno se změnilo.“, „Nic se nezměnilo.“, „Všechno je nové.“ — ✔ **Všechno se změnilo.**
+- [ ] `u17-l3-e5` *Poslech* — 🔊 zazní: **Înainte era altfel.** — možnosti: „Înainte era altfel.“, „Acum e altfel.“, „Atunci era frumos.“ — ✔ **Înainte era altfel.**
+- [ ] `u17-l3-e6` *Doplňování* — **Atunci eu nu ___ telefon.** (Tehdy jsem neměl(a) telefon.) — možnosti: „aveam“, „avea“, „aveau“ — ✔ **aveam** — vysvětlení: Eu (já) = aveam; avea patří k on/ona, aveau k oni.
+- [ ] `u17-l3-e7` *Doplňování* — **Satul s-a ___ mult.** (Vesnice se hodně změnila.) — možnosti: „schimbat“, „schimba“, „schimbă“ — ✔ **schimbat** — vysvětlení: Minulý čas: s-a + příčestí, tedy s-a schimbat.
+- [ ] `u17-l3-e8` *Psaní* — **Dnes je neděle.** → ✔ **Astăzi e duminică.** (uznává se i: „Azi e duminică.“, „Astăzi este duminică.“, „Azi este duminică.“)
+- [ ] `u17-l3-e9` *Skládání věty* — Dřív byla vesnice malá, teď je velká. → ✔ **Înainte satul era mic, acum e mare.** (chybné dílky: „eram“)
+- [ ] `u17-l3-e10` *Skládání věty* — Tehdy jsem chodil(a) do školy pěšky. → ✔ **Atunci mergeam la școală pe jos.** (chybné dílky: „am“)
+
+## [ ] Kapitola 18: Lidé (Oamenii) · A2
+
+Soubor: `content/cs-ro/unit18-oameni.json` · ID: `u18` · Popis: Jak popsat vzhled a povahu, porovnávat a říct „že“, „jestli“ a „protože“.
+
+### [ ] 18.1: Jak vypadá? (Cum arată?) · `u18-l1`
+
+**[ ] Tip: Vyšší než, nejvyšší**
+
+> Srovnávání je v rumunštině snadné. Česky se mění samo slovo (vysoký – vyšší – nejvyšší), rumunsky jen přidáte mai (víc) a místo „než“ řeknete decât: mai înalt decât = vyšší než. „Nejvyšší“ je cel mai înalt. Pozor, cel se řídí rodem: pro ženu cea mai înaltă, v množném čísle cei mai (muži) a cele mai (ženy). Na vzhled se zeptáte Cum arată? (Jak vypadá?).
+>
+> - **Ana e mai înaltă decât Maria.** — Ana je vyšší než Maria.
+> - **Bunicul e cel mai bătrân din familie.** — Dědeček je nejstarší v rodině.
+> - **Sora mea e cea mai tânără.** — Moje sestra je nejmladší.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l1-w1` | **înalt** | vysoký | Ženský rod: înaltă; množné číslo: înalți, înalte. Čte se „y-NALT“. |
+| [ ] | `u18-l1-w2` | **scund** | malý postavou | O lidech. Ženský rod: scundă; množné číslo: scunzi, scunde. Opak: înalt. |
+| [ ] | `u18-l1-w3` | **tânăr** | mladý | Ženský rod: tânără; množné číslo: tineri, tinere. Čte se „TY-năr“. |
+| [ ] | `u18-l1-w4` | **bătrân** | starý; v letech | O lidech a zvířatech; o věcech se říká vechi. Ženský rod: bătrână; množné číslo: bătrâni, bătrâne. Čte se „bă-TRYN“. |
+| [ ] | `u18-l1-w5` | **păr** | vlasy | Nepočítá se, proto bez „un“. părul = ty vlasy: Are părul negru. = Má černé vlasy. Un păr = jeden vlas (i hrušeň). |
+| [ ] | `u18-l1-w6` | **slab** | hubený; slabý | Ženský rod: slabă; množné číslo: slabi, slabe. Slovanské slovo, jako české slabý. |
+| [ ] | `u18-l1-w7` | **gras** | tlustý | Ženský rod: grasă; množné číslo: grași, grase. O lidech zní hrubě, jako česky. |
+| [ ] | `u18-l1-w8` | **decât** | než | Mai mare decât = větší než. Čte se „de-KYT“. |
+
+**Cvičení**
+
+- [ ] `u18-l1-e1` *Výběr* — **tânăr** — možnosti: „mladý“, „starý“, „vysoký“ — ✔ **mladý**
+- [ ] `u18-l1-e2` *Výběr* — **vlasy** — možnosti: „păr“, „un pat“, „o masă“ — ✔ **păr**
+- [ ] `u18-l1-e3` *Dvojice* — **înalt** = vysoký · **scund** = malý postavou · **slab** = hubený · **gras** = tlustý
+- [ ] `u18-l1-e4` *Poslech* — 🔊 zazní: **Bunicul e cel mai bătrân.** — možnosti: „Dědeček je nejstarší.“, „Dědeček je starší.“, „Dědeček je nejmladší.“ — ✔ **Dědeček je nejstarší.**
+- [ ] `u18-l1-e5` *Poslech* — 🔊 zazní: **Are părul negru.** — možnosti: „Are părul negru.“, „Are părul alb.“, „Are părul maro.“ — ✔ **Are părul negru.**
+- [ ] `u18-l1-e6` *Doplňování* — **Ana e mai tânără ___ Maria.** (Ana je mladší než Maria.) — možnosti: „decât“, „cel“, „mai“ — ✔ **decât** — vysvětlení: „Než“ se při srovnání řekne decât.
+- [ ] `u18-l1-e7` *Doplňování* — **Sora mea e ___ mai tânără.** (Moje sestra je nejmladší.) — možnosti: „cea“, „cel“, „cei“ — ✔ **cea** — vysvětlení: Sestra je ženského rodu, proto cea mai (nejmladší); cel mai je pro mužský rod.
+- [ ] `u18-l1-e8` *Psaní* — **Dědeček je starší než babička.** → ✔ **Bunicul e mai bătrân decât bunica.** (uznává se i: „Bunicul este mai bătrân decât bunica.“)
+- [ ] `u18-l1-e9` *Skládání věty* — Moje máma je nejmladší v rodině. → ✔ **Mama mea e cea mai tânără din familie.** (chybné dílky: „cel“)
+- [ ] `u18-l1-e10` *Mluvení* — 🎤 **Bunica e mai scundă decât bunicul.** — Babička je menší než dědeček.
+
+### [ ] 18.2: Jaký je? (Cum este?) · `u18-l2`
+
+**[ ] Tip: Pozor na falešné přátele**
+
+> Některá slova zní česky, ale znamenají něco jiného. Prost neznamená prostý, ale hloupý – a zní to hrubě, o lidech ho raději neříkejte. Drag není drahý (to je scump), ale milý, drahý srdci: Dragă Ana! = Milá Ano! Naopak vesel je opravdu veselý. Na povahu se zeptáte Cum e? – Jaký je? Jaká je? A nezapomeňte, že přídavné jméno se řídí rodem: bunicul e vesel, bunica e veselă.
+>
+> - **Bunicul e foarte vesel.** — Dědeček je velmi veselý.
+> - **Fiica mea e harnică, nu leneșă.** — Moje dcera je pilná, ne líná.
+> - **Dragă Ana, mulțumesc!** — Milá Ano, děkuji!
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l2-w1` | **vesel** | veselý | Slovanské slovo. Ženský rod: veselă; množné číslo: veseli, vesele. |
+| [ ] | `u18-l2-w2` | **trist** | smutný | Ženský rod: tristă; množné číslo: triști, triste. |
+| [ ] | `u18-l2-w3` | **harnic** | pilný | Ženský rod: harnică; množné číslo: harnici, harnice. Čte se „HAR-nik“. |
+| [ ] | `u18-l2-w4` | **leneș** | líný | Ženský rod: leneșă; množné číslo: leneși, leneșe. Čte se „LE-neš“. |
+| [ ] | `u18-l2-w5` | **amabil** | laskavý; vlídný | Ženský rod: amabilă; množné číslo: amabili, amabile. Sunteți foarte amabil! = To je od vás moc laskavé! Čte se „a-MA-bil“. |
+| [ ] | `u18-l2-w6` | **prost** | hloupý | Falešný přítel: neznamená prostý! Zní hrubě. Ženský rod: proastă; množné číslo: proști, proaste. |
+| [ ] | `u18-l2-w7` | **deștept** | chytrý | Ženský rod: deșteaptă; množné číslo: deștepți, deștepte. Čte se „deš-TEPT“. |
+| [ ] | `u18-l2-w8` | **drag** | milý | Falešný přítel: neznamená drahý (to je scump). Ženský rod: dragă; množné číslo: dragi. Dragă Ana! = Milá Ano! |
+
+**Cvičení**
+
+- [ ] `u18-l2-e1` *Výběr* — Pozor, falešný přítel! Co to znamená? **prost** — možnosti: „hloupý“, „prostý“, „drahý“ — ✔ **hloupý**
+- [ ] `u18-l2-e2` *Výběr* — **pilný** — možnosti: „harnic“, „leneș“, „trist“ — ✔ **harnic**
+- [ ] `u18-l2-e3` *Dvojice* — **vesel** = veselý · **trist** = smutný · **deștept** = chytrý · **amabil** = laskavý
+- [ ] `u18-l2-e4` *Poslech* — 🔊 zazní: **Sunteți foarte amabil!** — možnosti: „To je od vás moc laskavé!“, „Jste moc veselí!“, „Jste moc chytří!“ — ✔ **To je od vás moc laskavé!**
+- [ ] `u18-l2-e5` *Poslech* — 🔊 zazní: **Fiica mea e deșteaptă și harnică.** — možnosti: „Moje dcera je chytrá a pilná.“, „Moje dcera je chytrá a líná.“, „Moje sestra je chytrá a pilná.“ — ✔ **Moje dcera je chytrá a pilná.**
+- [ ] `u18-l2-e6` *Doplňování* — **Bunica e foarte ___.** (Babička je velmi veselá.) — možnosti: „veselă“, „vesel“, „veseli“ — ✔ **veselă** — vysvětlení: Babička je ženského rodu, proto veselă.
+- [ ] `u18-l2-e7` *Doplňování* — **___ Ana, ce mai faci?** (Milá Ano, jak se máš?) — možnosti: „Dragă“, „Drag“, „Dragi“ — ✔ **Dragă** — vysvětlení: Ana je žena, proto dragă (milá); drag je mužský rod, dragi množné číslo.
+- [ ] `u18-l2-e8` *Psaní* — **Dědeček je velmi pilný.** → ✔ **Bunicul e foarte harnic.** (uznává se i: „Bunicul este foarte harnic.“)
+- [ ] `u18-l2-e9` *Skládání věty* — Můj bratr není hloupý, je chytrý. → ✔ **Fratele meu nu e prost, e deștept.** (chybné dílky: „deșteaptă“)
+- [ ] `u18-l2-e10` *Výběr* — **smutný** — možnosti: „trist“, „vesel“, „leneș“ — ✔ **trist**
+
+### [ ] 18.3: Protože a jestli (Pentru că și dacă) · `u18-l3`
+
+**[ ] Tip: Že, jestli, protože**
+
+> Tři malá slova spojují věty: că = že (Știu că e acasă. = Vím, že je doma.), pentru că = protože (Nu vin, pentru că n-am timp. = Nepřijdu, protože nemám čas.) a dacă. Dacă má dva české významy: „jestli“ (Nu știu dacă vine. = Nevím, jestli přijde.) a „když, pokud“ (Dacă ai timp, vino! = Když máš čas, přijď!). Pozor: „když“ ve smyslu „v době, kdy“ je când – Când eram copil… Před că se čárka nepíše.
+>
+> - **Cred că e acasă.** — Myslím, že je doma.
+> - **Nu știu dacă vine.** — Nevím, jestli přijde.
+> - **Nu vin, pentru că n-am timp.** — Nepřijdu, protože nemám čas.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l3-w1` | **că** | že | Știu că… = Vím, že… Před că se čárka nepíše. Čte se „kă“. |
+| [ ] | `u18-l3-w2` | **dacă** | jestli; když | Jestli: Nu știu dacă… Když, pokud: Dacă ai timp… Čte se „DA-kă“. |
+| [ ] | `u18-l3-w3` | **pentru că** | protože | Doslova „pro to, že“. Čte se „PEN-tru kă“. |
+| [ ] | `u18-l3-w4` | **Cred că** | myslím, že | Od a crede (věřit; myslet si). Cred că da. = Myslím, že ano. Cred că nu. = Myslím, že ne. |
+| [ ] | `u18-l3-w5` | **Nu știu dacă** | nevím, jestli | Știu = vím (od a ști). Čte se „nu štiw DA-kă“. |
+| [ ] | `u18-l3-w6` | **de aceea** | proto | N-am timp, de aceea nu vin. = Nemám čas, proto nepřijdu. Čte se „de a-ČE-ja“. |
+
+**Cvičení**
+
+- [ ] `u18-l3-e1` *Výběr* — **pentru că** — možnosti: „protože“, „proto“, „že“ — ✔ **protože**
+- [ ] `u18-l3-e2` *Výběr* — **proto** — možnosti: „de aceea“, „pentru că“, „dacă“ — ✔ **de aceea**
+- [ ] `u18-l3-e3` *Dvojice* — **că** = že · **dacă** = jestli; když · **Cred că** = myslím, že · **Nu știu dacă** = nevím, jestli
+- [ ] `u18-l3-e4` *Poslech* — 🔊 zazní: **Cred că e acasă.** — možnosti: „Myslím, že je doma.“, „Vím, že je doma.“, „Nevím, jestli je doma.“ — ✔ **Myslím, že je doma.**
+- [ ] `u18-l3-e5` *Poslech* — 🔊 zazní: **Nu știu dacă vine.** — možnosti: „Nu știu dacă vine.“, „Nu știu când vine.“, „Știu că vine.“ — ✔ **Nu știu dacă vine.**
+- [ ] `u18-l3-e6` *Doplňování* — **Nu vin, ___ n-am timp.** (Nepřijdu, protože nemám čas.) — možnosti: „pentru că“, „pentru“, „decât“ — ✔ **pentru că** — vysvětlení: „Protože“ jsou dvě slova: pentru că. Samotné pentru znamená „pro“.
+- [ ] `u18-l3-e7` *Doplňování* — **Cred ___ e acasă.** (Myslím, že je doma.) — možnosti: „că“, „ce“, „dacă“ — ✔ **că** — vysvětlení: Po cred (myslím) následuje că = že.
+- [ ] `u18-l3-e8` *Psaní* — **Myslím, že ano.** → ✔ **Cred că da.**
+- [ ] `u18-l3-e9` *Skládání věty* — Nevím, jestli má čas. → ✔ **Nu știu dacă are timp.** (chybné dílky: „ce“)
+- [ ] `u18-l3-e10` *Skládání věty* — Nemám čas, proto nepřijdu. → ✔ **N-am timp, de aceea nu vin.** (chybné dílky: „pentru“)
+
+## [ ] Kapitola 19: Telefon a úřady (La telefon și la ghișeu) · A2
+
+Soubor: `content/cs-ro/unit19-telefon.json` · ID: `u19` · Popis: Telefonování, pošta a banka, formuláře a osobní údaje.
+
+### [ ] 19.1: Haló? (Alo?) · `u19-l1`
+
+**[ ] Tip: Ho vidím Iona: îl văd pe Ion**
+
+> Když je předmětem konkrétní člověk (koho vidím, komu volám), rumunština ho řekne dvakrát. Před sloveso dá îl (ho) nebo o (ji) a před jméno pe: Îl văd pe Ion. = Vidím Iona. O văd pe Ana. = Vidím Anu. Doslova tedy „ho vidím Iona“. Česky nic takového není, tak si zapamatujte vzorec: îl nebo o + sloveso + pe + osoba. U věcí se to nedělá: Văd casa. (Vidím dům.) Pozor: rumunské a suna (volat) má předmět ve 4. pádě: Îl sun pe Mihai. = Volám Mihaiovi.
+>
+> - **Îl văd pe Ion.** — Vidím Iona.
+> - **O sun pe mama.** — Volám mámě.
+> - **Vă aud foarte bine.** — Slyším vás velmi dobře.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l1-w1` | **Alo?** | haló? | Takto se zvedá telefon. Čte se „a-LO“. |
+| [ ] | `u19-l1-w2` | **Cine e la telefon?** | kdo je u telefonu? | Zdvořileji také: Cu cine vorbesc? = S kým mluvím? Čte se „či-ne je la te-le-FON“. |
+| [ ] | `u19-l1-w3` | **Revin.** | ozvu se | Doslova „vrátím se (k tomu)“. Revin imediat. = Hned se ozvu. Čte se „re-VIN“. |
+| [ ] | `u19-l1-w4` | **un număr de telefon** | telefonní číslo | numărul de telefon = to telefonní číslo; množné číslo: numere de telefon. Čte se „NU-măr de te-le-FON“. |
+| [ ] | `u19-l1-w5` | **un mesaj** | zpráva | mesajul = ta zpráva; množné číslo: mesaje (střední rod). Také SMS. Čte se „me-SAŽ“. |
+| [ ] | `u19-l1-w6` | **a trimite** | poslat; posílat | eu trimit, tu trimiți, el trimite; minulý čas: am trimis. Čte se „a tri-MI-te“. |
+| [ ] | `u19-l1-w7` | **Vă aud** | slyším vás | Vă = vás, aud = slyším (od a auzi). Nu vă aud bine. = Špatně vás slyším. Čte se „vă a-UD“. |
+
+**Cvičení**
+
+- [ ] `u19-l1-e1` *Výběr* — **Revin.** — možnosti: „ozvu se“, „slyším vás“, „haló?“ — ✔ **ozvu se**
+- [ ] `u19-l1-e2` *Výběr* — **telefonní číslo** — možnosti: „un număr de telefon“, „un mesaj“, „o oră“ — ✔ **un număr de telefon**
+- [ ] `u19-l1-e3` *Dvojice* — **Alo?** = haló? · **un mesaj** = zpráva · **a trimite** = poslat · **Vă aud** = slyším vás
+- [ ] `u19-l1-e4` *Poslech* — 🔊 zazní: **Alo? Cine e la telefon?** — možnosti: „Haló? Kdo je u telefonu?“, „Haló? Kde jste?“, „Haló? Slyšíte mě?“ — ✔ **Haló? Kdo je u telefonu?**
+- [ ] `u19-l1-e5` *Poslech* — 🔊 zazní: **Îl sun pe Mihai.** — možnosti: „Îl sun pe Mihai.“, „O sun pe Maria.“, „Îl văd pe Mihai.“ — ✔ **Îl sun pe Mihai.**
+- [ ] `u19-l1-e6` *Doplňování* — **___ văd pe Ion.** (Vidím Iona.) — možnosti: „Îl“, „O“, „Le“ — ✔ **Îl** — vysvětlení: Ion je muž, proto îl (ho); o (ji) by patřilo k ženě.
+- [ ] `u19-l1-e7` *Doplňování* — **O sun ___ mama.** (Volám mámě.) — možnosti: „pe“, „cu“, „de“ — ✔ **pe** — vysvětlení: Před osobou, které voláte nebo kterou vidíte, stojí pe.
+- [ ] `u19-l1-e8` *Psaní* — **Pošlu vám zprávu.** → ✔ **Vă trimit un mesaj.** (uznává se i: „O să vă trimit un mesaj.“, „Vă voi trimite un mesaj.“)
+- [ ] `u19-l1-e9` *Skládání věty* — Špatně vás slyším. → ✔ **Nu vă aud bine.** (chybné dílky: „îl“)
+- [ ] `u19-l1-e10` *Skládání věty* — Vidím Anu. → ✔ **O văd pe Ana.** (chybné dílky: „îl“)
+
+### [ ] 19.2: Na poště a v bance (La poștă și la bancă) · `u19-l2`
+
+**[ ] Tip: Který: care a pe care**
+
+> Care znamená „který, která, které“ a nemění se podle rodu: plicul care e pe masă (obálka, která je na stole), doamna care lucrează aici (paní, která tu pracuje). Ptá se jím i v otázce: Care ghișeu? (Která přepážka?) Když je „který“ ve 4. pádě (koho, co), přidá se pe a za ním îl nebo o, jako v minulé lekci: Coletul pe care îl trimit e mare. (Balík, který posílám, je velký.) Česky se mění koncovka (který – kterého – kterou), rumunsky stačí care nebo pe care.
+>
+> - **Care e coada pentru colete?** — Která fronta je na balíky?
+> - **Coletul pe care îl trimit e mare.** — Balík, který posílám, je velký.
+> - **Doamna care lucrează la ghișeu e amabilă.** — Paní, která pracuje u přepážky, je laskavá.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l2-w1` | **un ghișeu** | přepážka | ghișeul = ta přepážka; množné číslo: ghișee (střední rod). La ghișeu = u přepážky. Čte se „gi-ŠEU“. |
+| [ ] | `u19-l2-w2` | **un formular** | formulář | formularul = ten formulář; množné číslo: formulare (střední rod). Čte se „for-mu-LAR“. |
+| [ ] | `u19-l2-w3` | **o semnătură** | podpis | semnătura = ten podpis; množné číslo: semnături. Čte se „sem-nă-TU-ră“. |
+| [ ] | `u19-l2-w4` | **un plic** | obálka | plicul = ta obálka; množné číslo: plicuri (střední rod). |
+| [ ] | `u19-l2-w5` | **un colet** | balík | coletul = ten balík; množné číslo: colete (střední rod). Čte se „ko-LET“. |
+| [ ] | `u19-l2-w6` | **o coadă** | fronta | coada = ta fronta; množné číslo: cozi. Doslova „ocas“. Stau la coadă. = Stojím ve frontě. Čte se „KOA-dă“, oa je jedna slabika. |
+| [ ] | `u19-l2-w7` | **care** | který; která; které | Nemění se podle rodu. Ve 4. pádě pe care = kterého, kterou. Čte se „KA-re“. |
+
+**Cvičení**
+
+- [ ] `u19-l2-e1` *Výběr* — **o coadă** — možnosti: „fronta“, „přepážka“, „obálka“ — ✔ **fronta**
+- [ ] `u19-l2-e2` *Výběr* — **balík** — možnosti: „un colet“, „un plic“, „un formular“ — ✔ **un colet**
+- [ ] `u19-l2-e3` *Dvojice* — **un ghișeu** = přepážka · **un formular** = formulář · **o semnătură** = podpis · **un plic** = obálka
+- [ ] `u19-l2-e4` *Poslech* — 🔊 zazní: **Stau la coadă la poștă.** — možnosti: „Stojím ve frontě na poště.“, „Stojím u přepážky v bance.“, „Posílám balík z pošty.“ — ✔ **Stojím ve frontě na poště.**
+- [ ] `u19-l2-e5` *Poslech* — 🔊 zazní: **La care ghișeu?** — možnosti: „La care ghișeu?“, „La ghișeu, vă rog.“, „Care formular?“ — ✔ **La care ghișeu?**
+- [ ] `u19-l2-e6` *Doplňování* — **Coletul pe ___ îl trimit e mare.** (Balík, který posílám, je velký.) — možnosti: „care“, „ce“, „cine“ — ✔ **care** — vysvětlení: „Který“ ve 4. pádě = pe care.
+- [ ] `u19-l2-e7` *Doplňování* — **Doamna ___ lucrează la ghișeu e amabilă.** (Paní, která pracuje u přepážky, je laskavá.) — možnosti: „care“, „pe care“, „cine“ — ✔ **care** — vysvětlení: Paní tu sama něco dělá (která pracuje), proto jen care, bez pe.
+- [ ] `u19-l2-e8` *Psaní* — **Kde je formulář?** → ✔ **Unde e formularul?** (uznává se i: „Unde este formularul?“)
+- [ ] `u19-l2-e9` *Skládání věty* — Posílám balík do Česka. → ✔ **Trimit un colet în Cehia.** (chybné dílky: „plicul“)
+- [ ] `u19-l2-e10` *Mluvení* — 🎤 **Unde e ghișeul pentru colete?** — Kde je přepážka pro balíky?
+
+### [ ] 19.3: Formality (Formalități) · `u19-l3`
+
+**[ ] Tip: Na úřadě se vyká**
+
+> Na úřadě uslyšíte zdvořilé pokyny s koncovkou -ți, stejně jako v mergeți nebo scuzați-mă: Completați formularul. (Vyplňte formulář.) Semnați aici. (Podepište se tady.) Ve formulářích je jako v češtině 2. pád: data nașterii = datum narození (datum čeho? narození). Pozor na kolonky: Nume je příjmení, Prenume křestní jméno. Na otázku „jaká je vaše…“ se rumunsky ptá care: Care e adresa dumneavoastră?
+>
+> - **Completați formularul, vă rog.** — Vyplňte formulář, prosím.
+> - **Semnați aici.** — Podepište se tady.
+> - **Care e adresa dumneavoastră?** — Jaká je vaše adresa?
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l3-w1` | **numele de familie** | příjmení | Doslova „rodinné jméno“. Un nume = jméno obecně. Na formuláři stojí jen Nume a myslí se tím příjmení. Čte se „NU-me-le de fa-MI-li-e“. |
+| [ ] | `u19-l3-w2` | **prenumele** | křestní jméno | Tvar se členem; bez členu: un prenume; množné číslo: prenume. Čte se „pre-NU-me-le“. |
+| [ ] | `u19-l3-w3` | **o adresă** | adresa | adresa = ta adresa; množné číslo: adrese. Čte se „a-DRE-să“. |
+| [ ] | `u19-l3-w4` | **data nașterii** | datum narození | data = to datum, nașterii = narození (2. pád od nașterea). Čte se „DA-ta NAŠ-te-rij“. |
+| [ ] | `u19-l3-w5` | **un buletin** | občanský průkaz | buletinul = ta občanka; množné číslo: buletine (střední rod). Hovorové; úředně carte de identitate. Čte se „bu-le-TIN“. |
+| [ ] | `u19-l3-w6` | **a completa** | vyplnit; vyplňovat | Skupina -ez: eu completez. Completați formularul! = Vyplňte formulář! Čte se „a kom-ple-TA“. |
+| [ ] | `u19-l3-w7` | **a semna** | podepsat; podepisovat | Skupina -ez: eu semnez. Semnați aici! = Podepište se tady! Čte se „a sem-NA“. |
+
+**Cvičení**
+
+- [ ] `u19-l3-e1` *Výběr* — **prenumele** — možnosti: „křestní jméno“, „příjmení“, „adresa“ — ✔ **křestní jméno**
+- [ ] `u19-l3-e2` *Výběr* — **občanský průkaz** — možnosti: „un buletin“, „un formular“, „un bilet“ — ✔ **un buletin**
+- [ ] `u19-l3-e3` *Dvojice* — **numele de familie** = příjmení · **o adresă** = adresa · **data nașterii** = datum narození · **a semna** = podepsat
+- [ ] `u19-l3-e4` *Poslech* — 🔊 zazní: **Semnați aici, vă rog.** — možnosti: „Podepište se tady, prosím.“, „Vyplňte to tady, prosím.“, „Počkejte tady, prosím.“ — ✔ **Podepište se tady, prosím.**
+- [ ] `u19-l3-e5` *Poslech* — 🔊 zazní: **Completați formularul.** — možnosti: „Completați formularul.“, „Completez formularul.“, „Semnați formularul.“ — ✔ **Completați formularul.**
+- [ ] `u19-l3-e6` *Doplňování* — **___ formularul, vă rog.** (Vyplňte formulář, prosím.) — možnosti: „Completați“, „Completat“, „Completare“ — ✔ **Completați** — vysvětlení: Zdvořilý pokyn při vykání končí na -ați: completați, semnați.
+- [ ] `u19-l3-e7` *Doplňování* — **Care e data ___?** (Jaké je datum narození?) — možnosti: „nașterii“, „naștere“, „nașterea“ — ✔ **nașterii** — vysvětlení: Datum čeho? Narození – 2. pád, rumunsky nașterii.
+- [ ] `u19-l3-e8` *Psaní* — **Jaká je vaše adresa?** → ✔ **Care e adresa dumneavoastră?** (uznává se i: „Care este adresa dumneavoastră?“)
+- [ ] `u19-l3-e9` *Skládání věty* — Tady je můj občanský průkaz. → ✔ **Aici e buletinul meu.** (chybné dílky: „mea“)
+- [ ] `u19-l3-e10` *Skládání věty* — Vyplňte příjmení a křestní jméno. → ✔ **Completați numele și prenumele.** (chybné dílky: „completez“)
+
+## [ ] Kapitola 20: Svátky (Sărbători) · A2
+
+Soubor: `content/cs-ro/unit20-sarbatori.json` · ID: `u20` · Popis: Vánoce a Velikonoce, přání, dvojí zápor jako v češtině a oslava – opakování celého kurzu.
+
+### [ ] 20.1: Vánoce a Velikonoce (Crăciunul și Paștele) · `u20-l1`
+
+**[ ] Tip: Přání ke svátkům**
+
+> Přání jsou krátká: Crăciun fericit! (Veselé Vánoce!) a Paște fericit! (Veselé Velikonoce!) – fericit = šťastný. Rumunsky jsou Vánoce i Velikonoce v jednotném čísle, se členem Crăciunul a Paștele. „O Vánocích“ se řekne de Crăciun, „o Velikonocích“ de Paște. Univerzální přání je La mulți ani! – doslova „na mnoho let“: k narozeninám, ke svátku i k Novému roku. O Velikonocích se věřící zdraví Hristos a înviat! a odpovídá se Adevărat a înviat! (Vpravdě vstal!)
+>
+> - **Crăciun fericit!** — Veselé Vánoce!
+> - **Ce faceți de Crăciun?** — Co děláte o Vánocích?
+> - **La mulți ani, bunico!** — Všechno nejlepší, babičko!
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l1-w1` | **Crăciun fericit!** | veselé Vánoce! | Crăciunul = Vánoce (jednotné číslo). De Crăciun = o Vánocích. Čte se „kră-ČUN fe-ri-ČIT“. |
+| [ ] | `u20-l1-w2` | **Paște fericit!** | veselé Velikonoce! | Paștele = Velikonoce. De Paște = o Velikonocích. Čte se „PAŠ-te fe-ri-ČIT“. |
+| [ ] | `u20-l1-w3` | **La mulți ani!** | všechno nejlepší! | Doslova „na mnoho let“. K narozeninám, ke svátku i k Novému roku. Čte se „la mulc aň“. |
+| [ ] | `u20-l1-w4` | **un cadou** | dárek | cadoul = ten dárek; množné číslo: cadouri (střední rod). Čte se „ka-DOU“. |
+| [ ] | `u20-l1-w5` | **un brad** | jedle; vánoční stromek | bradul = ta jedle; množné číslo: brazi. Bradul de Crăciun = vánoční stromek. |
+| [ ] | `u20-l1-w6` | **un ou roșu** | červené vejce | oul roșu = to červené vejce; množné číslo: ouă roșii. O Velikonocích se vejce barví hlavně na červeno a ťukají se o sebe. |
+| [ ] | `u20-l1-w7` | **Hristos a înviat!** | Kristus vstal z mrtvých! | Velikonoční pozdrav; odpověď: Adevărat a înviat! = Vpravdě vstal! Čte se „hris-TOS a yn-vi-AT“. |
+
+**Cvičení**
+
+- [ ] `u20-l1-e1` *Výběr* — **un cadou** — možnosti: „dárek“, „jedle; vánoční stromek“, „červené vejce“ — ✔ **dárek**
+- [ ] `u20-l1-e2` *Výběr* — **veselé Vánoce!** — možnosti: „Crăciun fericit!“, „Paște fericit!“, „La mulți ani!“ — ✔ **Crăciun fericit!**
+- [ ] `u20-l1-e3` *Dvojice* — **un brad** = jedle · **La mulți ani!** = všechno nejlepší! · **Paște fericit!** = veselé Velikonoce! · **un ou roșu** = červené vejce
+- [ ] `u20-l1-e4` *Poslech* — 🔊 zazní: **Ce faceți de Crăciun?** — možnosti: „Co děláte o Vánocích?“, „Co děláte o Velikonocích?“, „Co jste dělali o víkendu?“ — ✔ **Co děláte o Vánocích?**
+- [ ] `u20-l1-e5` *Poslech* — 🔊 zazní: **Hristos a înviat!** — možnosti: „Hristos a înviat!“, „Adevărat a înviat!“, „Paște fericit!“ — ✔ **Hristos a înviat!**
+- [ ] `u20-l1-e6` *Doplňování* — **Am cumpărat un ___ pentru bunica.** (Koupil(a) jsem dárek pro babičku.) — možnosti: „cadou“, „cadouri“, „cadoul“ — ✔ **cadou** — vysvětlení: Po un stojí tvar bez členu v jednotném čísle: un cadou.
+- [ ] `u20-l1-e7` *Doplňování* — **Am două ouă ___.** (Mám dvě červená vejce.) — možnosti: „roșii“, „roșu“, „roșie“ — ✔ **roșii** — vysvětlení: Ouă se v množném čísle chová jako ženský rod, proto roșii.
+- [ ] `u20-l1-e8` *Psaní* — **Veselé Velikonoce!** → ✔ **Paște fericit!**
+- [ ] `u20-l1-e9` *Skládání věty* — Stromek je u okna. → ✔ **Bradul e lângă fereastră.** (chybné dílky: „brad“)
+- [ ] `u20-l1-e10` *Výběr* — Kamarádka má narozeniny. Co jí řeknete? **Všechno nejlepší!** — možnosti: „La mulți ani!“, „Crăciun fericit!“, „Noapte bună!“ — ✔ **La mulți ani!**
+
+### [ ] 20.2: Nikdo nic (Nimeni, nimic) · `u20-l2`
+
+**[ ] Tip: Dvojí zápor jako v češtině**
+
+> Tady vám čeština pomůže: rumunsky se zapírá dvakrát, stejně jako česky. Nimeni nu vine. = Nikdo nepřijde. Nu văd nimic. = Nic nevidím. Ke slovesu vždy patří nu – tak jako české ne-: nimeni (nikdo), nimic (nic), niciodată (nikdy), nicăieri (nikde, nikam). Můžete tedy překládat slovo od slova. Nici… nici = ani… ani: Nu beau nici vin, nici bere. A „ještě ne“ je încă nu: Încă n-am mâncat. (Ještě jsem nejedl(a).)
+>
+> - **Nimeni nu e acasă.** — Nikdo není doma.
+> - **N-am fost niciodată la mare.** — Nikdy jsem nebyl(a) u moře.
+> - **Nu beau nici vin, nici bere.** — Nepiju ani víno, ani pivo.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l2-w1` | **nimeni** | nikdo | Se slovesem vždy nu: Nimeni nu e acasă. = Nikdo není doma. Čte se „NI-meň“. |
+| [ ] | `u20-l2-w2` | **nimic** | nic | Nu vreau nimic. = Nic nechci. Čte se „ni-MIK“. |
+| [ ] | `u20-l2-w3` | **niciodată** | nikdy | N-am fost niciodată la munte. = Nikdy jsem nebyl(a) na horách. Čte se „ni-čo-DA-tă“. |
+| [ ] | `u20-l2-w4` | **nicăieri** | nikde; nikam | Nu merg nicăieri. = Nikam nejdu. Čte se „ni-kă-JER“. |
+| [ ] | `u20-l2-w5` | **nici** | ani | Nici… nici = ani… ani: nici ceai, nici cafea. Nici eu! = Já taky ne! Čte se „nič“. |
+| [ ] | `u20-l2-w6` | **încă nu** | ještě ne | V minulém čase hlavně încă n-am: Încă n-am mâncat. = Ještě jsem nejedl(a). Čte se „YN-kă nu“. |
+
+**Cvičení**
+
+- [ ] `u20-l2-e1` *Výběr* — **nimeni** — možnosti: „nikdo“, „nic“, „nikdy“ — ✔ **nikdo**
+- [ ] `u20-l2-e2` *Výběr* — **nikde; nikam** — možnosti: „nicăieri“, „niciodată“, „nimic“ — ✔ **nicăieri**
+- [ ] `u20-l2-e3` *Dvojice* — **nimic** = nic · **niciodată** = nikdy · **nici** = ani · **încă nu** = ještě ne
+- [ ] `u20-l2-e4` *Poslech* — 🔊 zazní: **Nimeni nu e acasă.** — možnosti: „Nikdo není doma.“, „Všichni jsou doma.“, „Nikdo není v práci.“ — ✔ **Nikdo není doma.**
+- [ ] `u20-l2-e5` *Poslech* — 🔊 zazní: **Nu vreau nimic.** — možnosti: „Nu vreau nimic.“, „Nu văd nimic.“, „Nu vreau nici apă.“ — ✔ **Nu vreau nimic.**
+- [ ] `u20-l2-e6` *Doplňování* — **Nimeni ___ vine.** (Nikdo nepřijde.) — možnosti: „nu“, „da“, „mai“ — ✔ **nu** — vysvětlení: Jako česky „nikdo NEpřijde“: k nimeni patří u slovesa nu.
+- [ ] `u20-l2-e7` *Doplňování* — **N-am fost ___ la mare.** (Nikdy jsem nebyl(a) u moře.) — možnosti: „niciodată“, „nimeni“, „nimic“ — ✔ **niciodată** — vysvětlení: Nikdy = niciodată; nimeni je nikdo, nimic je nic.
+- [ ] `u20-l2-e8` *Psaní* — **Nic nechci.** → ✔ **Nu vreau nimic.**
+- [ ] `u20-l2-e9` *Skládání věty* — Nepiju ani víno, ani pivo. → ✔ **Nu beau nici vin, nici bere.** (chybné dílky: „nimeni“)
+- [ ] `u20-l2-e10` *Skládání věty* — Ještě jsem nejedl(a). → ✔ **Încă n-am mâncat.** (chybné dílky: „nimeni“)
+
+### [ ] 20.3: Oslava (Petrecerea) · `u20-l3`
+
+**[ ] Tip: Noroc! – na zdraví**
+
+> Rumunský přípitek je Noroc! – slovanské slovo, které znamená „štěstí“; česky řekneme „Na zdraví!“. Před jídlem se přeje Poftă bună! (Dobrou chuť!). Na oslavě využijete všechno, co už umíte: popřát (La mulți ani!), vyprávět o minulosti (Bunica a făcut un tort. = Babička upekla dort.), vzpomínat (Pe vremuri sărbătoream la țară.) i plánovat (Mâine sărbătorim ziua bunicii.). Gratulujeme – to je konec kurzu A2!
+>
+> - **Noroc și la mulți ani!** — Na zdraví a všechno nejlepší!
+> - **Poftă bună!** — Dobrou chuť!
+> - **Mâine sărbătorim ziua bunicii.** — Zítra slavíme babiččiny narozeniny.
+
+**Slovíčka**
+
+| OK | ID | rumunština | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l3-w1` | **o petrecere** | oslava; večírek | petrecerea = ta oslava; množné číslo: petreceri. Čte se „pe-TRE-če-re“. |
+| [ ] | `u20-l3-w2` | **un tort** | dort | tortul = ten dort; množné číslo: torturi (střední rod). |
+| [ ] | `u20-l3-w3` | **o lumânare** | svíčka | lumânarea = ta svíčka; množné číslo: lumânări. Čte se „lu-my-NA-re“. |
+| [ ] | `u20-l3-w4` | **Noroc!** | na zdraví! | Přípitek. Slovanské slovo, znamená „štěstí“. Čte se „no-ROK“. |
+| [ ] | `u20-l3-w5` | **Poftă bună!** | dobrou chuť! | Odpověď: Mulțumesc, la fel! = Děkuji, nápodobně! Čte se „POF-tă BU-nă“. |
+| [ ] | `u20-l3-w6` | **a sărbători** | slavit; oslavit | Skupina -esc: eu sărbătoresc; dřív: sărbătoream. O sărbătoare = svátek. Čte se „a săr-bă-to-RI“. |
+| [ ] | `u20-l3-w7` | **un musafir** | host | musafirul = ten host; množné číslo: musafiri. Hovorové, spisovně un oaspete. Čte se „mu-sa-FIR“. |
+
+**Cvičení**
+
+- [ ] `u20-l3-e1` *Výběr* — **o lumânare** — možnosti: „svíčka“, „dort“, „host“ — ✔ **svíčka**
+- [ ] `u20-l3-e2` *Výběr* — **dobrou chuť!** — možnosti: „Poftă bună!“, „Noroc!“, „La mulți ani!“ — ✔ **Poftă bună!**
+- [ ] `u20-l3-e3` *Dvojice* — **o petrecere** = oslava · **un tort** = dort · **Noroc!** = na zdraví! · **un musafir** = host
+- [ ] `u20-l3-e4` *Poslech* — 🔊 zazní: **Mâine sărbătorim ziua bunicii.** — možnosti: „Zítra slavíme babiččiny narozeniny.“, „Včera jsme slavili babiččiny narozeniny.“, „Zítra slavíme Vánoce.“ — ✔ **Zítra slavíme babiččiny narozeniny.**
+- [ ] `u20-l3-e5` *Poslech* — 🔊 zazní: **Tortul are șapte lumânări.** — možnosti: „Tortul are șapte lumânări.“, „Tortul are șase lumânări.“, „Tortul are zece lumânări.“ — ✔ **Tortul are șapte lumânări.**
+- [ ] `u20-l3-e6` *Doplňování* — **Ieri ___ fost la o petrecere.** (Včera jsem byl(a) na oslavě.) — možnosti: „am“, „sunt“, „eram“ — ✔ **am** — vysvětlení: Minulý čas slovesa a fi je am fost.
+- [ ] `u20-l3-e7` *Doplňování* — **Musafirii ___ tortul.** (Hosté jedí dort.) — možnosti: „mănâncă“, „mănânc“, „mănânci“ — ✔ **mănâncă** — vysvětlení: Oni (hosté) = mănâncă; mănânc = jím, mănânci = jíš.
+- [ ] `u20-l3-e8` *Psaní* — **Na zdraví!** → ✔ **Noroc!**
+- [ ] `u20-l3-e9` *Skládání věty* — Babička upekla dort. → ✔ **Bunica a făcut un tort.** (chybné dílky: „fac“)
+- [ ] `u20-l3-e10` *Mluvení* — 🎤 **Poftă bună și noroc!** — Dobrou chuť a na zdraví!

@@ -1,0 +1,137 @@
+{
+  "id": "u18",
+  "level": "A2",
+  "title": "Lidé",
+  "titleTarget": "Oamenii",
+  "description": "Jak popsat vzhled a povahu, porovnávat a říct „že“, „jestli“ a „protože“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u18-l1",
+      "title": "Jak vypadá?",
+      "titleTarget": "Cum arată?",
+      "reviewed": false,
+      "tip": {
+        "title": "Vyšší než, nejvyšší",
+        "text": "Srovnávání je v rumunštině snadné. Česky se mění samo slovo (vysoký – vyšší – nejvyšší), rumunsky jen přidáte mai (víc) a místo „než“ řeknete decât: mai înalt decât = vyšší než. „Nejvyšší“ je cel mai înalt. Pozor, cel se řídí rodem: pro ženu cea mai înaltă, v množném čísle cei mai (muži) a cele mai (ženy). Na vzhled se zeptáte Cum arată? (Jak vypadá?).",
+        "examples": [
+          { "target": "Ana e mai înaltă decât Maria.", "native": "Ana je vyšší než Maria." },
+          { "target": "Bunicul e cel mai bătrân din familie.", "native": "Dědeček je nejstarší v rodině." },
+          { "target": "Sora mea e cea mai tânără.", "native": "Moje sestra je nejmladší." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l1-w1", "target": "înalt", "native": "vysoký", "note": "Ženský rod: înaltă; množné číslo: înalți, înalte. Čte se „y-NALT“.", "reviewed": false },
+        { "id": "u18-l1-w2", "target": "scund", "native": "malý postavou", "note": "O lidech. Ženský rod: scundă; množné číslo: scunzi, scunde. Opak: înalt.", "reviewed": false },
+        { "id": "u18-l1-w3", "target": "tânăr", "native": "mladý", "note": "Ženský rod: tânără; množné číslo: tineri, tinere. Čte se „TY-năr“.", "reviewed": false },
+        { "id": "u18-l1-w4", "target": "bătrân", "native": "starý; v letech", "note": "O lidech a zvířatech; o věcech se říká vechi. Ženský rod: bătrână; množné číslo: bătrâni, bătrâne. Čte se „bă-TRYN“.", "reviewed": false },
+        { "id": "u18-l1-w5", "target": "păr", "native": "vlasy", "note": "Nepočítá se, proto bez „un“. părul = ty vlasy: Are părul negru. = Má černé vlasy. Un păr = jeden vlas (i hrušeň).", "reviewed": false },
+        { "id": "u18-l1-w6", "target": "slab", "native": "hubený; slabý", "note": "Ženský rod: slabă; množné číslo: slabi, slabe. Slovanské slovo, jako české slabý.", "reviewed": false },
+        { "id": "u18-l1-w7", "target": "gras", "native": "tlustý", "note": "Ženský rod: grasă; množné číslo: grași, grase. O lidech zní hrubě, jako česky.", "reviewed": false },
+        { "id": "u18-l1-w8", "target": "decât", "native": "než", "note": "Mai mare decât = větší než. Čte se „de-KYT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l1-e1", "type": "choice", "question": "tânăr", "questionLang": "target", "options": ["mladý", "starý", "vysoký"], "answer": "mladý", "reviewed": false },
+        { "id": "u18-l1-e2", "type": "choice", "question": "vlasy", "questionLang": "native", "options": ["păr", "un pat", "o masă"], "answer": "păr", "reviewed": false },
+        { "id": "u18-l1-e3", "type": "match", "pairs": [
+          { "target": "înalt", "native": "vysoký" },
+          { "target": "scund", "native": "malý postavou" },
+          { "target": "slab", "native": "hubený" },
+          { "target": "gras", "native": "tlustý" }
+        ], "reviewed": false },
+        { "id": "u18-l1-e4", "type": "listen", "audio": "Bunicul e cel mai bătrân.", "options": ["Dědeček je nejstarší.", "Dědeček je starší.", "Dědeček je nejmladší."], "answer": "Dědeček je nejstarší.", "reviewed": false },
+        { "id": "u18-l1-e5", "type": "listen", "audio": "Are părul negru.", "options": ["Are părul negru.", "Are părul alb.", "Are părul maro."], "answer": "Are părul negru.", "reviewed": false },
+        { "id": "u18-l1-e6", "type": "fill", "sentence": "Ana e mai tânără ___ Maria.", "translation": "Ana je mladší než Maria.", "options": ["decât", "cel", "mai"], "answer": "decât", "explain": "„Než“ se při srovnání řekne decât.", "reviewed": false },
+        { "id": "u18-l1-e7", "type": "fill", "sentence": "Sora mea e ___ mai tânără.", "translation": "Moje sestra je nejmladší.", "options": ["cea", "cel", "cei"], "answer": "cea", "explain": "Sestra je ženského rodu, proto cea mai (nejmladší); cel mai je pro mužský rod.", "reviewed": false },
+        { "id": "u18-l1-e8", "type": "type", "question": "Dědeček je starší než babička.", "answer": "Bunicul e mai bătrân decât bunica.", "accept": ["Bunicul este mai bătrân decât bunica."], "reviewed": false },
+        { "id": "u18-l1-e9", "type": "build", "question": "Moje máma je nejmladší v rodině.", "answer": "Mama mea e cea mai tânără din familie.", "extra": ["cel"], "reviewed": false },
+        { "id": "u18-l1-e10", "type": "speak", "text": "Bunica e mai scundă decât bunicul.", "native": "Babička je menší než dědeček.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l2",
+      "title": "Jaký je?",
+      "titleTarget": "Cum este?",
+      "reviewed": false,
+      "tip": {
+        "title": "Pozor na falešné přátele",
+        "text": "Některá slova zní česky, ale znamenají něco jiného. Prost neznamená prostý, ale hloupý – a zní to hrubě, o lidech ho raději neříkejte. Drag není drahý (to je scump), ale milý, drahý srdci: Dragă Ana! = Milá Ano! Naopak vesel je opravdu veselý. Na povahu se zeptáte Cum e? – Jaký je? Jaká je? A nezapomeňte, že přídavné jméno se řídí rodem: bunicul e vesel, bunica e veselă.",
+        "examples": [
+          { "target": "Bunicul e foarte vesel.", "native": "Dědeček je velmi veselý." },
+          { "target": "Fiica mea e harnică, nu leneșă.", "native": "Moje dcera je pilná, ne líná." },
+          { "target": "Dragă Ana, mulțumesc!", "native": "Milá Ano, děkuji!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l2-w1", "target": "vesel", "native": "veselý", "note": "Slovanské slovo. Ženský rod: veselă; množné číslo: veseli, vesele.", "reviewed": false },
+        { "id": "u18-l2-w2", "target": "trist", "native": "smutný", "note": "Ženský rod: tristă; množné číslo: triști, triste.", "reviewed": false },
+        { "id": "u18-l2-w3", "target": "harnic", "native": "pilný", "note": "Ženský rod: harnică; množné číslo: harnici, harnice. Čte se „HAR-nik“.", "reviewed": false },
+        { "id": "u18-l2-w4", "target": "leneș", "native": "líný", "note": "Ženský rod: leneșă; množné číslo: leneși, leneșe. Čte se „LE-neš“.", "reviewed": false },
+        { "id": "u18-l2-w5", "target": "amabil", "native": "laskavý; vlídný", "note": "Ženský rod: amabilă; množné číslo: amabili, amabile. Sunteți foarte amabil! = To je od vás moc laskavé! Čte se „a-MA-bil“.", "reviewed": false },
+        { "id": "u18-l2-w6", "target": "prost", "native": "hloupý", "note": "Falešný přítel: neznamená prostý! Zní hrubě. Ženský rod: proastă; množné číslo: proști, proaste.", "reviewed": false },
+        { "id": "u18-l2-w7", "target": "deștept", "native": "chytrý", "note": "Ženský rod: deșteaptă; množné číslo: deștepți, deștepte. Čte se „deš-TEPT“.", "reviewed": false },
+        { "id": "u18-l2-w8", "target": "drag", "native": "milý", "note": "Falešný přítel: neznamená drahý (to je scump). Ženský rod: dragă; množné číslo: dragi. Dragă Ana! = Milá Ano!", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l2-e1", "type": "choice", "prompt": "Pozor, falešný přítel! Co to znamená?", "question": "prost", "questionLang": "target", "options": ["hloupý", "prostý", "drahý"], "answer": "hloupý", "reviewed": false },
+        { "id": "u18-l2-e2", "type": "choice", "question": "pilný", "questionLang": "native", "options": ["harnic", "leneș", "trist"], "answer": "harnic", "reviewed": false },
+        { "id": "u18-l2-e3", "type": "match", "pairs": [
+          { "target": "vesel", "native": "veselý" },
+          { "target": "trist", "native": "smutný" },
+          { "target": "deștept", "native": "chytrý" },
+          { "target": "amabil", "native": "laskavý" }
+        ], "reviewed": false },
+        { "id": "u18-l2-e4", "type": "listen", "audio": "Sunteți foarte amabil!", "options": ["To je od vás moc laskavé!", "Jste moc veselí!", "Jste moc chytří!"], "answer": "To je od vás moc laskavé!", "reviewed": false },
+        { "id": "u18-l2-e5", "type": "listen", "audio": "Fiica mea e deșteaptă și harnică.", "options": ["Moje dcera je chytrá a pilná.", "Moje dcera je chytrá a líná.", "Moje sestra je chytrá a pilná."], "answer": "Moje dcera je chytrá a pilná.", "reviewed": false },
+        { "id": "u18-l2-e6", "type": "fill", "sentence": "Bunica e foarte ___.", "translation": "Babička je velmi veselá.", "options": ["veselă", "vesel", "veseli"], "answer": "veselă", "explain": "Babička je ženského rodu, proto veselă.", "reviewed": false },
+        { "id": "u18-l2-e7", "type": "fill", "sentence": "___ Ana, ce mai faci?", "translation": "Milá Ano, jak se máš?", "options": ["Dragă", "Drag", "Dragi"], "answer": "Dragă", "explain": "Ana je žena, proto dragă (milá); drag je mužský rod, dragi množné číslo.", "reviewed": false },
+        { "id": "u18-l2-e8", "type": "type", "question": "Dědeček je velmi pilný.", "answer": "Bunicul e foarte harnic.", "accept": ["Bunicul este foarte harnic."], "reviewed": false },
+        { "id": "u18-l2-e9", "type": "build", "question": "Můj bratr není hloupý, je chytrý.", "answer": "Fratele meu nu e prost, e deștept.", "extra": ["deșteaptă"], "reviewed": false },
+        { "id": "u18-l2-e10", "type": "choice", "question": "smutný", "questionLang": "native", "options": ["trist", "vesel", "leneș"], "answer": "trist", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l3",
+      "title": "Protože a jestli",
+      "titleTarget": "Pentru că și dacă",
+      "reviewed": false,
+      "tip": {
+        "title": "Že, jestli, protože",
+        "text": "Tři malá slova spojují věty: că = že (Știu că e acasă. = Vím, že je doma.), pentru că = protože (Nu vin, pentru că n-am timp. = Nepřijdu, protože nemám čas.) a dacă. Dacă má dva české významy: „jestli“ (Nu știu dacă vine. = Nevím, jestli přijde.) a „když, pokud“ (Dacă ai timp, vino! = Když máš čas, přijď!). Pozor: „když“ ve smyslu „v době, kdy“ je când – Când eram copil… Před că se čárka nepíše.",
+        "examples": [
+          { "target": "Cred că e acasă.", "native": "Myslím, že je doma." },
+          { "target": "Nu știu dacă vine.", "native": "Nevím, jestli přijde." },
+          { "target": "Nu vin, pentru că n-am timp.", "native": "Nepřijdu, protože nemám čas." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l3-w1", "target": "că", "native": "že", "note": "Știu că… = Vím, že… Před că se čárka nepíše. Čte se „kă“.", "reviewed": false },
+        { "id": "u18-l3-w2", "target": "dacă", "native": "jestli; když", "note": "Jestli: Nu știu dacă… Když, pokud: Dacă ai timp… Čte se „DA-kă“.", "reviewed": false },
+        { "id": "u18-l3-w3", "target": "pentru că", "native": "protože", "note": "Doslova „pro to, že“. Čte se „PEN-tru kă“.", "reviewed": false },
+        { "id": "u18-l3-w4", "target": "Cred că", "native": "myslím, že", "note": "Od a crede (věřit; myslet si). Cred că da. = Myslím, že ano. Cred că nu. = Myslím, že ne.", "reviewed": false },
+        { "id": "u18-l3-w5", "target": "Nu știu dacă", "native": "nevím, jestli", "note": "Știu = vím (od a ști). Čte se „nu štiw DA-kă“.", "reviewed": false },
+        { "id": "u18-l3-w6", "target": "de aceea", "native": "proto", "note": "N-am timp, de aceea nu vin. = Nemám čas, proto nepřijdu. Čte se „de a-ČE-ja“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l3-e1", "type": "choice", "question": "pentru că", "questionLang": "target", "options": ["protože", "proto", "že"], "answer": "protože", "reviewed": false },
+        { "id": "u18-l3-e2", "type": "choice", "question": "proto", "questionLang": "native", "options": ["de aceea", "pentru că", "dacă"], "answer": "de aceea", "reviewed": false },
+        { "id": "u18-l3-e3", "type": "match", "pairs": [
+          { "target": "că", "native": "že" },
+          { "target": "dacă", "native": "jestli; když" },
+          { "target": "Cred că", "native": "myslím, že" },
+          { "target": "Nu știu dacă", "native": "nevím, jestli" }
+        ], "reviewed": false },
+        { "id": "u18-l3-e4", "type": "listen", "audio": "Cred că e acasă.", "options": ["Myslím, že je doma.", "Vím, že je doma.", "Nevím, jestli je doma."], "answer": "Myslím, že je doma.", "reviewed": false },
+        { "id": "u18-l3-e5", "type": "listen", "audio": "Nu știu dacă vine.", "options": ["Nu știu dacă vine.", "Nu știu când vine.", "Știu că vine."], "answer": "Nu știu dacă vine.", "reviewed": false },
+        { "id": "u18-l3-e6", "type": "fill", "sentence": "Nu vin, ___ n-am timp.", "translation": "Nepřijdu, protože nemám čas.", "options": ["pentru că", "pentru", "decât"], "answer": "pentru că", "explain": "„Protože“ jsou dvě slova: pentru că. Samotné pentru znamená „pro“.", "reviewed": false },
+        { "id": "u18-l3-e7", "type": "fill", "sentence": "Cred ___ e acasă.", "translation": "Myslím, že je doma.", "options": ["că", "ce", "dacă"], "answer": "că", "explain": "Po cred (myslím) následuje că = že.", "reviewed": false },
+        { "id": "u18-l3-e8", "type": "type", "question": "Myslím, že ano.", "answer": "Cred că da.", "reviewed": false },
+        { "id": "u18-l3-e9", "type": "build", "question": "Nevím, jestli má čas.", "answer": "Nu știu dacă are timp.", "extra": ["ce"], "reviewed": false },
+        { "id": "u18-l3-e10", "type": "build", "question": "Nemám čas, proto nepřijdu.", "answer": "N-am timp, de aceea nu vin.", "extra": ["pentru"], "reviewed": false }
+      ]
+    }
+  ]
+}

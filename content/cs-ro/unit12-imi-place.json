@@ -1,0 +1,140 @@
+{
+  "id": "u12",
+  "level": "A2",
+  "title": "Co se mi líbí",
+  "titleTarget": "Îmi place",
+  "description": "Co se vám líbí, co děláte ve volném čase a jak někoho pozvat nebo zdvořile odmítnout.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "title": "Líbí se mi",
+      "titleTarget": "Îmi place",
+      "reviewed": false,
+      "tip": {
+        "title": "Líbí se mi: Îmi place",
+        "text": "Dobrá zpráva: funguje to stejně jako česky. „Líbí se mi hudba“ – hudba je podmět, já jsem ve 3. pádě (mi). Rumunsky: Îmi place muzica. Îmi = mi. Když se líbí víc věcí, je sloveso v množném čísle: Îmi plac filmele. Pro další osoby: îți (ti), îi (jemu, jí), ne (nám), vă (vám), le (jim). O věcech obecně se mluví se členem: Îmi place cafeaua. (Chutná mi káva.) Place platí i pro jídlo.",
+        "examples": [
+          { "target": "Îmi place muzica.", "native": "Líbí se mi hudba." },
+          { "target": "Nu-mi plac filmele noi.", "native": "Nelíbí se mi nové filmy." },
+          { "target": "Vă place grădina?", "native": "Líbí se vám zahrada?" },
+          { "target": "Îți place cafeaua?", "native": "Chutná ti káva?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l1-w1", "target": "Îmi place", "native": "líbí se mi", "note": "Pro jednu věc. Platí i pro jídlo: Îmi place supa. = Chutná mi polévka. Čte se „ym PLA-če“.", "reviewed": false },
+        { "id": "u12-l1-w2", "target": "Nu-mi place", "native": "nelíbí se mi", "note": "nu + îmi = nu-mi. Čte se „num PLA-če“.", "reviewed": false },
+        { "id": "u12-l1-w3", "target": "Îmi plac", "native": "líbí se mi ty věci", "note": "Pro víc věcí: Îmi plac filmele. = Líbí se mi filmy. Čte se „ym plak“.", "reviewed": false },
+        { "id": "u12-l1-w4", "target": "a iubi", "native": "milovat", "note": "Slovanské slovo, příbuzné s českým „líbit“. Te iubesc. = Miluji tě. Čte se „a ju-BI“.", "reviewed": false },
+        { "id": "u12-l1-w5", "target": "muzică", "native": "hudba", "note": "muzica = ta hudba. Obvykle bez „o“: Îmi place muzica.", "reviewed": false },
+        { "id": "u12-l1-w6", "target": "un film", "native": "film", "note": "filmul = ten film; množné číslo: filme.", "reviewed": false },
+        { "id": "u12-l1-w7", "target": "o carte", "native": "kniha", "note": "cartea = ta kniha; množné číslo: cărți, čte se „kărc“.", "reviewed": false },
+        { "id": "u12-l1-w8", "target": "o grădină", "native": "zahrada", "note": "grădina = ta zahrada; množné číslo: grădini. Slovanské slovo, srovnejte ohrada. Čte se „gră-DI-nă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l1-e1", "type": "choice", "question": "Nu-mi place", "questionLang": "target", "options": ["nelíbí se mi", "líbí se mi", "je mi líto"], "answer": "nelíbí se mi", "reviewed": false },
+        { "id": "u12-l1-e2", "type": "choice", "question": "zahrada", "questionLang": "native", "options": ["o grădină", "o carte", "un film"], "answer": "o grădină", "reviewed": false },
+        { "id": "u12-l1-e3", "type": "match", "pairs": [
+          { "target": "muzică", "native": "hudba" },
+          { "target": "un film", "native": "film" },
+          { "target": "o carte", "native": "kniha" },
+          { "target": "a iubi", "native": "milovat" }
+        ], "reviewed": false },
+        { "id": "u12-l1-e4", "type": "listen", "audio": "Îmi place muzica.", "options": ["Líbí se mi hudba.", "Nelíbí se mi hudba.", "Líbí se mi film."], "answer": "Líbí se mi hudba.", "reviewed": false },
+        { "id": "u12-l1-e5", "type": "listen", "audio": "Îmi plac cărțile.", "options": ["Îmi plac cărțile.", "Îmi place cartea.", "Nu-mi plac cărțile."], "answer": "Îmi plac cărțile.", "reviewed": false },
+        { "id": "u12-l1-e6", "type": "fill", "sentence": "Îmi ___ filmele.", "translation": "Líbí se mi filmy.", "options": ["plac", "place", "plăcut"], "answer": "plac", "explain": "Filmele (filmy) je množné číslo, proto îmi plac.", "reviewed": false },
+        { "id": "u12-l1-e7", "type": "fill", "sentence": "___ place grădina?", "translation": "Líbí se vám zahrada?", "options": ["Vă", "Voi", "Dumneavoastră"], "answer": "Vă", "explain": "„Vám“ ve 3. pádě je vă, jako české „líbí se vám“.", "reviewed": false },
+        { "id": "u12-l1-e8", "type": "type", "question": "Chutná mi káva.", "answer": "Îmi place cafeaua.", "reviewed": false },
+        { "id": "u12-l1-e9", "type": "build", "question": "Nelíbí se mi tento film.", "answer": "Nu-mi place acest film.", "extra": ["plac"], "reviewed": false },
+        { "id": "u12-l1-e10", "type": "speak", "text": "Îmi place grădina.", "native": "Líbí se mi zahrada.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "title": "Volný čas",
+      "titleTarget": "Timpul liber",
+      "reviewed": false,
+      "tip": {
+        "title": "Co děláte rádi: Îmi place să cânt",
+        "text": "„Rád(a) něco dělám“ se řekne Îmi place să… a sloveso v osobě: Îmi place să cânt. (Rád(a) zpívám.) Infinitiv se nepoužije, stejně jako u vreau să merg. Některá slovesa jsou zvratná jako v češtině: a se plimba = procházet se. Místo českého „se“ se ale mění zájmeno podle osoby: mă plimb (procházím se), te plimbi (procházíš se), se plimbă (prochází se). Proto: Îmi place să mă plimb. A pozor: dívat se na televizi = a se uita la televizor, s předložkou la.",
+        "examples": [
+          { "target": "Îmi place să dansez.", "native": "Rád(a) tancuji." },
+          { "target": "Duminica mă plimb în parc.", "native": "Každou neděli se procházím v parku." },
+          { "target": "Bunica tricotează seara.", "native": "Babička večer plete." },
+          { "target": "Ce îți place să faci în timpul liber?", "native": "Co rád(a) děláš ve volném čase?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l2-w1", "target": "a cânta", "native": "zpívat", "note": "Eu cânt. = Zpívám. Znamená i hrát na nástroj: cânt la pian. Čte se „a kyn-TA“.", "reviewed": false },
+        { "id": "u12-l2-w2", "target": "a dansa", "native": "tancovat", "note": "Eu dansez. = Tancuji.", "reviewed": false },
+        { "id": "u12-l2-w3", "target": "a înota", "native": "plavat", "note": "Eu înot. = Plavu. Čte se „a y-no-TA“.", "reviewed": false },
+        { "id": "u12-l2-w4", "target": "a se plimba", "native": "procházet se", "note": "Eu mă plimb, tu te plimbi, el se plimbă. Čte se „a se plim-BA“.", "reviewed": false },
+        { "id": "u12-l2-w5", "target": "a tricota", "native": "plést", "note": "Eu tricotez. = Pletu. Myslí se pletení z vlny.", "reviewed": false },
+        { "id": "u12-l2-w6", "target": "a se uita la televizor", "native": "dívat se na televizi", "note": "Eu mă uit la televizor. Čte se „a se uj-TA la te-le-vi-ZOR“.", "reviewed": false },
+        { "id": "u12-l2-w7", "target": "o plimbare", "native": "procházka", "note": "plimbarea = ta procházka; množné číslo: plimbări. Facem o plimbare? = Půjdeme se projít? Čte se „plim-BA-re“.", "reviewed": false },
+        { "id": "u12-l2-w8", "target": "timp liber", "native": "volný čas", "note": "Bez „un“, jako timp. În timpul liber = ve volném čase.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l2-e1", "type": "choice", "question": "a înota", "questionLang": "target", "options": ["plavat", "tancovat", "zpívat"], "answer": "plavat", "reviewed": false },
+        { "id": "u12-l2-e2", "type": "choice", "question": "plést", "questionLang": "native", "options": ["a tricota", "a dansa", "a cânta"], "answer": "a tricota", "reviewed": false },
+        { "id": "u12-l2-e3", "type": "match", "pairs": [
+          { "target": "a cânta", "native": "zpívat" },
+          { "target": "a dansa", "native": "tancovat" },
+          { "target": "a se plimba", "native": "procházet se" },
+          { "target": "timp liber", "native": "volný čas" }
+        ], "reviewed": false },
+        { "id": "u12-l2-e4", "type": "listen", "audio": "Îmi place să înot.", "options": ["Rád(a) plavu.", "Rád(a) tancuji.", "Rád(a) zpívám."], "answer": "Rád(a) plavu.", "reviewed": false },
+        { "id": "u12-l2-e5", "type": "listen", "audio": "Facem o plimbare?", "options": ["Facem o plimbare?", "Faceți o plimbare?", "Vrei o plimbare?"], "answer": "Facem o plimbare?", "reviewed": false },
+        { "id": "u12-l2-e6", "type": "fill", "sentence": "Îmi place să ___.", "translation": "Rád(a) tancuji.", "options": ["dansez", "dansa", "dansat"], "answer": "dansez", "explain": "Po să stojí sloveso v osobě (să dansez), ne infinitiv.", "reviewed": false },
+        { "id": "u12-l2-e7", "type": "fill", "sentence": "Duminica ___ plimb în parc.", "translation": "Každou neděli se procházím v parku.", "options": ["mă", "îmi", "se"], "answer": "mă", "explain": "Já se procházím = mă plimb; se plimbă = on nebo ona se prochází.", "reviewed": false },
+        { "id": "u12-l2-e8", "type": "type", "question": "Dívám se na televizi.", "answer": "Mă uit la televizor.", "accept": ["Eu mă uit la televizor."], "reviewed": false },
+        { "id": "u12-l2-e9", "type": "build", "question": "Co rád(a) děláš ve volném čase?", "answer": "Ce îți place să faci în timpul liber?", "extra": ["îmi"], "reviewed": false },
+        { "id": "u12-l2-e10", "type": "speak", "text": "Îmi place să mă plimb.", "native": "Rád(a) se procházím.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "title": "Pozvání",
+      "titleTarget": "O invitație",
+      "reviewed": false,
+      "tip": {
+        "title": "Hai să mergem! a zdvořilé ne",
+        "text": "Pozvat někoho je snadné: Hai să mergem! (Pojďme!) Hai să mâncăm! (Pojďme se najíst!) Po hai să stojí sloveso v 1. osobě množného čísla, jako u českého „pojďme“. Otázka: Vrei să vii? (Chceš přijít?), při vykání Vreți să veniți? Když ano: Cu drag! nebo De acord. Zdvořilé ne: Mulțumesc, dar nu pot. Poate altă dată. Pozor na drag: neznamená „drahý“ (to je scump), ale „milý“. Cu drag = s radostí.",
+        "examples": [
+          { "target": "Hai să mergem la mare!", "native": "Pojeďme k moři!" },
+          { "target": "Vrei să vii la noi sâmbătă?", "native": "Chceš k nám přijít v sobotu?" },
+          { "target": "Mulțumesc, dar nu pot. Poate altă dată.", "native": "Děkuji, ale nemůžu. Třeba jindy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l3-w1", "target": "Hai să mergem!", "native": "pojďme!", "note": "Hai să + tvar pro „my“: Hai să mâncăm! = Pojďme jíst! Čte se „haj să MER-džem“.", "reviewed": false },
+        { "id": "u12-l3-w2", "target": "Vrei să vii?", "native": "chceš přijít?", "note": "vii = přijdeš, od a veni. Při vykání: Vreți să veniți? Čte se „vrej să vij“.", "reviewed": false },
+        { "id": "u12-l3-w3", "target": "Cu drag.", "native": "s radostí", "note": "drag = milý, ne drahý. Odpověď na pozvání i na poděkování (rádo se stalo).", "reviewed": false },
+        { "id": "u12-l3-w4", "target": "Nu pot.", "native": "nemůžu", "note": "Od a putea (moct). Pot = můžu, jako v Pot să probez?", "reviewed": false },
+        { "id": "u12-l3-w5", "target": "Poate altă dată.", "native": "třeba jindy", "note": "poate = možná, altă dată = jindy. Čte se „POA-te AL-tă DA-tă“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u12-l3-w6", "target": "o invitație", "native": "pozvání; pozvánka", "note": "invitația = to pozvání; množné číslo: invitații. Čte se „in-vi-TA-ci-e“.", "reviewed": false },
+        { "id": "u12-l3-w7", "target": "De acord.", "native": "souhlasím; platí", "note": "Celá věta: Sunt de acord. = Souhlasím. Čte se „de a-KORD“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l3-e1", "type": "choice", "question": "Poate altă dată.", "questionLang": "target", "options": ["třeba jindy", "s radostí", "nemůžu"], "answer": "třeba jindy", "reviewed": false },
+        { "id": "u12-l3-e2", "type": "choice", "question": "pojďme!", "questionLang": "native", "options": ["Hai să mergem!", "Vrei să vii?", "De acord."], "answer": "Hai să mergem!", "reviewed": false },
+        { "id": "u12-l3-e3", "type": "match", "pairs": [
+          { "target": "Cu drag.", "native": "s radostí" },
+          { "target": "Nu pot.", "native": "nemůžu" },
+          { "target": "De acord.", "native": "souhlasím" },
+          { "target": "o invitație", "native": "pozvání" }
+        ], "reviewed": false },
+        { "id": "u12-l3-e4", "type": "listen", "audio": "Vrei să vii la noi duminică?", "options": ["Chceš k nám přijít v neděli?", "Chceš k nám přijít v sobotu?", "Můžeš přijít zítra?"], "answer": "Chceš k nám přijít v neděli?", "reviewed": false },
+        { "id": "u12-l3-e5", "type": "listen", "audio": "Hai să mâncăm!", "options": ["Hai să mâncăm!", "Hai să mergem!", "Hai să dansăm!"], "answer": "Hai să mâncăm!", "reviewed": false },
+        { "id": "u12-l3-e6", "type": "fill", "sentence": "Hai să ___ la mare!", "translation": "Pojeďme k moři!", "options": ["mergem", "merge", "mers"], "answer": "mergem", "explain": "Po hai să stojí tvar pro „my“: să mergem.", "reviewed": false },
+        { "id": "u12-l3-e7", "type": "fill", "sentence": "Mulțumesc, dar nu ___.", "translation": "Děkuji, ale nemůžu.", "options": ["pot", "putut", "a putea"], "answer": "pot", "explain": "Můžu = pot, nemůžu = nu pot.", "reviewed": false },
+        { "id": "u12-l3-e8", "type": "type", "question": "Souhlasím.", "answer": "De acord.", "accept": ["Sunt de acord."], "reviewed": false },
+        { "id": "u12-l3-e9", "type": "build", "question": "Děkuji za pozvání, ale nemůžu.", "answer": "Mulțumesc pentru invitație, dar nu pot.", "extra": ["poate"], "reviewed": false },
+        { "id": "u12-l3-e10", "type": "speak", "text": "Cu drag! Hai să mergem!", "native": "S radostí! Pojďme!", "reviewed": false }
+      ]
+    }
+  ]
+}

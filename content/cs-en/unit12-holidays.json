@@ -1,0 +1,144 @@
+{
+  "id": "u12",
+  "level": "A2",
+  "title": "Data a dovolená",
+  "titleTarget": "Dates and holidays",
+  "description": "Měsíce, data a narozeniny a vyprávění o dovolené: co se právě dělo, když…",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "title": "Kdy máte narozeniny?",
+      "titleTarget": "When is your birthday?",
+      "reviewed": false,
+      "tip": {
+        "title": "In May: měsíce s in",
+        "text": "Měsíce se v angličtině píší vždy s velkým písmenem, stejně jako dny v týdnu: January, May. Před měsícem je in: in March = v březnu. In je i před rokem: in nineteen sixty = v roce 1960. Na narozeniny se zeptáte: When's your birthday? Odpověď: My birthday is in June. Pozor: birthday je jednotné číslo, i když česky říkáme „narozeniny“.",
+        "examples": [
+          { "target": "When's your birthday?", "native": "Kdy máte narozeniny?" },
+          { "target": "My birthday is in May.", "native": "Narozeniny mám v květnu." },
+          { "target": "We were in England in April.", "native": "V dubnu jsme byli v Anglii." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l1-w1", "target": "January", "native": "leden", "note": "Čte se „dže-nju-e-ri“.", "reviewed": false },
+        { "id": "u12-l1-w2", "target": "February", "native": "únor", "note": "Čte se „feb-ru-e-ri“.", "reviewed": false },
+        { "id": "u12-l1-w3", "target": "March", "native": "březen", "note": "Čte se „máč“.", "reviewed": false },
+        { "id": "u12-l1-w4", "target": "April", "native": "duben", "note": "Čte se „ej-prel“.", "reviewed": false },
+        { "id": "u12-l1-w5", "target": "May", "native": "květen", "note": "Čte se „mej“.", "reviewed": false },
+        { "id": "u12-l1-w6", "target": "June", "native": "červen", "note": "Čte se „džún“.", "reviewed": false },
+        { "id": "u12-l1-w7", "target": "birthday", "native": "narozeniny", "note": "Jednotné číslo. Th jako ve three.", "reviewed": false },
+        { "id": "u12-l1-w8", "target": "month", "native": "měsíc", "note": "Čte se „man“ a na konci th jako ve three.", "reviewed": false },
+        { "id": "u12-l1-w9", "target": "year", "native": "rok", "note": "Čte se „jía“, skoro jedna slabika. last year = loni.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l1-e1", "type": "choice", "question": "March", "questionLang": "target", "options": ["březen", "květen", "červen"], "answer": "březen", "reviewed": false },
+        { "id": "u12-l1-e2", "type": "choice", "question": "Narozeniny mám v květnu.", "questionLang": "native", "options": ["My birthday is in May.", "My birthday is on May.", "My birthdays is in May."], "answer": "My birthday is in May.", "reviewed": false },
+        { "id": "u12-l1-e3", "type": "match", "pairs": [
+          { "target": "January", "native": "leden" },
+          { "target": "February", "native": "únor" },
+          { "target": "April", "native": "duben" },
+          { "target": "June", "native": "červen" },
+          { "target": "month", "native": "měsíc" }
+        ], "reviewed": false },
+        { "id": "u12-l1-e4", "type": "listen", "audio": "My birthday is in April.", "options": ["My birthday is in April.", "My birthday is in May.", "My birthday is in March."], "answer": "My birthday is in April.", "reviewed": false },
+        { "id": "u12-l1-e5", "type": "listen", "audio": "When's your birthday?", "options": ["Kdy máte narozeniny?", "Kolik je vám let?", "Kde jste se narodili?"], "answer": "Kdy máte narozeniny?", "reviewed": false },
+        { "id": "u12-l1-e6", "type": "fill", "sentence": "My grandson was born ___ February.", "translation": "Můj vnuk se narodil v únoru.", "options": ["in", "on", "at"], "answer": "in", "explain": "Před měsícem je vždy in.", "reviewed": false },
+        { "id": "u12-l1-e7", "type": "fill", "sentence": "There are twelve ___ in a year.", "translation": "Rok má dvanáct měsíců.", "options": ["months", "month", "a month"], "answer": "months", "explain": "Po twelve je množné číslo: months.", "reviewed": false },
+        { "id": "u12-l1-e8", "type": "type", "question": "Narodila se v lednu.", "answer": "She was born in January.", "reviewed": false },
+        { "id": "u12-l1-e9", "type": "build", "question": "Kdy máte narozeniny?", "answer": "When is your birthday?", "extra": ["in"], "reviewed": false },
+        { "id": "u12-l1-e10", "type": "speak", "text": "My birthday is in June.", "native": "Narozeniny mám v červnu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "title": "Datum",
+      "titleTarget": "The date",
+      "reviewed": false,
+      "tip": {
+        "title": "On the first of July",
+        "text": "Pořadí: first, second, third. Dál stačí přidat -th: fourth, sixth, tenth. Pozor na fifth, twelfth a twentieth. Datum se píše 1 July nebo 1st July, ale čte se the first of July. Česky „prvního července“, anglicky doslova „ten první z července“. Před datem je on, před samotným měsícem in: on the second of May, ale in May.",
+        "examples": [
+          { "target": "Today is the first of July.", "native": "Dnes je prvního července." },
+          { "target": "My birthday is on the third of March.", "native": "Narozeniny mám třetího března." },
+          { "target": "We were by the sea in August.", "native": "V srpnu jsme byli u moře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l2-w1", "target": "July", "native": "červenec", "note": "Přízvuk na konci: „džu-LAJ“.", "reviewed": false },
+        { "id": "u12-l2-w2", "target": "August", "native": "srpen", "note": "Čte se „ó-gast“.", "reviewed": false },
+        { "id": "u12-l2-w3", "target": "September", "native": "září", "note": "Čte se „sep-TEM-ba“.", "reviewed": false },
+        { "id": "u12-l2-w4", "target": "October", "native": "říjen", "note": "Čte se „ok-TOU-ba“.", "reviewed": false },
+        { "id": "u12-l2-w5", "target": "November", "native": "listopad", "note": "Čte se „nou-VEM-ba“.", "reviewed": false },
+        { "id": "u12-l2-w6", "target": "December", "native": "prosinec", "note": "Čte se „di-SEM-ba“.", "reviewed": false },
+        { "id": "u12-l2-w7", "target": "first", "native": "první", "note": "the first of May = prvního května", "reviewed": false },
+        { "id": "u12-l2-w8", "target": "second", "native": "druhý", "note": "Také sekunda. Čte se „se-kend“.", "reviewed": false },
+        { "id": "u12-l2-w9", "target": "third", "native": "třetí", "note": "Th jako ve three, r se nečte.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l2-e1", "type": "choice", "question": "October", "questionLang": "target", "options": ["říjen", "srpen", "prosinec"], "answer": "říjen", "reviewed": false },
+        { "id": "u12-l2-e2", "type": "choice", "question": "Dnes je prvního srpna.", "questionLang": "native", "options": ["Today is the first of August.", "Today is the one of August.", "Today is first of the August."], "answer": "Today is the first of August.", "reviewed": false },
+        { "id": "u12-l2-e3", "type": "match", "pairs": [
+          { "target": "July", "native": "červenec" },
+          { "target": "August", "native": "srpen" },
+          { "target": "September", "native": "září" },
+          { "target": "November", "native": "listopad" },
+          { "target": "December", "native": "prosinec" }
+        ], "reviewed": false },
+        { "id": "u12-l2-e4", "type": "listen", "audio": "My birthday is on the third of October.", "options": ["My birthday is on the third of October.", "My birthday is on the first of October.", "My birthday is on the third of December."], "answer": "My birthday is on the third of October.", "reviewed": false },
+        { "id": "u12-l2-e5", "type": "listen", "audio": "We went to Scotland in August.", "options": ["V srpnu jsme jeli do Skotska.", "V říjnu jsme jeli do Skotska.", "V srpnu pojedeme do Skotska."], "answer": "V srpnu jsme jeli do Skotska.", "reviewed": false },
+        { "id": "u12-l2-e6", "type": "fill", "sentence": "My birthday is ___ the second of November.", "translation": "Narozeniny mám druhého listopadu.", "options": ["on", "in", "at"], "answer": "on", "explain": "Před datem je on, před samotným měsícem in.", "reviewed": false },
+        { "id": "u12-l2-e7", "type": "fill", "sentence": "Today is the ___ of September.", "translation": "Dnes je třetího září.", "options": ["third", "three", "thirteen"], "answer": "third", "explain": "V datu je řadová číslovka: the third.", "reviewed": false },
+        { "id": "u12-l2-e8", "type": "type", "question": "Je prvního prosince.", "answer": "It's the first of December.", "accept": ["Today is the first of December.", "It's December the first."], "reviewed": false },
+        { "id": "u12-l2-e9", "type": "build", "question": "Narozeniny mám prvního června.", "answer": "My birthday is on the first of June.", "extra": ["in"], "reviewed": false },
+        { "id": "u12-l2-e10", "type": "speak", "text": "Today is the second of July.", "native": "Dnes je druhého července.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "title": "Na dovolené",
+      "titleTarget": "On holiday",
+      "reviewed": false,
+      "tip": {
+        "title": "It was raining when…",
+        "text": "Co právě probíhalo, řeknete pomocí was nebo were a slovesa s -ing: It was raining. We were swimming. Často s krátkou událostí v prostém minulém čase: It was raining when we arrived. = Pršelo, když jsme přijeli. Pomůže čeština: pršelo (probíhalo) × přijeli (stalo se). Jednotlivé události z dovolené ale vyprávějte prostým časem: We stayed in a hotel. We went to the beach.",
+        "examples": [
+          { "target": "It was raining when we arrived.", "native": "Když jsme přijeli, pršelo." },
+          { "target": "My husband was reading when you called.", "native": "Manžel četl, když jste volali." },
+          { "target": "What were you doing at eight?", "native": "Co jste dělali v osm?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l3-w1", "target": "holiday", "native": "dovolená", "note": "on holiday = na dovolené. Britsky; americky vacation.", "reviewed": false },
+        { "id": "u12-l3-w2", "target": "hotel", "native": "hotel", "note": "Přízvuk na konci: „hou-TEL“.", "reviewed": false },
+        { "id": "u12-l3-w3", "target": "beach", "native": "pláž", "note": "Čte se „bíč“.", "reviewed": false },
+        { "id": "u12-l3-w4", "target": "sea", "native": "moře", "note": "Čte se „sí“. by the sea = u moře", "reviewed": false },
+        { "id": "u12-l3-w5", "target": "mountains", "native": "hory", "note": "in the mountains = na horách", "reviewed": false },
+        { "id": "u12-l3-w6", "target": "suitcase", "native": "kufr", "note": "Čte se „sút-kejs“.", "reviewed": false },
+        { "id": "u12-l3-w7", "target": "passport", "native": "cestovní pas", "note": "Čte se „pás-pót“.", "reviewed": false },
+        { "id": "u12-l3-w8", "target": "abroad", "native": "v zahraničí; do zahraničí", "note": "Bez to a bez in: go abroad. Čte se „e-BRÓD“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l3-e1", "type": "choice", "question": "suitcase", "questionLang": "target", "options": ["kufr", "cestovní pas", "pláž"], "answer": "kufr", "reviewed": false },
+        { "id": "u12-l3-e2", "type": "choice", "question": "Jsme na dovolené.", "questionLang": "native", "options": ["We're on holiday.", "We're in holiday.", "We're at holiday."], "answer": "We're on holiday.", "reviewed": false },
+        { "id": "u12-l3-e3", "type": "match", "pairs": [
+          { "target": "hotel", "native": "hotel" },
+          { "target": "beach", "native": "pláž" },
+          { "target": "sea", "native": "moře" },
+          { "target": "mountains", "native": "hory" },
+          { "target": "passport", "native": "cestovní pas" }
+        ], "reviewed": false },
+        { "id": "u12-l3-e4", "type": "listen", "audio": "It was raining when we arrived.", "options": ["It was raining when we arrived.", "It was snowing when we arrived.", "It was windy when we arrived."], "answer": "It was raining when we arrived.", "reviewed": false },
+        { "id": "u12-l3-e5", "type": "listen", "audio": "We went abroad last year.", "options": ["Loni jsme jeli do zahraničí.", "Loni jsme byli na horách.", "Letos pojedeme do zahraničí."], "answer": "Loni jsme jeli do zahraničí.", "reviewed": false },
+        { "id": "u12-l3-e6", "type": "fill", "sentence": "We ___ swimming when it started to rain.", "translation": "Plavali jsme, když začalo pršet.", "options": ["were", "was", "are"], "answer": "were", "explain": "Co právě probíhalo: we were + sloveso s -ing.", "reviewed": false },
+        { "id": "u12-l3-e7", "type": "fill", "sentence": "It ___ when we arrived at the hotel.", "translation": "Když jsme přijeli do hotelu, pršelo.", "options": ["was raining", "were raining", "was rain"], "answer": "was raining", "explain": "Déšť právě probíhal: it was raining.", "reviewed": false },
+        { "id": "u12-l3-e8", "type": "type", "question": "Máte pas?", "answer": "Have you got your passport?", "accept": ["Have you got a passport?", "Do you have your passport?", "Do you have a passport?"], "reviewed": false },
+        { "id": "u12-l3-e9", "type": "build", "question": "Byli jsme na dovolené u moře.", "answer": "We were on holiday by the sea.", "extra": ["in"], "accept": ["We were by the sea on holiday."], "reviewed": false },
+        { "id": "u12-l3-e10", "type": "build", "question": "Co jste dělali v osm?", "answer": "What were you doing at eight?", "extra": ["did"], "reviewed": false }
+      ]
+    }
+  ]
+}

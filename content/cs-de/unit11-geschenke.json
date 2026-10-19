@@ -1,0 +1,145 @@
+{
+  "id": "u11",
+  "level": "A2",
+  "title": "Dárky",
+  "titleTarget": "Geschenke",
+  "description": "Komu co dáváte, co se Vám líbí a s kým přijdete na návštěvu: 3. pád (Dativ).",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "title": "Dárky pro rodinu",
+      "titleTarget": "Geschenke für die Familie",
+      "reviewed": false,
+      "tip": {
+        "title": "Komu? Dativ jako 3. pád",
+        "text": "Na otázku „komu?“ odpovídá čeština 3. pádem (dávám babičce), němčina Dativem. Česky se mění konec slova, německy hlavně člen: der → dem, die → der, das → dem. Stejně mein: meinem (der, das), meiner (die). V množném čísle je den a slovo dostane -n: den Kindern. Bez správného členu Němec nepozná, komu co dáváte. Pořadí: nejdřív komu, potom co.",
+        "examples": [
+          { "target": "Ich schenke meiner Großmutter Blumen.", "native": "Dám babičce květiny." },
+          { "target": "Wir geben dem Kind einen Apfel.", "native": "Dáme dítěti jablko." },
+          { "target": "Die Tochter zeigt dem Vater die Wohnung.", "native": "Dcera ukazuje otci byt." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l1-w1", "target": "das Geschenk", "native": "dárek", "note": "množné číslo: die Geschenke", "reviewed": false },
+        { "id": "u11-l1-w2", "target": "die Blume", "native": "květina", "note": "množné číslo: die Blumen", "reviewed": false },
+        { "id": "u11-l1-w3", "target": "schenken", "native": "darovat", "note": "Komu = 3. pád: Ich schenke dem Vater … ; příčestí: geschenkt", "reviewed": false },
+        { "id": "u11-l1-w4", "target": "geben", "native": "dát; dávat", "note": "du gibst, er gibt; příčestí: gegeben", "reviewed": false },
+        { "id": "u11-l1-w5", "target": "zeigen", "native": "ukázat; ukazovat", "note": "z = c, ei = aj: [CAJ-gen]", "reviewed": false },
+        { "id": "u11-l1-w6", "target": "die Großmutter", "native": "babička", "note": "Hovorově die Oma; množné číslo: die Großmütter", "reviewed": false },
+        { "id": "u11-l1-w7", "target": "der Großvater", "native": "dědeček", "note": "Hovorově der Opa; množné číslo: die Großväter", "reviewed": false },
+        { "id": "u11-l1-w8", "target": "der Enkel", "native": "vnuk", "note": "množné číslo: die Enkel", "reviewed": false },
+        { "id": "u11-l1-w9", "target": "die Enkelin", "native": "vnučka", "note": "množné číslo: die Enkelinnen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l1-e1", "type": "choice", "question": "das Geschenk", "questionLang": "target", "options": ["dárek", "květina", "vnuk"], "answer": "dárek", "reviewed": false },
+        { "id": "u11-l1-e2", "type": "choice", "question": "babička", "questionLang": "native", "options": ["die Großmutter", "der Großvater", "die Enkelin"], "answer": "die Großmutter", "reviewed": false },
+        { "id": "u11-l1-e3", "type": "match", "pairs": [
+          { "target": "schenken", "native": "darovat" },
+          { "target": "geben", "native": "dát" },
+          { "target": "zeigen", "native": "ukázat" },
+          { "target": "der Enkel", "native": "vnuk" },
+          { "target": "die Blume", "native": "květina" }
+        ], "reviewed": false },
+        { "id": "u11-l1-e4", "type": "listen", "audio": "Ich schenke meiner Großmutter Blumen.", "options": ["Ich schenke meiner Großmutter Blumen.", "Ich schenke meinem Großvater Blumen.", "Ich zeige meiner Großmutter die Blumen."], "answer": "Ich schenke meiner Großmutter Blumen.", "reviewed": false },
+        { "id": "u11-l1-e5", "type": "fill", "sentence": "Wir geben ___ Kind einen Apfel.", "translation": "Dáme dítěti jablko.", "options": ["dem", "der", "das"], "answer": "dem", "explain": "Komu? → 3. pád: das Kind → dem Kind.", "reviewed": false },
+        { "id": "u11-l1-e6", "type": "fill", "sentence": "Der Enkel zeigt ___ Großmutter den Garten.", "translation": "Vnuk ukazuje babičce zahradu.", "options": ["der", "die", "dem"], "answer": "der", "explain": "Komu? → 3. pád: die Großmutter → der Großmutter.", "reviewed": false },
+        { "id": "u11-l1-e7", "type": "type", "question": "vnučka", "answer": "die Enkelin", "reviewed": false },
+        { "id": "u11-l1-e8", "type": "build", "question": "Dávám dědečkovi dárek.", "answer": "Ich gebe dem Großvater ein Geschenk.", "accept": ["Dem Großvater gebe ich ein Geschenk.", "Ein Geschenk gebe ich dem Großvater."], "extra": ["den"], "reviewed": false },
+        { "id": "u11-l1-e9", "type": "listen", "audio": "Was schenken wir der Enkelin?", "options": ["Co dáme vnučce?", "Co dáme vnukovi?", "Co dáme babičce?"], "answer": "Co dáme vnučce?", "reviewed": false },
+        { "id": "u11-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Ukazuji synovi byt.", "questionLang": "native", "options": ["Ich zeige dem Sohn die Wohnung.", "Ich zeige der Sohn die Wohnung.", "Ich zeige den Sohn die Wohnung."], "answer": "Ich zeige dem Sohn die Wohnung.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "title": "Líbí se mi to",
+      "titleTarget": "Das gefällt mir",
+      "reviewed": false,
+      "tip": {
+        "title": "Mir, dir, ihm, ihr",
+        "text": "Zájmena ve 3. pádě: mir = mi, mně; dir = ti, tobě; ihm = mu, jemu; ihr = jí. Ihnen = Vám už znáte z „Wie geht es Ihnen?“. Některá slovesa chtějí 3. pád stejně jako česky: helfen (pomáhat komu), gefallen (líbit se komu), schmecken (chutnat komu), gehören (patřit komu). Pozor na „je mi zima“: i německy 3. pád, Mir ist kalt. „Ich bin kalt“ by znamenalo, že jste studení na dotek nebo chladní povahou.",
+        "examples": [
+          { "target": "Das Geschenk gefällt mir.", "native": "Dárek se mi líbí." },
+          { "target": "Ich helfe meiner Mutter.", "native": "Pomáhám mamince." },
+          { "target": "Schmeckt es Ihnen?", "native": "Chutná Vám?" },
+          { "target": "Mir ist kalt.", "native": "Je mi zima." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l2-w1", "target": "helfen", "native": "pomáhat; pomoct", "note": "Komu = 3. pád jako česky: Ich helfe dir. du hilfst, er hilft", "reviewed": false },
+        { "id": "u11-l2-w2", "target": "gefallen", "native": "líbit se", "note": "Das gefällt mir. = To se mi líbí. Přízvuk: ge-FA-len", "reviewed": false },
+        { "id": "u11-l2-w3", "target": "schmecken", "native": "chutnat", "note": "Schmeckt es Ihnen? = Chutná Vám?", "reviewed": false },
+        { "id": "u11-l2-w4", "target": "gehören", "native": "patřit", "note": "Das gehört mir. = To patří mně. Přízvuk: ge-HÖ-ren", "reviewed": false },
+        { "id": "u11-l2-w5", "target": "mir", "native": "mi; mně", "note": "3. pád od ich", "reviewed": false },
+        { "id": "u11-l2-w6", "target": "dir", "native": "ti; tobě", "note": "3. pád od du", "reviewed": false },
+        { "id": "u11-l2-w7", "target": "ihm", "native": "mu; jemu", "note": "3. pád od er i es; čte se [ím]", "reviewed": false },
+        { "id": "u11-l2-w8", "target": "ihr", "native": "jí", "note": "3. pád od sie = ona; čte se [ía]. Pozor, ihr znamená také „vy“ a „její“.", "reviewed": false },
+        { "id": "u11-l2-w9", "target": "Mir ist kalt", "native": "je mi zima", "note": "Ne „Ich bin kalt“. Také: Mir ist warm. = Je mi teplo.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l2-e1", "type": "choice", "question": "gefallen", "questionLang": "target", "options": ["líbit se", "chutnat", "patřit"], "answer": "líbit se", "reviewed": false },
+        { "id": "u11-l2-e2", "type": "choice", "question": "patřit", "questionLang": "native", "options": ["gehören", "helfen", "schmecken"], "answer": "gehören", "reviewed": false },
+        { "id": "u11-l2-e3", "type": "match", "pairs": [
+          { "target": "mir", "native": "mi" },
+          { "target": "dir", "native": "ti" },
+          { "target": "ihm", "native": "mu" },
+          { "target": "ihr", "native": "jí" },
+          { "target": "schmecken", "native": "chutnat" }
+        ], "reviewed": false },
+        { "id": "u11-l2-e4", "type": "listen", "audio": "Mir ist kalt.", "options": ["Mir ist kalt.", "Mir ist warm.", "Ihr ist kalt."], "answer": "Mir ist kalt.", "reviewed": false },
+        { "id": "u11-l2-e5", "type": "fill", "sentence": "Das Kleid gefällt ___.", "translation": "Šaty se mi líbí.", "options": ["mir", "ich", "mich"], "answer": "mir", "explain": "gefallen chce 3. pád jako česky „líbí se mi“: mir.", "reviewed": false },
+        { "id": "u11-l2-e6", "type": "fill", "sentence": "Ich helfe ___ Vater im Garten.", "translation": "Pomáhám otci na zahradě.", "options": ["meinem", "meinen", "mein"], "answer": "meinem", "explain": "helfen chce 3. pád jako česky „pomáhat komu“: der Vater → meinem Vater.", "reviewed": false },
+        { "id": "u11-l2-e7", "type": "type", "question": "To se mi líbí.", "answer": "Das gefällt mir.", "accept": ["Mir gefällt das.", "Es gefällt mir."], "reviewed": false },
+        { "id": "u11-l2-e8", "type": "build", "question": "Babičce chutná dort.", "answer": "Meiner Großmutter schmeckt die Torte.", "accept": ["Die Torte schmeckt meiner Großmutter."], "extra": ["meinem"], "reviewed": false },
+        { "id": "u11-l2-e9", "type": "listen", "audio": "Können Sie mir helfen?", "options": ["Můžete mi pomoct?", "Můžu Vám pomoct?", "Můžete mu pomoct?"], "answer": "Můžete mi pomoct?", "reviewed": false },
+        { "id": "u11-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Je mi zima.", "questionLang": "native", "options": ["Mir ist kalt.", "Ich bin kalt.", "Mich ist kalt."], "answer": "Mir ist kalt.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "title": "Pozvání",
+      "titleTarget": "Die Einladung",
+      "reviewed": false,
+      "tip": {
+        "title": "Mit meiner Tochter",
+        "text": "Po předložkách mit, bei, zu, von, aus a nach je vždy 3. pád, i když česky bývá jiný pád: mit meiner Tochter = s dcerou, bei meinem Sohn = u syna, zu meiner Tochter = k dceři, von meinem Sohn = od syna. Říká se tedy „mit meiner Tochter“, ne „mit meine Tochter“. Často se člen spojí s předložkou: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom. Se zájmeny: mit mir = se mnou, bei uns = u nás.",
+        "examples": [
+          { "target": "Ich komme mit meiner Tochter.", "native": "Přijdu s dcerou." },
+          { "target": "Wir feiern bei meinem Sohn.", "native": "Slavíme u syna." },
+          { "target": "Kommen Sie zu uns zum Kaffee!", "native": "Přijďte k nám na kávu!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l3-w1", "target": "einladen", "native": "pozvat", "note": "Odlučitelné: Ich lade Sie ein. du lädst ein, er lädt ein", "reviewed": false },
+        { "id": "u11-l3-w2", "target": "die Einladung", "native": "pozvání", "note": "Danke für die Einladung! množné číslo: die Einladungen", "reviewed": false },
+        { "id": "u11-l3-w3", "target": "der Gast", "native": "host", "note": "množné číslo: die Gäste", "reviewed": false },
+        { "id": "u11-l3-w4", "target": "mitbringen", "native": "přinést s sebou", "note": "Odlučitelné: Ich bringe Wein mit. příčestí: mitgebracht", "reviewed": false },
+        { "id": "u11-l3-w5", "target": "der Wein", "native": "víno", "note": "w = v, ei = aj: [vajn]; množné číslo: die Weine", "reviewed": false },
+        { "id": "u11-l3-w6", "target": "bei", "native": "u", "note": "bei uns = u nás; bei dem → beim: beim Arzt = u lékaře", "reviewed": false },
+        { "id": "u11-l3-w7", "target": "mit", "native": "s; se", "note": "Vždy 3. pád: mit meinem Mann = s manželem", "reviewed": false },
+        { "id": "u11-l3-w8", "target": "zusammen", "native": "spolu; dohromady", "note": "z = c, přízvuk na druhé slabice: [cu-ZA-men]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l3-e1", "type": "choice", "question": "der Gast", "questionLang": "target", "options": ["host", "pozvání", "víno"], "answer": "host", "reviewed": false },
+        { "id": "u11-l3-e2", "type": "choice", "question": "pozvání", "questionLang": "native", "options": ["die Einladung", "der Gast", "das Geschenk"], "answer": "die Einladung", "reviewed": false },
+        { "id": "u11-l3-e3", "type": "match", "pairs": [
+          { "target": "einladen", "native": "pozvat" },
+          { "target": "mitbringen", "native": "přinést s sebou" },
+          { "target": "zusammen", "native": "spolu" },
+          { "target": "bei", "native": "u" },
+          { "target": "mit", "native": "s" }
+        ], "reviewed": false },
+        { "id": "u11-l3-e4", "type": "listen", "audio": "Danke für die Einladung!", "options": ["Danke für die Einladung!", "Danke für das Geschenk!", "Danke für die Blumen!"], "answer": "Danke für die Einladung!", "reviewed": false },
+        { "id": "u11-l3-e5", "type": "fill", "sentence": "Ich komme mit ___ Mann.", "translation": "Přijdu s manželem.", "options": ["meinem", "meinen", "mein"], "answer": "meinem", "explain": "Po mit je vždy 3. pád: der Mann → mit meinem Mann.", "reviewed": false },
+        { "id": "u11-l3-e6", "type": "fill", "sentence": "Ich feiere Weihnachten bei ___ Tochter.", "translation": "Vánoce slavím u dcery.", "options": ["meiner", "meine", "mein"], "answer": "meiner", "explain": "Po bei je vždy 3. pád: die Tochter → bei meiner Tochter.", "reviewed": false },
+        { "id": "u11-l3-e7", "type": "type", "question": "víno", "answer": "der Wein", "reviewed": false },
+        { "id": "u11-l3-e8", "type": "build", "question": "Přineseme víno a koláč.", "answer": "Wir bringen Wein und Kuchen mit.", "accept": ["Wir bringen Kuchen und Wein mit.", "Wein und Kuchen bringen wir mit."], "extra": ["mitbringen"], "reviewed": false },
+        { "id": "u11-l3-e9", "type": "listen", "audio": "Wir laden Sie zum Geburtstag ein.", "options": ["Zveme Vás na narozeniny.", "Přijdeme k Vám na narozeniny.", "Slavíme spolu narozeniny."], "answer": "Zveme Vás na narozeniny.", "reviewed": false },
+        { "id": "u11-l3-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Jdeme spolu do kina.", "questionLang": "native", "options": ["Wir gehen zusammen ins Kino.", "Wir gehen zusammen in Kino.", "Wir zusammen gehen ins Kino."], "answer": "Wir gehen zusammen ins Kino.", "reviewed": false }
+      ]
+    }
+  ]
+}

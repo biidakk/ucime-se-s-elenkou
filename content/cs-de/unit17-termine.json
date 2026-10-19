@@ -1,0 +1,145 @@
+{
+  "id": "u17",
+  "level": "A2",
+  "title": "Data a svátky",
+  "titleTarget": "Termine und Feste",
+  "description": "Měsíce, data a letopočty, narozeniny a svatba; rozdíl mezi wenn a wann.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u17-l1",
+      "title": "Měsíce a data",
+      "titleTarget": "Am ersten Mai",
+      "reviewed": false,
+      "tip": {
+        "title": "Am ersten Mai = prvního května",
+        "text": "Datum se německy říká řadovou číslovkou, stejně jako česky. Do devatenácti se k číslu přidá -te: zweite, vierte, fünfte, zwölfte. Od dvaceti -ste: zwanzigste. Nepravidelné jsou erste (první), dritte (třetí), siebte (sedmý) a achte (osmý). Na otázku „kdy?“ řeknete am a číslovka dostane koncovku -en: am ersten Mai = prvního května, am dritten April = třetího dubna. Pozor na rozdíl: česky „Dnes je prvního května“, německy „Heute ist der erste Mai“. Píše se to jako u nás s tečkou: 1. Mai.",
+        "examples": [
+          { "target": "Heute ist der erste Mai.", "native": "Dnes je prvního května." },
+          { "target": "Am dritten April habe ich Geburtstag.", "native": "Třetího dubna mám narozeniny." },
+          { "target": "Welches Datum ist heute?", "native": "Kolikátého je dnes?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l1-w1", "target": "der Monat", "native": "měsíc", "note": "Měsíc v kalendáři, ne na nebi. Množné číslo: die Monate", "reviewed": false },
+        { "id": "u17-l1-w2", "target": "der Januar", "native": "leden", "note": "Čte se [JA-nu-ár]; im Januar = v lednu. Všechny měsíce jsou mužského rodu.", "reviewed": false },
+        { "id": "u17-l1-w3", "target": "der Februar", "native": "únor", "note": "Čte se [FÉ-bru-ár]", "reviewed": false },
+        { "id": "u17-l1-w4", "target": "der März", "native": "březen", "note": "ä = e, z = c: [merc]", "reviewed": false },
+        { "id": "u17-l1-w5", "target": "der April", "native": "duben", "note": "Přízvuk na konci: [a-PRIL]", "reviewed": false },
+        { "id": "u17-l1-w6", "target": "der Mai", "native": "květen", "note": "ai = aj: [maj]", "reviewed": false },
+        { "id": "u17-l1-w7", "target": "der Juni", "native": "červen", "note": "Čte se [JÚ-ni]. Snadno se splete s Juli, proto se do telefonu říká i „Juno“.", "reviewed": false },
+        { "id": "u17-l1-w8", "target": "das Datum", "native": "datum", "note": "Pozor, střední rod; množné číslo: die Daten", "reviewed": false },
+        { "id": "u17-l1-w9", "target": "erste", "native": "první", "note": "der erste Mai = první máj; am ersten Mai = prvního května", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l1-e1", "type": "choice", "question": "der März", "questionLang": "target", "options": ["březen", "květen", "duben"], "answer": "březen", "reviewed": false },
+        { "id": "u17-l1-e2", "type": "choice", "question": "měsíc", "questionLang": "native", "options": ["der Monat", "das Datum", "das Jahr"], "answer": "der Monat", "reviewed": false },
+        { "id": "u17-l1-e3", "type": "match", "pairs": [
+          { "target": "der Januar", "native": "leden" },
+          { "target": "der Februar", "native": "únor" },
+          { "target": "der April", "native": "duben" },
+          { "target": "der Mai", "native": "květen" },
+          { "target": "der Juni", "native": "červen" }
+        ], "reviewed": false },
+        { "id": "u17-l1-e4", "type": "listen", "audio": "Heute ist der erste Mai.", "options": ["Heute ist der erste Mai.", "Heute ist der dritte Mai.", "Heute ist der erste März."], "answer": "Heute ist der erste Mai.", "reviewed": false },
+        { "id": "u17-l1-e5", "type": "fill", "sentence": "Mein Sohn hat am ___ Juni Geburtstag.", "translation": "Syn má narozeniny třetího června.", "options": ["dritten", "dritte", "dreiten"], "answer": "dritten", "explain": "Po am má číslovka koncovku -en; „třetí“ je nepravidelné: dritte → am dritten.", "reviewed": false },
+        { "id": "u17-l1-e6", "type": "fill", "sentence": "Heute ist der ___ April.", "translation": "Dnes je dvacátého dubna.", "options": ["zwanzigste", "zwanzigsten", "zwanzigte"], "answer": "zwanzigste", "explain": "Od dvaceti se přidává -ste a po der je koncovka -e: der zwanzigste April.", "reviewed": false },
+        { "id": "u17-l1-e7", "type": "type", "question": "duben", "answer": "der April", "reviewed": false },
+        { "id": "u17-l1-e8", "type": "build", "question": "Sedmého března mám narozeniny.", "answer": "Am siebten März habe ich Geburtstag.", "accept": ["Ich habe am siebten März Geburtstag."], "extra": ["sieben"], "reviewed": false },
+        { "id": "u17-l1-e9", "type": "listen", "audio": "Welches Datum ist heute?", "options": ["Kolikátého je dnes?", "Jaký den je dnes?", "Kolik je hodin?"], "answer": "Kolikátého je dnes?", "reviewed": false },
+        { "id": "u17-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Dnes je prvního června.", "questionLang": "native", "options": ["Heute ist der erste Juni.", "Heute ist der erste Januar.", "Heute ist der dritte Juni."], "answer": "Heute ist der erste Juni.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l2",
+      "title": "Narozeniny a letopočty",
+      "titleTarget": "Im Juli geboren",
+      "reviewed": false,
+      "tip": {
+        "title": "Neunzehnhundertachtundfünfzig",
+        "text": "S měsíci se říká im: im Juli = v červenci, im Dezember = v prosinci. Letopočty do roku 1999 Němci čtou po stovkách: 1958 = neunzehnhundertachtundfünfzig, doslova „devatenáct set osmapadesát“. Neříká se tedy „tausendneunhundert…“. A před rokem nedávejte „in“: Mein Vater ist neunzehnhundertachtundfünfzig geboren. Desítky končí na -zig: vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig; výjimka je dreißig (30). Od roku 2000 se říká zweitausend…: 2010 = zweitausendzehn.",
+        "examples": [
+          { "target": "Mein Vater ist neunzehnhundertachtundfünfzig geboren.", "native": "Táta se narodil v roce 1958." },
+          { "target": "Meine Tochter ist im Juli geboren.", "native": "Dcera se narodila v červenci." },
+          { "target": "Weihnachten ist im Dezember.", "native": "Vánoce jsou v prosinci." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l2-w1", "target": "der Juli", "native": "červenec", "note": "Čte se [JÚ-li]; do telefonu se kvůli záměně s Juni říká i „Julei“.", "reviewed": false },
+        { "id": "u17-l2-w2", "target": "der August", "native": "srpen", "note": "Přízvuk na konci: [au-GUST]", "reviewed": false },
+        { "id": "u17-l2-w3", "target": "der September", "native": "září", "note": "Čte se [zep-TEM-ba]", "reviewed": false },
+        { "id": "u17-l2-w4", "target": "der Oktober", "native": "říjen", "note": "Čte se [ok-TÓ-ba]", "reviewed": false },
+        { "id": "u17-l2-w5", "target": "der November", "native": "listopad", "note": "Tady se v čte jako české v: [no-VEM-ba]", "reviewed": false },
+        { "id": "u17-l2-w6", "target": "der Dezember", "native": "prosinec", "note": "z = c: [de-CEM-ba]", "reviewed": false },
+        { "id": "u17-l2-w7", "target": "der Feiertag", "native": "svátek", "note": "Volný den, např. Weihnachten. Jmeniny jsou der Namenstag. Množné číslo: die Feiertage", "reviewed": false },
+        { "id": "u17-l2-w8", "target": "hundert", "native": "sto", "note": "Čte se [HUN-dat]; neunzehnhundert = devatenáct set", "reviewed": false },
+        { "id": "u17-l2-w9", "target": "geboren", "native": "narozený", "note": "Er ist im Juli geboren = narodil se v červenci. Přízvuk: [ge-BÓ-ren]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l2-e1", "type": "choice", "question": "der Oktober", "questionLang": "target", "options": ["říjen", "listopad", "září"], "answer": "říjen", "reviewed": false },
+        { "id": "u17-l2-e2", "type": "choice", "question": "svátek", "questionLang": "native", "options": ["der Feiertag", "der Geburtstag", "das Datum"], "answer": "der Feiertag", "reviewed": false },
+        { "id": "u17-l2-e3", "type": "match", "pairs": [
+          { "target": "der Juli", "native": "červenec" },
+          { "target": "der August", "native": "srpen" },
+          { "target": "der September", "native": "září" },
+          { "target": "der November", "native": "listopad" },
+          { "target": "der Dezember", "native": "prosinec" }
+        ], "reviewed": false },
+        { "id": "u17-l2-e4", "type": "listen", "prompt": "Poslechněte si a vyberte rok", "audio": "neunzehnhundertachtundfünfzig", "options": ["1958", "1985", "1948"], "answer": "1958", "reviewed": false },
+        { "id": "u17-l2-e5", "type": "fill", "sentence": "Mein Vater ist ___ Oktober geboren.", "translation": "Táta se narodil v říjnu.", "options": ["im", "am", "um"], "answer": "im", "explain": "U měsíců se říká im: im Oktober = v říjnu.", "reviewed": false },
+        { "id": "u17-l2-e6", "type": "fill", "sentence": "Meine Mutter ist ___ geboren.", "translation": "Maminka se narodila v roce 1950.", "options": ["neunzehnhundertfünfzig", "tausendneunhundertfünfzig", "in neunzehnhundertfünfzig"], "answer": "neunzehnhundertfünfzig", "explain": "Letopočet se čte po stovkách (neunzehnhundert…) a bez „in“.", "reviewed": false },
+        { "id": "u17-l2-e7", "type": "type", "question": "prosinec", "answer": "der Dezember", "reviewed": false },
+        { "id": "u17-l2-e8", "type": "build", "question": "V srpnu mám narozeniny.", "answer": "Im August habe ich Geburtstag.", "accept": ["Ich habe im August Geburtstag."], "extra": ["am"], "reviewed": false },
+        { "id": "u17-l2-e9", "type": "listen", "audio": "Der dritte Oktober ist ein Feiertag.", "options": ["Der dritte Oktober ist ein Feiertag.", "Der dritte November ist ein Feiertag.", "Der dritte Oktober ist kein Feiertag."], "answer": "Der dritte Oktober ist ein Feiertag.", "reviewed": false },
+        { "id": "u17-l2-e10", "type": "speak", "text": "Ich habe im Juli Geburtstag.", "native": "Mám narozeniny v červenci.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l3",
+      "title": "Svatba",
+      "titleTarget": "Die Hochzeit",
+      "reviewed": false,
+      "tip": {
+        "title": "Wann? = kdy?, wenn = když",
+        "text": "Česky rozlišujeme „kdy“ a „když“ a němčina také: wann? = kdy? (otázka), wenn = když (podmínka nebo něco, co se opakuje). Wann ist die Hochzeit? = Kdy je svatba? Po wenn jde sloveso na úplný konec věty, stejně jako po weil a dass: …, wenn das Wetter schön ist. Když věta s wenn stojí na začátku, za čárkou hned následuje sloveso a teprve potom podmět: Wenn es regnet, bleiben wir zu Hause. Pěkná věc: heiraten platí pro muže i ženu, česky „oženit se“ i „vdát se“.",
+        "examples": [
+          { "target": "Wann ist die Hochzeit?", "native": "Kdy je svatba?" },
+          { "target": "Wenn es regnet, bleiben wir zu Hause.", "native": "Když prší, zůstaneme doma." },
+          { "target": "Anna und Peter heiraten im Mai.", "native": "Anna a Petr se v květnu berou." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l3-w1", "target": "wenn", "native": "když", "note": "Sloveso jde na konec: wenn ich Zeit habe. Pozor na wann = kdy.", "reviewed": false },
+        { "id": "u17-l3-w2", "target": "wann", "native": "kdy", "note": "V otázce: Wann kommen Sie? Pozor na wenn = když.", "reviewed": false },
+        { "id": "u17-l3-w3", "target": "die Hochzeit", "native": "svatba", "note": "Čte se [HOCH-cajt]; množné číslo: die Hochzeiten", "reviewed": false },
+        { "id": "u17-l3-w4", "target": "heiraten", "native": "vzít se", "note": "Pro muže i ženu: oženit se i vdát se. Příčestí: geheiratet", "reviewed": false },
+        { "id": "u17-l3-w5", "target": "verheiratet", "native": "ženatý; vdaná", "note": "Ich bin verheiratet = jsem ženatý i jsem vdaná.", "reviewed": false },
+        { "id": "u17-l3-w6", "target": "ledig", "native": "svobodný; svobodná", "note": "Hlavně v úředních formulářích. Čte se [LÉ-dich].", "reviewed": false },
+        { "id": "u17-l3-w7", "target": "geschieden", "native": "rozvedený; rozvedená", "note": "Čte se [ge-ŠÍ-den].", "reviewed": false },
+        { "id": "u17-l3-w8", "target": "das Paar", "native": "pár; dvojice", "note": "aa = á: [pár]. Pozor: ein paar s malým p = několik. Množné číslo: die Paare", "reviewed": false },
+        { "id": "u17-l3-w9", "target": "die Liebe", "native": "láska", "note": "ie = í: [LÍ-be]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l3-e1", "type": "choice", "question": "geschieden", "questionLang": "target", "options": ["rozvedený; rozvedená", "ženatý; vdaná", "svobodný; svobodná"], "answer": "rozvedený; rozvedená", "reviewed": false },
+        { "id": "u17-l3-e2", "type": "choice", "question": "svatba", "questionLang": "native", "options": ["die Hochzeit", "die Liebe", "das Paar"], "answer": "die Hochzeit", "reviewed": false },
+        { "id": "u17-l3-e3", "type": "match", "pairs": [
+          { "target": "wenn", "native": "když" },
+          { "target": "wann", "native": "kdy" },
+          { "target": "heiraten", "native": "vzít se" },
+          { "target": "das Paar", "native": "pár" },
+          { "target": "die Liebe", "native": "láska" }
+        ], "reviewed": false },
+        { "id": "u17-l3-e4", "type": "listen", "audio": "Das Paar heiratet im Mai.", "options": ["Das Paar heiratet im Mai.", "Das Paar heiratet im März.", "Das Paar feiert im Mai."], "answer": "Das Paar heiratet im Mai.", "reviewed": false },
+        { "id": "u17-l3-e5", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Kdy je svatba?", "questionLang": "native", "options": ["Wann ist die Hochzeit?", "Wenn ist die Hochzeit?", "Wann die Hochzeit ist?"], "answer": "Wann ist die Hochzeit?", "reviewed": false },
+        { "id": "u17-l3-e6", "type": "fill", "sentence": "Wenn es regnet, ___ zu Hause.", "translation": "Když prší, zůstaneme doma.", "options": ["bleiben wir", "wir bleiben", "bleibt wir"], "answer": "bleiben wir", "explain": "Věta s wenn zabere první místo, proto za čárkou hned přijde sloveso: bleiben wir.", "reviewed": false },
+        { "id": "u17-l3-e7", "type": "fill", "sentence": "Wir feiern im Garten, wenn das Wetter ___.", "translation": "Když bude hezky, budeme slavit na zahradě.", "options": ["schön ist", "ist schön", "schön sein"], "answer": "schön ist", "explain": "Po wenn jde sloveso na úplný konec: wenn das Wetter schön ist.", "reviewed": false },
+        { "id": "u17-l3-e8", "type": "type", "question": "láska", "answer": "die Liebe", "reviewed": false },
+        { "id": "u17-l3-e9", "type": "build", "question": "Když mám čas, čtu.", "answer": "Wenn ich Zeit habe, lese ich.", "accept": ["Ich lese, wenn ich Zeit habe."], "extra": ["wann"], "reviewed": false },
+        { "id": "u17-l3-e10", "type": "listen", "audio": "Meine Tochter heiratet im Mai.", "options": ["Dcera se v květnu vdává.", "Dcera má v květnu narozeniny.", "Dcera se v květnu rozvádí."], "answer": "Dcera se v květnu vdává.", "reviewed": false }
+      ]
+    }
+  ]
+}

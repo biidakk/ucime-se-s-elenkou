@@ -1,0 +1,147 @@
+{
+  "id": "u19",
+  "level": "A2",
+  "title": "Vaření a restaurace",
+  "titleTarget": "Cooking and eating out",
+  "description": "Postup podle receptu, objednávka v restauraci a kolik čeho: a little, a few, too much, enough.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u19-l1",
+      "title": "Recept",
+      "titleTarget": "A recipe",
+      "reviewed": false,
+      "tip": {
+        "title": "Nejdřív, pak, nakonec",
+        "text": "Recept na jídlo je anglicky recipe, čte se „RE-se-pi“. Pozor: receipt je účtenka a recept od lékaře je prescription. Kroky receptu seřadíte slovy first of all (nejdřív), then (pak), after that (poté) a finally (na závěr). Sloveso je v rozkazovacím způsobu, stejně jako česky: Cut the potatoes. (Nakrájejte brambory.) Add the milk. (Přidejte mléko.)",
+        "examples": [
+          { "target": "First of all, cut the potatoes.", "native": "Nejdřív nakrájejte brambory." },
+          { "target": "Then add the milk.", "native": "Pak přidejte mléko." },
+          { "target": "Boil the eggs for ten minutes.", "native": "Vařte vejce deset minut." },
+          { "target": "Finally, bake the cake.", "native": "Na závěr upečte dort." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l1-w1", "target": "first of all", "native": "nejdřív; nejprve", "reviewed": false },
+        { "id": "u19-l1-w2", "target": "then", "native": "pak; tehdy", "note": "Další krok: Then add the sugar.", "reviewed": false },
+        { "id": "u19-l1-w3", "target": "after that", "native": "poté", "note": "Doslova „po tom“. Znamená skoro totéž co then.", "reviewed": false },
+        { "id": "u19-l1-w4", "target": "finally", "native": "na závěr; konečně", "note": "Poslední krok: Finally, add the salt.", "reviewed": false },
+        { "id": "u19-l1-w5", "target": "cut", "native": "krájet; nakrájet", "note": "Minulý čas je stejný: cut.", "reviewed": false },
+        { "id": "u19-l1-w6", "target": "mix", "native": "míchat; smíchat", "reviewed": false },
+        { "id": "u19-l1-w7", "target": "add", "native": "přidat", "reviewed": false },
+        { "id": "u19-l1-w8", "target": "boil", "native": "vařit ve vodě", "note": "Boil the potatoes. Vařit obecně je cook. Čte se „bojl“.", "reviewed": false },
+        { "id": "u19-l1-w9", "target": "bake", "native": "péct", "note": "V troubě: bake a cake. Čte se „bejk“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l1-e1", "type": "choice", "question": "bake", "questionLang": "target", "options": ["péct", "vařit ve vodě", "míchat; smíchat"], "answer": "péct", "reviewed": false },
+        { "id": "u19-l1-e2", "type": "choice", "question": "přidat", "questionLang": "native", "options": ["add", "mix", "cut"], "answer": "add", "reviewed": false },
+        { "id": "u19-l1-e3", "type": "match", "pairs": [
+          { "target": "first of all", "native": "nejdřív" },
+          { "target": "cut", "native": "krájet" },
+          { "target": "mix", "native": "míchat" },
+          { "target": "boil", "native": "vařit ve vodě" },
+          { "target": "finally", "native": "na závěr" }
+        ], "reviewed": false },
+        { "id": "u19-l1-e4", "type": "listen", "audio": "Then add the sugar.", "options": ["Then add the sugar.", "Then add the butter.", "Then add the milk."], "answer": "Then add the sugar.", "reviewed": false },
+        { "id": "u19-l1-e5", "type": "listen", "audio": "First of all, boil the water.", "options": ["Nejdřív uvařte vodu.", "Na závěr uvařte vodu.", "Nejdřív nalijte vodu."], "answer": "Nejdřív uvařte vodu.", "reviewed": false },
+        { "id": "u19-l1-e6", "type": "fill", "sentence": "___ the eggs and the sugar.", "translation": "Smíchejte vejce a cukr.", "options": ["Mix", "Mixes", "Mixing"], "answer": "Mix", "explain": "V receptu je rozkaz: sloveso bez -s a bez to.", "reviewed": false },
+        { "id": "u19-l1-e7", "type": "fill", "sentence": "___ that, bake the cake.", "translation": "Poté dort upečte.", "options": ["After", "Then", "First"], "answer": "After", "explain": "After that = poté, doslova „po tom“.", "reviewed": false },
+        { "id": "u19-l1-e8", "type": "type", "question": "Pak přidejte mléko.", "answer": "Then add the milk.", "accept": ["Then add milk.", "Then add some milk."], "reviewed": false },
+        { "id": "u19-l1-e9", "type": "build", "question": "Nejdřív nakrájejte chléb.", "answer": "First of all, cut the bread.", "extra": ["cuts"], "reviewed": false },
+        { "id": "u19-l1-e10", "type": "build", "question": "Vařte vejce deset minut.", "answer": "Boil the eggs for ten minutes.", "extra": ["during"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l2",
+      "title": "V restauraci",
+      "titleTarget": "At the restaurant",
+      "reviewed": false,
+      "tip": {
+        "title": "Would you like…? nebo Do you like…?",
+        "text": "Would you like…? je zdvořilá nabídka: Dáte si…? Chtěli byste…? Would you like a coffee? = Dáte si kávu? Odpovíte Yes, please. nebo No, thank you. Do you like…? se ptá, co máte rádi obecně: Do you like coffee? = Máte rádi kávu? Odpovíte Yes, I do. nebo No, I don't. Sami si objednáte s I'd like: I'd like the fish, please.",
+        "examples": [
+          { "target": "Would you like a dessert?", "native": "Dáte si dezert?" },
+          { "target": "Do you like fish? Yes, I do.", "native": "Máte rádi ryby? Ano." },
+          { "target": "I'd like the soup as a starter.", "native": "Jako předkrm si dám polévku." },
+          { "target": "This is delicious!", "native": "Tohle je výborné!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l2-w1", "target": "menu", "native": "jídelní lístek", "note": "Čte se „MEN-jú“.", "reviewed": false },
+        { "id": "u19-l2-w2", "target": "starter", "native": "předkrm", "reviewed": false },
+        { "id": "u19-l2-w3", "target": "main course", "native": "hlavní chod", "note": "Čte se „mejn kós“.", "reviewed": false },
+        { "id": "u19-l2-w4", "target": "dessert", "native": "dezert; moučník", "note": "Přízvuk na druhé slabice: „di-ZÉT“. Desert s jedním s je poušť.", "reviewed": false },
+        { "id": "u19-l2-w5", "target": "waiter", "native": "číšník", "note": "Číšnice = waitress.", "reviewed": false },
+        { "id": "u19-l2-w6", "target": "order", "native": "objednat si", "note": "Také objednávka: Can I take your order?", "reviewed": false },
+        { "id": "u19-l2-w7", "target": "delicious", "native": "výborný; lahodný", "note": "O jídle. Čte se „di-LI-šes“.", "reviewed": false },
+        { "id": "u19-l2-w8", "target": "Would you like a drink?", "native": "Dáte si něco k pití?", "note": "Nabídka. Máte rádi…? = Do you like…?", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l2-e1", "type": "choice", "question": "starter", "questionLang": "target", "options": ["předkrm", "hlavní chod", "dezert; moučník"], "answer": "předkrm", "reviewed": false },
+        { "id": "u19-l2-e2", "type": "choice", "question": "Dáte si něco k pití?", "questionLang": "native", "options": ["Would you like a drink?", "Do you like drinks?", "Do you drink?"], "answer": "Would you like a drink?", "reviewed": false },
+        { "id": "u19-l2-e3", "type": "match", "pairs": [
+          { "target": "menu", "native": "jídelní lístek" },
+          { "target": "main course", "native": "hlavní chod" },
+          { "target": "dessert", "native": "dezert" },
+          { "target": "waiter", "native": "číšník" },
+          { "target": "order", "native": "objednat si" }
+        ], "reviewed": false },
+        { "id": "u19-l2-e4", "type": "listen", "audio": "Would you like a dessert?", "options": ["Would you like a dessert?", "Do you like dessert?", "Would you like a starter?"], "answer": "Would you like a dessert?", "reviewed": false },
+        { "id": "u19-l2-e5", "type": "listen", "audio": "Do you like fish?", "options": ["Máte rádi ryby?", "Dáte si rybu?", "Je ta ryba dobrá?"], "answer": "Máte rádi ryby?", "reviewed": false },
+        { "id": "u19-l2-e6", "type": "fill", "sentence": "___ you like a coffee? Yes, please.", "translation": "Dáte si kávu? Ano, prosím.", "options": ["Would", "Do", "Are"], "answer": "Would", "explain": "Odpověď Yes, please patří k nabídce, a nabídka je Would you like…?", "reviewed": false },
+        { "id": "u19-l2-e7", "type": "fill", "sentence": "We'd like to ___, please.", "translation": "Chtěli bychom si objednat, prosím.", "options": ["order", "ordering", "orders"], "answer": "order", "explain": "Po would like to je sloveso v základním tvaru.", "reviewed": false },
+        { "id": "u19-l2-e8", "type": "type", "question": "Tohle je výborné!", "answer": "This is delicious!", "accept": ["It's delicious!"], "reviewed": false },
+        { "id": "u19-l2-e9", "type": "build", "question": "Dám si kuře, prosím.", "answer": "I'd like the chicken, please.", "extra": ["do"], "reviewed": false },
+        { "id": "u19-l2-e10", "type": "build", "question": "Chtěli byste si objednat?", "answer": "Would you like to order?", "extra": ["do"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l3",
+      "title": "Kolik?",
+      "titleTarget": "How much?",
+      "reviewed": false,
+      "tip": {
+        "title": "A little, a few, too much, too many",
+        "text": "Záleží na tom, jestli se věc dá počítat. Co počítat nejde (salt, milk, sugar), má a little (trochu) a too much (příliš mnoho). Co počítat jde (eggs, potatoes, people), má a few (pár) a too many (příliš mnoho). Enough (dost) se hodí k obojímu: enough bread, enough eggs. Česky obojí často řeknete „moc“, anglicky je potřeba vybrat.",
+        "examples": [
+          { "target": "Add a little salt.", "native": "Přidejte trochu soli." },
+          { "target": "I need a few eggs.", "native": "Potřebuji pár vajec." },
+          { "target": "There's too much salt in the soup.", "native": "V polévce je příliš mnoho soli." },
+          { "target": "We haven't got enough bread.", "native": "Nemáme dost chleba." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l3-w1", "target": "a little", "native": "trochu", "note": "U toho, co se nedá počítat: a little milk.", "reviewed": false },
+        { "id": "u19-l3-w2", "target": "a few", "native": "pár; několik", "note": "U toho, co se dá počítat: a few eggs.", "reviewed": false },
+        { "id": "u19-l3-w3", "target": "too much", "native": "příliš mnoho", "note": "U toho, co se nedá počítat: too much salt.", "reviewed": false },
+        { "id": "u19-l3-w4", "target": "too many", "native": "příliš mnoho kusů", "note": "U toho, co se dá počítat: too many eggs, too many people.", "reviewed": false },
+        { "id": "u19-l3-w5", "target": "enough", "native": "dost; dostatek", "note": "Čte se „i-NAF“.", "reviewed": false },
+        { "id": "u19-l3-w6", "target": "salt", "native": "sůl", "note": "Čte se „sólt“.", "reviewed": false },
+        { "id": "u19-l3-w7", "target": "pepper", "native": "pepř", "note": "Také paprika (zelenina): a red pepper.", "reviewed": false },
+        { "id": "u19-l3-w8", "target": "spoon", "native": "lžíce", "note": "Čajová lžička = teaspoon.", "reviewed": false },
+        { "id": "u19-l3-w9", "target": "slice", "native": "plátek; krajíc", "note": "a slice of bread = krajíc chleba. Čte se „slajs“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l3-e1", "type": "choice", "question": "spoon", "questionLang": "target", "options": ["lžíce", "plátek; krajíc", "pepř"], "answer": "lžíce", "reviewed": false },
+        { "id": "u19-l3-e2", "type": "choice", "question": "sůl", "questionLang": "native", "options": ["salt", "pepper", "slice"], "answer": "salt", "reviewed": false },
+        { "id": "u19-l3-e3", "type": "match", "pairs": [
+          { "target": "a little", "native": "trochu" },
+          { "target": "a few", "native": "pár" },
+          { "target": "enough", "native": "dost" },
+          { "target": "pepper", "native": "pepř" },
+          { "target": "slice", "native": "plátek" }
+        ], "reviewed": false },
+        { "id": "u19-l3-e4", "type": "listen", "audio": "Add a little milk.", "options": ["Add a little milk.", "Add a little salt.", "Add a little sugar."], "answer": "Add a little milk.", "reviewed": false },
+        { "id": "u19-l3-e5", "type": "listen", "audio": "There's too much salt in the soup.", "options": ["V polévce je příliš mnoho soli.", "V polévce je málo soli.", "V polévce je trochu soli."], "answer": "V polévce je příliš mnoho soli.", "reviewed": false },
+        { "id": "u19-l3-e6", "type": "fill", "sentence": "I need ___ eggs.", "translation": "Potřebuji pár vajec.", "options": ["a few", "a little", "much"], "answer": "a few", "explain": "Vejce se dají počítat, proto a few.", "reviewed": false },
+        { "id": "u19-l3-e7", "type": "fill", "sentence": "There are too ___ people here.", "translation": "Je tu příliš mnoho lidí.", "options": ["many", "much", "lot"], "answer": "many", "explain": "Lidi se dají počítat, proto too many.", "reviewed": false },
+        { "id": "u19-l3-e8", "type": "fill", "sentence": "Is there ___ bread for breakfast?", "translation": "Je dost chleba na snídani?", "options": ["enough", "a few", "many"], "answer": "enough", "explain": "Bread se nedá počítat. Enough se hodí ke všemu.", "reviewed": false },
+        { "id": "u19-l3-e9", "type": "type", "question": "Dám si plátek sýra, prosím.", "answer": "I'd like a slice of cheese, please.", "accept": ["A slice of cheese, please.", "Can I have a slice of cheese, please?"], "reviewed": false },
+        { "id": "u19-l3-e10", "type": "build", "question": "Přidejte trochu pepře.", "answer": "Add a little pepper.", "extra": ["few"], "reviewed": false }
+      ]
+    }
+  ]
+}

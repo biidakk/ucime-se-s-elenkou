@@ -1,0 +1,136 @@
+{
+  "id": "u16",
+  "level": "A2",
+  "title": "Na cestách",
+  "titleTarget": "Călătorii",
+  "description": "V hotelu, na nádraží a na letišti a co říct, když se něco ztratí.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u16-l1",
+      "title": "V hotelu",
+      "titleTarget": "La hotel",
+      "reviewed": false,
+      "tip": {
+        "title": "Bych, bys, by = aș, ai, ar",
+        "text": "Zdvořilá prosba se rumunsky tvoří skoro stejně jako česky. Českým slovům bych, bys, by, bychom, byste, by odpovídá aș, ai, ar, am, ați, ar. Za ně přijde sloveso v neurčitém tvaru: aș vrea (chtěl(a) bych), aș dori (přál(a) bych si), ați putea (mohl(a) byste). Výhoda: rumunský tvar je stejný pro muže i ženy. Na recepci tak můžete poprosit: Ați putea să mă treziți la ora șapte? (Mohl(a) byste mě vzbudit v sedm?)",
+        "examples": [
+          { "target": "Aș dori o cameră dublă.", "native": "Přál(a) bych si dvoulůžkový pokoj." },
+          { "target": "Ați putea să mă treziți la ora șapte?", "native": "Mohl(a) byste mě vzbudit v sedm?" },
+          { "target": "Am dori două cafele, vă rog.", "native": "Chtěli bychom dvě kávy, prosím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l1-w1", "target": "o rezervare", "native": "rezervace", "note": "rezervarea = ta rezervace; množné číslo: rezervări. Am o rezervare. = Mám rezervaci. Čte se „re-zer-VA-re“.", "reviewed": false },
+        { "id": "u16-l1-w2", "target": "o cameră dublă", "native": "dvoulůžkový pokoj", "note": "camera dublă = ten dvoulůžkový pokoj; množné číslo: camere duble. Jednolůžkový pokoj: cameră single.", "reviewed": false },
+        { "id": "u16-l1-w3", "target": "o cheie", "native": "klíč", "note": "cheia = ten klíč; množné číslo: chei. Che se čte „ke“: „KE-je“.", "reviewed": false },
+        { "id": "u16-l1-w4", "target": "un mic dejun", "native": "snídaně", "note": "micul dejun = ta snídaně; člen dostane první slovo. Množné číslo se skoro nepoužívá. Čte se „mik de-ŽUN“.", "reviewed": false },
+        { "id": "u16-l1-w5", "target": "o recepție", "native": "recepce", "note": "recepția = ta recepce; množné číslo: recepții. Na recepci: la recepție. Čte se „re-ČEP-ci-e“.", "reviewed": false },
+        { "id": "u16-l1-w6", "target": "ați putea", "native": "mohl byste; mohla byste", "note": "Zdvořilá prosba: Ați putea să…? K více lidem: mohli byste. Čte se „ac pu-TEA“.", "reviewed": false },
+        { "id": "u16-l1-w7", "target": "aș dori", "native": "přál bych si; přála bych si", "note": "Ještě zdvořilejší než aș vrea. Stejný tvar pro muže i ženy. Čte se „aš do-RI“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l1-e1", "type": "choice", "question": "o cheie", "questionLang": "target", "options": ["klíč", "pokoj", "recepce"], "answer": "klíč", "reviewed": false },
+        { "id": "u16-l1-e2", "type": "choice", "question": "snídaně", "questionLang": "native", "options": ["un mic dejun", "o rezervare", "o supă"], "answer": "un mic dejun", "reviewed": false },
+        { "id": "u16-l1-e3", "type": "match", "pairs": [
+          { "target": "o rezervare", "native": "rezervace" },
+          { "target": "o recepție", "native": "recepce" },
+          { "target": "o cameră dublă", "native": "dvoulůžkový pokoj" },
+          { "target": "o cheie", "native": "klíč" }
+        ], "reviewed": false },
+        { "id": "u16-l1-e4", "type": "listen", "audio": "Am o rezervare pentru două nopți.", "options": ["Mám rezervaci na dvě noci.", "Mám rezervaci na dva týdny.", "Nemám rezervaci."], "answer": "Mám rezervaci na dvě noci.", "reviewed": false },
+        { "id": "u16-l1-e5", "type": "listen", "audio": "Ați putea să mă treziți la ora șapte?", "options": ["Ați putea să mă treziți la ora șapte?", "Ați putea să mă sunați la ora șapte?", "Mă trezesc la ora șapte."], "answer": "Ați putea să mă treziți la ora șapte?", "reviewed": false },
+        { "id": "u16-l1-e6", "type": "fill", "sentence": "___ dori o cameră dublă, vă rog.", "translation": "Přál(a) bych si dvoulůžkový pokoj, prosím.", "options": ["Aș", "Vreau", "Sunt"], "answer": "Aș", "explain": "Aș = bych. Po něm přijde neurčitý tvar: aș dori.", "reviewed": false },
+        { "id": "u16-l1-e7", "type": "fill", "sentence": "Ați ___ să-mi dați cheia, vă rog?", "translation": "Mohl(a) byste mi dát klíč, prosím?", "options": ["putea", "pot", "poate"], "answer": "putea", "explain": "Ați = byste, za ním neurčitý tvar putea (moci).", "reviewed": false },
+        { "id": "u16-l1-e8", "type": "choice", "question": "Micul dejun e inclus?", "questionLang": "target", "options": ["Je snídaně v ceně?", "Kde je snídaně?", "V kolik je snídaně?"], "answer": "Je snídaně v ceně?", "reviewed": false },
+        { "id": "u16-l1-e9", "type": "type", "question": "Mám rezervaci.", "answer": "Am o rezervare.", "reviewed": false },
+        { "id": "u16-l1-e10", "type": "build", "question": "Chtěli bychom dvoulůžkový pokoj.", "answer": "Am dori o cameră dublă.", "extra": ["aș"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l2",
+      "title": "Na nádraží a letišti",
+      "titleTarget": "La gară și la aeroport",
+      "reviewed": false,
+      "tip": {
+        "title": "Musím jet = trebuie să plec",
+        "text": "Česky po „musím“ přijde infinitiv: musím jet. Rumunsky, stejně jako po vreau a pot, přijde să a sloveso ve stejné osobě: trebuie să plec (musím odjet), trebuie să plecați (musíte odjet). Samotné trebuie se přitom nemění – je stejné pro všechny osoby, podobně jako české „je třeba“. Kdo potřebuje být někde včas, řekne: Trebuie să fiu la aeroport la ora cinci. (Musím být na letišti v pět.)",
+        "examples": [
+          { "target": "Trebuie să plec acum.", "native": "Musím teď odjet." },
+          { "target": "Trenul are întârziere.", "native": "Vlak má zpoždění." },
+          { "target": "De la ce peron pleacă trenul?", "native": "Z kterého nástupiště jede vlak?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l2-w1", "target": "un aeroport", "native": "letiště", "note": "aeroportul = to letiště; množné číslo: aeroporturi. Čte se „a-e-ro-PORT“.", "reviewed": false },
+        { "id": "u16-l2-w2", "target": "un pașaport", "native": "pas", "note": "pașaportul = ten pas; množné číslo: pașapoarte. Čte se „pa-ša-PORT“.", "reviewed": false },
+        { "id": "u16-l2-w3", "target": "un bagaj", "native": "zavazadlo", "note": "bagajul = to zavazadlo; množné číslo: bagaje. Čte se „ba-GAŽ“.", "reviewed": false },
+        { "id": "u16-l2-w4", "target": "o valiză", "native": "kufr", "note": "valiza = ten kufr; množné číslo: valize. Čte se „va-LI-ză“.", "reviewed": false },
+        { "id": "u16-l2-w5", "target": "un peron", "native": "nástupiště", "note": "peronul = to nástupiště; množné číslo: peroane. Čte se „pe-RON“.", "reviewed": false },
+        { "id": "u16-l2-w6", "target": "trebuie să", "native": "musím; je třeba", "note": "Nemění se: trebuie să plec = musím odjet, trebuie să plecați = musíte odjet. Čte se „TRE-bu-je“.", "reviewed": false },
+        { "id": "u16-l2-w7", "target": "o întârziere", "native": "zpoždění", "note": "întârzierea = to zpoždění; množné číslo: întârzieri. Trenul are întârziere. = Vlak má zpoždění. Čte se „yn-tyr-ZJE-re“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l2-e1", "type": "choice", "question": "un peron", "questionLang": "target", "options": ["nástupiště", "letiště", "zastávka"], "answer": "nástupiště", "reviewed": false },
+        { "id": "u16-l2-e2", "type": "choice", "question": "kufr", "questionLang": "native", "options": ["o valiză", "un pașaport", "un bilet"], "answer": "o valiză", "reviewed": false },
+        { "id": "u16-l2-e3", "type": "match", "pairs": [
+          { "target": "un aeroport", "native": "letiště" },
+          { "target": "un pașaport", "native": "pas" },
+          { "target": "un bagaj", "native": "zavazadlo" },
+          { "target": "o întârziere", "native": "zpoždění" }
+        ], "reviewed": false },
+        { "id": "u16-l2-e4", "type": "listen", "audio": "Trenul are întârziere.", "options": ["Vlak má zpoždění.", "Vlak už odjel.", "Vlak je na nástupišti."], "answer": "Vlak má zpoždění.", "reviewed": false },
+        { "id": "u16-l2-e5", "type": "listen", "audio": "De la ce peron pleacă trenul?", "options": ["De la ce peron pleacă trenul?", "La ce oră pleacă trenul?", "Unde este gara?"], "answer": "De la ce peron pleacă trenul?", "reviewed": false },
+        { "id": "u16-l2-e6", "type": "fill", "sentence": "Trebuie ___ merg la aeroport.", "translation": "Musím jet na letiště.", "options": ["să", "de", "la"], "answer": "să", "explain": "Po trebuie přijde să a sloveso, ne infinitiv: trebuie să merg.", "reviewed": false },
+        { "id": "u16-l2-e7", "type": "fill", "sentence": "Trebuie să ___ acum.", "translation": "Musím teď odjet.", "options": ["plec", "pleca", "plecat"], "answer": "plec", "explain": "Po să stojí sloveso v osobě „já“: plec (odjíždím) → trebuie să plec.", "reviewed": false },
+        { "id": "u16-l2-e8", "type": "choice", "question": "Kde je můj kufr?", "questionLang": "native", "options": ["Unde e valiza mea?", "Unde e valiza meu?", "Unde e valiză mea?"], "answer": "Unde e valiza mea?", "reviewed": false },
+        { "id": "u16-l2-e9", "type": "type", "question": "Musím odjet.", "answer": "Trebuie să plec.", "reviewed": false },
+        { "id": "u16-l2-e10", "type": "build", "question": "Máme dvě zavazadla a jeden kufr.", "answer": "Avem două bagaje și o valiză.", "extra": ["bagaj"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l3",
+      "title": "Když se ztratíte",
+      "titleTarget": "M-am rătăcit",
+      "reviewed": false,
+      "tip": {
+        "title": "Zvratná slovesa v minulém čase",
+        "text": "U zvratných sloves se v minulém čase „mă“ zkrátí a spojí s „am“: mă rătăcesc → m-am rătăcit (zabloudil(a) jsem), mă trezesc → m-am trezit (probudil(a) jsem se), mă întorc → m-am întors (vrátil(a) jsem se). Odpovídá to českému „se“ ve „vrátil(a) jsem se“, jen stojí vždy před slovesem. Když se ztratí věc, řekne se Am pierdut portofelul (ztratil(a) jsem peněženku), nebo podobně jako české „ztratila se mi peněženka“: Mi s-a pierdut portofelul.",
+        "examples": [
+          { "target": "M-am rătăcit. Mă puteți ajuta?", "native": "Zabloudil(a) jsem. Můžete mi pomoct?" },
+          { "target": "Am pierdut pașaportul.", "native": "Ztratil(a) jsem pas." },
+          { "target": "Unde este poliția?", "native": "Kde je policie?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l3-w1", "target": "Ajutor!", "native": "pomoc!", "note": "Volání v nouzi. Ajutor = pomoc. Čte se „a-žu-TOR“.", "reviewed": false },
+        { "id": "u16-l3-w2", "target": "M-am rătăcit.", "native": "zabloudil jsem; zabloudila jsem", "note": "Od a se rătăci. Stejný tvar pro muže i ženy. Čte se „mam ră-tă-ČIT“.", "reviewed": false },
+        { "id": "u16-l3-w3", "target": "Am pierdut", "native": "ztratil jsem; ztratila jsem", "note": "Od a pierde. Am pierdut pașaportul. = Ztratil(a) jsem pas. Čte se „am pjer-DUT“.", "reviewed": false },
+        { "id": "u16-l3-w4", "target": "un portofel", "native": "peněženka", "note": "portofelul = ta peněženka; množné číslo: portofele. Čte se „por-to-FEL“.", "reviewed": false },
+        { "id": "u16-l3-w5", "target": "o poliție", "native": "policie", "note": "Většinou se členem: poliția = ta policie; množné číslo: poliții. Čte se „po-LI-ci-e“.", "reviewed": false },
+        { "id": "u16-l3-w6", "target": "o hartă", "native": "mapa", "note": "harta = ta mapa; množné číslo: hărți. Čte se „HAR-tă“.", "reviewed": false },
+        { "id": "u16-l3-w7", "target": "Mă puteți ajuta?", "native": "můžete mi pomoct?", "note": "Pozor: česky „mi“, rumunsky mă – doslova „můžete mě pomoct?“. Čte se „mă pu-TEC a-žu-TA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l3-e1", "type": "choice", "question": "Ajutor!", "questionLang": "target", "options": ["pomoc!", "pozor!", "promiňte!"], "answer": "pomoc!", "reviewed": false },
+        { "id": "u16-l3-e2", "type": "choice", "question": "mapa", "questionLang": "native", "options": ["o hartă", "un portofel", "un bilet"], "answer": "o hartă", "reviewed": false },
+        { "id": "u16-l3-e3", "type": "match", "pairs": [
+          { "target": "un portofel", "native": "peněženka" },
+          { "target": "o poliție", "native": "policie" },
+          { "target": "o hartă", "native": "mapa" },
+          { "target": "Ajutor!", "native": "pomoc!" }
+        ], "reviewed": false },
+        { "id": "u16-l3-e4", "type": "listen", "audio": "Am pierdut portofelul.", "options": ["Ztratil(a) jsem peněženku.", "Ztratil(a) jsem pas.", "Koupil(a) jsem peněženku."], "answer": "Ztratil(a) jsem peněženku.", "reviewed": false },
+        { "id": "u16-l3-e5", "type": "listen", "audio": "Mă puteți ajuta?", "options": ["Mă puteți ajuta?", "Mă puteți suna?", "Mă puteți trezi?"], "answer": "Mă puteți ajuta?", "reviewed": false },
+        { "id": "u16-l3-e6", "type": "fill", "sentence": "___ rătăcit în oraș.", "translation": "Zabloudil(a) jsem ve městě.", "options": ["M-am", "Mă", "Mi"], "answer": "M-am", "explain": "Zvratné sloveso v minulém čase: mă + am = m-am.", "reviewed": false },
+        { "id": "u16-l3-e7", "type": "fill", "sentence": "Unde este ___?", "translation": "Kde je policie?", "options": ["poliția", "poliție", "polițiile"], "answer": "poliția", "explain": "Bez předložky se člen přidá na konec: poliția. Polițiile je množné číslo.", "reviewed": false },
+        { "id": "u16-l3-e8", "type": "choice", "question": "Ztratila se mi peněženka.", "questionLang": "native", "options": ["Mi s-a pierdut portofelul.", "Mi s-a pierdut pașaportul.", "Am pierdut harta."], "answer": "Mi s-a pierdut portofelul.", "reviewed": false },
+        { "id": "u16-l3-e9", "type": "type", "question": "Můžete mi pomoct?", "answer": "Mă puteți ajuta?", "accept": ["Puteți să mă ajutați?"], "reviewed": false },
+        { "id": "u16-l3-e10", "type": "build", "question": "Ztratil(a) jsem pas a mapu.", "answer": "Am pierdut pașaportul și harta.", "extra": ["hartă"], "reviewed": false }
+      ]
+    }
+  ]
+}

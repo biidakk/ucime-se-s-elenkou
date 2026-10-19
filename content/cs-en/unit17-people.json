@@ -1,0 +1,147 @@
+{
+  "id": "u17",
+  "level": "A2",
+  "title": "Lidé a práce",
+  "titleTarget": "People and work",
+  "description": "Povolání, jak lidé vypadají a jací jsou, a jak co dělají: slowly, well, hard.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u17-l1",
+      "title": "Povolání",
+      "titleTarget": "Jobs",
+      "reviewed": false,
+      "tip": {
+        "title": "She's a nurse: člen u povolání",
+        "text": "Česky řeknete „Je zdravotní sestra.“ Anglicky musí před povoláním stát a, před samohláskou an: She's a nurse. My son is an engineer. V množném čísle člen není: They're farmers. Na povolání se zeptáte What do you do? nebo What's your job? Kdo už nepracuje, řekne I'm retired. Pozor na falešného přítele: továrna je factory. Fabric znamená látka.",
+        "examples": [
+          { "target": "She's a nurse.", "native": "Je zdravotní sestra." },
+          { "target": "My son is an engineer.", "native": "Můj syn je inženýr." },
+          { "target": "What do you do?", "native": "Čím jste? Jaké máte povolání?" },
+          { "target": "They're farmers.", "native": "Jsou zemědělci." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l1-w1", "target": "job", "native": "práce; zaměstnání", "note": "Počitatelné: a job. What's your job? = Jaké máte povolání?", "reviewed": false },
+        { "id": "u17-l1-w2", "target": "teacher", "native": "učitel; učitelka", "note": "Jedno slovo pro muže i ženy, stejně jako u ostatních povolání.", "reviewed": false },
+        { "id": "u17-l1-w3", "target": "nurse", "native": "zdravotní sestra", "note": "Také zdravotní bratr. Čte se přibližně „nés“, r se nevyslovuje.", "reviewed": false },
+        { "id": "u17-l1-w4", "target": "shop assistant", "native": "prodavač; prodavačka", "reviewed": false },
+        { "id": "u17-l1-w5", "target": "engineer", "native": "inženýr; inženýrka", "note": "Přízvuk na konci: „en-dži-NÍ-a“. S členem an: an engineer.", "reviewed": false },
+        { "id": "u17-l1-w6", "target": "driver", "native": "řidič; řidička", "note": "Čte se „DRAJ-va“. Bus driver = řidič autobusu.", "reviewed": false },
+        { "id": "u17-l1-w7", "target": "farmer", "native": "zemědělec", "note": "Také farmář. Čte se „FÁ-ma“.", "reviewed": false },
+        { "id": "u17-l1-w8", "target": "office", "native": "kancelář", "note": "I work in an office. = Pracuji v kanceláři.", "reviewed": false },
+        { "id": "u17-l1-w9", "target": "factory", "native": "továrna", "note": "Falešný přítel: fabric je látka, ne fabrika.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l1-e1", "type": "choice", "question": "factory", "questionLang": "target", "options": ["továrna", "látka", "kancelář"], "answer": "továrna", "reviewed": false },
+        { "id": "u17-l1-e2", "type": "choice", "question": "Je zdravotní sestra.", "questionLang": "native", "options": ["She's a nurse.", "She's nurse.", "She a nurse."], "answer": "She's a nurse.", "reviewed": false },
+        { "id": "u17-l1-e3", "type": "match", "pairs": [
+          { "target": "job", "native": "práce" },
+          { "target": "office", "native": "kancelář" },
+          { "target": "factory", "native": "továrna" },
+          { "target": "farmer", "native": "zemědělec" },
+          { "target": "driver", "native": "řidič" }
+        ], "reviewed": false },
+        { "id": "u17-l1-e4", "type": "listen", "audio": "He's an engineer.", "options": ["He's an engineer.", "He's a teacher.", "He's a farmer."], "answer": "He's an engineer.", "reviewed": false },
+        { "id": "u17-l1-e5", "type": "listen", "audio": "My daughter works in an office.", "options": ["Moje dcera pracuje v kanceláři.", "Moje dcera pracuje v továrně.", "Moje dcera pracuje v obchodě."], "answer": "Moje dcera pracuje v kanceláři.", "reviewed": false },
+        { "id": "u17-l1-e6", "type": "fill", "sentence": "My son is ___ engineer.", "translation": "Můj syn je inženýr.", "options": ["an", "a"], "answer": "an", "explain": "Engineer začíná samohláskou, proto an.", "reviewed": false },
+        { "id": "u17-l1-e7", "type": "fill", "sentence": "My sons are ___.", "translation": "Moji synové jsou zemědělci.", "options": ["farmers", "a farmers", "farmer"], "answer": "farmers", "explain": "V množném čísle člen není: they're farmers.", "reviewed": false },
+        { "id": "u17-l1-e8", "type": "type", "question": "Moje sestra je prodavačka.", "answer": "My sister is a shop assistant.", "reviewed": false },
+        { "id": "u17-l1-e9", "type": "build", "question": "Můj manžel pracuje v továrně.", "answer": "My husband works in a factory.", "extra": ["fabric"], "reviewed": false },
+        { "id": "u17-l1-e10", "type": "build", "question": "Jaké máte povolání?", "answer": "What do you do?", "extra": ["are"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l2",
+      "title": "Jaký je?",
+      "titleTarget": "What's she like?",
+      "reviewed": false,
+      "tip": {
+        "title": "Jaká je, nebo jak vypadá?",
+        "text": "What's she like? znamená „Jaká je?“, tedy jaká je to osoba. Odpověď: She's kind. She's very nice. What does she look like? znamená „Jak vypadá?“. Odpověď: She's tall and slim. Like tu neznamená „mít rád“. Pozor: hair je jednotné číslo: Her hair is black. Česky jsou vlasy množné. Falešný přítel: sympatický člověk je nice. Sympathetic znamená soucitný.",
+        "examples": [
+          { "target": "What's your neighbour like? She's very kind.", "native": "Jaká je vaše sousedka? Je moc hodná." },
+          { "target": "What does he look like?", "native": "Jak vypadá?" },
+          { "target": "He's tall and he's got a beard.", "native": "Je vysoký a má plnovous." },
+          { "target": "Her hair is black.", "native": "Má černé vlasy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l2-w1", "target": "tall", "native": "vysoký", "note": "O lidech, stromech a budovách: She's tall.", "reviewed": false },
+        { "id": "u17-l2-w2", "target": "young", "native": "mladý", "note": "Čte se „jang“.", "reviewed": false },
+        { "id": "u17-l2-w3", "target": "hair", "native": "vlasy", "note": "Jednotné číslo: Her hair is long. Čte se přibližně „hé“, r se nevyslovuje.", "reviewed": false },
+        { "id": "u17-l2-w4", "target": "beard", "native": "vousy", "note": "He's got a beard. = Má plnovous.", "reviewed": false },
+        { "id": "u17-l2-w5", "target": "slim", "native": "štíhlý", "reviewed": false },
+        { "id": "u17-l2-w6", "target": "kind", "native": "laskavý; hodný", "note": "Čte se „kajnd“.", "reviewed": false },
+        { "id": "u17-l2-w7", "target": "friendly", "native": "přátelský", "reviewed": false },
+        { "id": "u17-l2-w8", "target": "nice", "native": "milý; sympatický", "note": "Falešný přítel: sympathetic znamená soucitný.", "reviewed": false },
+        { "id": "u17-l2-w9", "target": "What's she like?", "native": "Jaká je?", "note": "Ptá se na povahu. Jak vypadá? = What does she look like?", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l2-e1", "type": "choice", "question": "slim", "questionLang": "target", "options": ["štíhlý", "vysoký", "mladý"], "answer": "štíhlý", "reviewed": false },
+        { "id": "u17-l2-e2", "type": "choice", "question": "Jak vypadá?", "questionLang": "native", "options": ["What does she look like?", "What's she like?", "What does she like?"], "answer": "What does she look like?", "reviewed": false },
+        { "id": "u17-l2-e3", "type": "match", "pairs": [
+          { "target": "tall", "native": "vysoký" },
+          { "target": "young", "native": "mladý" },
+          { "target": "hair", "native": "vlasy" },
+          { "target": "beard", "native": "vousy" },
+          { "target": "friendly", "native": "přátelský" }
+        ], "reviewed": false },
+        { "id": "u17-l2-e4", "type": "listen", "audio": "He's tall and slim.", "options": ["He's tall and slim.", "He's young and slim.", "He's tall and kind."], "answer": "He's tall and slim.", "reviewed": false },
+        { "id": "u17-l2-e5", "type": "listen", "audio": "What's your neighbour like?", "options": ["Jaký je váš soused?", "Jak vypadá váš soused?", "Co má rád váš soused?"], "answer": "Jaký je váš soused?", "reviewed": false },
+        { "id": "u17-l2-e6", "type": "fill", "sentence": "My grandson ___ got a beard.", "translation": "Můj vnuk má plnovous.", "options": ["has", "have", "is"], "answer": "has", "explain": "U he (můj vnuk) je has got.", "reviewed": false },
+        { "id": "u17-l2-e7", "type": "fill", "sentence": "Her hair ___ black.", "translation": "Má černé vlasy.", "options": ["is", "are", "have"], "answer": "is", "explain": "Hair je anglicky jednotné číslo, proto is.", "reviewed": false },
+        { "id": "u17-l2-e8", "type": "fill", "sentence": "What ___ he look like?", "translation": "Jak vypadá?", "options": ["does", "is", "do"], "answer": "does", "explain": "Look je sloveso, otázka u he má does.", "reviewed": false },
+        { "id": "u17-l2-e9", "type": "type", "question": "Moje sousedka je milá.", "answer": "My neighbour is nice.", "accept": ["My neighbour's nice."], "reviewed": false },
+        { "id": "u17-l2-e10", "type": "build", "question": "Je vysoký a má plnovous.", "answer": "He's tall and he's got a beard.", "extra": ["have"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l3",
+      "title": "Jak to dělá?",
+      "titleTarget": "How does she do it?",
+      "reviewed": false,
+      "tip": {
+        "title": "Slowly, well: jak něco děláte",
+        "text": "Jak něco děláte, řeknete příslovcem. Většinou stačí přidat -ly: slow → slowly, careful → carefully. Výjimky: good → well, fast → fast, hard → hard. Příslovce stojí až za tím, co děláte: She speaks English well. Neříkejte She speaks well English. Česky je slovosled volný, anglicky sloveso a jeho předmět drží pohromadě.",
+        "examples": [
+          { "target": "Please speak slowly.", "native": "Mluvte prosím pomalu." },
+          { "target": "She speaks English well.", "native": "Mluví dobře anglicky." },
+          { "target": "He drives carefully.", "native": "Jezdí opatrně." },
+          { "target": "They work hard.", "native": "Tvrdě pracují." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l3-w1", "target": "slowly", "native": "pomalu", "note": "slow = pomalý. Čte se „SLOU-li“.", "reviewed": false },
+        { "id": "u17-l3-w2", "target": "quickly", "native": "rychle", "note": "quick = rychlý", "reviewed": false },
+        { "id": "u17-l3-w3", "target": "carefully", "native": "opatrně; pečlivě", "note": "careful = opatrný", "reviewed": false },
+        { "id": "u17-l3-w4", "target": "well", "native": "dobře", "note": "good = dobrý, ale dobře = well: She sings well.", "reviewed": false },
+        { "id": "u17-l3-w5", "target": "hard", "native": "tvrdě; usilovně", "note": "Bez -ly: work hard. Hardly znamená něco jiného: sotva.", "reviewed": false },
+        { "id": "u17-l3-w6", "target": "fast", "native": "rychlý", "note": "Také rychle, bez -ly: He drives fast.", "reviewed": false },
+        { "id": "u17-l3-w7", "target": "loudly", "native": "nahlas; hlasitě", "note": "Čte se „LAUD-li“.", "reviewed": false },
+        { "id": "u17-l3-w8", "target": "quietly", "native": "potichu", "note": "Čte se „KWAJ-et-li“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l3-e1", "type": "choice", "question": "quietly", "questionLang": "target", "options": ["potichu", "nahlas", "pomalu"], "answer": "potichu", "reviewed": false },
+        { "id": "u17-l3-e2", "type": "choice", "question": "dobře", "questionLang": "native", "options": ["well", "good", "fast"], "answer": "well", "reviewed": false },
+        { "id": "u17-l3-e3", "type": "match", "pairs": [
+          { "target": "slowly", "native": "pomalu" },
+          { "target": "quickly", "native": "rychle" },
+          { "target": "carefully", "native": "opatrně" },
+          { "target": "hard", "native": "usilovně" },
+          { "target": "loudly", "native": "nahlas" }
+        ], "reviewed": false },
+        { "id": "u17-l3-e4", "type": "listen", "audio": "Please speak slowly.", "options": ["Please speak slowly.", "Please speak quietly.", "Please speak loudly."], "answer": "Please speak slowly.", "reviewed": false },
+        { "id": "u17-l3-e5", "type": "listen", "audio": "My husband drives fast.", "options": ["Můj manžel jezdí rychle.", "Můj manžel jezdí pomalu.", "Můj manžel jezdí opatrně."], "answer": "Můj manžel jezdí rychle.", "reviewed": false },
+        { "id": "u17-l3-e6", "type": "fill", "sentence": "She speaks English ___.", "translation": "Mluví dobře anglicky.", "options": ["well", "good", "nice"], "answer": "well", "explain": "Good je přídavné jméno (a good teacher). Jak někdo mluví, řeknete well.", "reviewed": false },
+        { "id": "u17-l3-e7", "type": "fill", "sentence": "He drives ___.", "translation": "Jezdí opatrně.", "options": ["carefully", "careful", "care"], "answer": "carefully", "explain": "Jak jezdí? Příslovce s -ly: carefully.", "reviewed": false },
+        { "id": "u17-l3-e8", "type": "build", "question": "Mluví dobře anglicky.", "answer": "She speaks English well.", "extra": ["good"], "reviewed": false },
+        { "id": "u17-l3-e9", "type": "type", "question": "Moje dcera tvrdě pracuje.", "answer": "My daughter works hard.", "reviewed": false },
+        { "id": "u17-l3-e10", "type": "speak", "text": "Can you speak slowly, please?", "native": "Můžete mluvit pomalu, prosím?", "reviewed": false }
+      ]
+    }
+  ]
+}

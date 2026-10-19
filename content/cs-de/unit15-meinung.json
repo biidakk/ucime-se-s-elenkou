@@ -1,0 +1,145 @@
+{
+  "id": "u15",
+  "level": "A2",
+  "title": "Názory",
+  "titleTarget": "Meinungen",
+  "description": "Jak říct proč, co si myslíte a jak se zdvořile zeptat: weil, denn, dass a ob se slovesem na konci.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u15-l1",
+      "title": "Proč?",
+      "titleTarget": "Warum?",
+      "reviewed": false,
+      "tip": {
+        "title": "weil a denn",
+        "text": "Na otázku warum? (proč?) odpovíte weil nebo denn, obojí znamená „protože“. Rozdíl je ve slovosledu. Po weil jde sloveso až na konec: …, weil ich keine Zeit habe. Po denn zůstane obvyklé pořadí: …, denn ich habe keine Zeit. Česky slovosled neměníme, proto se snadno řekne chybně „weil ich habe keine Zeit“. Před weil i denn se píše čárka, stejně jako v češtině před „protože“.",
+        "examples": [
+          { "target": "Warum kommt Anna nicht?", "native": "Proč Anna nepřijde?" },
+          { "target": "Sie kommt nicht, weil sie krank ist.", "native": "Nepřijde, protože je nemocná." },
+          { "target": "Sie kommt nicht, denn sie ist krank.", "native": "Nepřijde, neboť je nemocná." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l1-w1", "target": "warum", "native": "proč", "note": "Přízvuk na druhé slabice: [va-RUM].", "reviewed": false },
+        { "id": "u15-l1-w2", "target": "weil", "native": "protože", "note": "Sloveso jde na konec: weil ich keine Zeit habe.", "reviewed": false },
+        { "id": "u15-l1-w3", "target": "denn", "native": "neboť", "note": "Také „protože“, ale slovosled se nemění: denn ich habe keine Zeit.", "reviewed": false },
+        { "id": "u15-l1-w4", "target": "leider", "native": "bohužel", "note": "ei = aj: [LAJ-da]", "reviewed": false },
+        { "id": "u15-l1-w5", "target": "die Zeit", "native": "čas", "note": "Ich habe keine Zeit. = Nemám čas. z = c, ei = aj: [cajt]; množné číslo: die Zeiten", "reviewed": false },
+        { "id": "u15-l1-w6", "target": "die Lust", "native": "chuť", "note": "Ich habe keine Lust. = Nechce se mi. Množné číslo se běžně nepoužívá.", "reviewed": false },
+        { "id": "u15-l1-w7", "target": "müde", "native": "unavený", "note": "ü: řekněte i a rty zaokrouhlete jako na u.", "reviewed": false },
+        { "id": "u15-l1-w8", "target": "froh", "native": "veselý; rád", "note": "Ich bin froh. = Mám radost. Jiné než gern: Ich lese gern. = Rád čtu.", "reviewed": false },
+        { "id": "u15-l1-w9", "target": "traurig", "native": "smutný", "note": "-ig na konci zní jako „ich“: [TRAU-rich]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l1-e1", "type": "choice", "question": "leider", "questionLang": "target", "options": ["bohužel", "proč", "protože"], "answer": "bohužel", "reviewed": false },
+        { "id": "u15-l1-e2", "type": "choice", "question": "smutný", "questionLang": "native", "options": ["traurig", "müde", "froh"], "answer": "traurig", "reviewed": false },
+        { "id": "u15-l1-e3", "type": "match", "pairs": [
+          { "target": "warum", "native": "proč" },
+          { "target": "die Zeit", "native": "čas" },
+          { "target": "die Lust", "native": "chuť" },
+          { "target": "müde", "native": "unavený" },
+          { "target": "froh", "native": "veselý" }
+        ], "reviewed": false },
+        { "id": "u15-l1-e4", "type": "listen", "audio": "Ich habe leider keine Zeit.", "options": ["Ich habe leider keine Zeit.", "Ich habe heute keine Zeit.", "Ich habe leider keine Lust."], "answer": "Ich habe leider keine Zeit.", "reviewed": false },
+        { "id": "u15-l1-e5", "type": "fill", "sentence": "Ich komme heute nicht, ___ ich habe keine Zeit.", "translation": "Dnes nepřijdu, protože nemám čas.", "options": ["denn", "weil", "warum"], "answer": "denn", "explain": "Sloveso stojí hned za ich (ich habe), takže se hodí jen denn; po weil by šlo na konec.", "reviewed": false },
+        { "id": "u15-l1-e6", "type": "fill", "sentence": "Er bleibt zu Hause, ___ er krank ist.", "translation": "Zůstává doma, protože je nemocný.", "options": ["weil", "denn", "und"], "answer": "weil", "explain": "Sloveso ist stojí na konci, to je možné jen po weil.", "reviewed": false },
+        { "id": "u15-l1-e7", "type": "type", "question": "proč", "answer": "warum", "reviewed": false },
+        { "id": "u15-l1-e8", "type": "build", "question": "Petr zůstává doma, protože je unavený.", "answer": "Peter bleibt zu Hause, weil er müde ist.", "accept": ["Weil er müde ist, bleibt Peter zu Hause."], "reviewed": false },
+        { "id": "u15-l1-e9", "type": "listen", "audio": "Warum ist Peter traurig?", "options": ["Proč je Petr smutný?", "Proč je Petr unavený?", "Proč je Petr veselý?"], "answer": "Proč je Petr smutný?", "reviewed": false },
+        { "id": "u15-l1-e10", "type": "build", "question": "Bohužel nemám čas.", "answer": "Ich habe leider keine Zeit.", "accept": ["Leider habe ich keine Zeit."], "extra": ["nicht"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "title": "Myslím, že…",
+      "titleTarget": "Meiner Meinung nach",
+      "reviewed": false,
+      "tip": {
+        "title": "Po dass jde sloveso na konec",
+        "text": "Spojka dass (že) posílá sloveso na konec věty, stejně jako weil: Ich glaube, dass er krank ist. „…, dass er ist krank“ je chyba. Pozor na pravopis: dass (že) se píše se dvěma s, das (to, ten) s jedním. Svůj názor uvedete slovy Ich glaube, … nebo Ich denke, … anebo Meiner Meinung nach … (podle mého názoru). Sloveso wissen (vědět) je nepravidelné: ich weiß, du weißt, er weiß, wir wissen.",
+        "examples": [
+          { "target": "Ich glaube, dass das richtig ist.", "native": "Myslím, že je to správně." },
+          { "target": "Wir wissen, dass das wichtig ist.", "native": "Víme, že je to důležité." },
+          { "target": "Meiner Meinung nach ist das falsch.", "native": "Podle mého názoru je to špatně." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l2-w1", "target": "glauben", "native": "věřit; myslet si", "note": "Ich glaube, dass … = Myslím, že …", "reviewed": false },
+        { "id": "u15-l2-w2", "target": "denken", "native": "myslet", "note": "Ich denke, dass … ; příčestí: gedacht", "reviewed": false },
+        { "id": "u15-l2-w3", "target": "wissen", "native": "vědět", "note": "ich weiß, du weißt, er weiß, wir wissen; ß = ostré s", "reviewed": false },
+        { "id": "u15-l2-w4", "target": "dass", "native": "že", "note": "Sloveso jde na konec. Pozor: das (to, ten) s jedním s.", "reviewed": false },
+        { "id": "u15-l2-w5", "target": "die Meinung", "native": "názor", "note": "meiner Meinung nach = podle mého názoru; ei = aj; množné číslo: die Meinungen", "reviewed": false },
+        { "id": "u15-l2-w6", "target": "richtig", "native": "správný; správně", "note": "Das ist richtig. = To je správně.", "reviewed": false },
+        { "id": "u15-l2-w7", "target": "falsch", "native": "chybný; špatně", "note": "Das ist falsch. = To je špatně.", "reviewed": false },
+        { "id": "u15-l2-w8", "target": "wichtig", "native": "důležitý", "note": "-ig na konci zní jako „ich“: [VICH-tich]", "reviewed": false },
+        { "id": "u15-l2-w9", "target": "interessant", "native": "zajímavý", "note": "Přízvuk na konci: [in-te-re-SANT]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l2-e1", "type": "choice", "question": "wichtig", "questionLang": "target", "options": ["důležitý", "zajímavý", "chybný; špatně"], "answer": "důležitý", "reviewed": false },
+        { "id": "u15-l2-e2", "type": "choice", "question": "názor", "questionLang": "native", "options": ["die Meinung", "die Zeit", "die Lust"], "answer": "die Meinung", "reviewed": false },
+        { "id": "u15-l2-e3", "type": "match", "pairs": [
+          { "target": "glauben", "native": "věřit" },
+          { "target": "denken", "native": "myslet" },
+          { "target": "wissen", "native": "vědět" },
+          { "target": "richtig", "native": "správný" },
+          { "target": "falsch", "native": "chybný" }
+        ], "reviewed": false },
+        { "id": "u15-l2-e4", "type": "listen", "audio": "Ich glaube, dass das richtig ist.", "options": ["Ich glaube, dass das richtig ist.", "Ich glaube, dass das falsch ist.", "Ich weiß, dass das richtig ist."], "answer": "Ich glaube, dass das richtig ist.", "reviewed": false },
+        { "id": "u15-l2-e5", "type": "fill", "sentence": "Wir wissen, ___ der Termin wichtig ist.", "translation": "Víme, že je ta schůzka důležitá.", "options": ["dass", "das", "denn"], "answer": "dass", "explain": "„že“ je dass se dvěma s; po denn by sloveso nestálo na konci.", "reviewed": false },
+        { "id": "u15-l2-e6", "type": "fill", "sentence": "Mein Sohn ___, dass das falsch ist.", "translation": "Můj syn ví, že je to špatně.", "options": ["weiß", "wisst", "wissen"], "answer": "weiß", "explain": "wissen je nepravidelné: er weiß, bez -t na konci.", "reviewed": false },
+        { "id": "u15-l2-e7", "type": "type", "question": "zajímavý", "answer": "interessant", "reviewed": false },
+        { "id": "u15-l2-e8", "type": "build", "question": "Myslím, že je ten film zajímavý.", "answer": "Ich denke, dass der Film interessant ist.", "extra": ["denn"], "reviewed": false },
+        { "id": "u15-l2-e9", "type": "listen", "audio": "Meiner Meinung nach ist das wichtig.", "options": ["Podle mého názoru je to důležité.", "Podle mého názoru je to zajímavé.", "Podle mého názoru je to špatně."], "answer": "Podle mého názoru je to důležité.", "reviewed": false },
+        { "id": "u15-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Vím, že je Petr nemocný.", "questionLang": "native", "options": ["Ich weiß, dass Peter krank ist.", "Ich weiß, dass Peter ist krank.", "Ich weiß, dass ist Peter krank."], "answer": "Ich weiß, dass Peter krank ist.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "title": "Zdvořilé otázky",
+      "titleTarget": "Höfliche Fragen",
+      "reviewed": false,
+      "tip": {
+        "title": "Wissen Sie, wo …?",
+        "text": "Zdvořilá otázka často začíná slovy Wissen Sie, … (Nevíte, …?) nebo Können Sie mir sagen, … (Můžete mi říct, …?). Pak jde sloveso na konec: Wissen Sie, wo der Bahnhof ist? „Wissen Sie, wo ist der Bahnhof?“ je chyba. Když otázka nemá tázací slovo (wo, wie, warum), použijte ob = jestli, zda: Ich weiß nicht, ob er heute kommt. Pozor: české „jestli“ se tu neřekne wenn.",
+        "examples": [
+          { "target": "Wissen Sie, wo der Bahnhof ist?", "native": "Nevíte, kde je nádraží?" },
+          { "target": "Ich weiß nicht, ob er heute kommt.", "native": "Nevím, jestli dnes přijde." },
+          { "target": "Können Sie das bitte wiederholen?", "native": "Můžete to prosím zopakovat?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l3-w1", "target": "ob", "native": "jestli; zda", "note": "Sloveso jde na konec: Ich weiß nicht, ob er kommt.", "reviewed": false },
+        { "id": "u15-l3-w2", "target": "sagen", "native": "říct; říkat", "note": "Was sagen Sie? = Co říkáte?", "reviewed": false },
+        { "id": "u15-l3-w3", "target": "fragen", "native": "zeptat se; ptát se", "note": "Koho se ptáte, je německy ve 4. pádě, česky ve 2.: Ich frage den Arzt. = Zeptám se lékaře.", "reviewed": false },
+        { "id": "u15-l3-w4", "target": "die Frage", "native": "otázka", "note": "Ich habe eine Frage. = Mám otázku. Množné číslo: die Fragen", "reviewed": false },
+        { "id": "u15-l3-w5", "target": "antworten", "native": "odpovědět; odpovídat", "note": "er antwortet (vložené -e-)", "reviewed": false },
+        { "id": "u15-l3-w6", "target": "die Antwort", "native": "odpověď", "note": "w = v: [ANT-vort]; množné číslo: die Antworten", "reviewed": false },
+        { "id": "u15-l3-w7", "target": "erklären", "native": "vysvětlit", "note": "Přízvuk: er-KLÉ-ren; příčestí bez ge-: erklärt", "reviewed": false },
+        { "id": "u15-l3-w8", "target": "verstehen", "native": "rozumět; pochopit", "note": "Ich verstehe das nicht. = Nerozumím tomu. Příčestí: verstanden", "reviewed": false },
+        { "id": "u15-l3-w9", "target": "wiederholen", "native": "zopakovat", "note": "Neodlučitelné: Ich wiederhole. Přízvuk: [ví-da-HÓ-len]; příčestí: wiederholt", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l3-e1", "type": "choice", "question": "verstehen", "questionLang": "target", "options": ["rozumět; pochopit", "vysvětlit", "zopakovat"], "answer": "rozumět; pochopit", "reviewed": false },
+        { "id": "u15-l3-e2", "type": "choice", "question": "odpověď", "questionLang": "native", "options": ["die Antwort", "die Frage", "die Meinung"], "answer": "die Antwort", "reviewed": false },
+        { "id": "u15-l3-e3", "type": "match", "pairs": [
+          { "target": "ob", "native": "jestli" },
+          { "target": "sagen", "native": "říct" },
+          { "target": "fragen", "native": "zeptat se" },
+          { "target": "antworten", "native": "odpovědět" },
+          { "target": "erklären", "native": "vysvětlit" }
+        ], "reviewed": false },
+        { "id": "u15-l3-e4", "type": "listen", "audio": "Können Sie das bitte wiederholen?", "options": ["Können Sie das bitte wiederholen?", "Können Sie das bitte erklären?", "Können Sie das bitte sagen?"], "answer": "Können Sie das bitte wiederholen?", "reviewed": false },
+        { "id": "u15-l3-e5", "type": "fill", "sentence": "Wissen Sie, ___ der Zug pünktlich ist?", "translation": "Nevíte, jestli jede vlak načas?", "options": ["ob", "denn", "weil"], "answer": "ob", "explain": "Otázka bez tázacího slova: „jestli“ se řekne ob.", "reviewed": false },
+        { "id": "u15-l3-e6", "type": "fill", "sentence": "Wissen Sie, wo der Bus ___?", "translation": "Nevíte, odkud jede autobus?", "options": ["abfährt", "fährt ab", "abgefahren"], "answer": "abfährt", "explain": "Ve vedlejší větě jde sloveso na konec a předpona zůstane přilepená: abfährt.", "reviewed": false },
+        { "id": "u15-l3-e7", "type": "type", "question": "otázka", "answer": "die Frage", "reviewed": false },
+        { "id": "u15-l3-e8", "type": "build", "question": "Nevíte, kde je pošta?", "answer": "Wissen Sie, wo die Post ist?", "reviewed": false },
+        { "id": "u15-l3-e9", "type": "listen", "audio": "Entschuldigung, ich verstehe das nicht.", "options": ["Promiňte, tomu nerozumím.", "Promiňte, to nevím.", "Promiňte, můžete to zopakovat?"], "answer": "Promiňte, tomu nerozumím.", "reviewed": false },
+        { "id": "u15-l3-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Nevím, jestli je Petr doma.", "questionLang": "native", "options": ["Ich weiß nicht, ob Peter zu Hause ist.", "Ich weiß nicht, ob ist Peter zu Hause.", "Ich weiß nicht, ob Peter ist zu Hause."], "answer": "Ich weiß nicht, ob Peter zu Hause ist.", "reviewed": false }
+      ]
+    }
+  ]
+}

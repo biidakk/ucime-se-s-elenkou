@@ -1,0 +1,147 @@
+{
+  "id": "u11",
+  "level": "A2",
+  "title": "Minulý víkend",
+  "titleTarget": "Last weekend",
+  "description": "Co jste dělali o víkendu: minulý čas pravidelných a nepravidelných sloves a otázky s did.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "title": "Co jsme dělali",
+      "titleTarget": "What we did",
+      "reviewed": false,
+      "tip": {
+        "title": "Minulý čas: -ed",
+        "text": "U pravidelných sloves stačí přidat -ed: visit → visited, clean → cleaned. Tvar je stejný pro všechny osoby: I, she, we, they cleaned. Česky „uklízela“ i „uklidila“, anglicky obojí cleaned. Pozor na výslovnost, -ed se čte třemi způsoby. Po t a d jako „id“: wanted, needed. Po k, p, s, š a č jen jako „t“: cooked, helped, watched. Jinak jen jako „d“: cleaned, stayed. Nikdy neříkejte „klíned“.",
+        "examples": [
+          { "target": "We visited our daughter.", "native": "Navštívili jsme naši dceru." },
+          { "target": "She cleaned the kitchen.", "native": "Uklidila kuchyň." },
+          { "target": "My son wanted a coffee.", "native": "Můj syn chtěl kávu." },
+          { "target": "We cooked chicken.", "native": "Vařili jsme kuře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l1-w1", "target": "visit", "native": "navštívit", "note": "visited, čte se „vi-zi-tid“.", "reviewed": false },
+        { "id": "u11-l1-w2", "target": "stay", "native": "zůstat", "note": "stayed, čte se „stejd“. stay at home = zůstat doma.", "reviewed": false },
+        { "id": "u11-l1-w3", "target": "clean", "native": "uklízet; uklidit", "note": "cleaned, čte se „klínd“.", "reviewed": false },
+        { "id": "u11-l1-w4", "target": "call", "native": "zavolat; volat", "note": "called, čte se „kóld“. Call me! = Zavolejte mi!", "reviewed": false },
+        { "id": "u11-l1-w5", "target": "wait", "native": "čekat", "note": "waited, čte se „wej-tid“. Čekat na = wait for.", "reviewed": false },
+        { "id": "u11-l1-w6", "target": "want", "native": "chtít", "note": "wanted, čte se „won-tid“.", "reviewed": false },
+        { "id": "u11-l1-w7", "target": "need", "native": "potřebovat", "note": "needed, čte se „ní-did“.", "reviewed": false },
+        { "id": "u11-l1-w8", "target": "open", "native": "otevřít", "note": "opened, čte se „ou-pnd“.", "reviewed": false },
+        { "id": "u11-l1-w9", "target": "close", "native": "zavřít", "note": "Čte se „klouz“, closed „klouzd“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l1-e1", "type": "choice", "question": "wait", "questionLang": "target", "options": ["čekat", "zůstat", "potřebovat"], "answer": "čekat", "reviewed": false },
+        { "id": "u11-l1-e2", "type": "choice", "question": "zavřít", "questionLang": "native", "options": ["close", "open", "clean"], "answer": "close", "reviewed": false },
+        { "id": "u11-l1-e3", "type": "match", "pairs": [
+          { "target": "visit", "native": "navštívit" },
+          { "target": "stay", "native": "zůstat" },
+          { "target": "call", "native": "zavolat" },
+          { "target": "want", "native": "chtít" },
+          { "target": "need", "native": "potřebovat" }
+        ], "reviewed": false },
+        { "id": "u11-l1-e4", "type": "listen", "audio": "We visited our grandson.", "options": ["We visited our grandson.", "We visit our grandson.", "We called our grandson."], "answer": "We visited our grandson.", "reviewed": false },
+        { "id": "u11-l1-e5", "type": "listen", "audio": "She cleaned the kitchen yesterday.", "options": ["Včera uklidila kuchyň.", "Včera uklidila koupelnu.", "Každý den uklízí kuchyň."], "answer": "Včera uklidila kuchyň.", "reviewed": false },
+        { "id": "u11-l1-e6", "type": "fill", "sentence": "Yesterday we ___ at home.", "translation": "Včera jsme zůstali doma.", "options": ["stayed", "stay", "stays"], "answer": "stayed", "explain": "Včera = minulý čas: stay + -ed.", "reviewed": false },
+        { "id": "u11-l1-e7", "type": "fill", "sentence": "My son ___ me last night.", "translation": "Můj syn mi včera večer volal.", "options": ["called", "calls", "call"], "answer": "called", "explain": "Last night = minulý čas, proto called.", "reviewed": false },
+        { "id": "u11-l1-e8", "type": "type", "question": "Otevřela okno.", "answer": "She opened the window.", "accept": ["She opened a window."], "reviewed": false },
+        { "id": "u11-l1-e9", "type": "build", "question": "Čekali jsme na autobusové zastávce.", "answer": "We waited at the bus stop.", "extra": ["wait"], "reviewed": false },
+        { "id": "u11-l1-e10", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Ve kterém slově se -ed čte jako „id“?", "questionLang": "native", "options": ["wanted", "cleaned", "cooked"], "answer": "wanted", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "title": "Kam jsme jeli",
+      "titleTarget": "Where we went",
+      "reviewed": false,
+      "tip": {
+        "title": "Nepravidelná slovesa",
+        "text": "Mnoho častých sloves nemá v minulém čase -ed. Jejich tvar se musíte naučit zpaměti: go → went, have → had, see → saw, come → came, buy → bought, make → made, take → took, eat → ate, drink → drank. Dobrá zpráva: tvar se nemění podle osoby. Česky šel, šla, šli, anglicky vždy went: I went, she went, we went. A went znamená šel i jel: We went to Prague by train.",
+        "examples": [
+          { "target": "We went to Prague by train.", "native": "Jeli jsme vlakem do Prahy." },
+          { "target": "She bought a red bag.", "native": "Koupila si červenou tašku." },
+          { "target": "They came home at ten.", "native": "Přišli domů v deset." },
+          { "target": "We had fish and potatoes.", "native": "Měli jsme rybu a brambory." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l2-w1", "target": "went", "native": "šel jsem; šla jsem", "note": "Od go. Také jel jsem, jela jsem. Stejné pro všechny osoby.", "reviewed": false },
+        { "id": "u11-l2-w2", "target": "had", "native": "měl jsem; měla jsem", "note": "Od have. We had breakfast. = Nasnídali jsme se.", "reviewed": false },
+        { "id": "u11-l2-w3", "target": "saw", "native": "viděl jsem; viděla jsem", "note": "Od see. Čte se „só“.", "reviewed": false },
+        { "id": "u11-l2-w4", "target": "came", "native": "přišel jsem; přišla jsem", "note": "Od come. Čte se „kejm“.", "reviewed": false },
+        { "id": "u11-l2-w5", "target": "bought", "native": "koupil jsem; koupila jsem", "note": "Od buy. Čte se „bót“, gh se nečte.", "reviewed": false },
+        { "id": "u11-l2-w6", "target": "made", "native": "udělal jsem; udělala jsem", "note": "Od make: vyrobit, připravit. She made a cake. = Upekla dort.", "reviewed": false },
+        { "id": "u11-l2-w7", "target": "took", "native": "vzal jsem; vzala jsem", "note": "Od take. Čte se „tuk“. We took a taxi. = Jeli jsme taxíkem.", "reviewed": false },
+        { "id": "u11-l2-w8", "target": "ate", "native": "jedl jsem; jedla jsem", "note": "Od eat. Britové říkají „et“ i „ejt“.", "reviewed": false },
+        { "id": "u11-l2-w9", "target": "drank", "native": "pil jsem; pila jsem", "note": "Od drink. Čte se „drenk“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l2-e1", "type": "choice", "question": "We went to London by train.", "questionLang": "target", "options": ["Jeli jsme vlakem do Londýna.", "Jedeme vlakem do Londýna.", "Jeli jsme autobusem do Londýna."], "answer": "Jeli jsme vlakem do Londýna.", "reviewed": false },
+        { "id": "u11-l2-e2", "type": "choice", "question": "Koupila chléb.", "questionLang": "native", "options": ["She bought bread.", "She buyed bread.", "She bought a bread."], "answer": "She bought bread.", "reviewed": false },
+        { "id": "u11-l2-e3", "type": "match", "pairs": [
+          { "target": "went", "native": "šli jsme" },
+          { "target": "saw", "native": "viděli jsme" },
+          { "target": "came", "native": "přišli jsme" },
+          { "target": "ate", "native": "jedli jsme" },
+          { "target": "drank", "native": "pili jsme" }
+        ], "reviewed": false },
+        { "id": "u11-l2-e4", "type": "listen", "audio": "My grandson came on Sunday.", "options": ["My grandson came on Sunday.", "My grandson comes on Sunday.", "My grandson came on Monday."], "answer": "My grandson came on Sunday.", "reviewed": false },
+        { "id": "u11-l2-e5", "type": "listen", "audio": "We took a taxi to the station.", "options": ["Jeli jsme na nádraží taxíkem.", "Jeli jsme na nádraží autobusem.", "Šli jsme na nádraží pěšky."], "answer": "Jeli jsme na nádraží taxíkem.", "reviewed": false },
+        { "id": "u11-l2-e6", "type": "fill", "sentence": "Last week we ___ to Scotland.", "translation": "Minulý týden jsme jeli do Skotska.", "options": ["went", "goed", "go"], "answer": "went", "explain": "Go je nepravidelné: went, nikdy goed.", "reviewed": false },
+        { "id": "u11-l2-e7", "type": "fill", "sentence": "She ___ a big cake.", "translation": "Upekla velký dort.", "options": ["made", "maked", "make"], "answer": "made", "explain": "Make je nepravidelné: minulý čas je made.", "reviewed": false },
+        { "id": "u11-l2-e8", "type": "type", "question": "Viděli jsme vaši dceru.", "answer": "We saw your daughter.", "reviewed": false },
+        { "id": "u11-l2-e9", "type": "build", "question": "Na snídani jsme měli vejce.", "answer": "We had eggs for breakfast.", "extra": ["have"], "accept": ["For breakfast we had eggs."], "reviewed": false },
+        { "id": "u11-l2-e10", "type": "speak", "text": "We ate at home.", "native": "Jedli jsme doma.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "title": "Co jste dělali?",
+      "titleTarget": "What did you do?",
+      "reviewed": false,
+      "tip": {
+        "title": "Otázka s did",
+        "text": "Česky stačí změnit melodii věty: Šli jste? Anglicky musí otázka v minulém čase mít did: Did you go? Where did you go? Did už nese minulost, proto je sloveso v základním tvaru: go, ne went. Neříkejte Where you went? ani Where did you went? Zápor je stejný: didn't + základní tvar: We didn't go. Jen was a were did nepotřebují: Where were you?",
+        "examples": [
+          { "target": "Where did you go?", "native": "Kam jste jeli?" },
+          { "target": "Did you see the film? Yes, I did.", "native": "Viděli jste ten film? Ano." },
+          { "target": "We didn't buy bread.", "native": "Nekoupili jsme chleba." },
+          { "target": "Why did she call?", "native": "Proč volala?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l3-w1", "target": "did", "native": "otázka v minulém čase", "note": "Did you go? = Šli jste? Po did je sloveso v základním tvaru.", "reviewed": false },
+        { "id": "u11-l3-w2", "target": "didn't", "native": "zápor v minulém čase", "note": "We didn't go. = Nešli jsme. Celý tvar: did not.", "reviewed": false },
+        { "id": "u11-l3-w3", "target": "what", "native": "co; jaký", "note": "What did you do? = Co jste dělali? What colour? = Jaká barva?", "reviewed": false },
+        { "id": "u11-l3-w4", "target": "who", "native": "kdo", "note": "Čte se „hú“.", "reviewed": false },
+        { "id": "u11-l3-w5", "target": "when", "native": "kdy", "note": "Čte se „wen“.", "reviewed": false },
+        { "id": "u11-l3-w6", "target": "why", "native": "proč", "note": "Čte se „waj“.", "reviewed": false },
+        { "id": "u11-l3-w7", "target": "how", "native": "jak", "note": "Čte se „hau“.", "reviewed": false },
+        { "id": "u11-l3-w8", "target": "which", "native": "který", "note": "Když vybíráte z několika: Which bus? Čte se „wič“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l3-e1", "type": "choice", "question": "why", "questionLang": "target", "options": ["proč", "kdy", "jak"], "answer": "proč", "reviewed": false },
+        { "id": "u11-l3-e2", "type": "choice", "question": "Kdy jste přišli?", "questionLang": "native", "options": ["When did you come?", "When did you came?", "When you came?"], "answer": "When did you come?", "reviewed": false },
+        { "id": "u11-l3-e3", "type": "match", "pairs": [
+          { "target": "what", "native": "co" },
+          { "target": "who", "native": "kdo" },
+          { "target": "when", "native": "kdy" },
+          { "target": "how", "native": "jak" },
+          { "target": "which", "native": "který" }
+        ], "reviewed": false },
+        { "id": "u11-l3-e4", "type": "listen", "audio": "Who did you see?", "options": ["Who did you see?", "Who do you see?", "Who did you call?"], "answer": "Who did you see?", "reviewed": false },
+        { "id": "u11-l3-e5", "type": "listen", "audio": "We didn't go to the park.", "options": ["Nešli jsme do parku.", "Šli jsme do parku.", "Nepůjdeme do parku."], "answer": "Nešli jsme do parku.", "reviewed": false },
+        { "id": "u11-l3-e6", "type": "fill", "sentence": "Where ___ you go last weekend?", "translation": "Kam jste jeli minulý víkend?", "options": ["did", "were", "do"], "answer": "did", "explain": "Otázka v minulém čase potřebuje did.", "reviewed": false },
+        { "id": "u11-l3-e7", "type": "fill", "sentence": "My husband didn't ___ the film.", "translation": "Manžel ten film neviděl.", "options": ["see", "saw", "seen"], "answer": "see", "explain": "Po didn't je sloveso v základním tvaru: didn't see.", "reviewed": false },
+        { "id": "u11-l3-e8", "type": "type", "question": "Proč jste nepřišli?", "answer": "Why didn't you come?", "accept": ["Why did you not come?"], "reviewed": false },
+        { "id": "u11-l3-e9", "type": "build", "question": "Co jste dělali včera?", "answer": "What did you do yesterday?", "extra": ["does"], "reviewed": false },
+        { "id": "u11-l3-e10", "type": "build", "question": "Kterým autobusem jste jeli?", "answer": "Which bus did you take?", "extra": ["took"], "reviewed": false }
+      ]
+    }
+  ]
+}

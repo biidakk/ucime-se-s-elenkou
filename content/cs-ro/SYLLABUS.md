@@ -64,8 +64,8 @@ Nouns are listed with un/o; definite form and plural go in the word note.
 - **L2 U lékaře** – *mi-e rău, mi-e frig* (dative chunks). Words: un medic, o febră, o tuse, o răceală, Mi-e rău., Mi-e frig., Mi-e foame., Mi-e sete.. Difficulty: dative where Czech uses *je mi*.
 - **L3 V lékárně** – imperative (*luați*) and *nu* + infinitive (*nu fumați → nu fuma*). Words: o pastilă, o rețetă, de trei ori pe zi, înainte de masă, după masă, Luați!, Nu uitați!. Difficulty: negative imperative with infinitive.
 
-### Unit 12 – Co mám rád / Îmi place – `unit12-imi-place.json`
-- **L1 Rád/ráda** – *îmi place / îmi plac* (dative pronouns *îmi, îți, îi, ne, vă, le*). Words: Îmi place, Nu-mi place, Îmi plac, a iubi, o muzică, un film, o carte, o grădină. Difficulty: *líbí se mi* ≈ *îmi place* (same logic as Czech!).
+### Unit 12 – Co se mi líbí / Îmi place – `unit12-imi-place.json`
+- **L1 Líbí se mi** – *îmi place / îmi plac* (dative pronouns *îmi, îți, îi, ne, vă, le*). Words: Îmi place, Nu-mi place, Îmi plac, a iubi, o muzică, un film, o carte, o grădină. Difficulty: *líbí se mi* ≈ *îmi place* (same logic as Czech!).
 - **L2 Volný čas** – *a-i plăcea să* + subjunctive. Words: a cânta, a dansa, a înota, a se plimba, a tricota, a se uita la televizor, o plimbare, timp liber. Difficulty: reflexive verbs.
 - **L3 Pozvání** – *Hai să…!*, *Vrei să…?*; refusing politely. Words: Hai să mergem!, Vrei să vii?, Cu drag., Nu pot., Poate altă dată., o invitație, De acord.. Difficulty: *drag* = milý (not drahý).
 
@@ -87,22 +87,22 @@ Nouns are listed with un/o; definite form and plural go in the word note.
 ### Unit 16 – Na cestách / Călătorii – `unit16-calatorii.json`
 - **L1 V hotelu** – conditional *aș vrea, ați putea* (full paradigm). Words: o rezervare, o cameră dublă, o cheie, un mic dejun, o recepție, ați putea, aș dori. Difficulty: politeness through conditional.
 - **L2 Na nádraží a letišti** – *să* after *trebuie*. Words: un aeroport, un pașaport, un bagaj, o valiză, un peron, trebuie să, o întârziere. Difficulty: *trebuie să plec* (no infinitive).
-- **L3 Ztratila jsem se** – asking for help; *mi s-a pierdut*. Words: Ajutor!, M-am rătăcit., Am pierdut, un portofel, o poliție, o hartă, Mă puteți ajuta?. Difficulty: reflexive perfect.
+- **L3 Když se ztratíte** – asking for help; *mi s-a pierdut*. Words: Ajutor!, M-am rătăcit., Am pierdut, un portofel, o poliție, o hartă, Mă puteți ajuta?. Difficulty: reflexive perfect.
 
 ### Unit 17 – Vzpomínky / Pe vremuri – `unit17-amintiri.json`
-- **L1 Když jsem byla malá** – imperfect *eram, aveam*. Words: când eram mică, o copilărie, un sat, o școală, pe vremuri, de obicei, mereu. Difficulty: imperfect vs perfect compus (≈ Czech nedokonavý vs dokonavý).
+- **L1 V dětství** – imperfect *eram, aveam*. Words: când eram copil, o copilărie, un sat, o școală, pe vremuri, de obicei, mereu. Difficulty: imperfect vs perfect compus (≈ Czech nedokonavý vs dokonavý).
 - **L2 Moje babička vařila** – imperfect of regular verbs (*gătea, mergea*). Words: a crește, a se juca, a ajuta, o vacă, o curte, o fântână, un cuptor. Difficulty: choosing imperfect for habits.
 - **L3 Tehdy a dnes** – *acum… / atunci…*. Words: atunci, acum, demult, s-a schimbat, înainte, astăzi. Difficulty: *astăzi* vs *azi* (same word, formal/informal).
 
 ### Unit 18 – Lidé / Oamenii – `unit18-oameni.json`
-- **L1 Jak vypadá?** – comparison *mai… decât*, *cel mai*. Words: înalt, scund, tânăr, bătrân, un păr, slab, gras, decât. Difficulty: *cel mai* agrees (*cea mai frumoasă*).
+- **L1 Jak vypadá?** – comparison *mai… decât*, *cel mai*. Words: înalt, scund, tânăr, bătrân, păr, slab, gras, decât. Difficulty: *cel mai* agrees (*cea mai frumoasă*).
 - **L2 Jaký je?** – character adjectives; false friends. Words: vesel, trist, harnic, leneș, amabil, prost, deștept, drag. Difficulty: *prost* = hloupý (ne prostý); *drag* = milý.
 - **L3 Protože a jestli** – *că, dacă, pentru că*. Words: că, dacă, pentru că, Cred că, Nu știu dacă, de aceea. Difficulty: *dacă* = jestli / když (two Czech meanings).
 
 ### Unit 19 – Telefon a úřady / La telefon și la ghișeu – `unit19-telefon.json`
 - **L1 Haló?** – clitic doubling *îl văd pe Ion*. Words: Alo?, Cine e la telefon?, Revin., un număr de telefon, un mesaj, a trimite, Vă aud. Difficulty: double object (*îl sun pe Mihai*).
 - **L2 Na poště a v bance** – *care, pe care*. Words: un ghișeu, un formular, o semnătură, un plic, un colet, o coadă, care. Difficulty: *pe care* (koho/který ve 4. pádě).
-- **L3 Formality** – personal data; *dumneavoastră* forms. Words: numele, prenumele, o adresă, data nașterii, un buletin, a completa, a semna. Difficulty: genitive in forms (*data nașterii*).
+- **L3 Formality** – personal data; *dumneavoastră* forms. Words: numele de familie, prenumele, o adresă, data nașterii, un buletin, a completa, a semna. Difficulty: genitive in forms (*data nașterii*).
 
 ### Unit 20 – Svátky / Sărbători – `unit20-sarbatori.json`
 - **L1 Vánoce a Velikonoce** – wishes; *Crăciun, Paște* with article. Words: Crăciun fericit!, Paște fericit!, La mulți ani!, un cadou, un brad, un ou roșu, Hristos a înviat!. Difficulty: *La mulți ani* for birthdays and New Year.

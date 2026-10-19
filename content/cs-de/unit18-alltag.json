@@ -1,0 +1,145 @@
+{
+  "id": "u18",
+  "level": "A2",
+  "title": "Den doma",
+  "titleTarget": "Alltag",
+  "description": "Ráno v koupelně, pocity a domácí práce: zvratná slovesa a rozkaz pro du.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u18-l1",
+      "title": "Ráno v koupelně",
+      "titleTarget": "Im Bad",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich wasche mich = myju se",
+        "text": "Česky máme pro všechny osoby jedno „se“: myju se, myje se, myjeme se. Německy se toto slovíčko mění podle osoby: ich wasche mich, du wäschst dich, er/sie wäscht sich, wir waschen uns, Sie waschen sich. Tvar sich patří jen k er, sie, es, k sie (oni) a k Sie. Neříkejte tedy „ich wasche sich“. Zájmeno stojí hned za slovesem; předpona odlučitelného slovesa jde jako vždy na konec: Ich ziehe mich an. Také „pospíšit si“ je německy se sich: Ich beeile mich.",
+        "examples": [
+          { "target": "Ich wasche mich.", "native": "Myju se." },
+          { "target": "Wir ziehen uns an.", "native": "Oblékáme se." },
+          { "target": "Er kämmt sich vor dem Spiegel.", "native": "Češe se před zrcadlem." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l1-w1", "target": "sich waschen", "native": "mýt se", "note": "ich wasche mich, er wäscht sich", "reviewed": false },
+        { "id": "u18-l1-w2", "target": "sich duschen", "native": "sprchovat se", "note": "Čte se [DÚ-šen]: ich dusche mich", "reviewed": false },
+        { "id": "u18-l1-w3", "target": "sich anziehen", "native": "oblékat se", "note": "Předpona jde na konec: Ich ziehe mich an. Opak: sich ausziehen", "reviewed": false },
+        { "id": "u18-l1-w4", "target": "sich kämmen", "native": "česat se", "note": "ä = e: [KE-men]; ich kämme mich", "reviewed": false },
+        { "id": "u18-l1-w5", "target": "sich beeilen", "native": "pospíšit si", "note": "Čte se [be-AJ-len]. Beeilen Sie sich! = Pospěšte si!", "reviewed": false },
+        { "id": "u18-l1-w6", "target": "die Zahnbürste", "native": "zubní kartáček", "note": "Čte se [CÁN-bürs-te]; množné číslo: die Zahnbürsten", "reviewed": false },
+        { "id": "u18-l1-w7", "target": "die Seife", "native": "mýdlo", "note": "Čte se [ZAJ-fe]; množné číslo: die Seifen", "reviewed": false },
+        { "id": "u18-l1-w8", "target": "das Handtuch", "native": "ručník", "note": "Doslova „ruční šátek“; množné číslo: die Handtücher", "reviewed": false },
+        { "id": "u18-l1-w9", "target": "der Spiegel", "native": "zrcadlo", "note": "Pozor, mužský rod; čte se [ŠPÍ-gl]; množné číslo: die Spiegel", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l1-e1", "type": "choice", "question": "der Spiegel", "questionLang": "target", "options": ["zrcadlo", "ručník", "mýdlo"], "answer": "zrcadlo", "reviewed": false },
+        { "id": "u18-l1-e2", "type": "choice", "question": "zubní kartáček", "questionLang": "native", "options": ["die Zahnbürste", "die Seife", "das Handtuch"], "answer": "die Zahnbürste", "reviewed": false },
+        { "id": "u18-l1-e3", "type": "match", "pairs": [
+          { "target": "sich waschen", "native": "mýt se" },
+          { "target": "sich duschen", "native": "sprchovat se" },
+          { "target": "sich kämmen", "native": "česat se" },
+          { "target": "sich anziehen", "native": "oblékat se" },
+          { "target": "sich beeilen", "native": "pospíšit si" }
+        ], "reviewed": false },
+        { "id": "u18-l1-e4", "type": "listen", "audio": "Am Morgen dusche ich mich.", "options": ["Am Morgen dusche ich mich.", "Am Abend dusche ich mich.", "Am Morgen wasche ich mich."], "answer": "Am Morgen dusche ich mich.", "reviewed": false },
+        { "id": "u18-l1-e5", "type": "fill", "sentence": "Ich ziehe ___ schnell an.", "translation": "Rychle se obléknu.", "options": ["mich", "sich", "uns"], "answer": "mich", "explain": "K ich patří mich: ich ziehe mich an.", "reviewed": false },
+        { "id": "u18-l1-e6", "type": "fill", "sentence": "Wir müssen ___ beeilen.", "translation": "Musíme si pospíšit.", "options": ["uns", "sich", "mich"], "answer": "uns", "explain": "K wir patří uns: wir beeilen uns.", "reviewed": false },
+        { "id": "u18-l1-e7", "type": "type", "question": "mýdlo", "answer": "die Seife", "reviewed": false },
+        { "id": "u18-l1-e8", "type": "build", "question": "V sedm hodin se sprchuji.", "answer": "Um sieben Uhr dusche ich mich.", "accept": ["Ich dusche mich um sieben Uhr."], "extra": ["sich"], "reviewed": false },
+        { "id": "u18-l1-e9", "type": "listen", "audio": "Wo ist das Handtuch?", "options": ["Kde je ručník?", "Kde je mýdlo?", "Kde je zrcadlo?"], "answer": "Kde je ručník?", "reviewed": false },
+        { "id": "u18-l1-e10", "type": "build", "question": "Pospěšte si, prosím!", "answer": "Beeilen Sie sich bitte!", "accept": ["Bitte beeilen Sie sich!"], "extra": ["mich"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l2",
+      "title": "Pocity",
+      "titleTarget": "Gefühle",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich freue mich auf …",
+        "text": "Mnoho sloves o pocitech je zvratných v obou jazycích: sich freuen = těšit se, sich ärgern = zlobit se, sich fühlen = cítit se. Často za nimi stojí předložka a po ní 4. pád: sich freuen auf (těšit se na), sich interessieren für (zajímat se o), sich erinnern an (vzpomínat na), sich ärgern über (zlobit se kvůli). Předložka se často liší od češtiny, učte se ji proto spolu se slovesem. A pozor, někdy je to naopak: česky „bojím se“, německy bez sich: Ich habe Angst (mám strach).",
+        "examples": [
+          { "target": "Ich freue mich auf das Wochenende.", "native": "Těším se na víkend." },
+          { "target": "Ich interessiere mich für Musik.", "native": "Zajímám se o hudbu." },
+          { "target": "Erinnern Sie sich an den Film?", "native": "Vzpomínáte si na ten film?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l2-w1", "target": "sich freuen", "native": "těšit se; mít radost", "note": "sich freuen auf = těšit se na; čte se [FROJ-en]", "reviewed": false },
+        { "id": "u18-l2-w2", "target": "sich ärgern", "native": "zlobit se", "note": "sich ärgern über = zlobit se kvůli; ä = e: [ER-gern]", "reviewed": false },
+        { "id": "u18-l2-w3", "target": "sich interessieren", "native": "zajímat se", "note": "Pozor: für, ne „o“: sich interessieren für. Přízvuk: [in-te-re-SÍ-ren]", "reviewed": false },
+        { "id": "u18-l2-w4", "target": "sich erinnern", "native": "vzpomenout si; pamatovat si", "note": "sich erinnern an = vzpomínat na; přízvuk: [er-I-nern]", "reviewed": false },
+        { "id": "u18-l2-w5", "target": "sich ausruhen", "native": "odpočinout si", "note": "Předpona jde na konec: Ich ruhe mich aus. h se nečte: [AUS-rú-en]", "reviewed": false },
+        { "id": "u18-l2-w6", "target": "sich fühlen", "native": "cítit se", "note": "Ich fühle mich gut = cítím se dobře.", "reviewed": false },
+        { "id": "u18-l2-w7", "target": "zufrieden", "native": "spokojený", "note": "Čte se [cu-FRÍ-den].", "reviewed": false },
+        { "id": "u18-l2-w8", "target": "nervös", "native": "nervózní", "note": "v se tu čte jako české v: [ner-VÖS]", "reviewed": false },
+        { "id": "u18-l2-w9", "target": "die Angst", "native": "strach", "note": "Angst haben = bát se, bez sich. Množné číslo: die Ängste", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l2-e1", "type": "choice", "question": "zufrieden", "questionLang": "target", "options": ["spokojený", "nervózní", "smutný"], "answer": "spokojený", "reviewed": false },
+        { "id": "u18-l2-e2", "type": "choice", "question": "strach", "questionLang": "native", "options": ["die Angst", "die Liebe", "die Musik"], "answer": "die Angst", "reviewed": false },
+        { "id": "u18-l2-e3", "type": "match", "pairs": [
+          { "target": "sich freuen", "native": "těšit se" },
+          { "target": "sich ärgern", "native": "zlobit se" },
+          { "target": "sich fühlen", "native": "cítit se" },
+          { "target": "sich ausruhen", "native": "odpočinout si" },
+          { "target": "sich erinnern", "native": "vzpomenout si" }
+        ], "reviewed": false },
+        { "id": "u18-l2-e4", "type": "listen", "audio": "Ich freue mich auf das Wochenende.", "options": ["Ich freue mich auf das Wochenende.", "Ich freue mich auf den Sommer.", "Ich ärgere mich über das Wochenende."], "answer": "Ich freue mich auf das Wochenende.", "reviewed": false },
+        { "id": "u18-l2-e5", "type": "fill", "sentence": "Ich interessiere mich ___ Musik.", "translation": "Zajímám se o hudbu.", "options": ["für", "an", "auf"], "answer": "für", "explain": "Česky „zajímat se o“, německy vždy sich interessieren für.", "reviewed": false },
+        { "id": "u18-l2-e6", "type": "fill", "sentence": "Ich fühle ___ heute gut.", "translation": "Dnes se cítím dobře.", "options": ["mich", "sich", "mir"], "answer": "mich", "explain": "K ich patří mich: ich fühle mich.", "reviewed": false },
+        { "id": "u18-l2-e7", "type": "type", "question": "spokojený", "answer": "zufrieden", "reviewed": false },
+        { "id": "u18-l2-e8", "type": "build", "question": "Těšíme se na Vánoce.", "answer": "Wir freuen uns auf Weihnachten.", "accept": ["Auf Weihnachten freuen wir uns."], "extra": ["für"], "reviewed": false },
+        { "id": "u18-l2-e9", "type": "listen", "audio": "Mein Mann ärgert sich über das Wetter.", "options": ["Manžel se zlobí kvůli počasí.", "Manžel se těší na hezké počasí.", "Manžel se zajímá o počasí."], "answer": "Manžel se zlobí kvůli počasí.", "reviewed": false },
+        { "id": "u18-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Bojím se.", "questionLang": "native", "options": ["Ich habe Angst.", "Ich habe mich Angst.", "Ich bin Angst."], "answer": "Ich habe Angst.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l3",
+      "title": "Domácí práce",
+      "titleTarget": "Hausarbeit",
+      "reviewed": false,
+      "tip": {
+        "title": "Räum auf! = Ukliď!",
+        "text": "Když dáváte pokyn někomu, komu tykáte, vezměte tvar pro du a odstraňte du i koncovku -st: du räumst auf → Räum auf! (Ukliď!), du kochst → Koch! Předpona jde i tady na konec. Slovesa, která mění e na i nebo ie, to dělají i v rozkazu: du nimmst → Nimm!, du liest → Lies! Přehláska z a na ä ale zmizí: du wäschst ab → Wasch ab!, du fährst → Fahr! Aby pokyn nezněl příkře, přidejte bitte: Räum bitte auf! Občas uslyšíte i tvar s -e: Räume auf!",
+        "examples": [
+          { "target": "Räum bitte das Zimmer auf!", "native": "Ukliď si prosím pokoj!" },
+          { "target": "Wasch bitte ab!", "native": "Umyj prosím nádobí!" },
+          { "target": "Bring bitte den Müll raus!", "native": "Vynes prosím odpadky!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l3-w1", "target": "aufräumen", "native": "uklidit; dát do pořádku", "note": "Dát věci na místo; putzen = čistit, mýt. Ich räume auf.", "reviewed": false },
+        { "id": "u18-l3-w2", "target": "abwaschen", "native": "mýt nádobí", "note": "du wäschst ab, er wäscht ab; rozkaz: Wasch ab!", "reviewed": false },
+        { "id": "u18-l3-w3", "target": "staubsaugen", "native": "vysávat", "note": "Doslova „prach sát“. Ich sauge Staub i ich staubsauge; čte se [ŠTAUP-zau-gen]", "reviewed": false },
+        { "id": "u18-l3-w4", "target": "bügeln", "native": "žehlit", "note": "ü jako i se zaokrouhlenými rty: [BÜ-geln]", "reviewed": false },
+        { "id": "u18-l3-w5", "target": "die Wäsche", "native": "prádlo", "note": "Wäsche waschen = prát prádlo; obvykle jen jednotné číslo", "reviewed": false },
+        { "id": "u18-l3-w6", "target": "das Geschirr", "native": "nádobí", "note": "Jen jednotné číslo, stejně jako české nádobí.", "reviewed": false },
+        { "id": "u18-l3-w7", "target": "der Müll", "native": "odpadky; smetí", "note": "Jen jednotné číslo. Den Müll rausbringen = vynést odpadky", "reviewed": false },
+        { "id": "u18-l3-w8", "target": "sauber", "native": "čistý", "note": "Čte se [ZAU-ba].", "reviewed": false },
+        { "id": "u18-l3-w9", "target": "schmutzig", "native": "špinavý", "note": "Čte se [ŠMU-cich].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l3-e1", "type": "choice", "question": "schmutzig", "questionLang": "target", "options": ["špinavý", "čistý", "nový"], "answer": "špinavý", "reviewed": false },
+        { "id": "u18-l3-e2", "type": "choice", "question": "nádobí", "questionLang": "native", "options": ["das Geschirr", "die Wäsche", "der Müll"], "answer": "das Geschirr", "reviewed": false },
+        { "id": "u18-l3-e3", "type": "match", "pairs": [
+          { "target": "aufräumen", "native": "uklidit" },
+          { "target": "abwaschen", "native": "mýt nádobí" },
+          { "target": "staubsaugen", "native": "vysávat" },
+          { "target": "bügeln", "native": "žehlit" },
+          { "target": "die Wäsche", "native": "prádlo" }
+        ], "reviewed": false },
+        { "id": "u18-l3-e4", "type": "listen", "audio": "Räum bitte die Küche auf!", "options": ["Räum bitte die Küche auf!", "Räum bitte das Zimmer auf!", "Putz bitte die Küche!"], "answer": "Räum bitte die Küche auf!", "reviewed": false },
+        { "id": "u18-l3-e5", "type": "fill", "sentence": "Peter, ___ bitte ab!", "translation": "Petře, umyj prosím nádobí!", "options": ["wasch", "wäsch", "waschst"], "answer": "wasch", "explain": "Rozkaz pro du je bez -st a bez přehlásky: du wäschst ab → Wasch ab!", "reviewed": false },
+        { "id": "u18-l3-e6", "type": "fill", "sentence": "Anna, ___ bitte dein Zimmer auf!", "translation": "Anno, ukliď si prosím pokoj!", "options": ["räum", "räumst", "räumen"], "answer": "räum", "explain": "Rozkaz pro du: du räumst auf bez du a bez -st → Räum auf!", "reviewed": false },
+        { "id": "u18-l3-e7", "type": "type", "question": "žehlit", "answer": "bügeln", "reviewed": false },
+        { "id": "u18-l3-e8", "type": "build", "question": "Dnes peru prádlo.", "answer": "Heute wasche ich die Wäsche.", "accept": ["Ich wasche heute die Wäsche."], "extra": ["wascht"], "reviewed": false },
+        { "id": "u18-l3-e9", "type": "listen", "audio": "Das Geschirr ist schmutzig.", "options": ["Nádobí je špinavé.", "Nádobí je čisté.", "Prádlo je špinavé."], "answer": "Nádobí je špinavé.", "reviewed": false },
+        { "id": "u18-l3-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Ukliď!", "questionLang": "native", "options": ["Räum auf!", "Räumst auf!", "Aufräum!"], "answer": "Räum auf!", "reviewed": false }
+      ]
+    }
+  ]
+}

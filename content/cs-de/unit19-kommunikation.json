@@ -1,0 +1,144 @@
+{
+  "id": "u19",
+  "level": "A2",
+  "title": "Telefon a dopisy",
+  "titleTarget": "Kommunikation",
+  "description": "Telefonování, dopisy a pošta, počítač a zdvořilá přání: könnten, hätte gern, würde gern.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u19-l1",
+      "title": "Na telefonu",
+      "titleTarget": "Am Telefon",
+      "reviewed": false,
+      "tip": {
+        "title": "Könnten Sie bitte …?",
+        "text": "O něco zdvořile poprosit můžete pomocí Könnten Sie bitte …? Je to zdvořilejší než Können Sie …? a odpovídá českému „Mohl byste …? / Mohla byste …?“. Německý tvar se ale podle rodu nemění. Druhé sloveso jde na konec věty a odlučitelné sloveso tam zůstane celé: Könnten Sie mich bitte zurückrufen? Do telefonu se Němci obvykle ohlásí příjmením a na konci řeknou Auf Wiederhören (na slyšenou). Telefonní čísla se diktují po číslicích a místo zwei se často říká zwo, aby se nepletlo s drei.",
+        "examples": [
+          { "target": "Könnten Sie bitte langsam sprechen?", "native": "Mohl byste prosím mluvit pomalu?" },
+          { "target": "Könnten Sie mich morgen zurückrufen?", "native": "Mohla byste mi zítra zavolat zpátky?" },
+          { "target": "Einen Moment bitte, es ist besetzt.", "native": "Moment, prosím, je obsazeno." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l1-w1", "target": "das Handy", "native": "mobil", "note": "Čte se [HEN-di]; množné číslo: die Handys", "reviewed": false },
+        { "id": "u19-l1-w2", "target": "die Telefonnummer", "native": "telefonní číslo", "note": "Přízvuk: [te-le-FÓN-nu-ma]; množné číslo: die Telefonnummern", "reviewed": false },
+        { "id": "u19-l1-w3", "target": "null", "native": "nula", "note": "Čte se [nul].", "reviewed": false },
+        { "id": "u19-l1-w4", "target": "zurückrufen", "native": "zavolat zpátky", "note": "Ich rufe Sie zurück = zavolám Vám zpátky.", "reviewed": false },
+        { "id": "u19-l1-w5", "target": "erreichen", "native": "zastihnout; dovolat se", "note": "Ich kann ihn nicht erreichen = nemůžu se mu dovolat.", "reviewed": false },
+        { "id": "u19-l1-w6", "target": "die Nachricht", "native": "zpráva", "note": "die Nachrichten = také zprávy v televizi; množné číslo: die Nachrichten", "reviewed": false },
+        { "id": "u19-l1-w7", "target": "besetzt", "native": "obsazeno", "note": "Es ist besetzt. Platí i pro telefon, místo nebo toaletu.", "reviewed": false },
+        { "id": "u19-l1-w8", "target": "Einen Moment bitte", "native": "moment, prosím", "note": "Píše se i s čárkou: Einen Moment, bitte.", "reviewed": false },
+        { "id": "u19-l1-w9", "target": "Auf Wiederhören", "native": "na slyšenou", "note": "Jen do telefonu. Čte se [auf VÍ-da-hö-ren].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l1-e1", "type": "choice", "question": "besetzt", "questionLang": "target", "options": ["obsazeno", "zavřeno", "volno"], "answer": "obsazeno", "reviewed": false },
+        { "id": "u19-l1-e2", "type": "choice", "question": "mobil", "questionLang": "native", "options": ["das Handy", "die Nachricht", "die Telefonnummer"], "answer": "das Handy", "reviewed": false },
+        { "id": "u19-l1-e3", "type": "match", "pairs": [
+          { "target": "null", "native": "nula" },
+          { "target": "zurückrufen", "native": "zavolat zpátky" },
+          { "target": "erreichen", "native": "zastihnout" },
+          { "target": "die Nachricht", "native": "zpráva" },
+          { "target": "Auf Wiederhören", "native": "na slyšenou" }
+        ], "reviewed": false },
+        { "id": "u19-l1-e4", "type": "listen", "audio": "Könnten Sie mich bitte zurückrufen?", "options": ["Könnten Sie mich bitte zurückrufen?", "Können Sie mich morgen anrufen?", "Könnten Sie bitte langsam sprechen?"], "answer": "Könnten Sie mich bitte zurückrufen?", "reviewed": false },
+        { "id": "u19-l1-e5", "type": "fill", "sentence": "Könnten Sie mich morgen ___?", "translation": "Mohli byste mi zítra zavolat zpátky?", "options": ["zurückrufen", "zurückrufe", "rufen zurück"], "answer": "zurückrufen", "explain": "Po könnten jde druhé sloveso celé na konec: zurückrufen.", "reviewed": false },
+        { "id": "u19-l1-e6", "type": "fill", "sentence": "___ Sie bitte morgen anrufen?", "translation": "Mohli byste prosím zítra zavolat?", "options": ["Könnten", "Könnte", "Kann"], "answer": "Könnten", "explain": "K Sie patří tvar s -en: Sie könnten, stejně jako Sie können.", "reviewed": false },
+        { "id": "u19-l1-e7", "type": "type", "question": "telefonní číslo", "answer": "die Telefonnummer", "reviewed": false },
+        { "id": "u19-l1-e8", "type": "build", "question": "Nemůžu se Petrovi dovolat.", "answer": "Ich kann Peter nicht erreichen.", "accept": ["Peter kann ich nicht erreichen."], "extra": ["erreiche"], "reviewed": false },
+        { "id": "u19-l1-e9", "type": "listen", "prompt": "Poslechněte si a vyberte číslo", "audio": "null sechs vier acht", "options": ["0648", "0684", "0548"], "answer": "0648", "reviewed": false },
+        { "id": "u19-l1-e10", "type": "speak", "text": "Einen Moment bitte!", "native": "Moment, prosím!", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l2",
+      "title": "Dopisy a pošta",
+      "titleTarget": "Briefe und Post",
+      "reviewed": false,
+      "tip": {
+        "title": "Liebe Anna, … Mit freundlichen Grüßen",
+        "text": "Dopis nebo e-mail začíná oslovením. Známé ženě napíšete Liebe Anna, známému muži Lieber Peter, jako české Milá a Milý. Úředně: Sehr geehrte Frau Berger, (Vážená paní Bergerová) a Sehr geehrter Herr Berger, (Vážený pane Bergere). Jméno zůstává beze změny, 5. pád němčina nemá: Peter, ne „Petře“. Po čárce začne další řádek malým písmenem, ne velkým jako česky. Na konci napíšete přátelům Liebe Grüße, úředně Mit freundlichen Grüßen. A pozor: der Brief je vždy dopis.",
+        "examples": [
+          { "target": "Lieber Peter, vielen Dank für deinen Brief.", "native": "Milý Petře, moc děkuji za tvůj dopis." },
+          { "target": "Sehr geehrte Frau Berger,", "native": "Vážená paní Bergerová," },
+          { "target": "Ich schicke ein Paket nach Prag.", "native": "Posílám balík do Prahy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l2-w1", "target": "der Brief", "native": "dopis", "note": "Pozor: znamená dopis. Množné číslo: die Briefe", "reviewed": false },
+        { "id": "u19-l2-w2", "target": "die Briefmarke", "native": "poštovní známka", "note": "Doslova „dopisní známka“; množné číslo: die Briefmarken", "reviewed": false },
+        { "id": "u19-l2-w3", "target": "das Paket", "native": "balík", "note": "Přízvuk na konci: [pa-KÉT]; množné číslo: die Pakete", "reviewed": false },
+        { "id": "u19-l2-w4", "target": "der Umschlag", "native": "obálka", "note": "Pozor, mužský rod; množné číslo: die Umschläge", "reviewed": false },
+        { "id": "u19-l2-w5", "target": "schicken", "native": "poslat; posílat", "note": "Příčestí: geschickt. Ich schicke Ihnen eine E-Mail.", "reviewed": false },
+        { "id": "u19-l2-w6", "target": "die E-Mail", "native": "e-mail", "note": "V Německu ženský rod. Čte se [Í-mejl]; množné číslo: die E-Mails", "reviewed": false },
+        { "id": "u19-l2-w7", "target": "Liebe Grüße", "native": "srdečné pozdravy", "note": "Na konec dopisu přátelům a rodině.", "reviewed": false },
+        { "id": "u19-l2-w8", "target": "Mit freundlichen Grüßen", "native": "s pozdravem", "note": "Úřední závěr dopisu. Čte se [mit FROJNT-li-chen GRÜ-sen].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l2-e1", "type": "choice", "question": "der Umschlag", "questionLang": "target", "options": ["obálka", "poštovní známka", "balík"], "answer": "obálka", "reviewed": false },
+        { "id": "u19-l2-e2", "type": "choice", "question": "dopis", "questionLang": "native", "options": ["der Brief", "das Paket", "die Briefmarke"], "answer": "der Brief", "reviewed": false },
+        { "id": "u19-l2-e3", "type": "match", "pairs": [
+          { "target": "der Brief", "native": "dopis" },
+          { "target": "die Briefmarke", "native": "známka" },
+          { "target": "das Paket", "native": "balík" },
+          { "target": "schicken", "native": "poslat" },
+          { "target": "die E-Mail", "native": "e-mail" }
+        ], "reviewed": false },
+        { "id": "u19-l2-e4", "type": "listen", "audio": "Ich schicke Ihnen eine E-Mail.", "options": ["Ich schicke Ihnen eine E-Mail.", "Ich schicke Ihnen einen Brief.", "Ich schicke Ihnen ein Paket."], "answer": "Ich schicke Ihnen eine E-Mail.", "reviewed": false },
+        { "id": "u19-l2-e5", "type": "fill", "sentence": "Sehr ___ Frau Berger,", "translation": "Vážená paní Bergerová,", "options": ["geehrte", "geehrter", "geehrten"], "answer": "geehrte", "explain": "Ženě se píše Sehr geehrte, muži Sehr geehrter.", "reviewed": false },
+        { "id": "u19-l2-e6", "type": "fill", "sentence": "___ Peter, wie geht es dir?", "translation": "Milý Petře, jak se máš?", "options": ["Lieber", "Liebe", "Lieben"], "answer": "Lieber", "explain": "Muži se píše Lieber, ženě Liebe.", "reviewed": false },
+        { "id": "u19-l2-e7", "type": "type", "question": "obálka", "answer": "der Umschlag", "reviewed": false },
+        { "id": "u19-l2-e8", "type": "build", "question": "Tři známky, prosím.", "answer": "Drei Briefmarken, bitte.", "extra": ["Briefmarke"], "reviewed": false },
+        { "id": "u19-l2-e9", "type": "listen", "audio": "Das Paket ist heute angekommen.", "options": ["Balík dnes přišel.", "Dopis dnes přišel.", "Balík přijde zítra."], "answer": "Balík dnes přišel.", "reviewed": false },
+        { "id": "u19-l2-e10", "type": "choice", "question": "s pozdravem", "questionLang": "native", "options": ["Mit freundlichen Grüßen", "Gute Besserung", "Herzlichen Glückwunsch"], "answer": "Mit freundlichen Grüßen", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l3",
+      "title": "Počítač a přání",
+      "titleTarget": "Computer und Wünsche",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich hätte gern, ich würde gern",
+        "text": "Zdvořilé přání má dva užitečné tvary. Když chcete nějakou věc, řekněte Ich hätte gern …: Ich hätte gern ein Kilo Äpfel. V obchodě to zní stejně mile jako ich möchte. Když chcete něco dělat, řekněte Ich würde gern … a sloveso dejte na konec věty, jako po können: Ich würde gern nach Wien fahren. Česky „rád bych jel“, ale německý tvar se nemění podle rodu: ich würde gern platí pro muže i ženu. Pozor na dvě podobná slova: das Tablet je tablet, das Tablett (se dvěma t) je podnos.",
+        "examples": [
+          { "target": "Ich hätte gern ein Kilo Äpfel.", "native": "Prosím si kilo jablek." },
+          { "target": "Ich würde gern nach Wien fahren.", "native": "Rád bych jel do Vídně. Ráda bych jela do Vídně." },
+          { "target": "Wir würden gern ins Kino gehen.", "native": "Rádi bychom šli do kina." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l3-w1", "target": "ich hätte gern", "native": "prosil bych; prosila bych", "note": "Zdvořile o věc: Ich hätte gern einen Kaffee.", "reviewed": false },
+        { "id": "u19-l3-w2", "target": "ich würde gern", "native": "rád bych; ráda bych", "note": "Druhé sloveso na konec: Ich würde gern schwimmen.", "reviewed": false },
+        { "id": "u19-l3-w3", "target": "der Computer", "native": "počítač", "note": "Čte se [kom-PJÚ-ta]; množné číslo: die Computer", "reviewed": false },
+        { "id": "u19-l3-w4", "target": "das Internet", "native": "internet", "note": "im Internet = na internetu", "reviewed": false },
+        { "id": "u19-l3-w5", "target": "das Tablet", "native": "tablet", "note": "Čte se [TEB-let]; množné číslo: die Tablets", "reviewed": false },
+        { "id": "u19-l3-w6", "target": "das Tablett", "native": "podnos", "note": "Pozor: dvě t, přízvuk na konci [ta-BLET]. Množné číslo: die Tabletts", "reviewed": false },
+        { "id": "u19-l3-w7", "target": "das Passwort", "native": "heslo", "note": "Čte se [PAS-vort]; množné číslo: die Passwörter", "reviewed": false },
+        { "id": "u19-l3-w8", "target": "das Video", "native": "video", "note": "Čte se [VÍ-de-o]; množné číslo: die Videos", "reviewed": false },
+        { "id": "u19-l3-w9", "target": "die Webseite", "native": "webová stránka", "note": "Čte se [VEP-zaj-te]; množné číslo: die Webseiten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l3-e1", "type": "choice", "question": "das Tablett", "questionLang": "target", "options": ["podnos", "tablet", "počítač"], "answer": "podnos", "reviewed": false },
+        { "id": "u19-l3-e2", "type": "choice", "question": "heslo", "questionLang": "native", "options": ["das Passwort", "das Video", "die Webseite"], "answer": "das Passwort", "reviewed": false },
+        { "id": "u19-l3-e3", "type": "match", "pairs": [
+          { "target": "der Computer", "native": "počítač" },
+          { "target": "das Passwort", "native": "heslo" },
+          { "target": "das Tablett", "native": "podnos" },
+          { "target": "die Webseite", "native": "webová stránka" },
+          { "target": "ich würde gern", "native": "rád bych" }
+        ], "reviewed": false },
+        { "id": "u19-l3-e4", "type": "listen", "audio": "Ich hätte gern ein Tablet.", "options": ["Ich hätte gern ein Tablet.", "Ich hatte ein Tablet.", "Ich habe ein Tablet."], "answer": "Ich hätte gern ein Tablet.", "reviewed": false },
+        { "id": "u19-l3-e5", "type": "fill", "sentence": "Meine Frau würde gern nach Wien ___.", "translation": "Manželka by ráda jela do Vídně.", "options": ["fahren", "fährt", "fahre"], "answer": "fahren", "explain": "Po würde jde sloveso v základním tvaru na konec: würde … fahren.", "reviewed": false },
+        { "id": "u19-l3-e6", "type": "fill", "sentence": "Wir ___ gern zwei Kaffee.", "translation": "Prosili bychom dvě kávy.", "options": ["hätten", "würden", "hätte"], "answer": "hätten", "explain": "Hätten gern + věc; würden potřebuje ještě sloveso na konci.", "reviewed": false },
+        { "id": "u19-l3-e7", "type": "type", "question": "počítač", "answer": "der Computer", "reviewed": false },
+        { "id": "u19-l3-e8", "type": "build", "question": "Maminka by ráda měla tablet.", "answer": "Meine Mutter hätte gern ein Tablet.", "extra": ["Tablett"], "reviewed": false },
+        { "id": "u19-l3-e9", "type": "listen", "audio": "Wie ist das Passwort?", "options": ["Jaké je heslo?", "Jaká je webová stránka?", "Kde je počítač?"], "answer": "Jaké je heslo?", "reviewed": false },
+        { "id": "u19-l3-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Rádi bychom jeli do Německa.", "questionLang": "native", "options": ["Wir würden gern nach Deutschland fahren.", "Wir würden gern nach Deutschland fahrt.", "Wir hätten gern nach Deutschland fahren."], "answer": "Wir würden gern nach Deutschland fahren.", "reviewed": false }
+      ]
+    }
+  ]
+}

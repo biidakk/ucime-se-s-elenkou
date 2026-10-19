@@ -95,7 +95,7 @@ perfect (*I was never in London*) · **DUR** přítomný čas pro trvání (*I a
 ### Unit 11 – Minulý víkend / Last weekend — `unit11-last-weekend.json`
 | # | Téma | Gramatika | Slovíčka | Chyba |
 |---|---|---|---|---|
-| 1 | Co jsem dělala | minulý čas pravidelný -ed (výslovnost /t/ /d/ /ɪd/) | visit, stay, clean, call, wait, want, need, open, close | PRON |
+| 1 | Co jsme dělali | minulý čas pravidelný -ed (výslovnost /t/ /d/ /ɪd/) | visit, stay, clean, call, wait, want, need, open, close | PRON |
 | 2 | Kam jsme jeli | nepravidelná slovesa | went, had, saw, came, bought, made, took, ate, drank | – |
 | 3 | Co jste dělali? | did / didn't; otázková slova | did, didn't, what, who, when, why, how, which | DO (*Where you went?*) |
 

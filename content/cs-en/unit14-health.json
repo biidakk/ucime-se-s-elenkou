@@ -1,0 +1,147 @@
+{
+  "id": "u14",
+  "level": "A2",
+  "title": "Zdraví",
+  "titleTarget": "Health",
+  "description": "Co vás bolí, co vám poradí lékař a co musíte a nesmíte: should, must a have to.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u14-l1",
+      "title": "Co vás bolí?",
+      "titleTarget": "Where does it hurt?",
+      "reviewed": false,
+      "tip": {
+        "title": "Bolí mě záda = My back hurts.",
+        "text": "Česky řeknete „Bolí mě záda“. Anglicky je pořadí jiné: nejdřív část těla s my, pak sloveso hurt. My back hurts. Neříkejte Hurts me back. U jedné věci je na konci -s (my head hurts), u více věcí ne (my eyes hurt). Pozor: záda jsou česky v množném čísle, anglicky back v jednotném. Lékař se zeptá: Where does it hurt? (Kde vás to bolí?)",
+        "examples": [
+          { "target": "My back hurts.", "native": "Bolí mě záda." },
+          { "target": "My eyes hurt.", "native": "Bolí mě oči." },
+          { "target": "Does your leg hurt?", "native": "Bolí vás noha?" },
+          { "target": "Where does it hurt?", "native": "Kde vás to bolí?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l1-w1", "target": "head", "native": "hlava", "note": "Čte se „hed“.", "reviewed": false },
+        { "id": "u14-l1-w2", "target": "back", "native": "záda", "note": "Jednotné číslo: My back hurts. Čte se s krátkým otevřeným e, „bek“.", "reviewed": false },
+        { "id": "u14-l1-w3", "target": "stomach", "native": "břicho; žaludek", "note": "Čte se „stamek“.", "reviewed": false },
+        { "id": "u14-l1-w4", "target": "tooth", "native": "zub", "note": "Množné číslo: teeth. Th jako ve slově three.", "reviewed": false },
+        { "id": "u14-l1-w5", "target": "arm", "native": "paže", "note": "Celá ruka od ramene. Čte se „ám“.", "reviewed": false },
+        { "id": "u14-l1-w6", "target": "leg", "native": "noha", "reviewed": false },
+        { "id": "u14-l1-w7", "target": "hand", "native": "ruka; dlaň", "note": "Ruka od zápěstí dolů, s prsty.", "reviewed": false },
+        { "id": "u14-l1-w8", "target": "eye", "native": "oko", "note": "Čte se „aj“. Množné číslo: eyes.", "reviewed": false },
+        { "id": "u14-l1-w9", "target": "hurt", "native": "bolet", "note": "My head hurts. = Bolí mě hlava. Minulý čas je stejný: hurt.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l1-e1", "type": "choice", "question": "stomach", "questionLang": "target", "options": ["břicho; žaludek", "záda", "hlava"], "answer": "břicho; žaludek", "reviewed": false },
+        { "id": "u14-l1-e2", "type": "choice", "question": "zub", "questionLang": "native", "options": ["tooth", "eye", "hand"], "answer": "tooth", "reviewed": false },
+        { "id": "u14-l1-e3", "type": "match", "pairs": [
+          { "target": "head", "native": "hlava" },
+          { "target": "back", "native": "záda" },
+          { "target": "leg", "native": "noha" },
+          { "target": "eye", "native": "oko" },
+          { "target": "arm", "native": "paže" }
+        ], "reviewed": false },
+        { "id": "u14-l1-e4", "type": "listen", "audio": "My back hurts.", "options": ["My back hurts.", "My head hurts.", "My hand hurts."], "answer": "My back hurts.", "reviewed": false },
+        { "id": "u14-l1-e5", "type": "listen", "audio": "My eyes hurt.", "options": ["Bolí mě oči.", "Bolí mě zuby.", "Bolí mě nohy."], "answer": "Bolí mě oči.", "reviewed": false },
+        { "id": "u14-l1-e6", "type": "fill", "sentence": "___ back hurts.", "translation": "Bolí mě záda.", "options": ["My", "Me", "I"], "answer": "My", "explain": "Anglicky říkáte „moje záda bolí“: my back hurts.", "reviewed": false },
+        { "id": "u14-l1-e7", "type": "fill", "sentence": "My eyes ___.", "translation": "Bolí mě oči.", "options": ["hurt", "hurts", "is hurt"], "answer": "hurt", "explain": "Eyes je množné číslo (they), proto bez -s.", "reviewed": false },
+        { "id": "u14-l1-e8", "type": "type", "question": "Bolí mě hlava.", "answer": "My head hurts.", "accept": ["My head is hurting.", "I've got a headache.", "I have a headache."], "reviewed": false },
+        { "id": "u14-l1-e9", "type": "build", "question": "Bolí vás noha?", "answer": "Does your leg hurt?", "extra": ["hurts"], "reviewed": false },
+        { "id": "u14-l1-e10", "type": "speak", "text": "My arm hurts.", "native": "Bolí mě ruka.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l2",
+      "title": "U lékaře",
+      "titleTarget": "At the doctor's",
+      "reviewed": false,
+      "tip": {
+        "title": "Rada: You should rest.",
+        "text": "Radu dáte slovem should (česky „měl by“, „měli byste“). Má stejný tvar pro všechny osoby, bez -s, a sloveso za ním je bez to: She should rest. Zápor je shouldn't, v otázce jde should na začátek: Should I…? A pozor u nemocí: anglicky se říká I've got a cold, I've got a headache, vždy se členem a, i když česky „Mám rýmu“ nic takového nemá.",
+        "examples": [
+          { "target": "You should rest.", "native": "Měli byste odpočívat." },
+          { "target": "You shouldn't go to work.", "native": "Neměli byste chodit do práce." },
+          { "target": "Should I go to the doctor's?", "native": "Mám jít k lékaři?" },
+          { "target": "I've got a cold.", "native": "Mám rýmu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l2-w1", "target": "doctor", "native": "lékař; lékařka", "note": "At the doctor's = u lékaře. Čte se „dok-ta“.", "reviewed": false },
+        { "id": "u14-l2-w2", "target": "appointment", "native": "termín; objednání", "note": "I've got an appointment. = Mám termín u lékaře. Čte se „e-POJNT-ment“.", "reviewed": false },
+        { "id": "u14-l2-w3", "target": "headache", "native": "bolest hlavy", "note": "Se členem: I've got a headache. Čte se „hedejk“.", "reviewed": false },
+        { "id": "u14-l2-w4", "target": "a cold", "native": "rýma; nachlazení", "note": "I've got a cold. = Mám rýmu. Bez a by cold znamenalo „studený“.", "reviewed": false },
+        { "id": "u14-l2-w5", "target": "temperature", "native": "horečka; teplota", "note": "I've got a temperature. = Mám horečku. Čte se „tem-pri-ča“.", "reviewed": false },
+        { "id": "u14-l2-w6", "target": "cough", "native": "kašel; kašlat", "note": "Čte se „kof“. I've got a cough. = Mám kašel.", "reviewed": false },
+        { "id": "u14-l2-w7", "target": "medicine", "native": "lék; léky", "note": "Čte se „med-sn“. Obvykle bez a: some medicine.", "reviewed": false },
+        { "id": "u14-l2-w8", "target": "rest", "native": "odpočívat; odpočinek", "reviewed": false },
+        { "id": "u14-l2-w9", "target": "should", "native": "měl by; měla by", "note": "Pro všechny stejné: I should, she should. Zápor: shouldn't. Čte se „šud“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l2-e1", "type": "choice", "question": "headache", "questionLang": "target", "options": ["bolest hlavy", "kašel; kašlat", "horečka; teplota"], "answer": "bolest hlavy", "reviewed": false },
+        { "id": "u14-l2-e2", "type": "choice", "question": "rýma; nachlazení", "questionLang": "native", "options": ["a cold", "a cough", "a headache"], "answer": "a cold", "reviewed": false },
+        { "id": "u14-l2-e3", "type": "match", "pairs": [
+          { "target": "doctor", "native": "lékař" },
+          { "target": "medicine", "native": "lék" },
+          { "target": "rest", "native": "odpočívat" },
+          { "target": "cough", "native": "kašel" },
+          { "target": "temperature", "native": "horečka" }
+        ], "reviewed": false },
+        { "id": "u14-l2-e4", "type": "listen", "audio": "I've got a temperature.", "options": ["I've got a temperature.", "I've got a headache.", "I've got a cough."], "answer": "I've got a temperature.", "reviewed": false },
+        { "id": "u14-l2-e5", "type": "listen", "audio": "You should rest.", "options": ["Měli byste odpočívat.", "Neměli byste odpočívat.", "Musíte pracovat."], "answer": "Měli byste odpočívat.", "reviewed": false },
+        { "id": "u14-l2-e6", "type": "fill", "sentence": "I've got ___ cold.", "translation": "Mám rýmu.", "options": ["a", "an", "any"], "answer": "a", "explain": "U nemocí se říká I've got a cold, se členem a.", "reviewed": false },
+        { "id": "u14-l2-e7", "type": "fill", "sentence": "You ___ go to work today.", "translation": "Dnes byste neměli chodit do práce.", "options": ["shouldn't", "don't should", "shouldn't to"], "answer": "shouldn't", "explain": "Zápor je shouldn't, bez do a bez to.", "reviewed": false },
+        { "id": "u14-l2-e8", "type": "type", "question": "Mám kašel.", "answer": "I've got a cough.", "accept": ["I have a cough."], "reviewed": false },
+        { "id": "u14-l2-e9", "type": "build", "question": "Měli byste odpočívat doma.", "answer": "You should rest at home.", "extra": ["to"], "reviewed": false },
+        { "id": "u14-l2-e10", "type": "build", "question": "Mám termín u lékaře.", "answer": "I've got an appointment with the doctor.", "extra": ["a"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l3",
+      "title": "V lékárně",
+      "titleTarget": "At the chemist's",
+      "reviewed": false,
+      "tip": {
+        "title": "Mustn't = nesmět, don't have to = nemuset",
+        "text": "Must i have to se česky řeknou „muset“. Must je spíš to, co sami považujete za nutné, have to je povinnost nebo pravidlo. Velký rozdíl je v záporu: mustn't znamená „nesmět“, ale don't have to znamená „nemuset“. U he a she je has to a doesn't have to. Za must nikdy nedávejte to. Lék „berete“ slovem take: Take one tablet twice a day. A pozor: recept od lékaře je prescription.",
+        "examples": [
+          { "target": "I have to go to the chemist's.", "native": "Musím jít do lékárny." },
+          { "target": "You mustn't drive today.", "native": "Dnes nesmíte řídit." },
+          { "target": "You don't have to get up.", "native": "Nemusíte vstávat." },
+          { "target": "Take one tablet twice a day.", "native": "Berte jednu tabletu dvakrát denně." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l3-w1", "target": "must", "native": "muset", "note": "Bez to: I must go. Pro všechny stejné: she must.", "reviewed": false },
+        { "id": "u14-l3-w2", "target": "mustn't", "native": "nesmět", "note": "Čte se „masnt“, první t se nevyslovuje.", "reviewed": false },
+        { "id": "u14-l3-w3", "target": "have to", "native": "mít povinnost", "note": "Česky obvykle „musím“. U he a she: has to. Čte se „hef tu“.", "reviewed": false },
+        { "id": "u14-l3-w4", "target": "don't have to", "native": "nemuset", "note": "Pozor, neznamená „nesmět“. U he a she: doesn't have to.", "reviewed": false },
+        { "id": "u14-l3-w5", "target": "prescription", "native": "lékařský předpis; recept", "note": "Pozor: recept na jídlo je recipe, účtenka je receipt. Čte se „pri-SKRIP-šn“.", "reviewed": false },
+        { "id": "u14-l3-w6", "target": "tablet", "native": "tableta; prášek", "note": "Take a tablet. = Vezměte si prášek.", "reviewed": false },
+        { "id": "u14-l3-w7", "target": "once", "native": "jednou", "note": "Čte se „wans“. Once a day = jednou denně.", "reviewed": false },
+        { "id": "u14-l3-w8", "target": "twice", "native": "dvakrát", "note": "Čte se „twajs“. Třikrát = three times.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l3-e1", "type": "choice", "question": "mustn't", "questionLang": "target", "options": ["nesmět", "nemuset", "muset"], "answer": "nesmět", "reviewed": false },
+        { "id": "u14-l3-e2", "type": "choice", "question": "dvakrát", "questionLang": "native", "options": ["twice", "once", "two"], "answer": "twice", "reviewed": false },
+        { "id": "u14-l3-e3", "type": "match", "pairs": [
+          { "target": "mustn't", "native": "nesmět" },
+          { "target": "don't have to", "native": "nemuset" },
+          { "target": "prescription", "native": "recept" },
+          { "target": "tablet", "native": "tableta" },
+          { "target": "once", "native": "jednou" }
+        ], "reviewed": false },
+        { "id": "u14-l3-e4", "type": "listen", "audio": "Take one tablet twice a day.", "options": ["Take one tablet twice a day.", "Take one tablet once a day.", "Take two tablets once a day."], "answer": "Take one tablet twice a day.", "reviewed": false },
+        { "id": "u14-l3-e5", "type": "listen", "audio": "You don't have to get up.", "options": ["Nemusíte vstávat.", "Nesmíte vstávat.", "Musíte vstávat."], "answer": "Nemusíte vstávat.", "reviewed": false },
+        { "id": "u14-l3-e6", "type": "fill", "sentence": "You ___ take more than two tablets a day.", "translation": "Nesmíte brát víc než dvě tablety denně.", "options": ["mustn't", "don't must", "mustn't to"], "answer": "mustn't", "explain": "Nesmět = mustn't; s must se nepoužívá do ani to.", "reviewed": false },
+        { "id": "u14-l3-e7", "type": "fill", "sentence": "She ___ to work on Saturday.", "translation": "V sobotu musí pracovat.", "options": ["has", "have", "must"], "answer": "has", "explain": "U he a she se říká has to. Za must nikdy není to.", "reviewed": false },
+        { "id": "u14-l3-e8", "type": "type", "question": "Nemusím pracovat.", "answer": "I don't have to work.", "accept": ["I haven't got to work."], "reviewed": false },
+        { "id": "u14-l3-e9", "type": "build", "question": "Mám recept od lékaře.", "answer": "I've got a prescription from the doctor.", "extra": ["an"], "reviewed": false },
+        { "id": "u14-l3-e10", "type": "build", "question": "Dnes nesmíte řídit.", "answer": "You mustn't drive today.", "extra": ["to"], "accept": ["Today you mustn't drive."], "reviewed": false }
+      ]
+    }
+  ]
+}

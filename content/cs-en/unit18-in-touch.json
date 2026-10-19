@@ -1,0 +1,147 @@
+{
+  "id": "u18",
+  "level": "A2",
+  "title": "Jsme v kontaktu",
+  "titleTarget": "Keeping in touch",
+  "description": "Telefon, zprávy, e-maily a počítač: me, him, us, them, spojky and, but, because a want to.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u18-l1",
+      "title": "Telefon",
+      "titleTarget": "On the phone",
+      "reviewed": false,
+      "tip": {
+        "title": "Me, him, us, them",
+        "text": "Za slovesem a za předložkou mají zájmena jiný tvar, podobně jako česky já → mě, mi: I → me, he → him, she → her, we → us, they → them. Ring me. (Zavolejte mi.) Can you help us? (Můžete nám pomoct?) You a it zůstávají stejné. Them se říká i o věcech: Where are my keys? I can't see them. Česky zájmeno někdy vynecháte, anglicky ho vždy řekněte.",
+        "examples": [
+          { "target": "Ring me, please.", "native": "Zavolejte mi, prosím." },
+          { "target": "We often ring them.", "native": "Často jim voláme." },
+          { "target": "Can you help us?", "native": "Můžete nám pomoct?" },
+          { "target": "Hold on, please.", "native": "Moment, prosím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l1-w1", "target": "me", "native": "mě; mi", "note": "Za slovesem a předložkou: Ring me. Come with me.", "reviewed": false },
+        { "id": "u18-l1-w2", "target": "him", "native": "ho; mu", "note": "Jen o muži: I know him. = Znám ho.", "reviewed": false },
+        { "id": "u18-l1-w3", "target": "us", "native": "nás; nám", "reviewed": false },
+        { "id": "u18-l1-w4", "target": "them", "native": "je; jim", "note": "O lidech i věcech: I like them.", "reviewed": false },
+        { "id": "u18-l1-w5", "target": "ring", "native": "zavolat; zazvonit", "note": "Britsky, stejně jako call: I'll ring you. = Zavolám vám.", "reviewed": false },
+        { "id": "u18-l1-w6", "target": "message", "native": "zpráva; vzkaz", "note": "Can I leave a message? = Mohu nechat vzkaz? Čte se „ME-sidž“.", "reviewed": false },
+        { "id": "u18-l1-w7", "target": "text", "native": "poslat SMS; SMS", "note": "Can you text me? = Můžete mi poslat SMS?", "reviewed": false },
+        { "id": "u18-l1-w8", "target": "Hold on.", "native": "moment; vydržte", "note": "Na telefonu: Hold on, please. = Moment, prosím.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l1-e1", "type": "choice", "question": "message", "questionLang": "target", "options": ["zpráva; vzkaz", "dopis", "adresa"], "answer": "zpráva; vzkaz", "reviewed": false },
+        { "id": "u18-l1-e2", "type": "choice", "question": "Zavolejte mi, prosím.", "questionLang": "native", "options": ["Ring me, please.", "Ring I, please.", "Ring my, please."], "answer": "Ring me, please.", "reviewed": false },
+        { "id": "u18-l1-e3", "type": "match", "pairs": [
+          { "target": "me", "native": "mě" },
+          { "target": "him", "native": "ho" },
+          { "target": "us", "native": "nás" },
+          { "target": "them", "native": "je" },
+          { "target": "message", "native": "vzkaz" }
+        ], "reviewed": false },
+        { "id": "u18-l1-e4", "type": "listen", "audio": "Hold on, please.", "options": ["Hold on, please.", "Help us, please.", "Ring me, please."], "answer": "Hold on, please.", "reviewed": false },
+        { "id": "u18-l1-e5", "type": "listen", "audio": "Can you text me?", "options": ["Můžete mi poslat SMS?", "Můžete mi zavolat?", "Můžete mi pomoct?"], "answer": "Můžete mi poslat SMS?", "reviewed": false },
+        { "id": "u18-l1-e6", "type": "fill", "sentence": "Can you help ___?", "translation": "Můžete nám pomoct?", "options": ["us", "we", "our"], "answer": "us", "explain": "Za slovesem je us, ne we.", "reviewed": false },
+        { "id": "u18-l1-e7", "type": "fill", "sentence": "I often ring ___.", "translation": "Často mu volám.", "options": ["him", "he", "his"], "answer": "him", "explain": "Za slovesem je him, ne he.", "reviewed": false },
+        { "id": "u18-l1-e8", "type": "fill", "sentence": "These are my neighbours. I like ___.", "translation": "Tohle jsou moji sousedé. Jsou mi sympatičtí.", "options": ["them", "they", "their"], "answer": "them", "explain": "Za slovesem like je them.", "reviewed": false },
+        { "id": "u18-l1-e9", "type": "type", "question": "Zavolejte nám.", "answer": "Ring us.", "accept": ["Call us.", "Phone us.", "Ring us, please.", "Call us, please."], "reviewed": false },
+        { "id": "u18-l1-e10", "type": "build", "question": "Můžete mu zavolat?", "answer": "Can you ring him?", "extra": ["he"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l2",
+      "title": "E-mail a dopis",
+      "titleTarget": "Emails and letters",
+      "reviewed": false,
+      "tip": {
+        "title": "And, but, or, because, so",
+        "text": "Věty spojíte jako v češtině: and (a), but (ale), or (nebo), because (protože), so (takže). Because říká důvod, so výsledek: I'm wearing a coat because it's cold. It's cold, so I'm wearing a coat. Rozdíl od češtiny: před because se čárka obvykle nepíše, před but a so ano. Also (také) stojí před slovesem: I also like tea.",
+        "examples": [
+          { "target": "I'm wearing a coat because it's cold.", "native": "Mám na sobě kabát, protože je zima." },
+          { "target": "It's cold, so I'm wearing a coat.", "native": "Je zima, takže mám na sobě kabát." },
+          { "target": "Tea or coffee?", "native": "Čaj, nebo kávu?" },
+          { "target": "I've got her email, but not her address.", "native": "Mám její e-mail, ale ne její adresu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l2-w1", "target": "and", "native": "a", "reviewed": false },
+        { "id": "u18-l2-w2", "target": "but", "native": "ale", "note": "Čte se „bat“.", "reviewed": false },
+        { "id": "u18-l2-w3", "target": "because", "native": "protože", "note": "Čte se „bi-KOZ“. Před because se čárka obvykle nepíše.", "reviewed": false },
+        { "id": "u18-l2-w4", "target": "so", "native": "takže", "note": "Výsledek: It's raining, so we're at home.", "reviewed": false },
+        { "id": "u18-l2-w5", "target": "or", "native": "nebo", "note": "Tea or coffee? = Čaj, nebo kávu?", "reviewed": false },
+        { "id": "u18-l2-w6", "target": "also", "native": "také", "note": "Stojí před slovesem: I also like tea. Čte se „ÓL-sou“.", "reviewed": false },
+        { "id": "u18-l2-w7", "target": "letter", "native": "dopis", "note": "Také písmeno abecedy.", "reviewed": false },
+        { "id": "u18-l2-w8", "target": "email", "native": "e-mail", "note": "Také sloveso: Email me. = Pošlete mi e-mail.", "reviewed": false },
+        { "id": "u18-l2-w9", "target": "address", "native": "adresa", "note": "Dvě d a dvě s. Britsky přízvuk na druhé slabice: „e-DRES“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l2-e1", "type": "choice", "question": "because", "questionLang": "target", "options": ["protože", "takže", "ale"], "answer": "protože", "reviewed": false },
+        { "id": "u18-l2-e2", "type": "choice", "question": "nebo", "questionLang": "native", "options": ["or", "so", "but"], "answer": "or", "reviewed": false },
+        { "id": "u18-l2-e3", "type": "match", "pairs": [
+          { "target": "and", "native": "a" },
+          { "target": "but", "native": "ale" },
+          { "target": "so", "native": "takže" },
+          { "target": "letter", "native": "dopis" },
+          { "target": "address", "native": "adresa" }
+        ], "reviewed": false },
+        { "id": "u18-l2-e4", "type": "listen", "audio": "I've got her email, but not her address.", "options": ["I've got her email, but not her address.", "I've got her email and her address.", "I've got her address, but not her email."], "answer": "I've got her email, but not her address.", "reviewed": false },
+        { "id": "u18-l2-e5", "type": "listen", "audio": "I'm at home because it's raining.", "options": ["Jsem doma, protože prší.", "Jsem doma, ale neprší.", "Jsem doma a je zima."], "answer": "Jsem doma, protože prší.", "reviewed": false },
+        { "id": "u18-l2-e6", "type": "fill", "sentence": "It's cold, ___ I'm wearing a coat.", "translation": "Je zima, takže mám na sobě kabát.", "options": ["so", "because", "than"], "answer": "so", "explain": "Výsledek (takže) = so. Because uvádí důvod.", "reviewed": false },
+        { "id": "u18-l2-e7", "type": "fill", "sentence": "Would you like tea ___ coffee?", "translation": "Dáte si čaj, nebo kávu?", "options": ["or", "but", "because"], "answer": "or", "explain": "Výběr ze dvou věcí = or.", "reviewed": false },
+        { "id": "u18-l2-e8", "type": "type", "question": "Jaká je vaše adresa?", "answer": "What's your address?", "reviewed": false },
+        { "id": "u18-l2-e9", "type": "build", "question": "Je nemocná, takže je doma.", "answer": "She's ill, so she's at home.", "extra": ["because"], "reviewed": false },
+        { "id": "u18-l2-e10", "type": "build", "question": "Zavolejte mi, nebo mi pošlete e-mail.", "answer": "Ring me or email me.", "extra": ["but"], "accept": ["Email me or ring me."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u18-l3",
+      "title": "Počítač",
+      "titleTarget": "Computers",
+      "reviewed": false,
+      "tip": {
+        "title": "I want to… I need to… I'm trying to…",
+        "text": "Po want (chtít), need (potřebovat) a try (snažit se) přijde to a sloveso: I want to send a photo. I need to check my email. I'm trying to ring my son. Česky nic jako to nemáme, anglicky ho nevynechávejte. Pozor na falešné přátele: actually = vlastně, ne aktuálně (to je at the moment). In the end = nakonec, ne eventuálně. Zkontrolovat = check, ne control (to znamená řídit, ovládat).",
+        "examples": [
+          { "target": "I need to check my email.", "native": "Potřebuji zkontrolovat e-mail." },
+          { "target": "I want to send you a photo.", "native": "Chci vám poslat fotku." },
+          { "target": "She's busy at the moment.", "native": "Momentálně má hodně práce." },
+          { "target": "Actually, I haven't got a computer.", "native": "Vlastně nemám počítač." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u18-l3-w1", "target": "computer", "native": "počítač", "note": "Čte se „kem-PJÚ-ta“.", "reviewed": false },
+        { "id": "u18-l3-w2", "target": "internet", "native": "internet", "note": "Obvykle s the: on the internet = na internetu.", "reviewed": false },
+        { "id": "u18-l3-w3", "target": "password", "native": "heslo", "note": "Čte se „PÁS-wéd“, r se nevyslovuje.", "reviewed": false },
+        { "id": "u18-l3-w4", "target": "photo", "native": "fotka; fotografie", "note": "Čte se „FOU-tou“.", "reviewed": false },
+        { "id": "u18-l3-w5", "target": "video call", "native": "videohovor", "note": "Have a video call = zavolat si přes video.", "reviewed": false },
+        { "id": "u18-l3-w6", "target": "check", "native": "zkontrolovat", "note": "Falešný přítel: control znamená řídit, ovládat.", "reviewed": false },
+        { "id": "u18-l3-w7", "target": "actually", "native": "vlastně; ve skutečnosti", "note": "Falešný přítel: aktuálně = at the moment.", "reviewed": false },
+        { "id": "u18-l3-w8", "target": "at the moment", "native": "momentálně; teď", "note": "Česky také „aktuálně“.", "reviewed": false },
+        { "id": "u18-l3-w9", "target": "in the end", "native": "nakonec", "note": "Falešný přítel: eventuálně = maybe.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u18-l3-e1", "type": "choice", "question": "actually", "questionLang": "target", "options": ["vlastně; ve skutečnosti", "aktuálně", "nakonec"], "answer": "vlastně; ve skutečnosti", "reviewed": false },
+        { "id": "u18-l3-e2", "type": "choice", "question": "heslo", "questionLang": "native", "options": ["password", "address", "message"], "answer": "password", "reviewed": false },
+        { "id": "u18-l3-e3", "type": "match", "pairs": [
+          { "target": "computer", "native": "počítač" },
+          { "target": "photo", "native": "fotka" },
+          { "target": "video call", "native": "videohovor" },
+          { "target": "in the end", "native": "nakonec" },
+          { "target": "at the moment", "native": "momentálně" }
+        ], "reviewed": false },
+        { "id": "u18-l3-e4", "type": "listen", "audio": "I need to check my email.", "options": ["I need to check my email.", "I want to check my email.", "I need to check my phone."], "answer": "I need to check my email.", "reviewed": false },
+        { "id": "u18-l3-e5", "type": "listen", "audio": "She's busy at the moment.", "options": ["Momentálně má hodně práce.", "Nakonec má hodně práce.", "Vlastně nemá žádnou práci."], "answer": "Momentálně má hodně práce.", "reviewed": false },
+        { "id": "u18-l3-e6", "type": "fill", "sentence": "I want ___ send you a photo.", "translation": "Chci vám poslat fotku.", "options": ["to", "for", "at"], "answer": "to", "explain": "Po want přijde to a sloveso.", "reviewed": false },
+        { "id": "u18-l3-e7", "type": "fill", "sentence": "We need ___ the password.", "translation": "Potřebujeme zkontrolovat heslo.", "options": ["to check", "check", "checks"], "answer": "to check", "explain": "Po need přijde to a sloveso: need to check.", "reviewed": false },
+        { "id": "u18-l3-e8", "type": "type", "question": "Momentálně jsem doma.", "answer": "I'm at home at the moment.", "accept": ["At the moment I'm at home."], "reviewed": false },
+        { "id": "u18-l3-e9", "type": "build", "question": "Snažím se zavolat dceři.", "answer": "I'm trying to ring my daughter.", "extra": ["for"], "reviewed": false },
+        { "id": "u18-l3-e10", "type": "build", "question": "Nakonec jsme si zavolali přes video.", "answer": "We had a video call in the end.", "accept": ["In the end we had a video call."], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "u19",
+  "level": "A2",
+  "title": "Telefon a úřady",
+  "titleTarget": "La telefon și la ghișeu",
+  "description": "Telefonování, pošta a banka, formuláře a osobní údaje.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u19-l1",
+      "title": "Haló?",
+      "titleTarget": "Alo?",
+      "reviewed": false,
+      "tip": {
+        "title": "Ho vidím Iona: îl văd pe Ion",
+        "text": "Když je předmětem konkrétní člověk (koho vidím, komu volám), rumunština ho řekne dvakrát. Před sloveso dá îl (ho) nebo o (ji) a před jméno pe: Îl văd pe Ion. = Vidím Iona. O văd pe Ana. = Vidím Anu. Doslova tedy „ho vidím Iona“. Česky nic takového není, tak si zapamatujte vzorec: îl nebo o + sloveso + pe + osoba. U věcí se to nedělá: Văd casa. (Vidím dům.) Pozor: rumunské a suna (volat) má předmět ve 4. pádě: Îl sun pe Mihai. = Volám Mihaiovi.",
+        "examples": [
+          { "target": "Îl văd pe Ion.", "native": "Vidím Iona." },
+          { "target": "O sun pe mama.", "native": "Volám mámě." },
+          { "target": "Vă aud foarte bine.", "native": "Slyším vás velmi dobře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l1-w1", "target": "Alo?", "native": "haló?", "note": "Takto se zvedá telefon. Čte se „a-LO“.", "reviewed": false },
+        { "id": "u19-l1-w2", "target": "Cine e la telefon?", "native": "kdo je u telefonu?", "note": "Zdvořileji také: Cu cine vorbesc? = S kým mluvím? Čte se „či-ne je la te-le-FON“.", "reviewed": false },
+        { "id": "u19-l1-w3", "target": "Revin.", "native": "ozvu se", "note": "Doslova „vrátím se (k tomu)“. Revin imediat. = Hned se ozvu. Čte se „re-VIN“.", "reviewed": false },
+        { "id": "u19-l1-w4", "target": "un număr de telefon", "native": "telefonní číslo", "note": "numărul de telefon = to telefonní číslo; množné číslo: numere de telefon. Čte se „NU-măr de te-le-FON“.", "reviewed": false },
+        { "id": "u19-l1-w5", "target": "un mesaj", "native": "zpráva", "note": "mesajul = ta zpráva; množné číslo: mesaje (střední rod). Také SMS. Čte se „me-SAŽ“.", "reviewed": false },
+        { "id": "u19-l1-w6", "target": "a trimite", "native": "poslat; posílat", "note": "eu trimit, tu trimiți, el trimite; minulý čas: am trimis. Čte se „a tri-MI-te“.", "reviewed": false },
+        { "id": "u19-l1-w7", "target": "Vă aud", "native": "slyším vás", "note": "Vă = vás, aud = slyším (od a auzi). Nu vă aud bine. = Špatně vás slyším. Čte se „vă a-UD“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l1-e1", "type": "choice", "question": "Revin.", "questionLang": "target", "options": ["ozvu se", "slyším vás", "haló?"], "answer": "ozvu se", "reviewed": false },
+        { "id": "u19-l1-e2", "type": "choice", "question": "telefonní číslo", "questionLang": "native", "options": ["un număr de telefon", "un mesaj", "o oră"], "answer": "un număr de telefon", "reviewed": false },
+        { "id": "u19-l1-e3", "type": "match", "pairs": [
+          { "target": "Alo?", "native": "haló?" },
+          { "target": "un mesaj", "native": "zpráva" },
+          { "target": "a trimite", "native": "poslat" },
+          { "target": "Vă aud", "native": "slyším vás" }
+        ], "reviewed": false },
+        { "id": "u19-l1-e4", "type": "listen", "audio": "Alo? Cine e la telefon?", "options": ["Haló? Kdo je u telefonu?", "Haló? Kde jste?", "Haló? Slyšíte mě?"], "answer": "Haló? Kdo je u telefonu?", "reviewed": false },
+        { "id": "u19-l1-e5", "type": "listen", "audio": "Îl sun pe Mihai.", "options": ["Îl sun pe Mihai.", "O sun pe Maria.", "Îl văd pe Mihai."], "answer": "Îl sun pe Mihai.", "reviewed": false },
+        { "id": "u19-l1-e6", "type": "fill", "sentence": "___ văd pe Ion.", "translation": "Vidím Iona.", "options": ["Îl", "O", "Le"], "answer": "Îl", "explain": "Ion je muž, proto îl (ho); o (ji) by patřilo k ženě.", "reviewed": false },
+        { "id": "u19-l1-e7", "type": "fill", "sentence": "O sun ___ mama.", "translation": "Volám mámě.", "options": ["pe", "cu", "de"], "answer": "pe", "explain": "Před osobou, které voláte nebo kterou vidíte, stojí pe.", "reviewed": false },
+        { "id": "u19-l1-e8", "type": "type", "question": "Pošlu vám zprávu.", "answer": "Vă trimit un mesaj.", "accept": ["O să vă trimit un mesaj.", "Vă voi trimite un mesaj."], "reviewed": false },
+        { "id": "u19-l1-e9", "type": "build", "question": "Špatně vás slyším.", "answer": "Nu vă aud bine.", "extra": ["îl"], "reviewed": false },
+        { "id": "u19-l1-e10", "type": "build", "question": "Vidím Anu.", "answer": "O văd pe Ana.", "extra": ["îl"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l2",
+      "title": "Na poště a v bance",
+      "titleTarget": "La poștă și la bancă",
+      "reviewed": false,
+      "tip": {
+        "title": "Který: care a pe care",
+        "text": "Care znamená „který, která, které“ a nemění se podle rodu: plicul care e pe masă (obálka, která je na stole), doamna care lucrează aici (paní, která tu pracuje). Ptá se jím i v otázce: Care ghișeu? (Která přepážka?) Když je „který“ ve 4. pádě (koho, co), přidá se pe a za ním îl nebo o, jako v minulé lekci: Coletul pe care îl trimit e mare. (Balík, který posílám, je velký.) Česky se mění koncovka (který – kterého – kterou), rumunsky stačí care nebo pe care.",
+        "examples": [
+          { "target": "Care e coada pentru colete?", "native": "Která fronta je na balíky?" },
+          { "target": "Coletul pe care îl trimit e mare.", "native": "Balík, který posílám, je velký." },
+          { "target": "Doamna care lucrează la ghișeu e amabilă.", "native": "Paní, která pracuje u přepážky, je laskavá." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l2-w1", "target": "un ghișeu", "native": "přepážka", "note": "ghișeul = ta přepážka; množné číslo: ghișee (střední rod). La ghișeu = u přepážky. Čte se „gi-ŠEU“.", "reviewed": false },
+        { "id": "u19-l2-w2", "target": "un formular", "native": "formulář", "note": "formularul = ten formulář; množné číslo: formulare (střední rod). Čte se „for-mu-LAR“.", "reviewed": false },
+        { "id": "u19-l2-w3", "target": "o semnătură", "native": "podpis", "note": "semnătura = ten podpis; množné číslo: semnături. Čte se „sem-nă-TU-ră“.", "reviewed": false },
+        { "id": "u19-l2-w4", "target": "un plic", "native": "obálka", "note": "plicul = ta obálka; množné číslo: plicuri (střední rod).", "reviewed": false },
+        { "id": "u19-l2-w5", "target": "un colet", "native": "balík", "note": "coletul = ten balík; množné číslo: colete (střední rod). Čte se „ko-LET“.", "reviewed": false },
+        { "id": "u19-l2-w6", "target": "o coadă", "native": "fronta", "note": "coada = ta fronta; množné číslo: cozi. Doslova „ocas“. Stau la coadă. = Stojím ve frontě. Čte se „KOA-dă“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u19-l2-w7", "target": "care", "native": "který; která; které", "note": "Nemění se podle rodu. Ve 4. pádě pe care = kterého, kterou. Čte se „KA-re“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l2-e1", "type": "choice", "question": "o coadă", "questionLang": "target", "options": ["fronta", "přepážka", "obálka"], "answer": "fronta", "reviewed": false },
+        { "id": "u19-l2-e2", "type": "choice", "question": "balík", "questionLang": "native", "options": ["un colet", "un plic", "un formular"], "answer": "un colet", "reviewed": false },
+        { "id": "u19-l2-e3", "type": "match", "pairs": [
+          { "target": "un ghișeu", "native": "přepážka" },
+          { "target": "un formular", "native": "formulář" },
+          { "target": "o semnătură", "native": "podpis" },
+          { "target": "un plic", "native": "obálka" }
+        ], "reviewed": false },
+        { "id": "u19-l2-e4", "type": "listen", "audio": "Stau la coadă la poștă.", "options": ["Stojím ve frontě na poště.", "Stojím u přepážky v bance.", "Posílám balík z pošty."], "answer": "Stojím ve frontě na poště.", "reviewed": false },
+        { "id": "u19-l2-e5", "type": "listen", "audio": "La care ghișeu?", "options": ["La care ghișeu?", "La ghișeu, vă rog.", "Care formular?"], "answer": "La care ghișeu?", "reviewed": false },
+        { "id": "u19-l2-e6", "type": "fill", "sentence": "Coletul pe ___ îl trimit e mare.", "translation": "Balík, který posílám, je velký.", "options": ["care", "ce", "cine"], "answer": "care", "explain": "„Který“ ve 4. pádě = pe care.", "reviewed": false },
+        { "id": "u19-l2-e7", "type": "fill", "sentence": "Doamna ___ lucrează la ghișeu e amabilă.", "translation": "Paní, která pracuje u přepážky, je laskavá.", "options": ["care", "pe care", "cine"], "answer": "care", "explain": "Paní tu sama něco dělá (která pracuje), proto jen care, bez pe.", "reviewed": false },
+        { "id": "u19-l2-e8", "type": "type", "question": "Kde je formulář?", "answer": "Unde e formularul?", "accept": ["Unde este formularul?"], "reviewed": false },
+        { "id": "u19-l2-e9", "type": "build", "question": "Posílám balík do Česka.", "answer": "Trimit un colet în Cehia.", "extra": ["plicul"], "reviewed": false },
+        { "id": "u19-l2-e10", "type": "speak", "text": "Unde e ghișeul pentru colete?", "native": "Kde je přepážka pro balíky?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u19-l3",
+      "title": "Formality",
+      "titleTarget": "Formalități",
+      "reviewed": false,
+      "tip": {
+        "title": "Na úřadě se vyká",
+        "text": "Na úřadě uslyšíte zdvořilé pokyny s koncovkou -ți, stejně jako v mergeți nebo scuzați-mă: Completați formularul. (Vyplňte formulář.) Semnați aici. (Podepište se tady.) Ve formulářích je jako v češtině 2. pád: data nașterii = datum narození (datum čeho? narození). Pozor na kolonky: Nume je příjmení, Prenume křestní jméno. Na otázku „jaká je vaše…“ se rumunsky ptá care: Care e adresa dumneavoastră?",
+        "examples": [
+          { "target": "Completați formularul, vă rog.", "native": "Vyplňte formulář, prosím." },
+          { "target": "Semnați aici.", "native": "Podepište se tady." },
+          { "target": "Care e adresa dumneavoastră?", "native": "Jaká je vaše adresa?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u19-l3-w1", "target": "numele de familie", "native": "příjmení", "note": "Doslova „rodinné jméno“. Un nume = jméno obecně. Na formuláři stojí jen Nume a myslí se tím příjmení. Čte se „NU-me-le de fa-MI-li-e“.", "reviewed": false },
+        { "id": "u19-l3-w2", "target": "prenumele", "native": "křestní jméno", "note": "Tvar se členem; bez členu: un prenume; množné číslo: prenume. Čte se „pre-NU-me-le“.", "reviewed": false },
+        { "id": "u19-l3-w3", "target": "o adresă", "native": "adresa", "note": "adresa = ta adresa; množné číslo: adrese. Čte se „a-DRE-să“.", "reviewed": false },
+        { "id": "u19-l3-w4", "target": "data nașterii", "native": "datum narození", "note": "data = to datum, nașterii = narození (2. pád od nașterea). Čte se „DA-ta NAŠ-te-rij“.", "reviewed": false },
+        { "id": "u19-l3-w5", "target": "un buletin", "native": "občanský průkaz", "note": "buletinul = ta občanka; množné číslo: buletine (střední rod). Hovorové; úředně carte de identitate. Čte se „bu-le-TIN“.", "reviewed": false },
+        { "id": "u19-l3-w6", "target": "a completa", "native": "vyplnit; vyplňovat", "note": "Skupina -ez: eu completez. Completați formularul! = Vyplňte formulář! Čte se „a kom-ple-TA“.", "reviewed": false },
+        { "id": "u19-l3-w7", "target": "a semna", "native": "podepsat; podepisovat", "note": "Skupina -ez: eu semnez. Semnați aici! = Podepište se tady! Čte se „a sem-NA“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u19-l3-e1", "type": "choice", "question": "prenumele", "questionLang": "target", "options": ["křestní jméno", "příjmení", "adresa"], "answer": "křestní jméno", "reviewed": false },
+        { "id": "u19-l3-e2", "type": "choice", "question": "občanský průkaz", "questionLang": "native", "options": ["un buletin", "un formular", "un bilet"], "answer": "un buletin", "reviewed": false },
+        { "id": "u19-l3-e3", "type": "match", "pairs": [
+          { "target": "numele de familie", "native": "příjmení" },
+          { "target": "o adresă", "native": "adresa" },
+          { "target": "data nașterii", "native": "datum narození" },
+          { "target": "a semna", "native": "podepsat" }
+        ], "reviewed": false },
+        { "id": "u19-l3-e4", "type": "listen", "audio": "Semnați aici, vă rog.", "options": ["Podepište se tady, prosím.", "Vyplňte to tady, prosím.", "Počkejte tady, prosím."], "answer": "Podepište se tady, prosím.", "reviewed": false },
+        { "id": "u19-l3-e5", "type": "listen", "audio": "Completați formularul.", "options": ["Completați formularul.", "Completez formularul.", "Semnați formularul."], "answer": "Completați formularul.", "reviewed": false },
+        { "id": "u19-l3-e6", "type": "fill", "sentence": "___ formularul, vă rog.", "translation": "Vyplňte formulář, prosím.", "options": ["Completați", "Completat", "Completare"], "answer": "Completați", "explain": "Zdvořilý pokyn při vykání končí na -ați: completați, semnați.", "reviewed": false },
+        { "id": "u19-l3-e7", "type": "fill", "sentence": "Care e data ___?", "translation": "Jaké je datum narození?", "options": ["nașterii", "naștere", "nașterea"], "answer": "nașterii", "explain": "Datum čeho? Narození – 2. pád, rumunsky nașterii.", "reviewed": false },
+        { "id": "u19-l3-e8", "type": "type", "question": "Jaká je vaše adresa?", "answer": "Care e adresa dumneavoastră?", "accept": ["Care este adresa dumneavoastră?"], "reviewed": false },
+        { "id": "u19-l3-e9", "type": "build", "question": "Tady je můj občanský průkaz.", "answer": "Aici e buletinul meu.", "extra": ["mea"], "reviewed": false },
+        { "id": "u19-l3-e10", "type": "build", "question": "Vyplňte příjmení a křestní jméno.", "answer": "Completați numele și prenumele.", "extra": ["completez"], "reviewed": false }
+      ]
+    }
+  ]
+}

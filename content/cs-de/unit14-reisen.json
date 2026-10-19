@@ -1,0 +1,145 @@
+{
+  "id": "u14",
+  "level": "A2",
+  "title": "Cestování",
+  "titleTarget": "Reisen",
+  "description": "Na nádraží, v hotelu a vyprávění o dovolené: minulý čas odlučitelných sloves, příčestí bez ge- a nepravidelná příčestí.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u14-l1",
+      "title": "Na nádraží",
+      "titleTarget": "Am Bahnhof",
+      "reviewed": false,
+      "tip": {
+        "title": "Der Zug ist angekommen",
+        "text": "U odlučitelných sloves (ankommen, abfahren, umsteigen) se ge- vloží doprostřed, mezi předponu a sloveso: an-ge-kommen, ab-ge-fahren, um-ge-stiegen. Protože jde o pohyb z místa na místo, minulý čas se tvoří se sein, stejně jako česky „jsme přijeli“: Der Zug ist angekommen. „Ich habe angekommen“ je chyba. Ostatní odlučitelná slovesa mají haben: Wir haben eingekauft, ich habe angerufen. Přízvuk zůstává na předponě: AN-ge-kom-men.",
+        "examples": [
+          { "target": "Der Zug ist pünktlich angekommen.", "native": "Vlak přijel načas." },
+          { "target": "Wir sind in Berlin umgestiegen.", "native": "V Berlíně jsme přestupovali." },
+          { "target": "Wir haben im Supermarkt eingekauft.", "native": "Nakoupili jsme v supermarketu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l1-w1", "target": "das Gleis", "native": "kolej", "note": "Na nádraží: auf Gleis drei = na třetí koleji. ei = aj: [glajs]; množné číslo: die Gleise", "reviewed": false },
+        { "id": "u14-l1-w2", "target": "die Abfahrt", "native": "odjezd", "note": "b se tu čte jako p: [AP-fárt]; množné číslo: die Abfahrten", "reviewed": false },
+        { "id": "u14-l1-w3", "target": "die Ankunft", "native": "příjezd", "note": "množné číslo: die Ankünfte", "reviewed": false },
+        { "id": "u14-l1-w4", "target": "abfahren", "native": "odjet; odjíždět", "note": "Der Zug fährt um neun Uhr ab. Minulý čas: ist abgefahren", "reviewed": false },
+        { "id": "u14-l1-w5", "target": "ankommen", "native": "přijet; dorazit", "note": "Wann kommen Sie an? Minulý čas: ist angekommen", "reviewed": false },
+        { "id": "u14-l1-w6", "target": "umsteigen", "native": "přestoupit", "note": "Wir steigen in Berlin um. Minulý čas: ist umgestiegen", "reviewed": false },
+        { "id": "u14-l1-w7", "target": "die Verspätung", "native": "zpoždění", "note": "Der Zug hat Verspätung. = Vlak má zpoždění. Přízvuk: fer-ŠPÉ-tung; množné číslo: die Verspätungen", "reviewed": false },
+        { "id": "u14-l1-w8", "target": "der Koffer", "native": "kufr", "note": "množné číslo: die Koffer", "reviewed": false },
+        { "id": "u14-l1-w9", "target": "pünktlich", "native": "včas; přesně", "note": "Der Zug ist pünktlich. = Vlak jede načas.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l1-e1", "type": "choice", "question": "die Ankunft", "questionLang": "target", "options": ["příjezd", "odjezd", "zpoždění"], "answer": "příjezd", "reviewed": false },
+        { "id": "u14-l1-e2", "type": "choice", "question": "kufr", "questionLang": "native", "options": ["der Koffer", "das Gleis", "die Abfahrt"], "answer": "der Koffer", "reviewed": false },
+        { "id": "u14-l1-e3", "type": "match", "pairs": [
+          { "target": "abfahren", "native": "odjet" },
+          { "target": "ankommen", "native": "přijet" },
+          { "target": "umsteigen", "native": "přestoupit" },
+          { "target": "die Verspätung", "native": "zpoždění" },
+          { "target": "das Gleis", "native": "kolej" }
+        ], "reviewed": false },
+        { "id": "u14-l1-e4", "type": "listen", "audio": "Der Zug fährt um neun Uhr ab.", "options": ["Der Zug fährt um neun Uhr ab.", "Der Zug kommt um neun Uhr an.", "Der Bus fährt um neun Uhr ab."], "answer": "Der Zug fährt um neun Uhr ab.", "reviewed": false },
+        { "id": "u14-l1-e5", "type": "fill", "sentence": "Der Bus ist um zehn Uhr ___.", "translation": "Autobus odjel v deset hodin.", "options": ["abgefahren", "geabfahren", "abfährt"], "answer": "abgefahren", "explain": "ge- se vkládá mezi předponu a sloveso: ab-ge-fahren.", "reviewed": false },
+        { "id": "u14-l1-e6", "type": "fill", "sentence": "Wann ___ Sie angekommen?", "translation": "Kdy jste přijeli?", "options": ["sind", "haben", "ist"], "answer": "sind", "explain": "Příjezd je pohyb, proto sein: Sie sind angekommen.", "reviewed": false },
+        { "id": "u14-l1-e7", "type": "type", "question": "zpoždění", "answer": "die Verspätung", "reviewed": false },
+        { "id": "u14-l1-e8", "type": "build", "question": "Vlak má deset minut zpoždění.", "answer": "Der Zug hat zehn Minuten Verspätung.", "extra": ["ist"], "reviewed": false },
+        { "id": "u14-l1-e9", "type": "listen", "audio": "Der Zug nach Berlin fährt von Gleis drei ab.", "options": ["Vlak do Berlína odjíždí ze třetí koleje.", "Vlak z Berlína přijíždí na třetí kolej.", "Vlak do Berlína má zpoždění."], "answer": "Vlak do Berlína odjíždí ze třetí koleje.", "reviewed": false },
+        { "id": "u14-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Přijeli jsme včera.", "questionLang": "native", "options": ["Wir sind gestern angekommen.", "Wir haben gestern angekommen.", "Wir sind gestern ankommen."], "answer": "Wir sind gestern angekommen.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l2",
+      "title": "V hotelu",
+      "titleTarget": "Im Hotel",
+      "reviewed": false,
+      "tip": {
+        "title": "Reserviert, bekommen: bez ge-",
+        "text": "Některá slovesa nemají v příčestí ge-. Jsou to slovesa na -ieren (reservieren → reserviert) a slovesa s předponou be-, ver- nebo er- (bekommen → bekommen, besuchen → besucht, verstehen → verstanden). Přízvuk u nich není na první slabice: re-zer-VÍ-ren, be-KOM-men. Pozor, pokud umíte anglicky: bekommen neznamená „stát se“ (become), ale dostat. Wir haben den Schlüssel bekommen. = Dostali jsme klíč.",
+        "examples": [
+          { "target": "Wir haben ein Doppelzimmer reserviert.", "native": "Rezervovali jsme si dvoulůžkový pokoj." },
+          { "target": "Haben Sie ein Einzelzimmer frei?", "native": "Máte volný jednolůžkový pokoj?" },
+          { "target": "Wir haben den Schlüssel an der Rezeption bekommen.", "native": "Klíč jsme dostali na recepci." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l2-w1", "target": "das Hotel", "native": "hotel", "note": "Přízvuk: ho-TEL; množné číslo: die Hotels", "reviewed": false },
+        { "id": "u14-l2-w2", "target": "das Einzelzimmer", "native": "jednolůžkový pokoj", "note": "z = c: [AJN-cl-ci-ma]; množné číslo: die Einzelzimmer", "reviewed": false },
+        { "id": "u14-l2-w3", "target": "das Doppelzimmer", "native": "dvoulůžkový pokoj", "note": "množné číslo: die Doppelzimmer", "reviewed": false },
+        { "id": "u14-l2-w4", "target": "die Nacht", "native": "noc", "note": "für zwei Nächte = na dvě noci; množné číslo: die Nächte", "reviewed": false },
+        { "id": "u14-l2-w5", "target": "reservieren", "native": "rezervovat", "note": "v se tu čte jako v: [re-zer-VÍ-ren]; příčestí bez ge-: reserviert", "reviewed": false },
+        { "id": "u14-l2-w6", "target": "der Schlüssel", "native": "klíč", "note": "množné číslo: die Schlüssel", "reviewed": false },
+        { "id": "u14-l2-w7", "target": "die Rezeption", "native": "recepce", "note": "Čte se [re-cep-CJÓN]; an der Rezeption = na recepci; množné číslo: die Rezeptionen", "reviewed": false },
+        { "id": "u14-l2-w8", "target": "frei", "native": "volný", "note": "Ist der Platz frei? = Je tu volno?", "reviewed": false },
+        { "id": "u14-l2-w9", "target": "bekommen", "native": "dostat", "note": "Pozor: neznamená „stát se“. Příčestí je stejné jako infinitiv: hat bekommen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l2-e1", "type": "choice", "question": "bekommen", "questionLang": "target", "options": ["dostat", "stát se", "rezervovat"], "answer": "dostat", "reviewed": false },
+        { "id": "u14-l2-e2", "type": "choice", "question": "klíč", "questionLang": "native", "options": ["der Schlüssel", "die Rezeption", "die Nacht"], "answer": "der Schlüssel", "reviewed": false },
+        { "id": "u14-l2-e3", "type": "match", "pairs": [
+          { "target": "das Einzelzimmer", "native": "jednolůžkový pokoj" },
+          { "target": "das Doppelzimmer", "native": "dvoulůžkový pokoj" },
+          { "target": "die Nacht", "native": "noc" },
+          { "target": "frei", "native": "volný" },
+          { "target": "reservieren", "native": "rezervovat" }
+        ], "reviewed": false },
+        { "id": "u14-l2-e4", "type": "listen", "audio": "Haben Sie ein Doppelzimmer frei?", "options": ["Haben Sie ein Doppelzimmer frei?", "Haben Sie ein Einzelzimmer frei?", "Haben Sie ein Doppelzimmer reserviert?"], "answer": "Haben Sie ein Doppelzimmer frei?", "reviewed": false },
+        { "id": "u14-l2-e5", "type": "fill", "sentence": "Wir haben ein Zimmer für zwei Nächte ___.", "translation": "Rezervovali jsme si pokoj na dvě noci.", "options": ["reserviert", "gereserviert", "reservieren"], "answer": "reserviert", "explain": "Slovesa na -ieren tvoří příčestí bez ge-: reserviert.", "reviewed": false },
+        { "id": "u14-l2-e6", "type": "fill", "sentence": "Wir haben ein schönes Zimmer ___.", "translation": "Dostali jsme hezký pokoj.", "options": ["bekommen", "gebekommen", "bekommt"], "answer": "bekommen", "explain": "Slovesa s předponou be- nemají ge-: bekommen → bekommen.", "reviewed": false },
+        { "id": "u14-l2-e7", "type": "type", "question": "dvoulůžkový pokoj", "answer": "das Doppelzimmer", "reviewed": false },
+        { "id": "u14-l2-e8", "type": "build", "question": "Rezervovali jsme si jednolůžkový pokoj.", "answer": "Wir haben ein Einzelzimmer reserviert.", "accept": ["Ein Einzelzimmer haben wir reserviert."], "extra": ["gereserviert"], "reviewed": false },
+        { "id": "u14-l2-e9", "type": "listen", "audio": "Wo ist die Rezeption?", "options": ["Kde je recepce?", "Kde je klíč?", "Kde je hotel?"], "answer": "Kde je recepce?", "reviewed": false },
+        { "id": "u14-l2-e10", "type": "build", "question": "Máte volný pokoj?", "answer": "Haben Sie ein Zimmer frei?", "extra": ["Sind"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l3",
+      "title": "Vyprávění z dovolené",
+      "titleTarget": "Urlaubsgeschichten",
+      "reviewed": false,
+      "tip": {
+        "title": "Gesehen, geschrieben, gefunden",
+        "text": "Mnoho častých sloves má nepravidelné příčestí na -en, často se změněnou samohláskou: sehen → gesehen, schreiben → geschrieben, finden → gefunden, trinken → getrunken. Nejlépe je učit se je rovnou se slovesem, podobně jako v češtině „jít – šel“. Pravidelná slovesa mají ge- … -t: wandern → gewandert (se sein, protože jde o pohyb). A besichtigen začíná na be-, takže nemá ge-: besichtigt.",
+        "examples": [
+          { "target": "Wir haben das Meer gesehen.", "native": "Viděli jsme moře." },
+          { "target": "Anna hat eine Postkarte geschrieben.", "native": "Anna napsala pohlednici." },
+          { "target": "Wir sind in den Bergen gewandert.", "native": "Chodili jsme po horách." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l3-w1", "target": "sehen", "native": "vidět", "note": "du siehst, er sieht; příčestí: gesehen", "reviewed": false },
+        { "id": "u14-l3-w2", "target": "schreiben", "native": "psát", "note": "ei = aj, ie = í; příčestí: geschrieben", "reviewed": false },
+        { "id": "u14-l3-w3", "target": "finden", "native": "najít", "note": "Také o názoru: Ich finde das schön. = Připadá mi to hezké. Příčestí: gefunden", "reviewed": false },
+        { "id": "u14-l3-w4", "target": "wandern", "native": "chodit na túry", "note": "w = v. Minulý čas se sein: Wir sind gewandert.", "reviewed": false },
+        { "id": "u14-l3-w5", "target": "besichtigen", "native": "prohlédnout si", "note": "Město, zámek, muzeum. Přízvuk: be-ZICH-ti-gen; příčestí bez ge-: besichtigt", "reviewed": false },
+        { "id": "u14-l3-w6", "target": "die Postkarte", "native": "pohlednice", "note": "množné číslo: die Postkarten", "reviewed": false },
+        { "id": "u14-l3-w7", "target": "das Foto", "native": "fotka", "note": "Fotos machen = fotit; množné číslo: die Fotos", "reviewed": false },
+        { "id": "u14-l3-w8", "target": "der Strand", "native": "pláž", "note": "st na začátku = št: [štrant]; am Strand = na pláži; množné číslo: die Strände", "reviewed": false },
+        { "id": "u14-l3-w9", "target": "die Insel", "native": "ostrov", "note": "Pozor, ženský rod. s před samohláskou = z: [IN-zl]; množné číslo: die Inseln", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l3-e1", "type": "choice", "question": "die Insel", "questionLang": "target", "options": ["ostrov", "pláž", "jezero"], "answer": "ostrov", "reviewed": false },
+        { "id": "u14-l3-e2", "type": "choice", "question": "pohlednice", "questionLang": "native", "options": ["die Postkarte", "das Foto", "der Strand"], "answer": "die Postkarte", "reviewed": false },
+        { "id": "u14-l3-e3", "type": "match", "pairs": [
+          { "target": "sehen", "native": "vidět" },
+          { "target": "schreiben", "native": "psát" },
+          { "target": "finden", "native": "najít" },
+          { "target": "wandern", "native": "chodit na túry" },
+          { "target": "besichtigen", "native": "prohlédnout si" }
+        ], "reviewed": false },
+        { "id": "u14-l3-e4", "type": "listen", "audio": "Wir haben am Strand Fotos gemacht.", "options": ["Wir haben am Strand Fotos gemacht.", "Wir haben am Strand Postkarten geschrieben.", "Wir haben am See Fotos gemacht."], "answer": "Wir haben am Strand Fotos gemacht.", "reviewed": false },
+        { "id": "u14-l3-e5", "type": "fill", "sentence": "Wir haben eine Postkarte ___.", "translation": "Napsali jsme pohlednici.", "options": ["geschrieben", "geschreibt", "schreiben"], "answer": "geschrieben", "explain": "schreiben má nepravidelné příčestí: geschrieben.", "reviewed": false },
+        { "id": "u14-l3-e6", "type": "fill", "sentence": "Am Sonntag ___ wir in den Bergen gewandert.", "translation": "V neděli jsme chodili po horách.", "options": ["sind", "haben", "ist"], "answer": "sind", "explain": "wandern je pohyb z místa na místo, proto sein: wir sind gewandert.", "reviewed": false },
+        { "id": "u14-l3-e7", "type": "type", "question": "pláž", "answer": "der Strand", "reviewed": false },
+        { "id": "u14-l3-e8", "type": "build", "question": "Prohlédli jsme si město.", "answer": "Wir haben die Stadt besichtigt.", "extra": ["sind"], "reviewed": false },
+        { "id": "u14-l3-e9", "type": "listen", "audio": "Wir haben den Schlüssel nicht gefunden.", "options": ["Nenašli jsme klíč.", "Nedostali jsme klíč.", "Neviděli jsme klíč."], "answer": "Nenašli jsme klíč.", "reviewed": false },
+        { "id": "u14-l3-e10", "type": "speak", "text": "Am Strand war es schön.", "native": "Na pláži bylo hezky.", "reviewed": false }
+      ]
+    }
+  ]
+}

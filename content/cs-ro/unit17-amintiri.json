@@ -1,0 +1,135 @@
+{
+  "id": "u17",
+  "level": "A2",
+  "title": "Vzpomínky",
+  "titleTarget": "Pe vremuri",
+  "description": "Jak vyprávět o dětství a o tom, jak to bývalo dřív: minulý čas pro vzpomínky.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u17-l1",
+      "title": "V dětství",
+      "titleTarget": "Când eram copil",
+      "reviewed": false,
+      "tip": {
+        "title": "Čas pro vzpomínky: eram, aveam",
+        "text": "Pro vzpomínky má rumunština zvláštní minulý čas. Říká, jaké něco bývalo nebo co se dělo delší dobu – podobně jako české nedokonavé sloveso. Nejčastější tvary: eram (byl(a) jsem), era (byl, byla, bylo), aveam (měl(a) jsem), avea (měl, měla). Am fost znáte z lekce „Včera“: hodí se pro jednu uzavřenou událost. Când eram copil = když jsem byl(a) malý (doslova „když jsem byl(a) dítě“) – stejné pro muže i ženy. Eram se čte „je-RAM“, aveam „a-VEAM“.",
+        "examples": [
+          { "target": "Când eram copil, eram mereu la bunica.", "native": "Jako dítě jsem byl(a) pořád u babičky." },
+          { "target": "Bunicul avea o casă la țară.", "native": "Dědeček měl dům na venkově." },
+          { "target": "Pe vremuri, satul era mic.", "native": "Kdysi byla vesnice malá." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l1-w1", "target": "când eram copil", "native": "když jsem byl malý; když jsem byla malá", "note": "Doslova „když jsem byl(a) dítě“, stejné pro muže i ženy. Când = když. Čte se „kynd je-RAM ko-PIL“.", "reviewed": false },
+        { "id": "u17-l1-w2", "target": "o copilărie", "native": "dětství", "note": "copilăria = to dětství; množné číslo: copilării. Od copil (dítě). În copilărie = v dětství. Čte se „ko-pi-lă-RI-e“.", "reviewed": false },
+        { "id": "u17-l1-w3", "target": "un sat", "native": "vesnice", "note": "satul = ta vesnice; množné číslo: sate (střední rod). În sat = ve vesnici.", "reviewed": false },
+        { "id": "u17-l1-w4", "target": "o școală", "native": "škola", "note": "școala = ta škola; množné číslo: școli. La școală = ve škole i do školy. Čte se „ŠKOA-lă“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u17-l1-w5", "target": "pe vremuri", "native": "kdysi; za starých časů", "note": "Doslova „za časů“. Vreme je slovanské slovo, jako ruské „vremja“. Čte se „pe VRE-mur“.", "reviewed": false },
+        { "id": "u17-l1-w6", "target": "de obicei", "native": "obvykle", "note": "Obicei = zvyk, jako české „obyčej“. Čte se „de o-bi-ČEJ“.", "reviewed": false },
+        { "id": "u17-l1-w7", "target": "mereu", "native": "pořád; vždycky", "note": "Eram mereu acasă. = Byl(a) jsem pořád doma. Čte se „me-REU“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l1-e1", "type": "choice", "question": "o copilărie", "questionLang": "target", "options": ["dětství", "vesnice", "škola"], "answer": "dětství", "reviewed": false },
+        { "id": "u17-l1-e2", "type": "choice", "question": "obvykle", "questionLang": "native", "options": ["de obicei", "mereu", "pe vremuri"], "answer": "de obicei", "reviewed": false },
+        { "id": "u17-l1-e3", "type": "match", "pairs": [
+          { "target": "un sat", "native": "vesnice" },
+          { "target": "o școală", "native": "škola" },
+          { "target": "pe vremuri", "native": "kdysi" },
+          { "target": "mereu", "native": "pořád" }
+        ], "reviewed": false },
+        { "id": "u17-l1-e4", "type": "listen", "audio": "eram", "options": ["eram", "era", "erau"], "answer": "eram", "reviewed": false },
+        { "id": "u17-l1-e5", "type": "listen", "audio": "În copilărie, eram mereu la țară.", "options": ["V dětství jsem byl(a) pořád na venkově.", "V dětství jsem byl(a) pořád u moře.", "V dětství jsem byl(a) pořád na horách."], "answer": "V dětství jsem byl(a) pořád na venkově.", "reviewed": false },
+        { "id": "u17-l1-e6", "type": "fill", "sentence": "Pe vremuri, satul ___ mic.", "translation": "Kdysi byla vesnice malá.", "options": ["era", "eram", "erau"], "answer": "era", "explain": "Vesnice je jedna, proto era (byla); eram = byl(a) jsem, erau = byli.", "reviewed": false },
+        { "id": "u17-l1-e7", "type": "fill", "sentence": "Bunicul ___ o casă la țară.", "translation": "Dědeček měl dům na venkově.", "options": ["avea", "aveam", "aveau"], "answer": "avea", "explain": "Dědeček = on, proto avea (měl); aveam = měl(a) jsem.", "reviewed": false },
+        { "id": "u17-l1-e8", "type": "type", "question": "obvykle", "answer": "de obicei", "reviewed": false },
+        { "id": "u17-l1-e9", "type": "build", "question": "Kdysi byla škola ve vesnici.", "answer": "Pe vremuri, școala era în sat.", "extra": ["eram"], "reviewed": false },
+        { "id": "u17-l1-e10", "type": "speak", "text": "Pe vremuri, școala era mică.", "native": "Kdysi byla škola malá.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l2",
+      "title": "Moje babička vařila",
+      "titleTarget": "Bunica mea gătea",
+      "reviewed": false,
+      "tip": {
+        "title": "Co se dělo pravidelně",
+        "text": "Tento minulý čas se tvoří pravidelně. Slovesa na -a přidají ke kmeni -am, -ai, -a…: a lucra – lucram (pracoval(a) jsem), lucra (pracoval, pracovala). Ostatní slovesa přidají -eam, -eai, -ea…: a găti – găteam, gătea (vařila); a merge – mergeam, mergea. Používá se pro to, co se dělo pravidelně nebo dlouho – kde česky řeknete nedokonavé sloveso: Bunica gătea în fiecare duminică. (Babička vařila každou neděli.) Pro jednu hotovou věc zůstává am gătit (uvařil(a) jsem).",
+        "examples": [
+          { "target": "Bunica gătea în fiecare duminică.", "native": "Babička vařila každou neděli." },
+          { "target": "Mă jucam în curte cu fratele meu.", "native": "Hrál(a) jsem si na dvoře s bratrem." },
+          { "target": "Mergeam la fântână după apă.", "native": "Chodil(a) jsem ke studni pro vodu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l2-w1", "target": "a crește", "native": "růst; vyrůstat", "note": "eu cresc, el crește. Am crescut la țară. = Vyrostl(a) jsem na venkově. Také vychovávat děti a chovat zvířata. Čte se „a KREŠ-te“.", "reviewed": false },
+        { "id": "u17-l2-w2", "target": "a se juca", "native": "hrát si", "note": "eu mă joc, tu te joci, el se joacă; dřív: mă jucam. Čte se „a se žu-KA“.", "reviewed": false },
+        { "id": "u17-l2-w3", "target": "a ajuta", "native": "pomáhat; pomoct", "note": "eu ajut, el ajută; dřív: ajutam. Čte se „a a-žu-TA“.", "reviewed": false },
+        { "id": "u17-l2-w4", "target": "o vacă", "native": "kráva", "note": "vaca = ta kráva; množné číslo: vaci. Čte se „VA-kă“.", "reviewed": false },
+        { "id": "u17-l2-w5", "target": "o curte", "native": "dvůr", "note": "curtea = ten dvůr; množné číslo: curți. În curte = na dvoře. Pozor: ženský rod.", "reviewed": false },
+        { "id": "u17-l2-w6", "target": "o fântână", "native": "studna", "note": "fântâna = ta studna; množné číslo: fântâni. Ve městě také kašna. Čte se „fyn-TY-nă“.", "reviewed": false },
+        { "id": "u17-l2-w7", "target": "un cuptor", "native": "trouba; pec", "note": "cuptorul = ta trouba; množné číslo: cuptoare (střední rod). Venkovská pec i trouba v kuchyni. Čte se „kup-TOR“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l2-e1", "type": "choice", "question": "o fântână", "questionLang": "target", "options": ["studna", "dvůr", "kráva"], "answer": "studna", "reviewed": false },
+        { "id": "u17-l2-e2", "type": "choice", "question": "hrát si", "questionLang": "native", "options": ["a se juca", "a ajuta", "a crește"], "answer": "a se juca", "reviewed": false },
+        { "id": "u17-l2-e3", "type": "match", "pairs": [
+          { "target": "o vacă", "native": "kráva" },
+          { "target": "o curte", "native": "dvůr" },
+          { "target": "un cuptor", "native": "trouba; pec" },
+          { "target": "a ajuta", "native": "pomáhat" }
+        ], "reviewed": false },
+        { "id": "u17-l2-e4", "type": "listen", "audio": "Bunica gătea în fiecare duminică.", "options": ["Babička vařila každou neděli.", "Dědeček vařil každou sobotu.", "Babička vaří každou neděli."], "answer": "Babička vařila každou neděli.", "reviewed": false },
+        { "id": "u17-l2-e5", "type": "listen", "audio": "Mă jucam în curte.", "options": ["Mă jucam în curte.", "Mă joc în curte.", "Mă jucam în casă."], "answer": "Mă jucam în curte.", "reviewed": false },
+        { "id": "u17-l2-e6", "type": "fill", "sentence": "În copilărie mă ___ în curte.", "translation": "V dětství jsem si hrál(a) na dvoře.", "options": ["jucam", "jucai", "jucați"], "answer": "jucam", "explain": "K mă patří tvar pro „já“: mă jucam. Jucai patří k te (te jucai), jucați k vă.", "reviewed": false },
+        { "id": "u17-l2-e7", "type": "fill", "sentence": "Bunica ___ în fiecare zi.", "translation": "Babička vařila každý den.", "options": ["gătea", "găteam", "găteau"], "answer": "gătea", "explain": "Babička = ona, proto gătea; găteam = vařil(a) jsem, găteau = vařili.", "reviewed": false },
+        { "id": "u17-l2-e8", "type": "type", "question": "Babička měla krávu.", "answer": "Bunica avea o vacă.", "reviewed": false },
+        { "id": "u17-l2-e9", "type": "build", "question": "Babička pekla chleba v peci.", "answer": "Bunica făcea pâine în cuptor.", "extra": ["făceam"], "reviewed": false },
+        { "id": "u17-l2-e10", "type": "speak", "text": "Bunica gătea foarte bine.", "native": "Babička vařila moc dobře.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u17-l3",
+      "title": "Tehdy a dnes",
+      "titleTarget": "Atunci și acum",
+      "reviewed": false,
+      "tip": {
+        "title": "Atunci a acum",
+        "text": "Když srovnáváte dřív a dnes, pomohou dvě slova: atunci (tehdy) a acum (teď). Atunci se často pojí se vzpomínkovým časem: Atunci nu aveam telefon. (Tehdy jsem neměl(a) telefon.) Acum stojí s přítomným časem: Acum am telefon. „Dnes“ se řekne azi nebo astăzi – je to totéž slovo, astăzi je jen o něco formálnější. Hodí se i totul (všechno) a altfel (jinak): Totul s-a schimbat. (Všechno se změnilo.)",
+        "examples": [
+          { "target": "Atunci nu aveam telefon.", "native": "Tehdy jsem neměl(a) telefon." },
+          { "target": "Înainte era altfel.", "native": "Dřív to bylo jinak." },
+          { "target": "Astăzi totul s-a schimbat.", "native": "Dnes se všechno změnilo." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u17-l3-w1", "target": "atunci", "native": "tehdy; pak", "note": "Čte se „a-TUNČ“, koncové i je skoro neslyšné.", "reviewed": false },
+        { "id": "u17-l3-w2", "target": "acum", "native": "teď; nyní", "note": "Také „před“: acum doi ani = před dvěma lety. Čte se „a-KUM“.", "reviewed": false },
+        { "id": "u17-l3-w3", "target": "demult", "native": "dávno", "note": "Píše se dohromady. Odděleně de mult = dlouho: Lucrez aici de mult. = Pracuji tu dlouho. Čte se „de-MULT“.", "reviewed": false },
+        { "id": "u17-l3-w4", "target": "s-a schimbat", "native": "změnil se; změnilo se", "note": "Od a se schimba (měnit se). Stejný tvar pro všechny rody: satul s-a schimbat, casa s-a schimbat. Čte se „sa skim-BAT“.", "reviewed": false },
+        { "id": "u17-l3-w5", "target": "înainte", "native": "dřív", "note": "Znáte z drept înainte (rovně) – samo znamená i „vpředu“. Înainte era altfel. = Dřív to bylo jinak. Čte se „y-na-IN-te“.", "reviewed": false },
+        { "id": "u17-l3-w6", "target": "astăzi", "native": "dnes; v dnešní době", "note": "Totéž co azi, jen o něco formálnější; často ve smyslu „v dnešní době“. Čte se „as-TĂZ“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u17-l3-e1", "type": "choice", "question": "demult", "questionLang": "target", "options": ["dávno", "teď; nyní", "tehdy; pak"], "answer": "dávno", "reviewed": false },
+        { "id": "u17-l3-e2", "type": "choice", "question": "teď; nyní", "questionLang": "native", "options": ["acum", "atunci", "înainte"], "answer": "acum", "reviewed": false },
+        { "id": "u17-l3-e3", "type": "match", "pairs": [
+          { "target": "atunci", "native": "tehdy" },
+          { "target": "acum", "native": "teď" },
+          { "target": "înainte", "native": "dřív" },
+          { "target": "demult", "native": "dávno" }
+        ], "reviewed": false },
+        { "id": "u17-l3-e4", "type": "listen", "audio": "Totul s-a schimbat.", "options": ["Všechno se změnilo.", "Nic se nezměnilo.", "Všechno je nové."], "answer": "Všechno se změnilo.", "reviewed": false },
+        { "id": "u17-l3-e5", "type": "listen", "audio": "Înainte era altfel.", "options": ["Înainte era altfel.", "Acum e altfel.", "Atunci era frumos."], "answer": "Înainte era altfel.", "reviewed": false },
+        { "id": "u17-l3-e6", "type": "fill", "sentence": "Atunci eu nu ___ telefon.", "translation": "Tehdy jsem neměl(a) telefon.", "options": ["aveam", "avea", "aveau"], "answer": "aveam", "explain": "Eu (já) = aveam; avea patří k on/ona, aveau k oni.", "reviewed": false },
+        { "id": "u17-l3-e7", "type": "fill", "sentence": "Satul s-a ___ mult.", "translation": "Vesnice se hodně změnila.", "options": ["schimbat", "schimba", "schimbă"], "answer": "schimbat", "explain": "Minulý čas: s-a + příčestí, tedy s-a schimbat.", "reviewed": false },
+        { "id": "u17-l3-e8", "type": "type", "question": "Dnes je neděle.", "answer": "Astăzi e duminică.", "accept": ["Azi e duminică.", "Astăzi este duminică.", "Azi este duminică."], "reviewed": false },
+        { "id": "u17-l3-e9", "type": "build", "question": "Dřív byla vesnice malá, teď je velká.", "answer": "Înainte satul era mic, acum e mare.", "extra": ["eram"], "reviewed": false },
+        { "id": "u17-l3-e10", "type": "build", "question": "Tehdy jsem chodil(a) do školy pěšky.", "answer": "Atunci mergeam la școală pe jos.", "extra": ["am"], "reviewed": false }
+      ]
+    }
+  ]
+}

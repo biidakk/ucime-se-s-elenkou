@@ -1,0 +1,142 @@
+{
+  "id": "u11",
+  "level": "A2",
+  "title": "Zdraví",
+  "titleTarget": "Sănătatea",
+  "description": "Části těla, co vás bolí, jak je vám a co říká lékař a lékárník.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "title": "Tělo",
+      "titleTarget": "Corpul",
+      "reviewed": false,
+      "tip": {
+        "title": "Bolí mě hlava: Mă doare capul",
+        "text": "Tady to jde skoro jako v češtině: Mă doare capul. = Bolí mě hlava. Mă = mě, doare = bolí. Rozdíl je jen jeden: rumunsky neříkáte „moje hlava“, ale „ta hlava“ – část těla dostane člen na konci: cap → capul. Když bolí víc věcí, je sloveso v množném čísle: Mă dor picioarele. = Bolí mě nohy. Při vykání se lékař zeptá: Ce vă doare? (Co vás bolí?)",
+        "examples": [
+          { "target": "Mă doare capul.", "native": "Bolí mě hlava." },
+          { "target": "Mă doare spatele.", "native": "Bolí mě záda." },
+          { "target": "Mă dor picioarele.", "native": "Bolí mě nohy." },
+          { "target": "Ce vă doare?", "native": "Co vás bolí?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l1-w1", "target": "un cap", "native": "hlava", "note": "capul = ta hlava; množné číslo: capete.", "reviewed": false },
+        { "id": "u11-l1-w2", "target": "o mână", "native": "ruka", "note": "mâna = ta ruka; množné číslo: mâini. Čte se „MY-nă“.", "reviewed": false },
+        { "id": "u11-l1-w3", "target": "un picior", "native": "noha", "note": "piciorul = ta noha; množné číslo: picioare. Čte se „pi-ČOR“.", "reviewed": false },
+        { "id": "u11-l1-w4", "target": "un ochi", "native": "oko", "note": "ochiul = to oko; množné číslo: ochi. Čte se skoro „ok“ (ch = k, koncové i skoro neslyšné).", "reviewed": false },
+        { "id": "u11-l1-w5", "target": "un gât", "native": "krk", "note": "gâtul = ten krk; množné číslo: gâturi. Čte se „gyt“. Mă doare gâtul. = Bolí mě v krku.", "reviewed": false },
+        { "id": "u11-l1-w6", "target": "un spate", "native": "záda", "note": "spatele = ta záda. Česky množné číslo, rumunsky jednotné: Mă doare spatele.", "reviewed": false },
+        { "id": "u11-l1-w7", "target": "o burtă", "native": "břicho", "note": "burta = to břicho; množné číslo: burți. Mă doare burta. = Bolí mě břicho.", "reviewed": false },
+        { "id": "u11-l1-w8", "target": "un dinte", "native": "zub", "note": "dintele = ten zub; množné číslo: dinți.", "reviewed": false },
+        { "id": "u11-l1-w9", "target": "Mă doare", "native": "bolí mě", "note": "Když bolí víc věcí: Mă dor. Čte se „mă DOA-re“, oa je jedna slabika.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l1-e1", "type": "choice", "question": "un ochi", "questionLang": "target", "options": ["oko", "ruka", "zub"], "answer": "oko", "reviewed": false },
+        { "id": "u11-l1-e2", "type": "choice", "question": "záda", "questionLang": "native", "options": ["un spate", "o burtă", "un gât"], "answer": "un spate", "reviewed": false },
+        { "id": "u11-l1-e3", "type": "match", "pairs": [
+          { "target": "o mână", "native": "ruka" },
+          { "target": "un picior", "native": "noha" },
+          { "target": "un gât", "native": "krk" },
+          { "target": "un dinte", "native": "zub" }
+        ], "reviewed": false },
+        { "id": "u11-l1-e4", "type": "listen", "audio": "Mă doare capul.", "options": ["Bolí mě hlava.", "Bolí mě břicho.", "Bolí mě záda."], "answer": "Bolí mě hlava.", "reviewed": false },
+        { "id": "u11-l1-e5", "type": "listen", "audio": "Mă dor picioarele.", "options": ["Mă dor picioarele.", "Mă doare piciorul.", "Mă doare spatele."], "answer": "Mă dor picioarele.", "reviewed": false },
+        { "id": "u11-l1-e6", "type": "fill", "sentence": "Mă ___ picioarele.", "translation": "Bolí mě nohy.", "options": ["dor", "doare", "durere"], "answer": "dor", "explain": "Picioarele (nohy) je množné číslo, proto mă dor; u jedné věci mă doare.", "reviewed": false },
+        { "id": "u11-l1-e7", "type": "fill", "sentence": "Mă doare ___.", "translation": "Bolí mě hlava.", "options": ["capul", "cap", "capului"], "answer": "capul", "explain": "Část těla dostane člen na konci: capul, doslova „ta hlava“.", "reviewed": false },
+        { "id": "u11-l1-e8", "type": "type", "question": "Bolí mě záda.", "answer": "Mă doare spatele.", "reviewed": false },
+        { "id": "u11-l1-e9", "type": "build", "question": "Dnes mě bolí zub.", "answer": "Azi mă doare un dinte.", "extra": ["dor"], "accept": ["Mă doare un dinte azi."], "reviewed": false },
+        { "id": "u11-l1-e10", "type": "speak", "text": "Mă doare gâtul.", "native": "Bolí mě v krku.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "title": "U lékaře",
+      "titleTarget": "La medic",
+      "reviewed": false,
+      "tip": {
+        "title": "Je mi zima: Mi-e frig",
+        "text": "Tady se rumunština chová jako čeština. Česky říkáme „je mi zima“, ne „jsem zima“. Rumunsky stejně: Mi-e frig. Mi = mi, e = je. Mi-e se čte jako jedna slabika „mje“. Jen hlad a žízeň jsou jinak: česky „mám hlad“, rumunsky „je mi hlad“ – Mi-e foame. Mi-e rău znamená „je mi zle“; nepleťte si to s Îmi pare rău (je mi líto). Horečku a kašel ale „máte“ jako česky: Am febră. Am tuse.",
+        "examples": [
+          { "target": "Mi-e frig.", "native": "Je mi zima." },
+          { "target": "Mi-e foame și mi-e sete.", "native": "Mám hlad a žízeň." },
+          { "target": "Domnule doctor, mi-e rău.", "native": "Pane doktore, je mi zle." },
+          { "target": "Am febră și tuse.", "native": "Mám horečku a kašel." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l2-w1", "target": "un medic", "native": "lékař", "note": "medicul = ten lékař; množné číslo: medici. Běžně se říká i doctor; oslovení: Domnule doctor!", "reviewed": false },
+        { "id": "u11-l2-w2", "target": "febră", "native": "horečka", "note": "febra = ta horečka. Obvykle bez „o“: Am febră. = Mám horečku.", "reviewed": false },
+        { "id": "u11-l2-w3", "target": "tuse", "native": "kašel", "note": "tusea = ten kašel. Obvykle bez „o“: Am tuse. = Mám kašel.", "reviewed": false },
+        { "id": "u11-l2-w4", "target": "o răceală", "native": "nachlazení", "note": "răceala = to nachlazení; množné číslo: răceli. Am o răceală. = Mám nachlazení. Čte se „ră-ČEA-lă“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u11-l2-w5", "target": "Mi-e rău.", "native": "je mi zle", "note": "Čte se „mje răw“. Neplést s Îmi pare rău. = Je mi líto.", "reviewed": false },
+        { "id": "u11-l2-w6", "target": "Mi-e frig.", "native": "je mi zima", "note": "Opak: Mi-e cald. = Je mi teplo.", "reviewed": false },
+        { "id": "u11-l2-w7", "target": "Mi-e foame.", "native": "mám hlad", "note": "Doslova „je mi hlad“. Čte se „mje FOA-me“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u11-l2-w8", "target": "Mi-e sete.", "native": "mám žízeň", "note": "Doslova „je mi žízeň“. Čte se „mje SE-te“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l2-e1", "type": "choice", "question": "Mi-e frig.", "questionLang": "target", "options": ["je mi zima", "je mi zle", "mám hlad"], "answer": "je mi zima", "reviewed": false },
+        { "id": "u11-l2-e2", "type": "choice", "question": "nachlazení", "questionLang": "native", "options": ["o răceală", "tuse", "febră"], "answer": "o răceală", "reviewed": false },
+        { "id": "u11-l2-e3", "type": "match", "pairs": [
+          { "target": "un medic", "native": "lékař" },
+          { "target": "febră", "native": "horečka" },
+          { "target": "tuse", "native": "kašel" },
+          { "target": "Mi-e sete.", "native": "mám žízeň" }
+        ], "reviewed": false },
+        { "id": "u11-l2-e4", "type": "listen", "audio": "Mi-e foame.", "options": ["Mi-e foame.", "Mi-e frig.", "Mi-e sete."], "answer": "Mi-e foame.", "reviewed": false },
+        { "id": "u11-l2-e5", "type": "listen", "audio": "Am febră și tuse.", "options": ["Mám horečku a kašel.", "Mám hlad a žízeň.", "Bolí mě hlava a záda."], "answer": "Mám horečku a kašel.", "reviewed": false },
+        { "id": "u11-l2-e6", "type": "fill", "sentence": "___ febră și tuse.", "translation": "Mám horečku a kašel.", "options": ["Am", "Sunt", "Mi-e"], "answer": "Am", "explain": "Horečku a kašel „máte“ jako česky: am febră, am tuse.", "reviewed": false },
+        { "id": "u11-l2-e7", "type": "fill", "sentence": "Am o ___ și mă doare capul.", "translation": "Mám nachlazení a bolí mě hlava.", "options": ["răceală", "răceli", "răceala"], "answer": "răceală", "explain": "Po o stojí tvar bez členu v jednotném čísle: o răceală.", "reviewed": false },
+        { "id": "u11-l2-e8", "type": "type", "question": "Mám hlad.", "answer": "Mi-e foame.", "reviewed": false },
+        { "id": "u11-l2-e9", "type": "build", "question": "Je mi zima a mám hlad.", "answer": "Mi-e frig și mi-e foame.", "extra": ["sunt"], "reviewed": false },
+        { "id": "u11-l2-e10", "type": "speak", "text": "Domnule doctor, mi-e rău.", "native": "Pane doktore, je mi zle.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "title": "V lékárně",
+      "titleTarget": "La farmacie",
+      "reviewed": false,
+      "tip": {
+        "title": "Luați! – Nu uita!",
+        "text": "Lékař i lékárník vám vykají, takže uslyšíte rozkaz na -ți: Luați o pastilă! (Vezměte si tabletu!) Zápor je při vykání snadný: nu + stejný tvar, Nu uitați! (Nezapomeňte!) Při tykání je to jinak: zápor se tvoří z neurčitku bez „a“: a uita → Nu uita! (Nezapomeň!), a fuma → Nu fuma! (Nekuř!). Znáte to i z češtiny, z cedulí: „Nekouřit!“",
+        "examples": [
+          { "target": "Luați o pastilă de trei ori pe zi.", "native": "Berte jednu tabletu třikrát denně." },
+          { "target": "Nu uitați rețeta!", "native": "Nezapomeňte recept!" },
+          { "target": "Nu fuma!", "native": "Nekuř!" },
+          { "target": "Nu uita pastilele!", "native": "Nezapomeň na prášky!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u11-l3-w1", "target": "o pastilă", "native": "tableta; prášek", "note": "pastila = ta tableta; množné číslo: pastile. Čte se „pas-TI-lă“.", "reviewed": false },
+        { "id": "u11-l3-w2", "target": "o rețetă", "native": "recept", "note": "rețeta = ten recept; množné číslo: rețete. Od lékaře i na vaření. Čte se „re-CE-tă“.", "reviewed": false },
+        { "id": "u11-l3-w3", "target": "de trei ori pe zi", "native": "třikrát denně", "note": "ori = krát, pe zi = za den. Dvakrát denně: de două ori pe zi.", "reviewed": false },
+        { "id": "u11-l3-w4", "target": "înainte de masă", "native": "před jídlem", "note": "masă = stůl i jídlo. Čte se „y-na-IN-te de MA-să“.", "reviewed": false },
+        { "id": "u11-l3-w5", "target": "după masă", "native": "po jídle", "note": "Se spojovníkem, după-masă, to znamená „odpoledne“.", "reviewed": false },
+        { "id": "u11-l3-w6", "target": "Luați!", "native": "vezměte si; berte", "note": "Rozkaz při vykání, od a lua (vzít). Čte se „lu-AC“. Při tykání: Ia!", "reviewed": false },
+        { "id": "u11-l3-w7", "target": "Nu uitați!", "native": "nezapomeňte", "note": "Od a uita (zapomenout). Při tykání: Nu uita! Čte se „nu uj-TAC“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u11-l3-e1", "type": "choice", "question": "o rețetă", "questionLang": "target", "options": ["recept", "tableta", "lékárna"], "answer": "recept", "reviewed": false },
+        { "id": "u11-l3-e2", "type": "choice", "question": "třikrát denně", "questionLang": "native", "options": ["de trei ori pe zi", "trei zile", "de trei ori pe săptămână"], "answer": "de trei ori pe zi", "reviewed": false },
+        { "id": "u11-l3-e3", "type": "match", "pairs": [
+          { "target": "o pastilă", "native": "tableta" },
+          { "target": "înainte de masă", "native": "před jídlem" },
+          { "target": "după masă", "native": "po jídle" },
+          { "target": "Nu uitați!", "native": "nezapomeňte" }
+        ], "reviewed": false },
+        { "id": "u11-l3-e4", "type": "listen", "audio": "Luați o pastilă după masă.", "options": ["Vezměte si tabletu po jídle.", "Vezměte si tabletu před jídlem.", "Nezapomeňte recept."], "answer": "Vezměte si tabletu po jídle.", "reviewed": false },
+        { "id": "u11-l3-e5", "type": "listen", "audio": "Nu uitați rețeta!", "options": ["Nu uitați rețeta!", "Nu uita rețeta!", "Luați rețeta!"], "answer": "Nu uitați rețeta!", "reviewed": false },
+        { "id": "u11-l3-e6", "type": "fill", "sentence": "Luați o pastilă de trei ___ pe zi.", "translation": "Berte jednu tabletu třikrát denně.", "options": ["ori", "oră", "ora"], "answer": "ori", "explain": "„Krát“ se řekne ori: de două ori, de trei ori.", "reviewed": false },
+        { "id": "u11-l3-e7", "type": "fill", "sentence": "Mihai, nu ___ pastilele!", "translation": "Mihai, nezapomeň na prášky!", "options": ["uita", "uitat", "uitând"], "answer": "uita", "explain": "Zápor při tykání: nu + neurčitek bez a, tedy nu uita.", "reviewed": false },
+        { "id": "u11-l3-e8", "type": "type", "question": "Nezapomeňte!", "answer": "Nu uitați!", "reviewed": false },
+        { "id": "u11-l3-e9", "type": "build", "question": "Vezměte si jednu tabletu před jídlem.", "answer": "Luați o pastilă înainte de masă.", "extra": ["luat"], "reviewed": false },
+        { "id": "u11-l3-e10", "type": "choice", "question": "Nu fuma!", "questionLang": "target", "options": ["Nekuř!", "Kuř!", "Nekouřím."], "answer": "Nekuř!", "reviewed": false }
+      ]
+    }
+  ]
+}

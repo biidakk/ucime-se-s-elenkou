@@ -2,7 +2,7 @@
 
 > **Generovaný soubor, needitujte ho ručně.** Vzniká z JSON souborů v `/content` příkazem `npm run review`.
 
-**Zkontrolováno: 0 / 631 položek.**
+**Zkontrolováno: 0 / 1268 položek.**
 
 ## [ ] Kapitola 1: Pozdravy (Hallo!) · A1
 
@@ -1155,3 +1155,1151 @@ Soubor: `content/cs-de/unit10-wochenende.json` · ID: `u10` · Popis: Vyprávěn
 - [ ] `u10-l3-e8` *Skládání věty* — Byla to krásná oslava. → ✔ **Das war ein schönes Fest.** (chybné dílky: „hatte“)
 - [ ] `u10-l3-e9` *Poslech* — 🔊 zazní: **Wie war das Wochenende?** — možnosti: „Jaký byl víkend?“, „Co děláte o víkendu?“, „Kdy je víkend?“ — ✔ **Jaký byl víkend?**
 - [ ] `u10-l3-e10` *Mluvení* — 🎤 **Herzlichen Glückwunsch!** — Všechno nejlepší!
+
+## [ ] Kapitola 11: Dárky (Geschenke) · A2
+
+Soubor: `content/cs-de/unit11-geschenke.json` · ID: `u11` · Popis: Komu co dáváte, co se Vám líbí a s kým přijdete na návštěvu: 3. pád (Dativ).
+
+### [ ] 11.1: Dárky pro rodinu (Geschenke für die Familie) · `u11-l1`
+
+**[ ] Tip: Komu? Dativ jako 3. pád**
+
+> Na otázku „komu?“ odpovídá čeština 3. pádem (dávám babičce), němčina Dativem. Česky se mění konec slova, německy hlavně člen: der → dem, die → der, das → dem. Stejně mein: meinem (der, das), meiner (die). V množném čísle je den a slovo dostane -n: den Kindern. Bez správného členu Němec nepozná, komu co dáváte. Pořadí: nejdřív komu, potom co.
+>
+> - **Ich schenke meiner Großmutter Blumen.** — Dám babičce květiny.
+> - **Wir geben dem Kind einen Apfel.** — Dáme dítěti jablko.
+> - **Die Tochter zeigt dem Vater die Wohnung.** — Dcera ukazuje otci byt.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l1-w1` | **das Geschenk** | dárek | množné číslo: die Geschenke |
+| [ ] | `u11-l1-w2` | **die Blume** | květina | množné číslo: die Blumen |
+| [ ] | `u11-l1-w3` | **schenken** | darovat | Komu = 3. pád: Ich schenke dem Vater … ; příčestí: geschenkt |
+| [ ] | `u11-l1-w4` | **geben** | dát; dávat | du gibst, er gibt; příčestí: gegeben |
+| [ ] | `u11-l1-w5` | **zeigen** | ukázat; ukazovat | z = c, ei = aj: [CAJ-gen] |
+| [ ] | `u11-l1-w6` | **die Großmutter** | babička | Hovorově die Oma; množné číslo: die Großmütter |
+| [ ] | `u11-l1-w7` | **der Großvater** | dědeček | Hovorově der Opa; množné číslo: die Großväter |
+| [ ] | `u11-l1-w8` | **der Enkel** | vnuk | množné číslo: die Enkel |
+| [ ] | `u11-l1-w9` | **die Enkelin** | vnučka | množné číslo: die Enkelinnen |
+
+**Cvičení**
+
+- [ ] `u11-l1-e1` *Výběr* — **das Geschenk** — možnosti: „dárek“, „květina“, „vnuk“ — ✔ **dárek**
+- [ ] `u11-l1-e2` *Výběr* — **babička** — možnosti: „die Großmutter“, „der Großvater“, „die Enkelin“ — ✔ **die Großmutter**
+- [ ] `u11-l1-e3` *Dvojice* — **schenken** = darovat · **geben** = dát · **zeigen** = ukázat · **der Enkel** = vnuk · **die Blume** = květina
+- [ ] `u11-l1-e4` *Poslech* — 🔊 zazní: **Ich schenke meiner Großmutter Blumen.** — možnosti: „Ich schenke meiner Großmutter Blumen.“, „Ich schenke meinem Großvater Blumen.“, „Ich zeige meiner Großmutter die Blumen.“ — ✔ **Ich schenke meiner Großmutter Blumen.**
+- [ ] `u11-l1-e5` *Doplňování* — **Wir geben ___ Kind einen Apfel.** (Dáme dítěti jablko.) — možnosti: „dem“, „der“, „das“ — ✔ **dem** — vysvětlení: Komu? → 3. pád: das Kind → dem Kind.
+- [ ] `u11-l1-e6` *Doplňování* — **Der Enkel zeigt ___ Großmutter den Garten.** (Vnuk ukazuje babičce zahradu.) — možnosti: „der“, „die“, „dem“ — ✔ **der** — vysvětlení: Komu? → 3. pád: die Großmutter → der Großmutter.
+- [ ] `u11-l1-e7` *Psaní* — **vnučka** → ✔ **die Enkelin**
+- [ ] `u11-l1-e8` *Skládání věty* — Dávám dědečkovi dárek. → ✔ **Ich gebe dem Großvater ein Geschenk.** (chybné dílky: „den“) (uznává se i: „Dem Großvater gebe ich ein Geschenk.“, „Ein Geschenk gebe ich dem Großvater.“)
+- [ ] `u11-l1-e9` *Poslech* — 🔊 zazní: **Was schenken wir der Enkelin?** — možnosti: „Co dáme vnučce?“, „Co dáme vnukovi?“, „Co dáme babičce?“ — ✔ **Co dáme vnučce?**
+- [ ] `u11-l1-e10` *Výběr* — Vyberte správnou větu **Ukazuji synovi byt.** — možnosti: „Ich zeige dem Sohn die Wohnung.“, „Ich zeige der Sohn die Wohnung.“, „Ich zeige den Sohn die Wohnung.“ — ✔ **Ich zeige dem Sohn die Wohnung.**
+
+### [ ] 11.2: Líbí se mi to (Das gefällt mir) · `u11-l2`
+
+**[ ] Tip: Mir, dir, ihm, ihr**
+
+> Zájmena ve 3. pádě: mir = mi, mně; dir = ti, tobě; ihm = mu, jemu; ihr = jí. Ihnen = Vám už znáte z „Wie geht es Ihnen?“. Některá slovesa chtějí 3. pád stejně jako česky: helfen (pomáhat komu), gefallen (líbit se komu), schmecken (chutnat komu), gehören (patřit komu). Pozor na „je mi zima“: i německy 3. pád, Mir ist kalt. „Ich bin kalt“ by znamenalo, že jste studení na dotek nebo chladní povahou.
+>
+> - **Das Geschenk gefällt mir.** — Dárek se mi líbí.
+> - **Ich helfe meiner Mutter.** — Pomáhám mamince.
+> - **Schmeckt es Ihnen?** — Chutná Vám?
+> - **Mir ist kalt.** — Je mi zima.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l2-w1` | **helfen** | pomáhat; pomoct | Komu = 3. pád jako česky: Ich helfe dir. du hilfst, er hilft |
+| [ ] | `u11-l2-w2` | **gefallen** | líbit se | Das gefällt mir. = To se mi líbí. Přízvuk: ge-FA-len |
+| [ ] | `u11-l2-w3` | **schmecken** | chutnat | Schmeckt es Ihnen? = Chutná Vám? |
+| [ ] | `u11-l2-w4` | **gehören** | patřit | Das gehört mir. = To patří mně. Přízvuk: ge-HÖ-ren |
+| [ ] | `u11-l2-w5` | **mir** | mi; mně | 3. pád od ich |
+| [ ] | `u11-l2-w6` | **dir** | ti; tobě | 3. pád od du |
+| [ ] | `u11-l2-w7` | **ihm** | mu; jemu | 3. pád od er i es; čte se [ím] |
+| [ ] | `u11-l2-w8` | **ihr** | jí | 3. pád od sie = ona; čte se [ía]. Pozor, ihr znamená také „vy“ a „její“. |
+| [ ] | `u11-l2-w9` | **Mir ist kalt** | je mi zima | Ne „Ich bin kalt“. Také: Mir ist warm. = Je mi teplo. |
+
+**Cvičení**
+
+- [ ] `u11-l2-e1` *Výběr* — **gefallen** — možnosti: „líbit se“, „chutnat“, „patřit“ — ✔ **líbit se**
+- [ ] `u11-l2-e2` *Výběr* — **patřit** — možnosti: „gehören“, „helfen“, „schmecken“ — ✔ **gehören**
+- [ ] `u11-l2-e3` *Dvojice* — **mir** = mi · **dir** = ti · **ihm** = mu · **ihr** = jí · **schmecken** = chutnat
+- [ ] `u11-l2-e4` *Poslech* — 🔊 zazní: **Mir ist kalt.** — možnosti: „Mir ist kalt.“, „Mir ist warm.“, „Ihr ist kalt.“ — ✔ **Mir ist kalt.**
+- [ ] `u11-l2-e5` *Doplňování* — **Das Kleid gefällt ___.** (Šaty se mi líbí.) — možnosti: „mir“, „ich“, „mich“ — ✔ **mir** — vysvětlení: gefallen chce 3. pád jako česky „líbí se mi“: mir.
+- [ ] `u11-l2-e6` *Doplňování* — **Ich helfe ___ Vater im Garten.** (Pomáhám otci na zahradě.) — možnosti: „meinem“, „meinen“, „mein“ — ✔ **meinem** — vysvětlení: helfen chce 3. pád jako česky „pomáhat komu“: der Vater → meinem Vater.
+- [ ] `u11-l2-e7` *Psaní* — **To se mi líbí.** → ✔ **Das gefällt mir.** (uznává se i: „Mir gefällt das.“, „Es gefällt mir.“)
+- [ ] `u11-l2-e8` *Skládání věty* — Babičce chutná dort. → ✔ **Meiner Großmutter schmeckt die Torte.** (chybné dílky: „meinem“) (uznává se i: „Die Torte schmeckt meiner Großmutter.“)
+- [ ] `u11-l2-e9` *Poslech* — 🔊 zazní: **Können Sie mir helfen?** — možnosti: „Můžete mi pomoct?“, „Můžu Vám pomoct?“, „Můžete mu pomoct?“ — ✔ **Můžete mi pomoct?**
+- [ ] `u11-l2-e10` *Výběr* — Vyberte správnou větu **Je mi zima.** — možnosti: „Mir ist kalt.“, „Ich bin kalt.“, „Mich ist kalt.“ — ✔ **Mir ist kalt.**
+
+### [ ] 11.3: Pozvání (Die Einladung) · `u11-l3`
+
+**[ ] Tip: Mit meiner Tochter**
+
+> Po předložkách mit, bei, zu, von, aus a nach je vždy 3. pád, i když česky bývá jiný pád: mit meiner Tochter = s dcerou, bei meinem Sohn = u syna, zu meiner Tochter = k dceři, von meinem Sohn = od syna. Říká se tedy „mit meiner Tochter“, ne „mit meine Tochter“. Často se člen spojí s předložkou: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom. Se zájmeny: mit mir = se mnou, bei uns = u nás.
+>
+> - **Ich komme mit meiner Tochter.** — Přijdu s dcerou.
+> - **Wir feiern bei meinem Sohn.** — Slavíme u syna.
+> - **Kommen Sie zu uns zum Kaffee!** — Přijďte k nám na kávu!
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u11-l3-w1` | **einladen** | pozvat | Odlučitelné: Ich lade Sie ein. du lädst ein, er lädt ein |
+| [ ] | `u11-l3-w2` | **die Einladung** | pozvání | Danke für die Einladung! množné číslo: die Einladungen |
+| [ ] | `u11-l3-w3` | **der Gast** | host | množné číslo: die Gäste |
+| [ ] | `u11-l3-w4` | **mitbringen** | přinést s sebou | Odlučitelné: Ich bringe Wein mit. příčestí: mitgebracht |
+| [ ] | `u11-l3-w5` | **der Wein** | víno | w = v, ei = aj: [vajn]; množné číslo: die Weine |
+| [ ] | `u11-l3-w6` | **bei** | u | bei uns = u nás; bei dem → beim: beim Arzt = u lékaře |
+| [ ] | `u11-l3-w7` | **mit** | s; se | Vždy 3. pád: mit meinem Mann = s manželem |
+| [ ] | `u11-l3-w8` | **zusammen** | spolu; dohromady | z = c, přízvuk na druhé slabice: [cu-ZA-men] |
+
+**Cvičení**
+
+- [ ] `u11-l3-e1` *Výběr* — **der Gast** — možnosti: „host“, „pozvání“, „víno“ — ✔ **host**
+- [ ] `u11-l3-e2` *Výběr* — **pozvání** — možnosti: „die Einladung“, „der Gast“, „das Geschenk“ — ✔ **die Einladung**
+- [ ] `u11-l3-e3` *Dvojice* — **einladen** = pozvat · **mitbringen** = přinést s sebou · **zusammen** = spolu · **bei** = u · **mit** = s
+- [ ] `u11-l3-e4` *Poslech* — 🔊 zazní: **Danke für die Einladung!** — možnosti: „Danke für die Einladung!“, „Danke für das Geschenk!“, „Danke für die Blumen!“ — ✔ **Danke für die Einladung!**
+- [ ] `u11-l3-e5` *Doplňování* — **Ich komme mit ___ Mann.** (Přijdu s manželem.) — možnosti: „meinem“, „meinen“, „mein“ — ✔ **meinem** — vysvětlení: Po mit je vždy 3. pád: der Mann → mit meinem Mann.
+- [ ] `u11-l3-e6` *Doplňování* — **Ich feiere Weihnachten bei ___ Tochter.** (Vánoce slavím u dcery.) — možnosti: „meiner“, „meine“, „mein“ — ✔ **meiner** — vysvětlení: Po bei je vždy 3. pád: die Tochter → bei meiner Tochter.
+- [ ] `u11-l3-e7` *Psaní* — **víno** → ✔ **der Wein**
+- [ ] `u11-l3-e8` *Skládání věty* — Přineseme víno a koláč. → ✔ **Wir bringen Wein und Kuchen mit.** (chybné dílky: „mitbringen“) (uznává se i: „Wir bringen Kuchen und Wein mit.“, „Wein und Kuchen bringen wir mit.“)
+- [ ] `u11-l3-e9` *Poslech* — 🔊 zazní: **Wir laden Sie zum Geburtstag ein.** — možnosti: „Zveme Vás na narozeniny.“, „Přijdeme k Vám na narozeniny.“, „Slavíme spolu narozeniny.“ — ✔ **Zveme Vás na narozeniny.**
+- [ ] `u11-l3-e10` *Výběr* — Vyberte správnou větu **Jdeme spolu do kina.** — možnosti: „Wir gehen zusammen ins Kino.“, „Wir gehen zusammen in Kino.“, „Wir zusammen gehen ins Kino.“ — ✔ **Wir gehen zusammen ins Kino.**
+
+## [ ] Kapitola 12: Stěhování (Umzug) · A2
+
+Soubor: `content/cs-de/unit12-umzug.json` · ID: `u12` · Popis: Kde co je a kam co dát: na stole a na stůl, liegen a legen, stehen a stellen, nový byt.
+
+### [ ] 12.1: Kde to je? (Wo ist das?) · `u12-l1`
+
+**[ ] Tip: Wo? Auf dem Tisch**
+
+> Na otázku „kde?“ odpovídá němčina po předložkách auf, unter, neben, über, zwischen, in, an, vor a hinter 3. pádem: auf dem Tisch = na stole, unter dem Bett = pod postelí. Česky tu bývá 6., 7. nebo 2. pád (na stole, pod stolem, vedle stolu), německy vždy Dativ: der a das → dem, die → der. Zkráceně: in dem → im, an dem → am. Sloveso říká, jak věc je: liegen (leží), stehen (stojí), hängen (visí). Stejně jako česky: chléb leží, láhev stojí, lampa visí.
+>
+> - **Das Brot liegt auf dem Tisch.** — Chléb leží na stole.
+> - **Die Flasche steht im Schrank.** — Láhev stojí ve skříni.
+> - **Die Lampe hängt über dem Tisch.** — Lampa visí nad stolem.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l1-w1` | **liegen** | ležet | Věc leží naplocho; příčestí: gelegen |
+| [ ] | `u12-l1-w2` | **stehen** | stát | Věc stojí nastojato; příčestí: gestanden |
+| [ ] | `u12-l1-w3` | **hängen** | viset | ä = e; ng zní jako n v „banka“, g se zvlášť nečte |
+| [ ] | `u12-l1-w4` | **auf** | na | Kde? auf dem Tisch = na stole |
+| [ ] | `u12-l1-w5` | **unter** | pod | Kde? unter dem Bett = pod postelí |
+| [ ] | `u12-l1-w6` | **neben** | vedle | Kde? neben dem Sofa = vedle pohovky |
+| [ ] | `u12-l1-w7` | **über** | nad | Kde? über dem Tisch = nad stolem |
+| [ ] | `u12-l1-w8` | **zwischen** | mezi | z = c, sch = š: [CVI-šen] |
+| [ ] | `u12-l1-w9` | **das Regal** | police | Přízvuk: re-GÁL; množné číslo: die Regale |
+
+**Cvičení**
+
+- [ ] `u12-l1-e1` *Výběr* — **unter** — možnosti: „pod“, „nad“, „vedle“ — ✔ **pod**
+- [ ] `u12-l1-e2` *Výběr* — **police** — možnosti: „das Regal“, „der Schrank“, „der Tisch“ — ✔ **das Regal**
+- [ ] `u12-l1-e3` *Dvojice* — **auf** = na · **neben** = vedle · **über** = nad · **zwischen** = mezi · **hängen** = viset
+- [ ] `u12-l1-e4` *Poslech* — 🔊 zazní: **Die Lampe hängt über dem Tisch.** — možnosti: „Die Lampe hängt über dem Tisch.“, „Die Lampe steht neben dem Tisch.“, „Die Lampe hängt über dem Bett.“ — ✔ **Die Lampe hängt über dem Tisch.**
+- [ ] `u12-l1-e5` *Doplňování* — **Das Brot liegt auf ___ Tisch.** (Chléb leží na stole.) — možnosti: „dem“, „den“, „der“ — ✔ **dem** — vysvětlení: Kde? → 3. pád: der Tisch → auf dem Tisch.
+- [ ] `u12-l1-e6` *Doplňování* — **Der Stuhl steht zwischen dem Sofa und ___ Lampe.** (Židle stojí mezi pohovkou a lampou.) — možnosti: „der“, „die“, „dem“ — ✔ **der** — vysvětlení: Kde? → 3. pád i po zwischen: die Lampe → der Lampe.
+- [ ] `u12-l1-e7` *Psaní* — **vedle** → ✔ **neben**
+- [ ] `u12-l1-e8` *Skládání věty* — Pohovka stojí vedle skříně. → ✔ **Das Sofa steht neben dem Schrank.** (chybné dílky: „den“) (uznává se i: „Neben dem Schrank steht das Sofa.“)
+- [ ] `u12-l1-e9` *Poslech* — 🔊 zazní: **Die Schuhe stehen unter dem Bett.** — možnosti: „Boty jsou pod postelí.“, „Boty jsou vedle postele.“, „Boty jsou na posteli.“ — ✔ **Boty jsou pod postelí.**
+- [ ] `u12-l1-e10` *Výběr* — **Lampa visí nad postelí.** — možnosti: „Die Lampe hängt über dem Bett.“, „Die Lampe hängt neben dem Bett.“, „Die Lampe steht unter dem Bett.“ — ✔ **Die Lampe hängt über dem Bett.**
+
+### [ ] 12.2: Kam to dáme? (Wohin stellen wir das?) · `u12-l2`
+
+**[ ] Tip: Wohin? Auf den Tisch**
+
+> Česky rozlišujeme „kde?“ (na stole) a „kam?“ (na stůl, 4. pád). Němčina úplně stejně: wo? → 3. pád, wohin? → 4. pád. Změní se jen člen: auf dem Tisch → auf den Tisch, an der Wand → an die Wand, neben dem Sofa → neben das Sofa. Pozor na dvojice sloves: kam = legen (položit), stellen (postavit), hängen (pověsit); kde = liegen (ležet), stehen (stát), hängen (viset). Ich stelle die Flasche auf den Tisch. → Die Flasche steht auf dem Tisch.
+>
+> - **Ich stelle die Flasche auf den Tisch.** — Postavím láhev na stůl.
+> - **Die Flasche steht auf dem Tisch.** — Láhev stojí na stole.
+> - **Wir hängen das Bild an die Wand.** — Pověsíme obraz na zeď.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l2-w1` | **legen** | položit; pokládat | Kam? = 4. pád: Ich lege das Brot auf den Tisch. příčestí: gelegt |
+| [ ] | `u12-l2-w2` | **stellen** | postavit; dát | Kam? = 4. pád: Ich stelle die Flasche auf den Tisch. příčestí: gestellt |
+| [ ] | `u12-l2-w3` | **das Bild** | obraz; obrázek | množné číslo: die Bilder |
+| [ ] | `u12-l2-w4` | **das Fenster** | okno | množné číslo: die Fenster |
+| [ ] | `u12-l2-w5` | **die Wand** | zeď; stěna | an der Wand = na zdi, an die Wand = na zeď; množné číslo: die Wände |
+| [ ] | `u12-l2-w6` | **die Tür** | dveře | Německy jednotné číslo! množné číslo: die Türen |
+| [ ] | `u12-l2-w7` | **der Teppich** | koberec | množné číslo: die Teppiche |
+| [ ] | `u12-l2-w8` | **der Boden** | podlaha | auf dem Boden = na zemi; množné číslo: die Böden |
+| [ ] | `u12-l2-w9` | **hinter** | za | Kde? hinter der Tür = za dveřmi; kam? hinter die Tür |
+
+**Cvičení**
+
+- [ ] `u12-l2-e1` *Výběr* — **die Tür** — možnosti: „dveře“, „okno“, „zeď“ — ✔ **dveře**
+- [ ] `u12-l2-e2` *Výběr* — **koberec** — možnosti: „der Teppich“, „der Boden“, „das Bild“ — ✔ **der Teppich**
+- [ ] `u12-l2-e3` *Dvojice* — **legen** = položit · **stellen** = postavit · **das Fenster** = okno · **der Boden** = podlaha · **hinter** = za
+- [ ] `u12-l2-e4` *Poslech* — 🔊 zazní: **Wir hängen das Bild an die Wand.** — možnosti: „Wir hängen das Bild an die Wand.“, „Das Bild hängt an der Wand.“, „Wir stellen das Bild an die Wand.“ — ✔ **Wir hängen das Bild an die Wand.**
+- [ ] `u12-l2-e5` *Doplňování* — **Ich stelle die Lampe neben ___ Sofa.** (Postavím lampu vedle pohovky.) — možnosti: „das“, „dem“, „die“ — ✔ **das** — vysvětlení: Kam? → 4. pád; u das se člen nemění: neben das Sofa.
+- [ ] `u12-l2-e6` *Doplňování* — **Ich ___ die Flasche in den Schrank.** (Dám láhev do skříně.) — možnosti: „stelle“, „stehe“, „steht“ — ✔ **stelle** — vysvětlení: Kam? → stellen (postavit). stehen znamená jen „stát“ a předmět mít nemůže.
+- [ ] `u12-l2-e7` *Psaní* — **obraz** → ✔ **das Bild**
+- [ ] `u12-l2-e8` *Skládání věty* — Položím koberec na podlahu. → ✔ **Ich lege den Teppich auf den Boden.** (chybné dílky: „dem“) (uznává se i: „Auf den Boden lege ich den Teppich.“)
+- [ ] `u12-l2-e9` *Poslech* — 🔊 zazní: **Stellen Sie den Stuhl bitte ans Fenster.** — možnosti: „Postavte prosím židli k oknu.“, „Židle stojí u okna.“, „Postavte prosím židli ke dveřím.“ — ✔ **Postavte prosím židli k oknu.**
+- [ ] `u12-l2-e10` *Výběr* — **Postavte prosím láhev na stůl.** — možnosti: „Stellen Sie die Flasche bitte auf den Tisch.“, „Die Flasche steht auf dem Tisch.“, „Legen Sie die Flasche bitte auf den Boden.“ — ✔ **Stellen Sie die Flasche bitte auf den Tisch.**
+
+### [ ] 12.3: Nový byt (Die neue Wohnung) · `u12-l3`
+
+**[ ] Tip: In der Stadt, in die Stadt**
+
+> Stejné pravidlo platí i pro in: Ich wohne in der Stadt. = Bydlím ve městě. Ich fahre in die Stadt. = Jedu do města. Česky máme dvě různé předložky (v a do), němčina jen jednu a mění člen: kde? = 3. pád, kam? = 4. pád. Proto Češi často řeknou „in der Stadt“ i tam, kde jde o směr. Zkrácené tvary: in dem → im (im Keller = ve sklepě), in das → ins (ins Kino = do kina).
+>
+> - **Wir ziehen in die Stadt um.** — Stěhujeme se do města.
+> - **Die Kartoffeln sind im Keller.** — Brambory jsou ve sklepě.
+> - **Ich gehe in den Keller.** — Jdu do sklepa.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u12-l3-w1` | **umziehen** | stěhovat se | Odlučitelné: Wir ziehen um. Minulý čas se sein: ist umgezogen |
+| [ ] | `u12-l3-w2` | **die Miete** | nájem | ie = í; množné číslo: die Mieten |
+| [ ] | `u12-l3-w3` | **mieten** | pronajmout si | Jako nájemník: eine Wohnung mieten; příčestí: gemietet |
+| [ ] | `u12-l3-w4` | **der Vermieter** | pronajímatel | Přízvuk: fer-MÍ-ta; die Vermieterin = pronajímatelka; množné číslo: die Vermieter |
+| [ ] | `u12-l3-w5` | **der Stock** | patro | st = št: [štok]; im ersten Stock = v prvním patře; množné číslo: die Stockwerke (die Stöcke jsou hole) |
+| [ ] | `u12-l3-w6` | **der Aufzug** | výtah | Také der Lift; množné číslo: die Aufzüge |
+| [ ] | `u12-l3-w7` | **der Balkon** | balkon | Přízvuk: bal-KÓN; množné číslo: die Balkone |
+| [ ] | `u12-l3-w8` | **der Keller** | sklep | množné číslo: die Keller |
+| [ ] | `u12-l3-w9` | **hell** | světlý | Opak: dunkel = tmavý |
+
+**Cvičení**
+
+- [ ] `u12-l3-e1` *Výběr* — **die Miete** — možnosti: „nájem“, „pronajímatel“, „patro“ — ✔ **nájem**
+- [ ] `u12-l3-e2` *Výběr* — **výtah** — možnosti: „der Aufzug“, „der Balkon“, „der Keller“ — ✔ **der Aufzug**
+- [ ] `u12-l3-e3` *Dvojice* — **umziehen** = stěhovat se · **mieten** = pronajmout si · **der Keller** = sklep · **der Stock** = patro · **hell** = světlý
+- [ ] `u12-l3-e4` *Poslech* — 🔊 zazní: **Die Wohnung hat einen Balkon.** — možnosti: „Die Wohnung hat einen Balkon.“, „Die Wohnung hat einen Keller.“, „Die Wohnung hat keinen Balkon.“ — ✔ **Die Wohnung hat einen Balkon.**
+- [ ] `u12-l3-e5` *Doplňování* — **Wir wohnen in ___ Stadt.** (Bydlíme ve městě.) — možnosti: „der“, „die“, „dem“ — ✔ **der** — vysvětlení: Kde? → 3. pád: die Stadt → in der Stadt.
+- [ ] `u12-l3-e6` *Doplňování* — **Stellen Sie den Wein bitte in ___ Keller.** (Dejte prosím víno do sklepa.) — možnosti: „den“, „dem“, „die“ — ✔ **den** — vysvětlení: Kam? → 4. pád: der Keller → in den Keller.
+- [ ] `u12-l3-e7` *Psaní* — **sklep** → ✔ **der Keller**
+- [ ] `u12-l3-e8` *Skládání věty* — Zítra jedeme do města. → ✔ **Morgen fahren wir in die Stadt.** (chybné dílky: „der“) (uznává se i: „Wir fahren morgen in die Stadt.“, „In die Stadt fahren wir morgen.“)
+- [ ] `u12-l3-e9` *Poslech* — 🔊 zazní: **Wie hoch ist die Miete?** — možnosti: „Jak vysoký je nájem?“, „Kde je výtah?“, „Kdo je pronajímatel?“ — ✔ **Jak vysoký je nájem?**
+- [ ] `u12-l3-e10` *Výběr* — **Byt je světlý a klidný.** — možnosti: „Die Wohnung ist hell und ruhig.“, „Die Wohnung ist hell und klein.“, „Das Zimmer ist hell und ruhig.“ — ✔ **Die Wohnung ist hell und ruhig.**
+
+## [ ] Kapitola 13: Práce (Arbeit) · A2
+
+Soubor: `content/cs-de/unit13-arbeit.json` · ID: `u13` · Popis: Povolání, práce dříve a dnes: ženské tvary na -in, musste, konnte, wollte a seit.
+
+### [ ] 13.1: Povolání (Berufe) · `u13-l1`
+
+**[ ] Tip: Ich bin Lehrerin**
+
+> Ženský tvar povolání má koncovku -in, podobně jako česky -ka: der Lehrer → die Lehrerin (učitel → učitelka). Množné číslo je -innen: die Lehrerinnen. Když říkáte, čím jste, člen se nedává: Ich bin Lehrerin. Er ist Ingenieur. Pozor na falešného přítele: die Rente není renta, ale důchod. In Rente sein = být v důchodu, der Rentner = důchodce.
+>
+> - **Was sind Sie von Beruf?** — Jaké máte povolání?
+> - **Ich bin Lehrerin.** — Jsem učitelka.
+> - **Meine Eltern sind in Rente.** — Moji rodiče jsou v důchodu.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l1-w1` | **der Beruf** | povolání | Přízvuk: be-RÚF; množné číslo: die Berufe |
+| [ ] | `u13-l1-w2` | **der Lehrer** | učitel | množné číslo: die Lehrer |
+| [ ] | `u13-l1-w3` | **die Lehrerin** | učitelka | množné číslo: die Lehrerinnen |
+| [ ] | `u13-l1-w4` | **der Verkäufer** | prodavač | äu = oj: [fer-KOJ-fa]; množné číslo: die Verkäufer |
+| [ ] | `u13-l1-w5` | **die Verkäuferin** | prodavačka | množné číslo: die Verkäuferinnen |
+| [ ] | `u13-l1-w6` | **der Ingenieur** | inženýr | Čte se zhruba [in-že-NJÖR]; die Ingenieurin = inženýrka; množné číslo: die Ingenieure |
+| [ ] | `u13-l1-w7` | **die Rente** | důchod | Pozor, ne renta! in Rente sein = být v důchodu; množné číslo: die Renten |
+| [ ] | `u13-l1-w8` | **der Rentner** | důchodce | množné číslo: die Rentner |
+| [ ] | `u13-l1-w9` | **die Rentnerin** | důchodkyně | množné číslo: die Rentnerinnen |
+
+**Cvičení**
+
+- [ ] `u13-l1-e1` *Výběr* — **die Rente** — možnosti: „důchod“, „nájem“, „povolání“ — ✔ **důchod**
+- [ ] `u13-l1-e2` *Výběr* — **prodavačka** — možnosti: „die Verkäuferin“, „der Verkäufer“, „die Lehrerin“ — ✔ **die Verkäuferin**
+- [ ] `u13-l1-e3` *Dvojice* — **der Beruf** = povolání · **der Lehrer** = učitel · **der Ingenieur** = inženýr · **der Rentner** = důchodce · **die Rentnerin** = důchodkyně
+- [ ] `u13-l1-e4` *Poslech* — 🔊 zazní: **Ich bin Lehrerin.** — možnosti: „Ich bin Lehrerin.“, „Ich bin Lehrer.“, „Ich bin Rentnerin.“ — ✔ **Ich bin Lehrerin.**
+- [ ] `u13-l1-e5` *Doplňování* — **Meine Eltern sind in ___.** (Moji rodiče jsou v důchodu.) — možnosti: „Rente“, „Rentner“, „Renten“ — ✔ **Rente** — vysvětlení: Být v důchodu = in Rente sein, bez členu a v jednotném čísle.
+- [ ] `u13-l1-e6` *Doplňování* — **Was sind Sie von ___?** (Jaké máte povolání?) — možnosti: „Beruf“, „Berufe“, „Lehrer“ — ✔ **Beruf** — vysvětlení: Ustálená otázka: Was sind Sie von Beruf?
+- [ ] `u13-l1-e7` *Psaní* — **učitelka** → ✔ **die Lehrerin**
+- [ ] `u13-l1-e8` *Skládání věty* — Můj manžel je inženýr. → ✔ **Mein Mann ist Ingenieur.** (chybné dílky: „Ingenieurin“)
+- [ ] `u13-l1-e9` *Poslech* — 🔊 zazní: **Meine Mutter ist Rentnerin.** — možnosti: „Maminka je důchodkyně.“, „Maminka je učitelka.“, „Maminka je prodavačka.“ — ✔ **Maminka je důchodkyně.**
+- [ ] `u13-l1-e10` *Výběr* — Vyberte správnou větu **Jsem v důchodu.** — možnosti: „Ich bin in Rente.“, „Ich bin in Rentner.“, „Ich bin eine Rente.“ — ✔ **Ich bin in Rente.**
+
+### [ ] 13.2: Dříve (Früher) · `u13-l2`
+
+**[ ] Tip: Musste, konnte, wollte**
+
+> U sloves müssen, können a wollen se v minulosti používá krátký tvar, stejně jako war a hatte: ich musste = musel jsem i musela jsem, ich konnte = mohl jsem, mohla jsem nebo uměl jsem, uměla jsem, ich wollte = chtěl jsem, chtěla jsem. Přehláska zmizí: müssen → musste, können → konnte. Tvar je stejný pro ich, er i sie (ona); s wir, sie (oni) a Sie má koncovku -n: wir mussten. Druhé sloveso jde jako v přítomném čase na konec věty.
+>
+> - **Früher mussten wir um fünf Uhr aufstehen.** — Dřív jsme museli vstávat v pět hodin.
+> - **Er konnte gut Deutsch sprechen.** — Uměl dobře mluvit německy.
+> - **Sie wollte in Deutschland studieren.** — Chtěla studovat v Německu.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l2-w1` | **früher** | dříve | Opak: heute = dnes |
+| [ ] | `u13-l2-w2` | **die Schule** | škola | sch = š: [ŠÚ-le]; in die Schule gehen = chodit do školy; množné číslo: die Schulen |
+| [ ] | `u13-l2-w3` | **die Firma** | firma | množné číslo: die Firmen |
+| [ ] | `u13-l2-w4` | **die Fabrik** | továrna | Přízvuk: fa-BRÍK; množné číslo: die Fabriken |
+| [ ] | `u13-l2-w5` | **das Büro** | kancelář | Přízvuk: bü-RÓ; množné číslo: die Büros |
+| [ ] | `u13-l2-w6` | **studieren** | studovat | Jen na vysoké škole; st = št: [štu-DÍ-ren] |
+| [ ] | `u13-l2-w7` | **musste** | musel; musela | ich musste, er musste; wir mussten, Sie mussten |
+| [ ] | `u13-l2-w8` | **konnte** | mohl; mohla | Také uměl, uměla. ich konnte; wir konnten, Sie konnten |
+| [ ] | `u13-l2-w9` | **wollte** | chtěl; chtěla | ich wollte; wir wollten, Sie wollten |
+
+**Cvičení**
+
+- [ ] `u13-l2-e1` *Výběr* — **die Fabrik** — možnosti: „továrna“, „kancelář“, „škola“ — ✔ **továrna**
+- [ ] `u13-l2-e2` *Výběr* — **kancelář** — možnosti: „das Büro“, „die Firma“, „die Fabrik“ — ✔ **das Büro**
+- [ ] `u13-l2-e3` *Dvojice* — **früher** = dříve · **die Schule** = škola · **die Firma** = firma · **studieren** = studovat · **wollte** = chtěl
+- [ ] `u13-l2-e4` *Poslech* — 🔊 zazní: **Früher musste ich am Samstag arbeiten.** — možnosti: „Früher musste ich am Samstag arbeiten.“, „Heute muss ich am Samstag arbeiten.“, „Früher konnte ich am Samstag arbeiten.“ — ✔ **Früher musste ich am Samstag arbeiten.**
+- [ ] `u13-l2-e5` *Doplňování* — **Gestern ___ wir nicht kommen.** (Včera jsme nemohli přijít.) — možnosti: „konnten“, „konnte“, „kannst“ — ✔ **konnten** — vysvětlení: S wir má minulý tvar koncovku -n: wir konnten.
+- [ ] `u13-l2-e6` *Doplňování* — **Mein Vater ___ in einer Fabrik arbeiten.** (Otec musel pracovat v továrně.) — možnosti: „musste“, „mussten“, „müssen“ — ✔ **musste** — vysvětlení: U er a sie je musste bez -n; přehláska v minulém čase mizí.
+- [ ] `u13-l2-e7` *Psaní* — **škola** → ✔ **die Schule**
+- [ ] `u13-l2-e8` *Skládání věty* — Chtěla studovat v Německu. → ✔ **Sie wollte in Deutschland studieren.** (chybné dílky: „will“) (uznává se i: „In Deutschland wollte sie studieren.“)
+- [ ] `u13-l2-e9` *Poslech* — 🔊 zazní: **Mein Großvater konnte gut singen.** — možnosti: „Dědeček uměl dobře zpívat.“, „Dědeček rád zpívá.“, „Dědeček musel zpívat.“ — ✔ **Dědeček uměl dobře zpívat.**
+- [ ] `u13-l2-e10` *Výběr* — **Děti musely chodit do školy.** — možnosti: „Die Kinder mussten in die Schule gehen.“, „Die Kinder müssen in die Schule gehen.“, „Die Kinder wollten in die Schule gehen.“ — ✔ **Die Kinder mussten in die Schule gehen.**
+
+### [ ] 13.3: V práci (Bei der Arbeit) · `u13-l3`
+
+**[ ] Tip: Seit zehn Jahren**
+
+> Když něco začalo v minulosti a trvá dodnes, řekne se to německy v přítomném čase se seit: Ich arbeite seit zehn Jahren hier. = Pracuji tu už deset let. Česky je to stejné: „pracuji tu už deset let“, ne „pracoval jsem“. Neříkejte tedy „Ich habe seit … gearbeitet“. Po seit je 3. pád: seit einem Jahr = už rok, seit zwei Jahren = už dva roky (v množném čísle -n), seit Montag = od pondělí.
+>
+> - **Ich arbeite seit zehn Jahren hier.** — Pracuji tu už deset let.
+> - **Wir wohnen seit einem Jahr in Berlin.** — V Berlíně bydlíme už rok.
+> - **Seit Montag habe ich Urlaub.** — Od pondělí mám dovolenou.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u13-l3-w1` | **die Arbeit** | práce | zur Arbeit gehen = jít do práce; množné číslo: die Arbeiten |
+| [ ] | `u13-l3-w2` | **der Kollege** | kolega | Přízvuk: ko-LÉ-ge; množné číslo: die Kollegen |
+| [ ] | `u13-l3-w3` | **die Kollegin** | kolegyně | množné číslo: die Kolleginnen |
+| [ ] | `u13-l3-w4` | **der Chef** | šéf; vedoucí | ch = š: [šef]; die Chefin = šéfová; množné číslo: die Chefs |
+| [ ] | `u13-l3-w5` | **die Pause** | přestávka | Pause machen = dát si přestávku; množné číslo: die Pausen |
+| [ ] | `u13-l3-w6` | **der Urlaub** | dovolená | Pozor, mužský rod; im Urlaub = na dovolené; množné číslo: die Urlaube |
+| [ ] | `u13-l3-w7` | **der Feierabend** | konec pracovní doby | Čte se [FAJ-a-á-bent]; Schönen Feierabend! = Hezký večer po práci! |
+| [ ] | `u13-l3-w8` | **verdienen** | vydělávat | Přízvuk: fer-DÍ-nen; příčestí bez ge-: verdient |
+
+**Cvičení**
+
+- [ ] `u13-l3-e1` *Výběr* — **der Urlaub** — možnosti: „dovolená“, „přestávka“, „práce“ — ✔ **dovolená**
+- [ ] `u13-l3-e2` *Výběr* — **kolegyně** — možnosti: „die Kollegin“, „der Kollege“, „die Freundin“ — ✔ **die Kollegin**
+- [ ] `u13-l3-e3` *Dvojice* — **die Arbeit** = práce · **der Chef** = šéf · **die Pause** = přestávka · **verdienen** = vydělávat · **der Feierabend** = konec pracovní doby
+- [ ] `u13-l3-e4` *Poslech* — 🔊 zazní: **Ich arbeite seit zehn Jahren hier.** — možnosti: „Ich arbeite seit zehn Jahren hier.“, „Ich habe zehn Jahre hier gearbeitet.“, „Ich arbeite seit zwei Jahren hier.“ — ✔ **Ich arbeite seit zehn Jahren hier.**
+- [ ] `u13-l3-e5` *Doplňování* — **Wir wohnen seit drei ___ in Deutschland.** (V Německu bydlíme už tři roky.) — možnosti: „Jahren“, „Jahre“, „Jahr“ — ✔ **Jahren** — vysvětlení: Po seit je 3. pád; v množném čísle dostane slovo -n: seit drei Jahren.
+- [ ] `u13-l3-e6` *Doplňování* — **Meine Kollegin ___ seit Montag Urlaub.** (Kolegyně má od pondělí dovolenou.) — možnosti: „hat“, „haben“, „ist“ — ✔ **hat** — vysvětlení: Dovolenou „máme“: Urlaub haben; se seit stojí přítomný čas: sie hat.
+- [ ] `u13-l3-e7` *Psaní* — **dovolená** → ✔ **der Urlaub**
+- [ ] `u13-l3-e8` *Skládání věty* — Syn pracuje v Berlíně už pět let. → ✔ **Mein Sohn arbeitet seit fünf Jahren in Berlin.** (chybné dílky: „gearbeitet“) (uznává se i: „Seit fünf Jahren arbeitet mein Sohn in Berlin.“, „In Berlin arbeitet mein Sohn seit fünf Jahren.“)
+- [ ] `u13-l3-e9` *Poslech* — 🔊 zazní: **Um fünf Uhr habe ich Feierabend.** — možnosti: „V pět hodin končím v práci.“, „V pět hodin mám přestávku.“, „V pět hodin začínám pracovat.“ — ✔ **V pět hodin končím v práci.**
+- [ ] `u13-l3-e10` *Mluvení* — 🎤 **Schönen Feierabend!** — Hezký večer po práci!
+
+## [ ] Kapitola 14: Cestování (Reisen) · A2
+
+Soubor: `content/cs-de/unit14-reisen.json` · ID: `u14` · Popis: Na nádraží, v hotelu a vyprávění o dovolené: minulý čas odlučitelných sloves, příčestí bez ge- a nepravidelná příčestí.
+
+### [ ] 14.1: Na nádraží (Am Bahnhof) · `u14-l1`
+
+**[ ] Tip: Der Zug ist angekommen**
+
+> U odlučitelných sloves (ankommen, abfahren, umsteigen) se ge- vloží doprostřed, mezi předponu a sloveso: an-ge-kommen, ab-ge-fahren, um-ge-stiegen. Protože jde o pohyb z místa na místo, minulý čas se tvoří se sein, stejně jako česky „jsme přijeli“: Der Zug ist angekommen. „Ich habe angekommen“ je chyba. Ostatní odlučitelná slovesa mají haben: Wir haben eingekauft, ich habe angerufen. Přízvuk zůstává na předponě: AN-ge-kom-men.
+>
+> - **Der Zug ist pünktlich angekommen.** — Vlak přijel načas.
+> - **Wir sind in Berlin umgestiegen.** — V Berlíně jsme přestupovali.
+> - **Wir haben im Supermarkt eingekauft.** — Nakoupili jsme v supermarketu.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l1-w1` | **das Gleis** | kolej | Na nádraží: auf Gleis drei = na třetí koleji. ei = aj: [glajs]; množné číslo: die Gleise |
+| [ ] | `u14-l1-w2` | **die Abfahrt** | odjezd | b se tu čte jako p: [AP-fárt]; množné číslo: die Abfahrten |
+| [ ] | `u14-l1-w3` | **die Ankunft** | příjezd | množné číslo: die Ankünfte |
+| [ ] | `u14-l1-w4` | **abfahren** | odjet; odjíždět | Der Zug fährt um neun Uhr ab. Minulý čas: ist abgefahren |
+| [ ] | `u14-l1-w5` | **ankommen** | přijet; dorazit | Wann kommen Sie an? Minulý čas: ist angekommen |
+| [ ] | `u14-l1-w6` | **umsteigen** | přestoupit | Wir steigen in Berlin um. Minulý čas: ist umgestiegen |
+| [ ] | `u14-l1-w7` | **die Verspätung** | zpoždění | Der Zug hat Verspätung. = Vlak má zpoždění. Přízvuk: fer-ŠPÉ-tung; množné číslo: die Verspätungen |
+| [ ] | `u14-l1-w8` | **der Koffer** | kufr | množné číslo: die Koffer |
+| [ ] | `u14-l1-w9` | **pünktlich** | včas; přesně | Der Zug ist pünktlich. = Vlak jede načas. |
+
+**Cvičení**
+
+- [ ] `u14-l1-e1` *Výběr* — **die Ankunft** — možnosti: „příjezd“, „odjezd“, „zpoždění“ — ✔ **příjezd**
+- [ ] `u14-l1-e2` *Výběr* — **kufr** — možnosti: „der Koffer“, „das Gleis“, „die Abfahrt“ — ✔ **der Koffer**
+- [ ] `u14-l1-e3` *Dvojice* — **abfahren** = odjet · **ankommen** = přijet · **umsteigen** = přestoupit · **die Verspätung** = zpoždění · **das Gleis** = kolej
+- [ ] `u14-l1-e4` *Poslech* — 🔊 zazní: **Der Zug fährt um neun Uhr ab.** — možnosti: „Der Zug fährt um neun Uhr ab.“, „Der Zug kommt um neun Uhr an.“, „Der Bus fährt um neun Uhr ab.“ — ✔ **Der Zug fährt um neun Uhr ab.**
+- [ ] `u14-l1-e5` *Doplňování* — **Der Bus ist um zehn Uhr ___.** (Autobus odjel v deset hodin.) — možnosti: „abgefahren“, „geabfahren“, „abfährt“ — ✔ **abgefahren** — vysvětlení: ge- se vkládá mezi předponu a sloveso: ab-ge-fahren.
+- [ ] `u14-l1-e6` *Doplňování* — **Wann ___ Sie angekommen?** (Kdy jste přijeli?) — možnosti: „sind“, „haben“, „ist“ — ✔ **sind** — vysvětlení: Příjezd je pohyb, proto sein: Sie sind angekommen.
+- [ ] `u14-l1-e7` *Psaní* — **zpoždění** → ✔ **die Verspätung**
+- [ ] `u14-l1-e8` *Skládání věty* — Vlak má deset minut zpoždění. → ✔ **Der Zug hat zehn Minuten Verspätung.** (chybné dílky: „ist“)
+- [ ] `u14-l1-e9` *Poslech* — 🔊 zazní: **Der Zug nach Berlin fährt von Gleis drei ab.** — možnosti: „Vlak do Berlína odjíždí ze třetí koleje.“, „Vlak z Berlína přijíždí na třetí kolej.“, „Vlak do Berlína má zpoždění.“ — ✔ **Vlak do Berlína odjíždí ze třetí koleje.**
+- [ ] `u14-l1-e10` *Výběr* — Vyberte správnou větu **Přijeli jsme včera.** — možnosti: „Wir sind gestern angekommen.“, „Wir haben gestern angekommen.“, „Wir sind gestern ankommen.“ — ✔ **Wir sind gestern angekommen.**
+
+### [ ] 14.2: V hotelu (Im Hotel) · `u14-l2`
+
+**[ ] Tip: Reserviert, bekommen: bez ge-**
+
+> Některá slovesa nemají v příčestí ge-. Jsou to slovesa na -ieren (reservieren → reserviert) a slovesa s předponou be-, ver- nebo er- (bekommen → bekommen, besuchen → besucht, verstehen → verstanden). Přízvuk u nich není na první slabice: re-zer-VÍ-ren, be-KOM-men. Pozor, pokud umíte anglicky: bekommen neznamená „stát se“ (become), ale dostat. Wir haben den Schlüssel bekommen. = Dostali jsme klíč.
+>
+> - **Wir haben ein Doppelzimmer reserviert.** — Rezervovali jsme si dvoulůžkový pokoj.
+> - **Haben Sie ein Einzelzimmer frei?** — Máte volný jednolůžkový pokoj?
+> - **Wir haben den Schlüssel an der Rezeption bekommen.** — Klíč jsme dostali na recepci.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l2-w1` | **das Hotel** | hotel | Přízvuk: ho-TEL; množné číslo: die Hotels |
+| [ ] | `u14-l2-w2` | **das Einzelzimmer** | jednolůžkový pokoj | z = c: [AJN-cl-ci-ma]; množné číslo: die Einzelzimmer |
+| [ ] | `u14-l2-w3` | **das Doppelzimmer** | dvoulůžkový pokoj | množné číslo: die Doppelzimmer |
+| [ ] | `u14-l2-w4` | **die Nacht** | noc | für zwei Nächte = na dvě noci; množné číslo: die Nächte |
+| [ ] | `u14-l2-w5` | **reservieren** | rezervovat | v se tu čte jako v: [re-zer-VÍ-ren]; příčestí bez ge-: reserviert |
+| [ ] | `u14-l2-w6` | **der Schlüssel** | klíč | množné číslo: die Schlüssel |
+| [ ] | `u14-l2-w7` | **die Rezeption** | recepce | Čte se [re-cep-CJÓN]; an der Rezeption = na recepci; množné číslo: die Rezeptionen |
+| [ ] | `u14-l2-w8` | **frei** | volný | Ist der Platz frei? = Je tu volno? |
+| [ ] | `u14-l2-w9` | **bekommen** | dostat | Pozor: neznamená „stát se“. Příčestí je stejné jako infinitiv: hat bekommen |
+
+**Cvičení**
+
+- [ ] `u14-l2-e1` *Výběr* — **bekommen** — možnosti: „dostat“, „stát se“, „rezervovat“ — ✔ **dostat**
+- [ ] `u14-l2-e2` *Výběr* — **klíč** — možnosti: „der Schlüssel“, „die Rezeption“, „die Nacht“ — ✔ **der Schlüssel**
+- [ ] `u14-l2-e3` *Dvojice* — **das Einzelzimmer** = jednolůžkový pokoj · **das Doppelzimmer** = dvoulůžkový pokoj · **die Nacht** = noc · **frei** = volný · **reservieren** = rezervovat
+- [ ] `u14-l2-e4` *Poslech* — 🔊 zazní: **Haben Sie ein Doppelzimmer frei?** — možnosti: „Haben Sie ein Doppelzimmer frei?“, „Haben Sie ein Einzelzimmer frei?“, „Haben Sie ein Doppelzimmer reserviert?“ — ✔ **Haben Sie ein Doppelzimmer frei?**
+- [ ] `u14-l2-e5` *Doplňování* — **Wir haben ein Zimmer für zwei Nächte ___.** (Rezervovali jsme si pokoj na dvě noci.) — možnosti: „reserviert“, „gereserviert“, „reservieren“ — ✔ **reserviert** — vysvětlení: Slovesa na -ieren tvoří příčestí bez ge-: reserviert.
+- [ ] `u14-l2-e6` *Doplňování* — **Wir haben ein schönes Zimmer ___.** (Dostali jsme hezký pokoj.) — možnosti: „bekommen“, „gebekommen“, „bekommt“ — ✔ **bekommen** — vysvětlení: Slovesa s předponou be- nemají ge-: bekommen → bekommen.
+- [ ] `u14-l2-e7` *Psaní* — **dvoulůžkový pokoj** → ✔ **das Doppelzimmer**
+- [ ] `u14-l2-e8` *Skládání věty* — Rezervovali jsme si jednolůžkový pokoj. → ✔ **Wir haben ein Einzelzimmer reserviert.** (chybné dílky: „gereserviert“) (uznává se i: „Ein Einzelzimmer haben wir reserviert.“)
+- [ ] `u14-l2-e9` *Poslech* — 🔊 zazní: **Wo ist die Rezeption?** — možnosti: „Kde je recepce?“, „Kde je klíč?“, „Kde je hotel?“ — ✔ **Kde je recepce?**
+- [ ] `u14-l2-e10` *Skládání věty* — Máte volný pokoj? → ✔ **Haben Sie ein Zimmer frei?** (chybné dílky: „Sind“)
+
+### [ ] 14.3: Vyprávění z dovolené (Urlaubsgeschichten) · `u14-l3`
+
+**[ ] Tip: Gesehen, geschrieben, gefunden**
+
+> Mnoho častých sloves má nepravidelné příčestí na -en, často se změněnou samohláskou: sehen → gesehen, schreiben → geschrieben, finden → gefunden, trinken → getrunken. Nejlépe je učit se je rovnou se slovesem, podobně jako v češtině „jít – šel“. Pravidelná slovesa mají ge- … -t: wandern → gewandert (se sein, protože jde o pohyb). A besichtigen začíná na be-, takže nemá ge-: besichtigt.
+>
+> - **Wir haben das Meer gesehen.** — Viděli jsme moře.
+> - **Anna hat eine Postkarte geschrieben.** — Anna napsala pohlednici.
+> - **Wir sind in den Bergen gewandert.** — Chodili jsme po horách.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u14-l3-w1` | **sehen** | vidět | du siehst, er sieht; příčestí: gesehen |
+| [ ] | `u14-l3-w2` | **schreiben** | psát | ei = aj, ie = í; příčestí: geschrieben |
+| [ ] | `u14-l3-w3` | **finden** | najít | Také o názoru: Ich finde das schön. = Připadá mi to hezké. Příčestí: gefunden |
+| [ ] | `u14-l3-w4` | **wandern** | chodit na túry | w = v. Minulý čas se sein: Wir sind gewandert. |
+| [ ] | `u14-l3-w5` | **besichtigen** | prohlédnout si | Město, zámek, muzeum. Přízvuk: be-ZICH-ti-gen; příčestí bez ge-: besichtigt |
+| [ ] | `u14-l3-w6` | **die Postkarte** | pohlednice | množné číslo: die Postkarten |
+| [ ] | `u14-l3-w7` | **das Foto** | fotka | Fotos machen = fotit; množné číslo: die Fotos |
+| [ ] | `u14-l3-w8` | **der Strand** | pláž | st na začátku = št: [štrant]; am Strand = na pláži; množné číslo: die Strände |
+| [ ] | `u14-l3-w9` | **die Insel** | ostrov | Pozor, ženský rod. s před samohláskou = z: [IN-zl]; množné číslo: die Inseln |
+
+**Cvičení**
+
+- [ ] `u14-l3-e1` *Výběr* — **die Insel** — možnosti: „ostrov“, „pláž“, „jezero“ — ✔ **ostrov**
+- [ ] `u14-l3-e2` *Výběr* — **pohlednice** — možnosti: „die Postkarte“, „das Foto“, „der Strand“ — ✔ **die Postkarte**
+- [ ] `u14-l3-e3` *Dvojice* — **sehen** = vidět · **schreiben** = psát · **finden** = najít · **wandern** = chodit na túry · **besichtigen** = prohlédnout si
+- [ ] `u14-l3-e4` *Poslech* — 🔊 zazní: **Wir haben am Strand Fotos gemacht.** — možnosti: „Wir haben am Strand Fotos gemacht.“, „Wir haben am Strand Postkarten geschrieben.“, „Wir haben am See Fotos gemacht.“ — ✔ **Wir haben am Strand Fotos gemacht.**
+- [ ] `u14-l3-e5` *Doplňování* — **Wir haben eine Postkarte ___.** (Napsali jsme pohlednici.) — možnosti: „geschrieben“, „geschreibt“, „schreiben“ — ✔ **geschrieben** — vysvětlení: schreiben má nepravidelné příčestí: geschrieben.
+- [ ] `u14-l3-e6` *Doplňování* — **Am Sonntag ___ wir in den Bergen gewandert.** (V neděli jsme chodili po horách.) — možnosti: „sind“, „haben“, „ist“ — ✔ **sind** — vysvětlení: wandern je pohyb z místa na místo, proto sein: wir sind gewandert.
+- [ ] `u14-l3-e7` *Psaní* — **pláž** → ✔ **der Strand**
+- [ ] `u14-l3-e8` *Skládání věty* — Prohlédli jsme si město. → ✔ **Wir haben die Stadt besichtigt.** (chybné dílky: „sind“)
+- [ ] `u14-l3-e9` *Poslech* — 🔊 zazní: **Wir haben den Schlüssel nicht gefunden.** — možnosti: „Nenašli jsme klíč.“, „Nedostali jsme klíč.“, „Neviděli jsme klíč.“ — ✔ **Nenašli jsme klíč.**
+- [ ] `u14-l3-e10` *Mluvení* — 🎤 **Am Strand war es schön.** — Na pláži bylo hezky.
+
+## [ ] Kapitola 15: Názory (Meinungen) · A2
+
+Soubor: `content/cs-de/unit15-meinung.json` · ID: `u15` · Popis: Jak říct proč, co si myslíte a jak se zdvořile zeptat: weil, denn, dass a ob se slovesem na konci.
+
+### [ ] 15.1: Proč? (Warum?) · `u15-l1`
+
+**[ ] Tip: weil a denn**
+
+> Na otázku warum? (proč?) odpovíte weil nebo denn, obojí znamená „protože“. Rozdíl je ve slovosledu. Po weil jde sloveso až na konec: …, weil ich keine Zeit habe. Po denn zůstane obvyklé pořadí: …, denn ich habe keine Zeit. Česky slovosled neměníme, proto se snadno řekne chybně „weil ich habe keine Zeit“. Před weil i denn se píše čárka, stejně jako v češtině před „protože“.
+>
+> - **Warum kommt Anna nicht?** — Proč Anna nepřijde?
+> - **Sie kommt nicht, weil sie krank ist.** — Nepřijde, protože je nemocná.
+> - **Sie kommt nicht, denn sie ist krank.** — Nepřijde, neboť je nemocná.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l1-w1` | **warum** | proč | Přízvuk na druhé slabice: [va-RUM]. |
+| [ ] | `u15-l1-w2` | **weil** | protože | Sloveso jde na konec: weil ich keine Zeit habe. |
+| [ ] | `u15-l1-w3` | **denn** | neboť | Také „protože“, ale slovosled se nemění: denn ich habe keine Zeit. |
+| [ ] | `u15-l1-w4` | **leider** | bohužel | ei = aj: [LAJ-da] |
+| [ ] | `u15-l1-w5` | **die Zeit** | čas | Ich habe keine Zeit. = Nemám čas. z = c, ei = aj: [cajt]; množné číslo: die Zeiten |
+| [ ] | `u15-l1-w6` | **die Lust** | chuť | Ich habe keine Lust. = Nechce se mi. Množné číslo se běžně nepoužívá. |
+| [ ] | `u15-l1-w7` | **müde** | unavený | ü: řekněte i a rty zaokrouhlete jako na u. |
+| [ ] | `u15-l1-w8` | **froh** | veselý; rád | Ich bin froh. = Mám radost. Jiné než gern: Ich lese gern. = Rád čtu. |
+| [ ] | `u15-l1-w9` | **traurig** | smutný | -ig na konci zní jako „ich“: [TRAU-rich] |
+
+**Cvičení**
+
+- [ ] `u15-l1-e1` *Výběr* — **leider** — možnosti: „bohužel“, „proč“, „protože“ — ✔ **bohužel**
+- [ ] `u15-l1-e2` *Výběr* — **smutný** — možnosti: „traurig“, „müde“, „froh“ — ✔ **traurig**
+- [ ] `u15-l1-e3` *Dvojice* — **warum** = proč · **die Zeit** = čas · **die Lust** = chuť · **müde** = unavený · **froh** = veselý
+- [ ] `u15-l1-e4` *Poslech* — 🔊 zazní: **Ich habe leider keine Zeit.** — možnosti: „Ich habe leider keine Zeit.“, „Ich habe heute keine Zeit.“, „Ich habe leider keine Lust.“ — ✔ **Ich habe leider keine Zeit.**
+- [ ] `u15-l1-e5` *Doplňování* — **Ich komme heute nicht, ___ ich habe keine Zeit.** (Dnes nepřijdu, protože nemám čas.) — možnosti: „denn“, „weil“, „warum“ — ✔ **denn** — vysvětlení: Sloveso stojí hned za ich (ich habe), takže se hodí jen denn; po weil by šlo na konec.
+- [ ] `u15-l1-e6` *Doplňování* — **Er bleibt zu Hause, ___ er krank ist.** (Zůstává doma, protože je nemocný.) — možnosti: „weil“, „denn“, „und“ — ✔ **weil** — vysvětlení: Sloveso ist stojí na konci, to je možné jen po weil.
+- [ ] `u15-l1-e7` *Psaní* — **proč** → ✔ **warum**
+- [ ] `u15-l1-e8` *Skládání věty* — Petr zůstává doma, protože je unavený. → ✔ **Peter bleibt zu Hause, weil er müde ist.** (uznává se i: „Weil er müde ist, bleibt Peter zu Hause.“)
+- [ ] `u15-l1-e9` *Poslech* — 🔊 zazní: **Warum ist Peter traurig?** — možnosti: „Proč je Petr smutný?“, „Proč je Petr unavený?“, „Proč je Petr veselý?“ — ✔ **Proč je Petr smutný?**
+- [ ] `u15-l1-e10` *Skládání věty* — Bohužel nemám čas. → ✔ **Ich habe leider keine Zeit.** (chybné dílky: „nicht“) (uznává se i: „Leider habe ich keine Zeit.“)
+
+### [ ] 15.2: Myslím, že… (Meiner Meinung nach) · `u15-l2`
+
+**[ ] Tip: Po dass jde sloveso na konec**
+
+> Spojka dass (že) posílá sloveso na konec věty, stejně jako weil: Ich glaube, dass er krank ist. „…, dass er ist krank“ je chyba. Pozor na pravopis: dass (že) se píše se dvěma s, das (to, ten) s jedním. Svůj názor uvedete slovy Ich glaube, … nebo Ich denke, … anebo Meiner Meinung nach … (podle mého názoru). Sloveso wissen (vědět) je nepravidelné: ich weiß, du weißt, er weiß, wir wissen.
+>
+> - **Ich glaube, dass das richtig ist.** — Myslím, že je to správně.
+> - **Wir wissen, dass das wichtig ist.** — Víme, že je to důležité.
+> - **Meiner Meinung nach ist das falsch.** — Podle mého názoru je to špatně.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l2-w1` | **glauben** | věřit; myslet si | Ich glaube, dass … = Myslím, že … |
+| [ ] | `u15-l2-w2` | **denken** | myslet | Ich denke, dass … ; příčestí: gedacht |
+| [ ] | `u15-l2-w3` | **wissen** | vědět | ich weiß, du weißt, er weiß, wir wissen; ß = ostré s |
+| [ ] | `u15-l2-w4` | **dass** | že | Sloveso jde na konec. Pozor: das (to, ten) s jedním s. |
+| [ ] | `u15-l2-w5` | **die Meinung** | názor | meiner Meinung nach = podle mého názoru; ei = aj; množné číslo: die Meinungen |
+| [ ] | `u15-l2-w6` | **richtig** | správný; správně | Das ist richtig. = To je správně. |
+| [ ] | `u15-l2-w7` | **falsch** | chybný; špatně | Das ist falsch. = To je špatně. |
+| [ ] | `u15-l2-w8` | **wichtig** | důležitý | -ig na konci zní jako „ich“: [VICH-tich] |
+| [ ] | `u15-l2-w9` | **interessant** | zajímavý | Přízvuk na konci: [in-te-re-SANT] |
+
+**Cvičení**
+
+- [ ] `u15-l2-e1` *Výběr* — **wichtig** — možnosti: „důležitý“, „zajímavý“, „chybný; špatně“ — ✔ **důležitý**
+- [ ] `u15-l2-e2` *Výběr* — **názor** — možnosti: „die Meinung“, „die Zeit“, „die Lust“ — ✔ **die Meinung**
+- [ ] `u15-l2-e3` *Dvojice* — **glauben** = věřit · **denken** = myslet · **wissen** = vědět · **richtig** = správný · **falsch** = chybný
+- [ ] `u15-l2-e4` *Poslech* — 🔊 zazní: **Ich glaube, dass das richtig ist.** — možnosti: „Ich glaube, dass das richtig ist.“, „Ich glaube, dass das falsch ist.“, „Ich weiß, dass das richtig ist.“ — ✔ **Ich glaube, dass das richtig ist.**
+- [ ] `u15-l2-e5` *Doplňování* — **Wir wissen, ___ der Termin wichtig ist.** (Víme, že je ta schůzka důležitá.) — možnosti: „dass“, „das“, „denn“ — ✔ **dass** — vysvětlení: „že“ je dass se dvěma s; po denn by sloveso nestálo na konci.
+- [ ] `u15-l2-e6` *Doplňování* — **Mein Sohn ___, dass das falsch ist.** (Můj syn ví, že je to špatně.) — možnosti: „weiß“, „wisst“, „wissen“ — ✔ **weiß** — vysvětlení: wissen je nepravidelné: er weiß, bez -t na konci.
+- [ ] `u15-l2-e7` *Psaní* — **zajímavý** → ✔ **interessant**
+- [ ] `u15-l2-e8` *Skládání věty* — Myslím, že je ten film zajímavý. → ✔ **Ich denke, dass der Film interessant ist.** (chybné dílky: „denn“)
+- [ ] `u15-l2-e9` *Poslech* — 🔊 zazní: **Meiner Meinung nach ist das wichtig.** — možnosti: „Podle mého názoru je to důležité.“, „Podle mého názoru je to zajímavé.“, „Podle mého názoru je to špatně.“ — ✔ **Podle mého názoru je to důležité.**
+- [ ] `u15-l2-e10` *Výběr* — Vyberte správnou větu **Vím, že je Petr nemocný.** — možnosti: „Ich weiß, dass Peter krank ist.“, „Ich weiß, dass Peter ist krank.“, „Ich weiß, dass ist Peter krank.“ — ✔ **Ich weiß, dass Peter krank ist.**
+
+### [ ] 15.3: Zdvořilé otázky (Höfliche Fragen) · `u15-l3`
+
+**[ ] Tip: Wissen Sie, wo …?**
+
+> Zdvořilá otázka často začíná slovy Wissen Sie, … (Nevíte, …?) nebo Können Sie mir sagen, … (Můžete mi říct, …?). Pak jde sloveso na konec: Wissen Sie, wo der Bahnhof ist? „Wissen Sie, wo ist der Bahnhof?“ je chyba. Když otázka nemá tázací slovo (wo, wie, warum), použijte ob = jestli, zda: Ich weiß nicht, ob er heute kommt. Pozor: české „jestli“ se tu neřekne wenn.
+>
+> - **Wissen Sie, wo der Bahnhof ist?** — Nevíte, kde je nádraží?
+> - **Ich weiß nicht, ob er heute kommt.** — Nevím, jestli dnes přijde.
+> - **Können Sie das bitte wiederholen?** — Můžete to prosím zopakovat?
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u15-l3-w1` | **ob** | jestli; zda | Sloveso jde na konec: Ich weiß nicht, ob er kommt. |
+| [ ] | `u15-l3-w2` | **sagen** | říct; říkat | Was sagen Sie? = Co říkáte? |
+| [ ] | `u15-l3-w3` | **fragen** | zeptat se; ptát se | Koho se ptáte, je německy ve 4. pádě, česky ve 2.: Ich frage den Arzt. = Zeptám se lékaře. |
+| [ ] | `u15-l3-w4` | **die Frage** | otázka | Ich habe eine Frage. = Mám otázku. Množné číslo: die Fragen |
+| [ ] | `u15-l3-w5` | **antworten** | odpovědět; odpovídat | er antwortet (vložené -e-) |
+| [ ] | `u15-l3-w6` | **die Antwort** | odpověď | w = v: [ANT-vort]; množné číslo: die Antworten |
+| [ ] | `u15-l3-w7` | **erklären** | vysvětlit | Přízvuk: er-KLÉ-ren; příčestí bez ge-: erklärt |
+| [ ] | `u15-l3-w8` | **verstehen** | rozumět; pochopit | Ich verstehe das nicht. = Nerozumím tomu. Příčestí: verstanden |
+| [ ] | `u15-l3-w9` | **wiederholen** | zopakovat | Neodlučitelné: Ich wiederhole. Přízvuk: [ví-da-HÓ-len]; příčestí: wiederholt |
+
+**Cvičení**
+
+- [ ] `u15-l3-e1` *Výběr* — **verstehen** — možnosti: „rozumět; pochopit“, „vysvětlit“, „zopakovat“ — ✔ **rozumět; pochopit**
+- [ ] `u15-l3-e2` *Výběr* — **odpověď** — možnosti: „die Antwort“, „die Frage“, „die Meinung“ — ✔ **die Antwort**
+- [ ] `u15-l3-e3` *Dvojice* — **ob** = jestli · **sagen** = říct · **fragen** = zeptat se · **antworten** = odpovědět · **erklären** = vysvětlit
+- [ ] `u15-l3-e4` *Poslech* — 🔊 zazní: **Können Sie das bitte wiederholen?** — možnosti: „Können Sie das bitte wiederholen?“, „Können Sie das bitte erklären?“, „Können Sie das bitte sagen?“ — ✔ **Können Sie das bitte wiederholen?**
+- [ ] `u15-l3-e5` *Doplňování* — **Wissen Sie, ___ der Zug pünktlich ist?** (Nevíte, jestli jede vlak načas?) — možnosti: „ob“, „denn“, „weil“ — ✔ **ob** — vysvětlení: Otázka bez tázacího slova: „jestli“ se řekne ob.
+- [ ] `u15-l3-e6` *Doplňování* — **Wissen Sie, wo der Bus ___?** (Nevíte, odkud jede autobus?) — možnosti: „abfährt“, „fährt ab“, „abgefahren“ — ✔ **abfährt** — vysvětlení: Ve vedlejší větě jde sloveso na konec a předpona zůstane přilepená: abfährt.
+- [ ] `u15-l3-e7` *Psaní* — **otázka** → ✔ **die Frage**
+- [ ] `u15-l3-e8` *Skládání věty* — Nevíte, kde je pošta? → ✔ **Wissen Sie, wo die Post ist?**
+- [ ] `u15-l3-e9` *Poslech* — 🔊 zazní: **Entschuldigung, ich verstehe das nicht.** — možnosti: „Promiňte, tomu nerozumím.“, „Promiňte, to nevím.“, „Promiňte, můžete to zopakovat?“ — ✔ **Promiňte, tomu nerozumím.**
+- [ ] `u15-l3-e10` *Výběr* — Vyberte správnou větu **Nevím, jestli je Petr doma.** — možnosti: „Ich weiß nicht, ob Peter zu Hause ist.“, „Ich weiß nicht, ob ist Peter zu Hause.“, „Ich weiß nicht, ob Peter ist zu Hause.“ — ✔ **Ich weiß nicht, ob Peter zu Hause ist.**
+
+## [ ] Kapitola 16: Srovnání (Vergleiche) · A2
+
+Soubor: `content/cs-de/unit16-vergleiche.json` · ID: `u16` · Popis: Jak srovnávat: větší než, stejně velký jako, nejlepší, a koncovky přídavných jmen při nakupování.
+
+### [ ] 16.1: Větší a lepší (Größer und besser) · `u16-l1`
+
+**[ ] Tip: schneller als, so alt wie**
+
+> Když srovnáváte, přidejte -er: schnell → schneller (rychlejší). Krátká slova často dostanou přehlásku: alt → älter, jung → jünger, groß → größer. „Než“ se řekne als: Der Zug ist schneller als der Bus. „Stejně … jako“ je so … wie: Peter ist so alt wie Anna. „Größer wie“ je chyba, po -er vždy přijde als. Nepravidelně: gut → besser, viel → mehr, gern → lieber, hoch → höher.
+>
+> - **Der Zug ist schneller als der Bus.** — Vlak je rychlejší než autobus.
+> - **Mein Bruder ist jünger als ich.** — Můj bratr je mladší než já.
+> - **Peter ist so alt wie Anna.** — Petr je stejně starý jako Anna.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l1-w1` | **als** | než | größer als = větší než. Po -er vždy als, ne wie. |
+| [ ] | `u16-l1-w2` | **wie** | jako; jak | so groß wie = stejně velký jako; ie = í: [ví] |
+| [ ] | `u16-l1-w3` | **besser** | lepší; líp | gut, besser, am besten |
+| [ ] | `u16-l1-w4` | **mehr** | víc | viel, mehr, am meisten; h se nečte: [mér] |
+| [ ] | `u16-l1-w5` | **lieber** | raději | gern, lieber, am liebsten: Ich trinke lieber Tee. |
+| [ ] | `u16-l1-w6` | **schnell** | rychlý; rychle | schneller = rychlejší |
+| [ ] | `u16-l1-w7` | **langsam** | pomalý; pomalu | Bitte langsam! = Pomalu, prosím! |
+| [ ] | `u16-l1-w8` | **jung** | mladý | S přehláskou: jünger = mladší. Opak: alt |
+| [ ] | `u16-l1-w9` | **hoch** | vysoký | ch po o jako české ch; höher = vyšší, píše se bez c a h se nečte: [HÖ-a] |
+
+**Cvičení**
+
+- [ ] `u16-l1-e1` *Výběr* — **langsam** — možnosti: „pomalý; pomalu“, „rychlý; rychle“, „mladý“ — ✔ **pomalý; pomalu**
+- [ ] `u16-l1-e2` *Výběr* — **raději** — možnosti: „lieber“, „besser“, „mehr“ — ✔ **lieber**
+- [ ] `u16-l1-e3` *Dvojice* — **als** = než · **wie** = jako · **besser** = lepší · **mehr** = víc · **hoch** = vysoký
+- [ ] `u16-l1-e4` *Poslech* — 🔊 zazní: **Der Zug ist langsamer als das Auto.** — možnosti: „Der Zug ist langsamer als das Auto.“, „Das Auto ist langsamer als der Zug.“, „Der Zug ist schneller als das Auto.“ — ✔ **Der Zug ist langsamer als das Auto.**
+- [ ] `u16-l1-e5` *Doplňování* — **Mein Bruder ist älter ___ ich.** (Můj bratr je starší než já.) — možnosti: „als“, „wie“, „so“ — ✔ **als** — vysvětlení: Po 2. stupni (älter) se „než“ řekne vždy als.
+- [ ] `u16-l1-e6` *Doplňování* — **Peter ist so groß ___ Anna.** (Petr je stejně vysoký jako Anna.) — možnosti: „wie“, „als“, „so“ — ✔ **wie** — vysvětlení: „Stejně … jako“ je so … wie.
+- [ ] `u16-l1-e7` *Psaní* — **mladý** → ✔ **jung**
+- [ ] `u16-l1-e8` *Skládání věty* — Raději piju čaj než kávu. → ✔ **Ich trinke lieber Tee als Kaffee.** (chybné dílky: „wie“) (uznává se i: „Lieber trinke ich Tee als Kaffee.“)
+- [ ] `u16-l1-e9` *Poslech* — 🔊 zazní: **Sprechen Sie bitte langsamer.** — možnosti: „Mluvte prosím pomaleji.“, „Mluvte prosím rychleji.“, „Mluvte prosím víc.“ — ✔ **Mluvte prosím pomaleji.**
+- [ ] `u16-l1-e10` *Výběr* — Vyberte správnou větu **Hora je vyšší než kostel.** — možnosti: „Der Berg ist höher als die Kirche.“, „Der Berg ist hocher als die Kirche.“, „Der Berg ist höher wie die Kirche.“ — ✔ **Der Berg ist höher als die Kirche.**
+
+### [ ] 16.2: Krajina a příroda (Land und Natur) · `u16-l2`
+
+**[ ] Tip: am schnellsten = nejrychleji**
+
+> „Nej-“ za slovesem (je nejrychlejší, běží nejrychleji) se řekne am …-sten: schnell → am schnellsten, lang → am längsten, tief → am tiefsten. Česky dáváme „nej-“ na začátek, němčina přidá am a koncovku -sten. Po t a d se vkládá -e-: alt → am ältesten, berühmt → am berühmtesten. Nepravidelně: gut → am besten, gern → am liebsten, hoch → am höchsten, groß → am größten.
+>
+> - **Meine Mutter kocht am besten.** — Nejlépe vaří moje maminka.
+> - **Im Sommer schwimme ich am liebsten im See.** — V létě nejraději plavu v jezeře.
+> - **Welcher Fluss ist am längsten?** — Která řeka je nejdelší?
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l2-w1` | **das Land** | země; venkov | auf dem Land = na venkově; množné číslo: die Länder |
+| [ ] | `u16-l2-w2` | **die Welt** | svět | auf der Welt = na světě; w = v; množné číslo: die Welten |
+| [ ] | `u16-l2-w3` | **der Fluss** | řeka | Pozor, mužský rod; množné číslo: die Flüsse |
+| [ ] | `u16-l2-w4` | **der Wald** | les | im Wald = v lese; d na konci zní jako t: [valt]; množné číslo: die Wälder |
+| [ ] | `u16-l2-w5` | **lang** | dlouhý | länger, am längsten |
+| [ ] | `u16-l2-w6` | **tief** | hluboký | ie = í: [tíf]; tiefer, am tiefsten |
+| [ ] | `u16-l2-w7` | **berühmt** | slavný; známý | Přízvuk na druhé slabice: be-RÜMT; h se nečte. |
+| [ ] | `u16-l2-w8` | **am besten** | nejlépe | gut, besser, am besten |
+| [ ] | `u16-l2-w9` | **am liebsten** | nejraději | gern, lieber, am liebsten |
+
+**Cvičení**
+
+- [ ] `u16-l2-e1` *Výběr* — **der Wald** — možnosti: „les“, „řeka“, „svět“ — ✔ **les**
+- [ ] `u16-l2-e2` *Výběr* — **hluboký** — možnosti: „tief“, „lang“, „hoch“ — ✔ **tief**
+- [ ] `u16-l2-e3` *Dvojice* — **das Land** = venkov · **die Welt** = svět · **der Fluss** = řeka · **berühmt** = slavný · **lang** = dlouhý
+- [ ] `u16-l2-e4` *Poslech* — 🔊 zazní: **Am liebsten wandern wir im Wald.** — možnosti: „Am liebsten wandern wir im Wald.“, „Am liebsten wandern wir am Fluss.“, „Am liebsten schwimmen wir im See.“ — ✔ **Am liebsten wandern wir im Wald.**
+- [ ] `u16-l2-e5` *Doplňování* — **Hier ist der See am ___.** (Tady je jezero nejhlubší.) — možnosti: „tiefsten“, „tiefer“, „tiefste“ — ✔ **tiefsten** — vysvětlení: Po am přijde vždy koncovka -sten: am tiefsten.
+- [ ] `u16-l2-e6` *Doplňování* — **Was machen Sie am ___?** (Co děláte nejraději?) — možnosti: „liebsten“, „gernsten“, „lieber“ — ✔ **liebsten** — vysvětlení: gern je nepravidelné: lieber, am liebsten.
+- [ ] `u16-l2-e7` *Psaní* — **nejlépe** → ✔ **am besten**
+- [ ] `u16-l2-e8` *Skládání věty* — Na podzim je les nejkrásnější. → ✔ **Im Herbst ist der Wald am schönsten.** (chybné dílky: „schönste“) (uznává se i: „Der Wald ist im Herbst am schönsten.“)
+- [ ] `u16-l2-e9` *Poslech* — 🔊 zazní: **Der Rhein ist länger als die Moldau.** — možnosti: „Rýn je delší než Vltava.“, „Rýn je hlubší než Vltava.“, „Rýn je slavnější než Vltava.“ — ✔ **Rýn je delší než Vltava.**
+- [ ] `u16-l2-e10` *Mluvení* — 🎤 **Ich wohne am liebsten auf dem Land.** — Nejraději bydlím na venkově.
+
+### [ ] 16.3: V obchodním domě (Im Kaufhaus) · `u16-l3`
+
+**[ ] Tip: ein schöner, eine schöne, ein schönes**
+
+> Před podstatným jménem má přídavné jméno koncovku, podobně jako v češtině hezký – hezká – hezké. Po ein/eine (1. pád) koncovka ukáže rod, který samotné ein neprozradí: ein schöner Mantel (der), eine schöne Jacke (die), ein schönes Kleid (das). Po sein koncovka není: Der Mantel ist schön. Ve 4. pádě se mění jen mužský rod: Ich kaufe einen schönen Mantel.
+>
+> - **Das Kaufhaus hat ein gutes Angebot.** — Obchodní dům má dobrou nabídku.
+> - **Ich suche eine bequeme Hose.** — Hledám pohodlné kalhoty.
+> - **Das ist ein hübsches Kleid.** — To jsou pěkné šaty.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u16-l3-w1` | **das Kaufhaus** | obchodní dům | au = au; množné číslo: die Kaufhäuser |
+| [ ] | `u16-l3-w2` | **das Angebot** | nabídka; akce | im Angebot = v akci, ve slevě; množné číslo: die Angebote |
+| [ ] | `u16-l3-w3` | **die Qualität** | kvalita | qu = kv: [kva-li-TÉT]; množné číslo: die Qualitäten |
+| [ ] | `u16-l3-w4` | **günstig** | výhodný | Zní lépe než billig (levný). -ig na konci zní jako „ich“. |
+| [ ] | `u16-l3-w5` | **bequem** | pohodlný | qu = kv: [be-KVÉM] |
+| [ ] | `u16-l3-w6` | **eng** | těsný; úzký | Die Hose ist zu eng. = Kalhoty jsou moc těsné. |
+| [ ] | `u16-l3-w7` | **modern** | moderní | Přízvuk na konci: [mo-DERN] |
+| [ ] | `u16-l3-w8` | **hübsch** | pěkný | Hlavně o vzhledu: ein hübsches Kleid. ü: řekněte i se zaokrouhlenými rty. |
+| [ ] | `u16-l3-w9` | **hässlich** | ošklivý | ä = e: [HES-lich] |
+
+**Cvičení**
+
+- [ ] `u16-l3-e1` *Výběr* — **bequem** — možnosti: „pohodlný“, „těsný; úzký“, „ošklivý“ — ✔ **pohodlný**
+- [ ] `u16-l3-e2` *Výběr* — **obchodní dům** — možnosti: „das Kaufhaus“, „das Angebot“, „die Qualität“ — ✔ **das Kaufhaus**
+- [ ] `u16-l3-e3` *Dvojice* — **günstig** = výhodný · **eng** = těsný · **modern** = moderní · **hübsch** = pěkný · **hässlich** = ošklivý
+- [ ] `u16-l3-e4` *Poslech* — 🔊 zazní: **Das ist ein hässlicher Pullover.** — možnosti: „Das ist ein hässlicher Pullover.“, „Das ist ein hübscher Pullover.“, „Das ist eine hässliche Bluse.“ — ✔ **Das ist ein hässlicher Pullover.**
+- [ ] `u16-l3-e5` *Doplňování* — **Das ist ein ___ Mantel.** (To je pohodlný kabát.) — možnosti: „bequemer“, „bequeme“, „bequemes“ — ✔ **bequemer** — vysvětlení: der Mantel: po ein má přídavné jméno koncovku -er.
+- [ ] `u16-l3-e6` *Doplňování* — **Ich suche eine ___ Jacke.** (Hledám moderní bundu.) — možnosti: „moderne“, „moderner“, „modernes“ — ✔ **moderne** — vysvětlení: die Jacke: po eine má přídavné jméno koncovku -e.
+- [ ] `u16-l3-e7` *Psaní* — **ošklivý** → ✔ **hässlich**
+- [ ] `u16-l3-e8` *Skládání věty* — Kalhoty jsou moc těsné. → ✔ **Die Hose ist zu eng.** (chybné dílky: „enge“)
+- [ ] `u16-l3-e9` *Poslech* — 🔊 zazní: **Der Mantel ist im Angebot.** — možnosti: „Kabát je v akci.“, „Kabát je moc drahý.“, „Kabát je moc těsný.“ — ✔ **Kabát je v akci.**
+- [ ] `u16-l3-e10` *Skládání věty* — To je moderní obchodní dům. → ✔ **Das ist ein modernes Kaufhaus.** (chybné dílky: „moderner“)
+
+## [ ] Kapitola 17: Data a svátky (Termine und Feste) · A2
+
+Soubor: `content/cs-de/unit17-termine.json` · ID: `u17` · Popis: Měsíce, data a letopočty, narozeniny a svatba; rozdíl mezi wenn a wann.
+
+### [ ] 17.1: Měsíce a data (Am ersten Mai) · `u17-l1`
+
+**[ ] Tip: Am ersten Mai = prvního května**
+
+> Datum se německy říká řadovou číslovkou, stejně jako česky. Do devatenácti se k číslu přidá -te: zweite, vierte, fünfte, zwölfte. Od dvaceti -ste: zwanzigste. Nepravidelné jsou erste (první), dritte (třetí), siebte (sedmý) a achte (osmý). Na otázku „kdy?“ řeknete am a číslovka dostane koncovku -en: am ersten Mai = prvního května, am dritten April = třetího dubna. Pozor na rozdíl: česky „Dnes je prvního května“, německy „Heute ist der erste Mai“. Píše se to jako u nás s tečkou: 1. Mai.
+>
+> - **Heute ist der erste Mai.** — Dnes je prvního května.
+> - **Am dritten April habe ich Geburtstag.** — Třetího dubna mám narozeniny.
+> - **Welches Datum ist heute?** — Kolikátého je dnes?
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l1-w1` | **der Monat** | měsíc | Měsíc v kalendáři, ne na nebi. Množné číslo: die Monate |
+| [ ] | `u17-l1-w2` | **der Januar** | leden | Čte se [JA-nu-ár]; im Januar = v lednu. Všechny měsíce jsou mužského rodu. |
+| [ ] | `u17-l1-w3` | **der Februar** | únor | Čte se [FÉ-bru-ár] |
+| [ ] | `u17-l1-w4` | **der März** | březen | ä = e, z = c: [merc] |
+| [ ] | `u17-l1-w5` | **der April** | duben | Přízvuk na konci: [a-PRIL] |
+| [ ] | `u17-l1-w6` | **der Mai** | květen | ai = aj: [maj] |
+| [ ] | `u17-l1-w7` | **der Juni** | červen | Čte se [JÚ-ni]. Snadno se splete s Juli, proto se do telefonu říká i „Juno“. |
+| [ ] | `u17-l1-w8` | **das Datum** | datum | Pozor, střední rod; množné číslo: die Daten |
+| [ ] | `u17-l1-w9` | **erste** | první | der erste Mai = první máj; am ersten Mai = prvního května |
+
+**Cvičení**
+
+- [ ] `u17-l1-e1` *Výběr* — **der März** — možnosti: „březen“, „květen“, „duben“ — ✔ **březen**
+- [ ] `u17-l1-e2` *Výběr* — **měsíc** — možnosti: „der Monat“, „das Datum“, „das Jahr“ — ✔ **der Monat**
+- [ ] `u17-l1-e3` *Dvojice* — **der Januar** = leden · **der Februar** = únor · **der April** = duben · **der Mai** = květen · **der Juni** = červen
+- [ ] `u17-l1-e4` *Poslech* — 🔊 zazní: **Heute ist der erste Mai.** — možnosti: „Heute ist der erste Mai.“, „Heute ist der dritte Mai.“, „Heute ist der erste März.“ — ✔ **Heute ist der erste Mai.**
+- [ ] `u17-l1-e5` *Doplňování* — **Mein Sohn hat am ___ Juni Geburtstag.** (Syn má narozeniny třetího června.) — možnosti: „dritten“, „dritte“, „dreiten“ — ✔ **dritten** — vysvětlení: Po am má číslovka koncovku -en; „třetí“ je nepravidelné: dritte → am dritten.
+- [ ] `u17-l1-e6` *Doplňování* — **Heute ist der ___ April.** (Dnes je dvacátého dubna.) — možnosti: „zwanzigste“, „zwanzigsten“, „zwanzigte“ — ✔ **zwanzigste** — vysvětlení: Od dvaceti se přidává -ste a po der je koncovka -e: der zwanzigste April.
+- [ ] `u17-l1-e7` *Psaní* — **duben** → ✔ **der April**
+- [ ] `u17-l1-e8` *Skládání věty* — Sedmého března mám narozeniny. → ✔ **Am siebten März habe ich Geburtstag.** (chybné dílky: „sieben“) (uznává se i: „Ich habe am siebten März Geburtstag.“)
+- [ ] `u17-l1-e9` *Poslech* — 🔊 zazní: **Welches Datum ist heute?** — možnosti: „Kolikátého je dnes?“, „Jaký den je dnes?“, „Kolik je hodin?“ — ✔ **Kolikátého je dnes?**
+- [ ] `u17-l1-e10` *Výběr* — Vyberte správnou větu **Dnes je prvního června.** — možnosti: „Heute ist der erste Juni.“, „Heute ist der erste Januar.“, „Heute ist der dritte Juni.“ — ✔ **Heute ist der erste Juni.**
+
+### [ ] 17.2: Narozeniny a letopočty (Im Juli geboren) · `u17-l2`
+
+**[ ] Tip: Neunzehnhundertachtundfünfzig**
+
+> S měsíci se říká im: im Juli = v červenci, im Dezember = v prosinci. Letopočty do roku 1999 Němci čtou po stovkách: 1958 = neunzehnhundertachtundfünfzig, doslova „devatenáct set osmapadesát“. Neříká se tedy „tausendneunhundert…“. A před rokem nedávejte „in“: Mein Vater ist neunzehnhundertachtundfünfzig geboren. Desítky končí na -zig: vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig; výjimka je dreißig (30). Od roku 2000 se říká zweitausend…: 2010 = zweitausendzehn.
+>
+> - **Mein Vater ist neunzehnhundertachtundfünfzig geboren.** — Táta se narodil v roce 1958.
+> - **Meine Tochter ist im Juli geboren.** — Dcera se narodila v červenci.
+> - **Weihnachten ist im Dezember.** — Vánoce jsou v prosinci.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l2-w1` | **der Juli** | červenec | Čte se [JÚ-li]; do telefonu se kvůli záměně s Juni říká i „Julei“. |
+| [ ] | `u17-l2-w2` | **der August** | srpen | Přízvuk na konci: [au-GUST] |
+| [ ] | `u17-l2-w3` | **der September** | září | Čte se [zep-TEM-ba] |
+| [ ] | `u17-l2-w4` | **der Oktober** | říjen | Čte se [ok-TÓ-ba] |
+| [ ] | `u17-l2-w5` | **der November** | listopad | Tady se v čte jako české v: [no-VEM-ba] |
+| [ ] | `u17-l2-w6` | **der Dezember** | prosinec | z = c: [de-CEM-ba] |
+| [ ] | `u17-l2-w7` | **der Feiertag** | svátek | Volný den, např. Weihnachten. Jmeniny jsou der Namenstag. Množné číslo: die Feiertage |
+| [ ] | `u17-l2-w8` | **hundert** | sto | Čte se [HUN-dat]; neunzehnhundert = devatenáct set |
+| [ ] | `u17-l2-w9` | **geboren** | narozený | Er ist im Juli geboren = narodil se v červenci. Přízvuk: [ge-BÓ-ren] |
+
+**Cvičení**
+
+- [ ] `u17-l2-e1` *Výběr* — **der Oktober** — možnosti: „říjen“, „listopad“, „září“ — ✔ **říjen**
+- [ ] `u17-l2-e2` *Výběr* — **svátek** — možnosti: „der Feiertag“, „der Geburtstag“, „das Datum“ — ✔ **der Feiertag**
+- [ ] `u17-l2-e3` *Dvojice* — **der Juli** = červenec · **der August** = srpen · **der September** = září · **der November** = listopad · **der Dezember** = prosinec
+- [ ] `u17-l2-e4` *Poslech* — Poslechněte si a vyberte rok 🔊 zazní: **neunzehnhundertachtundfünfzig** — možnosti: „1958“, „1985“, „1948“ — ✔ **1958**
+- [ ] `u17-l2-e5` *Doplňování* — **Mein Vater ist ___ Oktober geboren.** (Táta se narodil v říjnu.) — možnosti: „im“, „am“, „um“ — ✔ **im** — vysvětlení: U měsíců se říká im: im Oktober = v říjnu.
+- [ ] `u17-l2-e6` *Doplňování* — **Meine Mutter ist ___ geboren.** (Maminka se narodila v roce 1950.) — možnosti: „neunzehnhundertfünfzig“, „tausendneunhundertfünfzig“, „in neunzehnhundertfünfzig“ — ✔ **neunzehnhundertfünfzig** — vysvětlení: Letopočet se čte po stovkách (neunzehnhundert…) a bez „in“.
+- [ ] `u17-l2-e7` *Psaní* — **prosinec** → ✔ **der Dezember**
+- [ ] `u17-l2-e8` *Skládání věty* — V srpnu mám narozeniny. → ✔ **Im August habe ich Geburtstag.** (chybné dílky: „am“) (uznává se i: „Ich habe im August Geburtstag.“)
+- [ ] `u17-l2-e9` *Poslech* — 🔊 zazní: **Der dritte Oktober ist ein Feiertag.** — možnosti: „Der dritte Oktober ist ein Feiertag.“, „Der dritte November ist ein Feiertag.“, „Der dritte Oktober ist kein Feiertag.“ — ✔ **Der dritte Oktober ist ein Feiertag.**
+- [ ] `u17-l2-e10` *Mluvení* — 🎤 **Ich habe im Juli Geburtstag.** — Mám narozeniny v červenci.
+
+### [ ] 17.3: Svatba (Die Hochzeit) · `u17-l3`
+
+**[ ] Tip: Wann? = kdy?, wenn = když**
+
+> Česky rozlišujeme „kdy“ a „když“ a němčina také: wann? = kdy? (otázka), wenn = když (podmínka nebo něco, co se opakuje). Wann ist die Hochzeit? = Kdy je svatba? Po wenn jde sloveso na úplný konec věty, stejně jako po weil a dass: …, wenn das Wetter schön ist. Když věta s wenn stojí na začátku, za čárkou hned následuje sloveso a teprve potom podmět: Wenn es regnet, bleiben wir zu Hause. Pěkná věc: heiraten platí pro muže i ženu, česky „oženit se“ i „vdát se“.
+>
+> - **Wann ist die Hochzeit?** — Kdy je svatba?
+> - **Wenn es regnet, bleiben wir zu Hause.** — Když prší, zůstaneme doma.
+> - **Anna und Peter heiraten im Mai.** — Anna a Petr se v květnu berou.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u17-l3-w1` | **wenn** | když | Sloveso jde na konec: wenn ich Zeit habe. Pozor na wann = kdy. |
+| [ ] | `u17-l3-w2` | **wann** | kdy | V otázce: Wann kommen Sie? Pozor na wenn = když. |
+| [ ] | `u17-l3-w3` | **die Hochzeit** | svatba | Čte se [HOCH-cajt]; množné číslo: die Hochzeiten |
+| [ ] | `u17-l3-w4` | **heiraten** | vzít se | Pro muže i ženu: oženit se i vdát se. Příčestí: geheiratet |
+| [ ] | `u17-l3-w5` | **verheiratet** | ženatý; vdaná | Ich bin verheiratet = jsem ženatý i jsem vdaná. |
+| [ ] | `u17-l3-w6` | **ledig** | svobodný; svobodná | Hlavně v úředních formulářích. Čte se [LÉ-dich]. |
+| [ ] | `u17-l3-w7` | **geschieden** | rozvedený; rozvedená | Čte se [ge-ŠÍ-den]. |
+| [ ] | `u17-l3-w8` | **das Paar** | pár; dvojice | aa = á: [pár]. Pozor: ein paar s malým p = několik. Množné číslo: die Paare |
+| [ ] | `u17-l3-w9` | **die Liebe** | láska | ie = í: [LÍ-be] |
+
+**Cvičení**
+
+- [ ] `u17-l3-e1` *Výběr* — **geschieden** — možnosti: „rozvedený; rozvedená“, „ženatý; vdaná“, „svobodný; svobodná“ — ✔ **rozvedený; rozvedená**
+- [ ] `u17-l3-e2` *Výběr* — **svatba** — možnosti: „die Hochzeit“, „die Liebe“, „das Paar“ — ✔ **die Hochzeit**
+- [ ] `u17-l3-e3` *Dvojice* — **wenn** = když · **wann** = kdy · **heiraten** = vzít se · **das Paar** = pár · **die Liebe** = láska
+- [ ] `u17-l3-e4` *Poslech* — 🔊 zazní: **Das Paar heiratet im Mai.** — možnosti: „Das Paar heiratet im Mai.“, „Das Paar heiratet im März.“, „Das Paar feiert im Mai.“ — ✔ **Das Paar heiratet im Mai.**
+- [ ] `u17-l3-e5` *Výběr* — Vyberte správnou větu **Kdy je svatba?** — možnosti: „Wann ist die Hochzeit?“, „Wenn ist die Hochzeit?“, „Wann die Hochzeit ist?“ — ✔ **Wann ist die Hochzeit?**
+- [ ] `u17-l3-e6` *Doplňování* — **Wenn es regnet, ___ zu Hause.** (Když prší, zůstaneme doma.) — možnosti: „bleiben wir“, „wir bleiben“, „bleibt wir“ — ✔ **bleiben wir** — vysvětlení: Věta s wenn zabere první místo, proto za čárkou hned přijde sloveso: bleiben wir.
+- [ ] `u17-l3-e7` *Doplňování* — **Wir feiern im Garten, wenn das Wetter ___.** (Když bude hezky, budeme slavit na zahradě.) — možnosti: „schön ist“, „ist schön“, „schön sein“ — ✔ **schön ist** — vysvětlení: Po wenn jde sloveso na úplný konec: wenn das Wetter schön ist.
+- [ ] `u17-l3-e8` *Psaní* — **láska** → ✔ **die Liebe**
+- [ ] `u17-l3-e9` *Skládání věty* — Když mám čas, čtu. → ✔ **Wenn ich Zeit habe, lese ich.** (chybné dílky: „wann“) (uznává se i: „Ich lese, wenn ich Zeit habe.“)
+- [ ] `u17-l3-e10` *Poslech* — 🔊 zazní: **Meine Tochter heiratet im Mai.** — možnosti: „Dcera se v květnu vdává.“, „Dcera má v květnu narozeniny.“, „Dcera se v květnu rozvádí.“ — ✔ **Dcera se v květnu vdává.**
+
+## [ ] Kapitola 18: Den doma (Alltag) · A2
+
+Soubor: `content/cs-de/unit18-alltag.json` · ID: `u18` · Popis: Ráno v koupelně, pocity a domácí práce: zvratná slovesa a rozkaz pro du.
+
+### [ ] 18.1: Ráno v koupelně (Im Bad) · `u18-l1`
+
+**[ ] Tip: Ich wasche mich = myju se**
+
+> Česky máme pro všechny osoby jedno „se“: myju se, myje se, myjeme se. Německy se toto slovíčko mění podle osoby: ich wasche mich, du wäschst dich, er/sie wäscht sich, wir waschen uns, Sie waschen sich. Tvar sich patří jen k er, sie, es, k sie (oni) a k Sie. Neříkejte tedy „ich wasche sich“. Zájmeno stojí hned za slovesem; předpona odlučitelného slovesa jde jako vždy na konec: Ich ziehe mich an. Také „pospíšit si“ je německy se sich: Ich beeile mich.
+>
+> - **Ich wasche mich.** — Myju se.
+> - **Wir ziehen uns an.** — Oblékáme se.
+> - **Er kämmt sich vor dem Spiegel.** — Češe se před zrcadlem.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l1-w1` | **sich waschen** | mýt se | ich wasche mich, er wäscht sich |
+| [ ] | `u18-l1-w2` | **sich duschen** | sprchovat se | Čte se [DÚ-šen]: ich dusche mich |
+| [ ] | `u18-l1-w3` | **sich anziehen** | oblékat se | Předpona jde na konec: Ich ziehe mich an. Opak: sich ausziehen |
+| [ ] | `u18-l1-w4` | **sich kämmen** | česat se | ä = e: [KE-men]; ich kämme mich |
+| [ ] | `u18-l1-w5` | **sich beeilen** | pospíšit si | Čte se [be-AJ-len]. Beeilen Sie sich! = Pospěšte si! |
+| [ ] | `u18-l1-w6` | **die Zahnbürste** | zubní kartáček | Čte se [CÁN-bürs-te]; množné číslo: die Zahnbürsten |
+| [ ] | `u18-l1-w7` | **die Seife** | mýdlo | Čte se [ZAJ-fe]; množné číslo: die Seifen |
+| [ ] | `u18-l1-w8` | **das Handtuch** | ručník | Doslova „ruční šátek“; množné číslo: die Handtücher |
+| [ ] | `u18-l1-w9` | **der Spiegel** | zrcadlo | Pozor, mužský rod; čte se [ŠPÍ-gl]; množné číslo: die Spiegel |
+
+**Cvičení**
+
+- [ ] `u18-l1-e1` *Výběr* — **der Spiegel** — možnosti: „zrcadlo“, „ručník“, „mýdlo“ — ✔ **zrcadlo**
+- [ ] `u18-l1-e2` *Výběr* — **zubní kartáček** — možnosti: „die Zahnbürste“, „die Seife“, „das Handtuch“ — ✔ **die Zahnbürste**
+- [ ] `u18-l1-e3` *Dvojice* — **sich waschen** = mýt se · **sich duschen** = sprchovat se · **sich kämmen** = česat se · **sich anziehen** = oblékat se · **sich beeilen** = pospíšit si
+- [ ] `u18-l1-e4` *Poslech* — 🔊 zazní: **Am Morgen dusche ich mich.** — možnosti: „Am Morgen dusche ich mich.“, „Am Abend dusche ich mich.“, „Am Morgen wasche ich mich.“ — ✔ **Am Morgen dusche ich mich.**
+- [ ] `u18-l1-e5` *Doplňování* — **Ich ziehe ___ schnell an.** (Rychle se obléknu.) — možnosti: „mich“, „sich“, „uns“ — ✔ **mich** — vysvětlení: K ich patří mich: ich ziehe mich an.
+- [ ] `u18-l1-e6` *Doplňování* — **Wir müssen ___ beeilen.** (Musíme si pospíšit.) — možnosti: „uns“, „sich“, „mich“ — ✔ **uns** — vysvětlení: K wir patří uns: wir beeilen uns.
+- [ ] `u18-l1-e7` *Psaní* — **mýdlo** → ✔ **die Seife**
+- [ ] `u18-l1-e8` *Skládání věty* — V sedm hodin se sprchuji. → ✔ **Um sieben Uhr dusche ich mich.** (chybné dílky: „sich“) (uznává se i: „Ich dusche mich um sieben Uhr.“)
+- [ ] `u18-l1-e9` *Poslech* — 🔊 zazní: **Wo ist das Handtuch?** — možnosti: „Kde je ručník?“, „Kde je mýdlo?“, „Kde je zrcadlo?“ — ✔ **Kde je ručník?**
+- [ ] `u18-l1-e10` *Skládání věty* — Pospěšte si, prosím! → ✔ **Beeilen Sie sich bitte!** (chybné dílky: „mich“) (uznává se i: „Bitte beeilen Sie sich!“)
+
+### [ ] 18.2: Pocity (Gefühle) · `u18-l2`
+
+**[ ] Tip: Ich freue mich auf …**
+
+> Mnoho sloves o pocitech je zvratných v obou jazycích: sich freuen = těšit se, sich ärgern = zlobit se, sich fühlen = cítit se. Často za nimi stojí předložka a po ní 4. pád: sich freuen auf (těšit se na), sich interessieren für (zajímat se o), sich erinnern an (vzpomínat na), sich ärgern über (zlobit se kvůli). Předložka se často liší od češtiny, učte se ji proto spolu se slovesem. A pozor, někdy je to naopak: česky „bojím se“, německy bez sich: Ich habe Angst (mám strach).
+>
+> - **Ich freue mich auf das Wochenende.** — Těším se na víkend.
+> - **Ich interessiere mich für Musik.** — Zajímám se o hudbu.
+> - **Erinnern Sie sich an den Film?** — Vzpomínáte si na ten film?
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l2-w1` | **sich freuen** | těšit se; mít radost | sich freuen auf = těšit se na; čte se [FROJ-en] |
+| [ ] | `u18-l2-w2` | **sich ärgern** | zlobit se | sich ärgern über = zlobit se kvůli; ä = e: [ER-gern] |
+| [ ] | `u18-l2-w3` | **sich interessieren** | zajímat se | Pozor: für, ne „o“: sich interessieren für. Přízvuk: [in-te-re-SÍ-ren] |
+| [ ] | `u18-l2-w4` | **sich erinnern** | vzpomenout si; pamatovat si | sich erinnern an = vzpomínat na; přízvuk: [er-I-nern] |
+| [ ] | `u18-l2-w5` | **sich ausruhen** | odpočinout si | Předpona jde na konec: Ich ruhe mich aus. h se nečte: [AUS-rú-en] |
+| [ ] | `u18-l2-w6` | **sich fühlen** | cítit se | Ich fühle mich gut = cítím se dobře. |
+| [ ] | `u18-l2-w7` | **zufrieden** | spokojený | Čte se [cu-FRÍ-den]. |
+| [ ] | `u18-l2-w8` | **nervös** | nervózní | v se tu čte jako české v: [ner-VÖS] |
+| [ ] | `u18-l2-w9` | **die Angst** | strach | Angst haben = bát se, bez sich. Množné číslo: die Ängste |
+
+**Cvičení**
+
+- [ ] `u18-l2-e1` *Výběr* — **zufrieden** — možnosti: „spokojený“, „nervózní“, „smutný“ — ✔ **spokojený**
+- [ ] `u18-l2-e2` *Výběr* — **strach** — možnosti: „die Angst“, „die Liebe“, „die Musik“ — ✔ **die Angst**
+- [ ] `u18-l2-e3` *Dvojice* — **sich freuen** = těšit se · **sich ärgern** = zlobit se · **sich fühlen** = cítit se · **sich ausruhen** = odpočinout si · **sich erinnern** = vzpomenout si
+- [ ] `u18-l2-e4` *Poslech* — 🔊 zazní: **Ich freue mich auf das Wochenende.** — možnosti: „Ich freue mich auf das Wochenende.“, „Ich freue mich auf den Sommer.“, „Ich ärgere mich über das Wochenende.“ — ✔ **Ich freue mich auf das Wochenende.**
+- [ ] `u18-l2-e5` *Doplňování* — **Ich interessiere mich ___ Musik.** (Zajímám se o hudbu.) — možnosti: „für“, „an“, „auf“ — ✔ **für** — vysvětlení: Česky „zajímat se o“, německy vždy sich interessieren für.
+- [ ] `u18-l2-e6` *Doplňování* — **Ich fühle ___ heute gut.** (Dnes se cítím dobře.) — možnosti: „mich“, „sich“, „mir“ — ✔ **mich** — vysvětlení: K ich patří mich: ich fühle mich.
+- [ ] `u18-l2-e7` *Psaní* — **spokojený** → ✔ **zufrieden**
+- [ ] `u18-l2-e8` *Skládání věty* — Těšíme se na Vánoce. → ✔ **Wir freuen uns auf Weihnachten.** (chybné dílky: „für“) (uznává se i: „Auf Weihnachten freuen wir uns.“)
+- [ ] `u18-l2-e9` *Poslech* — 🔊 zazní: **Mein Mann ärgert sich über das Wetter.** — možnosti: „Manžel se zlobí kvůli počasí.“, „Manžel se těší na hezké počasí.“, „Manžel se zajímá o počasí.“ — ✔ **Manžel se zlobí kvůli počasí.**
+- [ ] `u18-l2-e10` *Výběr* — Vyberte správnou větu **Bojím se.** — možnosti: „Ich habe Angst.“, „Ich habe mich Angst.“, „Ich bin Angst.“ — ✔ **Ich habe Angst.**
+
+### [ ] 18.3: Domácí práce (Hausarbeit) · `u18-l3`
+
+**[ ] Tip: Räum auf! = Ukliď!**
+
+> Když dáváte pokyn někomu, komu tykáte, vezměte tvar pro du a odstraňte du i koncovku -st: du räumst auf → Räum auf! (Ukliď!), du kochst → Koch! Předpona jde i tady na konec. Slovesa, která mění e na i nebo ie, to dělají i v rozkazu: du nimmst → Nimm!, du liest → Lies! Přehláska z a na ä ale zmizí: du wäschst ab → Wasch ab!, du fährst → Fahr! Aby pokyn nezněl příkře, přidejte bitte: Räum bitte auf! Občas uslyšíte i tvar s -e: Räume auf!
+>
+> - **Räum bitte das Zimmer auf!** — Ukliď si prosím pokoj!
+> - **Wasch bitte ab!** — Umyj prosím nádobí!
+> - **Bring bitte den Müll raus!** — Vynes prosím odpadky!
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u18-l3-w1` | **aufräumen** | uklidit; dát do pořádku | Dát věci na místo; putzen = čistit, mýt. Ich räume auf. |
+| [ ] | `u18-l3-w2` | **abwaschen** | mýt nádobí | du wäschst ab, er wäscht ab; rozkaz: Wasch ab! |
+| [ ] | `u18-l3-w3` | **staubsaugen** | vysávat | Doslova „prach sát“. Ich sauge Staub i ich staubsauge; čte se [ŠTAUP-zau-gen] |
+| [ ] | `u18-l3-w4` | **bügeln** | žehlit | ü jako i se zaokrouhlenými rty: [BÜ-geln] |
+| [ ] | `u18-l3-w5` | **die Wäsche** | prádlo | Wäsche waschen = prát prádlo; obvykle jen jednotné číslo |
+| [ ] | `u18-l3-w6` | **das Geschirr** | nádobí | Jen jednotné číslo, stejně jako české nádobí. |
+| [ ] | `u18-l3-w7` | **der Müll** | odpadky; smetí | Jen jednotné číslo. Den Müll rausbringen = vynést odpadky |
+| [ ] | `u18-l3-w8` | **sauber** | čistý | Čte se [ZAU-ba]. |
+| [ ] | `u18-l3-w9` | **schmutzig** | špinavý | Čte se [ŠMU-cich]. |
+
+**Cvičení**
+
+- [ ] `u18-l3-e1` *Výběr* — **schmutzig** — možnosti: „špinavý“, „čistý“, „nový“ — ✔ **špinavý**
+- [ ] `u18-l3-e2` *Výběr* — **nádobí** — možnosti: „das Geschirr“, „die Wäsche“, „der Müll“ — ✔ **das Geschirr**
+- [ ] `u18-l3-e3` *Dvojice* — **aufräumen** = uklidit · **abwaschen** = mýt nádobí · **staubsaugen** = vysávat · **bügeln** = žehlit · **die Wäsche** = prádlo
+- [ ] `u18-l3-e4` *Poslech* — 🔊 zazní: **Räum bitte die Küche auf!** — možnosti: „Räum bitte die Küche auf!“, „Räum bitte das Zimmer auf!“, „Putz bitte die Küche!“ — ✔ **Räum bitte die Küche auf!**
+- [ ] `u18-l3-e5` *Doplňování* — **Peter, ___ bitte ab!** (Petře, umyj prosím nádobí!) — možnosti: „wasch“, „wäsch“, „waschst“ — ✔ **wasch** — vysvětlení: Rozkaz pro du je bez -st a bez přehlásky: du wäschst ab → Wasch ab!
+- [ ] `u18-l3-e6` *Doplňování* — **Anna, ___ bitte dein Zimmer auf!** (Anno, ukliď si prosím pokoj!) — možnosti: „räum“, „räumst“, „räumen“ — ✔ **räum** — vysvětlení: Rozkaz pro du: du räumst auf bez du a bez -st → Räum auf!
+- [ ] `u18-l3-e7` *Psaní* — **žehlit** → ✔ **bügeln**
+- [ ] `u18-l3-e8` *Skládání věty* — Dnes peru prádlo. → ✔ **Heute wasche ich die Wäsche.** (chybné dílky: „wascht“) (uznává se i: „Ich wasche heute die Wäsche.“)
+- [ ] `u18-l3-e9` *Poslech* — 🔊 zazní: **Das Geschirr ist schmutzig.** — možnosti: „Nádobí je špinavé.“, „Nádobí je čisté.“, „Prádlo je špinavé.“ — ✔ **Nádobí je špinavé.**
+- [ ] `u18-l3-e10` *Výběr* — Vyberte správnou větu **Ukliď!** — možnosti: „Räum auf!“, „Räumst auf!“, „Aufräum!“ — ✔ **Räum auf!**
+
+## [ ] Kapitola 19: Telefon a dopisy (Kommunikation) · A2
+
+Soubor: `content/cs-de/unit19-kommunikation.json` · ID: `u19` · Popis: Telefonování, dopisy a pošta, počítač a zdvořilá přání: könnten, hätte gern, würde gern.
+
+### [ ] 19.1: Na telefonu (Am Telefon) · `u19-l1`
+
+**[ ] Tip: Könnten Sie bitte …?**
+
+> O něco zdvořile poprosit můžete pomocí Könnten Sie bitte …? Je to zdvořilejší než Können Sie …? a odpovídá českému „Mohl byste …? / Mohla byste …?“. Německý tvar se ale podle rodu nemění. Druhé sloveso jde na konec věty a odlučitelné sloveso tam zůstane celé: Könnten Sie mich bitte zurückrufen? Do telefonu se Němci obvykle ohlásí příjmením a na konci řeknou Auf Wiederhören (na slyšenou). Telefonní čísla se diktují po číslicích a místo zwei se často říká zwo, aby se nepletlo s drei.
+>
+> - **Könnten Sie bitte langsam sprechen?** — Mohl byste prosím mluvit pomalu?
+> - **Könnten Sie mich morgen zurückrufen?** — Mohla byste mi zítra zavolat zpátky?
+> - **Einen Moment bitte, es ist besetzt.** — Moment, prosím, je obsazeno.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l1-w1` | **das Handy** | mobil | Čte se [HEN-di]; množné číslo: die Handys |
+| [ ] | `u19-l1-w2` | **die Telefonnummer** | telefonní číslo | Přízvuk: [te-le-FÓN-nu-ma]; množné číslo: die Telefonnummern |
+| [ ] | `u19-l1-w3` | **null** | nula | Čte se [nul]. |
+| [ ] | `u19-l1-w4` | **zurückrufen** | zavolat zpátky | Ich rufe Sie zurück = zavolám Vám zpátky. |
+| [ ] | `u19-l1-w5` | **erreichen** | zastihnout; dovolat se | Ich kann ihn nicht erreichen = nemůžu se mu dovolat. |
+| [ ] | `u19-l1-w6` | **die Nachricht** | zpráva | die Nachrichten = také zprávy v televizi; množné číslo: die Nachrichten |
+| [ ] | `u19-l1-w7` | **besetzt** | obsazeno | Es ist besetzt. Platí i pro telefon, místo nebo toaletu. |
+| [ ] | `u19-l1-w8` | **Einen Moment bitte** | moment, prosím | Píše se i s čárkou: Einen Moment, bitte. |
+| [ ] | `u19-l1-w9` | **Auf Wiederhören** | na slyšenou | Jen do telefonu. Čte se [auf VÍ-da-hö-ren]. |
+
+**Cvičení**
+
+- [ ] `u19-l1-e1` *Výběr* — **besetzt** — možnosti: „obsazeno“, „zavřeno“, „volno“ — ✔ **obsazeno**
+- [ ] `u19-l1-e2` *Výběr* — **mobil** — možnosti: „das Handy“, „die Nachricht“, „die Telefonnummer“ — ✔ **das Handy**
+- [ ] `u19-l1-e3` *Dvojice* — **null** = nula · **zurückrufen** = zavolat zpátky · **erreichen** = zastihnout · **die Nachricht** = zpráva · **Auf Wiederhören** = na slyšenou
+- [ ] `u19-l1-e4` *Poslech* — 🔊 zazní: **Könnten Sie mich bitte zurückrufen?** — možnosti: „Könnten Sie mich bitte zurückrufen?“, „Können Sie mich morgen anrufen?“, „Könnten Sie bitte langsam sprechen?“ — ✔ **Könnten Sie mich bitte zurückrufen?**
+- [ ] `u19-l1-e5` *Doplňování* — **Könnten Sie mich morgen ___?** (Mohli byste mi zítra zavolat zpátky?) — možnosti: „zurückrufen“, „zurückrufe“, „rufen zurück“ — ✔ **zurückrufen** — vysvětlení: Po könnten jde druhé sloveso celé na konec: zurückrufen.
+- [ ] `u19-l1-e6` *Doplňování* — **___ Sie bitte morgen anrufen?** (Mohli byste prosím zítra zavolat?) — možnosti: „Könnten“, „Könnte“, „Kann“ — ✔ **Könnten** — vysvětlení: K Sie patří tvar s -en: Sie könnten, stejně jako Sie können.
+- [ ] `u19-l1-e7` *Psaní* — **telefonní číslo** → ✔ **die Telefonnummer**
+- [ ] `u19-l1-e8` *Skládání věty* — Nemůžu se Petrovi dovolat. → ✔ **Ich kann Peter nicht erreichen.** (chybné dílky: „erreiche“) (uznává se i: „Peter kann ich nicht erreichen.“)
+- [ ] `u19-l1-e9` *Poslech* — Poslechněte si a vyberte číslo 🔊 zazní: **null sechs vier acht** — možnosti: „0648“, „0684“, „0548“ — ✔ **0648**
+- [ ] `u19-l1-e10` *Mluvení* — 🎤 **Einen Moment bitte!** — Moment, prosím!
+
+### [ ] 19.2: Dopisy a pošta (Briefe und Post) · `u19-l2`
+
+**[ ] Tip: Liebe Anna, … Mit freundlichen Grüßen**
+
+> Dopis nebo e-mail začíná oslovením. Známé ženě napíšete Liebe Anna, známému muži Lieber Peter, jako české Milá a Milý. Úředně: Sehr geehrte Frau Berger, (Vážená paní Bergerová) a Sehr geehrter Herr Berger, (Vážený pane Bergere). Jméno zůstává beze změny, 5. pád němčina nemá: Peter, ne „Petře“. Po čárce začne další řádek malým písmenem, ne velkým jako česky. Na konci napíšete přátelům Liebe Grüße, úředně Mit freundlichen Grüßen. A pozor: der Brief je vždy dopis.
+>
+> - **Lieber Peter, vielen Dank für deinen Brief.** — Milý Petře, moc děkuji za tvůj dopis.
+> - **Sehr geehrte Frau Berger,** — Vážená paní Bergerová,
+> - **Ich schicke ein Paket nach Prag.** — Posílám balík do Prahy.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l2-w1` | **der Brief** | dopis | Pozor: znamená dopis. Množné číslo: die Briefe |
+| [ ] | `u19-l2-w2` | **die Briefmarke** | poštovní známka | Doslova „dopisní známka“; množné číslo: die Briefmarken |
+| [ ] | `u19-l2-w3` | **das Paket** | balík | Přízvuk na konci: [pa-KÉT]; množné číslo: die Pakete |
+| [ ] | `u19-l2-w4` | **der Umschlag** | obálka | Pozor, mužský rod; množné číslo: die Umschläge |
+| [ ] | `u19-l2-w5` | **schicken** | poslat; posílat | Příčestí: geschickt. Ich schicke Ihnen eine E-Mail. |
+| [ ] | `u19-l2-w6` | **die E-Mail** | e-mail | V Německu ženský rod. Čte se [Í-mejl]; množné číslo: die E-Mails |
+| [ ] | `u19-l2-w7` | **Liebe Grüße** | srdečné pozdravy | Na konec dopisu přátelům a rodině. |
+| [ ] | `u19-l2-w8` | **Mit freundlichen Grüßen** | s pozdravem | Úřední závěr dopisu. Čte se [mit FROJNT-li-chen GRÜ-sen]. |
+
+**Cvičení**
+
+- [ ] `u19-l2-e1` *Výběr* — **der Umschlag** — možnosti: „obálka“, „poštovní známka“, „balík“ — ✔ **obálka**
+- [ ] `u19-l2-e2` *Výběr* — **dopis** — možnosti: „der Brief“, „das Paket“, „die Briefmarke“ — ✔ **der Brief**
+- [ ] `u19-l2-e3` *Dvojice* — **der Brief** = dopis · **die Briefmarke** = známka · **das Paket** = balík · **schicken** = poslat · **die E-Mail** = e-mail
+- [ ] `u19-l2-e4` *Poslech* — 🔊 zazní: **Ich schicke Ihnen eine E-Mail.** — možnosti: „Ich schicke Ihnen eine E-Mail.“, „Ich schicke Ihnen einen Brief.“, „Ich schicke Ihnen ein Paket.“ — ✔ **Ich schicke Ihnen eine E-Mail.**
+- [ ] `u19-l2-e5` *Doplňování* — **Sehr ___ Frau Berger,** (Vážená paní Bergerová,) — možnosti: „geehrte“, „geehrter“, „geehrten“ — ✔ **geehrte** — vysvětlení: Ženě se píše Sehr geehrte, muži Sehr geehrter.
+- [ ] `u19-l2-e6` *Doplňování* — **___ Peter, wie geht es dir?** (Milý Petře, jak se máš?) — možnosti: „Lieber“, „Liebe“, „Lieben“ — ✔ **Lieber** — vysvětlení: Muži se píše Lieber, ženě Liebe.
+- [ ] `u19-l2-e7` *Psaní* — **obálka** → ✔ **der Umschlag**
+- [ ] `u19-l2-e8` *Skládání věty* — Tři známky, prosím. → ✔ **Drei Briefmarken, bitte.** (chybné dílky: „Briefmarke“)
+- [ ] `u19-l2-e9` *Poslech* — 🔊 zazní: **Das Paket ist heute angekommen.** — možnosti: „Balík dnes přišel.“, „Dopis dnes přišel.“, „Balík přijde zítra.“ — ✔ **Balík dnes přišel.**
+- [ ] `u19-l2-e10` *Výběr* — **s pozdravem** — možnosti: „Mit freundlichen Grüßen“, „Gute Besserung“, „Herzlichen Glückwunsch“ — ✔ **Mit freundlichen Grüßen**
+
+### [ ] 19.3: Počítač a přání (Computer und Wünsche) · `u19-l3`
+
+**[ ] Tip: Ich hätte gern, ich würde gern**
+
+> Zdvořilé přání má dva užitečné tvary. Když chcete nějakou věc, řekněte Ich hätte gern …: Ich hätte gern ein Kilo Äpfel. V obchodě to zní stejně mile jako ich möchte. Když chcete něco dělat, řekněte Ich würde gern … a sloveso dejte na konec věty, jako po können: Ich würde gern nach Wien fahren. Česky „rád bych jel“, ale německý tvar se nemění podle rodu: ich würde gern platí pro muže i ženu. Pozor na dvě podobná slova: das Tablet je tablet, das Tablett (se dvěma t) je podnos.
+>
+> - **Ich hätte gern ein Kilo Äpfel.** — Prosím si kilo jablek.
+> - **Ich würde gern nach Wien fahren.** — Rád bych jel do Vídně. Ráda bych jela do Vídně.
+> - **Wir würden gern ins Kino gehen.** — Rádi bychom šli do kina.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u19-l3-w1` | **ich hätte gern** | prosil bych; prosila bych | Zdvořile o věc: Ich hätte gern einen Kaffee. |
+| [ ] | `u19-l3-w2` | **ich würde gern** | rád bych; ráda bych | Druhé sloveso na konec: Ich würde gern schwimmen. |
+| [ ] | `u19-l3-w3` | **der Computer** | počítač | Čte se [kom-PJÚ-ta]; množné číslo: die Computer |
+| [ ] | `u19-l3-w4` | **das Internet** | internet | im Internet = na internetu |
+| [ ] | `u19-l3-w5` | **das Tablet** | tablet | Čte se [TEB-let]; množné číslo: die Tablets |
+| [ ] | `u19-l3-w6` | **das Tablett** | podnos | Pozor: dvě t, přízvuk na konci [ta-BLET]. Množné číslo: die Tabletts |
+| [ ] | `u19-l3-w7` | **das Passwort** | heslo | Čte se [PAS-vort]; množné číslo: die Passwörter |
+| [ ] | `u19-l3-w8` | **das Video** | video | Čte se [VÍ-de-o]; množné číslo: die Videos |
+| [ ] | `u19-l3-w9` | **die Webseite** | webová stránka | Čte se [VEP-zaj-te]; množné číslo: die Webseiten |
+
+**Cvičení**
+
+- [ ] `u19-l3-e1` *Výběr* — **das Tablett** — možnosti: „podnos“, „tablet“, „počítač“ — ✔ **podnos**
+- [ ] `u19-l3-e2` *Výběr* — **heslo** — možnosti: „das Passwort“, „das Video“, „die Webseite“ — ✔ **das Passwort**
+- [ ] `u19-l3-e3` *Dvojice* — **der Computer** = počítač · **das Passwort** = heslo · **das Tablett** = podnos · **die Webseite** = webová stránka · **ich würde gern** = rád bych
+- [ ] `u19-l3-e4` *Poslech* — 🔊 zazní: **Ich hätte gern ein Tablet.** — možnosti: „Ich hätte gern ein Tablet.“, „Ich hatte ein Tablet.“, „Ich habe ein Tablet.“ — ✔ **Ich hätte gern ein Tablet.**
+- [ ] `u19-l3-e5` *Doplňování* — **Meine Frau würde gern nach Wien ___.** (Manželka by ráda jela do Vídně.) — možnosti: „fahren“, „fährt“, „fahre“ — ✔ **fahren** — vysvětlení: Po würde jde sloveso v základním tvaru na konec: würde … fahren.
+- [ ] `u19-l3-e6` *Doplňování* — **Wir ___ gern zwei Kaffee.** (Prosili bychom dvě kávy.) — možnosti: „hätten“, „würden“, „hätte“ — ✔ **hätten** — vysvětlení: Hätten gern + věc; würden potřebuje ještě sloveso na konci.
+- [ ] `u19-l3-e7` *Psaní* — **počítač** → ✔ **der Computer**
+- [ ] `u19-l3-e8` *Skládání věty* — Maminka by ráda měla tablet. → ✔ **Meine Mutter hätte gern ein Tablet.** (chybné dílky: „Tablett“)
+- [ ] `u19-l3-e9` *Poslech* — 🔊 zazní: **Wie ist das Passwort?** — možnosti: „Jaké je heslo?“, „Jaká je webová stránka?“, „Kde je počítač?“ — ✔ **Jaké je heslo?**
+- [ ] `u19-l3-e10` *Výběr* — Vyberte správnou větu **Rádi bychom jeli do Německa.** — možnosti: „Wir würden gern nach Deutschland fahren.“, „Wir würden gern nach Deutschland fahrt.“, „Wir hätten gern nach Deutschland fahren.“ — ✔ **Wir würden gern nach Deutschland fahren.**
+
+## [ ] Kapitola 20: Úřady a lázně (Ämter und Kur) · A2
+
+Soubor: `content/cs-de/unit20-aemter.json` · ID: `u20` · Popis: V bance, na úřadě a v lázních: pevné předpony, vor + 3. pád a zrádná slova.
+
+### [ ] 20.1: V bance (In der Bank) · `u20-l1`
+
+**[ ] Tip: Ich hebe ab, ich bezahle**
+
+> Předpony ab-, an-, auf-, ein- se od slovesa odtrhnou a jdou na konec, to už znáte: Ich stehe auf. Předpony be-, er-, ver- jsou ale pevné a zůstávají u slovesa. Pevná je i předpona unter- ve slově unterschreiben: Ich bezahle bar. Ich unterschreibe hier. Poznáte to podle přízvuku: odlučitelná předpona je pod přízvukem (AB-heben), pevná ne (be-CÁ-len, un-ter-ŠRAJ-ben). Říká se tedy Ich hebe Geld ab, nikdy „Ich abhebe Geld“. Pevné předpony nemají v minulém čase ge-: Ich habe bezahlt.
+>
+> - **Ich hebe am Geldautomaten Geld ab.** — Vybírám peníze z bankomatu.
+> - **Kann ich mit Kreditkarte bezahlen?** — Můžu platit kreditní kartou?
+> - **Unterschreiben Sie bitte hier.** — Podepište se prosím tady.
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l1-w1` | **das Konto** | bankovní účet | Účet v restauraci je die Rechnung. Množné číslo: die Konten |
+| [ ] | `u20-l1-w2` | **die Kreditkarte** | kreditní karta | Hovorově jen die Karte: mit Karte bezahlen. Množné číslo: die Kreditkarten |
+| [ ] | `u20-l1-w3` | **der Geldautomat** | bankomat | am Geldautomaten = u bankomatu; množné číslo: die Geldautomaten |
+| [ ] | `u20-l1-w4` | **bar** | hotově | bar bezahlen = platit hotově |
+| [ ] | `u20-l1-w5` | **bezahlen** | zaplatit; platit | Pevná předpona: ich bezahle, ich habe bezahlt. Přízvuk: [be-CÁ-len] |
+| [ ] | `u20-l1-w6` | **abheben** | vybrat peníze | Předpona jde na konec: Ich hebe Geld ab. Příčestí: abgehoben |
+| [ ] | `u20-l1-w7` | **unterschreiben** | podepsat | Pevná předpona: ich unterschreibe, ich habe unterschrieben. Přízvuk: [un-ter-ŠRAJ-ben] |
+| [ ] | `u20-l1-w8` | **die Unterschrift** | podpis | množné číslo: die Unterschriften |
+| [ ] | `u20-l1-w9` | **die Gebühr** | poplatek | Přízvuk: [ge-BÜR]; množné číslo: die Gebühren |
+
+**Cvičení**
+
+- [ ] `u20-l1-e1` *Výběr* — **die Gebühr** — možnosti: „poplatek“, „podpis“, „bankomat“ — ✔ **poplatek**
+- [ ] `u20-l1-e2` *Výběr* — **bankomat** — možnosti: „der Geldautomat“, „das Konto“, „die Kreditkarte“ — ✔ **der Geldautomat**
+- [ ] `u20-l1-e3` *Dvojice* — **das Konto** = bankovní účet · **bar** = hotově · **bezahlen** = zaplatit · **unterschreiben** = podepsat · **die Unterschrift** = podpis
+- [ ] `u20-l1-e4` *Poslech* — 🔊 zazní: **Kann ich mit Kreditkarte bezahlen?** — možnosti: „Kann ich mit Kreditkarte bezahlen?“, „Kann ich bar bezahlen?“, „Kann ich hier Geld abheben?“ — ✔ **Kann ich mit Kreditkarte bezahlen?**
+- [ ] `u20-l1-e5` *Doplňování* — **Ich ___ am Geldautomaten Geld ab.** (Vybírám peníze z bankomatu.) — možnosti: „hebe“, „abhebe“, „heben“ — ✔ **hebe** — vysvětlení: Předpona ab- se odtrhne a jde na konec: Ich hebe … ab.
+- [ ] `u20-l1-e6` *Doplňování* — **Bitte ___ Sie hier.** (Podepište se prosím tady.) — možnosti: „unterschreiben“, „schreiben unter“, „unterschreibt“ — ✔ **unterschreiben** — vysvětlení: unter- je u tohoto slovesa pevná předpona, neodtrhává se.
+- [ ] `u20-l1-e7` *Psaní* — **podpis** → ✔ **die Unterschrift**
+- [ ] `u20-l1-e8` *Skládání věty* — Musím vybrat peníze. → ✔ **Ich muss Geld abheben.** (chybné dílky: „hebe“)
+- [ ] `u20-l1-e9` *Poslech* — 🔊 zazní: **Das kostet zwei Euro Gebühr.** — možnosti: „Poplatek je dvě eura.“, „Poplatek je dvanáct eur.“, „Platí se hotově.“ — ✔ **Poplatek je dvě eura.**
+- [ ] `u20-l1-e10` *Skládání věty* — Platíte hotově, nebo kartou? → ✔ **Bezahlen Sie bar oder mit Karte?** (chybné dílky: „ab“)
+
+### [ ] 20.2: Formuláře (Formulare) · `u20-l2`
+
+**[ ] Tip: Vor zehn Jahren = před deseti lety**
+
+> „Před“ v čase se řekne vor. Česky je po „před“ 7. pád, německy po vor 3. pád (Dativ): vor einem Jahr = před rokem, vor einer Stunde = před hodinou. V množném čísle dostane podstatné jméno ve 3. pádě koncovku -n: vor zehn Jahren = před deseti lety, vor drei Tagen = před třemi dny. Česky se také mění koncovka (lety, dny), takže to znáte. Chyba je „vor zehn Jahre“. Ve formulářích uvidíte i krátké otázky: Vorname? Nachname? Geburtsdatum? Odpovídáte jen údajem.
+>
+> - **Wir sind vor zehn Jahren umgezogen.** — Před deseti lety jsme se přestěhovali.
+> - **Füllen Sie bitte das Formular aus.** — Vyplňte prosím formulář.
+> - **Haben Sie Ihren Ausweis dabei?** — Máte u sebe občanský průkaz?
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l2-w1` | **das Formular** | formulář | Přízvuk: [for-mu-LÁR]; množné číslo: die Formulare |
+| [ ] | `u20-l2-w2` | **ausfüllen** | vyplnit | Předpona jde na konec: Füllen Sie das Formular aus. |
+| [ ] | `u20-l2-w3` | **der Vorname** | křestní jméno | množné číslo: die Vornamen |
+| [ ] | `u20-l2-w4` | **der Nachname** | příjmení | množné číslo: die Nachnamen |
+| [ ] | `u20-l2-w5` | **das Geburtsdatum** | datum narození | Čte se [ge-BÚRC-dá-tum]; množné číslo: die Geburtsdaten |
+| [ ] | `u20-l2-w6` | **der Wohnort** | bydliště | h se nečte: [VÓN-ort]; množné číslo: die Wohnorte |
+| [ ] | `u20-l2-w7` | **die Staatsangehörigkeit** | státní příslušnost | Čte se [ŠTÁC-an-ge-hö-rich-kajt]; obvykle jen jednotné číslo |
+| [ ] | `u20-l2-w8` | **der Ausweis** | průkaz totožnosti | Občanský průkaz je der Personalausweis. Množné číslo: die Ausweise |
+| [ ] | `u20-l2-w9` | **der Reisepass** | cestovní pas | Hovorově jen der Pass. Množné číslo: die Reisepässe |
+
+**Cvičení**
+
+- [ ] `u20-l2-e1` *Výběr* — **der Nachname** — možnosti: „příjmení“, „křestní jméno“, „bydliště“ — ✔ **příjmení**
+- [ ] `u20-l2-e2` *Výběr* — **cestovní pas** — možnosti: „der Reisepass“, „der Ausweis“, „das Formular“ — ✔ **der Reisepass**
+- [ ] `u20-l2-e3` *Dvojice* — **das Formular** = formulář · **ausfüllen** = vyplnit · **der Vorname** = křestní jméno · **der Wohnort** = bydliště · **das Geburtsdatum** = datum narození
+- [ ] `u20-l2-e4` *Poslech* — 🔊 zazní: **Füllen Sie bitte das Formular aus.** — možnosti: „Füllen Sie bitte das Formular aus.“, „Unterschreiben Sie bitte das Formular.“, „Haben Sie Ihren Ausweis dabei?“ — ✔ **Füllen Sie bitte das Formular aus.**
+- [ ] `u20-l2-e5` *Doplňování* — **Mein Sohn ist vor zehn ___ nach Deutschland gekommen.** (Syn přijel do Německa před deseti lety.) — možnosti: „Jahren“, „Jahre“, „Jahr“ — ✔ **Jahren** — vysvětlení: Po vor je 3. pád; v množném čísle s koncovkou -n: vor zehn Jahren.
+- [ ] `u20-l2-e6` *Doplňování* — **Bitte ___ Sie das Formular aus.** (Vyplňte prosím formulář.) — možnosti: „füllen“, „ausfüllen“, „füllt“ — ✔ **füllen** — vysvětlení: ausfüllen je odlučitelné: Füllen Sie … aus.
+- [ ] `u20-l2-e7` *Psaní* — **příjmení** → ✔ **der Nachname**
+- [ ] `u20-l2-e8` *Skládání věty* — Před dvěma lety jsme byli v Berlíně. → ✔ **Vor zwei Jahren waren wir in Berlin.** (chybné dílky: „Jahre“) (uznává se i: „Wir waren vor zwei Jahren in Berlin.“)
+- [ ] `u20-l2-e9` *Poslech* — 🔊 zazní: **Wie ist Ihr Vorname?** — možnosti: „Jaké je Vaše křestní jméno?“, „Jaké je Vaše příjmení?“, „Kde bydlíte?“ — ✔ **Jaké je Vaše křestní jméno?**
+- [ ] `u20-l2-e10` *Výběr* — **die Staatsangehörigkeit** — možnosti: „státní příslušnost“, „bydliště“, „datum narození“ — ✔ **státní příslušnost**
+
+### [ ] 20.3: V lázních (Im Kurort) · `u20-l3`
+
+**[ ] Tip: Zrádná slova**
+
+> Některá německá slova vypadají povědomě, ale znamenají něco jiného. Die Kur je lázeňská léčba: eine Kur machen = jet se léčit do lázní. Das Gift je jed, ne dárek jako v angličtině; dárek je das Geschenk. Připomeňte si i další: der Termin = objednání nebo schůzka, die Rente = důchod, bekommen = dostat, der Brief = dopis, das Tablett = podnos. Lázeňská města mají často v názvu Bad, například Bad Ems. České Karlovy Vary se německy jmenují Karlsbad.
+>
+> - **Meine Mutter macht eine Kur.** — Maminka je v lázních na léčení.
+> - **Was empfehlen Sie?** — Co doporučujete?
+> - **Gute Erholung!** — Hezky si odpočiňte!
+
+**Slovíčka**
+
+| OK | ID | němčina | čeština | Poznámka |
+|----|----|----|----|----|
+| [ ] | `u20-l3-w1` | **die Kur** | lázeňská léčba | eine Kur machen = léčit se v lázních; množné číslo: die Kuren |
+| [ ] | `u20-l3-w2` | **der Kurort** | lázně | Lázeňské město; česky množné číslo, německy jednotné. Množné číslo: die Kurorte |
+| [ ] | `u20-l3-w3` | **die Erholung** | odpočinek; zotavení | Gute Erholung! = Hezky si odpočiňte! Přízvuk: [er-HÓ-lung] |
+| [ ] | `u20-l3-w4` | **sich erholen** | zotavit se | Pevná předpona: ich habe mich erholt. |
+| [ ] | `u20-l3-w5` | **die Massage** | masáž | g se čte jako ž: [ma-SÁ-že]; množné číslo: die Massagen |
+| [ ] | `u20-l3-w6` | **die Quelle** | pramen | qu = kv: [KVE-le]; množné číslo: die Quellen |
+| [ ] | `u20-l3-w7` | **die Ruhe** | klid | h se nečte: [RÚ-e]. Znáte už ruhig = klidný. |
+| [ ] | `u20-l3-w8` | **empfehlen** | doporučit | er empfiehlt; příčestí bez ge-: empfohlen |
+| [ ] | `u20-l3-w9` | **das Gift** | jed | Pozor: ne dárek! Dárek je das Geschenk. Množné číslo: die Gifte |
+
+**Cvičení**
+
+- [ ] `u20-l3-e1` *Výběr* — **das Gift** — možnosti: „jed“, „dárek“, „lék“ — ✔ **jed**
+- [ ] `u20-l3-e2` *Výběr* — **pramen** — možnosti: „die Quelle“, „die Kur“, „die Ruhe“ — ✔ **die Quelle**
+- [ ] `u20-l3-e3` *Dvojice* — **die Kur** = lázeňská léčba · **der Kurort** = lázně · **die Massage** = masáž · **die Ruhe** = klid · **empfehlen** = doporučit
+- [ ] `u20-l3-e4` *Poslech* — 🔊 zazní: **Ich mache im Mai eine Kur.** — možnosti: „Ich mache im Mai eine Kur.“, „Ich mache im Mai einen Ausflug.“, „Ich mache im März eine Kur.“ — ✔ **Ich mache im Mai eine Kur.**
+- [ ] `u20-l3-e5` *Doplňování* — **Meine Mutter hat sich im Kurort gut ___.** (Maminka si v lázních dobře odpočinula.) — možnosti: „erholt“, „geerholt“, „erholen“ — ✔ **erholt** — vysvětlení: Předpona er- je pevná, proto příčestí nemá ge-: erholt.
+- [ ] `u20-l3-e6` *Doplňování* — **Der Arzt ___ eine Kur.** (Lékař doporučuje lázně.) — možnosti: „empfiehlt“, „empfehlt“, „empfiehl“ — ✔ **empfiehlt** — vysvětlení: Jako nehmen → er nimmt i empfehlen mění e na ie: er empfiehlt.
+- [ ] `u20-l3-e7` *Psaní* — **jed** → ✔ **das Gift**
+- [ ] `u20-l3-e8` *Skládání věty* — Karlovy Vary jsou lázně. → ✔ **Karlsbad ist ein Kurort.** (chybné dílky: „Kur“)
+- [ ] `u20-l3-e9` *Poslech* — 🔊 zazní: **Das Wasser aus der Quelle ist gesund.** — možnosti: „Voda z pramene je zdravá.“, „Voda z pramene je jedovatá.“, „Voda z pramene je studená.“ — ✔ **Voda z pramene je zdravá.**
+- [ ] `u20-l3-e10` *Mluvení* — 🎤 **Gute Erholung!** — Hezky si odpočiňte!

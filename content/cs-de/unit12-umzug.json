@@ -1,0 +1,145 @@
+{
+  "id": "u12",
+  "level": "A2",
+  "title": "Stěhování",
+  "titleTarget": "Umzug",
+  "description": "Kde co je a kam co dát: na stole a na stůl, liegen a legen, stehen a stellen, nový byt.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "title": "Kde to je?",
+      "titleTarget": "Wo ist das?",
+      "reviewed": false,
+      "tip": {
+        "title": "Wo? Auf dem Tisch",
+        "text": "Na otázku „kde?“ odpovídá němčina po předložkách auf, unter, neben, über, zwischen, in, an, vor a hinter 3. pádem: auf dem Tisch = na stole, unter dem Bett = pod postelí. Česky tu bývá 6., 7. nebo 2. pád (na stole, pod stolem, vedle stolu), německy vždy Dativ: der a das → dem, die → der. Zkráceně: in dem → im, an dem → am. Sloveso říká, jak věc je: liegen (leží), stehen (stojí), hängen (visí). Stejně jako česky: chléb leží, láhev stojí, lampa visí.",
+        "examples": [
+          { "target": "Das Brot liegt auf dem Tisch.", "native": "Chléb leží na stole." },
+          { "target": "Die Flasche steht im Schrank.", "native": "Láhev stojí ve skříni." },
+          { "target": "Die Lampe hängt über dem Tisch.", "native": "Lampa visí nad stolem." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l1-w1", "target": "liegen", "native": "ležet", "note": "Věc leží naplocho; příčestí: gelegen", "reviewed": false },
+        { "id": "u12-l1-w2", "target": "stehen", "native": "stát", "note": "Věc stojí nastojato; příčestí: gestanden", "reviewed": false },
+        { "id": "u12-l1-w3", "target": "hängen", "native": "viset", "note": "ä = e; ng zní jako n v „banka“, g se zvlášť nečte", "reviewed": false },
+        { "id": "u12-l1-w4", "target": "auf", "native": "na", "note": "Kde? auf dem Tisch = na stole", "reviewed": false },
+        { "id": "u12-l1-w5", "target": "unter", "native": "pod", "note": "Kde? unter dem Bett = pod postelí", "reviewed": false },
+        { "id": "u12-l1-w6", "target": "neben", "native": "vedle", "note": "Kde? neben dem Sofa = vedle pohovky", "reviewed": false },
+        { "id": "u12-l1-w7", "target": "über", "native": "nad", "note": "Kde? über dem Tisch = nad stolem", "reviewed": false },
+        { "id": "u12-l1-w8", "target": "zwischen", "native": "mezi", "note": "z = c, sch = š: [CVI-šen]", "reviewed": false },
+        { "id": "u12-l1-w9", "target": "das Regal", "native": "police", "note": "Přízvuk: re-GÁL; množné číslo: die Regale", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l1-e1", "type": "choice", "question": "unter", "questionLang": "target", "options": ["pod", "nad", "vedle"], "answer": "pod", "reviewed": false },
+        { "id": "u12-l1-e2", "type": "choice", "question": "police", "questionLang": "native", "options": ["das Regal", "der Schrank", "der Tisch"], "answer": "das Regal", "reviewed": false },
+        { "id": "u12-l1-e3", "type": "match", "pairs": [
+          { "target": "auf", "native": "na" },
+          { "target": "neben", "native": "vedle" },
+          { "target": "über", "native": "nad" },
+          { "target": "zwischen", "native": "mezi" },
+          { "target": "hängen", "native": "viset" }
+        ], "reviewed": false },
+        { "id": "u12-l1-e4", "type": "listen", "audio": "Die Lampe hängt über dem Tisch.", "options": ["Die Lampe hängt über dem Tisch.", "Die Lampe steht neben dem Tisch.", "Die Lampe hängt über dem Bett."], "answer": "Die Lampe hängt über dem Tisch.", "reviewed": false },
+        { "id": "u12-l1-e5", "type": "fill", "sentence": "Das Brot liegt auf ___ Tisch.", "translation": "Chléb leží na stole.", "options": ["dem", "den", "der"], "answer": "dem", "explain": "Kde? → 3. pád: der Tisch → auf dem Tisch.", "reviewed": false },
+        { "id": "u12-l1-e6", "type": "fill", "sentence": "Der Stuhl steht zwischen dem Sofa und ___ Lampe.", "translation": "Židle stojí mezi pohovkou a lampou.", "options": ["der", "die", "dem"], "answer": "der", "explain": "Kde? → 3. pád i po zwischen: die Lampe → der Lampe.", "reviewed": false },
+        { "id": "u12-l1-e7", "type": "type", "question": "vedle", "answer": "neben", "reviewed": false },
+        { "id": "u12-l1-e8", "type": "build", "question": "Pohovka stojí vedle skříně.", "answer": "Das Sofa steht neben dem Schrank.", "accept": ["Neben dem Schrank steht das Sofa."], "extra": ["den"], "reviewed": false },
+        { "id": "u12-l1-e9", "type": "listen", "audio": "Die Schuhe stehen unter dem Bett.", "options": ["Boty jsou pod postelí.", "Boty jsou vedle postele.", "Boty jsou na posteli."], "answer": "Boty jsou pod postelí.", "reviewed": false },
+        { "id": "u12-l1-e10", "type": "choice", "question": "Lampa visí nad postelí.", "questionLang": "native", "options": ["Die Lampe hängt über dem Bett.", "Die Lampe hängt neben dem Bett.", "Die Lampe steht unter dem Bett."], "answer": "Die Lampe hängt über dem Bett.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "title": "Kam to dáme?",
+      "titleTarget": "Wohin stellen wir das?",
+      "reviewed": false,
+      "tip": {
+        "title": "Wohin? Auf den Tisch",
+        "text": "Česky rozlišujeme „kde?“ (na stole) a „kam?“ (na stůl, 4. pád). Němčina úplně stejně: wo? → 3. pád, wohin? → 4. pád. Změní se jen člen: auf dem Tisch → auf den Tisch, an der Wand → an die Wand, neben dem Sofa → neben das Sofa. Pozor na dvojice sloves: kam = legen (položit), stellen (postavit), hängen (pověsit); kde = liegen (ležet), stehen (stát), hängen (viset). Ich stelle die Flasche auf den Tisch. → Die Flasche steht auf dem Tisch.",
+        "examples": [
+          { "target": "Ich stelle die Flasche auf den Tisch.", "native": "Postavím láhev na stůl." },
+          { "target": "Die Flasche steht auf dem Tisch.", "native": "Láhev stojí na stole." },
+          { "target": "Wir hängen das Bild an die Wand.", "native": "Pověsíme obraz na zeď." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l2-w1", "target": "legen", "native": "položit; pokládat", "note": "Kam? = 4. pád: Ich lege das Brot auf den Tisch. příčestí: gelegt", "reviewed": false },
+        { "id": "u12-l2-w2", "target": "stellen", "native": "postavit; dát", "note": "Kam? = 4. pád: Ich stelle die Flasche auf den Tisch. příčestí: gestellt", "reviewed": false },
+        { "id": "u12-l2-w3", "target": "das Bild", "native": "obraz; obrázek", "note": "množné číslo: die Bilder", "reviewed": false },
+        { "id": "u12-l2-w4", "target": "das Fenster", "native": "okno", "note": "množné číslo: die Fenster", "reviewed": false },
+        { "id": "u12-l2-w5", "target": "die Wand", "native": "zeď; stěna", "note": "an der Wand = na zdi, an die Wand = na zeď; množné číslo: die Wände", "reviewed": false },
+        { "id": "u12-l2-w6", "target": "die Tür", "native": "dveře", "note": "Německy jednotné číslo! množné číslo: die Türen", "reviewed": false },
+        { "id": "u12-l2-w7", "target": "der Teppich", "native": "koberec", "note": "množné číslo: die Teppiche", "reviewed": false },
+        { "id": "u12-l2-w8", "target": "der Boden", "native": "podlaha", "note": "auf dem Boden = na zemi; množné číslo: die Böden", "reviewed": false },
+        { "id": "u12-l2-w9", "target": "hinter", "native": "za", "note": "Kde? hinter der Tür = za dveřmi; kam? hinter die Tür", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l2-e1", "type": "choice", "question": "die Tür", "questionLang": "target", "options": ["dveře", "okno", "zeď"], "answer": "dveře", "reviewed": false },
+        { "id": "u12-l2-e2", "type": "choice", "question": "koberec", "questionLang": "native", "options": ["der Teppich", "der Boden", "das Bild"], "answer": "der Teppich", "reviewed": false },
+        { "id": "u12-l2-e3", "type": "match", "pairs": [
+          { "target": "legen", "native": "položit" },
+          { "target": "stellen", "native": "postavit" },
+          { "target": "das Fenster", "native": "okno" },
+          { "target": "der Boden", "native": "podlaha" },
+          { "target": "hinter", "native": "za" }
+        ], "reviewed": false },
+        { "id": "u12-l2-e4", "type": "listen", "audio": "Wir hängen das Bild an die Wand.", "options": ["Wir hängen das Bild an die Wand.", "Das Bild hängt an der Wand.", "Wir stellen das Bild an die Wand."], "answer": "Wir hängen das Bild an die Wand.", "reviewed": false },
+        { "id": "u12-l2-e5", "type": "fill", "sentence": "Ich stelle die Lampe neben ___ Sofa.", "translation": "Postavím lampu vedle pohovky.", "options": ["das", "dem", "die"], "answer": "das", "explain": "Kam? → 4. pád; u das se člen nemění: neben das Sofa.", "reviewed": false },
+        { "id": "u12-l2-e6", "type": "fill", "sentence": "Ich ___ die Flasche in den Schrank.", "translation": "Dám láhev do skříně.", "options": ["stelle", "stehe", "steht"], "answer": "stelle", "explain": "Kam? → stellen (postavit). stehen znamená jen „stát“ a předmět mít nemůže.", "reviewed": false },
+        { "id": "u12-l2-e7", "type": "type", "question": "obraz", "answer": "das Bild", "reviewed": false },
+        { "id": "u12-l2-e8", "type": "build", "question": "Položím koberec na podlahu.", "answer": "Ich lege den Teppich auf den Boden.", "accept": ["Auf den Boden lege ich den Teppich."], "extra": ["dem"], "reviewed": false },
+        { "id": "u12-l2-e9", "type": "listen", "audio": "Stellen Sie den Stuhl bitte ans Fenster.", "options": ["Postavte prosím židli k oknu.", "Židle stojí u okna.", "Postavte prosím židli ke dveřím."], "answer": "Postavte prosím židli k oknu.", "reviewed": false },
+        { "id": "u12-l2-e10", "type": "choice", "question": "Postavte prosím láhev na stůl.", "questionLang": "native", "options": ["Stellen Sie die Flasche bitte auf den Tisch.", "Die Flasche steht auf dem Tisch.", "Legen Sie die Flasche bitte auf den Boden."], "answer": "Stellen Sie die Flasche bitte auf den Tisch.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "title": "Nový byt",
+      "titleTarget": "Die neue Wohnung",
+      "reviewed": false,
+      "tip": {
+        "title": "In der Stadt, in die Stadt",
+        "text": "Stejné pravidlo platí i pro in: Ich wohne in der Stadt. = Bydlím ve městě. Ich fahre in die Stadt. = Jedu do města. Česky máme dvě různé předložky (v a do), němčina jen jednu a mění člen: kde? = 3. pád, kam? = 4. pád. Proto Češi často řeknou „in der Stadt“ i tam, kde jde o směr. Zkrácené tvary: in dem → im (im Keller = ve sklepě), in das → ins (ins Kino = do kina).",
+        "examples": [
+          { "target": "Wir ziehen in die Stadt um.", "native": "Stěhujeme se do města." },
+          { "target": "Die Kartoffeln sind im Keller.", "native": "Brambory jsou ve sklepě." },
+          { "target": "Ich gehe in den Keller.", "native": "Jdu do sklepa." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u12-l3-w1", "target": "umziehen", "native": "stěhovat se", "note": "Odlučitelné: Wir ziehen um. Minulý čas se sein: ist umgezogen", "reviewed": false },
+        { "id": "u12-l3-w2", "target": "die Miete", "native": "nájem", "note": "ie = í; množné číslo: die Mieten", "reviewed": false },
+        { "id": "u12-l3-w3", "target": "mieten", "native": "pronajmout si", "note": "Jako nájemník: eine Wohnung mieten; příčestí: gemietet", "reviewed": false },
+        { "id": "u12-l3-w4", "target": "der Vermieter", "native": "pronajímatel", "note": "Přízvuk: fer-MÍ-ta; die Vermieterin = pronajímatelka; množné číslo: die Vermieter", "reviewed": false },
+        { "id": "u12-l3-w5", "target": "der Stock", "native": "patro", "note": "st = št: [štok]; im ersten Stock = v prvním patře; množné číslo: die Stockwerke (die Stöcke jsou hole)", "reviewed": false },
+        { "id": "u12-l3-w6", "target": "der Aufzug", "native": "výtah", "note": "Také der Lift; množné číslo: die Aufzüge", "reviewed": false },
+        { "id": "u12-l3-w7", "target": "der Balkon", "native": "balkon", "note": "Přízvuk: bal-KÓN; množné číslo: die Balkone", "reviewed": false },
+        { "id": "u12-l3-w8", "target": "der Keller", "native": "sklep", "note": "množné číslo: die Keller", "reviewed": false },
+        { "id": "u12-l3-w9", "target": "hell", "native": "světlý", "note": "Opak: dunkel = tmavý", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u12-l3-e1", "type": "choice", "question": "die Miete", "questionLang": "target", "options": ["nájem", "pronajímatel", "patro"], "answer": "nájem", "reviewed": false },
+        { "id": "u12-l3-e2", "type": "choice", "question": "výtah", "questionLang": "native", "options": ["der Aufzug", "der Balkon", "der Keller"], "answer": "der Aufzug", "reviewed": false },
+        { "id": "u12-l3-e3", "type": "match", "pairs": [
+          { "target": "umziehen", "native": "stěhovat se" },
+          { "target": "mieten", "native": "pronajmout si" },
+          { "target": "der Keller", "native": "sklep" },
+          { "target": "der Stock", "native": "patro" },
+          { "target": "hell", "native": "světlý" }
+        ], "reviewed": false },
+        { "id": "u12-l3-e4", "type": "listen", "audio": "Die Wohnung hat einen Balkon.", "options": ["Die Wohnung hat einen Balkon.", "Die Wohnung hat einen Keller.", "Die Wohnung hat keinen Balkon."], "answer": "Die Wohnung hat einen Balkon.", "reviewed": false },
+        { "id": "u12-l3-e5", "type": "fill", "sentence": "Wir wohnen in ___ Stadt.", "translation": "Bydlíme ve městě.", "options": ["der", "die", "dem"], "answer": "der", "explain": "Kde? → 3. pád: die Stadt → in der Stadt.", "reviewed": false },
+        { "id": "u12-l3-e6", "type": "fill", "sentence": "Stellen Sie den Wein bitte in ___ Keller.", "translation": "Dejte prosím víno do sklepa.", "options": ["den", "dem", "die"], "answer": "den", "explain": "Kam? → 4. pád: der Keller → in den Keller.", "reviewed": false },
+        { "id": "u12-l3-e7", "type": "type", "question": "sklep", "answer": "der Keller", "reviewed": false },
+        { "id": "u12-l3-e8", "type": "build", "question": "Zítra jedeme do města.", "answer": "Morgen fahren wir in die Stadt.", "accept": ["Wir fahren morgen in die Stadt.", "In die Stadt fahren wir morgen."], "extra": ["der"], "reviewed": false },
+        { "id": "u12-l3-e9", "type": "listen", "audio": "Wie hoch ist die Miete?", "options": ["Jak vysoký je nájem?", "Kde je výtah?", "Kdo je pronajímatel?"], "answer": "Jak vysoký je nájem?", "reviewed": false },
+        { "id": "u12-l3-e10", "type": "choice", "question": "Byt je světlý a klidný.", "questionLang": "native", "options": ["Die Wohnung ist hell und ruhig.", "Die Wohnung ist hell und klein.", "Das Zimmer ist hell und ruhig."], "answer": "Die Wohnung ist hell und ruhig.", "reviewed": false }
+      ]
+    }
+  ]
+}

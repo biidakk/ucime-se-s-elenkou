@@ -1,0 +1,141 @@
+{
+  "id": "u13",
+  "level": "A2",
+  "title": "Počasí",
+  "titleTarget": "Vremea",
+  "description": "Jaké je počasí, roční období, měsíce a data.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u13-l1",
+      "title": "Jaké je počasí?",
+      "titleTarget": "Cum e vremea?",
+      "reviewed": false,
+      "tip": {
+        "title": "Prší, je teplo: plouă, e cald",
+        "text": "O počasí se mluví bez podmětu, úplně jako česky: Plouă. = Prší. Ninge. = Sněží. E cald. = Je teplo. E frig. = Je zima. Pozor na rozdíl: E frig. znamená, že je zima venku, Mi-e frig. že je zima mně. Slovo vreme (počasí) je slovanské, srovnejte ruské „vremja“ (čas). Zeptáte se: Cum e vremea? (Jaké je počasí?) Slunce a vítr: E soare. (Je slunečno.) Bate vântul. (Fouká vítr.)",
+        "examples": [
+          { "target": "Azi plouă.", "native": "Dnes prší." },
+          { "target": "Cum e vremea?", "native": "Jaké je počasí?" },
+          { "target": "E soare și e cald.", "native": "Je slunečno a teplo." },
+          { "target": "Bate vântul.", "native": "Fouká vítr." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l1-w1", "target": "vremea", "native": "počasí", "note": "Tvar se členem = to počasí; bez členu: vreme. Čte se „VRE-mea“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u13-l1-w2", "target": "soare", "native": "slunce", "note": "soarele = to slunce. Obvykle bez „un“: E soare. = Je slunečno. Čte se „SOA-re“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u13-l1-w3", "target": "o ploaie", "native": "déšť", "note": "ploaia = ten déšť; množné číslo: ploi. Čte se „PLOA-je“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u13-l1-w4", "target": "zăpadă", "native": "sníh", "note": "zăpada = ten sníh. Nepočítá se, proto bez „o“. Čte se „ză-PA-dă“.", "reviewed": false },
+        { "id": "u13-l1-w5", "target": "un vânt", "native": "vítr", "note": "vântul = ten vítr; množné číslo: vânturi. Bate vântul. = Fouká vítr. Čte se „vynt“.", "reviewed": false },
+        { "id": "u13-l1-w6", "target": "plouă", "native": "prší", "note": "Od a ploua. Bez podmětu, jako česky. Čte se „PLO-wă“.", "reviewed": false },
+        { "id": "u13-l1-w7", "target": "ninge", "native": "sněží", "note": "Od a ninge. Čte se „NIN-dže“.", "reviewed": false },
+        { "id": "u13-l1-w8", "target": "e cald", "native": "je teplo", "note": "Opak: e frig = je zima. Čte se „je kald“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l1-e1", "type": "choice", "question": "ninge", "questionLang": "target", "options": ["sněží", "prší", "fouká vítr"], "answer": "sněží", "reviewed": false },
+        { "id": "u13-l1-e2", "type": "choice", "question": "déšť", "questionLang": "native", "options": ["o ploaie", "zăpadă", "un vânt"], "answer": "o ploaie", "reviewed": false },
+        { "id": "u13-l1-e3", "type": "match", "pairs": [
+          { "target": "soare", "native": "slunce" },
+          { "target": "zăpadă", "native": "sníh" },
+          { "target": "un vânt", "native": "vítr" },
+          { "target": "vremea", "native": "počasí" }
+        ], "reviewed": false },
+        { "id": "u13-l1-e4", "type": "listen", "audio": "Azi plouă și e frig.", "options": ["Dnes prší a je zima.", "Dnes sněží a je zima.", "Dnes prší a je teplo."], "answer": "Dnes prší a je zima.", "reviewed": false },
+        { "id": "u13-l1-e5", "type": "listen", "audio": "Cum e vremea?", "options": ["Cum e vremea?", "Cât e ceasul?", "Ce mai faceți?"], "answer": "Cum e vremea?", "reviewed": false },
+        { "id": "u13-l1-e6", "type": "fill", "sentence": "Azi ___ cald.", "translation": "Dnes je teplo.", "options": ["e", "are", "fac"], "answer": "e", "explain": "Je teplo = e cald, bez podmětu, jako česky.", "reviewed": false },
+        { "id": "u13-l1-e7", "type": "fill", "sentence": "Azi ___ și e frig.", "translation": "Dnes sněží a je zima.", "options": ["ninge", "zăpadă", "ninsoare"], "answer": "ninge", "explain": "Sněží = ninge (sloveso); zăpadă je podstatné jméno, sníh.", "reviewed": false },
+        { "id": "u13-l1-e8", "type": "type", "question": "Prší.", "answer": "Plouă.", "reviewed": false },
+        { "id": "u13-l1-e9", "type": "build", "question": "Je slunečno a fouká vítr.", "answer": "E soare și bate vântul.", "extra": ["vânt"], "reviewed": false },
+        { "id": "u13-l1-e10", "type": "speak", "text": "Azi e soare și e cald.", "native": "Dnes je slunečno a teplo.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l2",
+      "title": "Roční období",
+      "titleTarget": "Anotimpurile",
+      "reviewed": false,
+      "tip": {
+        "title": "Vara = v létě",
+        "text": "Roční období se členem na konci znamenají „kdy“: vara = v létě, iarna = v zimě, primăvara = na jaře, toamna = na podzim. Žádná předložka není potřeba. Je to podobné jako u dnů: lunea = každé pondělí. Vara merg la mare. = V létě jezdím k moři. Bez členu jsou to obyčejná podstatná jména: o vară, o iarnă. Pozor, česky jsou „zima“ i „je zima“ stejné slovo, rumunsky ne: iarna e frig = v zimě je zima.",
+        "examples": [
+          { "target": "Vara merg la mare.", "native": "V létě jezdím k moři." },
+          { "target": "Iarna ninge și e frig.", "native": "V zimě sněží a je zima." },
+          { "target": "Primăvara lucrez în grădină.", "native": "Na jaře pracuji na zahradě." },
+          { "target": "Toamna plouă.", "native": "Na podzim prší." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l2-w1", "target": "o primăvară", "native": "jaro", "note": "primăvara = to jaro i na jaře; množné číslo: primăveri. Čte se „pri-mă-VA-ră“.", "reviewed": false },
+        { "id": "u13-l2-w2", "target": "o vară", "native": "léto", "note": "vara = to léto; množné číslo: veri.", "reviewed": false },
+        { "id": "u13-l2-w3", "target": "o toamnă", "native": "podzim", "note": "toamna = ten podzim i na podzim; množné číslo: toamne. Čte se „TOAM-nă“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u13-l2-w4", "target": "o iarnă", "native": "zima", "note": "iarna = ta zima; množné číslo: ierni. Čte se „JAR-nă“.", "reviewed": false },
+        { "id": "u13-l2-w5", "target": "un anotimp", "native": "roční období", "note": "anotimpul = to roční období; množné číslo: anotimpuri. Doslova an + timp, „roční čas“. Čte se „a-no-TIMP“.", "reviewed": false },
+        { "id": "u13-l2-w6", "target": "iarna", "native": "v zimě", "note": "Tvar se členem, bez předložky. Znamená i „ta zima“.", "reviewed": false },
+        { "id": "u13-l2-w7", "target": "vara", "native": "v létě", "note": "Tvar se členem, bez předložky. Znamená i „to léto“.", "reviewed": false },
+        { "id": "u13-l2-w8", "target": "un nor", "native": "mrak", "note": "norul = ten mrak; množné číslo: nori. E înnorat. = Je zataženo.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l2-e1", "type": "choice", "question": "un anotimp", "questionLang": "target", "options": ["roční období", "rok", "měsíc"], "answer": "roční období", "reviewed": false },
+        { "id": "u13-l2-e2", "type": "choice", "question": "podzim", "questionLang": "native", "options": ["o toamnă", "o primăvară", "o iarnă"], "answer": "o toamnă", "reviewed": false },
+        { "id": "u13-l2-e3", "type": "match", "pairs": [
+          { "target": "o primăvară", "native": "jaro" },
+          { "target": "o vară", "native": "léto" },
+          { "target": "o iarnă", "native": "zima" },
+          { "target": "un nor", "native": "mrak" }
+        ], "reviewed": false },
+        { "id": "u13-l2-e4", "type": "listen", "audio": "Iarna ninge.", "options": ["V zimě sněží.", "V létě prší.", "Na jaře sněží."], "answer": "V zimě sněží.", "reviewed": false },
+        { "id": "u13-l2-e5", "type": "listen", "audio": "Vara merg la mare.", "options": ["Vara merg la mare.", "Iarna merg la munte.", "Vara merg la munte."], "answer": "Vara merg la mare.", "reviewed": false },
+        { "id": "u13-l2-e6", "type": "fill", "sentence": "___ merg la mare.", "translation": "V létě jezdím k moři.", "options": ["Vara", "Vară", "În vara"], "answer": "Vara", "explain": "„V létě“ = vara: tvar se členem, bez předložky.", "reviewed": false },
+        { "id": "u13-l2-e7", "type": "fill", "sentence": "Un an are patru ___.", "translation": "Rok má čtyři roční období.", "options": ["anotimpuri", "anotimp", "anotimpul"], "answer": "anotimpuri", "explain": "Po číslovce stojí množné číslo: patru anotimpuri.", "reviewed": false },
+        { "id": "u13-l2-e8", "type": "type", "question": "V zimě sněží.", "answer": "Iarna ninge.", "reviewed": false },
+        { "id": "u13-l2-e9", "type": "build", "question": "Na podzim prší a je zima.", "answer": "Toamna plouă și e frig.", "extra": ["toamnă"], "reviewed": false },
+        { "id": "u13-l2-e10", "type": "speak", "text": "Iarna e frig.", "native": "V zimě je zima.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l3",
+      "title": "Měsíce a data",
+      "titleTarget": "Lunile și datele",
+      "reviewed": false,
+      "tip": {
+        "title": "Prvního května: pe întâi mai",
+        "text": "Datum se řekne s předložkou pe a obyčejnou číslovkou: pe cinci iunie = pátého června. Česky „pátého“, rumunsky jen „pět“. Výjimka je první den v měsíci: pe întâi mai = prvního května. „V květnu“ se řekne în mai. Měsíce se píšou malým písmenem: ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie. Většinu poznáte, jsou podobné latinským názvům.",
+        "examples": [
+          { "target": "Ziua mea de naștere e pe cinci august.", "native": "Mám narozeniny pátého srpna." },
+          { "target": "Pe întâi ianuarie nu lucrez.", "native": "Prvního ledna nepracuji." },
+          { "target": "În decembrie ninge.", "native": "V prosinci sněží." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l3-w1", "target": "o lună", "native": "měsíc", "note": "luna = ten měsíc, i Měsíc na nebi; množné číslo: luni, stejně jako pondělí.", "reviewed": false },
+        { "id": "u13-l3-w2", "target": "ianuarie", "native": "leden", "note": "Měsíce se píšou malým písmenem. Čte se „ja-nu-A-ri-e“.", "reviewed": false },
+        { "id": "u13-l3-w3", "target": "aprilie", "native": "duben", "note": "Čte se „a-PRI-li-e“.", "reviewed": false },
+        { "id": "u13-l3-w4", "target": "mai", "native": "květen", "note": "Čte se „maj“. Pozor: mai znamená i „ještě, víc“, jako v Ce mai faci?", "reviewed": false },
+        { "id": "u13-l3-w5", "target": "august", "native": "srpen", "note": "Čte se „AU-gust“.", "reviewed": false },
+        { "id": "u13-l3-w6", "target": "decembrie", "native": "prosinec", "note": "Čte se „de-ČEM-bri-e“.", "reviewed": false },
+        { "id": "u13-l3-w7", "target": "întâi", "native": "prvního", "note": "Jen v datu: pe întâi mai. Jinak „první“ = primul, prima. Čte se „yn-TYJ“.", "reviewed": false },
+        { "id": "u13-l3-w8", "target": "o zi de naștere", "native": "narozeniny", "note": "ziua de naștere = ty narozeniny; množné číslo: zile de naștere. Doslova „den narození“. Čte se „zi de NAŠ-te-re“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l3-e1", "type": "choice", "question": "decembrie", "questionLang": "target", "options": ["prosinec", "listopad", "leden"], "answer": "prosinec", "reviewed": false },
+        { "id": "u13-l3-e2", "type": "choice", "question": "narozeniny", "questionLang": "native", "options": ["o zi de naștere", "o lună", "un an"], "answer": "o zi de naștere", "reviewed": false },
+        { "id": "u13-l3-e3", "type": "match", "pairs": [
+          { "target": "ianuarie", "native": "leden" },
+          { "target": "aprilie", "native": "duben" },
+          { "target": "mai", "native": "květen" },
+          { "target": "august", "native": "srpen" }
+        ], "reviewed": false },
+        { "id": "u13-l3-e4", "type": "listen", "audio": "Pe întâi mai merg la munte.", "options": ["Prvního května jedu na hory.", "Prvního března jedu na hory.", "Prvního května jedu k moři."], "answer": "Prvního května jedu na hory.", "reviewed": false },
+        { "id": "u13-l3-e5", "type": "listen", "audio": "pe cinci august", "options": ["pe cinci august", "pe șase august", "pe cinci aprilie"], "answer": "pe cinci august", "reviewed": false },
+        { "id": "u13-l3-e6", "type": "fill", "sentence": "Pe ___ ianuarie nu lucrez.", "translation": "Prvního ledna nepracuji.", "options": ["întâi", "prima", "unul"], "answer": "întâi", "explain": "První den v měsíci je întâi: pe întâi ianuarie.", "reviewed": false },
+        { "id": "u13-l3-e7", "type": "fill", "sentence": "Merg la mare ___ august.", "translation": "V srpnu jedu k moři.", "options": ["în", "pe", "cu"], "answer": "în", "explain": "V měsíci = în: în august. Pe se dává jen k datu: pe cinci august.", "reviewed": false },
+        { "id": "u13-l3-e8", "type": "type", "question": "v prosinci", "answer": "în decembrie", "reviewed": false },
+        { "id": "u13-l3-e9", "type": "build", "question": "Mám narozeniny pátého srpna.", "answer": "Ziua mea de naștere e pe cinci august.", "extra": ["în"], "reviewed": false },
+        { "id": "u13-l3-e10", "type": "speak", "text": "Ziua mea de naștere e în mai.", "native": "Mám narozeniny v květnu.", "reviewed": false }
+      ]
+    }
+  ]
+}

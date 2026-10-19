@@ -1,0 +1,145 @@
+{
+  "id": "u20",
+  "level": "A2",
+  "title": "Úřady a lázně",
+  "titleTarget": "Ämter und Kur",
+  "description": "V bance, na úřadě a v lázních: pevné předpony, vor + 3. pád a zrádná slova.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u20-l1",
+      "title": "V bance",
+      "titleTarget": "In der Bank",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich hebe ab, ich bezahle",
+        "text": "Předpony ab-, an-, auf-, ein- se od slovesa odtrhnou a jdou na konec, to už znáte: Ich stehe auf. Předpony be-, er-, ver- jsou ale pevné a zůstávají u slovesa. Pevná je i předpona unter- ve slově unterschreiben: Ich bezahle bar. Ich unterschreibe hier. Poznáte to podle přízvuku: odlučitelná předpona je pod přízvukem (AB-heben), pevná ne (be-CÁ-len, un-ter-ŠRAJ-ben). Říká se tedy Ich hebe Geld ab, nikdy „Ich abhebe Geld“. Pevné předpony nemají v minulém čase ge-: Ich habe bezahlt.",
+        "examples": [
+          { "target": "Ich hebe am Geldautomaten Geld ab.", "native": "Vybírám peníze z bankomatu." },
+          { "target": "Kann ich mit Kreditkarte bezahlen?", "native": "Můžu platit kreditní kartou?" },
+          { "target": "Unterschreiben Sie bitte hier.", "native": "Podepište se prosím tady." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l1-w1", "target": "das Konto", "native": "bankovní účet", "note": "Účet v restauraci je die Rechnung. Množné číslo: die Konten", "reviewed": false },
+        { "id": "u20-l1-w2", "target": "die Kreditkarte", "native": "kreditní karta", "note": "Hovorově jen die Karte: mit Karte bezahlen. Množné číslo: die Kreditkarten", "reviewed": false },
+        { "id": "u20-l1-w3", "target": "der Geldautomat", "native": "bankomat", "note": "am Geldautomaten = u bankomatu; množné číslo: die Geldautomaten", "reviewed": false },
+        { "id": "u20-l1-w4", "target": "bar", "native": "hotově", "note": "bar bezahlen = platit hotově", "reviewed": false },
+        { "id": "u20-l1-w5", "target": "bezahlen", "native": "zaplatit; platit", "note": "Pevná předpona: ich bezahle, ich habe bezahlt. Přízvuk: [be-CÁ-len]", "reviewed": false },
+        { "id": "u20-l1-w6", "target": "abheben", "native": "vybrat peníze", "note": "Předpona jde na konec: Ich hebe Geld ab. Příčestí: abgehoben", "reviewed": false },
+        { "id": "u20-l1-w7", "target": "unterschreiben", "native": "podepsat", "note": "Pevná předpona: ich unterschreibe, ich habe unterschrieben. Přízvuk: [un-ter-ŠRAJ-ben]", "reviewed": false },
+        { "id": "u20-l1-w8", "target": "die Unterschrift", "native": "podpis", "note": "množné číslo: die Unterschriften", "reviewed": false },
+        { "id": "u20-l1-w9", "target": "die Gebühr", "native": "poplatek", "note": "Přízvuk: [ge-BÜR]; množné číslo: die Gebühren", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l1-e1", "type": "choice", "question": "die Gebühr", "questionLang": "target", "options": ["poplatek", "podpis", "bankomat"], "answer": "poplatek", "reviewed": false },
+        { "id": "u20-l1-e2", "type": "choice", "question": "bankomat", "questionLang": "native", "options": ["der Geldautomat", "das Konto", "die Kreditkarte"], "answer": "der Geldautomat", "reviewed": false },
+        { "id": "u20-l1-e3", "type": "match", "pairs": [
+          { "target": "das Konto", "native": "bankovní účet" },
+          { "target": "bar", "native": "hotově" },
+          { "target": "bezahlen", "native": "zaplatit" },
+          { "target": "unterschreiben", "native": "podepsat" },
+          { "target": "die Unterschrift", "native": "podpis" }
+        ], "reviewed": false },
+        { "id": "u20-l1-e4", "type": "listen", "audio": "Kann ich mit Kreditkarte bezahlen?", "options": ["Kann ich mit Kreditkarte bezahlen?", "Kann ich bar bezahlen?", "Kann ich hier Geld abheben?"], "answer": "Kann ich mit Kreditkarte bezahlen?", "reviewed": false },
+        { "id": "u20-l1-e5", "type": "fill", "sentence": "Ich ___ am Geldautomaten Geld ab.", "translation": "Vybírám peníze z bankomatu.", "options": ["hebe", "abhebe", "heben"], "answer": "hebe", "explain": "Předpona ab- se odtrhne a jde na konec: Ich hebe … ab.", "reviewed": false },
+        { "id": "u20-l1-e6", "type": "fill", "sentence": "Bitte ___ Sie hier.", "translation": "Podepište se prosím tady.", "options": ["unterschreiben", "schreiben unter", "unterschreibt"], "answer": "unterschreiben", "explain": "unter- je u tohoto slovesa pevná předpona, neodtrhává se.", "reviewed": false },
+        { "id": "u20-l1-e7", "type": "type", "question": "podpis", "answer": "die Unterschrift", "reviewed": false },
+        { "id": "u20-l1-e8", "type": "build", "question": "Musím vybrat peníze.", "answer": "Ich muss Geld abheben.", "extra": ["hebe"], "reviewed": false },
+        { "id": "u20-l1-e9", "type": "listen", "audio": "Das kostet zwei Euro Gebühr.", "options": ["Poplatek je dvě eura.", "Poplatek je dvanáct eur.", "Platí se hotově."], "answer": "Poplatek je dvě eura.", "reviewed": false },
+        { "id": "u20-l1-e10", "type": "build", "question": "Platíte hotově, nebo kartou?", "answer": "Bezahlen Sie bar oder mit Karte?", "extra": ["ab"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l2",
+      "title": "Formuláře",
+      "titleTarget": "Formulare",
+      "reviewed": false,
+      "tip": {
+        "title": "Vor zehn Jahren = před deseti lety",
+        "text": "„Před“ v čase se řekne vor. Česky je po „před“ 7. pád, německy po vor 3. pád (Dativ): vor einem Jahr = před rokem, vor einer Stunde = před hodinou. V množném čísle dostane podstatné jméno ve 3. pádě koncovku -n: vor zehn Jahren = před deseti lety, vor drei Tagen = před třemi dny. Česky se také mění koncovka (lety, dny), takže to znáte. Chyba je „vor zehn Jahre“. Ve formulářích uvidíte i krátké otázky: Vorname? Nachname? Geburtsdatum? Odpovídáte jen údajem.",
+        "examples": [
+          { "target": "Wir sind vor zehn Jahren umgezogen.", "native": "Před deseti lety jsme se přestěhovali." },
+          { "target": "Füllen Sie bitte das Formular aus.", "native": "Vyplňte prosím formulář." },
+          { "target": "Haben Sie Ihren Ausweis dabei?", "native": "Máte u sebe občanský průkaz?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l2-w1", "target": "das Formular", "native": "formulář", "note": "Přízvuk: [for-mu-LÁR]; množné číslo: die Formulare", "reviewed": false },
+        { "id": "u20-l2-w2", "target": "ausfüllen", "native": "vyplnit", "note": "Předpona jde na konec: Füllen Sie das Formular aus.", "reviewed": false },
+        { "id": "u20-l2-w3", "target": "der Vorname", "native": "křestní jméno", "note": "množné číslo: die Vornamen", "reviewed": false },
+        { "id": "u20-l2-w4", "target": "der Nachname", "native": "příjmení", "note": "množné číslo: die Nachnamen", "reviewed": false },
+        { "id": "u20-l2-w5", "target": "das Geburtsdatum", "native": "datum narození", "note": "Čte se [ge-BÚRC-dá-tum]; množné číslo: die Geburtsdaten", "reviewed": false },
+        { "id": "u20-l2-w6", "target": "der Wohnort", "native": "bydliště", "note": "h se nečte: [VÓN-ort]; množné číslo: die Wohnorte", "reviewed": false },
+        { "id": "u20-l2-w7", "target": "die Staatsangehörigkeit", "native": "státní příslušnost", "note": "Čte se [ŠTÁC-an-ge-hö-rich-kajt]; obvykle jen jednotné číslo", "reviewed": false },
+        { "id": "u20-l2-w8", "target": "der Ausweis", "native": "průkaz totožnosti", "note": "Občanský průkaz je der Personalausweis. Množné číslo: die Ausweise", "reviewed": false },
+        { "id": "u20-l2-w9", "target": "der Reisepass", "native": "cestovní pas", "note": "Hovorově jen der Pass. Množné číslo: die Reisepässe", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l2-e1", "type": "choice", "question": "der Nachname", "questionLang": "target", "options": ["příjmení", "křestní jméno", "bydliště"], "answer": "příjmení", "reviewed": false },
+        { "id": "u20-l2-e2", "type": "choice", "question": "cestovní pas", "questionLang": "native", "options": ["der Reisepass", "der Ausweis", "das Formular"], "answer": "der Reisepass", "reviewed": false },
+        { "id": "u20-l2-e3", "type": "match", "pairs": [
+          { "target": "das Formular", "native": "formulář" },
+          { "target": "ausfüllen", "native": "vyplnit" },
+          { "target": "der Vorname", "native": "křestní jméno" },
+          { "target": "der Wohnort", "native": "bydliště" },
+          { "target": "das Geburtsdatum", "native": "datum narození" }
+        ], "reviewed": false },
+        { "id": "u20-l2-e4", "type": "listen", "audio": "Füllen Sie bitte das Formular aus.", "options": ["Füllen Sie bitte das Formular aus.", "Unterschreiben Sie bitte das Formular.", "Haben Sie Ihren Ausweis dabei?"], "answer": "Füllen Sie bitte das Formular aus.", "reviewed": false },
+        { "id": "u20-l2-e5", "type": "fill", "sentence": "Mein Sohn ist vor zehn ___ nach Deutschland gekommen.", "translation": "Syn přijel do Německa před deseti lety.", "options": ["Jahren", "Jahre", "Jahr"], "answer": "Jahren", "explain": "Po vor je 3. pád; v množném čísle s koncovkou -n: vor zehn Jahren.", "reviewed": false },
+        { "id": "u20-l2-e6", "type": "fill", "sentence": "Bitte ___ Sie das Formular aus.", "translation": "Vyplňte prosím formulář.", "options": ["füllen", "ausfüllen", "füllt"], "answer": "füllen", "explain": "ausfüllen je odlučitelné: Füllen Sie … aus.", "reviewed": false },
+        { "id": "u20-l2-e7", "type": "type", "question": "příjmení", "answer": "der Nachname", "reviewed": false },
+        { "id": "u20-l2-e8", "type": "build", "question": "Před dvěma lety jsme byli v Berlíně.", "answer": "Vor zwei Jahren waren wir in Berlin.", "accept": ["Wir waren vor zwei Jahren in Berlin."], "extra": ["Jahre"], "reviewed": false },
+        { "id": "u20-l2-e9", "type": "listen", "audio": "Wie ist Ihr Vorname?", "options": ["Jaké je Vaše křestní jméno?", "Jaké je Vaše příjmení?", "Kde bydlíte?"], "answer": "Jaké je Vaše křestní jméno?", "reviewed": false },
+        { "id": "u20-l2-e10", "type": "choice", "question": "die Staatsangehörigkeit", "questionLang": "target", "options": ["státní příslušnost", "bydliště", "datum narození"], "answer": "státní příslušnost", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l3",
+      "title": "V lázních",
+      "titleTarget": "Im Kurort",
+      "reviewed": false,
+      "tip": {
+        "title": "Zrádná slova",
+        "text": "Některá německá slova vypadají povědomě, ale znamenají něco jiného. Die Kur je lázeňská léčba: eine Kur machen = jet se léčit do lázní. Das Gift je jed, ne dárek jako v angličtině; dárek je das Geschenk. Připomeňte si i další: der Termin = objednání nebo schůzka, die Rente = důchod, bekommen = dostat, der Brief = dopis, das Tablett = podnos. Lázeňská města mají často v názvu Bad, například Bad Ems. České Karlovy Vary se německy jmenují Karlsbad.",
+        "examples": [
+          { "target": "Meine Mutter macht eine Kur.", "native": "Maminka je v lázních na léčení." },
+          { "target": "Was empfehlen Sie?", "native": "Co doporučujete?" },
+          { "target": "Gute Erholung!", "native": "Hezky si odpočiňte!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l3-w1", "target": "die Kur", "native": "lázeňská léčba", "note": "eine Kur machen = léčit se v lázních; množné číslo: die Kuren", "reviewed": false },
+        { "id": "u20-l3-w2", "target": "der Kurort", "native": "lázně", "note": "Lázeňské město; česky množné číslo, německy jednotné. Množné číslo: die Kurorte", "reviewed": false },
+        { "id": "u20-l3-w3", "target": "die Erholung", "native": "odpočinek; zotavení", "note": "Gute Erholung! = Hezky si odpočiňte! Přízvuk: [er-HÓ-lung]", "reviewed": false },
+        { "id": "u20-l3-w4", "target": "sich erholen", "native": "zotavit se", "note": "Pevná předpona: ich habe mich erholt.", "reviewed": false },
+        { "id": "u20-l3-w5", "target": "die Massage", "native": "masáž", "note": "g se čte jako ž: [ma-SÁ-že]; množné číslo: die Massagen", "reviewed": false },
+        { "id": "u20-l3-w6", "target": "die Quelle", "native": "pramen", "note": "qu = kv: [KVE-le]; množné číslo: die Quellen", "reviewed": false },
+        { "id": "u20-l3-w7", "target": "die Ruhe", "native": "klid", "note": "h se nečte: [RÚ-e]. Znáte už ruhig = klidný.", "reviewed": false },
+        { "id": "u20-l3-w8", "target": "empfehlen", "native": "doporučit", "note": "er empfiehlt; příčestí bez ge-: empfohlen", "reviewed": false },
+        { "id": "u20-l3-w9", "target": "das Gift", "native": "jed", "note": "Pozor: ne dárek! Dárek je das Geschenk. Množné číslo: die Gifte", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l3-e1", "type": "choice", "question": "das Gift", "questionLang": "target", "options": ["jed", "dárek", "lék"], "answer": "jed", "reviewed": false },
+        { "id": "u20-l3-e2", "type": "choice", "question": "pramen", "questionLang": "native", "options": ["die Quelle", "die Kur", "die Ruhe"], "answer": "die Quelle", "reviewed": false },
+        { "id": "u20-l3-e3", "type": "match", "pairs": [
+          { "target": "die Kur", "native": "lázeňská léčba" },
+          { "target": "der Kurort", "native": "lázně" },
+          { "target": "die Massage", "native": "masáž" },
+          { "target": "die Ruhe", "native": "klid" },
+          { "target": "empfehlen", "native": "doporučit" }
+        ], "reviewed": false },
+        { "id": "u20-l3-e4", "type": "listen", "audio": "Ich mache im Mai eine Kur.", "options": ["Ich mache im Mai eine Kur.", "Ich mache im Mai einen Ausflug.", "Ich mache im März eine Kur."], "answer": "Ich mache im Mai eine Kur.", "reviewed": false },
+        { "id": "u20-l3-e5", "type": "fill", "sentence": "Meine Mutter hat sich im Kurort gut ___.", "translation": "Maminka si v lázních dobře odpočinula.", "options": ["erholt", "geerholt", "erholen"], "answer": "erholt", "explain": "Předpona er- je pevná, proto příčestí nemá ge-: erholt.", "reviewed": false },
+        { "id": "u20-l3-e6", "type": "fill", "sentence": "Der Arzt ___ eine Kur.", "translation": "Lékař doporučuje lázně.", "options": ["empfiehlt", "empfehlt", "empfiehl"], "answer": "empfiehlt", "explain": "Jako nehmen → er nimmt i empfehlen mění e na ie: er empfiehlt.", "reviewed": false },
+        { "id": "u20-l3-e7", "type": "type", "question": "jed", "answer": "das Gift", "reviewed": false },
+        { "id": "u20-l3-e8", "type": "build", "question": "Karlovy Vary jsou lázně.", "answer": "Karlsbad ist ein Kurort.", "extra": ["Kur"], "reviewed": false },
+        { "id": "u20-l3-e9", "type": "listen", "audio": "Das Wasser aus der Quelle ist gesund.", "options": ["Voda z pramene je zdravá.", "Voda z pramene je jedovatá.", "Voda z pramene je studená."], "answer": "Voda z pramene je zdravá.", "reviewed": false },
+        { "id": "u20-l3-e10", "type": "speak", "text": "Gute Erholung!", "native": "Hezky si odpočiňte!", "reviewed": false }
+      ]
+    }
+  ]
+}

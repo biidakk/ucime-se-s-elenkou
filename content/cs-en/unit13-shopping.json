@@ -1,0 +1,145 @@
+{
+  "id": "u13",
+  "level": "A2",
+  "title": "Nakupování",
+  "titleTarget": "Shopping",
+  "description": "Peníze a ceny, zkoušení oblečení a porovnávání: levnější, nejlevnější, lepší, nejlepší.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u13-l1",
+      "title": "Peníze",
+      "titleTarget": "Money",
+      "reviewed": false,
+      "tip": {
+        "title": "Much, many, a lot of",
+        "text": "Much patří k věcem, které nepočítáme (money, milk, water), many k věcem, které počítáme (cards, pounds, people). Používají se hlavně v otázce a v záporu: How much money? How many cards? I haven't got much money. V kladné větě se nejčastěji řekne a lot of, a to se hodí ke všemu: a lot of money, a lot of people. Pozor: money je jednotné číslo, i když česky říkáme „peníze“. A receipt není recept, ale účtenka.",
+        "examples": [
+          { "target": "How much money have you got?", "native": "Kolik máte peněz?" },
+          { "target": "How many people are there?", "native": "Kolik je tam lidí?" },
+          { "target": "We haven't got much cash.", "native": "Nemáme moc hotovosti." },
+          { "target": "There are a lot of shops here.", "native": "Je tu hodně obchodů." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l1-w1", "target": "money", "native": "peníze", "note": "Jednotné číslo: The money is on the table.", "reviewed": false },
+        { "id": "u13-l1-w2", "target": "cash", "native": "hotovost", "note": "pay in cash = platit hotově", "reviewed": false },
+        { "id": "u13-l1-w3", "target": "card", "native": "karta", "note": "pay by card = platit kartou", "reviewed": false },
+        { "id": "u13-l1-w4", "target": "price", "native": "cena", "note": "Čte se „prajs“.", "reviewed": false },
+        { "id": "u13-l1-w5", "target": "cheap", "native": "levný", "note": "Čte se „číp“.", "reviewed": false },
+        { "id": "u13-l1-w6", "target": "expensive", "native": "drahý", "note": "Čte se „ik-SPEN-siv“.", "reviewed": false },
+        { "id": "u13-l1-w7", "target": "receipt", "native": "účtenka", "note": "Pozor: recept = recipe. P se nečte: „ri-SÍT“.", "reviewed": false },
+        { "id": "u13-l1-w8", "target": "change", "native": "peníze nazpět; drobné", "note": "Here's your change. = Tady máte nazpět. Také změna.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l1-e1", "type": "choice", "question": "receipt", "questionLang": "target", "options": ["účtenka", "recept", "cena"], "answer": "účtenka", "reviewed": false },
+        { "id": "u13-l1-e2", "type": "choice", "question": "Kolik máte peněz?", "questionLang": "native", "options": ["How much money have you got?", "How many money have you got?", "How many moneys have you got?"], "answer": "How much money have you got?", "reviewed": false },
+        { "id": "u13-l1-e3", "type": "match", "pairs": [
+          { "target": "money", "native": "peníze" },
+          { "target": "cash", "native": "hotovost" },
+          { "target": "card", "native": "karta" },
+          { "target": "price", "native": "cena" },
+          { "target": "expensive", "native": "drahý" }
+        ], "reviewed": false },
+        { "id": "u13-l1-e4", "type": "listen", "audio": "Can I pay by card?", "options": ["Can I pay by card?", "Can I pay in cash?", "Can I have the receipt?"], "answer": "Can I pay by card?", "reviewed": false },
+        { "id": "u13-l1-e5", "type": "listen", "audio": "Here's your change.", "options": ["Tady máte nazpět.", "Tady máte účtenku.", "Tady máte kartu."], "answer": "Tady máte nazpět.", "reviewed": false },
+        { "id": "u13-l1-e6", "type": "fill", "sentence": "How ___ cards have you got?", "translation": "Kolik máte karet?", "options": ["many", "much", "lot"], "answer": "many", "explain": "Karty se dají spočítat, proto many.", "reviewed": false },
+        { "id": "u13-l1-e7", "type": "fill", "sentence": "I haven't got ___ money.", "translation": "Nemám moc peněz.", "options": ["much", "many", "a lot"], "answer": "much", "explain": "Peníze nepočítáme po kusech, proto much.", "reviewed": false },
+        { "id": "u13-l1-e8", "type": "type", "question": "Je to levné.", "answer": "It's cheap.", "accept": ["That's cheap."], "reviewed": false },
+        { "id": "u13-l1-e9", "type": "build", "question": "V obchodě je hodně lidí.", "answer": "There are a lot of people in the shop.", "extra": ["much"], "accept": ["In the shop there are a lot of people."], "reviewed": false },
+        { "id": "u13-l1-e10", "type": "speak", "text": "Can I have the receipt, please?", "native": "Můžu dostat účtenku, prosím?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l2",
+      "title": "Zkouším si",
+      "titleTarget": "Trying things on",
+      "reviewed": false,
+      "tip": {
+        "title": "Cheaper than…",
+        "text": "Krátká přídavná jména přidají -er: cheap → cheaper, long → longer, old → older. Pozor na pravopis: big → bigger, hot → hotter. Dlouhá slova dostanou more: expensive → more expensive. Česky je „dražší“ jedno slovo, anglicky dvě. Ale nikdy obojí: ne more cheaper. „Než“ se řekne than: This coat is cheaper than that coat.",
+        "examples": [
+          { "target": "This dress is cheaper.", "native": "Tyhle šaty jsou levnější." },
+          { "target": "These shoes are more expensive than those.", "native": "Tyhle boty jsou dražší než tamty." },
+          { "target": "Have you got a bigger size?", "native": "Máte větší velikost?" },
+          { "target": "Can I try it on?", "native": "Můžu si to zkusit?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l2-w1", "target": "size", "native": "velikost", "note": "What size is it? = Jaká je to velikost?", "reviewed": false },
+        { "id": "u13-l2-w2", "target": "try on", "native": "zkusit si", "note": "U oblečení. It stojí uprostřed: try it on.", "reviewed": false },
+        { "id": "u13-l2-w3", "target": "long", "native": "dlouhý", "note": "longer = delší", "reviewed": false },
+        { "id": "u13-l2-w4", "target": "short", "native": "krátký", "note": "shorter = kratší", "reviewed": false },
+        { "id": "u13-l2-w5", "target": "new", "native": "nový", "note": "newer = novější. Čte se „ňú“.", "reviewed": false },
+        { "id": "u13-l2-w6", "target": "old", "native": "starý", "note": "older = starší", "reviewed": false },
+        { "id": "u13-l2-w7", "target": "more", "native": "víc", "note": "more expensive = dražší", "reviewed": false },
+        { "id": "u13-l2-w8", "target": "than", "native": "než", "note": "Th jako ve slově the.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l2-e1", "type": "choice", "question": "try on", "questionLang": "target", "options": ["zkusit si", "koupit si", "nosit"], "answer": "zkusit si", "reviewed": false },
+        { "id": "u13-l2-e2", "type": "choice", "question": "Tahle sukně je kratší.", "questionLang": "native", "options": ["This skirt is shorter.", "This skirt is more short.", "This skirt is more shorter."], "answer": "This skirt is shorter.", "reviewed": false },
+        { "id": "u13-l2-e3", "type": "match", "pairs": [
+          { "target": "size", "native": "velikost" },
+          { "target": "long", "native": "dlouhý" },
+          { "target": "short", "native": "krátký" },
+          { "target": "new", "native": "nový" },
+          { "target": "old", "native": "starý" }
+        ], "reviewed": false },
+        { "id": "u13-l2-e4", "type": "listen", "audio": "Have you got a smaller size?", "options": ["Have you got a smaller size?", "Have you got a bigger size?", "Have you got a small size?"], "answer": "Have you got a smaller size?", "reviewed": false },
+        { "id": "u13-l2-e5", "type": "listen", "audio": "This jacket is more expensive.", "options": ["Tahle bunda je dražší.", "Tahle bunda je levnější.", "Tahle bunda je delší."], "answer": "Tahle bunda je dražší.", "reviewed": false },
+        { "id": "u13-l2-e6", "type": "fill", "sentence": "This hat is cheaper ___ that hat.", "translation": "Tenhle klobouk je levnější než tamten.", "options": ["than", "that", "then"], "answer": "than", "explain": "Než = than. Then znamená „potom“.", "reviewed": false },
+        { "id": "u13-l2-e7", "type": "fill", "sentence": "These trousers are ___ expensive.", "translation": "Tyhle kalhoty jsou dražší.", "options": ["more", "much", "than"], "answer": "more", "explain": "Dlouhé slovo: more expensive = dražší.", "reviewed": false },
+        { "id": "u13-l2-e8", "type": "type", "question": "Můžu si to zkusit?", "answer": "Can I try it on?", "accept": ["Can I try this on?", "Could I try it on?", "Could I try this on?"], "reviewed": false },
+        { "id": "u13-l2-e9", "type": "build", "question": "Tyhle boty jsou novější než tamty.", "answer": "These shoes are newer than those.", "extra": ["more"], "reviewed": false },
+        { "id": "u13-l2-e10", "type": "build", "question": "Máte větší velikost?", "answer": "Have you got a bigger size?", "extra": ["big"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u13-l3",
+      "title": "Nejlepší",
+      "titleTarget": "The best",
+      "reviewed": false,
+      "tip": {
+        "title": "The cheapest, the best",
+        "text": "Nejvyšší stupeň: krátká slova přidají -est a před ně dejte the: the cheapest, the oldest. Dlouhá slova dostanou the most: the most expensive, the most popular. Některá slova jsou nepravidelná, stejně jako česky dobrý – lepší – nejlepší: good – better – best, bad – worse – worst. Česky je „nej-“ součást slova, anglicky nezapomeňte na the: the best.",
+        "examples": [
+          { "target": "This is the cheapest bag.", "native": "Tohle je nejlevnější taška." },
+          { "target": "It's the most popular shop in town.", "native": "Je to nejoblíbenější obchod ve městě." },
+          { "target": "Your cake is the best!", "native": "Váš dort je nejlepší!" },
+          { "target": "The weather was worse yesterday.", "native": "Včera bylo horší počasí." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u13-l3-w1", "target": "good", "native": "dobrý", "note": "good, better, best", "reviewed": false },
+        { "id": "u13-l3-w2", "target": "bad", "native": "špatný", "note": "bad, worse, worst. Čte se „bed“ s otevřeným e.", "reviewed": false },
+        { "id": "u13-l3-w3", "target": "better", "native": "lepší", "reviewed": false },
+        { "id": "u13-l3-w4", "target": "worse", "native": "horší", "note": "Čte se „wés“.", "reviewed": false },
+        { "id": "u13-l3-w5", "target": "best", "native": "nejlepší", "note": "Obvykle s the: the best.", "reviewed": false },
+        { "id": "u13-l3-w6", "target": "worst", "native": "nejhorší", "note": "Čte se „wést“. Obvykle s the: the worst.", "reviewed": false },
+        { "id": "u13-l3-w7", "target": "most", "native": "nejvíc", "note": "the most expensive = nejdražší", "reviewed": false },
+        { "id": "u13-l3-w8", "target": "popular", "native": "oblíbený", "note": "Čte se „po-pju-la“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u13-l3-e1", "type": "choice", "question": "worse", "questionLang": "target", "options": ["horší", "nejhorší", "špatný"], "answer": "horší", "reviewed": false },
+        { "id": "u13-l3-e2", "type": "choice", "question": "nejdražší", "questionLang": "native", "options": ["the most expensive", "the more expensive", "the expensivest"], "answer": "the most expensive", "reviewed": false },
+        { "id": "u13-l3-e3", "type": "match", "pairs": [
+          { "target": "good", "native": "dobrý" },
+          { "target": "bad", "native": "špatný" },
+          { "target": "better", "native": "lepší" },
+          { "target": "best", "native": "nejlepší" },
+          { "target": "worst", "native": "nejhorší" }
+        ], "reviewed": false },
+        { "id": "u13-l3-e4", "type": "listen", "audio": "This is the best hotel in town.", "options": ["This is the best hotel in town.", "This is the worst hotel in town.", "This is the best hotel in London."], "answer": "This is the best hotel in town.", "reviewed": false },
+        { "id": "u13-l3-e5", "type": "listen", "audio": "It's the cheapest supermarket.", "options": ["Je to nejlevnější supermarket.", "Je to nejdražší supermarket.", "Je to levnější supermarket."], "answer": "Je to nejlevnější supermarket.", "reviewed": false },
+        { "id": "u13-l3-e6", "type": "fill", "sentence": "This is the ___ coffee in London.", "translation": "Tohle je nejlepší káva v Londýně.", "options": ["best", "better", "goodest"], "answer": "best", "explain": "Good je nepravidelné: good, better, the best.", "reviewed": false },
+        { "id": "u13-l3-e7", "type": "fill", "sentence": "The weather was ___ yesterday than today.", "translation": "Včera bylo horší počasí než dnes.", "options": ["worse", "worst", "badder"], "answer": "worse", "explain": "Porovnáváte dvě věci s than, proto worse.", "reviewed": false },
+        { "id": "u13-l3-e8", "type": "fill", "sentence": "It's the ___ popular shop in town.", "translation": "Je to nejoblíbenější obchod ve městě.", "options": ["most", "much", "best"], "answer": "most", "explain": "Dlouhé slovo: the most popular = nejoblíbenější.", "reviewed": false },
+        { "id": "u13-l3-e9", "type": "type", "question": "Tohle je nejlevnější.", "answer": "This is the cheapest.", "accept": ["This one is the cheapest."], "reviewed": false },
+        { "id": "u13-l3-e10", "type": "build", "question": "Které boty jsou nejlepší?", "answer": "Which shoes are the best?", "extra": ["most"], "reviewed": false }
+      ]
+    }
+  ]
+}

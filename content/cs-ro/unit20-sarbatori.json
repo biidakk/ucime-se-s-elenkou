@@ -1,0 +1,135 @@
+{
+  "id": "u20",
+  "level": "A2",
+  "title": "Svátky",
+  "titleTarget": "Sărbători",
+  "description": "Vánoce a Velikonoce, přání, dvojí zápor jako v češtině a oslava – opakování celého kurzu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u20-l1",
+      "title": "Vánoce a Velikonoce",
+      "titleTarget": "Crăciunul și Paștele",
+      "reviewed": false,
+      "tip": {
+        "title": "Přání ke svátkům",
+        "text": "Přání jsou krátká: Crăciun fericit! (Veselé Vánoce!) a Paște fericit! (Veselé Velikonoce!) – fericit = šťastný. Rumunsky jsou Vánoce i Velikonoce v jednotném čísle, se členem Crăciunul a Paștele. „O Vánocích“ se řekne de Crăciun, „o Velikonocích“ de Paște. Univerzální přání je La mulți ani! – doslova „na mnoho let“: k narozeninám, ke svátku i k Novému roku. O Velikonocích se věřící zdraví Hristos a înviat! a odpovídá se Adevărat a înviat! (Vpravdě vstal!)",
+        "examples": [
+          { "target": "Crăciun fericit!", "native": "Veselé Vánoce!" },
+          { "target": "Ce faceți de Crăciun?", "native": "Co děláte o Vánocích?" },
+          { "target": "La mulți ani, bunico!", "native": "Všechno nejlepší, babičko!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l1-w1", "target": "Crăciun fericit!", "native": "veselé Vánoce!", "note": "Crăciunul = Vánoce (jednotné číslo). De Crăciun = o Vánocích. Čte se „kră-ČUN fe-ri-ČIT“.", "reviewed": false },
+        { "id": "u20-l1-w2", "target": "Paște fericit!", "native": "veselé Velikonoce!", "note": "Paștele = Velikonoce. De Paște = o Velikonocích. Čte se „PAŠ-te fe-ri-ČIT“.", "reviewed": false },
+        { "id": "u20-l1-w3", "target": "La mulți ani!", "native": "všechno nejlepší!", "note": "Doslova „na mnoho let“. K narozeninám, ke svátku i k Novému roku. Čte se „la mulc aň“.", "reviewed": false },
+        { "id": "u20-l1-w4", "target": "un cadou", "native": "dárek", "note": "cadoul = ten dárek; množné číslo: cadouri (střední rod). Čte se „ka-DOU“.", "reviewed": false },
+        { "id": "u20-l1-w5", "target": "un brad", "native": "jedle; vánoční stromek", "note": "bradul = ta jedle; množné číslo: brazi. Bradul de Crăciun = vánoční stromek.", "reviewed": false },
+        { "id": "u20-l1-w6", "target": "un ou roșu", "native": "červené vejce", "note": "oul roșu = to červené vejce; množné číslo: ouă roșii. O Velikonocích se vejce barví hlavně na červeno a ťukají se o sebe.", "reviewed": false },
+        { "id": "u20-l1-w7", "target": "Hristos a înviat!", "native": "Kristus vstal z mrtvých!", "note": "Velikonoční pozdrav; odpověď: Adevărat a înviat! = Vpravdě vstal! Čte se „hris-TOS a yn-vi-AT“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l1-e1", "type": "choice", "question": "un cadou", "questionLang": "target", "options": ["dárek", "jedle; vánoční stromek", "červené vejce"], "answer": "dárek", "reviewed": false },
+        { "id": "u20-l1-e2", "type": "choice", "question": "veselé Vánoce!", "questionLang": "native", "options": ["Crăciun fericit!", "Paște fericit!", "La mulți ani!"], "answer": "Crăciun fericit!", "reviewed": false },
+        { "id": "u20-l1-e3", "type": "match", "pairs": [
+          { "target": "un brad", "native": "jedle" },
+          { "target": "La mulți ani!", "native": "všechno nejlepší!" },
+          { "target": "Paște fericit!", "native": "veselé Velikonoce!" },
+          { "target": "un ou roșu", "native": "červené vejce" }
+        ], "reviewed": false },
+        { "id": "u20-l1-e4", "type": "listen", "audio": "Ce faceți de Crăciun?", "options": ["Co děláte o Vánocích?", "Co děláte o Velikonocích?", "Co jste dělali o víkendu?"], "answer": "Co děláte o Vánocích?", "reviewed": false },
+        { "id": "u20-l1-e5", "type": "listen", "audio": "Hristos a înviat!", "options": ["Hristos a înviat!", "Adevărat a înviat!", "Paște fericit!"], "answer": "Hristos a înviat!", "reviewed": false },
+        { "id": "u20-l1-e6", "type": "fill", "sentence": "Am cumpărat un ___ pentru bunica.", "translation": "Koupil(a) jsem dárek pro babičku.", "options": ["cadou", "cadouri", "cadoul"], "answer": "cadou", "explain": "Po un stojí tvar bez členu v jednotném čísle: un cadou.", "reviewed": false },
+        { "id": "u20-l1-e7", "type": "fill", "sentence": "Am două ouă ___.", "translation": "Mám dvě červená vejce.", "options": ["roșii", "roșu", "roșie"], "answer": "roșii", "explain": "Ouă se v množném čísle chová jako ženský rod, proto roșii.", "reviewed": false },
+        { "id": "u20-l1-e8", "type": "type", "question": "Veselé Velikonoce!", "answer": "Paște fericit!", "reviewed": false },
+        { "id": "u20-l1-e9", "type": "build", "question": "Stromek je u okna.", "answer": "Bradul e lângă fereastră.", "extra": ["brad"], "reviewed": false },
+        { "id": "u20-l1-e10", "type": "choice", "prompt": "Kamarádka má narozeniny. Co jí řeknete?", "question": "Všechno nejlepší!", "questionLang": "native", "options": ["La mulți ani!", "Crăciun fericit!", "Noapte bună!"], "answer": "La mulți ani!", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l2",
+      "title": "Nikdo nic",
+      "titleTarget": "Nimeni, nimic",
+      "reviewed": false,
+      "tip": {
+        "title": "Dvojí zápor jako v češtině",
+        "text": "Tady vám čeština pomůže: rumunsky se zapírá dvakrát, stejně jako česky. Nimeni nu vine. = Nikdo nepřijde. Nu văd nimic. = Nic nevidím. Ke slovesu vždy patří nu – tak jako české ne-: nimeni (nikdo), nimic (nic), niciodată (nikdy), nicăieri (nikde, nikam). Můžete tedy překládat slovo od slova. Nici… nici = ani… ani: Nu beau nici vin, nici bere. A „ještě ne“ je încă nu: Încă n-am mâncat. (Ještě jsem nejedl(a).)",
+        "examples": [
+          { "target": "Nimeni nu e acasă.", "native": "Nikdo není doma." },
+          { "target": "N-am fost niciodată la mare.", "native": "Nikdy jsem nebyl(a) u moře." },
+          { "target": "Nu beau nici vin, nici bere.", "native": "Nepiju ani víno, ani pivo." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l2-w1", "target": "nimeni", "native": "nikdo", "note": "Se slovesem vždy nu: Nimeni nu e acasă. = Nikdo není doma. Čte se „NI-meň“.", "reviewed": false },
+        { "id": "u20-l2-w2", "target": "nimic", "native": "nic", "note": "Nu vreau nimic. = Nic nechci. Čte se „ni-MIK“.", "reviewed": false },
+        { "id": "u20-l2-w3", "target": "niciodată", "native": "nikdy", "note": "N-am fost niciodată la munte. = Nikdy jsem nebyl(a) na horách. Čte se „ni-čo-DA-tă“.", "reviewed": false },
+        { "id": "u20-l2-w4", "target": "nicăieri", "native": "nikde; nikam", "note": "Nu merg nicăieri. = Nikam nejdu. Čte se „ni-kă-JER“.", "reviewed": false },
+        { "id": "u20-l2-w5", "target": "nici", "native": "ani", "note": "Nici… nici = ani… ani: nici ceai, nici cafea. Nici eu! = Já taky ne! Čte se „nič“.", "reviewed": false },
+        { "id": "u20-l2-w6", "target": "încă nu", "native": "ještě ne", "note": "V minulém čase hlavně încă n-am: Încă n-am mâncat. = Ještě jsem nejedl(a). Čte se „YN-kă nu“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l2-e1", "type": "choice", "question": "nimeni", "questionLang": "target", "options": ["nikdo", "nic", "nikdy"], "answer": "nikdo", "reviewed": false },
+        { "id": "u20-l2-e2", "type": "choice", "question": "nikde; nikam", "questionLang": "native", "options": ["nicăieri", "niciodată", "nimic"], "answer": "nicăieri", "reviewed": false },
+        { "id": "u20-l2-e3", "type": "match", "pairs": [
+          { "target": "nimic", "native": "nic" },
+          { "target": "niciodată", "native": "nikdy" },
+          { "target": "nici", "native": "ani" },
+          { "target": "încă nu", "native": "ještě ne" }
+        ], "reviewed": false },
+        { "id": "u20-l2-e4", "type": "listen", "audio": "Nimeni nu e acasă.", "options": ["Nikdo není doma.", "Všichni jsou doma.", "Nikdo není v práci."], "answer": "Nikdo není doma.", "reviewed": false },
+        { "id": "u20-l2-e5", "type": "listen", "audio": "Nu vreau nimic.", "options": ["Nu vreau nimic.", "Nu văd nimic.", "Nu vreau nici apă."], "answer": "Nu vreau nimic.", "reviewed": false },
+        { "id": "u20-l2-e6", "type": "fill", "sentence": "Nimeni ___ vine.", "translation": "Nikdo nepřijde.", "options": ["nu", "da", "mai"], "answer": "nu", "explain": "Jako česky „nikdo NEpřijde“: k nimeni patří u slovesa nu.", "reviewed": false },
+        { "id": "u20-l2-e7", "type": "fill", "sentence": "N-am fost ___ la mare.", "translation": "Nikdy jsem nebyl(a) u moře.", "options": ["niciodată", "nimeni", "nimic"], "answer": "niciodată", "explain": "Nikdy = niciodată; nimeni je nikdo, nimic je nic.", "reviewed": false },
+        { "id": "u20-l2-e8", "type": "type", "question": "Nic nechci.", "answer": "Nu vreau nimic.", "reviewed": false },
+        { "id": "u20-l2-e9", "type": "build", "question": "Nepiju ani víno, ani pivo.", "answer": "Nu beau nici vin, nici bere.", "extra": ["nimeni"], "reviewed": false },
+        { "id": "u20-l2-e10", "type": "build", "question": "Ještě jsem nejedl(a).", "answer": "Încă n-am mâncat.", "extra": ["nimeni"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l3",
+      "title": "Oslava",
+      "titleTarget": "Petrecerea",
+      "reviewed": false,
+      "tip": {
+        "title": "Noroc! – na zdraví",
+        "text": "Rumunský přípitek je Noroc! – slovanské slovo, které znamená „štěstí“; česky řekneme „Na zdraví!“. Před jídlem se přeje Poftă bună! (Dobrou chuť!). Na oslavě využijete všechno, co už umíte: popřát (La mulți ani!), vyprávět o minulosti (Bunica a făcut un tort. = Babička upekla dort.), vzpomínat (Pe vremuri sărbătoream la țară.) i plánovat (Mâine sărbătorim ziua bunicii.). Gratulujeme – to je konec kurzu A2!",
+        "examples": [
+          { "target": "Noroc și la mulți ani!", "native": "Na zdraví a všechno nejlepší!" },
+          { "target": "Poftă bună!", "native": "Dobrou chuť!" },
+          { "target": "Mâine sărbătorim ziua bunicii.", "native": "Zítra slavíme babiččiny narozeniny." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l3-w1", "target": "o petrecere", "native": "oslava; večírek", "note": "petrecerea = ta oslava; množné číslo: petreceri. Čte se „pe-TRE-če-re“.", "reviewed": false },
+        { "id": "u20-l3-w2", "target": "un tort", "native": "dort", "note": "tortul = ten dort; množné číslo: torturi (střední rod).", "reviewed": false },
+        { "id": "u20-l3-w3", "target": "o lumânare", "native": "svíčka", "note": "lumânarea = ta svíčka; množné číslo: lumânări. Čte se „lu-my-NA-re“.", "reviewed": false },
+        { "id": "u20-l3-w4", "target": "Noroc!", "native": "na zdraví!", "note": "Přípitek. Slovanské slovo, znamená „štěstí“. Čte se „no-ROK“.", "reviewed": false },
+        { "id": "u20-l3-w5", "target": "Poftă bună!", "native": "dobrou chuť!", "note": "Odpověď: Mulțumesc, la fel! = Děkuji, nápodobně! Čte se „POF-tă BU-nă“.", "reviewed": false },
+        { "id": "u20-l3-w6", "target": "a sărbători", "native": "slavit; oslavit", "note": "Skupina -esc: eu sărbătoresc; dřív: sărbătoream. O sărbătoare = svátek. Čte se „a săr-bă-to-RI“.", "reviewed": false },
+        { "id": "u20-l3-w7", "target": "un musafir", "native": "host", "note": "musafirul = ten host; množné číslo: musafiri. Hovorové, spisovně un oaspete. Čte se „mu-sa-FIR“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l3-e1", "type": "choice", "question": "o lumânare", "questionLang": "target", "options": ["svíčka", "dort", "host"], "answer": "svíčka", "reviewed": false },
+        { "id": "u20-l3-e2", "type": "choice", "question": "dobrou chuť!", "questionLang": "native", "options": ["Poftă bună!", "Noroc!", "La mulți ani!"], "answer": "Poftă bună!", "reviewed": false },
+        { "id": "u20-l3-e3", "type": "match", "pairs": [
+          { "target": "o petrecere", "native": "oslava" },
+          { "target": "un tort", "native": "dort" },
+          { "target": "Noroc!", "native": "na zdraví!" },
+          { "target": "un musafir", "native": "host" }
+        ], "reviewed": false },
+        { "id": "u20-l3-e4", "type": "listen", "audio": "Mâine sărbătorim ziua bunicii.", "options": ["Zítra slavíme babiččiny narozeniny.", "Včera jsme slavili babiččiny narozeniny.", "Zítra slavíme Vánoce."], "answer": "Zítra slavíme babiččiny narozeniny.", "reviewed": false },
+        { "id": "u20-l3-e5", "type": "listen", "audio": "Tortul are șapte lumânări.", "options": ["Tortul are șapte lumânări.", "Tortul are șase lumânări.", "Tortul are zece lumânări."], "answer": "Tortul are șapte lumânări.", "reviewed": false },
+        { "id": "u20-l3-e6", "type": "fill", "sentence": "Ieri ___ fost la o petrecere.", "translation": "Včera jsem byl(a) na oslavě.", "options": ["am", "sunt", "eram"], "answer": "am", "explain": "Minulý čas slovesa a fi je am fost.", "reviewed": false },
+        { "id": "u20-l3-e7", "type": "fill", "sentence": "Musafirii ___ tortul.", "translation": "Hosté jedí dort.", "options": ["mănâncă", "mănânc", "mănânci"], "answer": "mănâncă", "explain": "Oni (hosté) = mănâncă; mănânc = jím, mănânci = jíš.", "reviewed": false },
+        { "id": "u20-l3-e8", "type": "type", "question": "Na zdraví!", "answer": "Noroc!", "reviewed": false },
+        { "id": "u20-l3-e9", "type": "build", "question": "Babička upekla dort.", "answer": "Bunica a făcut un tort.", "extra": ["fac"], "reviewed": false },
+        { "id": "u20-l3-e10", "type": "speak", "text": "Poftă bună și noroc!", "native": "Dobrou chuť a na zdraví!", "reviewed": false }
+      ]
+    }
+  ]
+}

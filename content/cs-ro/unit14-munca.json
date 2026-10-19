@@ -1,0 +1,137 @@
+{
+  "id": "u14",
+  "level": "A2",
+  "title": "Práce",
+  "titleTarget": "Munca",
+  "description": "Povolání, čí co je a slova z práce: firma, šéf, porada, plat.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u14-l1",
+      "title": "Povolání",
+      "titleTarget": "Meserii",
+      "reviewed": false,
+      "tip": {
+        "title": "Učitel a učitelka",
+        "text": "Česky se ženský tvar povolání tvoří hlavně koncovkou -ka: učitel – učitelka, prodavač – prodavačka. Rumunsky také koncovkou, jen jinou: profesor – profesoară, vânzător – vânzătoare, pensionar – pensionară, asistent – asistentă. O ženě se někdy říká i mužským tvarem, hlavně u slova inginer. Po „sunt“ nebo „e“ stojí povolání bez un a bez o, stejně jako česky: Sunt profesoară. Soțul meu e șofer. Na povolání se zeptáte: Ce lucrați? (Co děláte?)",
+        "examples": [
+          { "target": "Sunt profesoară.", "native": "Jsem učitelka." },
+          { "target": "Soțul meu e inginer.", "native": "Můj manžel je inženýr." },
+          { "target": "Ce lucrați?", "native": "Co děláte? Jakou máte práci?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l1-w1", "target": "un profesor", "native": "učitel", "note": "profesorul = ten učitel; množné číslo: profesori. Učitel na škole i profesor. Čte se „pro-fe-SOR“.", "reviewed": false },
+        { "id": "u14-l1-w2", "target": "o profesoară", "native": "učitelka", "note": "profesoara = ta učitelka; množné číslo: profesoare. Čte se „pro-fe-SOA-ră“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u14-l1-w3", "target": "un inginer", "native": "inženýr", "note": "inginerul = ten inženýr; množné číslo: ingineri. O ženě se často říká také inginer. Čte se „in-dži-NER“.", "reviewed": false },
+        { "id": "u14-l1-w4", "target": "o vânzătoare", "native": "prodavačka", "note": "vânzătoarea = ta prodavačka; množné číslo: vânzătoare. Prodavač: un vânzător. Čte se „vyn-ză-TOA-re“.", "reviewed": false },
+        { "id": "u14-l1-w5", "target": "un șofer", "native": "řidič", "note": "șoferul = ten řidič; množné číslo: șoferi. Řidič autobusu: șofer de autobuz. Čte se „šo-FER“.", "reviewed": false },
+        { "id": "u14-l1-w6", "target": "o asistentă", "native": "zdravotní sestra", "note": "asistenta = ta sestra; množné číslo: asistente. Celým názvem asistentă medicală. Sestra v rodině je o soră.", "reviewed": false },
+        { "id": "u14-l1-w7", "target": "un pensionar", "native": "důchodce", "note": "pensionarul = ten důchodce; množné číslo: pensionari. Sunt la pensie. = Jsem v důchodu. Čte se „pen-sjo-NAR“.", "reviewed": false },
+        { "id": "u14-l1-w8", "target": "o pensionară", "native": "důchodkyně", "note": "pensionara = ta důchodkyně; množné číslo: pensionare. Čte se „pen-sjo-NA-ră“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l1-e1", "type": "choice", "question": "un șofer", "questionLang": "target", "options": ["řidič", "inženýr", "učitel"], "answer": "řidič", "reviewed": false },
+        { "id": "u14-l1-e2", "type": "choice", "question": "prodavačka", "questionLang": "native", "options": ["o vânzătoare", "o profesoară", "o asistentă"], "answer": "o vânzătoare", "reviewed": false },
+        { "id": "u14-l1-e3", "type": "match", "pairs": [
+          { "target": "un profesor", "native": "učitel" },
+          { "target": "un inginer", "native": "inženýr" },
+          { "target": "o asistentă", "native": "zdravotní sestra" },
+          { "target": "un pensionar", "native": "důchodce" }
+        ], "reviewed": false },
+        { "id": "u14-l1-e4", "type": "listen", "audio": "Sunt pensionară.", "options": ["Sunt pensionară.", "Sunt pensionar.", "Sunt profesoară."], "answer": "Sunt pensionară.", "reviewed": false },
+        { "id": "u14-l1-e5", "type": "listen", "audio": "Soțul meu e șofer.", "options": ["Můj manžel je řidič.", "Můj manžel je inženýr.", "Můj bratr je řidič."], "answer": "Můj manžel je řidič.", "reviewed": false },
+        { "id": "u14-l1-e6", "type": "fill", "sentence": "Părinții mei sunt ___.", "translation": "Moji rodiče jsou důchodci.", "options": ["pensionari", "pensionar", "pensionară"], "answer": "pensionari", "explain": "Rodiče jsou dva, proto množné číslo: un pensionar – doi pensionari.", "reviewed": false },
+        { "id": "u14-l1-e7", "type": "fill", "sentence": "Mama e profesoară, iar tata e ___.", "translation": "Máma je učitelka a táta je inženýr.", "options": ["inginer", "profesoară", "vânzătoare"], "answer": "inginer", "explain": "Profesoară a vânzătoare jsou ženské tvary, o tátovi je použít nelze.", "reviewed": false },
+        { "id": "u14-l1-e8", "type": "choice", "question": "důchodkyně", "questionLang": "native", "options": ["o pensionară", "un pensionar", "o profesoară"], "answer": "o pensionară", "reviewed": false },
+        { "id": "u14-l1-e9", "type": "type", "question": "Můj manžel je řidič.", "answer": "Soțul meu e șofer.", "accept": ["Soțul meu este șofer."], "reviewed": false },
+        { "id": "u14-l1-e10", "type": "build", "question": "Moje dcera je zdravotní sestra.", "answer": "Fiica mea e asistentă.", "extra": ["meu"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l2",
+      "title": "Čí to je?",
+      "titleTarget": "Al cui e?",
+      "reviewed": false,
+      "tip": {
+        "title": "Al, a, ai, ale: podle věci",
+        "text": "Na „čí?“ se rumunsky ptá Al cui e? Odpověď: E al meu. (Je můj.) Malé slovo al, a, ai, ale se řídí věcí, ne majitelem – stejně jako české můj, moje: Scaunul e al meu. Mașina e a mea. Copiii sunt ai mei. Scaunele sunt ale mele. Pozor jen na rod, který se od češtiny liší: židle je rumunsky un scaun, proto al meu. Majitel dostane koncovku, podobně jako český 2. pád: mužský rod -ului (mașina colegului = auto kolegy), ženský -ei (casa mamei = dům maminky).",
+        "examples": [
+          { "target": "Al cui e scaunul? E al meu.", "native": "Čí je ta židle? Moje." },
+          { "target": "A cui e mașina?", "native": "Čí je to auto?" },
+          { "target": "Mașina e a colegului.", "native": "To auto je kolegovo." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l2-w1", "target": "Al cui e?", "native": "čí je to?", "note": "Pro věc ženského rodu: A cui e? – A cui e mașina? Čte se „al kuj je“.", "reviewed": false },
+        { "id": "u14-l2-w2", "target": "al meu", "native": "můj", "note": "Pro věc mužského i středního rodu, tedy s un: Scaunul e al meu.", "reviewed": false },
+        { "id": "u14-l2-w3", "target": "a mea", "native": "má; moje", "note": "Pro věc ženského rodu, tedy s o: Mașina e a mea. Čte se „a MEA“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u14-l2-w4", "target": "ai mei", "native": "mí; moji", "note": "Pro více lidí nebo věcí mužského rodu: Copiii sunt ai mei. Čte se „aj mej“.", "reviewed": false },
+        { "id": "u14-l2-w5", "target": "ale mele", "native": "mé", "note": "Pro více věcí ženského i středního rodu: Scaunele sunt ale mele. Česky také „moje“.", "reviewed": false },
+        { "id": "u14-l2-w6", "target": "mașina", "native": "auto", "note": "Tvar se členem = to auto; bez členu: o mașină; množné číslo: mașini. Čte se „ma-ŠI-na“.", "reviewed": false },
+        { "id": "u14-l2-w7", "target": "colegul", "native": "kolega", "note": "Tvar se členem = ten kolega; bez členu: un coleg; množné číslo: colegi. Kolegyně: o colegă. Čte se „ko-LE-gul“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l2-e1", "type": "choice", "question": "Al cui e?", "questionLang": "target", "options": ["čí je to?", "kde je to?", "co je to?"], "answer": "čí je to?", "reviewed": false },
+        { "id": "u14-l2-e2", "type": "choice", "question": "To auto je moje.", "questionLang": "native", "options": ["Mașina e a mea.", "Mașina e al meu.", "Mașina e ai mei."], "answer": "Mașina e a mea.", "reviewed": false },
+        { "id": "u14-l2-e3", "type": "match", "pairs": [
+          { "target": "Al cui e?", "native": "čí je to?" },
+          { "target": "mașina", "native": "auto" },
+          { "target": "colegul", "native": "kolega" },
+          { "target": "ai mei", "native": "mí; moji" }
+        ], "reviewed": false },
+        { "id": "u14-l2-e4", "type": "listen", "audio": "Mașina e a colegului.", "options": ["To auto je kolegovo.", "To auto je moje.", "To auto je maminčino."], "answer": "To auto je kolegovo.", "reviewed": false },
+        { "id": "u14-l2-e5", "type": "listen", "audio": "ale mele", "options": ["ale mele", "a mea", "ai mei"], "answer": "ale mele", "reviewed": false },
+        { "id": "u14-l2-e6", "type": "fill", "sentence": "Scaunul e ___ meu.", "translation": "Ta židle je moje.", "options": ["al", "a", "ale"], "answer": "al", "explain": "Židle je rumunsky un scaun (ne ženský rod), proto al meu.", "reviewed": false },
+        { "id": "u14-l2-e7", "type": "fill", "sentence": "Copiii sunt ___ mei.", "translation": "Ty děti jsou moje.", "options": ["ai", "al", "ale"], "answer": "ai", "explain": "Copii je množné číslo mužského rodu, proto ai mei.", "reviewed": false },
+        { "id": "u14-l2-e8", "type": "fill", "sentence": "E mașina ___.", "translation": "To je kolegovo auto.", "options": ["colegului", "colegul", "coleg"], "answer": "colegului", "explain": "Čí? Mužský rod dostane koncovku -ului: colegul → colegului.", "reviewed": false },
+        { "id": "u14-l2-e9", "type": "type", "question": "Čí je to auto?", "answer": "A cui e mașina?", "accept": ["A cui este mașina?"], "reviewed": false },
+        { "id": "u14-l2-e10", "type": "build", "question": "Ten byt je můj.", "answer": "Apartamentul e al meu.", "extra": ["a"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u14-l3",
+      "title": "V práci",
+      "titleTarget": "La serviciu",
+      "reviewed": false,
+      "tip": {
+        "title": "Šéf firmy = șeful firmei",
+        "text": "„Čí?“ se rumunsky vyjádří koncovkou, podobně jako český 2. pád: šéf firmy = șeful firmei. Pořadí je stejné jako v češtině: nejdřív věc, pak majitel. Mužský a střední rod dostane -ului: biroul șefului (kancelář šéfa). Ženský rod vypadá jako množné číslo a přidá -i: firmă – firme – firmei, mamă – mame – mamei. V množném čísle je koncovka -lor: salariile colegilor (platy kolegů), casa părinților (dům rodičů).",
+        "examples": [
+          { "target": "Șeful firmei e în ședință.", "native": "Šéf firmy je na poradě." },
+          { "target": "Biroul șefului e aici.", "native": "Kancelář šéfa je tady." },
+          { "target": "Azi lucrez de acasă.", "native": "Dnes pracuji z domova." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u14-l3-w1", "target": "o firmă", "native": "firma", "note": "firma = ta firma; množné číslo: firme. Šéf firmy: șeful firmei.", "reviewed": false },
+        { "id": "u14-l3-w2", "target": "un birou", "native": "kancelář; psací stůl", "note": "biroul = ta kancelář; množné číslo: birouri. Lucrez la birou. = Pracuji v kanceláři. Čte se „bi-ROU“, ou je jedna slabika.", "reviewed": false },
+        { "id": "u14-l3-w3", "target": "un șef", "native": "šéf", "note": "șeful = ten šéf; množné číslo: șefi. Šéfová: o șefă.", "reviewed": false },
+        { "id": "u14-l3-w4", "target": "o ședință", "native": "porada", "note": "ședința = ta porada; množné číslo: ședințe. Na poradě: în ședință. Čte se „še-DIN-că“.", "reviewed": false },
+        { "id": "u14-l3-w5", "target": "un salariu", "native": "plat", "note": "salariul = ten plat; množné číslo: salarii. Čte se „sa-LA-rju“.", "reviewed": false },
+        { "id": "u14-l3-w6", "target": "o pauză", "native": "přestávka", "note": "pauza = ta přestávka; množné číslo: pauze. Polední přestávka: pauza de prânz.", "reviewed": false },
+        { "id": "u14-l3-w7", "target": "a lucra de acasă", "native": "pracovat z domova", "note": "Lucrez de acasă. = Pracuji z domova. De acasă = z domova.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u14-l3-e1", "type": "choice", "question": "o ședință", "questionLang": "target", "options": ["porada", "přestávka", "plat"], "answer": "porada", "reviewed": false },
+        { "id": "u14-l3-e2", "type": "choice", "question": "šéf", "questionLang": "native", "options": ["un șef", "un birou", "o firmă"], "answer": "un șef", "reviewed": false },
+        { "id": "u14-l3-e3", "type": "match", "pairs": [
+          { "target": "o firmă", "native": "firma" },
+          { "target": "un salariu", "native": "plat" },
+          { "target": "o pauză", "native": "přestávka" },
+          { "target": "a lucra de acasă", "native": "pracovat z domova" }
+        ], "reviewed": false },
+        { "id": "u14-l3-e4", "type": "listen", "audio": "Șeful firmei e în ședință.", "options": ["Šéf firmy je na poradě.", "Šéf firmy je na dovolené.", "Kolega je na poradě."], "answer": "Šéf firmy je na poradě.", "reviewed": false },
+        { "id": "u14-l3-e5", "type": "listen", "audio": "Lucrez de acasă.", "options": ["Lucrez de acasă.", "Lucrez la birou.", "Lucrez la firmă."], "answer": "Lucrez de acasă.", "reviewed": false },
+        { "id": "u14-l3-e6", "type": "fill", "sentence": "Biroul ___ e aici.", "translation": "Kancelář šéfa je tady.", "options": ["șefului", "șeful", "șefi"], "answer": "șefului", "explain": "Čí kancelář? Mužský rod dostane -ului: șeful → șefului.", "reviewed": false },
+        { "id": "u14-l3-e7", "type": "fill", "sentence": "Șeful ___ e în concediu.", "translation": "Šéf firmy je na dovolené.", "options": ["firmei", "firma", "firmă"], "answer": "firmei", "explain": "Ženský rod: firmă – firme – firmei (šéf firmy).", "reviewed": false },
+        { "id": "u14-l3-e8", "type": "fill", "sentence": "Salariile ___ sunt mici.", "translation": "Platy kolegů jsou malé.", "options": ["colegilor", "colegii", "colegul"], "answer": "colegilor", "explain": "V množném čísle je koncovka -lor: colegi → colegilor (kolegů).", "reviewed": false },
+        { "id": "u14-l3-e9", "type": "type", "question": "Pracuji z domova.", "answer": "Lucrez de acasă.", "reviewed": false },
+        { "id": "u14-l3-e10", "type": "build", "question": "V poledne mám přestávku.", "answer": "La prânz am o pauză.", "extra": ["un"], "accept": ["Am o pauză la prânz."], "reviewed": false }
+      ]
+    }
+  ]
+}

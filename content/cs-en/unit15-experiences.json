@@ -1,0 +1,145 @@
+{
+  "id": "u15",
+  "level": "A2",
+  "title": "Zkušenosti",
+  "titleTarget": "Experiences",
+  "description": "Co jste v životě zažili, co už je hotové a jak dlouho něco trvá: předpřítomný čas (present perfect).",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u15-l1",
+      "title": "Byli jste někdy…?",
+      "titleTarget": "Have you ever…?",
+      "reviewed": false,
+      "tip": {
+        "title": "I've never been… (ne I was never…)",
+        "text": "Čeština má jeden minulý čas, angličtina dva. Když mluvíte o zkušenosti v životě a neříkáte kdy, použijte present perfect: have nebo has a třetí tvar slovesa. Have you ever been to London? I've never been to Scotland. Neříkejte I was never in Scotland. Jakmile řeknete kdy (yesterday, last week), patří tam obyčejný minulý čas: I was in London last week. Pozor: „být v“ se tu řekne been to.",
+        "examples": [
+          { "target": "Have you ever been to London?", "native": "Byli jste někdy v Londýně?" },
+          { "target": "We've never been to Scotland.", "native": "Ve Skotsku jsme nikdy nebyli." },
+          { "target": "She has seen this film three times.", "native": "Ten film viděla třikrát." },
+          { "target": "We were in London last week.", "native": "Minulý týden jsme byli v Londýně." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l1-w1", "target": "ever", "native": "někdy v životě", "note": "Hlavně v otázce: Have you ever…? Na „někdy“ ve smyslu občas je sometimes.", "reviewed": false },
+        { "id": "u15-l1-w2", "target": "been", "native": "byl; byla", "note": "Třetí tvar od be. I've been = byl jsem; byla jsem. Čte se „bín“.", "reviewed": false },
+        { "id": "u15-l1-w3", "target": "seen", "native": "viděl; viděla", "note": "see, saw, seen. Čte se „sín“.", "reviewed": false },
+        { "id": "u15-l1-w4", "target": "met", "native": "potkal; potkala", "note": "meet, met, met. Také „seznámil se; seznámila se“.", "reviewed": false },
+        { "id": "u15-l1-w5", "target": "tried", "native": "zkusil; zkusila", "note": "try, tried. Čte se „trajd“.", "reviewed": false },
+        { "id": "u15-l1-w6", "target": "done", "native": "udělal; udělala", "note": "do, did, done. Čte se „dan“.", "reviewed": false },
+        { "id": "u15-l1-w7", "target": "lost", "native": "ztratil; ztratila", "note": "lose, lost, lost.", "reviewed": false },
+        { "id": "u15-l1-w8", "target": "won", "native": "vyhrál; vyhrála", "note": "win, won, won. Čte se „wan“, stejně jako one.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l1-e1", "type": "choice", "question": "won", "questionLang": "target", "options": ["vyhrál; vyhrála", "ztratil; ztratila", "zkusil; zkusila"], "answer": "vyhrál; vyhrála", "reviewed": false },
+        { "id": "u15-l1-e2", "type": "choice", "question": "někdy v životě", "questionLang": "native", "options": ["ever", "never", "always"], "answer": "ever", "reviewed": false },
+        { "id": "u15-l1-e3", "type": "match", "pairs": [
+          { "target": "been", "native": "byl; byla" },
+          { "target": "seen", "native": "viděl; viděla" },
+          { "target": "met", "native": "potkal; potkala" },
+          { "target": "done", "native": "udělal; udělala" },
+          { "target": "lost", "native": "ztratil; ztratila" }
+        ], "reviewed": false },
+        { "id": "u15-l1-e4", "type": "listen", "audio": "Have you ever been to Scotland?", "options": ["Have you ever been to Scotland?", "Have you ever been to England?", "Were you in Scotland?"], "answer": "Have you ever been to Scotland?", "reviewed": false },
+        { "id": "u15-l1-e5", "type": "listen", "audio": "We've never been to Germany.", "options": ["V Německu jsme nikdy nebyli.", "V Německu jsme byli minulý týden.", "V Anglii jsme nikdy nebyli."], "answer": "V Německu jsme nikdy nebyli.", "reviewed": false },
+        { "id": "u15-l1-e6", "type": "fill", "sentence": "Have you ever ___ to London?", "translation": "Byli jste někdy v Londýně?", "options": ["been", "was", "were"], "answer": "been", "explain": "Po have následuje třetí tvar slovesa: been.", "reviewed": false },
+        { "id": "u15-l1-e7", "type": "fill", "sentence": "We ___ never been to Scotland.", "translation": "Ve Skotsku jsme nikdy nebyli.", "options": ["have", "were", "are"], "answer": "have", "explain": "Zkušenost v životě: we have never been, ne we were never.", "reviewed": false },
+        { "id": "u15-l1-e8", "type": "type", "question": "Byli jste někdy v Anglii?", "answer": "Have you ever been to England?", "accept": ["Have you been to England?", "Have you ever been in England?"], "reviewed": false },
+        { "id": "u15-l1-e9", "type": "build", "question": "Ztratili jste někdy telefon?", "answer": "Have you ever lost your phone?", "extra": ["did"], "reviewed": false },
+        { "id": "u15-l1-e10", "type": "speak", "text": "We've never tried it.", "native": "Nikdy jsme to nezkusili.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "title": "Už jste…?",
+      "titleTarget": "Have you done it yet?",
+      "reviewed": false,
+      "tip": {
+        "title": "Just, already, yet",
+        "text": "Česky řeknete „Už jsme to poslali“ minulým časem. Anglicky u věcí, které jsou teď hotové, použijte present perfect: We've already sent it. Just (právě) a already (už) stojí mezi have a slovesem. Yet stojí na konci věty: v otázce znamená „už“ (Have you found it yet?), v záporu „ještě“ (I haven't found it yet.). Still (pořád) dejte před haven't: I still haven't found it.",
+        "examples": [
+          { "target": "We've just come home.", "native": "Právě jsme přišli domů." },
+          { "target": "She has already sent it.", "native": "Už to poslala." },
+          { "target": "Have you found your keys yet?", "native": "Už jste našli klíče?" },
+          { "target": "I still haven't found my glasses.", "native": "Pořád nemůžu najít brýle." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l2-w1", "target": "just", "native": "právě; zrovna", "note": "Mezi have a slovesem: I've just come home. Čte se „džast“.", "reviewed": false },
+        { "id": "u15-l2-w2", "target": "already", "native": "už", "note": "Mezi have a slovesem: I've already done it. Čte se „ól-RE-di“.", "reviewed": false },
+        { "id": "u15-l2-w3", "target": "yet", "native": "ještě; zatím", "note": "Na konci věty. Not yet = ještě ne. V otázce znamená „už“: Have you done it yet?", "reviewed": false },
+        { "id": "u15-l2-w4", "target": "still", "native": "pořád; stále", "note": "Před haven't: I still haven't done it.", "reviewed": false },
+        { "id": "u15-l2-w5", "target": "broken", "native": "rozbil; rozbila", "note": "break, broke, broken. Také „rozbitý“: It's broken.", "reviewed": false },
+        { "id": "u15-l2-w6", "target": "forgotten", "native": "zapomněl; zapomněla", "note": "forget, forgot, forgotten. Čte se „fe-GOTN“.", "reviewed": false },
+        { "id": "u15-l2-w7", "target": "found", "native": "našel; našla", "note": "find, found, found. Čte se „faund“.", "reviewed": false },
+        { "id": "u15-l2-w8", "target": "sent", "native": "poslal; poslala", "note": "send, sent, sent.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l2-e1", "type": "choice", "question": "already", "questionLang": "target", "options": ["už", "pořád; stále", "právě; zrovna"], "answer": "už", "reviewed": false },
+        { "id": "u15-l2-e2", "type": "choice", "question": "pořád; stále", "questionLang": "native", "options": ["still", "just", "yet"], "answer": "still", "reviewed": false },
+        { "id": "u15-l2-e3", "type": "match", "pairs": [
+          { "target": "broken", "native": "rozbil; rozbila" },
+          { "target": "forgotten", "native": "zapomněl; zapomněla" },
+          { "target": "found", "native": "našel; našla" },
+          { "target": "sent", "native": "poslal; poslala" },
+          { "target": "just", "native": "právě" }
+        ], "reviewed": false },
+        { "id": "u15-l2-e4", "type": "listen", "audio": "I've just found my keys.", "options": ["I've just found my keys.", "I've just lost my keys.", "I haven't found my keys yet."], "answer": "I've just found my keys.", "reviewed": false },
+        { "id": "u15-l2-e5", "type": "listen", "audio": "Have you sent it yet?", "options": ["Už jste to poslali?", "Ještě jste to neposlali.", "Právě jste to poslali."], "answer": "Už jste to poslali?", "reviewed": false },
+        { "id": "u15-l2-e6", "type": "fill", "sentence": "We haven't sent it ___.", "translation": "Ještě jsme to neposlali.", "options": ["yet", "just", "never"], "answer": "yet", "explain": "V záporu na konci věty: not yet = ještě ne.", "reviewed": false },
+        { "id": "u15-l2-e7", "type": "fill", "sentence": "Oh no, I've ___ my glasses!", "translation": "Ale ne, rozbily se mi brýle!", "options": ["broken", "broke", "break"], "answer": "broken", "explain": "Po have následuje třetí tvar: break, broke, broken.", "reviewed": false },
+        { "id": "u15-l2-e8", "type": "type", "question": "Už jsme to udělali.", "answer": "We've already done it.", "accept": ["We've done it already."], "reviewed": false },
+        { "id": "u15-l2-e9", "type": "build", "question": "Pořád nemůžu najít klíč.", "answer": "I still haven't found my key.", "extra": ["don't"], "reviewed": false },
+        { "id": "u15-l2-e10", "type": "build", "question": "Zapomněli jste moje jméno?", "answer": "Have you forgotten my name?", "extra": ["did"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "title": "Jak dlouho?",
+      "titleTarget": "How long?",
+      "reviewed": false,
+      "tip": {
+        "title": "Bydlím tady deset let = I've lived here for ten years.",
+        "text": "Česky řeknete „Bydlím tady deset let“ přítomným časem. Anglicky u něčeho, co začalo v minulosti a trvá dodnes, použijte present perfect: I've lived here for ten years. Neříkejte I live here for ten years. For dejte před délku (for ten years, for a week), since před začátek (since Monday, since nineteen ninety). Ptáte se: How long have you lived here? Ago (před) patří k obyčejnému minulému času: We met ten years ago.",
+        "examples": [
+          { "target": "I've lived here for ten years.", "native": "Bydlím tady deset let." },
+          { "target": "We've been married since nineteen seventy-five.", "native": "Jsme manželé od roku 1975." },
+          { "target": "How long have you been retired?", "native": "Jak dlouho jste v důchodu?" },
+          { "target": "We met thirty years ago.", "native": "Poznali jsme se před třiceti lety." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u15-l3-w1", "target": "for", "native": "po dobu", "note": "Před délkou času: for two years = (už) dva roky.", "reviewed": false },
+        { "id": "u15-l3-w2", "target": "since", "native": "od; od té doby", "note": "Před začátkem: since Monday = od pondělí. Čte se „sins“.", "reviewed": false },
+        { "id": "u15-l3-w3", "target": "How long?", "native": "Jak dlouho?", "note": "How long have you lived here? = Jak dlouho tady bydlíte?", "reviewed": false },
+        { "id": "u15-l3-w4", "target": "ago", "native": "před", "note": "Stojí za časem: two years ago = před dvěma lety. Čte se „e-GOU“.", "reviewed": false },
+        { "id": "u15-l3-w5", "target": "known", "native": "znal; znala", "note": "know, knew, known. I've known her for years. = Znám ji léta. Čte se „noun“.", "reviewed": false },
+        { "id": "u15-l3-w6", "target": "married", "native": "ženatý; vdaná", "note": "We've been married for forty years. = Jsme manželé čtyřicet let. Čte se „merid“.", "reviewed": false },
+        { "id": "u15-l3-w7", "target": "retired", "native": "v důchodu", "note": "I'm retired. = Jsem v důchodu. He retired. = Šel do důchodu. Čte se „ri-TAJ-ed“.", "reviewed": false },
+        { "id": "u15-l3-w8", "target": "recently", "native": "nedávno; v poslední době", "note": "Čte se „rísntli“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u15-l3-e1", "type": "choice", "question": "retired", "questionLang": "target", "options": ["v důchodu", "ženatý; vdaná", "nedávno; v poslední době"], "answer": "v důchodu", "reviewed": false },
+        { "id": "u15-l3-e2", "type": "choice", "question": "Jak dlouho?", "questionLang": "native", "options": ["How long?", "How old?", "How much?"], "answer": "How long?", "reviewed": false },
+        { "id": "u15-l3-e3", "type": "match", "pairs": [
+          { "target": "for", "native": "po dobu" },
+          { "target": "since", "native": "od" },
+          { "target": "ago", "native": "před" },
+          { "target": "known", "native": "znal; znala" },
+          { "target": "married", "native": "ženatý; vdaná" }
+        ], "reviewed": false },
+        { "id": "u15-l3-e4", "type": "listen", "audio": "I've been retired for ten years.", "options": ["I've been retired for ten years.", "I've been retired for two years.", "I've been married for ten years."], "answer": "I've been retired for ten years.", "reviewed": false },
+        { "id": "u15-l3-e5", "type": "listen", "audio": "We met thirty years ago.", "options": ["Poznali jsme se před třiceti lety.", "Poznali jsme se před třinácti lety.", "Poznali jsme se před třemi lety."], "answer": "Poznali jsme se před třiceti lety.", "reviewed": false },
+        { "id": "u15-l3-e6", "type": "fill", "sentence": "We ___ here for twenty years.", "translation": "Bydlíme tady dvacet let.", "options": ["have lived", "live", "lives"], "answer": "have lived", "explain": "Trvá to od minulosti dodnes, proto present perfect: we have lived.", "reviewed": false },
+        { "id": "u15-l3-e7", "type": "fill", "sentence": "She has been ill ___ Monday.", "translation": "Je nemocná od pondělí.", "options": ["since", "for", "ago"], "answer": "since", "explain": "Since stojí před začátkem (Monday), for před délkou (two days).", "reviewed": false },
+        { "id": "u15-l3-e8", "type": "type", "question": "Jak dlouho tady bydlíte?", "answer": "How long have you lived here?", "accept": ["How long have you been living here?"], "reviewed": false },
+        { "id": "u15-l3-e9", "type": "build", "question": "Jsme manželé třicet let.", "answer": "We've been married for thirty years.", "extra": ["since"], "reviewed": false },
+        { "id": "u15-l3-e10", "type": "build", "question": "Manžel šel do důchodu před dvěma lety.", "answer": "My husband retired two years ago.", "extra": ["has"], "reviewed": false }
+      ]
+    }
+  ]
+}

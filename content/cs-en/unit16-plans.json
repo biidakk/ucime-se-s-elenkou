@@ -1,0 +1,145 @@
+{
+  "id": "u16",
+  "level": "A2",
+  "title": "Plány",
+  "titleTarget": "Plans",
+  "description": "Co budete dělat, co máte domluvené a jak něco nabídnout nebo slíbit: going to, průběhový čas a will.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u16-l1",
+      "title": "Co budete dělat?",
+      "titleTarget": "What are you going to do?",
+      "reviewed": false,
+      "tip": {
+        "title": "Plán: I'm going to…",
+        "text": "Když už něco máte v plánu, řekněte am, is nebo are, pak going to a sloveso: I'm going to cook tonight. Česky stačí budoucí čas („budu vařit“, „uvařím“). Zápor: I'm not going to… Otázka: What are you going to do tomorrow? I když je tam going, nejde o chůzi. Going to se hodí i tehdy, když něco brzy určitě přijde: Look, it's going to rain. Příští týden je next week, bez the.",
+        "examples": [
+          { "target": "I'm going to cook tonight.", "native": "Dnes večer budu vařit." },
+          { "target": "We're going to travel next week.", "native": "Příští týden budeme cestovat." },
+          { "target": "What are you going to do tomorrow?", "native": "Co budete zítra dělat?" },
+          { "target": "Look, it's going to rain.", "native": "Podívejte, bude pršet." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l1-w1", "target": "going to", "native": "chystat se", "note": "I'm going to cook. = Budu vařit; chystám se vařit. Čte se „gouing tu“.", "reviewed": false },
+        { "id": "u16-l1-w2", "target": "tomorrow", "native": "zítra", "note": "Čte se „te-MO-rou“.", "reviewed": false },
+        { "id": "u16-l1-w3", "target": "tonight", "native": "dnes večer", "note": "Také „dnes v noci“. Čte se „te-NAJT“.", "reviewed": false },
+        { "id": "u16-l1-w4", "target": "next", "native": "příští", "note": "Bez the: next week = příští týden.", "reviewed": false },
+        { "id": "u16-l1-w5", "target": "plan", "native": "plán; plánovat", "note": "Čte se s krátkým otevřeným e, „plen“.", "reviewed": false },
+        { "id": "u16-l1-w6", "target": "soon", "native": "brzy; zanedlouho", "note": "Čte se „sún“.", "reviewed": false },
+        { "id": "u16-l1-w7", "target": "later", "native": "později", "note": "See you later. = Uvidíme se později. Čte se „lej-ta“.", "reviewed": false },
+        { "id": "u16-l1-w8", "target": "the day after tomorrow", "native": "pozítří", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l1-e1", "type": "choice", "question": "the day after tomorrow", "questionLang": "target", "options": ["pozítří", "zítra", "dnes večer"], "answer": "pozítří", "reviewed": false },
+        { "id": "u16-l1-e2", "type": "choice", "question": "později", "questionLang": "native", "options": ["later", "soon", "next"], "answer": "later", "reviewed": false },
+        { "id": "u16-l1-e3", "type": "match", "pairs": [
+          { "target": "tomorrow", "native": "zítra" },
+          { "target": "tonight", "native": "dnes večer" },
+          { "target": "soon", "native": "brzy" },
+          { "target": "plan", "native": "plán" },
+          { "target": "next", "native": "příští" }
+        ], "reviewed": false },
+        { "id": "u16-l1-e4", "type": "listen", "audio": "We're going to watch a film tonight.", "options": ["We're going to watch a film tonight.", "We're going to watch a film tomorrow.", "We watched a film last night."], "answer": "We're going to watch a film tonight.", "reviewed": false },
+        { "id": "u16-l1-e5", "type": "listen", "audio": "It's going to rain.", "options": ["Bude pršet.", "Prší.", "Pršelo."], "answer": "Bude pršet.", "reviewed": false },
+        { "id": "u16-l1-e6", "type": "fill", "sentence": "I'm ___ to cook tomorrow.", "translation": "Zítra budu vařit.", "options": ["going", "go", "goes"], "answer": "going", "explain": "Plán: am, is nebo are a going to.", "reviewed": false },
+        { "id": "u16-l1-e7", "type": "fill", "sentence": "We're going to travel ___ week.", "translation": "Příští týden budeme cestovat.", "options": ["next", "after", "later"], "answer": "next", "explain": "Příští týden = next week, bez the.", "reviewed": false },
+        { "id": "u16-l1-e8", "type": "type", "question": "Co budete zítra dělat?", "answer": "What are you going to do tomorrow?", "accept": ["What are you doing tomorrow?", "What will you do tomorrow?"], "reviewed": false },
+        { "id": "u16-l1-e9", "type": "build", "question": "Dnes večer budeme vařit.", "answer": "We're going to cook tonight.", "extra": ["will"], "accept": ["Tonight we're going to cook."], "reviewed": false },
+        { "id": "u16-l1-e10", "type": "speak", "text": "I'm going to see my family soon.", "native": "Brzy se uvidím s rodinou.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l2",
+      "title": "Domluvené schůzky",
+      "titleTarget": "Arrangements",
+      "reviewed": false,
+      "tip": {
+        "title": "Domluveno: I'm meeting Jana on Friday.",
+        "text": "Když máte něco pevně domluveného (schůzku, lístky, návštěvu), angličtina používá průběhový čas, tedy am, is nebo are a sloveso s -ing: I'm meeting Jana on Friday. Česky řeknete prostě „V pátek se vidím s Janou“. Vždy ale řekněte kdy: tonight, on Saturday, next week. Bez času by věta znamenala „právě teď“. Jestli má někdo čas, zjistíte takto: Are you free on Sunday?",
+        "examples": [
+          { "target": "I'm meeting Jana on Friday.", "native": "V pátek se vidím s Janou." },
+          { "target": "We're going to the theatre on Saturday.", "native": "V sobotu jdeme do divadla." },
+          { "target": "What are you doing tonight?", "native": "Co děláte dnes večer?" },
+          { "target": "Are you free on Sunday?", "native": "Máte v neděli čas?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l2-w1", "target": "meet", "native": "sejít se; potkat", "note": "I'm meeting my sister. = Vidím se se sestrou. Minulý čas: met.", "reviewed": false },
+        { "id": "u16-l2-w2", "target": "party", "native": "večírek; oslava", "reviewed": false },
+        { "id": "u16-l2-w3", "target": "concert", "native": "koncert", "note": "Čte se „konset“.", "reviewed": false },
+        { "id": "u16-l2-w4", "target": "theatre", "native": "divadlo", "note": "Britský pravopis s -re. Čte se zhruba „THI-a-ta“, th jako ve slově three.", "reviewed": false },
+        { "id": "u16-l2-w5", "target": "cinema", "native": "kino", "note": "Čte se „sinema“. Go to the cinema = jít do kina.", "reviewed": false },
+        { "id": "u16-l2-w6", "target": "free", "native": "volný; zdarma", "note": "Are you free? = Máte čas?", "reviewed": false },
+        { "id": "u16-l2-w7", "target": "arrive", "native": "přijet; přijít", "note": "Čte se „e-RAJV“.", "reviewed": false },
+        { "id": "u16-l2-w8", "target": "leave", "native": "odejít; odjet", "note": "The train leaves at six. = Vlak odjíždí v šest. Čte se „lív“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l2-e1", "type": "choice", "question": "leave", "questionLang": "target", "options": ["odejít; odjet", "přijet; přijít", "sejít se; potkat"], "answer": "odejít; odjet", "reviewed": false },
+        { "id": "u16-l2-e2", "type": "choice", "question": "divadlo", "questionLang": "native", "options": ["theatre", "cinema", "concert"], "answer": "theatre", "reviewed": false },
+        { "id": "u16-l2-e3", "type": "match", "pairs": [
+          { "target": "party", "native": "večírek" },
+          { "target": "concert", "native": "koncert" },
+          { "target": "cinema", "native": "kino" },
+          { "target": "free", "native": "volný" },
+          { "target": "arrive", "native": "přijet" }
+        ], "reviewed": false },
+        { "id": "u16-l2-e4", "type": "listen", "audio": "I'm meeting my sister on Saturday.", "options": ["I'm meeting my sister on Saturday.", "I'm meeting my sister on Sunday.", "I'm meeting my brother on Saturday."], "answer": "I'm meeting my sister on Saturday.", "reviewed": false },
+        { "id": "u16-l2-e5", "type": "listen", "audio": "Are you free tonight?", "options": ["Máte dnes večer čas?", "Jste dnes večer doma?", "Máte zítra čas?"], "answer": "Máte dnes večer čas?", "reviewed": false },
+        { "id": "u16-l2-e6", "type": "fill", "sentence": "We ___ going to a concert on Friday.", "translation": "V pátek jdeme na koncert.", "options": ["are", "is", "do"], "answer": "are", "explain": "Domluvený plán: we are a sloveso s -ing.", "reviewed": false },
+        { "id": "u16-l2-e7", "type": "fill", "sentence": "My son ___ on Sunday.", "translation": "Syn přijede v neděli.", "options": ["is arriving", "arriving", "arrive"], "answer": "is arriving", "explain": "Domluvený příjezd: is a sloveso s -ing, is nesmí chybět.", "reviewed": false },
+        { "id": "u16-l2-e8", "type": "type", "question": "Co děláte dnes večer?", "answer": "What are you doing tonight?", "accept": ["What are you going to do tonight?"], "reviewed": false },
+        { "id": "u16-l2-e9", "type": "build", "question": "V sobotu jdeme do kina.", "answer": "We're going to the cinema on Saturday.", "extra": ["go"], "accept": ["On Saturday we're going to the cinema."], "reviewed": false },
+        { "id": "u16-l2-e10", "type": "build", "question": "Na večírek nejdu.", "answer": "I'm not going to the party.", "extra": ["don't"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l3",
+      "title": "Pomůžu vám",
+      "titleTarget": "I'll help you",
+      "reviewed": false,
+      "tip": {
+        "title": "Nabídka a slib: I'll…",
+        "text": "Will (zkráceně 'll) použijte, když se rozhodnete právě teď, když něco nabízíte nebo slibujete: I'll help you. I'll carry your bag. A také když odhadujete, co bude: It will probably rain. Will má pro všechny osoby stejný tvar, sloveso za ním je bez to a bez -s. Zápor je won't. Probably stojí za will, ale před won't: It probably won't rain. Česky tomu odpovídá obyčejný budoucí čas: pomůžu, ponesu.",
+        "examples": [
+          { "target": "I'll carry your bag.", "native": "Ponesu vám tašku." },
+          { "target": "I promise I won't forget.", "native": "Slibuji, že nezapomenu." },
+          { "target": "It will probably rain tomorrow.", "native": "Zítra asi bude pršet." },
+          { "target": "Maybe I'll go for a walk.", "native": "Možná půjdu na procházku." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l3-w1", "target": "will", "native": "budu; bude", "note": "Budoucnost, pro všechny stejně: I will, she will. Zkráceně I'll.", "reviewed": false },
+        { "id": "u16-l3-w2", "target": "won't", "native": "nebudu; nebude", "note": "Zkratka will not. Čte se „wount“, jinak než want.", "reviewed": false },
+        { "id": "u16-l3-w3", "target": "probably", "native": "asi; pravděpodobně", "note": "Čte se „PRO-be-bli“.", "reviewed": false },
+        { "id": "u16-l3-w4", "target": "maybe", "native": "možná", "note": "Obvykle na začátku věty: Maybe I'll come.", "reviewed": false },
+        { "id": "u16-l3-w5", "target": "sure", "native": "jistý", "note": "I'm sure. = Jsem si jistý; jsem si jistá. Čte se „šó“.", "reviewed": false },
+        { "id": "u16-l3-w6", "target": "promise", "native": "slíbit; slib", "note": "I promise. = Slibuji. Čte se „promis“.", "reviewed": false },
+        { "id": "u16-l3-w7", "target": "carry", "native": "nést; nosit", "note": "Nosit v ruce. Nosit oblečení je wear.", "reviewed": false },
+        { "id": "u16-l3-w8", "target": "I'll help you.", "native": "Pomůžu vám.", "note": "Také „Pomůžu ti.“ I'll = I will.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l3-e1", "type": "choice", "question": "probably", "questionLang": "target", "options": ["asi; pravděpodobně", "možná", "jistý"], "answer": "asi; pravděpodobně", "reviewed": false },
+        { "id": "u16-l3-e2", "type": "choice", "question": "nést; nosit", "questionLang": "native", "options": ["carry", "promise", "leave"], "answer": "carry", "reviewed": false },
+        { "id": "u16-l3-e3", "type": "match", "pairs": [
+          { "target": "will", "native": "budu" },
+          { "target": "won't", "native": "nebudu" },
+          { "target": "maybe", "native": "možná" },
+          { "target": "sure", "native": "jistý" },
+          { "target": "promise", "native": "slíbit" }
+        ], "reviewed": false },
+        { "id": "u16-l3-e4", "type": "listen", "audio": "I'll help you.", "options": ["I'll help you.", "I help you.", "I'll call you."], "answer": "I'll help you.", "reviewed": false },
+        { "id": "u16-l3-e5", "type": "listen", "audio": "It will probably rain tomorrow.", "options": ["Zítra asi bude pršet.", "Zítra určitě bude pršet.", "Zítra asi nebude pršet."], "answer": "Zítra asi bude pršet.", "reviewed": false },
+        { "id": "u16-l3-e6", "type": "fill", "sentence": "I ___ carry your bag.", "translation": "Ponesu vám tašku.", "options": ["will", "am", "going"], "answer": "will", "explain": "Nabídka: will a sloveso bez to.", "reviewed": false },
+        { "id": "u16-l3-e7", "type": "fill", "sentence": "She ___ come today. She's ill.", "translation": "Dnes nepřijde. Je nemocná.", "options": ["won't", "doesn't will", "willn't"], "answer": "won't", "explain": "Zápor od will je won't, bez does.", "reviewed": false },
+        { "id": "u16-l3-e8", "type": "type", "question": "Slibuji, že nezapomenu.", "answer": "I promise I won't forget.", "accept": ["I promise that I won't forget."], "reviewed": false },
+        { "id": "u16-l3-e9", "type": "build", "question": "Možná přijdu později.", "answer": "Maybe I'll come later.", "extra": ["going"], "reviewed": false },
+        { "id": "u16-l3-e10", "type": "build", "question": "Zítra asi nebude pršet.", "answer": "It probably won't rain tomorrow.", "extra": ["will"], "accept": ["Tomorrow it probably won't rain."], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "u20",
+  "level": "A2",
+  "title": "Pozvání a oslavy",
+  "titleTarget": "Invitations and celebrations",
+  "description": "Jak někoho pozvat a odpovědět, věty s if a přání k svátkům a oslavám.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u20-l1",
+      "title": "Pozvání",
+      "titleTarget": "Invitations",
+      "reviewed": false,
+      "tip": {
+        "title": "Let's…, Shall we…?, Would you like to…?",
+        "text": "Návrh uděláte s Let's (pojďme): Let's go for a walk. Jako otázku řeknete Shall we…? (Půjdeme…? Dáme si…?) nebo Why don't we…? (Co kdybychom…?). Po let's, shall we a why don't we je sloveso bez to. Zdvořilé pozvání je Would you like to come? (Chtěli byste přijít?) Přijmete ho s I'd love to. (S radostí.) Odmítnete zdvořile s I'm afraid I can't. (Bohužel nemůžu.)",
+        "examples": [
+          { "target": "Let's go for a walk.", "native": "Pojďme na procházku." },
+          { "target": "Shall we have a coffee?", "native": "Dáme si kávu?" },
+          { "target": "Would you like to come on Saturday?", "native": "Chtěli byste přijít v sobotu?" },
+          { "target": "I'd love to, thank you.", "native": "S radostí, děkuji." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l1-w1", "target": "invite", "native": "pozvat", "note": "Čte se „in-VAJT“. Pozvánka = invitation.", "reviewed": false },
+        { "id": "u20-l1-w2", "target": "guest", "native": "host", "note": "Čte se „gest“, u se nevyslovuje.", "reviewed": false },
+        { "id": "u20-l1-w3", "target": "Let's go.", "native": "Pojďme.", "note": "Let's + sloveso = pojďme něco udělat: Let's eat.", "reviewed": false },
+        { "id": "u20-l1-w4", "target": "Shall we?", "native": "Půjdeme?", "note": "Návrh: Shall we go for a walk? = Půjdeme na procházku?", "reviewed": false },
+        { "id": "u20-l1-w5", "target": "Why don't we?", "native": "Co kdybychom…?", "note": "Why don't we invite them? = Co kdybychom je pozvali?", "reviewed": false },
+        { "id": "u20-l1-w6", "target": "I'd love to.", "native": "S radostí.", "note": "Odpověď na pozvání. Krátce, bez dalšího slovesa.", "reviewed": false },
+        { "id": "u20-l1-w7", "target": "I'm afraid I can't.", "native": "Bohužel nemůžu.", "note": "Zdvořilé odmítnutí. I'm afraid tu neznamená strach.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l1-e1", "type": "choice", "question": "I'm afraid I can't.", "questionLang": "target", "options": ["Bohužel nemůžu.", "Bojím se.", "S radostí."], "answer": "Bohužel nemůžu.", "reviewed": false },
+        { "id": "u20-l1-e2", "type": "choice", "question": "S radostí.", "questionLang": "native", "options": ["I'd love to.", "I love it.", "Let's go."], "answer": "I'd love to.", "reviewed": false },
+        { "id": "u20-l1-e3", "type": "match", "pairs": [
+          { "target": "invite", "native": "pozvat" },
+          { "target": "guest", "native": "host" },
+          { "target": "Let's go.", "native": "Pojďme." },
+          { "target": "Shall we?", "native": "Půjdeme?" },
+          { "target": "Why don't we?", "native": "Co kdybychom…?" }
+        ], "reviewed": false },
+        { "id": "u20-l1-e4", "type": "listen", "audio": "Shall we go to the park?", "options": ["Shall we go to the park?", "Shall we go to the shop?", "Let's go to the park."], "answer": "Shall we go to the park?", "reviewed": false },
+        { "id": "u20-l1-e5", "type": "listen", "audio": "Would you like to come on Sunday?", "options": ["Chtěli byste přijít v neděli?", "Chtěli byste přijít v sobotu?", "Máte rádi neděli?"], "answer": "Chtěli byste přijít v neděli?", "reviewed": false },
+        { "id": "u20-l1-e6", "type": "fill", "sentence": "Let's ___ for a walk.", "translation": "Pojďme na procházku.", "options": ["go", "to go", "going"], "answer": "go", "explain": "Po let's je sloveso bez to.", "reviewed": false },
+        { "id": "u20-l1-e7", "type": "fill", "sentence": "Why ___ we invite the neighbours?", "translation": "Co kdybychom pozvali sousedy?", "options": ["don't", "not", "doesn't"], "answer": "don't", "explain": "Návrh s we: Why don't we…?", "reviewed": false },
+        { "id": "u20-l1-e8", "type": "fill", "sentence": "Shall we ___ a coffee?", "translation": "Dáme si kávu?", "options": ["have", "having", "to have"], "answer": "have", "explain": "Po shall we je sloveso bez to.", "reviewed": false },
+        { "id": "u20-l1-e9", "type": "type", "question": "Pojďme domů.", "answer": "Let's go home.", "reviewed": false },
+        { "id": "u20-l1-e10", "type": "build", "question": "Chtěli byste přijít v sobotu?", "answer": "Would you like to come on Saturday?", "extra": ["do"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l2",
+      "title": "Když…",
+      "titleTarget": "If…",
+      "reviewed": false,
+      "tip": {
+        "title": "If it rains, bez will",
+        "text": "Česky řeknete „Když bude pršet, zůstaneme doma.“ Budoucí čas je v obou částech věty. Anglicky je po if přítomný čas a will jen ve druhé části: If it rains, we'll stay at home. Nikdy neříkejte If it will rain. Části věty můžete prohodit: We'll stay at home if it rains. Pak se čárka nepíše.",
+        "examples": [
+          { "target": "If it rains, we'll stay at home.", "native": "Když bude pršet, zůstaneme doma." },
+          { "target": "If you're late, you'll miss the train.", "native": "Jestli přijdete pozdě, zmeškáte vlak." },
+          { "target": "I'll ring you if I'm late.", "native": "Zavolám vám, když budu mít zpoždění." },
+          { "target": "Don't worry.", "native": "Nebojte se." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l2-w1", "target": "if", "native": "jestli; pokud", "note": "Česky také „když“. Po if bez will: if it rains.", "reviewed": false },
+        { "id": "u20-l2-w2", "target": "late", "native": "pozdě", "note": "I'm late. = Jdu pozdě. Mám zpoždění.", "reviewed": false },
+        { "id": "u20-l2-w3", "target": "early", "native": "časně; brzy", "note": "Opak late. Čte se přibližně „É-li“.", "reviewed": false },
+        { "id": "u20-l2-w4", "target": "in time", "native": "včas", "note": "We're in time. = Jsme tu včas.", "reviewed": false },
+        { "id": "u20-l2-w5", "target": "miss", "native": "zmeškat; chybět", "note": "miss the bus = zmeškat autobus. I miss you. = Chybíte mi.", "reviewed": false },
+        { "id": "u20-l2-w6", "target": "lose", "native": "ztratit; prohrát", "note": "Čte se „lúz“. Minulý čas lost.", "reviewed": false },
+        { "id": "u20-l2-w7", "target": "worry", "native": "dělat si starosti", "note": "Don't worry. = Nebojte se. Čte se „WA-ri“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l2-e1", "type": "choice", "question": "worry", "questionLang": "target", "options": ["dělat si starosti", "zmeškat; chybět", "ztratit; prohrát"], "answer": "dělat si starosti", "reviewed": false },
+        { "id": "u20-l2-e2", "type": "choice", "question": "včas", "questionLang": "native", "options": ["in time", "late", "early"], "answer": "in time", "reviewed": false },
+        { "id": "u20-l2-e3", "type": "match", "pairs": [
+          { "target": "if", "native": "jestli" },
+          { "target": "late", "native": "pozdě" },
+          { "target": "early", "native": "brzy" },
+          { "target": "miss", "native": "zmeškat" },
+          { "target": "lose", "native": "ztratit" }
+        ], "reviewed": false },
+        { "id": "u20-l2-e4", "type": "listen", "audio": "If it rains, we'll stay at home.", "options": ["If it rains, we'll stay at home.", "If it's cold, we'll stay at home.", "If it rains, we'll go home."], "answer": "If it rains, we'll stay at home.", "reviewed": false },
+        { "id": "u20-l2-e5", "type": "listen", "audio": "Don't worry, we'll be in time.", "options": ["Nebojte se, přijdeme včas.", "Nebojte se, přijdeme pozdě.", "Nebojte se, přijdeme zítra."], "answer": "Nebojte se, přijdeme včas.", "reviewed": false },
+        { "id": "u20-l2-e6", "type": "fill", "sentence": "If it ___, we'll stay at home.", "translation": "Když bude pršet, zůstaneme doma.", "options": ["rains", "will rain", "rain"], "answer": "rains", "explain": "Po if je přítomný čas, ne will: if it rains.", "reviewed": false },
+        { "id": "u20-l2-e7", "type": "fill", "sentence": "If you're late, you ___ the bus.", "translation": "Když přijdete pozdě, zmeškáte autobus.", "options": ["will miss", "missing", "to miss"], "answer": "will miss", "explain": "Will patří do druhé části věty, ne za if.", "reviewed": false },
+        { "id": "u20-l2-e8", "type": "type", "question": "Nebojte se.", "answer": "Don't worry.", "reviewed": false },
+        { "id": "u20-l2-e9", "type": "build", "question": "Zavolám vám, když budu mít zpoždění.", "answer": "I'll ring you if I'm late.", "extra": ["will", "be"], "accept": ["If I'm late, I'll ring you."], "reviewed": false },
+        { "id": "u20-l2-e10", "type": "build", "question": "Když zmeškáme vlak, pojedeme autobusem.", "answer": "If we miss the train, we'll go by bus.", "extra": ["will"], "accept": ["We'll go by bus if we miss the train."], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u20-l3",
+      "title": "Oslavy",
+      "titleTarget": "Celebrations",
+      "reviewed": false,
+      "tip": {
+        "title": "Novinky: We've had a baby!",
+        "text": "Čerstvou novinku, která je důležitá teď, řeknete anglicky časem present perfect: have nebo has a tvar slovesa jako had, got. We've had a baby! (Narodilo se nám miminko!) My son has got married. (Můj syn se oženil.) Česky stačí minulý čas. Když ale řeknete kdy, použijte i anglicky minulý čas: We had a baby last week. Na dobrou novinku odpovězte Congratulations!",
+        "examples": [
+          { "target": "We've had a baby!", "native": "Narodilo se nám miminko!" },
+          { "target": "My granddaughter has got married.", "native": "Moje vnučka se vdala." },
+          { "target": "Congratulations!", "native": "Gratuluji!" },
+          { "target": "Thank you for the invitation.", "native": "Děkuji za pozvání." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u20-l3-w1", "target": "wedding", "native": "svatba", "reviewed": false },
+        { "id": "u20-l3-w2", "target": "Christmas", "native": "Vánoce", "note": "Čte se „KRIS-mes“, t se nevyslovuje. Vždy velké písmeno.", "reviewed": false },
+        { "id": "u20-l3-w3", "target": "Easter", "native": "Velikonoce", "note": "Čte se „ÍS-ta“.", "reviewed": false },
+        { "id": "u20-l3-w4", "target": "present", "native": "dárek", "note": "Také gift. Jako přídavné jméno znamená přítomný.", "reviewed": false },
+        { "id": "u20-l3-w5", "target": "invitation", "native": "pozvánka; pozvání", "note": "pozvat = invite", "reviewed": false },
+        { "id": "u20-l3-w6", "target": "Congratulations!", "native": "Gratuluji!", "note": "Vždy s -s na konci. Čte se „ken-gre-ču-LEJ-šnz“.", "reviewed": false },
+        { "id": "u20-l3-w7", "target": "Happy birthday!", "native": "Všechno nejlepší k narozeninám!", "reviewed": false },
+        { "id": "u20-l3-w8", "target": "Best wishes", "native": "s pozdravem; všechno dobré", "note": "Na konci přání, dopisu nebo e-mailu.", "reviewed": false },
+        { "id": "u20-l3-w9", "target": "Merry Christmas!", "native": "Veselé Vánoce!", "note": "Britové říkají také Happy Christmas!", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u20-l3-e1", "type": "choice", "question": "present", "questionLang": "target", "options": ["dárek", "pozvánka; pozvání", "svatba"], "answer": "dárek", "reviewed": false },
+        { "id": "u20-l3-e2", "type": "choice", "question": "Veselé Vánoce!", "questionLang": "native", "options": ["Merry Christmas!", "Happy Easter!", "Happy birthday!"], "answer": "Merry Christmas!", "reviewed": false },
+        { "id": "u20-l3-e3", "type": "match", "pairs": [
+          { "target": "wedding", "native": "svatba" },
+          { "target": "Christmas", "native": "Vánoce" },
+          { "target": "Easter", "native": "Velikonoce" },
+          { "target": "invitation", "native": "pozvánka" },
+          { "target": "present", "native": "dárek" }
+        ], "reviewed": false },
+        { "id": "u20-l3-e4", "type": "listen", "audio": "We've had a baby!", "options": ["We've had a baby!", "We've got a baby.", "We had a baby."], "answer": "We've had a baby!", "reviewed": false },
+        { "id": "u20-l3-e5", "type": "listen", "audio": "Happy birthday, Mum!", "options": ["Všechno nejlepší k narozeninám, mami!", "Veselé Vánoce, mami!", "Gratuluji ke svatbě, mami!"], "answer": "Všechno nejlepší k narozeninám, mami!", "reviewed": false },
+        { "id": "u20-l3-e6", "type": "fill", "sentence": "My son ___ got married!", "translation": "Můj syn se oženil!", "options": ["has", "have", "is"], "answer": "has", "explain": "Čerstvá novinka: has nebo have a tvar slovesa. U he (můj syn) je has.", "reviewed": false },
+        { "id": "u20-l3-e7", "type": "fill", "sentence": "We've ___ a baby!", "translation": "Narodilo se nám miminko!", "options": ["had", "have", "has"], "answer": "had", "explain": "Za we've přijde tvar slovesa had.", "reviewed": false },
+        { "id": "u20-l3-e8", "type": "type", "question": "Gratuluji!", "answer": "Congratulations!", "reviewed": false },
+        { "id": "u20-l3-e9", "type": "build", "question": "Děkuji za pozvání.", "answer": "Thank you for the invitation.", "extra": ["on"], "reviewed": false },
+        { "id": "u20-l3-e10", "type": "speak", "text": "Merry Christmas and a Happy New Year!", "native": "Veselé Vánoce a šťastný nový rok!", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "u16",
+  "level": "A2",
+  "title": "Srovnání",
+  "titleTarget": "Vergleiche",
+  "description": "Jak srovnávat: větší než, stejně velký jako, nejlepší, a koncovky přídavných jmen při nakupování.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u16-l1",
+      "title": "Větší a lepší",
+      "titleTarget": "Größer und besser",
+      "reviewed": false,
+      "tip": {
+        "title": "schneller als, so alt wie",
+        "text": "Když srovnáváte, přidejte -er: schnell → schneller (rychlejší). Krátká slova často dostanou přehlásku: alt → älter, jung → jünger, groß → größer. „Než“ se řekne als: Der Zug ist schneller als der Bus. „Stejně … jako“ je so … wie: Peter ist so alt wie Anna. „Größer wie“ je chyba, po -er vždy přijde als. Nepravidelně: gut → besser, viel → mehr, gern → lieber, hoch → höher.",
+        "examples": [
+          { "target": "Der Zug ist schneller als der Bus.", "native": "Vlak je rychlejší než autobus." },
+          { "target": "Mein Bruder ist jünger als ich.", "native": "Můj bratr je mladší než já." },
+          { "target": "Peter ist so alt wie Anna.", "native": "Petr je stejně starý jako Anna." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l1-w1", "target": "als", "native": "než", "note": "größer als = větší než. Po -er vždy als, ne wie.", "reviewed": false },
+        { "id": "u16-l1-w2", "target": "wie", "native": "jako; jak", "note": "so groß wie = stejně velký jako; ie = í: [ví]", "reviewed": false },
+        { "id": "u16-l1-w3", "target": "besser", "native": "lepší; líp", "note": "gut, besser, am besten", "reviewed": false },
+        { "id": "u16-l1-w4", "target": "mehr", "native": "víc", "note": "viel, mehr, am meisten; h se nečte: [mér]", "reviewed": false },
+        { "id": "u16-l1-w5", "target": "lieber", "native": "raději", "note": "gern, lieber, am liebsten: Ich trinke lieber Tee.", "reviewed": false },
+        { "id": "u16-l1-w6", "target": "schnell", "native": "rychlý; rychle", "note": "schneller = rychlejší", "reviewed": false },
+        { "id": "u16-l1-w7", "target": "langsam", "native": "pomalý; pomalu", "note": "Bitte langsam! = Pomalu, prosím!", "reviewed": false },
+        { "id": "u16-l1-w8", "target": "jung", "native": "mladý", "note": "S přehláskou: jünger = mladší. Opak: alt", "reviewed": false },
+        { "id": "u16-l1-w9", "target": "hoch", "native": "vysoký", "note": "ch po o jako české ch; höher = vyšší, píše se bez c a h se nečte: [HÖ-a]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l1-e1", "type": "choice", "question": "langsam", "questionLang": "target", "options": ["pomalý; pomalu", "rychlý; rychle", "mladý"], "answer": "pomalý; pomalu", "reviewed": false },
+        { "id": "u16-l1-e2", "type": "choice", "question": "raději", "questionLang": "native", "options": ["lieber", "besser", "mehr"], "answer": "lieber", "reviewed": false },
+        { "id": "u16-l1-e3", "type": "match", "pairs": [
+          { "target": "als", "native": "než" },
+          { "target": "wie", "native": "jako" },
+          { "target": "besser", "native": "lepší" },
+          { "target": "mehr", "native": "víc" },
+          { "target": "hoch", "native": "vysoký" }
+        ], "reviewed": false },
+        { "id": "u16-l1-e4", "type": "listen", "audio": "Der Zug ist langsamer als das Auto.", "options": ["Der Zug ist langsamer als das Auto.", "Das Auto ist langsamer als der Zug.", "Der Zug ist schneller als das Auto."], "answer": "Der Zug ist langsamer als das Auto.", "reviewed": false },
+        { "id": "u16-l1-e5", "type": "fill", "sentence": "Mein Bruder ist älter ___ ich.", "translation": "Můj bratr je starší než já.", "options": ["als", "wie", "so"], "answer": "als", "explain": "Po 2. stupni (älter) se „než“ řekne vždy als.", "reviewed": false },
+        { "id": "u16-l1-e6", "type": "fill", "sentence": "Peter ist so groß ___ Anna.", "translation": "Petr je stejně vysoký jako Anna.", "options": ["wie", "als", "so"], "answer": "wie", "explain": "„Stejně … jako“ je so … wie.", "reviewed": false },
+        { "id": "u16-l1-e7", "type": "type", "question": "mladý", "answer": "jung", "reviewed": false },
+        { "id": "u16-l1-e8", "type": "build", "question": "Raději piju čaj než kávu.", "answer": "Ich trinke lieber Tee als Kaffee.", "accept": ["Lieber trinke ich Tee als Kaffee."], "extra": ["wie"], "reviewed": false },
+        { "id": "u16-l1-e9", "type": "listen", "audio": "Sprechen Sie bitte langsamer.", "options": ["Mluvte prosím pomaleji.", "Mluvte prosím rychleji.", "Mluvte prosím víc."], "answer": "Mluvte prosím pomaleji.", "reviewed": false },
+        { "id": "u16-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Hora je vyšší než kostel.", "questionLang": "native", "options": ["Der Berg ist höher als die Kirche.", "Der Berg ist hocher als die Kirche.", "Der Berg ist höher wie die Kirche."], "answer": "Der Berg ist höher als die Kirche.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l2",
+      "title": "Krajina a příroda",
+      "titleTarget": "Land und Natur",
+      "reviewed": false,
+      "tip": {
+        "title": "am schnellsten = nejrychleji",
+        "text": "„Nej-“ za slovesem (je nejrychlejší, běží nejrychleji) se řekne am …-sten: schnell → am schnellsten, lang → am längsten, tief → am tiefsten. Česky dáváme „nej-“ na začátek, němčina přidá am a koncovku -sten. Po t a d se vkládá -e-: alt → am ältesten, berühmt → am berühmtesten. Nepravidelně: gut → am besten, gern → am liebsten, hoch → am höchsten, groß → am größten.",
+        "examples": [
+          { "target": "Meine Mutter kocht am besten.", "native": "Nejlépe vaří moje maminka." },
+          { "target": "Im Sommer schwimme ich am liebsten im See.", "native": "V létě nejraději plavu v jezeře." },
+          { "target": "Welcher Fluss ist am längsten?", "native": "Která řeka je nejdelší?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l2-w1", "target": "das Land", "native": "země; venkov", "note": "auf dem Land = na venkově; množné číslo: die Länder", "reviewed": false },
+        { "id": "u16-l2-w2", "target": "die Welt", "native": "svět", "note": "auf der Welt = na světě; w = v; množné číslo: die Welten", "reviewed": false },
+        { "id": "u16-l2-w3", "target": "der Fluss", "native": "řeka", "note": "Pozor, mužský rod; množné číslo: die Flüsse", "reviewed": false },
+        { "id": "u16-l2-w4", "target": "der Wald", "native": "les", "note": "im Wald = v lese; d na konci zní jako t: [valt]; množné číslo: die Wälder", "reviewed": false },
+        { "id": "u16-l2-w5", "target": "lang", "native": "dlouhý", "note": "länger, am längsten", "reviewed": false },
+        { "id": "u16-l2-w6", "target": "tief", "native": "hluboký", "note": "ie = í: [tíf]; tiefer, am tiefsten", "reviewed": false },
+        { "id": "u16-l2-w7", "target": "berühmt", "native": "slavný; známý", "note": "Přízvuk na druhé slabice: be-RÜMT; h se nečte.", "reviewed": false },
+        { "id": "u16-l2-w8", "target": "am besten", "native": "nejlépe", "note": "gut, besser, am besten", "reviewed": false },
+        { "id": "u16-l2-w9", "target": "am liebsten", "native": "nejraději", "note": "gern, lieber, am liebsten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l2-e1", "type": "choice", "question": "der Wald", "questionLang": "target", "options": ["les", "řeka", "svět"], "answer": "les", "reviewed": false },
+        { "id": "u16-l2-e2", "type": "choice", "question": "hluboký", "questionLang": "native", "options": ["tief", "lang", "hoch"], "answer": "tief", "reviewed": false },
+        { "id": "u16-l2-e3", "type": "match", "pairs": [
+          { "target": "das Land", "native": "venkov" },
+          { "target": "die Welt", "native": "svět" },
+          { "target": "der Fluss", "native": "řeka" },
+          { "target": "berühmt", "native": "slavný" },
+          { "target": "lang", "native": "dlouhý" }
+        ], "reviewed": false },
+        { "id": "u16-l2-e4", "type": "listen", "audio": "Am liebsten wandern wir im Wald.", "options": ["Am liebsten wandern wir im Wald.", "Am liebsten wandern wir am Fluss.", "Am liebsten schwimmen wir im See."], "answer": "Am liebsten wandern wir im Wald.", "reviewed": false },
+        { "id": "u16-l2-e5", "type": "fill", "sentence": "Hier ist der See am ___.", "translation": "Tady je jezero nejhlubší.", "options": ["tiefsten", "tiefer", "tiefste"], "answer": "tiefsten", "explain": "Po am přijde vždy koncovka -sten: am tiefsten.", "reviewed": false },
+        { "id": "u16-l2-e6", "type": "fill", "sentence": "Was machen Sie am ___?", "translation": "Co děláte nejraději?", "options": ["liebsten", "gernsten", "lieber"], "answer": "liebsten", "explain": "gern je nepravidelné: lieber, am liebsten.", "reviewed": false },
+        { "id": "u16-l2-e7", "type": "type", "question": "nejlépe", "answer": "am besten", "reviewed": false },
+        { "id": "u16-l2-e8", "type": "build", "question": "Na podzim je les nejkrásnější.", "answer": "Im Herbst ist der Wald am schönsten.", "accept": ["Der Wald ist im Herbst am schönsten."], "extra": ["schönste"], "reviewed": false },
+        { "id": "u16-l2-e9", "type": "listen", "audio": "Der Rhein ist länger als die Moldau.", "options": ["Rýn je delší než Vltava.", "Rýn je hlubší než Vltava.", "Rýn je slavnější než Vltava."], "answer": "Rýn je delší než Vltava.", "reviewed": false },
+        { "id": "u16-l2-e10", "type": "speak", "text": "Ich wohne am liebsten auf dem Land.", "native": "Nejraději bydlím na venkově.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u16-l3",
+      "title": "V obchodním domě",
+      "titleTarget": "Im Kaufhaus",
+      "reviewed": false,
+      "tip": {
+        "title": "ein schöner, eine schöne, ein schönes",
+        "text": "Před podstatným jménem má přídavné jméno koncovku, podobně jako v češtině hezký – hezká – hezké. Po ein/eine (1. pád) koncovka ukáže rod, který samotné ein neprozradí: ein schöner Mantel (der), eine schöne Jacke (die), ein schönes Kleid (das). Po sein koncovka není: Der Mantel ist schön. Ve 4. pádě se mění jen mužský rod: Ich kaufe einen schönen Mantel.",
+        "examples": [
+          { "target": "Das Kaufhaus hat ein gutes Angebot.", "native": "Obchodní dům má dobrou nabídku." },
+          { "target": "Ich suche eine bequeme Hose.", "native": "Hledám pohodlné kalhoty." },
+          { "target": "Das ist ein hübsches Kleid.", "native": "To jsou pěkné šaty." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u16-l3-w1", "target": "das Kaufhaus", "native": "obchodní dům", "note": "au = au; množné číslo: die Kaufhäuser", "reviewed": false },
+        { "id": "u16-l3-w2", "target": "das Angebot", "native": "nabídka; akce", "note": "im Angebot = v akci, ve slevě; množné číslo: die Angebote", "reviewed": false },
+        { "id": "u16-l3-w3", "target": "die Qualität", "native": "kvalita", "note": "qu = kv: [kva-li-TÉT]; množné číslo: die Qualitäten", "reviewed": false },
+        { "id": "u16-l3-w4", "target": "günstig", "native": "výhodný", "note": "Zní lépe než billig (levný). -ig na konci zní jako „ich“.", "reviewed": false },
+        { "id": "u16-l3-w5", "target": "bequem", "native": "pohodlný", "note": "qu = kv: [be-KVÉM]", "reviewed": false },
+        { "id": "u16-l3-w6", "target": "eng", "native": "těsný; úzký", "note": "Die Hose ist zu eng. = Kalhoty jsou moc těsné.", "reviewed": false },
+        { "id": "u16-l3-w7", "target": "modern", "native": "moderní", "note": "Přízvuk na konci: [mo-DERN]", "reviewed": false },
+        { "id": "u16-l3-w8", "target": "hübsch", "native": "pěkný", "note": "Hlavně o vzhledu: ein hübsches Kleid. ü: řekněte i se zaokrouhlenými rty.", "reviewed": false },
+        { "id": "u16-l3-w9", "target": "hässlich", "native": "ošklivý", "note": "ä = e: [HES-lich]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u16-l3-e1", "type": "choice", "question": "bequem", "questionLang": "target", "options": ["pohodlný", "těsný; úzký", "ošklivý"], "answer": "pohodlný", "reviewed": false },
+        { "id": "u16-l3-e2", "type": "choice", "question": "obchodní dům", "questionLang": "native", "options": ["das Kaufhaus", "das Angebot", "die Qualität"], "answer": "das Kaufhaus", "reviewed": false },
+        { "id": "u16-l3-e3", "type": "match", "pairs": [
+          { "target": "günstig", "native": "výhodný" },
+          { "target": "eng", "native": "těsný" },
+          { "target": "modern", "native": "moderní" },
+          { "target": "hübsch", "native": "pěkný" },
+          { "target": "hässlich", "native": "ošklivý" }
+        ], "reviewed": false },
+        { "id": "u16-l3-e4", "type": "listen", "audio": "Das ist ein hässlicher Pullover.", "options": ["Das ist ein hässlicher Pullover.", "Das ist ein hübscher Pullover.", "Das ist eine hässliche Bluse."], "answer": "Das ist ein hässlicher Pullover.", "reviewed": false },
+        { "id": "u16-l3-e5", "type": "fill", "sentence": "Das ist ein ___ Mantel.", "translation": "To je pohodlný kabát.", "options": ["bequemer", "bequeme", "bequemes"], "answer": "bequemer", "explain": "der Mantel: po ein má přídavné jméno koncovku -er.", "reviewed": false },
+        { "id": "u16-l3-e6", "type": "fill", "sentence": "Ich suche eine ___ Jacke.", "translation": "Hledám moderní bundu.", "options": ["moderne", "moderner", "modernes"], "answer": "moderne", "explain": "die Jacke: po eine má přídavné jméno koncovku -e.", "reviewed": false },
+        { "id": "u16-l3-e7", "type": "type", "question": "ošklivý", "answer": "hässlich", "reviewed": false },
+        { "id": "u16-l3-e8", "type": "build", "question": "Kalhoty jsou moc těsné.", "answer": "Die Hose ist zu eng.", "extra": ["enge"], "reviewed": false },
+        { "id": "u16-l3-e9", "type": "listen", "audio": "Der Mantel ist im Angebot.", "options": ["Kabát je v akci.", "Kabát je moc drahý.", "Kabát je moc těsný."], "answer": "Kabát je v akci.", "reviewed": false },
+        { "id": "u16-l3-e10", "type": "build", "question": "To je moderní obchodní dům.", "answer": "Das ist ein modernes Kaufhaus.", "extra": ["moderner"], "reviewed": false }
+      ]
+    }
+  ]
+}

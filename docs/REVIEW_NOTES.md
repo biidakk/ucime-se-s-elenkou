@@ -71,3 +71,62 @@ Points the content authors were unsure about. Check them together with `CONTENT_
 - Meanings: der Termin = „objednání; schůzka“, der Arm = „paže“, laufen = „běžet“, die Schmerzen = „bolesti“, war = „byl; byla“, hatte = „měl; měla“, „Ich habe eine Erkältung“ = „Mám nachlazení“.
 - Hints: teuer [TOJ-a], täglich [TÉK-lich], Fieber [FÍ-ba], Pullover [pu-LÓ-va], Geburtstag [ge-BÚRC-ták], Erkältung [er-KEL-tung].
 - u10-l1 tip: „wir haben gekocht“ ≈ „máme vařeno“ (memory hook).
+
+### cs-en units 11–13 (A2)
+- Strict review of A2 (units 11–20) done: gendered title/tip lines neutralised (u11-l1 now „Co jsme dělali“), hints checked
+  against British IPA, missing accepts added. SYLLABUS.md still lists the old u11-l1 title „Co jsem dělala“. Open points:
+- did/didn't cards kept as descriptions („otázka v minulém čase“ / „zápor v minulém čase“) — no natural one-word Czech gloss.
+- Past simple cards (U11) keep „šel jsem; šla jsem“ (like A1 „chtěl bych; chtěla bych“); participles (U15) „byl; byla“.
+- Not taught anywhere as a word: pay (only „pay by card / in cash“ in notes and exercises). Used early: a lot of, arrived (u12-l3, glossed in the tip).
+- u12-l3 tip: past continuous via Czech aspect („pršelo“ vs „přijeli“) — clear enough?
+
+### cs-en units 14–16 (A2)
+- must = „muset“ vs have to = „mít povinnost“ kept (note says „česky obvykle musím“; tip explains the difference).
+- Accepted: "Have you ever been in England?" (besides "been to"); "I've got a headache." for „Bolí mě hlava.“; "I haven't got to work."
+
+### cs-de units 11–13 (A2)
+- Strict review of A2 (units 11–20) done; resolved: Stock plural (die Stockwerke, note now says die Stöcke = hole),
+  stellen/legen fills (correct: neben das Sofa, in den Keller), Balkon „bal-KÓN“ (standard [balˈkoːn]), „Ich bin kalt“
+  as distractor (tip explains the other meaning). Still to listen to: Ingenieur „in-že-NJÖR“ ([ɪnʒeˈni̯øːɐ̯]), Feierabend „FAJ-a-á-bent“.
+- Used before taught (kept, common): uns, ans/ins/im/zum/zur, einer/einem, hoch, ordinals.
+- u12-l2-e8 extra tile „dem“ (Ich lege den Teppich auf dem Boden) — treated as wrong, as usual for Wechselpräpositionen drills.
+
+### cs-de units 14–16 (A2)
+- Wrong options that natives do say colloquially: "weil ich habe keine Zeit", "älter wie", "höher wie", "so groß als" — kept as wrong (standard German; the explain lines say why).
+- Not taught: für zwei Nächte, Meiner Meinung nach, im Angebot, an der Rezeption, auf dem Land, Rhein, Moldau.
+- Meanings: das Gleis „kolej“, pünktlich „včas; přesně“, denn „neboť“, froh „veselý; rád“, wandern „chodit na túry“, hübsch „pěkný“, günstig „výhodný“, das Angebot „nabídka; akce“, das Land „země; venkov“.
+- Tip simplifications: superlative -e- only after t/d (u16-l2); no ge- for be-/ver-/er-/-ieren (u14-l2).
+
+### cs-ro units 14–16 (A2)
+- Strict review done (u16-l3 title now „Když se ztratíte“; hints checked). Open points:
+- o să = „budu; bude“ as a card (it is only the future marker) — acceptable?
+- o poliție taught with „o“ (in practice almost always poliția); „cameră single“ (also cameră pentru o persoană).
+- Used before taught: pensie, inclus, să-mi dați, nopți, a ajuta, să fiu / o să fie as chunks, „Mi s-a pierdut portofelul“.
+- pauză: no hint given — [ˈpaw.zə] or [pa.ˈu.zə]? Please listen.
+
+### cs-ro units 11–13 (A2)
+- Strict review done: uncountables kept bare (muzică, febră, tuse, zăpadă, soare — „Am febră“, „E soare“);
+  titles now „Co se mi líbí“ / „Líbí se mi“ / tip „Co děláte rádi“; hints checked against IPA. Open points:
+- Îmi plac = „líbí se mi ty věci“ kept (distinct from Îmi place „líbí se mi“) — better gloss?
+- „Luați o pastilă de trei ori pe zi“ kept (doctors also say „câte o pastilă“); „Nu-mi place acest film“ kept (A1 taught acest; filmul ăsta is more colloquial).
+
+### cs-en units 17–20 (A2)
+- too much = „příliš mnoho“ vs too many = „příliš mnoho kusů“ kept (Czech has no natural split; the note explains).
+- u18-l2-e6 (It's cold, ___ I'm wearing a coat): "or" replaced by "than"; "because" stays as a wrong option — absurd in meaning, not ungrammatical.
+- Used before taught: very, baby, Happy New Year.
+- Close cross-unit meanings: call „zavolat; volat“ (U11) vs ring „zavolat; zazvonit“ (U18); soon „brzy; zanedlouho“ vs early „časně; brzy“.
+
+### cs-ro units 17–20 (A2)
+- Strict review done: u17-l1 now „V dětství“ / când eram copil („když jsem byl malý; když jsem byla malá“);
+  bătrân „starý; v letech“, astăzi „dnes; v dnešní době“; card numele → numele de familie = „příjmení“
+  (tip keeps: on forms Nume = příjmení); păr taught bare; astăzi hint fixed to „as-TĂZ“. Open points:
+- u19-l3-e10 „Completați numele și prenumele.“ = „Vyplňte příjmení a křestní jméno.“ (form usage) — OK next to the numele de familie card?
+- SYLLABUS.md still lists „Když jsem byla malá“ / când eram mică / un păr / numele (not updated by the reviewer).
+
+### cs-de units 17–20 (A2)
+- Resolved in strict review: month plurals dropped; u19-l2 letter tip confirmed (German lower case after the comma, Czech
+  capital); "Das Paket ist heute angekommen." (was gekommen); Wasch ab! is right, „wäsch“ wrong; u19-l3-e4 now
+  hätte/hatte/habe, no Tablet/Tablett listening item. „Juno“/„Julei“, „zwo“ kept (real phone forms).
+- Still check with the voice: two listen items with digit options (u17-l2-e4 1958, u19-l1-e9 0648); auto-generated
+  listening quiz can still play „das Tablet“ with „podnos“ as an option (vowels differ too, [ˈtɛblət] / [taˈblɛt]).
+- Wording kept (natural, please confirm): "Das kostet zwei Euro Gebühr.", "Wie ist das Passwort?", "Bezahlen Sie bar oder mit Karte?".
