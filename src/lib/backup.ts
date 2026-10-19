@@ -5,7 +5,6 @@
 import { dayKey } from './dates';
 import { allKeys, loadValue, saveValue } from './storage';
 
-// Internal marker in backup files (kept from the app's first name, so older backups still restore).
 export const BACKUP_APP = 'ucime-se-s-elenkou';
 const BACKUP_VERSION = 1;
 
@@ -32,7 +31,7 @@ export function backupToText(backup: Backup): string {
 }
 
 export function backupFileName(backup: Backup): string {
-  return `alenka-zaloha-${backup.createdAt}.json`;
+  return `elenka-zaloha-${backup.createdAt}.json`;
 }
 
 // Reads a backup from text (a file or pasted). Returns null if it isn't one of ours.
