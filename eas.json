@@ -5,9 +5,14 @@
   },
   "build": {
     "preview-ro": {
-      "env": { "APP_VARIANT": "ro" },
+      "env": {
+        "APP_VARIANT": "ro",
+        "EXPO_PUBLIC_CHAT_URL": "https://elenka-chat.elenka-chat.workers.dev"
+      },
       "distribution": "internal",
-      "android": { "buildType": "apk" }
+      "android": {
+        "buildType": "apk"
+      }
     }
   }
 }

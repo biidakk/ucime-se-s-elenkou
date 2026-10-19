@@ -35,14 +35,14 @@ module.exports = ({ config }) => {
     ...config,
     name: 'Cehă pentru români',
     slug: 'czech-ro-app',
-    version: '2.0.0',
+    version: '2.0.1',
     scheme: 'cehaapp',
     icon: './assets/ro/icon.png',
     ios: { ...config.ios, bundleIdentifier: 'com.biidakk.cehapentruromani' },
     android: {
       ...config.android,
       package: 'com.biidakk.cehapentruromani',
-      versionCode: 3, // the old app's last build was 2
+      versionCode: 4, // the old app's last build was 2; 2.0.0 was 3
       adaptiveIcon: {
         backgroundColor: '#E6F4FE',
         foregroundImage: './assets/ro/android-icon-foreground.png',
