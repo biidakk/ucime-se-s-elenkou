@@ -1,0 +1,517 @@
+{
+  "id": "u6",
+  "level": "A1",
+  "title": "Familia",
+  "titleTarget": "Rodina",
+  "description": "Cum vorbești despre familia ta.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u6-l1",
+      "title": "Mama, tata și frații",
+      "titleTarget": "Moje rodina",
+      "reviewed": false,
+      "tip": {
+        "title": "„Meu” și „mea” în cehă",
+        "text": "Româna schimbă „meu” în „mea” după gen: fratele meu, sora mea. Ceha face la fel: můj pentru masculin (můj bratr, můj táta) și moje pentru feminin (moje sestra, moje máma). Și cuvântul „rudă” din română vine din slavă, din aceeași rădăcină ca rodina (familie).",
+        "examples": [
+          {
+            "target": "To je můj bratr.",
+            "native": "El e fratele meu."
+          },
+          {
+            "target": "To je moje sestra.",
+            "native": "Ea e sora mea."
+          },
+          {
+            "target": "To je moje máma.",
+            "native": "Ea e mama mea."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u6-l1-w1",
+          "target": "rodina",
+          "native": "familie",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w2",
+          "target": "máma",
+          "native": "mama",
+          "note": "Mai formal: matka.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w3",
+          "target": "táta",
+          "native": "tata",
+          "note": "Mai formal: otec.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w4",
+          "target": "bratr",
+          "native": "frate",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w5",
+          "target": "sestra",
+          "native": "soră",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w6",
+          "target": "můj / moje",
+          "native": "meu / mea",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w7",
+          "target": "To je moje máma.",
+          "native": "Ea e mama mea.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "sestra",
+          "questionLang": "target",
+          "options": [
+            "soră",
+            "frate",
+            "mamă"
+          ],
+          "answer": "soră",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "bratr",
+              "native": "frate"
+            },
+            {
+              "target": "sestra",
+              "native": "soră"
+            },
+            {
+              "target": "táta",
+              "native": "tata"
+            },
+            {
+              "target": "rodina",
+              "native": "familie"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "fratele meu",
+          "questionLang": "native",
+          "options": [
+            "můj bratr",
+            "moje bratr",
+            "můj bratra"
+          ],
+          "answer": "můj bratr",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "To je moje sestra.",
+          "options": [
+            "Ea e sora mea.",
+            "El e fratele meu.",
+            "Ea e mama mea."
+          ],
+          "answer": "Ea e sora mea.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "To je můj táta.",
+          "options": [
+            "To je můj táta.",
+            "To je můj bratr.",
+            "To je moje máma."
+          ],
+          "answer": "To je můj táta.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "familie",
+          "answer": "rodina",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Ea e mama mea.",
+          "answer": "To je moje máma.",
+          "accept": [
+            "To je moje matka."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u6-l2",
+      "title": "Ai copii?",
+      "titleTarget": "Máte děti?",
+      "reviewed": false,
+      "tip": {
+        "title": "„N-am” și în cehă",
+        "text": "„A avea” în cehă: mám (am), máš (ai), máte (aveți). Negația se lipește de verb, exact ca în română când spui „n-am”: nemám = n-am, nemáte = n-aveți. Nu se scrie despărțit: nemám, nu „ne mám”.",
+        "examples": [
+          {
+            "target": "Mám dvě děti.",
+            "native": "Am doi copii."
+          },
+          {
+            "target": "Nemám děti.",
+            "native": "N-am copii."
+          },
+          {
+            "target": "Máte děti?",
+            "native": "Aveți copii?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u6-l2-w1",
+          "target": "Máte děti?",
+          "native": "Aveți copii?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w2",
+          "target": "dítě / děti",
+          "native": "copil / copii",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w3",
+          "target": "syn",
+          "native": "fiu",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w4",
+          "target": "dcera",
+          "native": "fiică",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w5",
+          "target": "Mám syna a dceru.",
+          "native": "Am un fiu și o fiică.",
+          "note": "După „mám”, syn devine syna și dcera devine dceru.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w6",
+          "target": "Nemám děti.",
+          "native": "N-am copii.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w7",
+          "target": "manžel",
+          "native": "soț",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w8",
+          "target": "manželka",
+          "native": "soție",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Máte děti?",
+          "questionLang": "target",
+          "options": [
+            "Aveți copii?",
+            "Aveți frați?",
+            "Câți ani aveți?"
+          ],
+          "answer": "Aveți copii?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "syn",
+              "native": "fiu"
+            },
+            {
+              "target": "dcera",
+              "native": "fiică"
+            },
+            {
+              "target": "manžel",
+              "native": "soț"
+            },
+            {
+              "target": "manželka",
+              "native": "soție"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "N-am copii.",
+          "questionLang": "native",
+          "options": [
+            "Nemám děti.",
+            "Ne mám děti.",
+            "Mám ne děti."
+          ],
+          "answer": "Nemám děti.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mám syna a dceru.",
+          "options": [
+            "Am un fiu și o fiică.",
+            "Am doi fii.",
+            "N-am copii."
+          ],
+          "answer": "Am un fiu și o fiică.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "To je můj manžel.",
+          "options": [
+            "To je můj manžel.",
+            "To je můj syn.",
+            "To je můj bratr."
+          ],
+          "answer": "To je můj manžel.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "fiică",
+          "answer": "dcera",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Aveți copii?",
+          "answer": "Máte děti?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u6-l3",
+      "title": "Bunici, unchi și mătuși",
+      "titleTarget": "Babička a dědeček",
+      "reviewed": false,
+      "tip": {
+        "title": "Diminutive peste tot",
+        "text": "Și românii, și cehii folosesc des diminutive: mamă → mămica, bunic → bunicuț. În cehă, bába → babička (bunica), děda → dědeček (bunicul), máma → maminka (mămica). Terminațiile -ička, -eček, -inka sunt ca „-uța”, „-ică” din română. Formele cu diminutiv sunt cele normale pentru bunici.",
+        "examples": [
+          {
+            "target": "To je moje babička.",
+            "native": "Ea e bunica mea."
+          },
+          {
+            "target": "To je můj dědeček.",
+            "native": "El e bunicul meu."
+          },
+          {
+            "target": "Moje maminka je doma.",
+            "native": "Mămica mea e acasă."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u6-l3-w1",
+          "target": "babička",
+          "native": "bunică",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w2",
+          "target": "dědeček",
+          "native": "bunic",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w3",
+          "target": "prarodiče",
+          "native": "bunici",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w4",
+          "target": "maminka",
+          "native": "mămica",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w5",
+          "target": "strýc",
+          "native": "unchi",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w6",
+          "target": "teta",
+          "native": "mătușă",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w7",
+          "target": "Máme velkou rodinu.",
+          "native": "Avem o familie mare.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "babička",
+          "questionLang": "target",
+          "options": [
+            "bunică",
+            "mătușă",
+            "mămica"
+          ],
+          "answer": "bunică",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "strýc",
+              "native": "unchi"
+            },
+            {
+              "target": "teta",
+              "native": "mătușă"
+            },
+            {
+              "target": "dědeček",
+              "native": "bunic"
+            },
+            {
+              "target": "prarodiče",
+              "native": "bunici"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e3",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "maminka",
+          "questionLang": "target",
+          "options": [
+            "mămica",
+            "bunica",
+            "mătușa"
+          ],
+          "answer": "mămica",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Máme velkou rodinu.",
+          "options": [
+            "Avem o familie mare.",
+            "Avem o casă mare.",
+            "Familia e mică."
+          ],
+          "answer": "Avem o familie mare.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "To je můj dědeček.",
+          "options": [
+            "To je můj dědeček.",
+            "To je můj strýc.",
+            "To je moje teta."
+          ],
+          "answer": "To je můj dědeček.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "mătușă",
+          "answer": "teta",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "bunică",
+          "answer": "babička",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

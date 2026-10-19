@@ -94,9 +94,9 @@ export default {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors });
     if (request.method !== 'POST') return json({ error: 'method' }, 405, cors);
 
-    // Only the app's pages, and only with the family code.
+    // Only the app's pages (the native Android app sends no Origin), and only with the family code.
     const allowed = env.ALLOWED_ORIGINS.split(',').map((o) => o.trim());
-    if (!origin || !allowed.includes(origin)) return json({ error: 'origin' }, 403, cors);
+    if (origin && !allowed.includes(origin)) return json({ error: 'origin' }, 403, cors);
     if (!env.FAMILY_CODE || request.headers.get('X-Family-Code') !== env.FAMILY_CODE) {
       return json({ error: 'code' }, 401, cors);
     }

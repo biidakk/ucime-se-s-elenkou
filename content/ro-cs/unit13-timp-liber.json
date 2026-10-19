@@ -1,0 +1,522 @@
+{
+  "id": "u13",
+  "level": "A1",
+  "title": "Timp liber",
+  "titleTarget": "Volný čas",
+  "description": "Ce-ți place să faci, sport, muzică și planuri cu prietenii.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u13-l1",
+      "title": "Îmi place să…",
+      "titleTarget": "Ráda čtu",
+      "reviewed": false,
+      "tip": {
+        "title": "Ráda + verb = „îmi place să…”",
+        "text": "Româna spune „îmi place să citesc”. Ceha are un cuvânt special: rád (pentru bărbați) sau ráda (pentru femei), pus înaintea verbului. Ráda čtu = Îmi place să citesc (literal: „bucuroasă citesc”). Negația se lipește în față: nerada = nu-mi place. Unui bărbat îi spui: Co rád děláš?",
+        "examples": [
+          {
+            "target": "Ráda čtu.",
+            "native": "Îmi place să citesc."
+          },
+          {
+            "target": "Ráda vařím.",
+            "native": "Îmi place să gătesc."
+          },
+          {
+            "target": "Nerada uklízím.",
+            "native": "Nu-mi place să fac curat."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u13-l1-w1",
+          "target": "Ráda čtu.",
+          "native": "Îmi place să citesc.",
+          "note": "Un bărbat spune: Rád čtu.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w2",
+          "target": "Ráda vařím.",
+          "native": "Îmi place să gătesc.",
+          "note": "Un bărbat spune: Rád vařím.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w3",
+          "target": "Ráda tancuju.",
+          "native": "Îmi place să dansez.",
+          "note": "Mai formal: tancuji.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w4",
+          "target": "Nerada uklízím.",
+          "native": "Nu-mi place să fac curat.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w5",
+          "target": "Co ráda děláš?",
+          "native": "Ce-ți place să faci?",
+          "note": "Unui bărbat: Co rád děláš?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w6",
+          "target": "volný čas",
+          "native": "timp liber",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-w7",
+          "target": "koníček",
+          "native": "hobby",
+          "note": "Literal: „căluț”. Se spune și hobby.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u13-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Ráda vařím.",
+          "questionLang": "target",
+          "options": [
+            "Îmi place să gătesc.",
+            "Îmi place să citesc.",
+            "Nu-mi place să gătesc."
+          ],
+          "answer": "Îmi place să gătesc.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "koníček",
+              "native": "hobby"
+            },
+            {
+              "target": "volný čas",
+              "native": "timp liber"
+            },
+            {
+              "target": "čtu",
+              "native": "citesc"
+            },
+            {
+              "target": "vařím",
+              "native": "gătesc"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e3",
+          "type": "choice",
+          "prompt": "O femeie spune:",
+          "question": "Îmi place să citesc.",
+          "questionLang": "native",
+          "options": [
+            "Ráda čtu.",
+            "Rád čtu.",
+            "Ráda čte."
+          ],
+          "answer": "Ráda čtu.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Nerada uklízím.",
+          "options": [
+            "Nu-mi place să fac curat.",
+            "Îmi place să fac curat.",
+            "Nu-mi place să gătesc."
+          ],
+          "answer": "Nu-mi place să fac curat.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Ráda tancuju.",
+          "options": [
+            "Ráda tancuju.",
+            "Ráda čtu.",
+            "Ráda vařím."
+          ],
+          "answer": "Ráda tancuju.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "hobby",
+          "answer": "koníček",
+          "accept": [
+            "hobby"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u13-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă (vorbește o femeie)",
+          "question": "Îmi place să citesc.",
+          "answer": "Ráda čtu.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u13-l2",
+      "title": "Sport și muzică",
+      "titleTarget": "Sport a hudba",
+      "reviewed": false,
+      "tip": {
+        "title": "Joc tenis, dar cânt LA chitară",
+        "text": "În română „joci” un sport, dar „cânți la” un instrument. Ceha face exact la fel cu verbul hrát: Hraju tenis (fără nimic), dar Hraju na kytaru (cu „na”, ca „la” din română). kytara devine kytaru după „na”, iar hudba devine hudbu după „poslouchám”.",
+        "examples": [
+          {
+            "target": "Hraju tenis.",
+            "native": "Joc tenis."
+          },
+          {
+            "target": "Hraju na kytaru.",
+            "native": "Cânt la chitară."
+          },
+          {
+            "target": "Ráda poslouchám hudbu.",
+            "native": "Îmi place să ascult muzică."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u13-l2-w1",
+          "target": "Hraju tenis.",
+          "native": "Joc tenis.",
+          "note": "Mai formal: hraji.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w2",
+          "target": "Hraju na kytaru.",
+          "native": "Cânt la chitară.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w3",
+          "target": "Chodím plavat.",
+          "native": "Merg la înot.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w4",
+          "target": "Ráda běhám.",
+          "native": "Îmi place să alerg.",
+          "note": "Un bărbat spune: Rád běhám.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w5",
+          "target": "Ráda poslouchám hudbu.",
+          "native": "Îmi place să ascult muzică.",
+          "note": "Un bărbat spune: Rád poslouchám hudbu.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w6",
+          "target": "hudba",
+          "native": "muzică",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-w7",
+          "target": "písnička",
+          "native": "cântec",
+          "note": "Mai formal: píseň.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u13-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Hraju na kytaru.",
+          "questionLang": "target",
+          "options": [
+            "Cânt la chitară.",
+            "Joc tenis.",
+            "Ascult muzică."
+          ],
+          "answer": "Cânt la chitară.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "hudba",
+              "native": "muzică"
+            },
+            {
+              "target": "písnička",
+              "native": "cântec"
+            },
+            {
+              "target": "kytara",
+              "native": "chitară"
+            },
+            {
+              "target": "plavat",
+              "native": "a înota"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Cânt la pian.",
+          "questionLang": "native",
+          "options": [
+            "Hraju na klavír.",
+            "Hraju klavír.",
+            "Hraju v klavír."
+          ],
+          "answer": "Hraju na klavír.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Chodím plavat.",
+          "options": [
+            "Merg la înot.",
+            "Merg la fotbal.",
+            "Îmi place să alerg."
+          ],
+          "answer": "Merg la înot.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Ráda poslouchám hudbu.",
+          "options": [
+            "Ráda poslouchám hudbu.",
+            "Hraju tenis.",
+            "Ráda běhám."
+          ],
+          "answer": "Ráda poslouchám hudbu.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "muzică",
+          "answer": "hudba",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Joc tenis.",
+          "answer": "Hraju tenis.",
+          "accept": [
+            "Hraji tenis."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u13-l3",
+      "title": "Mergem la film?",
+      "titleTarget": "Půjdeme do kina?",
+      "reviewed": false,
+      "tip": {
+        "title": "„La cinema” = do kina",
+        "text": "Când mergi undeva și intri înăuntru, ceha folosește „do”, iar cuvântul își schimbă terminația: kino → do kina, divadlo → do divadla, práce → do práce. Româna spune simplu „la cinema”, „la teatru”. Iar Půjdeme? înseamnă „Mergem?” despre ceva ce urmează (literal: „Vom merge?”).",
+        "examples": [
+          {
+            "target": "Půjdeme do kina?",
+            "native": "Mergem la cinema?"
+          },
+          {
+            "target": "Máš dnes večer čas?",
+            "native": "Ai timp diseară?"
+          },
+          {
+            "target": "Bohužel nemůžu.",
+            "native": "Din păcate nu pot."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u13-l3-w1",
+          "target": "Půjdeme do kina?",
+          "native": "Mergem la cinema?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w2",
+          "target": "Máš čas?",
+          "native": "Ai timp?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w3",
+          "target": "dnes večer",
+          "native": "diseară",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w4",
+          "target": "divadlo",
+          "native": "teatru",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w5",
+          "target": "Ráda.",
+          "native": "Da, cu drag.",
+          "note": "Un bărbat spune: Rád.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w6",
+          "target": "Bohužel nemůžu.",
+          "native": "Din păcate nu pot.",
+          "note": "Mai formal: nemohu.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-w7",
+          "target": "Kdy a kde?",
+          "native": "Când și unde?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u13-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Půjdeme do kina?",
+          "questionLang": "target",
+          "options": [
+            "Mergem la cinema?",
+            "Mergem la teatru?",
+            "Ai timp diseară?"
+          ],
+          "answer": "Mergem la cinema?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "divadlo",
+              "native": "teatru"
+            },
+            {
+              "target": "kino",
+              "native": "cinema"
+            },
+            {
+              "target": "dnes večer",
+              "native": "diseară"
+            },
+            {
+              "target": "bohužel",
+              "native": "din păcate"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Mergem la teatru?",
+          "questionLang": "native",
+          "options": [
+            "Půjdeme do divadla?",
+            "Půjdeme do divadlo?",
+            "Půjdeme v divadle?"
+          ],
+          "answer": "Půjdeme do divadla?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Bohužel nemůžu.",
+          "options": [
+            "Din păcate nu pot.",
+            "Da, cu drag.",
+            "Când și unde?"
+          ],
+          "answer": "Din păcate nu pot.",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Máš dnes večer čas?",
+          "options": [
+            "Máš dnes večer čas?",
+            "Máš zítra čas?",
+            "Máš čas v sobotu?"
+          ],
+          "answer": "Máš dnes večer čas?",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "teatru",
+          "answer": "divadlo",
+          "reviewed": false
+        },
+        {
+          "id": "u13-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Ai timp?",
+          "answer": "Máš čas?",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "id": "u24",
+  "level": "A2",
+  "title": "La ghișeu",
+  "titleTarget": "Na úřadě",
+  "description": "Formulare, bancă, poștă, asigurare de sănătate și biroul pentru străini.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u24-l1",
+      "title": "Formularul",
+      "titleTarget": "Formulář",
+      "reviewed": false,
+      "tip": {
+        "title": "Capcana cuvântului „jméno”",
+        "text": "Pe formularele cehe, jméno înseamnă prenumele (Ana), iar příjmení e numele de familie (Popescu). Atenție: în română, „nume” pe un formular e de obicei numele de familie! Mai vezi datum narození (data nașterii), adresa și podpis (semnătura). S-ar putea să auzi și „paní Popescová”: cehii adaugă uneori -ová la numele femeilor.",
+        "examples": [
+          {
+            "target": "Jaké je vaše příjmení?",
+            "native": "Care e numele dumneavoastră de familie?"
+          },
+          {
+            "target": "Vyplňte tento formulář.",
+            "native": "Completați acest formular."
+          },
+          {
+            "target": "Podepište se tady.",
+            "native": "Semnați aici."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u24-l1-w1",
+          "target": "jméno",
+          "native": "prenume",
+          "note": "Atenție: nu „nume de familie”.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w2",
+          "target": "příjmení",
+          "native": "nume de familie",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w3",
+          "target": "datum narození",
+          "native": "data nașterii",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w4",
+          "target": "adresa",
+          "native": "adresă",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w5",
+          "target": "podpis",
+          "native": "semnătură",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w6",
+          "target": "formulář",
+          "native": "formular",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w7",
+          "target": "Vyplňte tento formulář.",
+          "native": "Completați acest formular.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-w8",
+          "target": "Podepište se tady.",
+          "native": "Semnați aici.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u24-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "příjmení",
+          "questionLang": "target",
+          "options": [
+            "nume de familie",
+            "prenume",
+            "semnătură"
+          ],
+          "answer": "nume de familie",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "jméno",
+              "native": "prenume"
+            },
+            {
+              "target": "adresa",
+              "native": "adresă"
+            },
+            {
+              "target": "podpis",
+              "native": "semnătură"
+            },
+            {
+              "target": "datum narození",
+              "native": "data nașterii"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Vyplňte ___ formulář.",
+          "translation": "Completați acest formular.",
+          "options": [
+            "tento",
+            "tato",
+            "toto"
+          ],
+          "answer": "tento",
+          "explain": "Formulář e masculin, deci „tento” (acest). „Tato” e pentru feminin (tato adresa), „toto” pentru neutru.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Semnați aici.",
+          "answer": "Podepište se tady.",
+          "extra": [
+            "podpis"
+          ],
+          "accept": [
+            "Tady se podepište."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jaké je vaše příjmení?",
+          "options": [
+            "Care e numele dumneavoastră de familie?",
+            "Care e adresa dumneavoastră?",
+            "Când v-ați născut?"
+          ],
+          "answer": "Care e numele dumneavoastră de familie?",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Kde bydlíte?",
+          "questionLang": "target",
+          "options": [
+            "V Brně, Masarykova deset.",
+            "Popescu.",
+            "Podpis je tady."
+          ],
+          "answer": "V Brně, Masarykova deset.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l1-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Moje příjmení je Popescu.",
+          "reviewed": false,
+          "native": "Numele meu de familie e Popescu."
+        },
+        {
+          "id": "u24-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "semnătură",
+          "answer": "podpis",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u24-l2",
+      "title": "La bancă și la poștă",
+      "titleTarget": "V bance a na poště",
+      "reviewed": false,
+      "tip": {
+        "title": "„La” poștă, dar „în” bancă",
+        "text": "Româna spune „la poștă” și „la bancă”, la fel pentru amândouă. Ceha alege diferit: unele locuri merg cu na (na poště, na úřadě, na nádraží), altele cu v (v bance, v obchodě). Regula nu e logică, așa că învață locul împreună cu prepoziția. Încotro: na poštu, do banky.",
+        "examples": [
+          {
+            "target": "Jdu na poštu.",
+            "native": "Merg la poștă."
+          },
+          {
+            "target": "Jsem v bance.",
+            "native": "Sunt la bancă."
+          },
+          {
+            "target": "Chci si otevřít účet.",
+            "native": "Vreau să-mi deschid un cont."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u24-l2-w1",
+          "target": "účet",
+          "native": "cont (bancar)",
+          "note": "Tot „účet” e și nota de plată la restaurant.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w2",
+          "target": "Chci si otevřít účet.",
+          "native": "Vreau să-mi deschid un cont.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w3",
+          "target": "převod",
+          "native": "transfer (bancar)",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w4",
+          "target": "platební karta",
+          "native": "card de plată",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w5",
+          "target": "pošta",
+          "native": "poștă",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w6",
+          "target": "balík",
+          "native": "colet",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w7",
+          "target": "doporučený dopis",
+          "native": "scrisoare recomandată",
+          "note": "La ghișeu se spune și: Chci to poslat doporučeně.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-w8",
+          "target": "známka",
+          "native": "timbru",
+          "note": "Înseamnă și „notă” la școală.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u24-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "balík",
+          "questionLang": "target",
+          "options": [
+            "colet",
+            "scrisoare",
+            "timbru"
+          ],
+          "answer": "colet",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "převod",
+              "native": "transfer"
+            },
+            {
+              "target": "dopis",
+              "native": "scrisoare"
+            },
+            {
+              "target": "známka",
+              "native": "timbru"
+            },
+            {
+              "target": "účet",
+              "native": "cont"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Jdu ___ poštu.",
+          "translation": "Merg la poștă.",
+          "options": [
+            "na",
+            "do",
+            "k"
+          ],
+          "answer": "na",
+          "explain": "Cu poșta, ceha folosește „na”: na poštu (încotro), na poště (unde). „Do” și „k” ar cere alte terminații (do pošty, k poště).",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Vreau să-mi deschid un cont.",
+          "answer": "Chci si otevřít účet.",
+          "extra": [
+            "účtu"
+          ],
+          "accept": [
+            "Chci si účet otevřít."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kolik stojí známka do Rumunska?",
+          "options": [
+            "Cât costă un timbru pentru România?",
+            "Cât costă un colet pentru România?",
+            "Unde e poșta?"
+          ],
+          "answer": "Cât costă un timbru pentru România?",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Co si přejete?",
+          "questionLang": "target",
+          "options": [
+            "Chci poslat balík do Rumunska.",
+            "Je zima.",
+            "Ztratila jsem pas."
+          ],
+          "answer": "Chci poslat balík do Rumunska.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Chci poslat dopis.",
+          "reviewed": false,
+          "native": "Vreau să trimit o scrisoare."
+        },
+        {
+          "id": "u24-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "colet",
+          "answer": "balík",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u24-l3",
+      "title": "Asigurarea și biroul pentru străini",
+      "titleTarget": "Pojišťovna a cizinecká policie",
+      "reviewed": false,
+      "tip": {
+        "title": "Asigurare ← sigur, pojištění ← jistý",
+        "text": "„Asigurare” vine din „sigur”, iar ceha a făcut la fel: pojištění vine din jistý (sigur). Kartička pojištěnce e cardul de asigurat: îl arăți la fiecare medic. Pentru actele de ședere, cehii spun colocvial „cizinecká policie” (poliția pentru străini); oficial e un birou al Ministerului de Interne. Ca să nu aștepți mult, cere un termín (programare).",
+        "examples": [
+          {
+            "target": "Tady je moje kartička pojištěnce.",
+            "native": "Poftiți cardul meu de asigurat."
+          },
+          {
+            "target": "Mám termín na deset hodin.",
+            "native": "Am o programare la ora zece."
+          },
+          {
+            "target": "Potřebuju potvrzení o pobytu.",
+            "native": "Am nevoie de o adeverință de ședere."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u24-l3-w1",
+          "target": "pojišťovna",
+          "native": "casa de asigurări",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w2",
+          "target": "zdravotní pojištění",
+          "native": "asigurare de sănătate",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w3",
+          "target": "kartička pojištěnce",
+          "native": "cardul de asigurat",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w4",
+          "target": "cizinecká policie",
+          "native": "biroul pentru străini",
+          "note": "Denumire colocvială; oficial e un birou al Ministerului de Interne.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w5",
+          "target": "pobyt",
+          "native": "ședere",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w6",
+          "target": "potvrzení o pobytu",
+          "native": "adeverință de ședere",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w7",
+          "target": "občanský průkaz",
+          "native": "carte de identitate",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-w8",
+          "target": "termín",
+          "native": "programare",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u24-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "občanský průkaz",
+          "questionLang": "target",
+          "options": [
+            "carte de identitate",
+            "pașaport",
+            "card de asigurat"
+          ],
+          "answer": "carte de identitate",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pojišťovna",
+              "native": "casa de asigurări"
+            },
+            {
+              "target": "pobyt",
+              "native": "ședere"
+            },
+            {
+              "target": "termín",
+              "native": "programare"
+            },
+            {
+              "target": "potvrzení",
+              "native": "adeverință"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Tady je moje ___ pojištěnce.",
+          "translation": "Poftiți cardul meu de asigurat.",
+          "options": [
+            "kartička",
+            "kartičku",
+            "kartičky"
+          ],
+          "answer": "kartička",
+          "explain": "După „tady je” stă forma de dicționar (nominativ): kartička. „Kartičku” ar veni după „mám” sau „potřebuju”.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am o programare la ora zece.",
+          "answer": "Mám termín na deset hodin.",
+          "extra": [
+            "v"
+          ],
+          "accept": [
+            "Na deset hodin mám termín."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Máte zdravotní pojištění?",
+          "options": [
+            "Aveți asigurare de sănătate?",
+            "Aveți carte de identitate?",
+            "Aveți o programare?"
+          ],
+          "answer": "Aveți asigurare de sănătate?",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Máte občanský průkaz?",
+          "questionLang": "target",
+          "options": [
+            "Ano, tady je.",
+            "Na dvě noci.",
+            "Je mi špatně."
+          ],
+          "answer": "Ano, tady je.",
+          "reviewed": false
+        },
+        {
+          "id": "u24-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Potřebuju potvrzení o pobytu.",
+          "reviewed": false,
+          "native": "Am nevoie de o adeverință de ședere."
+        },
+        {
+          "id": "u24-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "programare",
+          "answer": "termín",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

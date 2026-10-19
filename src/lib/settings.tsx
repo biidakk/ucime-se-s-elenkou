@@ -1,5 +1,7 @@
+import Constants from 'expo-constants';
 import { createContext, ReactNode, useCallback, useContext, useEffect, useState } from 'react';
 import { CourseId, isCourseId, LanguageCode, UI_LANGUAGES, UiLanguage } from './languages';
+import { importLegacyProgress } from './legacyImport';
 import { loadValue, saveValue } from './storage';
 
 // The user's choices, saved on the phone: languages, speech speed, microphone exercises.
@@ -35,6 +37,9 @@ const DEFAULTS: Settings = {
 // Keep only valid values (the stored data may come from an older version or a backup).
 function clean(saved: Partial<Settings>): Settings {
   const merged = { ...DEFAULTS, ...saved };
+  // The Android app for Romanian speakers starts in Romanian (app.config.js, extra.defaultNative).
+  const defaultNative = Constants.expoConfig?.extra?.defaultNative as UiLanguage | undefined;
+  if (!merged.nativeLanguage && defaultNative && UI_LANGUAGES.includes(defaultNative)) merged.nativeLanguage = defaultNative;
   if (merged.nativeLanguage && !UI_LANGUAGES.includes(merged.nativeLanguage)) merged.nativeLanguage = null;
   if (merged.courseId && !isCourseId(merged.courseId)) merged.courseId = null;
   if (!merged.nativeLanguage || !merged.courseId) merged.onboarded = false;
@@ -57,6 +62,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [settings, setSettings] = useState<Settings>(DEFAULTS);
 
   const reload = useCallback(async () => {
+    await importLegacyProgress().catch(() => {}); // the old Romanian app's progress, once
     const saved = await loadValue<Partial<Settings>>(SETTINGS_KEY, {});
     setSettings(clean(saved));
     setLoaded(true);

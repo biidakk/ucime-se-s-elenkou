@@ -1,0 +1,572 @@
+{
+  "id": "u23",
+  "level": "A2",
+  "title": "Călătorii",
+  "titleTarget": "Na cestách",
+  "description": "Bilete de tren, hotel și ajutor pe drum.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u23-l1",
+      "title": "La casa de bilete",
+      "titleTarget": "Na nádraží",
+      "reviewed": false,
+      "tip": {
+        "title": "Un bilet „do Brna”",
+        "text": "În română spui „un bilet la Brno” sau „spre Brno”. Ceha folosește do + genitiv, iar orașul își schimbă terminația, ca în „biletul Mariei”: Brno → do Brna, Praha → do Prahy, Ostrava → do Ostravy. Și biletul își schimbă forma după „chci” sau „prosím”: jedna jízdenka → jednu jízdenku.",
+        "examples": [
+          {
+            "target": "Jednu jízdenku do Brna, prosím.",
+            "native": "Un bilet la Brno, vă rog."
+          },
+          {
+            "target": "Zpáteční, prosím.",
+            "native": "Dus-întors, vă rog."
+          },
+          {
+            "target": "Ze kterého nástupiště to jede?",
+            "native": "De la ce peron pleacă?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u23-l1-w1",
+          "target": "Jednu jízdenku do Brna, prosím.",
+          "native": "Un bilet la Brno, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w2",
+          "target": "jednosměrná jízdenka",
+          "native": "bilet doar dus",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w3",
+          "target": "zpáteční jízdenka",
+          "native": "bilet dus-întors",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w4",
+          "target": "místenka",
+          "native": "loc rezervat (tichet de rezervare)",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w5",
+          "target": "nástupiště",
+          "native": "peron",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w6",
+          "target": "kolej",
+          "native": "linie (de tren)",
+          "note": "Pe panou vezi de exemplu: nástupiště 2, kolej 5.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w7",
+          "target": "zpoždění",
+          "native": "întârziere",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-w8",
+          "target": "Vlak má zpoždění.",
+          "native": "Trenul are întârziere.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u23-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "zpáteční jízdenka",
+          "questionLang": "target",
+          "options": [
+            "bilet dus-întors",
+            "bilet doar dus",
+            "loc rezervat"
+          ],
+          "answer": "bilet dus-întors",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "místenka",
+              "native": "loc rezervat"
+            },
+            {
+              "target": "nástupiště",
+              "native": "peron"
+            },
+            {
+              "target": "zpoždění",
+              "native": "întârziere"
+            },
+            {
+              "target": "kolej",
+              "native": "linie"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Jednu jízdenku do ___, prosím.",
+          "translation": "Un bilet la Praga, vă rog.",
+          "options": [
+            "Prahy",
+            "Praha",
+            "Praze"
+          ],
+          "answer": "Prahy",
+          "explain": "După „do” vine genitivul: Praha → do Prahy. „V Praze” înseamnă „în Praga”.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Trenul are întârziere.",
+          "answer": "Vlak má zpoždění.",
+          "extra": [
+            "je"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Ze kterého nástupiště to jede?",
+          "options": [
+            "De la ce peron pleacă?",
+            "Când pleacă trenul?",
+            "Cât costă biletul?"
+          ],
+          "answer": "De la ce peron pleacă?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Jednosměrnou, nebo zpáteční?",
+          "questionLang": "target",
+          "options": [
+            "Zpáteční, prosím.",
+            "Na nástupišti.",
+            "Vlak má zpoždění."
+          ],
+          "answer": "Zpáteční, prosím.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l1-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Jednu jízdenku do Brna, prosím.",
+          "reviewed": false,
+          "native": "Un bilet la Brno, vă rog."
+        },
+        {
+          "id": "u23-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "peron",
+          "answer": "nástupiště",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u23-l2",
+      "title": "La hotel",
+      "titleTarget": "V hotelu",
+      "reviewed": false,
+      "tip": {
+        "title": "„Am o rezervare” fără „o”",
+        "text": "Ceha nu are articole, deci „am o rezervare” devine simplu Mám rezervaci. Atenție la terminație: după „mám” vine acuzativul, rezervace → rezervaci, la fel ca „Dám si kávu”. Iar „pe numele” se spune na jméno.",
+        "examples": [
+          {
+            "target": "Mám rezervaci na jméno Popescu.",
+            "native": "Am o rezervare pe numele Popescu."
+          },
+          {
+            "target": "Máte volný pokoj?",
+            "native": "Aveți o cameră liberă?"
+          },
+          {
+            "target": "Je snídaně v ceně?",
+            "native": "Micul dejun e inclus în preț?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u23-l2-w1",
+          "target": "rezervace",
+          "native": "rezervare",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w2",
+          "target": "Mám rezervaci na jméno Popescu.",
+          "native": "Am o rezervare pe numele Popescu.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w3",
+          "target": "Máte volný pokoj?",
+          "native": "Aveți o cameră liberă?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w4",
+          "target": "pokoj pro dva",
+          "native": "cameră pentru doi",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w5",
+          "target": "na dvě noci",
+          "native": "pentru două nopți",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w6",
+          "target": "snídaně",
+          "native": "micul dejun",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w7",
+          "target": "Je snídaně v ceně?",
+          "native": "Micul dejun e inclus în preț?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-w8",
+          "target": "recepce",
+          "native": "recepție",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u23-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "snídaně",
+          "questionLang": "target",
+          "options": [
+            "micul dejun",
+            "cina",
+            "recepție"
+          ],
+          "answer": "micul dejun",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "rezervace",
+              "native": "rezervare"
+            },
+            {
+              "target": "recepce",
+              "native": "recepție"
+            },
+            {
+              "target": "pokoj pro dva",
+              "native": "cameră pentru doi"
+            },
+            {
+              "target": "na dvě noci",
+              "native": "pentru două nopți"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Mám ___ na jméno Popescu.",
+          "translation": "Am o rezervare pe numele Popescu.",
+          "options": [
+            "rezervaci",
+            "rezervace",
+            "rezervací"
+          ],
+          "answer": "rezervaci",
+          "explain": "După „mám” vine acuzativul: rezervace → rezervaci, ca în „Dám si kávu”.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Aveți o cameră liberă?",
+          "answer": "Máte volný pokoj?",
+          "extra": [
+            "volná"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Je snídaně v ceně?",
+          "options": [
+            "Micul dejun e inclus în preț?",
+            "La ce oră e micul dejun?",
+            "Unde e recepția?"
+          ],
+          "answer": "Micul dejun e inclus în preț?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Na kolik nocí?",
+          "questionLang": "target",
+          "options": [
+            "Na dvě noci.",
+            "Pro dva.",
+            "V osm hodin."
+          ],
+          "answer": "Na dvě noci.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Mám rezervaci.",
+          "reviewed": false,
+          "native": "Am o rezervare."
+        },
+        {
+          "id": "u23-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "recepție",
+          "answer": "recepce",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u23-l3",
+      "title": "Ajutor pe drum",
+      "titleTarget": "Pomoc na cestě",
+      "reviewed": false,
+      "tip": {
+        "title": "„Mi-au furat…” și în cehă",
+        "text": "Româna spune „mi-au furat portofelul” fără să zică cine. Ceha face la fel: Ukradli mi peněženku (forma de plural, „ei”). Iar „mi-a plecat trenul” are și el pereche: Ujel mi vlak. Când vorbești despre tine la trecut, ca femeie folosești -la: Ztratila jsem pas.",
+        "examples": [
+          {
+            "target": "Ztratila jsem pas.",
+            "native": "Mi-am pierdut pașaportul."
+          },
+          {
+            "target": "Ukradli mi peněženku.",
+            "native": "Mi-au furat portofelul."
+          },
+          {
+            "target": "Ujel mi vlak.",
+            "native": "Am pierdut trenul."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u23-l3-w1",
+          "target": "Ztratila jsem pas.",
+          "native": "Mi-am pierdut pașaportul.",
+          "note": "Un bărbat spune: Ztratil jsem pas.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w2",
+          "target": "pas",
+          "native": "pașaport",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w3",
+          "target": "peněženka",
+          "native": "portofel",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w4",
+          "target": "Ukradli mi peněženku.",
+          "native": "Mi-au furat portofelul.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w5",
+          "target": "Ujel mi vlak.",
+          "native": "Am pierdut trenul.",
+          "note": "Literal: „Mi-a plecat trenul.”",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w6",
+          "target": "zavazadlo",
+          "native": "bagaj",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w7",
+          "target": "Můžete mi pomoct?",
+          "native": "Mă puteți ajuta?",
+          "note": "Mai formal: Můžete mi pomoci?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-w8",
+          "target": "policie",
+          "native": "poliție",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u23-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "peněženka",
+          "questionLang": "target",
+          "options": [
+            "portofel",
+            "pașaport",
+            "bagaj"
+          ],
+          "answer": "portofel",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pas",
+              "native": "pașaport"
+            },
+            {
+              "target": "zavazadlo",
+              "native": "bagaj"
+            },
+            {
+              "target": "policie",
+              "native": "poliție"
+            },
+            {
+              "target": "Ujel mi vlak.",
+              "native": "Am pierdut trenul."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "___ jsem pas.",
+          "translation": "Mi-am pierdut pașaportul. (vorbește o femeie)",
+          "options": [
+            "Ztratila",
+            "Ztratil",
+            "Ztratili"
+          ],
+          "answer": "Ztratila",
+          "explain": "La trecut, femeia folosește -la: ztratila, byla, měla. Un bărbat spune „ztratil”.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Mi-au furat portofelul.",
+          "answer": "Ukradli mi peněženku.",
+          "extra": [
+            "peněženka"
+          ],
+          "accept": [
+            "Peněženku mi ukradli."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Můžete mi pomoct?",
+          "options": [
+            "Mă puteți ajuta?",
+            "Mă puteți suna?",
+            "Unde e poliția?"
+          ],
+          "answer": "Mă puteți ajuta?",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e6",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Co se stalo?",
+          "questionLang": "target",
+          "options": [
+            "Ztratila jsem pas.",
+            "Na nástupišti.",
+            "Je snídaně v ceně?"
+          ],
+          "answer": "Ztratila jsem pas.",
+          "reviewed": false
+        },
+        {
+          "id": "u23-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Ujel mi vlak.",
+          "reviewed": false,
+          "native": "Am pierdut trenul."
+        },
+        {
+          "id": "u23-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Mă puteți ajuta?",
+          "answer": "Můžete mi pomoct?",
+          "accept": [
+            "Můžete mi pomoci?"
+          ],
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

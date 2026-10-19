@@ -1,0 +1,507 @@
+{
+  "id": "u5",
+  "level": "A1",
+  "title": "Direcții în oraș",
+  "titleTarget": "Ve městě",
+  "description": "Cum întrebi unde e ceva și cum înțelegi răspunsul.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u5-l1",
+      "title": "Unde este…?",
+      "titleTarget": "Kde je…?",
+      "reviewed": false,
+      "tip": {
+        "title": "Cuvintele de întrebare încep cu k-",
+        "text": "În română multe cuvinte de întrebare încep cu c-: cine, când, cât, care. În cehă, cele mai multe încep cu k-: kdo (cine), kdy (când), kolik (cât), který (care), kde (unde), kam (încotro). Dacă auzi un „k” la începutul unei întrebări, probabil e unul dintre acestea.",
+        "examples": [
+          {
+            "target": "Kde je nádraží?",
+            "native": "Unde e gara?"
+          },
+          {
+            "target": "Kdo je to?",
+            "native": "Cine e?"
+          },
+          {
+            "target": "Kdy jede vlak?",
+            "native": "Când pleacă trenul?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u5-l1-w1",
+          "target": "Kde je…?",
+          "native": "Unde este…?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w2",
+          "target": "Promiňte, kde je nádraží?",
+          "native": "Scuzați-mă, unde e gara?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w3",
+          "target": "stanice metra",
+          "native": "stație de metrou",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w4",
+          "target": "Kde jsou toalety?",
+          "native": "Unde e toaleta?",
+          "note": "Colocvial și „Kde je záchod?”.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w5",
+          "target": "lékárna",
+          "native": "farmacie",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w6",
+          "target": "kdo",
+          "native": "cine",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-w7",
+          "target": "kdy",
+          "native": "când",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Kde je nádraží?",
+          "questionLang": "target",
+          "options": [
+            "Unde e gara?",
+            "Când pleacă trenul?",
+            "Cine e acolo?"
+          ],
+          "answer": "Unde e gara?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "kdo",
+              "native": "cine"
+            },
+            {
+              "target": "kdy",
+              "native": "când"
+            },
+            {
+              "target": "kde",
+              "native": "unde"
+            },
+            {
+              "target": "kolik",
+              "native": "cât"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e3",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kde jsou toalety?",
+          "options": [
+            "Unde e toaleta?",
+            "Unde e farmacia?",
+            "Unde e metroul?"
+          ],
+          "answer": "Unde e toaleta?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e4",
+          "type": "choice",
+          "prompt": "Te doare capul. Ce cauți?",
+          "question": "farmacie",
+          "questionLang": "native",
+          "options": [
+            "lékárna",
+            "nádraží",
+            "stanice metra"
+          ],
+          "answer": "lékárna",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Promiňte, kde je stanice metra?",
+          "options": [
+            "Promiňte, kde je stanice metra?",
+            "Promiňte, kde je nádraží?",
+            "Promiňte, kde je lékárna?"
+          ],
+          "answer": "Promiňte, kde je stanice metra?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Unde e gara?",
+          "answer": "Kde je nádraží?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "cine",
+          "answer": "kdo",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "title": "Stânga, dreapta, înainte",
+      "titleTarget": "Doleva, doprava",
+      "reviewed": false,
+      "tip": {
+        "title": "Capcana cuvântului „drept”",
+        "text": "În română „drept” înseamnă și „la dreapta”, și „înainte” („mergi drept”). Ceha le desparte clar: doprava = la dreapta, rovně = drept înainte. Dacă un ceh îți spune „rovně”, nu cotești nicăieri! Iar doleva = la stânga. „Do-” arată direcția, ca „la” din română.",
+        "examples": [
+          {
+            "target": "Jděte rovně.",
+            "native": "Mergeți drept înainte."
+          },
+          {
+            "target": "Pak doprava.",
+            "native": "Apoi la dreapta."
+          },
+          {
+            "target": "Na rohu doleva.",
+            "native": "La colț, la stânga."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u5-l2-w1",
+          "target": "doleva",
+          "native": "la stânga",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w2",
+          "target": "doprava",
+          "native": "la dreapta",
+          "note": "Atenție: „doprava” înseamnă și „transport”.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w3",
+          "target": "rovně",
+          "native": "drept înainte",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w4",
+          "target": "Jděte rovně.",
+          "native": "Mergeți drept înainte.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w5",
+          "target": "na rohu",
+          "native": "la colț",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w6",
+          "target": "Je to daleko?",
+          "native": "E departe?",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-w7",
+          "target": "Je to blízko.",
+          "native": "E aproape.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "rovně",
+          "questionLang": "target",
+          "options": [
+            "drept înainte",
+            "la dreapta",
+            "la stânga"
+          ],
+          "answer": "drept înainte",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e2",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "doprava",
+          "questionLang": "target",
+          "options": [
+            "la dreapta",
+            "drept înainte",
+            "înapoi"
+          ],
+          "answer": "la dreapta",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "doleva",
+              "native": "la stânga"
+            },
+            {
+              "target": "na rohu",
+              "native": "la colț"
+            },
+            {
+              "target": "Je to blízko.",
+              "native": "E aproape."
+            },
+            {
+              "target": "Je to daleko?",
+              "native": "E departe?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jděte rovně a pak doleva.",
+          "options": [
+            "Drept înainte, apoi la stânga.",
+            "La dreapta, apoi drept înainte.",
+            "La stânga, apoi la dreapta."
+          ],
+          "answer": "Drept înainte, apoi la stânga.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "la stânga",
+          "answer": "doleva",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Je to blízko.",
+          "options": [
+            "E aproape.",
+            "E departe.",
+            "E la colț."
+          ],
+          "answer": "E aproape.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "E departe?",
+          "answer": "Je to daleko?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u5-l3",
+      "title": "Cu ce mergi?",
+      "titleTarget": "Čím jedeš?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Cu” se ascunde în terminație",
+        "text": "Româna spune „merg CU metroul”. Ceha nu are nevoie de „cu”: schimbă terminația cuvântului (cazul instrumental). metro → Jedu metrem, autobus → autobusem, vlak → vlakem, tramvaj → tramvají. Româna face și ea așa ceva cu cazurile (fata → fetei), doar că ceha are mai multe.",
+        "examples": [
+          {
+            "target": "Jedu metrem.",
+            "native": "Merg cu metroul."
+          },
+          {
+            "target": "Jedu tramvají.",
+            "native": "Merg cu tramvaiul."
+          },
+          {
+            "target": "Jdu pěšky.",
+            "native": "Merg pe jos."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u5-l3-w1",
+          "target": "tramvaj",
+          "native": "tramvai",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w2",
+          "target": "autobus",
+          "native": "autobuz",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w3",
+          "target": "vlak",
+          "native": "tren",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w4",
+          "target": "Jedu metrem.",
+          "native": "Merg cu metroul.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w5",
+          "target": "Jdu pěšky.",
+          "native": "Merg pe jos.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w6",
+          "target": "jízdenka",
+          "native": "bilet (de transport)",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-w7",
+          "target": "zastávka",
+          "native": "stație (de autobuz, tramvai)",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jedu metrem.",
+          "questionLang": "target",
+          "options": [
+            "Merg cu metroul.",
+            "Aștept metroul.",
+            "Unde e metroul?"
+          ],
+          "answer": "Merg cu metroul.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "vlak",
+              "native": "tren"
+            },
+            {
+              "target": "jízdenka",
+              "native": "bilet"
+            },
+            {
+              "target": "zastávka",
+              "native": "stație"
+            },
+            {
+              "target": "tramvaj",
+              "native": "tramvai"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Merg cu autobuzul.",
+          "questionLang": "native",
+          "options": [
+            "Jedu autobusem.",
+            "Jedu autobus.",
+            "Jedu s autobus."
+          ],
+          "answer": "Jedu autobusem.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jdu pěšky.",
+          "options": [
+            "Merg pe jos.",
+            "Merg cu trenul.",
+            "Merg la stație."
+          ],
+          "answer": "Merg pe jos.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jedu tramvají.",
+          "options": [
+            "Jedu tramvají.",
+            "Jedu metrem.",
+            "Jedu vlakem."
+          ],
+          "answer": "Jedu tramvají.",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "tren",
+          "answer": "vlak",
+          "reviewed": false
+        },
+        {
+          "id": "u5-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Merg cu metroul.",
+          "answer": "Jedu metrem.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

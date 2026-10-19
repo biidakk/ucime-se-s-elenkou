@@ -1,0 +1,512 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "title": "Acasă",
+  "titleTarget": "Doma",
+  "description": "Camerele, mobila și cum închiriezi un apartament.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "Camerele",
+      "titleTarget": "Byt a pokoje",
+      "reviewed": false,
+      "tip": {
+        "title": "După „în”, cuvântul se schimbă",
+        "text": "În română „bucătăria” devine „în bucătărie”: după „în” cuvântul își pierde articolul. Și în cehă cuvântul se schimbă după v (în), doar că se schimbă terminația: kuchyně → v kuchyni, pokoj → v pokoji, koupelna → v koupelně. Deocamdată învață-le ca expresii întregi.",
+        "examples": [
+          {
+            "target": "Jsem v kuchyni.",
+            "native": "Sunt în bucătărie."
+          },
+          {
+            "target": "Máma je v obýváku.",
+            "native": "Mama e în sufragerie."
+          },
+          {
+            "target": "Kde je koupelna?",
+            "native": "Unde e baia?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u10-l1-w1",
+          "target": "byt",
+          "native": "apartament",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w2",
+          "target": "pokoj",
+          "native": "cameră",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w3",
+          "target": "kuchyně",
+          "native": "bucătărie",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w4",
+          "target": "koupelna",
+          "native": "baie",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w5",
+          "target": "ložnice",
+          "native": "dormitor",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w6",
+          "target": "obývák",
+          "native": "sufragerie",
+          "note": "Mai formal: obývací pokoj.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-w7",
+          "target": "Jsem v kuchyni.",
+          "native": "Sunt în bucătărie.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "ložnice",
+          "questionLang": "target",
+          "options": [
+            "dormitor",
+            "bucătărie",
+            "baie"
+          ],
+          "answer": "dormitor",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "byt",
+              "native": "apartament"
+            },
+            {
+              "target": "pokoj",
+              "native": "cameră"
+            },
+            {
+              "target": "kuchyně",
+              "native": "bucătărie"
+            },
+            {
+              "target": "koupelna",
+              "native": "baie"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Sunt în bucătărie.",
+          "questionLang": "native",
+          "options": [
+            "Jsem v kuchyni.",
+            "Jsem v kuchyně.",
+            "Jsem na kuchyně."
+          ],
+          "answer": "Jsem v kuchyni.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Máma je v obýváku.",
+          "options": [
+            "Mama e în sufragerie.",
+            "Mama e în bucătărie.",
+            "Mama e în dormitor."
+          ],
+          "answer": "Mama e în sufragerie.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Kde je koupelna?",
+          "options": [
+            "Kde je koupelna?",
+            "Kde je kuchyně?",
+            "Kde je ložnice?"
+          ],
+          "answer": "Kde je koupelna?",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "dormitor",
+          "answer": "ložnice",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Sunt în bucătărie.",
+          "answer": "Jsem v kuchyni.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "Pe masă, în dulap",
+      "titleTarget": "Na stole",
+      "reviewed": false,
+      "tip": {
+        "title": "„Pe” = na, „în” = v",
+        "text": "Româna spune „pe masă” și „în dulap”. Ceha spune na stole și ve skříni: na = pe, v = în. Ca în lecția trecută, cuvântul se schimbă după ele: stůl → na stole, skříň → ve skříni, postel → na posteli. „V” devine „ve” înaintea unor grupuri de consoane, ca să se poată pronunța.",
+        "examples": [
+          {
+            "target": "Klíče jsou na stole.",
+            "native": "Cheile sunt pe masă."
+          },
+          {
+            "target": "Kniha je ve skříni.",
+            "native": "Cartea e în dulap."
+          },
+          {
+            "target": "Kočka spí na posteli.",
+            "native": "Pisica doarme pe pat."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u10-l2-w1",
+          "target": "stůl",
+          "native": "masă",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w2",
+          "target": "židle",
+          "native": "scaun",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w3",
+          "target": "postel",
+          "native": "pat",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w4",
+          "target": "skříň",
+          "native": "dulap",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w5",
+          "target": "klíče",
+          "native": "chei",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w6",
+          "target": "Klíče jsou na stole.",
+          "native": "Cheile sunt pe masă.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-w7",
+          "target": "Kde jsou moje klíče?",
+          "native": "Unde sunt cheile mele?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Klíče jsou na stole.",
+          "questionLang": "target",
+          "options": [
+            "Cheile sunt pe masă.",
+            "Cheile sunt în dulap.",
+            "Cheile sunt pe scaun."
+          ],
+          "answer": "Cheile sunt pe masă.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "stůl",
+              "native": "masă"
+            },
+            {
+              "target": "židle",
+              "native": "scaun"
+            },
+            {
+              "target": "postel",
+              "native": "pat"
+            },
+            {
+              "target": "skříň",
+              "native": "dulap"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "pe masă",
+          "questionLang": "native",
+          "options": [
+            "na stole",
+            "na stolem",
+            "ve stůl"
+          ],
+          "answer": "na stole",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kde jsou moje klíče?",
+          "options": [
+            "Unde sunt cheile mele?",
+            "Unde e masa mea?",
+            "Unde e patul meu?"
+          ],
+          "answer": "Unde sunt cheile mele?",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Kniha je ve skříni.",
+          "options": [
+            "Kniha je ve skříni.",
+            "Kniha je na stole.",
+            "Kniha je na židli."
+          ],
+          "answer": "Kniha je ve skříni.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "scaun",
+          "answer": "židle",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Cheile sunt pe masă.",
+          "answer": "Klíče jsou na stole.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Închiriez un apartament",
+      "titleTarget": "Pronájem bytu",
+      "reviewed": false,
+      "tip": {
+        "title": "Ce înseamnă „2+kk”?",
+        "text": "În anunțurile cehești apartamentele se scriu cu coduri. „2+1” = 2 camere și o bucătărie separată. „2+kk” = 2 camere, iar bucătăria e doar un colț în cameră (kk = kuchyňský kout, chicinetă). Chiria se numește nájem, iar proprietarul care închiriază e pronajímatel. Întreabă mereu dacă utilitățile (energie) sunt incluse.",
+        "examples": [
+          {
+            "target": "Hledám byt.",
+            "native": "Caut un apartament."
+          },
+          {
+            "target": "Kolik je nájem?",
+            "native": "Cât e chiria?"
+          },
+          {
+            "target": "Je to včetně energií?",
+            "native": "Sunt incluse utilitățile?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u10-l3-w1",
+          "target": "Hledám byt.",
+          "native": "Caut un apartament.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w2",
+          "target": "nájem",
+          "native": "chirie",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w3",
+          "target": "pronajímatel",
+          "native": "proprietar (care închiriază)",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w4",
+          "target": "kauce",
+          "native": "garanție (depozit)",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w5",
+          "target": "smlouva",
+          "native": "contract",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w6",
+          "target": "Kolik je nájem?",
+          "native": "Cât e chiria?",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w7",
+          "target": "Je to včetně energií?",
+          "native": "Sunt incluse utilitățile?",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-w8",
+          "target": "zařízený byt",
+          "native": "apartament mobilat",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "kauce",
+          "questionLang": "target",
+          "options": [
+            "garanție",
+            "chirie",
+            "contract"
+          ],
+          "answer": "garanție",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "nájem",
+              "native": "chirie"
+            },
+            {
+              "target": "smlouva",
+              "native": "contract"
+            },
+            {
+              "target": "pronajímatel",
+              "native": "proprietar"
+            },
+            {
+              "target": "kauce",
+              "native": "garanție"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e3",
+          "type": "choice",
+          "prompt": "Într-un anunț scrie „2+kk”. Ce înseamnă?",
+          "question": "2+kk",
+          "questionLang": "target",
+          "options": [
+            "2 camere + chicinetă",
+            "2 camere + bucătărie separată",
+            "2 băi + bucătărie"
+          ],
+          "answer": "2 camere + chicinetă",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kolik je nájem?",
+          "options": [
+            "Cât e chiria?",
+            "Cât e garanția?",
+            "Unde e apartamentul?"
+          ],
+          "answer": "Cât e chiria?",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Hledám zařízený byt.",
+          "options": [
+            "Hledám zařízený byt.",
+            "Hledám velký byt.",
+            "Hledám malý byt."
+          ],
+          "answer": "Hledám zařízený byt.",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "chirie",
+          "answer": "nájem",
+          "reviewed": false
+        },
+        {
+          "id": "u10-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Caut un apartament.",
+          "answer": "Hledám byt.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

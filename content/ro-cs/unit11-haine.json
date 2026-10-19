@@ -1,0 +1,522 @@
+{
+  "id": "u11",
+  "level": "A1",
+  "title": "Haine și culori",
+  "titleTarget": "Oblečení",
+  "description": "Culori, haine și cumpărături la magazinul de haine.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "title": "Culori",
+      "titleTarget": "Barvy",
+      "reviewed": false,
+      "tip": {
+        "title": "Albastru, albastră… modrý, modrá",
+        "text": "În română adjectivul se schimbă după gen: pulover albastru, fustă albastră. Ceha face la fel, după terminație: -ý pentru masculin (modrý svetr), -á pentru feminin (modrá sukně), -é pentru neutru (modré tričko). În dicționar găsești forma în -ý.",
+        "examples": [
+          {
+            "target": "modrý svetr",
+            "native": "pulover albastru"
+          },
+          {
+            "target": "modrá sukně",
+            "native": "fustă albastră"
+          },
+          {
+            "target": "modré tričko",
+            "native": "tricou albastru"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u11-l1-w1",
+          "target": "barva",
+          "native": "culoare",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w2",
+          "target": "červený",
+          "native": "roșu",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w3",
+          "target": "modrý",
+          "native": "albastru",
+          "note": "Feminin: modrá. Neutru: modré.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w4",
+          "target": "zelený",
+          "native": "verde",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w5",
+          "target": "černý",
+          "native": "negru",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w6",
+          "target": "bílý",
+          "native": "alb",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-w7",
+          "target": "žlutý",
+          "native": "galben",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "černý",
+          "questionLang": "target",
+          "options": [
+            "negru",
+            "alb",
+            "roșu"
+          ],
+          "answer": "negru",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "červený",
+              "native": "roșu"
+            },
+            {
+              "target": "zelený",
+              "native": "verde"
+            },
+            {
+              "target": "bílý",
+              "native": "alb"
+            },
+            {
+              "target": "žlutý",
+              "native": "galben"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "fustă albastră",
+          "questionLang": "native",
+          "options": [
+            "modrá sukně",
+            "modrý sukně",
+            "modré sukně"
+          ],
+          "answer": "modrá sukně",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "zelený",
+          "options": [
+            "verde",
+            "galben",
+            "albastru"
+          ],
+          "answer": "verde",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "červená",
+          "options": [
+            "červená",
+            "černá",
+            "zelená"
+          ],
+          "answer": "červená",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "culoare",
+          "answer": "barva",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "alb",
+          "answer": "bílý",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "title": "Ce porți?",
+      "titleTarget": "Co máš na sobě?",
+      "reviewed": false,
+      "tip": {
+        "title": "Cuvinte care sunt mereu la plural",
+        "text": "În română „pantalonii” sunt la plural, deși e o singură pereche. Ceha are mai multe cuvinte de felul ăsta: kalhoty (pantaloni), šaty (rochie!), brýle (ochelari). Chiar dacă e o singură rochie, spui „šaty jsou”, cu verbul la plural.",
+        "examples": [
+          {
+            "target": "Mám nové šaty.",
+            "native": "Am o rochie nouă."
+          },
+          {
+            "target": "Ty kalhoty jsou krásné.",
+            "native": "Pantalonii ăștia sunt frumoși."
+          },
+          {
+            "target": "Kde jsou moje boty?",
+            "native": "Unde sunt pantofii mei?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u11-l2-w1",
+          "target": "tričko",
+          "native": "tricou",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w2",
+          "target": "kalhoty",
+          "native": "pantaloni",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w3",
+          "target": "sukně",
+          "native": "fustă",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w4",
+          "target": "šaty",
+          "native": "rochie",
+          "note": "E la plural în cehă, chiar și pentru o singură rochie.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w5",
+          "target": "boty",
+          "native": "pantofi",
+          "note": "Și „încălțăminte” în general.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w6",
+          "target": "bunda",
+          "native": "geacă",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w7",
+          "target": "svetr",
+          "native": "pulover",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-w8",
+          "target": "košile",
+          "native": "cămașă",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "šaty",
+          "questionLang": "target",
+          "options": [
+            "rochie",
+            "fustă",
+            "cămașă"
+          ],
+          "answer": "rochie",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "tričko",
+              "native": "tricou"
+            },
+            {
+              "target": "svetr",
+              "native": "pulover"
+            },
+            {
+              "target": "bunda",
+              "native": "geacă"
+            },
+            {
+              "target": "košile",
+              "native": "cămașă"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Pantalonii sunt negri.",
+          "questionLang": "native",
+          "options": [
+            "Kalhoty jsou černé.",
+            "Kalhoty je černý.",
+            "Kalhoty jsou černý."
+          ],
+          "answer": "Kalhoty jsou černé.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mám nové šaty.",
+          "options": [
+            "Am o rochie nouă.",
+            "Am pantofi noi.",
+            "Am o fustă nouă."
+          ],
+          "answer": "Am o rochie nouă.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Kde jsou moje boty?",
+          "options": [
+            "Kde jsou moje boty?",
+            "Kde jsou moje kalhoty?",
+            "Kde je moje bunda?"
+          ],
+          "answer": "Kde jsou moje boty?",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "fustă",
+          "answer": "sukně",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "pantofi",
+          "answer": "boty",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "title": "La magazinul de haine",
+      "titleTarget": "V obchodě s oblečením",
+      "reviewed": false,
+      "tip": {
+        "title": "Hledám černou bundu",
+        "text": "După chci (vreau) și hledám (caut), cuvintele feminine își schimbă terminația: -a devine -u, iar adjectivul -á devine -ou. černá bunda → Hledám černou bundu. Lucrurile masculine rămân la fel: Chci modrý svetr. Și româna face asta, dar doar la pronume: ea → „o caut”.",
+        "examples": [
+          {
+            "target": "Hledám černou bundu.",
+            "native": "Caut o geacă neagră."
+          },
+          {
+            "target": "Chci modrý svetr.",
+            "native": "Vreau un pulover albastru."
+          },
+          {
+            "target": "Můžu si to zkusit?",
+            "native": "Pot să o probez?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u11-l3-w1",
+          "target": "Hledám černou bundu.",
+          "native": "Caut o geacă neagră.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w2",
+          "target": "Chci modrý svetr.",
+          "native": "Vreau un pulover albastru.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w3",
+          "target": "Můžu si to zkusit?",
+          "native": "Pot să o probez?",
+          "note": "Mai formal: Mohu si to zkusit?",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w4",
+          "target": "velikost",
+          "native": "mărime",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w5",
+          "target": "Jakou máte velikost?",
+          "native": "Ce mărime purtați?",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w6",
+          "target": "zkušební kabinka",
+          "native": "cabină de probă",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w7",
+          "target": "Je mi to malé.",
+          "native": "Îmi e mic.",
+          "note": "Și: Je mi to velké. = Îmi e mare.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-w8",
+          "target": "Je to drahé.",
+          "native": "E scump.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Je mi to malé.",
+          "questionLang": "target",
+          "options": [
+            "Îmi e mic.",
+            "Îmi e mare.",
+            "E scump."
+          ],
+          "answer": "Îmi e mic.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e2",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Caut o geacă neagră.",
+          "questionLang": "native",
+          "options": [
+            "Hledám černou bundu.",
+            "Hledám černá bunda.",
+            "Hledám černý bundu."
+          ],
+          "answer": "Hledám černou bundu.",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "velikost",
+              "native": "mărime"
+            },
+            {
+              "target": "zkušební kabinka",
+              "native": "cabină de probă"
+            },
+            {
+              "target": "Je to drahé.",
+              "native": "E scump."
+            },
+            {
+              "target": "Je mi to velké.",
+              "native": "Îmi e mare."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Můžu si to zkusit?",
+          "options": [
+            "Pot să o probez?",
+            "Cât costă?",
+            "Aveți o mărime mai mare?"
+          ],
+          "answer": "Pot să o probez?",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jakou máte velikost?",
+          "options": [
+            "Jakou máte velikost?",
+            "Kde je kabinka?",
+            "Je to drahé?"
+          ],
+          "answer": "Jakou máte velikost?",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "mărime",
+          "answer": "velikost",
+          "reviewed": false
+        },
+        {
+          "id": "u11-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vreau un pulover albastru.",
+          "answer": "Chci modrý svetr.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

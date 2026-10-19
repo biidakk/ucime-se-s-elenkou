@@ -1,0 +1,581 @@
+{
+  "id": "u15",
+  "level": "A2",
+  "title": "Trecutul",
+  "titleTarget": "Minulý čas",
+  "description": "Cum spui ce ai făcut și unde ai fost.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u15-l1",
+      "title": "Am fost",
+      "titleTarget": "Byla jsem",
+      "reviewed": false,
+      "tip": {
+        "title": "„Am fost” = byla jsem",
+        "text": "Româna face trecutul cu un verb ajutător: am fost, ai fost, a fost. Ceha face la fel, dar ajutătorul e „a fi”: byla jsem (am fost), byla jsi (ai fost). La persoana a treia ajutătorul dispare: byla = a fost (ea), byl = a fost (el). Forma se schimbă după gen: o femeie spune byla jsem, un bărbat byl jsem, iar la plural byli jsme.",
+        "examples": [
+          {
+            "target": "Byla jsem doma.",
+            "native": "Am fost acasă."
+          },
+          {
+            "target": "Kde jsi byla?",
+            "native": "Unde ai fost?"
+          },
+          {
+            "target": "Máma byla v práci.",
+            "native": "Mama a fost la serviciu."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u15-l1-w1",
+          "target": "Byla jsem doma.",
+          "native": "Am fost acasă.",
+          "note": "Un bărbat spune: Byl jsem doma.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w2",
+          "target": "doma",
+          "native": "acasă",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w3",
+          "target": "Kde jsi byla?",
+          "native": "Unde ai fost?",
+          "note": "Către un bărbat: Kde jsi byl?",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w4",
+          "target": "Byl v práci.",
+          "native": "A fost la serviciu. (el)",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w5",
+          "target": "Byla nemocná.",
+          "native": "A fost bolnavă. (ea)",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w6",
+          "target": "Byli jsme v Brně.",
+          "native": "Am fost la Brno. (noi)",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w7",
+          "target": "Kde jste byli?",
+          "native": "Unde ați fost?",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-w8",
+          "target": "Nebyla jsem tam.",
+          "native": "N-am fost acolo.",
+          "note": "Un bărbat spune: Nebyl jsem tam.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u15-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Byla jsem doma.",
+          "questionLang": "target",
+          "options": [
+            "Am fost acasă.",
+            "Sunt acasă.",
+            "Voi fi acasă."
+          ],
+          "answer": "Am fost acasă.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Byla ___ doma.",
+          "translation": "Am fost acasă.",
+          "options": [
+            "jsem",
+            "jsi",
+            "je"
+          ],
+          "answer": "jsem",
+          "explain": "Pentru „eu” se adaugă jsem: byla jsem = am fost. Byla jsi = ai fost.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "byla jsem",
+              "native": "am fost (eu)"
+            },
+            {
+              "target": "byla jsi",
+              "native": "ai fost"
+            },
+            {
+              "target": "byla",
+              "native": "a fost (ea)"
+            },
+            {
+              "target": "byli jsme",
+              "native": "am fost (noi)"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kde jsi byla?",
+          "options": [
+            "Unde ai fost?",
+            "Unde ești?",
+            "Unde mergi?"
+          ],
+          "answer": "Unde ai fost?",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am fost bolnavă.",
+          "answer": "Byla jsem nemocná.",
+          "extra": [
+            "jsi"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Byla jsem doma.",
+          "reviewed": false,
+          "native": "Am fost acasă."
+        },
+        {
+          "id": "u15-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "A fost bolnavă. (ea)",
+          "answer": "Byla nemocná.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l1-e8",
+          "type": "choice",
+          "prompt": "Cum se spune?",
+          "question": "Am fost la Brno. (noi)",
+          "questionLang": "native",
+          "options": [
+            "Byli jsme v Brně.",
+            "Byli v Brně.",
+            "Byl jsem v Brně."
+          ],
+          "answer": "Byli jsme v Brně.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "title": "Am lucrat, am gătit",
+      "titleTarget": "Pracovala jsem",
+      "reviewed": false,
+      "tip": {
+        "title": "Taie -t, adaugă -la",
+        "text": "Pentru trecut iei infinitivul, tai „-t” și pui -la (pentru o femeie), -l (pentru un bărbat) sau -li (pentru mai mulți): pracovat → pracovala, vařit → vařila, mluvit → mluvila. Apoi adaugi jsem pentru „eu”: pracovala jsem = am lucrat. E ca în română, unde „am lucrat” e făcut din „am” + o formă a verbului.",
+        "examples": [
+          {
+            "target": "Pracovala jsem celý den.",
+            "native": "Am lucrat toată ziua."
+          },
+          {
+            "target": "Vařila jsem večeři.",
+            "native": "Am gătit cina."
+          },
+          {
+            "target": "Hrál fotbal.",
+            "native": "A jucat fotbal. (el)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u15-l2-w1",
+          "target": "Pracovala jsem celý den.",
+          "native": "Am lucrat toată ziua.",
+          "note": "Un bărbat spune: Pracoval jsem celý den.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w2",
+          "target": "Vařila jsem večeři.",
+          "native": "Am gătit cina.",
+          "note": "Un bărbat spune: Vařil jsem večeři.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w3",
+          "target": "Mluvila jsem česky.",
+          "native": "Am vorbit în cehă.",
+          "note": "Un bărbat spune: Mluvil jsem česky.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w4",
+          "target": "Bydlela jsem v Bukurešti.",
+          "native": "Am locuit în București.",
+          "note": "Un bărbat spune: Bydlel jsem v Bukurešti.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w5",
+          "target": "Učila jsem se česky.",
+          "native": "Am învățat cehă.",
+          "note": "Ordinea e fixă: întâi jsem, apoi se.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w6",
+          "target": "Dívali jsme se na film.",
+          "native": "Ne-am uitat la un film.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w7",
+          "target": "Hrál fotbal.",
+          "native": "A jucat fotbal. (el)",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-w8",
+          "target": "celý den",
+          "native": "toată ziua",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u15-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Vařila jsem večeři.",
+          "questionLang": "target",
+          "options": [
+            "Am gătit cina.",
+            "Gătesc cina.",
+            "Voi găti cina."
+          ],
+          "answer": "Am gătit cina.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Včera jsem ___ celý den.",
+          "translation": "Ieri am lucrat toată ziua.",
+          "options": [
+            "pracovala",
+            "pracovat",
+            "pracuju"
+          ],
+          "answer": "pracovala",
+          "explain": "La trecut, verbul pierde „-t” și primește „-la” pentru o femeie: pracovat → pracovala.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pracovala",
+              "native": "a lucrat (ea)"
+            },
+            {
+              "target": "mluvila",
+              "native": "a vorbit (ea)"
+            },
+            {
+              "target": "vařila",
+              "native": "a gătit (ea)"
+            },
+            {
+              "target": "bydlela",
+              "native": "a locuit (ea)"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am vorbit în cehă.",
+          "answer": "Mluvila jsem česky.",
+          "extra": [
+            "jsi"
+          ],
+          "accept": [
+            "Česky jsem mluvila."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Dívali jsme se na film.",
+          "options": [
+            "Ne-am uitat la un film.",
+            "Ne uităm la un film.",
+            "Am mers la film."
+          ],
+          "answer": "Ne-am uitat la un film.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Pracovala jsem celý den.",
+          "reviewed": false,
+          "native": "Am lucrat toată ziua."
+        },
+        {
+          "id": "u15-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Am locuit în București.",
+          "answer": "Bydlela jsem v Bukurešti.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l2-e8",
+          "type": "choice",
+          "prompt": "Cum se spune?",
+          "question": "A jucat fotbal. (el)",
+          "questionLang": "native",
+          "options": [
+            "Hrál fotbal.",
+            "Hrála fotbal.",
+            "Hrál jsem fotbal."
+          ],
+          "answer": "Hrál fotbal.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "title": "N-am fost încă",
+      "titleTarget": "Ještě jsem tam nebyla",
+      "reviewed": false,
+      "tip": {
+        "title": "„N-am” se lipește și la trecut",
+        "text": "Ca la prezent (nemám = n-am), negația ne- se lipește de verb și la trecut: nebyla jsem = n-am fost, nepracovala jsem = n-am lucrat. Întrebarea se face doar din intonație, ca în română: Byla jsi už v Praze? = Ai fost deja la Praga? Două cuvinte utile: už = deja, ještě ne = încă nu.",
+        "examples": [
+          {
+            "target": "Nepracovala jsem.",
+            "native": "N-am lucrat."
+          },
+          {
+            "target": "Byla jsi už v Praze?",
+            "native": "Ai fost deja la Praga?"
+          },
+          {
+            "target": "Ne, ještě ne.",
+            "native": "Nu, încă nu."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u15-l3-w1",
+          "target": "Nepracovala jsem.",
+          "native": "N-am lucrat.",
+          "note": "Un bărbat spune: Nepracoval jsem.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w2",
+          "target": "Včera jsem nevařila.",
+          "native": "Ieri n-am gătit.",
+          "note": "Un bărbat spune: Včera jsem nevařil.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w3",
+          "target": "Nebyl doma.",
+          "native": "N-a fost acasă. (el)",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w4",
+          "target": "Byla jsi už v Praze?",
+          "native": "Ai fost deja la Praga?",
+          "note": "Către un bărbat: Byl jsi už v Praze?",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w5",
+          "target": "už",
+          "native": "deja",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w6",
+          "target": "ještě ne",
+          "native": "încă nu",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w7",
+          "target": "Ještě jsem tam nebyla.",
+          "native": "N-am fost încă acolo.",
+          "note": "Un bărbat spune: Ještě jsem tam nebyl.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-w8",
+          "target": "Nerozuměla jsem.",
+          "native": "N-am înțeles.",
+          "note": "Un bărbat spune: Nerozuměl jsem.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u15-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Nerozuměla jsem.",
+          "questionLang": "target",
+          "options": [
+            "N-am înțeles.",
+            "Nu înțeleg.",
+            "N-am auzit."
+          ],
+          "answer": "N-am înțeles.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Včera jsem ___ doma.",
+          "translation": "Ieri n-am fost acasă.",
+          "options": [
+            "nebyla",
+            "ne byla",
+            "nejsem"
+          ],
+          "answer": "nebyla",
+          "explain": "Negația ne- se scrie lipită de verb: nebyla, ca „n-am fost”.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "už",
+              "native": "deja"
+            },
+            {
+              "target": "ještě ne",
+              "native": "încă nu"
+            },
+            {
+              "target": "nepracovala",
+              "native": "n-a lucrat (ea)"
+            },
+            {
+              "target": "nevařila",
+              "native": "n-a gătit (ea)"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Byla jsi už v Praze?",
+          "options": [
+            "Ai fost deja la Praga?",
+            "Ești deja la Praga?",
+            "Mergi la Praga?"
+          ],
+          "answer": "Ai fost deja la Praga?",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "N-am fost încă acolo.",
+          "answer": "Ještě jsem tam nebyla.",
+          "extra": [
+            "ne"
+          ],
+          "accept": [
+            "Tam jsem ještě nebyla."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Nerozuměla jsem.",
+          "reviewed": false,
+          "native": "N-am înțeles."
+        },
+        {
+          "id": "u15-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "N-am lucrat.",
+          "answer": "Nepracovala jsem.",
+          "reviewed": false
+        },
+        {
+          "id": "u15-l3-e8",
+          "type": "choice",
+          "prompt": "Ce răspunzi? N-ai fost încă la Brno.",
+          "question": "Byla jsi už v Brně?",
+          "questionLang": "target",
+          "options": [
+            "Ne, ještě ne.",
+            "Ano, už ne.",
+            "Ne, už jsem."
+          ],
+          "answer": "Ne, ještě ne.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "id": "u12",
+  "level": "A1",
+  "title": "Vremea",
+  "titleTarget": "Počasí",
+  "description": "Cum vorbești despre vreme, anotimpuri și lunile anului.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "title": "Ce vreme e?",
+      "titleTarget": "Jaké je počasí?",
+      "reviewed": false,
+      "tip": {
+        "title": "„E frig” și „mi-e frig”",
+        "text": "Româna face diferența între „e frig” (afară) și „mi-e frig” (mie). Ceha face exact la fel: Je zima = e frig, Je mi zima = mi-e frig. Și ploaia e tot un singur cuvânt, ca în română: Prší = Plouă, Sněží = Ninge.",
+        "examples": [
+          {
+            "target": "Je zima.",
+            "native": "E frig."
+          },
+          {
+            "target": "Je mi zima.",
+            "native": "Mi-e frig."
+          },
+          {
+            "target": "Dnes prší.",
+            "native": "Azi plouă."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u12-l1-w1",
+          "target": "počasí",
+          "native": "vreme",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w2",
+          "target": "Jaké je počasí?",
+          "native": "Ce vreme e?",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w3",
+          "target": "Je teplo.",
+          "native": "E cald.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w4",
+          "target": "Je zima.",
+          "native": "E frig.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w5",
+          "target": "Prší.",
+          "native": "Plouă.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w6",
+          "target": "Sněží.",
+          "native": "Ninge.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w7",
+          "target": "Svítí slunce.",
+          "native": "E soare.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-w8",
+          "target": "Fouká vítr.",
+          "native": "Bate vântul.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u12-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Prší.",
+          "questionLang": "target",
+          "options": [
+            "Plouă.",
+            "Ninge.",
+            "E soare."
+          ],
+          "answer": "Plouă.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Je teplo.",
+              "native": "E cald."
+            },
+            {
+              "target": "Sněží.",
+              "native": "Ninge."
+            },
+            {
+              "target": "Svítí slunce.",
+              "native": "E soare."
+            },
+            {
+              "target": "Fouká vítr.",
+              "native": "Bate vântul."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e3",
+          "type": "choice",
+          "prompt": "Afară e frig. Cum spui?",
+          "question": "E frig.",
+          "questionLang": "native",
+          "options": [
+            "Je zima.",
+            "Je mi zima.",
+            "Je teplo."
+          ],
+          "answer": "Je zima.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jaké je počasí?",
+          "options": [
+            "Ce vreme e?",
+            "Cât e ceasul?",
+            "Ce faci?"
+          ],
+          "answer": "Ce vreme e?",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Sněží.",
+          "options": [
+            "Sněží.",
+            "Prší.",
+            "Je zima."
+          ],
+          "answer": "Sněží.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "vreme",
+          "answer": "počasí",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Plouă.",
+          "answer": "Prší.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "title": "Anotimpurile",
+      "titleTarget": "Roční období",
+      "reviewed": false,
+      "tip": {
+        "title": "Vara = v létě",
+        "text": "În română spui simplu „vara”, „iarna”. Ceha pune o prepoziție în față și schimbă terminația: léto → v létě (vara), zima → v zimě (iarna). Primăvara și toamna merg cu „na”: na jaře, na podzim. Și atenție: zima înseamnă și „iarnă”, și „frig”.",
+        "examples": [
+          {
+            "target": "V létě je horko.",
+            "native": "Vara e foarte cald."
+          },
+          {
+            "target": "V zimě sněží.",
+            "native": "Iarna ninge."
+          },
+          {
+            "target": "Na podzim prší.",
+            "native": "Toamna plouă."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u12-l2-w1",
+          "target": "jaro",
+          "native": "primăvară",
+          "note": "Primăvara = na jaře.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w2",
+          "target": "léto",
+          "native": "vară",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w3",
+          "target": "podzim",
+          "native": "toamnă",
+          "note": "Toamna = na podzim.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w4",
+          "target": "zima",
+          "native": "iarnă",
+          "note": "Înseamnă și „frig”: Je zima.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w5",
+          "target": "v létě",
+          "native": "vara (în timpul verii)",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w6",
+          "target": "v zimě",
+          "native": "iarna (în timpul iernii)",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-w7",
+          "target": "V létě je horko.",
+          "native": "Vara e foarte cald.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u12-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "podzim",
+          "questionLang": "target",
+          "options": [
+            "toamnă",
+            "primăvară",
+            "iarnă"
+          ],
+          "answer": "toamnă",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "jaro",
+              "native": "primăvară"
+            },
+            {
+              "target": "léto",
+              "native": "vară"
+            },
+            {
+              "target": "podzim",
+              "native": "toamnă"
+            },
+            {
+              "target": "zima",
+              "native": "iarnă"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "iarna (în timpul iernii)",
+          "questionLang": "native",
+          "options": [
+            "v zimě",
+            "v zima",
+            "na zimu"
+          ],
+          "answer": "v zimě",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "V létě je horko.",
+          "options": [
+            "Vara e foarte cald.",
+            "Iarna e frig.",
+            "Toamna plouă."
+          ],
+          "answer": "Vara e foarte cald.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "na podzim",
+          "options": [
+            "na podzim",
+            "na jaře",
+            "v zimě"
+          ],
+          "answer": "na podzim",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "vară",
+          "answer": "léto",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "primăvară",
+          "answer": "jaro",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "title": "Lunile anului",
+      "titleTarget": "Měsíce",
+      "reviewed": false,
+      "tip": {
+        "title": "Luni cu nume din natură",
+        "text": "Lunile românești vin din latină (ianuarie, februarie…), dar româna are și nume populare: Gerar, Florar, Cuptor, Brumar. Ceha folosește chiar astfel de nume: leden (de la led = gheață), květen (de la květ = floare, ca Florar), listopad (căderea frunzelor). Toate: leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec.",
+        "examples": [
+          {
+            "target": "v lednu",
+            "native": "în ianuarie"
+          },
+          {
+            "target": "v květnu",
+            "native": "în mai"
+          },
+          {
+            "target": "Mám narozeniny v prosinci.",
+            "native": "Îmi serbez ziua în decembrie."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u12-l3-w1",
+          "target": "měsíc",
+          "native": "lună (a anului)",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w2",
+          "target": "leden",
+          "native": "ianuarie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w3",
+          "target": "květen",
+          "native": "mai",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w4",
+          "target": "červen",
+          "native": "iunie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w5",
+          "target": "červenec",
+          "native": "iulie",
+          "note": "Atenție: červen = iunie, červenec = iulie.",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w6",
+          "target": "listopad",
+          "native": "noiembrie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w7",
+          "target": "prosinec",
+          "native": "decembrie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-w8",
+          "target": "v lednu",
+          "native": "în ianuarie",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u12-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "květen",
+          "questionLang": "target",
+          "options": [
+            "mai",
+            "martie",
+            "iunie"
+          ],
+          "answer": "mai",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e2",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "červenec",
+          "questionLang": "target",
+          "options": [
+            "iulie",
+            "iunie",
+            "august"
+          ],
+          "answer": "iulie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "leden",
+              "native": "ianuarie"
+            },
+            {
+              "target": "listopad",
+              "native": "noiembrie"
+            },
+            {
+              "target": "prosinec",
+              "native": "decembrie"
+            },
+            {
+              "target": "měsíc",
+              "native": "lună"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "v lednu",
+          "options": [
+            "în ianuarie",
+            "în iunie",
+            "în decembrie"
+          ],
+          "answer": "în ianuarie",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "listopad",
+          "options": [
+            "listopad",
+            "leden",
+            "prosinec"
+          ],
+          "answer": "listopad",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "iunie",
+          "answer": "červen",
+          "reviewed": false
+        },
+        {
+          "id": "u12-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "lună (a anului)",
+          "answer": "měsíc",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

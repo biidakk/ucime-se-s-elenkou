@@ -1,0 +1,574 @@
+{
+  "id": "u18",
+  "level": "A2",
+  "title": "A face și a termina",
+  "titleTarget": "Dělat a udělat",
+  "description": "Verbele cehe vin în perechi: una pentru proces, una pentru rezultat.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u18-l1",
+      "title": "Făceam și am făcut",
+      "titleTarget": "Dělat a udělat",
+      "reviewed": false,
+      "tip": {
+        "title": "Proces sau rezultat?",
+        "text": "Româna spune diferența prin timp: „scriam o scrisoare” (proces) și „am scris scrisoarea” (gata). Ceha o spune prin verb: aproape fiecare verb are o pereche. Unul arată procesul (psát, číst, dělat), celălalt rezultatul, lucrul terminat (napsat, přečíst, udělat). Deseori diferența e doar un prefix: na-, pře-, u-.",
+        "examples": [
+          {
+            "target": "Psala jsem dopis.",
+            "native": "Scriam o scrisoare."
+          },
+          {
+            "target": "Napsala jsem dopis.",
+            "native": "Am scris scrisoarea (e gata)."
+          },
+          {
+            "target": "Celý večer jsem četla.",
+            "native": "Toată seara am citit."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u18-l1-w1",
+          "target": "udělat",
+          "native": "a face (până la capăt)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w2",
+          "target": "psát",
+          "native": "a scrie",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w3",
+          "target": "napsat",
+          "native": "a scrie (până la capăt)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w4",
+          "target": "číst",
+          "native": "a citi",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w5",
+          "target": "přečíst",
+          "native": "a citi (până la capăt)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w6",
+          "target": "dopis",
+          "native": "scrisoare",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w7",
+          "target": "zpráva",
+          "native": "mesaj",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-w8",
+          "target": "Udělala jsem úkol.",
+          "native": "Am făcut tema.",
+          "note": "Un bărbat spune: Udělal jsem úkol.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u18-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Napsala jsem dopis.",
+          "questionLang": "target",
+          "options": [
+            "Am scris scrisoarea.",
+            "Scriu o scrisoare.",
+            "Voi scrie o scrisoare."
+          ],
+          "answer": "Am scris scrisoarea.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "psát",
+              "native": "a scrie"
+            },
+            {
+              "target": "číst",
+              "native": "a citi"
+            },
+            {
+              "target": "dopis",
+              "native": "scrisoare"
+            },
+            {
+              "target": "zpráva",
+              "native": "mesaj"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Celý večer jsem ___ knihu.",
+          "translation": "Toată seara am citit o carte.",
+          "options": [
+            "četla",
+            "přečetla",
+            "čtu"
+          ],
+          "answer": "četla",
+          "explain": "„Toată seara” arată durata, procesul → verbul de proces: číst → četla.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e4",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Konečně jsem ___ ten dopis.",
+          "translation": "În sfârșit am scris scrisoarea aceea.",
+          "options": [
+            "napsala",
+            "psala",
+            "píšu"
+          ],
+          "answer": "napsala",
+          "explain": "„În sfârșit” arată rezultatul, lucrul e gata → napsat → napsala.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am făcut tema.",
+          "answer": "Udělala jsem úkol.",
+          "extra": [
+            "dělám"
+          ],
+          "accept": [
+            "Úkol jsem udělala."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Přečetla jsem knihu.",
+          "reviewed": false,
+          "native": "Am citit cartea (până la capăt)."
+        },
+        {
+          "id": "u18-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "a citi",
+          "answer": "číst",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l1-e8",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Psala jsem dopis.",
+          "options": [
+            "Scriam o scrisoare.",
+            "Scriu o scrisoare.",
+            "O să scriu o scrisoare."
+          ],
+          "answer": "Scriam o scrisoare.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u18-l2",
+      "title": "O să cumpăr",
+      "titleTarget": "Koupím to",
+      "reviewed": false,
+      "tip": {
+        "title": "Prezentul care înseamnă viitor",
+        "text": "Iată trucul: verbul „de rezultat” pus la prezent înseamnă viitor. Koupím = o să cumpăr, udělám = o să fac, zavolám = o să sun. Pentru ce faci acum sau de obicei folosești verbul „de proces”: kupuju = cumpăr. Și niciodată „budu koupit”: budu merge doar cu verbele de proces.",
+        "examples": [
+          {
+            "target": "Kupuju chleba každý den.",
+            "native": "Cumpăr pâine în fiecare zi."
+          },
+          {
+            "target": "Zítra koupím chleba.",
+            "native": "Mâine o să cumpăr pâine."
+          },
+          {
+            "target": "Hned to udělám.",
+            "native": "O fac imediat."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u18-l2-w1",
+          "target": "kupovat",
+          "native": "a cumpăra (de obicei)",
+          "note": "Eu: kupuju (colocvial) sau kupuji.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w2",
+          "target": "koupit",
+          "native": "a cumpăra (o dată, până la capăt)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w3",
+          "target": "každý den",
+          "native": "în fiecare zi",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w4",
+          "target": "hned",
+          "native": "imediat",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w5",
+          "target": "Koupím to.",
+          "native": "O să-l cumpăr.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w6",
+          "target": "Hned to udělám.",
+          "native": "O fac imediat.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w7",
+          "target": "Zavolám ti.",
+          "native": "O să te sun.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-w8",
+          "target": "Napíšu ti.",
+          "native": "O să-ți scriu.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u18-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Zavolám ti.",
+          "questionLang": "target",
+          "options": [
+            "O să te sun.",
+            "Te-am sunat.",
+            "Mă suni?"
+          ],
+          "answer": "O să te sun.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Každý den ___ chleba.",
+          "translation": "În fiecare zi cumpăr pâine.",
+          "options": [
+            "kupuju",
+            "koupím",
+            "koupila"
+          ],
+          "answer": "kupuju",
+          "explain": "Ceva repetat, „în fiecare zi” → verbul de proces: kupovat → kupuju (formal: kupuji).",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "kupovat",
+              "native": "a cumpăra (de obicei)"
+            },
+            {
+              "target": "koupit",
+              "native": "a cumpăra (o dată)"
+            },
+            {
+              "target": "hned",
+              "native": "imediat"
+            },
+            {
+              "target": "každý den",
+              "native": "în fiecare zi"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "O fac imediat.",
+          "answer": "Hned to udělám.",
+          "extra": [
+            "dělám"
+          ],
+          "accept": [
+            "Udělám to hned."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Napíšu ti.",
+          "options": [
+            "O să-ți scriu.",
+            "Mi-ai scris.",
+            "Ți-am scris ieri."
+          ],
+          "answer": "O să-ți scriu.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Zítra ti zavolám.",
+          "reviewed": false,
+          "native": "Mâine o să te sun."
+        },
+        {
+          "id": "u18-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "O să te sun.",
+          "answer": "Zavolám ti.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l2-e8",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Mâine o să fac tema.",
+          "questionLang": "native",
+          "options": [
+            "Zítra udělám úkol.",
+            "Zítra budu udělat úkol.",
+            "Zítra jsem udělala úkol."
+          ],
+          "answer": "Zítra udělám úkol.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u18-l3",
+      "title": "Gata!",
+      "titleTarget": "Hotovo!",
+      "reviewed": false,
+      "tip": {
+        "title": "Prefixele care termină treaba",
+        "text": "Ai întâlnit deja o pereche: Zaplatím, prosím (unitatea 4) vine de la zaplatit, „a plăti până la capăt”. Multe perechi se fac cu un prefix: platit → zaplatit, vařit → uvařit, pít → vypít, jíst → sníst, učit se → naučit se. În română „am mâncat” poate fi și „am mâncat ceva”, și „am mâncat tot”. În cehă, snědla jsem înseamnă clar „am mâncat tot”.",
+        "examples": [
+          {
+            "target": "Uvařila jsem oběd.",
+            "native": "Am gătit prânzul (e gata)."
+          },
+          {
+            "target": "Už jsem to snědla.",
+            "native": "Am mâncat deja tot."
+          },
+          {
+            "target": "Naučila jsem se nové slovo.",
+            "native": "Am învățat un cuvânt nou."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u18-l3-w1",
+          "target": "zaplatit",
+          "native": "a plăti",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w2",
+          "target": "uvařit",
+          "native": "a găti (până e gata)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w3",
+          "target": "vypít",
+          "native": "a bea (tot)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w4",
+          "target": "sníst",
+          "native": "a mânca (tot)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w5",
+          "target": "naučit se",
+          "native": "a învăța (până știi)",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w6",
+          "target": "oběd",
+          "native": "prânz",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w7",
+          "target": "Uvařila jsem oběd.",
+          "native": "Am gătit prânzul.",
+          "note": "Un bărbat spune: Uvařil jsem oběd.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-w8",
+          "target": "hotovo",
+          "native": "gata",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u18-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Uvařila jsem oběd.",
+          "questionLang": "target",
+          "options": [
+            "Am gătit prânzul.",
+            "Gătesc prânzul.",
+            "O să gătesc prânzul."
+          ],
+          "answer": "Am gătit prânzul.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "zaplatit",
+              "native": "a plăti"
+            },
+            {
+              "target": "vypít",
+              "native": "a bea (tot)"
+            },
+            {
+              "target": "naučit se",
+              "native": "a învăța"
+            },
+            {
+              "target": "hotovo",
+              "native": "gata"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Už jsem se ___ nové slovo.",
+          "translation": "Am învățat deja un cuvânt nou.",
+          "options": [
+            "naučila",
+            "učila",
+            "naučit"
+          ],
+          "answer": "naučila",
+          "explain": "„Už” (deja) arată rezultatul → verbul de rezultat: naučit se → naučila jsem se.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am mâncat deja tot.",
+          "answer": "Už jsem to snědla.",
+          "extra": [
+            "jím"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Vypila jsem kávu.",
+          "options": [
+            "Am băut cafeaua.",
+            "Beau o cafea.",
+            "O să beau o cafea."
+          ],
+          "answer": "Am băut cafeaua.",
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Už je to hotovo.",
+          "reviewed": false,
+          "native": "E deja gata."
+        },
+        {
+          "id": "u18-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "a plăti",
+          "answer": "zaplatit",
+          "accept": [
+            "platit"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u18-l3-e8",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Už jsem to snědla.",
+          "options": [
+            "Už jsem to snědla.",
+            "Už jsem to vypila.",
+            "Už jsem to uvařila."
+          ],
+          "answer": "Už jsem to snědla.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

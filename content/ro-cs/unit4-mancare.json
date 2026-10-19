@@ -1,0 +1,504 @@
+{
+  "id": "u4",
+  "level": "A1",
+  "title": "Mâncare și cumpărături",
+  "titleTarget": "Jídlo a nákupy",
+  "description": "La cafenea, la magazin și la restaurant.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "La cafenea",
+      "titleTarget": "V kavárně",
+      "reviewed": false,
+      "tip": {
+        "title": "Káva devine kávu",
+        "text": "Și în română cuvintele își schimbă terminația după rolul din propoziție: fata → fetei. Ceha face asta mai des. Când ceri ceva, cuvintele feminine în -a se termină în -u: káva → Dám si kávu (iau o cafea), voda → vodu. Cuvintele ca čaj sau pivo rămân la fel. „Dám si…” (literal „îmi dau”) este felul firesc în care comanzi.",
+        "examples": [
+          {
+            "target": "Dám si kávu.",
+            "native": "Iau o cafea. (káva → kávu)"
+          },
+          {
+            "target": "Dám si vodu.",
+            "native": "Iau apă. (voda → vodu)"
+          },
+          {
+            "target": "Dám si čaj.",
+            "native": "Iau un ceai. (čaj rămâne la fel)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u4-l1-w1",
+          "target": "Dám si kávu.",
+          "native": "Iau o cafea.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-w2",
+          "target": "pivo",
+          "native": "bere",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-w3",
+          "target": "Jedno pivo, prosím.",
+          "native": "O bere, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-w4",
+          "target": "voda",
+          "native": "apă",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-w5",
+          "target": "s mlékem",
+          "native": "cu lapte",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-w6",
+          "target": "Zaplatím, prosím.",
+          "native": "Aș vrea să plătesc, vă rog.",
+          "note": "Literal: „voi plăti”. Așa ceri nota.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Dám si kávu.",
+          "questionLang": "target",
+          "options": [
+            "Iau o cafea.",
+            "Iau un ceai.",
+            "Plătesc cafeaua."
+          ],
+          "answer": "Iau o cafea.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pivo",
+              "native": "bere"
+            },
+            {
+              "target": "voda",
+              "native": "apă"
+            },
+            {
+              "target": "s mlékem",
+              "native": "cu lapte"
+            },
+            {
+              "target": "čaj",
+              "native": "ceai"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Iau apă.",
+          "questionLang": "native",
+          "options": [
+            "Dám si vodu.",
+            "Dám si voda.",
+            "Dám si vody."
+          ],
+          "answer": "Dám si vodu.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Zaplatím, prosím.",
+          "options": [
+            "Aș vrea să plătesc, vă rog.",
+            "O bere, vă rog.",
+            "Cu lapte, vă rog."
+          ],
+          "answer": "Aș vrea să plătesc, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "O bere, vă rog.",
+          "answer": "Jedno pivo, prosím.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Dám si kávu s mlékem.",
+          "options": [
+            "Dám si kávu s mlékem.",
+            "Dám si čaj s mlékem.",
+            "Dám si kávu."
+          ],
+          "answer": "Dám si kávu s mlékem.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Iau o cafea.",
+          "answer": "Dám si kávu.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "La magazin",
+      "titleTarget": "V obchodě",
+      "reviewed": false,
+      "tip": {
+        "title": "Aș vrea: chtěl sau chtěla?",
+        "text": "În română „aș vrea” e la fel pentru toată lumea. În cehă verbul arată cine vorbește, cam cum în română spui „sunt obosit” sau „sunt obosită”. Un bărbat spune „Chtěl bych…”, o femeie spune „Chtěla bych…”. Restul propoziției rămâne la fel.",
+        "examples": [
+          {
+            "target": "Chtěl bych rohlík.",
+            "native": "Aș vrea un corn. (spune un bărbat)"
+          },
+          {
+            "target": "Chtěla bych rohlík.",
+            "native": "Aș vrea un corn. (spune o femeie)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u4-l2-w1",
+          "target": "Chtěl bych…",
+          "native": "Aș vrea… (bărbat)",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w2",
+          "target": "Chtěla bych…",
+          "native": "Aș vrea… (femeie)",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w3",
+          "target": "rohlík",
+          "native": "corn (chifla tipică cehă)",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w4",
+          "target": "sýr",
+          "native": "brânză / cașcaval",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w5",
+          "target": "mléko",
+          "native": "lapte",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w6",
+          "target": "jablko",
+          "native": "măr",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w7",
+          "target": "Ještě něco?",
+          "native": "Mai doriți ceva?",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-w8",
+          "target": "To je všechno.",
+          "native": "Asta e tot.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4-l2-e1",
+          "type": "choice",
+          "prompt": "Ești femeie. Cum spui?",
+          "question": "Aș vrea brânză.",
+          "questionLang": "native",
+          "options": [
+            "Chtěla bych sýr.",
+            "Chtěl bych sýr.",
+            "Chtěla bych sýra."
+          ],
+          "answer": "Chtěla bych sýr.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "rohlík",
+              "native": "corn"
+            },
+            {
+              "target": "mléko",
+              "native": "lapte"
+            },
+            {
+              "target": "jablko",
+              "native": "măr"
+            },
+            {
+              "target": "sýr",
+              "native": "brânză"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e3",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Ještě něco?",
+          "options": [
+            "Mai doriți ceva?",
+            "Asta e tot.",
+            "Cât costă?"
+          ],
+          "answer": "Mai doriți ceva?",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e4",
+          "type": "choice",
+          "prompt": "Vânzătorul întreabă „Ještě něco?”. Nu mai vrei nimic. Ce răspunzi?",
+          "question": "Asta e tot.",
+          "questionLang": "native",
+          "options": [
+            "To je všechno.",
+            "Ještě něco.",
+            "Chtěl bych."
+          ],
+          "answer": "To je všechno.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Chtěl bych rohlík.",
+          "options": [
+            "Chtěl bych rohlík.",
+            "Chtěla bych rohlík.",
+            "Chtěl bych jablko."
+          ],
+          "answer": "Chtěl bych rohlík.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "lapte",
+          "answer": "mléko",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Asta e tot.",
+          "answer": "To je všechno.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "La restaurant",
+      "titleTarget": "V restauraci",
+      "reviewed": false,
+      "tip": {
+        "title": "Cuvinte slave pe care le știi deja",
+        "text": "Româna a împrumutat sute de cuvinte slave, așa că multe cuvinte cehe îți sună cunoscut: zdraví (sănătate) – ca „zdravăn”, přítel (prieten) – „prieten”. Atenție la prietenii falși: drahý înseamnă mai ales „scump”, čas înseamnă „timp” (nu „ceas”), iar nevěsta e „mireasă”, nu „nevastă”. „Na zdraví!” = „Noroc!”, literal „pentru sănătate”.",
+        "examples": [
+          {
+            "target": "Na zdraví!",
+            "native": "Noroc! (zdraví ~ zdravăn)"
+          },
+          {
+            "target": "To je drahé.",
+            "native": "E scump. (nu „drag”!)"
+          },
+          {
+            "target": "Nemám čas.",
+            "native": "N-am timp. (nu „ceas”!)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u4-l3-w1",
+          "target": "Máte volný stůl?",
+          "native": "Aveți o masă liberă?",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w2",
+          "target": "Jídelní lístek, prosím.",
+          "native": "Meniul, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w3",
+          "target": "Co si dáte?",
+          "native": "Ce doriți?",
+          "note": "Întrebarea ospătarului. Răspunzi cu „Dám si…”.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w4",
+          "target": "Dobrou chuť!",
+          "native": "Poftă bună!",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w5",
+          "target": "Na zdraví!",
+          "native": "Noroc!",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w6",
+          "target": "Bylo to výborné.",
+          "native": "A fost delicios.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-w7",
+          "target": "drahý",
+          "native": "scump",
+          "note": "Prieten fals: nu înseamnă „drag” (decât în „Drahá Jano” – „Dragă Jana”, în scrisori).",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Na zdraví!",
+          "questionLang": "target",
+          "options": [
+            "Noroc!",
+            "Poftă bună!",
+            "Sănătate curată!"
+          ],
+          "answer": "Noroc!",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e2",
+          "type": "choice",
+          "prompt": "Atenție, prieten fals! Ce înseamnă?",
+          "question": "čas",
+          "questionLang": "target",
+          "options": [
+            "timp",
+            "ceas",
+            "ceai"
+          ],
+          "answer": "timp",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Dobrou chuť!",
+              "native": "Poftă bună!"
+            },
+            {
+              "target": "Co si dáte?",
+              "native": "Ce doriți?"
+            },
+            {
+              "target": "Bylo to výborné.",
+              "native": "A fost delicios."
+            },
+            {
+              "target": "drahý",
+              "native": "scump"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Máte volný stůl?",
+          "options": [
+            "Aveți o masă liberă?",
+            "Aveți meniul?",
+            "Ce doriți?"
+          ],
+          "answer": "Aveți o masă liberă?",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Poftă bună!",
+          "answer": "Dobrou chuť!",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jídelní lístek, prosím.",
+          "options": [
+            "Jídelní lístek, prosím.",
+            "Zaplatím, prosím.",
+            "Jedno pivo, prosím."
+          ],
+          "answer": "Jídelní lístek, prosím.",
+          "reviewed": false
+        },
+        {
+          "id": "u4-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Noroc!",
+          "answer": "Na zdraví!",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

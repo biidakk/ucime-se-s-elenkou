@@ -1,0 +1,513 @@
+{
+  "id": "u7",
+  "level": "A1",
+  "title": "Zile și ore",
+  "titleTarget": "Čas",
+  "description": "Zilele săptămânii, ora și când faci ceva.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u7-l1",
+      "title": "Zilele săptămânii",
+      "titleTarget": "Dny v týdnu",
+      "reviewed": false,
+      "tip": {
+        "title": "Zile cu număr",
+        "text": "În română zilele vin de la planete și zei: luni (Luna), marți (Marte). În cehă multe vin de la numere: čtvrtek (joi) de la čtvrtý = al patrulea, pátek (vineri) de la pátý = al cincilea. středa (miercuri) e „mijlocul” săptămânii, pondělí (luni) = „după duminică”, iar neděle (duminică) = ziua în care „nu se lucrează”.",
+        "examples": [
+          {
+            "target": "v pondělí",
+            "native": "luni (în ziua de luni)"
+          },
+          {
+            "target": "v pátek",
+            "native": "vineri"
+          },
+          {
+            "target": "o víkendu",
+            "native": "în weekend"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u7-l1-w1",
+          "target": "pondělí",
+          "native": "luni",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w2",
+          "target": "úterý",
+          "native": "marți",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w3",
+          "target": "středa",
+          "native": "miercuri",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w4",
+          "target": "čtvrtek",
+          "native": "joi",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w5",
+          "target": "pátek",
+          "native": "vineri",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w6",
+          "target": "sobota",
+          "native": "sâmbătă",
+          "note": "Ca „sâmbătă”, vine de la „sabat”.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-w7",
+          "target": "neděle",
+          "native": "duminică",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "čtvrtek",
+          "questionLang": "target",
+          "options": [
+            "joi",
+            "miercuri",
+            "vineri"
+          ],
+          "answer": "joi",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pondělí",
+              "native": "luni"
+            },
+            {
+              "target": "úterý",
+              "native": "marți"
+            },
+            {
+              "target": "středa",
+              "native": "miercuri"
+            },
+            {
+              "target": "pátek",
+              "native": "vineri"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e3",
+          "type": "choice",
+          "prompt": "Cum se spune?",
+          "question": "duminică",
+          "questionLang": "native",
+          "options": [
+            "neděle",
+            "sobota",
+            "pondělí"
+          ],
+          "answer": "neděle",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "pátek",
+          "options": [
+            "vineri",
+            "joi",
+            "marți"
+          ],
+          "answer": "vineri",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "sobota",
+          "options": [
+            "sobota",
+            "středa",
+            "neděle"
+          ],
+          "answer": "sobota",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "miercuri",
+          "answer": "středa",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "luni",
+          "answer": "pondělí",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "title": "Cât e ceasul?",
+      "titleTarget": "Kolik je hodin?",
+      "reviewed": false,
+      "tip": {
+        "title": "O oră, două ore, cinci… hodin",
+        "text": "În română spui „o oră”, „două ore”, dar „douăzeci DE ore”. Ceha schimbă și ea forma după număr: 1 → hodina, 2–4 → hodiny, de la 5 în sus → hodin. Se schimbă și verbul: Je jedna hodina, Jsou dvě hodiny, Je pět hodin. Iar „půl třetí” înseamnă 2:30: ceha numără spre ora următoare („jumătate spre trei”).",
+        "examples": [
+          {
+            "target": "Je jedna hodina.",
+            "native": "E ora unu."
+          },
+          {
+            "target": "Jsou tři hodiny.",
+            "native": "E ora trei."
+          },
+          {
+            "target": "Je osm hodin.",
+            "native": "E ora opt."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u7-l2-w1",
+          "target": "Kolik je hodin?",
+          "native": "Cât e ceasul?",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w2",
+          "target": "Je jedna hodina.",
+          "native": "E ora unu.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w3",
+          "target": "Jsou dvě hodiny.",
+          "native": "E ora două.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w4",
+          "target": "Je pět hodin.",
+          "native": "E ora cinci.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w5",
+          "target": "v osm hodin",
+          "native": "la ora opt",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w6",
+          "target": "půl třetí",
+          "native": "două și jumătate (2:30)",
+          "note": "Literal: „jumătate spre trei”.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w7",
+          "target": "ráno",
+          "native": "dimineața",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-w8",
+          "target": "večer",
+          "native": "seara",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Kolik je hodin?",
+          "questionLang": "target",
+          "options": [
+            "Cât e ceasul?",
+            "Câți ani ai?",
+            "Cât costă?"
+          ],
+          "answer": "Cât e ceasul?",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e2",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "E ora trei.",
+          "questionLang": "native",
+          "options": [
+            "Jsou tři hodiny.",
+            "Je tři hodin.",
+            "Je tři hodina."
+          ],
+          "answer": "Jsou tři hodiny.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "ráno",
+              "native": "dimineața"
+            },
+            {
+              "target": "večer",
+              "native": "seara"
+            },
+            {
+              "target": "půl",
+              "native": "jumătate"
+            },
+            {
+              "target": "hodina",
+              "native": "oră"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Je pět hodin.",
+          "options": [
+            "E ora cinci.",
+            "E ora două.",
+            "E ora unu."
+          ],
+          "answer": "E ora cinci.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ora",
+          "audio": "Je půl třetí.",
+          "options": [
+            "2:30",
+            "3:30",
+            "3:00"
+          ],
+          "answer": "2:30",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "seara",
+          "answer": "večer",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Cât e ceasul?",
+          "answer": "Kolik je hodin?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u7-l3",
+      "title": "Azi, mâine, ieri",
+      "titleTarget": "Dnes, zítra, včera",
+      "reviewed": false,
+      "tip": {
+        "title": "„În” sâmbătă",
+        "text": "În română spui simplu „sâmbătă” sau „miercuri”. Ceha pune „v” (în) în față și schimbă puțin terminația: sobota → v sobotu, neděle → v neděli, středa → ve středu. Când cuvântul începe cu mai multe consoane, „v” devine „ve”, ca să se poată pronunța.",
+        "examples": [
+          {
+            "target": "Co děláš v sobotu?",
+            "native": "Ce faci sâmbătă?"
+          },
+          {
+            "target": "Uvidíme se v pátek.",
+            "native": "Ne vedem vineri."
+          },
+          {
+            "target": "Ve středu mám čas.",
+            "native": "Miercuri am timp."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u7-l3-w1",
+          "target": "dnes",
+          "native": "azi",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w2",
+          "target": "zítra",
+          "native": "mâine",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w3",
+          "target": "včera",
+          "native": "ieri",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w4",
+          "target": "týden",
+          "native": "săptămână",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w5",
+          "target": "víkend",
+          "native": "weekend",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w6",
+          "target": "Co děláš v sobotu?",
+          "native": "Ce faci sâmbătă?",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-w7",
+          "target": "Uvidíme se zítra.",
+          "native": "Ne vedem mâine.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "zítra",
+          "questionLang": "target",
+          "options": [
+            "mâine",
+            "ieri",
+            "azi"
+          ],
+          "answer": "mâine",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "dnes",
+              "native": "azi"
+            },
+            {
+              "target": "včera",
+              "native": "ieri"
+            },
+            {
+              "target": "týden",
+              "native": "săptămână"
+            },
+            {
+              "target": "víkend",
+              "native": "weekend"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Ne vedem miercuri.",
+          "questionLang": "native",
+          "options": [
+            "Uvidíme se ve středu.",
+            "Uvidíme se v středa.",
+            "Uvidíme se středa."
+          ],
+          "answer": "Uvidíme se ve středu.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Co děláš v sobotu?",
+          "options": [
+            "Ce faci sâmbătă?",
+            "Ce faci duminică?",
+            "Ce faci azi?"
+          ],
+          "answer": "Ce faci sâmbătă?",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Uvidíme se zítra.",
+          "options": [
+            "Uvidíme se zítra.",
+            "Uvidíme se v pátek.",
+            "Uvidíme se dnes."
+          ],
+          "answer": "Uvidíme se zítra.",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "ieri",
+          "answer": "včera",
+          "reviewed": false
+        },
+        {
+          "id": "u7-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "azi",
+          "answer": "dnes",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

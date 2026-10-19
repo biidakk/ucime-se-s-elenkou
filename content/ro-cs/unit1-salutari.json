@@ -1,0 +1,725 @@
+{
+  "id": "u1",
+  "level": "A1",
+  "title": "Saluturi",
+  "titleTarget": "Pozdravy",
+  "description": "Cum saluți, cum mulțumești și cum întrebi „ce mai faci?”.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "Bună ziua și la revedere",
+      "titleTarget": "Dobrý den!",
+      "reviewed": false,
+      "tip": {
+        "title": "Accentul: mereu pe prima silabă",
+        "text": "În română accentul se mută de la un cuvânt la altul (casă, cafea). În cehă regula e simplă și fără excepții: accentul cade ÎNTOTDEAUNA pe prima silabă. DO-brý den, DO-brou noc. Atenție: liniuța de pe vocale (á, é, í, ó, ú, ý) NU arată accentul, ci că vocala se pronunță mai lung.",
+        "examples": [
+          {
+            "target": "Dobrý den",
+            "native": "DO-brý den (accent pe „do”, „ý” lung)"
+          },
+          {
+            "target": "Na shledanou",
+            "native": "NA-shle-da-nou (prepoziția „na” ia accentul)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u1-l1-w1",
+          "target": "Dobrý den",
+          "native": "Bună ziua",
+          "note": "Salutul politicos de bază, toată ziua.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w2",
+          "target": "Ahoj",
+          "native": "Salut",
+          "note": "Informal. Se folosește și la venire, și la plecare.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w3",
+          "target": "Čau",
+          "native": "Salut / Pa",
+          "note": "Informal, ca „ciao”.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w4",
+          "target": "Dobré ráno",
+          "native": "Bună dimineața",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w5",
+          "target": "Dobrý večer",
+          "native": "Bună seara",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w6",
+          "target": "Dobrou noc",
+          "native": "Noapte bună",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-w7",
+          "target": "Na shledanou",
+          "native": "La revedere",
+          "note": "Politicos. Între prieteni: „Ahoj” sau „Čau”.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Dobrý den",
+          "questionLang": "target",
+          "options": [
+            "Bună ziua",
+            "La revedere",
+            "Noapte bună"
+          ],
+          "answer": "Bună ziua",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e2",
+          "type": "choice",
+          "prompt": "Cum spui în cehă?",
+          "question": "La revedere",
+          "questionLang": "native",
+          "options": [
+            "Na shledanou",
+            "Dobrý den",
+            "Dobrou noc"
+          ],
+          "answer": "Na shledanou",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Dobré ráno",
+              "native": "Bună dimineața"
+            },
+            {
+              "target": "Dobrý večer",
+              "native": "Bună seara"
+            },
+            {
+              "target": "Dobrou noc",
+              "native": "Noapte bună"
+            },
+            {
+              "target": "Ahoj",
+              "native": "Salut"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Dobrý večer",
+          "options": [
+            "Dobrý večer",
+            "Dobré ráno",
+            "Dobrý den"
+          ],
+          "answer": "Dobrý večer",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e5",
+          "type": "choice",
+          "prompt": "Cum spui în cehă?",
+          "question": "Noapte bună",
+          "questionLang": "native",
+          "options": [
+            "Dobrou noc",
+            "Dobrý večer",
+            "Čau"
+          ],
+          "answer": "Dobrou noc",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Salut",
+          "answer": "Ahoj",
+          "accept": [
+            "Čau"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e7",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Na shledanou",
+          "options": [
+            "Na shledanou",
+            "Dobrou noc",
+            "Ahoj"
+          ],
+          "answer": "Na shledanou",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Bună ziua",
+          "answer": "Dobrý den",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "title": "Mulțumesc și te rog",
+      "titleTarget": "Děkuju!",
+      "reviewed": false,
+      "tip": {
+        "title": "Da și nu: ano, ne… și jo",
+        "text": "„Ano” înseamnă da, iar „ne” înseamnă nu (seamănă cu românescul „nu”). În ceha vorbită vei auzi foarte des „jo” în loc de „ano” — e un „da” prietenos, ca „aha” sau „da, da”. Și „no” apare des, dar ca „păi” sau „deci”, nu ca „nu”! „No jo” = „păi da”.",
+        "examples": [
+          {
+            "target": "Ano / Jo",
+            "native": "Da"
+          },
+          {
+            "target": "Ne",
+            "native": "Nu"
+          },
+          {
+            "target": "No jo.",
+            "native": "Păi da."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u1-l2-w1",
+          "target": "Děkuju",
+          "native": "Mulțumesc",
+          "note": "Și „Děkuji”, puțin mai formal.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w2",
+          "target": "Díky",
+          "native": "Mersi",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w3",
+          "target": "Prosím",
+          "native": "Te rog / Vă rog",
+          "note": "Și „poftim”, când dai ceva sau nu ai auzit bine.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w4",
+          "target": "Promiňte",
+          "native": "Scuzați-mă",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w5",
+          "target": "Není zač",
+          "native": "Cu plăcere",
+          "note": "Literal: „nu e pentru ce”, ca „n-ai pentru ce”.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w6",
+          "target": "Ano",
+          "native": "Da",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w7",
+          "target": "Ne",
+          "native": "Nu",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-w8",
+          "target": "Jo",
+          "native": "Da (colocvial)",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Děkuju",
+          "questionLang": "target",
+          "options": [
+            "Mulțumesc",
+            "Te rog",
+            "Scuzați-mă"
+          ],
+          "answer": "Mulțumesc",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Ano",
+              "native": "Da"
+            },
+            {
+              "target": "Ne",
+              "native": "Nu"
+            },
+            {
+              "target": "Prosím",
+              "native": "Te rog"
+            },
+            {
+              "target": "Promiňte",
+              "native": "Scuzați-mă"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e3",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Není zač",
+          "options": [
+            "Cu plăcere",
+            "Mulțumesc",
+            "Nu"
+          ],
+          "answer": "Cu plăcere",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e4",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jo",
+          "questionLang": "target",
+          "options": [
+            "Da",
+            "Nu",
+            "Poate"
+          ],
+          "answer": "Da",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Mulțumesc",
+          "answer": "Děkuju",
+          "accept": [
+            "Děkuji",
+            "Díky"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Promiňte",
+          "options": [
+            "Promiňte",
+            "Prosím",
+            "Děkuju"
+          ],
+          "answer": "Promiňte",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Nu",
+          "answer": "Ne",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "title": "Ce mai faci?",
+      "titleTarget": "Jak se máš?",
+      "reviewed": false,
+      "tip": {
+        "title": "Tu și dumneavoastră: ty și vy",
+        "text": "Ca în română, ceha are o formă pentru „tu” (ty) și una politicoasă (vy). Și la fel ca în „dumneavoastră aveți”, forma politicoasă folosește verbul la plural: „Jak se máš?” (tu) – „Jak se máte?” (dumneavoastră). Bonus: „Jak se máš?” înseamnă literal „Cum te ai?” – „se” e un pronume reflexiv, ca „te”/„se” din română.",
+        "examples": [
+          {
+            "target": "Jak se máš?",
+            "native": "Ce mai faci? (tu)"
+          },
+          {
+            "target": "Jak se máte?",
+            "native": "Ce mai faceți? (dumneavoastră)"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u1-l3-w1",
+          "target": "Jak se máš?",
+          "native": "Ce mai faci?",
+          "note": "Informal (tu).",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w2",
+          "target": "Jak se máte?",
+          "native": "Ce mai faceți?",
+          "note": "Politicos (dumneavoastră) sau plural (voi).",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w3",
+          "target": "Dobře, díky.",
+          "native": "Bine, mersi.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w4",
+          "target": "Mám se dobře.",
+          "native": "Îmi merge bine.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w5",
+          "target": "Ujde to.",
+          "native": "Merge.",
+          "note": "Nici bine, nici rău.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w6",
+          "target": "Nic moc.",
+          "native": "Nu prea grozav.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w7",
+          "target": "A ty?",
+          "native": "Și tu?",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-w8",
+          "target": "A vy?",
+          "native": "Și dumneavoastră?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jak se máš?",
+          "questionLang": "target",
+          "options": [
+            "Ce mai faci?",
+            "Cum te cheamă?",
+            "Unde ești?"
+          ],
+          "answer": "Ce mai faci?",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e2",
+          "type": "choice",
+          "prompt": "Vorbești politicos cu un domn mai în vârstă. Ce spui?",
+          "question": "Ce mai faceți?",
+          "questionLang": "native",
+          "options": [
+            "Jak se máte?",
+            "Jak se máš?",
+            "A ty?"
+          ],
+          "answer": "Jak se máte?",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Dobře, díky.",
+              "native": "Bine, mersi."
+            },
+            {
+              "target": "Ujde to.",
+              "native": "Merge."
+            },
+            {
+              "target": "Nic moc.",
+              "native": "Nu prea grozav."
+            },
+            {
+              "target": "A vy?",
+              "native": "Și dumneavoastră?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mám se dobře.",
+          "options": [
+            "Îmi merge bine.",
+            "Nu prea grozav.",
+            "Și tu?"
+          ],
+          "answer": "Îmi merge bine.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Și tu?",
+          "answer": "A ty?",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jak se máte?",
+          "options": [
+            "Jak se máte?",
+            "Jak se máš?",
+            "A vy?"
+          ],
+          "answer": "Jak se máte?",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Ce mai faci?",
+          "answer": "Jak se máš?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l4",
+      "title": "Sunete pe care le știi deja",
+      "titleTarget": "Čaj a čokoláda",
+      "reviewed": false,
+      "tip": {
+        "title": "Ceha are „ș” și „ț” – doar se scriu altfel",
+        "text": "Unde româna pune sedilă (ș, ț), ceha pune un „cârlig” numit háček. Sunetele sunt aproape aceleași: š = ș, ž = j, č = ce/ci din „ceai”. Atenție la litera c: în cehă se citește MEREU ț, deci „cukr” (zahăr) se citește „țucr”. Iar ch este un h aspru, ca la finalul cuvântului „duh”, dar mai apăsat.",
+        "examples": [
+          {
+            "target": "šunka",
+            "native": "șuncă – š = ș"
+          },
+          {
+            "target": "čaj",
+            "native": "ceai – č = ce/ci"
+          },
+          {
+            "target": "cukr",
+            "native": "zahăr – se citește „țucr”"
+          },
+          {
+            "target": "chleba",
+            "native": "pâine – ch = h aspru"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u1-l4-w1",
+          "target": "čaj",
+          "native": "ceai",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-w2",
+          "target": "káva",
+          "native": "cafea",
+          "note": "„á” lung: kaa-va.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-w3",
+          "target": "čokoláda",
+          "native": "ciocolată",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-w4",
+          "target": "šunka",
+          "native": "șuncă",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-w5",
+          "target": "cukr",
+          "native": "zahăr",
+          "note": "Se citește „țucr”.",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-w6",
+          "target": "chleba",
+          "native": "pâine",
+          "note": "Forma vorbită; în scris și „chléb”.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1-l4-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "čaj",
+          "questionLang": "target",
+          "options": [
+            "ceai",
+            "cafea",
+            "zahăr"
+          ],
+          "answer": "ceai",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "šunka",
+          "options": [
+            "šunka",
+            "čaj",
+            "cukr"
+          ],
+          "answer": "šunka",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "čaj",
+              "native": "ceai"
+            },
+            {
+              "target": "šunka",
+              "native": "șuncă"
+            },
+            {
+              "target": "cukr",
+              "native": "zahăr"
+            },
+            {
+              "target": "chleba",
+              "native": "pâine"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e4",
+          "type": "choice",
+          "prompt": "Ce sunet românesc are litera cehă „č”?",
+          "question": "č",
+          "questionLang": "target",
+          "options": [
+            "ce/ci, ca în „ceai”",
+            "ș, ca în „șase”",
+            "ț, ca în „țară”"
+          ],
+          "answer": "ce/ci, ca în „ceai”",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "chleba",
+          "options": [
+            "chleba",
+            "cukr",
+            "káva"
+          ],
+          "answer": "chleba",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e6",
+          "type": "choice",
+          "prompt": "Ce sunet românesc are litera cehă „c”?",
+          "question": "c",
+          "questionLang": "target",
+          "options": [
+            "ț, ca în „țară”",
+            "c, ca în „cal”",
+            "ce/ci, ca în „ceai”"
+          ],
+          "answer": "ț, ca în „țară”",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "ciocolată",
+          "answer": "čokoláda",
+          "reviewed": false
+        },
+        {
+          "id": "u1-l4-e8",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "káva",
+          "options": [
+            "cafea",
+            "ceai",
+            "pâine"
+          ],
+          "answer": "cafea",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

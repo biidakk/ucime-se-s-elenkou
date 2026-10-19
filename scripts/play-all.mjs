@@ -7,7 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import puppeteer from 'puppeteer-core';
-import { courseIds, loadUnits, tilesOf } from './content-tools.mjs';
+import { courseIds, loadUnits, ROOT, tilesOf } from './content-tools.mjs';
 
 const APP = process.env.APP_URL ?? 'http://localhost:8090/ucime-se-s-elenkou/';
 const CHROME =
@@ -16,7 +16,12 @@ const CHROME =
     fs.existsSync(p),
   );
 const only = process.argv[2];
-const NAMES = { 'cs-en': 'cs-en', 'cs-de': 'cs-de', 'cs-ro': 'cs-ro' };
+// Button labels in each interface language, from the translation files.
+const labels = (lang) => {
+  const ui = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'i18n', `${lang}.json`), 'utf8'));
+  return { check: ui['common.check'], next: ui['common.continue'], start: ui['lesson.start'], skip: ui['speak.skip'], done: ui['lesson.exercisesDone'], wrong: ui['feedback.wrong'] };
+};
+let L = labels('cs');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -59,7 +64,7 @@ async function answer(ex) {
     case 'listen':
     case 'fill':
       await click(ex.answer);
-      await click('Zkontrolovat');
+      await click(L.check);
       break;
     case 'match':
       for (const p of ex.pairs) {
@@ -70,27 +75,29 @@ async function answer(ex) {
       break;
     case 'type':
       await page.type('input', ex.answer);
-      await click('Zkontrolovat');
+      await click(L.check);
       break;
     case 'build':
       for (const tile of tilesOf(ex.answer)) await click(tile);
-      await click('Zkontrolovat');
+      await click(L.check);
       break;
     case 'speak':
-      await click('Teď nemůžu mluvit');
+      await click(L.skip);
       break;
   }
 }
 
 const problems = [];
 let lessons = 0;
-for (const courseId of courseIds().filter((c) => (!only || c === only) && NAMES[c])) {
+for (const courseId of courseIds().filter((c) => !only || c === only)) {
+  const native = courseId.split('-')[0];
+  L = labels(native);
   await page.goto(APP, { waitUntil: 'networkidle0' });
   await page.evaluate((id) => {
     localStorage.clear();
     localStorage.setItem(
       'settings',
-      JSON.stringify({ nativeLanguage: 'cs', courseId: id, onboarded: true, speechRate: 'normal', micEnabled: null, installHintSeen: true, lastBackup: null, voices: {} }),
+      JSON.stringify({ nativeLanguage: id.split('-')[0], courseId: id, onboarded: true, speechRate: 'normal', micEnabled: null, installHintSeen: true, lastBackup: null, voices: {} }),
     );
   }, courseId);
 
@@ -100,21 +107,21 @@ for (const courseId of courseIds().filter((c) => (!only || c === only) && NAMES[
       pageErrors = [];
       try {
         await page.goto(`${APP}lesson/${lesson.id}`, { waitUntil: 'networkidle0' });
-        await click('Rozumím, začneme!');
+        await click(L.start);
         for (const ex of lesson.exercises) {
           await sleep(150);
           try {
             await answer(ex);
             // Every answer we give is correct, so the green banner must appear.
             const text = await page.evaluate(() => document.body.innerText);
-            if (text.includes('Ne tak docela')) throw new Error('marked as wrong');
-            await click('Pokračovat');
+            if (text.includes(L.wrong.split('.')[0])) throw new Error('marked as wrong');
+            await click(L.next);
           } catch (error) {
             throw new Error(`${ex.id} (${ex.type}): ${error.message}`);
           }
         }
         await sleep(200);
-        const done = await page.evaluate(() => document.body.innerText.includes('Cvičení jsou hotová'));
+        const done = await page.evaluate((label) => document.body.innerText.includes(label), L.done);
         if (!done) throw new Error('did not reach the end of the exercises');
         if (pageErrors.length) throw new Error(`page error: ${pageErrors[0]}`);
         process.stdout.write('.');

@@ -4,11 +4,10 @@
 export type LanguageCode = 'cs' | 'en' | 'de' | 'ro';
 
 // Languages the interface can be shown in (one translation file each in src/i18n).
-// Romanian is planned: add "ro" here once src/i18n/ro.ts exists.
-export type UiLanguage = 'cs';
-export const UI_LANGUAGES: UiLanguage[] = ['cs'];
+export type UiLanguage = 'cs' | 'ro';
+export const UI_LANGUAGES: UiLanguage[] = ['cs', 'ro'];
 // Shown on the first screen as "coming soon", so the choice is visible from the start.
-export const UI_LANGUAGES_SOON: LanguageCode[] = ['ro'];
+export const UI_LANGUAGES_SOON: LanguageCode[] = [];
 
 export type LanguageInfo = {
   code: LanguageCode;
@@ -55,7 +54,7 @@ export const LANGUAGES: Record<LanguageCode, LanguageInfo> = {
   },
 };
 
-export type CourseId = 'cs-en' | 'cs-de' | 'cs-ro';
+export type CourseId = 'cs-en' | 'cs-de' | 'cs-ro' | 'ro-cs';
 
 export type CourseInfo = {
   id: CourseId;
@@ -67,6 +66,7 @@ export const COURSES: CourseInfo[] = [
   { id: 'cs-en', native: 'cs', target: 'en' },
   { id: 'cs-de', native: 'cs', target: 'de' },
   { id: 'cs-ro', native: 'cs', target: 'ro' },
+  { id: 'ro-cs', native: 'ro', target: 'cs' }, // moved in from the old app „Cehă pentru români“
 ];
 
 export function coursesFor(native: LanguageCode): CourseInfo[] {

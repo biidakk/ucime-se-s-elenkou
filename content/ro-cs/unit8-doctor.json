@@ -1,0 +1,526 @@
+{
+  "id": "u8",
+  "level": "A1",
+  "title": "La doctor",
+  "titleTarget": "U lékaře",
+  "description": "Cum spui ce te doare și cum te descurci la medic și la farmacie.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u8-l1",
+      "title": "Ce te doare?",
+      "titleTarget": "Co vás bolí?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Mă doare” = Bolí mě",
+        "text": "Vestea bună: ceha spune exact ca româna. „Mă doare capul” = Bolí mě hlava. Bolí = doare, mě = mă, hlava = capul. Partea corpului e subiectul, ca în română. Pentru întrebare: Co vás bolí? = Ce vă doare?",
+        "examples": [
+          {
+            "target": "Bolí mě hlava.",
+            "native": "Mă doare capul."
+          },
+          {
+            "target": "Bolí mě zub.",
+            "native": "Mă doare un dinte."
+          },
+          {
+            "target": "Bolí mě břicho.",
+            "native": "Mă doare burta."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u8-l1-w1",
+          "target": "Co vás bolí?",
+          "native": "Ce vă doare?",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w2",
+          "target": "Bolí mě hlava.",
+          "native": "Mă doare capul.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w3",
+          "target": "hlava",
+          "native": "cap",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w4",
+          "target": "zub",
+          "native": "dinte",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w5",
+          "target": "břicho",
+          "native": "burtă",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w6",
+          "target": "záda",
+          "native": "spate",
+          "note": "E la plural în cehă: Bolí mě záda.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w7",
+          "target": "krk",
+          "native": "gât",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-w8",
+          "target": "noha",
+          "native": "picior",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Bolí mě hlava.",
+          "questionLang": "target",
+          "options": [
+            "Mă doare capul.",
+            "Mă doare spatele.",
+            "Mă doare burta."
+          ],
+          "answer": "Mă doare capul.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "zub",
+              "native": "dinte"
+            },
+            {
+              "target": "břicho",
+              "native": "burtă"
+            },
+            {
+              "target": "krk",
+              "native": "gât"
+            },
+            {
+              "target": "noha",
+              "native": "picior"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e3",
+          "type": "choice",
+          "prompt": "Cum se spune?",
+          "question": "Mă doare spatele.",
+          "questionLang": "native",
+          "options": [
+            "Bolí mě záda.",
+            "Bolí mě zub.",
+            "Bolí mě krk."
+          ],
+          "answer": "Bolí mě záda.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Co vás bolí?",
+          "options": [
+            "Ce vă doare?",
+            "Cum vă cheamă?",
+            "Ce doriți?"
+          ],
+          "answer": "Ce vă doare?",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Bolí mě zub.",
+          "options": [
+            "Bolí mě zub.",
+            "Bolí mě krk.",
+            "Bolí mě břicho."
+          ],
+          "answer": "Bolí mě zub.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "cap",
+          "answer": "hlava",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Mă doare capul.",
+          "answer": "Bolí mě hlava.",
+          "accept": [
+            "Mě bolí hlava."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u8-l2",
+      "title": "Sunt bolnavă",
+      "titleTarget": "Jsem nemocná",
+      "reviewed": false,
+      "tip": {
+        "title": "„Mi-e rău” = Je mi špatně",
+        "text": "Româna spune „mi-e rău”, „mi-e frig”: cel care simte e „mi”. Ceha face la fel: Je mi špatně (mi-e rău), Je mi zima (mi-e frig). Iar adjectivul își schimbă terminația după cine vorbește, ca „bolnav / bolnavă”: un bărbat spune Jsem nemocný, o femeie spune Jsem nemocná.",
+        "examples": [
+          {
+            "target": "Jsem nemocná.",
+            "native": "Sunt bolnavă."
+          },
+          {
+            "target": "Je mi špatně.",
+            "native": "Mi-e rău."
+          },
+          {
+            "target": "Mám horečku.",
+            "native": "Am febră."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u8-l2-w1",
+          "target": "Jsem nemocná.",
+          "native": "Sunt bolnavă.",
+          "note": "Un bărbat spune: Jsem nemocný.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w2",
+          "target": "Je mi špatně.",
+          "native": "Mi-e rău.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w3",
+          "target": "Je mi zima.",
+          "native": "Mi-e frig.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w4",
+          "target": "Mám horečku.",
+          "native": "Am febră.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w5",
+          "target": "Mám rýmu.",
+          "native": "Îmi curge nasul.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w6",
+          "target": "kašel",
+          "native": "tuse",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-w7",
+          "target": "horečka",
+          "native": "febră",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Je mi špatně.",
+          "questionLang": "target",
+          "options": [
+            "Mi-e rău.",
+            "Mi-e frig.",
+            "Mi-e foame."
+          ],
+          "answer": "Mi-e rău.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e2",
+          "type": "choice",
+          "prompt": "O femeie spune:",
+          "question": "Sunt bolnavă.",
+          "questionLang": "native",
+          "options": [
+            "Jsem nemocná.",
+            "Jsem nemocný.",
+            "Jsem nemocně."
+          ],
+          "answer": "Jsem nemocná.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "kašel",
+              "native": "tuse"
+            },
+            {
+              "target": "horečka",
+              "native": "febră"
+            },
+            {
+              "target": "Je mi zima.",
+              "native": "Mi-e frig."
+            },
+            {
+              "target": "Mám rýmu.",
+              "native": "Îmi curge nasul."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mám horečku.",
+          "options": [
+            "Am febră.",
+            "Am tuse.",
+            "Mi-e frig."
+          ],
+          "answer": "Am febră.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Je mi zima.",
+          "options": [
+            "Je mi zima.",
+            "Je mi špatně.",
+            "Mám rýmu."
+          ],
+          "answer": "Je mi zima.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "tuse",
+          "answer": "kašel",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Am febră.",
+          "answer": "Mám horečku.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u8-l3",
+      "title": "Am nevoie de un medic",
+      "titleTarget": "Potřebuju lékaře",
+      "reviewed": false,
+      "tip": {
+        "title": "„A trebui” e un cuvânt slav",
+        "text": "Româna a împrumutat „a trebui” din slavă. Ceha are aceeași rădăcină în potřebovat (a avea nevoie): Potřebuju… = Am nevoie de… Ține minte și numerele de urgență: 112 (ca în România) și 155 pentru ambulanță, pe care cehii o numesc záchranka.",
+        "examples": [
+          {
+            "target": "Potřebuju lékaře.",
+            "native": "Am nevoie de un medic."
+          },
+          {
+            "target": "Potřebuju něco na kašel.",
+            "native": "Am nevoie de ceva pentru tuse."
+          },
+          {
+            "target": "Zavolejte záchranku!",
+            "native": "Chemați ambulanța!"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u8-l3-w1",
+          "target": "lékař",
+          "native": "medic",
+          "note": "Se spune și doktor.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w2",
+          "target": "Potřebuju lékaře.",
+          "native": "Am nevoie de un medic.",
+          "note": "Mai formal: Potřebuji lékaře.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w3",
+          "target": "recept",
+          "native": "rețetă",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w4",
+          "target": "prášek na bolest",
+          "native": "pastilă pentru durere",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w5",
+          "target": "Potřebuju něco na kašel.",
+          "native": "Am nevoie de ceva pentru tuse.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w6",
+          "target": "záchranka",
+          "native": "ambulanța",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-w7",
+          "target": "Zavolejte záchranku!",
+          "native": "Chemați ambulanța!",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "recept",
+          "questionLang": "target",
+          "options": [
+            "rețetă",
+            "pastilă",
+            "asigurare"
+          ],
+          "answer": "rețetă",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "lékař",
+              "native": "medic"
+            },
+            {
+              "target": "recept",
+              "native": "rețetă"
+            },
+            {
+              "target": "záchranka",
+              "native": "ambulanța"
+            },
+            {
+              "target": "prášek",
+              "native": "pastilă"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e3",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Potřebuju něco na kašel.",
+          "options": [
+            "Am nevoie de ceva pentru tuse.",
+            "Am nevoie de un medic.",
+            "Am febră."
+          ],
+          "answer": "Am nevoie de ceva pentru tuse.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e4",
+          "type": "choice",
+          "prompt": "E o urgență. Ce strigi?",
+          "question": "Chemați ambulanța!",
+          "questionLang": "native",
+          "options": [
+            "Zavolejte záchranku!",
+            "Potřebuju recept.",
+            "Kde je lékárna?"
+          ],
+          "answer": "Zavolejte záchranku!",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Potřebuju lékaře.",
+          "options": [
+            "Potřebuju lékaře.",
+            "Potřebuju recept.",
+            "Potřebuju prášek."
+          ],
+          "answer": "Potřebuju lékaře.",
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "medic",
+          "answer": "lékař",
+          "accept": [
+            "doktor"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u8-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Am nevoie de un medic.",
+          "answer": "Potřebuju lékaře.",
+          "accept": [
+            "Potřebuji lékaře.",
+            "Potřebuju doktora.",
+            "Potřebuji doktora."
+          ],
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "id": "u2",
+  "level": "A1",
+  "title": "Prezentarea",
+  "titleTarget": "Představování",
+  "description": "Cum te prezinți: numele, de unde ești, ce limbi vorbești.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "Cum te cheamă?",
+      "titleTarget": "Jak se jmenuješ?",
+      "reviewed": false,
+      "tip": {
+        "title": "Vocativul: Ano! – Jano!",
+        "text": "Româna are vocativ: îi strigi pe alții „Ioane!”, „Ano!”, „Domnule Popescu!”. Ceha face exact la fel, doar mai des: când te adresezi cuiva, numele își schimbă terminația. Numele în -a primesc -o (Jana → Jano!), multe nume de bărbați primesc -e sau -u (Petr → Petře!, pan Novák → Pane Nováku!).",
+        "examples": [
+          {
+            "target": "Jano, jak se máš?",
+            "native": "Ano, ce mai faci?"
+          },
+          {
+            "target": "Petře!",
+            "native": "Petre! (de la Petr)"
+          },
+          {
+            "target": "Dobrý den, pane Nováku.",
+            "native": "Bună ziua, domnule Novák."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u2-l1-w1",
+          "target": "Jak se jmenuješ?",
+          "native": "Cum te cheamă?",
+          "note": "Informal (tu). Literal: „cum te numești?”",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-w2",
+          "target": "Jak se jmenujete?",
+          "native": "Cum vă numiți?",
+          "note": "Politicos (dumneavoastră).",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-w3",
+          "target": "Jmenuju se Ana.",
+          "native": "Mă numesc Ana.",
+          "note": "Și „Jmenuji se”, mai formal. „Se” rămâne la fel la toate persoanele: jmenuju se, jmenuješ se.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-w4",
+          "target": "Já jsem Mihai.",
+          "native": "Eu sunt Mihai.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-w5",
+          "target": "Těší mě.",
+          "native": "Încântat(ă). / Îmi pare bine.",
+          "note": "Literal: „mă bucură”.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-w6",
+          "target": "To je můj kamarád.",
+          "native": "Acesta e prietenul meu.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jak se jmenuješ?",
+          "questionLang": "target",
+          "options": [
+            "Cum te cheamă?",
+            "Ce mai faci?",
+            "De unde ești?"
+          ],
+          "answer": "Cum te cheamă?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Těší mě.",
+              "native": "Îmi pare bine."
+            },
+            {
+              "target": "Já jsem Mihai.",
+              "native": "Eu sunt Mihai."
+            },
+            {
+              "target": "Jak se jmenujete?",
+              "native": "Cum vă numiți?"
+            },
+            {
+              "target": "To je můj kamarád.",
+              "native": "Acesta e prietenul meu."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e3",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jmenuju se Ana.",
+          "options": [
+            "Jmenuju se Ana.",
+            "Já jsem Ana.",
+            "Jak se jmenuješ?"
+          ],
+          "answer": "Jmenuju se Ana.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e4",
+          "type": "choice",
+          "prompt": "O strigi pe prietena ta Jana. Ce spui?",
+          "question": "Ano, ce mai faci?",
+          "questionLang": "native",
+          "options": [
+            "Jano, jak se máš?",
+            "Jana, jak se máš?",
+            "Jany, jak se máš?"
+          ],
+          "answer": "Jano, jak se máš?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Îmi pare bine.",
+          "answer": "Těší mě.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jak se jmenujete?",
+          "options": [
+            "Cum vă numiți?",
+            "Cum te cheamă?",
+            "Ce mai faceți?"
+          ],
+          "answer": "Cum vă numiți?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Mă numesc Ana.",
+          "answer": "Jmenuju se Ana.",
+          "accept": [
+            "Jmenuji se Ana."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "De unde ești?",
+      "titleTarget": "Odkud jsi?",
+      "reviewed": false,
+      "tip": {
+        "title": "Rumun și Rumunka – ca român și româncă",
+        "text": "Ca în română, naționalitatea are formă de bărbat și de femeie. Iar terminația pentru femei seamănă izbitor: -că în română, -ka în cehă. Rumun / Rumunka = român / româncă, Čech / Češka = ceh / cehoaică. Atenție: limba se scrie cu literă mică și se termină în -sky: rumunsky, česky.",
+        "examples": [
+          {
+            "target": "Jsem Rumun.",
+            "native": "Sunt român."
+          },
+          {
+            "target": "Jsem Rumunka.",
+            "native": "Sunt româncă."
+          },
+          {
+            "target": "Jsem z Rumunska.",
+            "native": "Sunt din România."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u2-l2-w1",
+          "target": "Odkud jsi?",
+          "native": "De unde ești?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w2",
+          "target": "Odkud jste?",
+          "native": "De unde sunteți?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w3",
+          "target": "Jsem z Rumunska.",
+          "native": "Sunt din România.",
+          "note": "Rumunsko = România; după „z” (din) devine „Rumunska”.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w4",
+          "target": "Jsem Rumun.",
+          "native": "Sunt român.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w5",
+          "target": "Jsem Rumunka.",
+          "native": "Sunt româncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w6",
+          "target": "Bydlím v Praze.",
+          "native": "Locuiesc în Praga.",
+          "note": "Praha → v Praze (în Praga).",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-w7",
+          "target": "Česko",
+          "native": "Cehia",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Odkud jsi?",
+          "questionLang": "target",
+          "options": [
+            "De unde ești?",
+            "Unde locuiești?",
+            "Cine ești?"
+          ],
+          "answer": "De unde ești?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e2",
+          "type": "choice",
+          "prompt": "Ești femeie. Cum spui?",
+          "question": "Sunt româncă.",
+          "questionLang": "native",
+          "options": [
+            "Jsem Rumunka.",
+            "Jsem Rumun.",
+            "Jsem Rumunsko."
+          ],
+          "answer": "Jsem Rumunka.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Odkud jste?",
+              "native": "De unde sunteți?"
+            },
+            {
+              "target": "Bydlím v Praze.",
+              "native": "Locuiesc în Praga."
+            },
+            {
+              "target": "Česko",
+              "native": "Cehia"
+            },
+            {
+              "target": "Jsem Rumun.",
+              "native": "Sunt român."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jsem z Rumunska.",
+          "options": [
+            "Jsem z Rumunska.",
+            "Jsem Rumunka.",
+            "Bydlím v Praze."
+          ],
+          "answer": "Jsem z Rumunska.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "De unde ești?",
+          "answer": "Odkud jsi?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Bydlím v Praze.",
+          "options": [
+            "Locuiesc în Praga.",
+            "Sunt din Praga.",
+            "Merg la Praga."
+          ],
+          "answer": "Locuiesc în Praga.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Sunt din România.",
+          "answer": "Jsem z Rumunska.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Ce limbi vorbești?",
+      "titleTarget": "Mluvíte česky?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Nu” se lipește de verb",
+        "text": "În română spui „nu” separat: „nu înțeleg”. În cehă, negația „ne-” se scrie lipită de verb: rozumím (înțeleg) → nerozumím (nu înțeleg), mluvím (vorbesc) → nemluvím (nu vorbesc). Și, ca de obicei, accentul trece pe prima silabă, adică pe „NE-”.",
+        "examples": [
+          {
+            "target": "Rozumím. – Nerozumím.",
+            "native": "Înțeleg. – Nu înțeleg."
+          },
+          {
+            "target": "Mluvím česky. – Nemluvím česky.",
+            "native": "Vorbesc cehă. – Nu vorbesc cehă."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u2-l3-w1",
+          "target": "Mluvíte česky?",
+          "native": "Vorbiți cehă?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w2",
+          "target": "Mluvím trochu česky.",
+          "native": "Vorbesc puțin cehă.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w3",
+          "target": "Mluvím rumunsky.",
+          "native": "Vorbesc română.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w4",
+          "target": "Rozumím.",
+          "native": "Înțeleg.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w5",
+          "target": "Nerozumím.",
+          "native": "Nu înțeleg.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w6",
+          "target": "Můžete to zopakovat?",
+          "native": "Puteți repeta?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-w7",
+          "target": "Pomaleji, prosím.",
+          "native": "Mai rar, vă rog.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Nerozumím.",
+          "questionLang": "target",
+          "options": [
+            "Nu înțeleg.",
+            "Înțeleg.",
+            "Nu vorbesc."
+          ],
+          "answer": "Nu înțeleg.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Mluvím trochu česky.",
+          "options": [
+            "Mluvím trochu česky.",
+            "Mluvíte česky?",
+            "Mluvím rumunsky."
+          ],
+          "answer": "Mluvím trochu česky.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Rozumím.",
+              "native": "Înțeleg."
+            },
+            {
+              "target": "Mluvím rumunsky.",
+              "native": "Vorbesc română."
+            },
+            {
+              "target": "Pomaleji, prosím.",
+              "native": "Mai rar, vă rog."
+            },
+            {
+              "target": "Můžete to zopakovat?",
+              "native": "Puteți repeta?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e4",
+          "type": "choice",
+          "prompt": "Cineva vorbește prea repede. Ce spui?",
+          "question": "Mai rar, vă rog.",
+          "questionLang": "native",
+          "options": [
+            "Pomaleji, prosím.",
+            "Děkuju, prosím.",
+            "Nerozumím, prosím."
+          ],
+          "answer": "Pomaleji, prosím.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Nu înțeleg.",
+          "answer": "Nerozumím.",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Můžete to zopakovat?",
+          "options": [
+            "Puteți repeta?",
+            "Vorbiți cehă?",
+            "Înțelegeți?"
+          ],
+          "answer": "Puteți repeta?",
+          "reviewed": false
+        },
+        {
+          "id": "u2-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vorbiți cehă?",
+          "answer": "Mluvíte česky?",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

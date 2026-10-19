@@ -1,0 +1,576 @@
+{
+  "id": "u16",
+  "level": "A2",
+  "title": "Ce ai făcut?",
+  "titleTarget": "Co jsi dělala?",
+  "description": "Verbele neregulate la trecut și cum povestești weekendul.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u16-l1",
+      "title": "Am mers, am mâncat",
+      "titleTarget": "Šla jsem, jedla jsem",
+      "reviewed": false,
+      "tip": {
+        "title": "Și ceha are trecut neregulat",
+        "text": "Și în română unele verbe au forme ciudate la trecut: a merge → am mers, a face → am făcut. În cehă: jít → šla (el: šel), jet → jela, jíst → jedla, číst → četla. Ține minte diferența din unitatea 5: jít = a merge pe jos, jet = a merge cu un vehicul. Deci „Šla jsem do obchodu” = am mers pe jos, „Jela jsem vlakem” = am mers cu trenul.",
+        "examples": [
+          {
+            "target": "Šla jsem do obchodu.",
+            "native": "Am mers la magazin."
+          },
+          {
+            "target": "Jela jsem vlakem.",
+            "native": "Am mers cu trenul."
+          },
+          {
+            "target": "Četla jsem knihu.",
+            "native": "Am citit o carte."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u16-l1-w1",
+          "target": "Šla jsem do obchodu.",
+          "native": "Am mers la magazin.",
+          "note": "Un bărbat spune: Šel jsem do obchodu.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w2",
+          "target": "Jela jsem vlakem.",
+          "native": "Am mers cu trenul.",
+          "note": "Un bărbat spune: Jel jsem vlakem.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w3",
+          "target": "Jedla jsem polévku.",
+          "native": "Am mâncat supă.",
+          "note": "Un bărbat spune: Jedl jsem polévku.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w4",
+          "target": "Četla jsem knihu.",
+          "native": "Am citit o carte.",
+          "note": "Un bărbat spune: Četl jsem knihu.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w5",
+          "target": "Šel do práce.",
+          "native": "A mers la serviciu. (el)",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w6",
+          "target": "polévka",
+          "native": "supă",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w7",
+          "target": "kniha",
+          "native": "carte",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-w8",
+          "target": "Kam jsi šla?",
+          "native": "Unde ai mers?",
+          "note": "Către un bărbat: Kam jsi šel?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u16-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jela jsem vlakem.",
+          "questionLang": "target",
+          "options": [
+            "Am mers cu trenul.",
+            "Am mers pe jos.",
+            "Merg cu trenul."
+          ],
+          "answer": "Am mers cu trenul.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Včera jsem ___ pěšky do obchodu.",
+          "translation": "Ieri am mers pe jos la magazin.",
+          "options": [
+            "šla",
+            "jela",
+            "jedla"
+          ],
+          "answer": "šla",
+          "explain": "Pe jos = jít → šla. Cu un vehicul = jet → jela. Jedla înseamnă „am mâncat”.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "šla",
+              "native": "a mers (pe jos)"
+            },
+            {
+              "target": "jela",
+              "native": "a mers (cu ceva)"
+            },
+            {
+              "target": "jedla",
+              "native": "a mâncat"
+            },
+            {
+              "target": "četla",
+              "native": "a citit"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Četla jsem knihu.",
+          "options": [
+            "Am citit o carte.",
+            "Citesc o carte.",
+            "Am cumpărat o carte."
+          ],
+          "answer": "Am citit o carte.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am mâncat supă.",
+          "answer": "Jedla jsem polévku.",
+          "extra": [
+            "šla"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Šla jsem do obchodu.",
+          "reviewed": false,
+          "native": "Am mers la magazin."
+        },
+        {
+          "id": "u16-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "carte",
+          "answer": "kniha",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l1-e8",
+          "type": "choice",
+          "prompt": "Cum spune un bărbat?",
+          "question": "Am mers la magazin.",
+          "questionLang": "native",
+          "options": [
+            "Šel jsem do obchodu.",
+            "Šla jsem do obchodu.",
+            "Šli jsme do obchodu."
+          ],
+          "answer": "Šel jsem do obchodu.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u16-l2",
+      "title": "N-am avut timp",
+      "titleTarget": "Neměla jsem čas",
+      "reviewed": false,
+      "tip": {
+        "title": "Am avut, am putut, am vrut",
+        "text": "mít (a avea) → měla, chtít (a vrea) → chtěla, muset (a trebui) → musela, vidět (a vedea) → viděla. Cel mai ciudat e moct (a putea) → mohla (el: mohl), cum și „a putea” are „putut”. Ca la prezent, după ele vine infinitivul fără „să”: Chtěla jsem spát = Am vrut să dorm. Iar foamea se „are”: Měla jsem hlad = Mi-a fost foame.",
+        "examples": [
+          {
+            "target": "Neměla jsem čas.",
+            "native": "N-am avut timp."
+          },
+          {
+            "target": "Nemohla jsem přijít.",
+            "native": "N-am putut veni."
+          },
+          {
+            "target": "Musela jsem pracovat.",
+            "native": "A trebuit să lucrez."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u16-l2-w1",
+          "target": "Neměla jsem čas.",
+          "native": "N-am avut timp.",
+          "note": "Un bărbat spune: Neměl jsem čas.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w2",
+          "target": "Měla jsem hlad.",
+          "native": "Mi-a fost foame.",
+          "note": "Literal: „Am avut foame”. Un bărbat spune: Měl jsem hlad.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w3",
+          "target": "Nemohla jsem přijít.",
+          "native": "N-am putut veni.",
+          "note": "Un bărbat spune: Nemohl jsem přijít.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w4",
+          "target": "Chtěla jsem spát.",
+          "native": "Am vrut să dorm.",
+          "note": "Un bărbat spune: Chtěl jsem spát.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w5",
+          "target": "Viděla jsem film.",
+          "native": "Am văzut un film.",
+          "note": "Un bărbat spune: Viděl jsem film.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w6",
+          "target": "Viděl jsi to?",
+          "native": "Ai văzut asta? (către un bărbat)",
+          "note": "Către o femeie: Viděla jsi to?",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w7",
+          "target": "Musela jsem pracovat.",
+          "native": "A trebuit să lucrez.",
+          "note": "Un bărbat spune: Musel jsem pracovat.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-w8",
+          "target": "hlad",
+          "native": "foame",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u16-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Nemohla jsem přijít.",
+          "questionLang": "target",
+          "options": [
+            "N-am putut veni.",
+            "Nu pot veni.",
+            "N-am vrut să vin."
+          ],
+          "answer": "N-am putut veni.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Včera jsem ___ čas.",
+          "translation": "Ieri n-am avut timp.",
+          "options": [
+            "neměla",
+            "nemám",
+            "nemohla"
+          ],
+          "answer": "neměla",
+          "explain": "mít (a avea) → měla; cu negație: neměla. Nemohla înseamnă „n-a putut”.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "měla",
+              "native": "a avut (ea)"
+            },
+            {
+              "target": "mohla",
+              "native": "a putut (ea)"
+            },
+            {
+              "target": "chtěla",
+              "native": "a vrut (ea)"
+            },
+            {
+              "target": "viděla",
+              "native": "a văzut (ea)"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Musela jsem pracovat.",
+          "options": [
+            "A trebuit să lucrez.",
+            "Trebuie să lucrez.",
+            "Am vrut să lucrez."
+          ],
+          "answer": "A trebuit să lucrez.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am vrut să dorm.",
+          "answer": "Chtěla jsem spát.",
+          "extra": [
+            "jít"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Neměla jsem čas.",
+          "reviewed": false,
+          "native": "N-am avut timp."
+        },
+        {
+          "id": "u16-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Am văzut un film.",
+          "answer": "Viděla jsem film.",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l2-e8",
+          "type": "choice",
+          "prompt": "Cum se spune?",
+          "question": "Mi-a fost foame.",
+          "questionLang": "native",
+          "options": [
+            "Měla jsem hlad.",
+            "Byla jsem hlad.",
+            "Mám hlad."
+          ],
+          "answer": "Měla jsem hlad.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u16-l3",
+      "title": "Weekendul trecut",
+      "titleTarget": "Minulý víkend",
+      "reviewed": false,
+      "tip": {
+        "title": "„Acum un an” se spune înainte",
+        "text": "minulý = trecut: minulý týden (săptămâna trecută), minulý víkend (weekendul trecut). În română spui „acum un an”; în cehă spui před rokem, literal „înainte de un an”. La fel: před týdnem (acum o săptămână), před hodinou (acum o oră). Și când vorbești despre „asta”, verbul e la neutru: Bylo to super = A fost super.",
+        "examples": [
+          {
+            "target": "Co jsi dělala o víkendu?",
+            "native": "Ce ai făcut în weekend?"
+          },
+          {
+            "target": "Jeli jsme na výlet.",
+            "native": "Am fost într-o excursie."
+          },
+          {
+            "target": "Bylo to super.",
+            "native": "A fost super."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u16-l3-w1",
+          "target": "minulý týden",
+          "native": "săptămâna trecută",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w2",
+          "target": "minulý víkend",
+          "native": "weekendul trecut",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w3",
+          "target": "před rokem",
+          "native": "acum un an",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w4",
+          "target": "před týdnem",
+          "native": "acum o săptămână",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w5",
+          "target": "Co jsi dělala o víkendu?",
+          "native": "Ce ai făcut în weekend?",
+          "note": "Către un bărbat: Co jsi dělal o víkendu?",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w6",
+          "target": "Jeli jsme na výlet.",
+          "native": "Am fost într-o excursie. (noi)",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w7",
+          "target": "výlet",
+          "native": "excursie",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-w8",
+          "target": "Bylo to super.",
+          "native": "A fost super.",
+          "note": "Pentru „asta” verbul e la neutru: bylo.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u16-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "před rokem",
+          "questionLang": "target",
+          "options": [
+            "acum un an",
+            "anul trecut",
+            "peste un an"
+          ],
+          "answer": "acum un an",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "___ víkend jsme jeli na výlet.",
+          "translation": "Weekendul trecut am fost într-o excursie.",
+          "options": [
+            "Minulý",
+            "Minulá",
+            "Před"
+          ],
+          "answer": "Minulý",
+          "explain": "víkend e masculin, deci minulý (ca „trecut”, nu „trecută”).",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "minulý týden",
+              "native": "săptămâna trecută"
+            },
+            {
+              "target": "před týdnem",
+              "native": "acum o săptămână"
+            },
+            {
+              "target": "výlet",
+              "native": "excursie"
+            },
+            {
+              "target": "před rokem",
+              "native": "acum un an"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Co jsi dělala o víkendu?",
+          "options": [
+            "Ce ai făcut în weekend?",
+            "Ce faci în weekend?",
+            "Unde ai fost ieri?"
+          ],
+          "answer": "Ce ai făcut în weekend?",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am fost într-o excursie. (noi)",
+          "answer": "Jeli jsme na výlet.",
+          "extra": [
+            "jsem"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Bylo to super.",
+          "reviewed": false,
+          "native": "A fost super."
+        },
+        {
+          "id": "u16-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "excursie",
+          "answer": "výlet",
+          "reviewed": false
+        },
+        {
+          "id": "u16-l3-e8",
+          "type": "choice",
+          "prompt": "Ți-a plăcut weekendul. Ce spui?",
+          "question": "Jaký byl víkend?",
+          "questionLang": "target",
+          "options": [
+            "Bylo to super.",
+            "Bude to super.",
+            "Je to super."
+          ],
+          "answer": "Bylo to super.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

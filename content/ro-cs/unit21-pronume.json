@@ -1,0 +1,582 @@
+{
+  "id": "u21",
+  "level": "A2",
+  "title": "Îl văd, o știu",
+  "titleTarget": "Vidím ho",
+  "description": "Pronumele „îl, o, îi”, pluralul după verbe și verbele cu „se” și „si”.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u21-l1",
+      "title": "Îl văd, o cunosc",
+      "titleTarget": "Vidím ho, znám ji",
+      "reviewed": false,
+      "tip": {
+        "title": "„Îl”, „o”, „îi” în cehă",
+        "text": "Româna are pronume scurte: îl văd, o văd, îi văd, te văd, vă văd. Ceha la fel: vidím ho (îl), vidím ji (o), vidím je (îi / le), vidím tě (te), vidím vás (vă). Diferența: în română pronumele stă înaintea verbului, în cehă stă pe locul doi în propoziție. Vidím ho, dar Dnes ho vidím (Azi îl văd).",
+        "examples": [
+          {
+            "target": "Vidíš ho?",
+            "native": "Îl vezi?"
+          },
+          {
+            "target": "Znáš ji?",
+            "native": "O cunoști?"
+          },
+          {
+            "target": "Dnes je vidím.",
+            "native": "Azi îi văd."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u21-l1-w1",
+          "target": "ho",
+          "native": "îl (pe el)",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w2",
+          "target": "ji",
+          "native": "o (pe ea)",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w3",
+          "target": "je",
+          "native": "îi, le (pe ei, pe ele)",
+          "note": "Atenție: „je” înseamnă și „este”. Contextul arată care e.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w4",
+          "target": "tě",
+          "native": "te (pe tine)",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w5",
+          "target": "vás",
+          "native": "vă (pe voi, pe dumneavoastră)",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w6",
+          "target": "Vidíš ho?",
+          "native": "Îl vezi?",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w7",
+          "target": "Znáš ji?",
+          "native": "O cunoști?",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-w8",
+          "target": "Mám tě ráda.",
+          "native": "Țin la tine.",
+          "note": "Un bărbat spune: Mám tě rád. Poate însemna și „Te iubesc”.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u21-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Znáš ji?",
+          "questionLang": "target",
+          "options": [
+            "O cunoști?",
+            "Îl cunoști?",
+            "Îi cunoști?"
+          ],
+          "answer": "O cunoști?",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "ho",
+              "native": "îl"
+            },
+            {
+              "target": "ji",
+              "native": "o"
+            },
+            {
+              "target": "je",
+              "native": "îi"
+            },
+            {
+              "target": "tě",
+              "native": "te"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Kde je Petr? Nevidím ___.",
+          "translation": "Unde e Petr? Nu-l văd.",
+          "options": [
+            "ho",
+            "ji",
+            "je"
+          ],
+          "answer": "ho",
+          "explain": "Petr e bărbat, deci ho (îl).",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "O cunosc bine.",
+          "answer": "Znám ji dobře.",
+          "extra": [
+            "ho"
+          ],
+          "accept": [
+            "Dobře ji znám."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Vidíš ho?",
+          "options": [
+            "Îl vezi?",
+            "O vezi?",
+            "Mă vezi?"
+          ],
+          "answer": "Îl vezi?",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Mám tě ráda.",
+          "reviewed": false,
+          "native": "Țin la tine."
+        },
+        {
+          "id": "u21-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Îl vezi?",
+          "answer": "Vidíš ho?",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l1-e8",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Dobrý den, paní Nováková! Ráda ___ vidím.",
+          "translation": "Bună ziua, doamnă Nováková! Mă bucur să vă văd.",
+          "options": [
+            "vás",
+            "tě",
+            "ji"
+          ],
+          "answer": "vás",
+          "explain": "Când spui „dumneavoastră”, folosești vás.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u21-l2",
+      "title": "Cumpăr mere, îmi plac câinii",
+      "titleTarget": "Kupuju jablka",
+      "reviewed": false,
+      "tip": {
+        "title": "Pluralul aproape nu se schimbă",
+        "text": "În română spui „Cumpăr mere”: pluralul rămâne la fel după verb. În cehă e la fel pentru lucruri și pentru cuvintele feminine: jablka → Kupuju jablka, kočky → Mám ráda kočky. Doar ființele masculine își schimbă pluralul: psi → Mám ráda psy, bratři → Mám dva bratry, kamarádi → Čekám na kamarády.",
+        "examples": [
+          {
+            "target": "Kupuju jablka.",
+            "native": "Cumpăr mere."
+          },
+          {
+            "target": "Mám ráda psy.",
+            "native": "Îmi plac câinii."
+          },
+          {
+            "target": "Mám dva bratry.",
+            "native": "Am doi frați."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u21-l2-w1",
+          "target": "pes",
+          "native": "câine",
+          "note": "Plural: psi. „Pe câini” = psy.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w2",
+          "target": "kočka",
+          "native": "pisică",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w3",
+          "target": "Mám ráda psy.",
+          "native": "Îmi plac câinii.",
+          "note": "Un bărbat spune: Mám rád psy.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w4",
+          "target": "Kupuju jablka.",
+          "native": "Cumpăr mere.",
+          "note": "Mai formal: Kupuji jablka.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w5",
+          "target": "brambory",
+          "native": "cartofi",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w6",
+          "target": "rajčata",
+          "native": "roșii",
+          "note": "Singular: rajče.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w7",
+          "target": "Mám dva bratry.",
+          "native": "Am doi frați.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-w8",
+          "target": "Čekám na kamarády.",
+          "native": "Îmi aștept prietenii.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u21-l2-e1",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Am doi frați.",
+          "questionLang": "native",
+          "options": [
+            "Mám dva bratry.",
+            "Mám dva bratři.",
+            "Mám dva bratr."
+          ],
+          "answer": "Mám dva bratry.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "pes",
+              "native": "câine"
+            },
+            {
+              "target": "kočka",
+              "native": "pisică"
+            },
+            {
+              "target": "brambory",
+              "native": "cartofi"
+            },
+            {
+              "target": "rajčata",
+              "native": "roșii"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Kupuju ___ a brambory.",
+          "translation": "Cumpăr mere și cartofi.",
+          "options": [
+            "jablka",
+            "jablko",
+            "jablkem"
+          ],
+          "answer": "jablka",
+          "explain": "La plural, „jablka” rămâne la fel după verb, ca „mere” în română.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e4",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Mám ráda ___.",
+          "translation": "Îmi plac câinii.",
+          "options": [
+            "psy",
+            "psi",
+            "pes"
+          ],
+          "answer": "psy",
+          "explain": "Ființele masculine își schimbă pluralul după verb: psi → psy.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Îmi aștept prietenii.",
+          "answer": "Čekám na kamarády.",
+          "extra": [
+            "kamarádi"
+          ],
+          "accept": [
+            "Na kamarády čekám."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mám ráda kočky.",
+          "options": [
+            "Îmi plac pisicile.",
+            "Îmi plac câinii.",
+            "Am o pisică."
+          ],
+          "answer": "Îmi plac pisicile.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Kupuju jablka a rajčata.",
+          "reviewed": false,
+          "native": "Cumpăr mere și roșii."
+        },
+        {
+          "id": "u21-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "pisică",
+          "answer": "kočka",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u21-l3",
+      "title": "Mă spăl, îmi spăl mâinile",
+      "titleTarget": "Myju se, myju si ruce",
+      "reviewed": false,
+      "tip": {
+        "title": "„Se” și „si” = „mă” și „îmi”",
+        "text": "Româna spune „mă spăl” și „îmi spăl mâinile”. Ceha are doar două cuvinte pentru asta: se (mă, te, se) și si (îmi, îți, își). Myju se = mă spăl, myju si ruce = îmi spăl mâinile. Același se merge pentru toate persoanele: já se myju, ty se myješ, ona se myje. Și, ca ho și ji, stă pe locul doi: Dnes se myju.",
+        "examples": [
+          {
+            "target": "Myju se.",
+            "native": "Mă spăl."
+          },
+          {
+            "target": "Myju si ruce.",
+            "native": "Îmi spăl mâinile."
+          },
+          {
+            "target": "Jak se jmenuješ?",
+            "native": "Cum te cheamă?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u21-l3-w1",
+          "target": "Myju se.",
+          "native": "Mă spăl.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w2",
+          "target": "Myju si ruce.",
+          "native": "Îmi spăl mâinile.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w3",
+          "target": "ruce",
+          "native": "mâini",
+          "note": "Singular: ruka.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w4",
+          "target": "Oblékám se.",
+          "native": "Mă îmbrac.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w5",
+          "target": "Těším se na víkend.",
+          "native": "Abia aștept weekendul.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w6",
+          "target": "Bojím se.",
+          "native": "Mi-e frică.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w7",
+          "target": "Můžu se zeptat?",
+          "native": "Pot să întreb?",
+          "note": "În cehă „a întreba” are „se”: zeptat se.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-w8",
+          "target": "Sedněte si, prosím.",
+          "native": "Luați loc, vă rog.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u21-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Bojím se.",
+          "questionLang": "target",
+          "options": [
+            "Mi-e frică.",
+            "Mă grăbesc.",
+            "Mă bucur."
+          ],
+          "answer": "Mi-e frică.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Myju ___ ruce.",
+          "translation": "Îmi spăl mâinile.",
+          "options": [
+            "si",
+            "se",
+            "mi"
+          ],
+          "answer": "si",
+          "explain": "„Îmi” se spune si. „Mă” se spune se.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Jak ___ jmenuješ?",
+          "translation": "Cum te cheamă?",
+          "options": [
+            "se",
+            "si",
+            "tě"
+          ],
+          "answer": "se",
+          "explain": "Ceha folosește același se pentru „mă”, „te” și „se”.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e4",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Myju se.",
+              "native": "Mă spăl."
+            },
+            {
+              "target": "Oblékám se.",
+              "native": "Mă îmbrac."
+            },
+            {
+              "target": "Bojím se.",
+              "native": "Mi-e frică."
+            },
+            {
+              "target": "Těším se na víkend.",
+              "native": "Abia aștept weekendul."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Pot să întreb ceva?",
+          "answer": "Můžu se na něco zeptat?",
+          "extra": [
+            "si"
+          ],
+          "accept": [
+            "Můžu se zeptat na něco?"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Sedněte si, prosím.",
+          "options": [
+            "Luați loc, vă rog.",
+            "Spălați-vă pe mâini, vă rog.",
+            "Îmbrăcați-vă, vă rog."
+          ],
+          "answer": "Luați loc, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u21-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Těším se na víkend.",
+          "reviewed": false,
+          "native": "Abia aștept weekendul."
+        },
+        {
+          "id": "u21-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Mă îmbrac.",
+          "answer": "Oblékám se.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

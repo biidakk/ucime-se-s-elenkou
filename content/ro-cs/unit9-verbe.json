@@ -1,0 +1,526 @@
+{
+  "id": "u9",
+  "level": "A1",
+  "title": "Ce faci?",
+  "titleTarget": "Co děláš?",
+  "description": "Verbele de fiecare zi la timpul prezent.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u9-l1",
+      "title": "Verbele în -ám",
+      "titleTarget": "Dělám, znám, čekám",
+      "reviewed": false,
+      "tip": {
+        "title": "Terminația spune cine face",
+        "text": "În română spui „fac”, „faci”, „face” și nu mai ai nevoie de „eu” sau „tu”: terminația arată persoana. Ceha face exact la fel. Verbele ca dělat (a face) au terminațiile: dělám (fac), děláš (faci), dělá (face), děláme (facem), děláte (faceți), dělají (fac ei). Pronumele já, ty se pun doar pentru accent.",
+        "examples": [
+          {
+            "target": "Co děláš?",
+            "native": "Ce faci?"
+          },
+          {
+            "target": "Dělám kávu.",
+            "native": "Fac cafea."
+          },
+          {
+            "target": "Znáš Petra?",
+            "native": "Îl cunoști pe Petr?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u9-l1-w1",
+          "target": "dělat",
+          "native": "a face",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w2",
+          "target": "Co děláte?",
+          "native": "Ce faceți?",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w3",
+          "target": "znát",
+          "native": "a cunoaște",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w4",
+          "target": "Znám ho.",
+          "native": "Îl cunosc.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w5",
+          "target": "čekat",
+          "native": "a aștepta",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w6",
+          "target": "Čekám na autobus.",
+          "native": "Aștept autobuzul.",
+          "note": "În cehă aștepți „pe” ceva: čekat na.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w7",
+          "target": "poslouchat",
+          "native": "a asculta",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-w8",
+          "target": "Poslouchám hudbu.",
+          "native": "Ascult muzică.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Čekám na autobus.",
+          "questionLang": "target",
+          "options": [
+            "Aștept autobuzul.",
+            "Iau autobuzul.",
+            "Caut autobuzul."
+          ],
+          "answer": "Aștept autobuzul.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "dělat",
+              "native": "a face"
+            },
+            {
+              "target": "znát",
+              "native": "a cunoaște"
+            },
+            {
+              "target": "čekat",
+              "native": "a aștepta"
+            },
+            {
+              "target": "poslouchat",
+              "native": "a asculta"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "(tu) faci",
+          "questionLang": "native",
+          "options": [
+            "děláš",
+            "dělám",
+            "dělá"
+          ],
+          "answer": "děláš",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Co děláte?",
+          "options": [
+            "Ce faceți?",
+            "Ce faci?",
+            "Ce face?"
+          ],
+          "answer": "Ce faceți?",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Poslouchám hudbu.",
+          "options": [
+            "Poslouchám hudbu.",
+            "Posloucháš hudbu.",
+            "Poslouchají hudbu."
+          ],
+          "answer": "Poslouchám hudbu.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "a aștepta",
+          "answer": "čekat",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Îl cunosc.",
+          "answer": "Znám ho.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u9-l2",
+      "title": "Verbele în -ím",
+      "titleTarget": "Mluvím, myslím, vařím",
+      "reviewed": false,
+      "tip": {
+        "title": "„El” și „ei” arată la fel",
+        "text": "Al doilea grup mare de verbe se termină în -ím: mluvím (vorbesc), mluvíš (vorbești), mluví (vorbește), mluvíme (vorbim), mluvíte (vorbiți), mluví (vorbesc ei). Observă că „el vorbește” și „ei vorbesc” sunt amândouă mluví. Româna face la fel la multe verbe: „el lucrează” și „ei lucrează”, „el cântă” și „ei cântă”.",
+        "examples": [
+          {
+            "target": "Mluvíš anglicky?",
+            "native": "Vorbești engleză?"
+          },
+          {
+            "target": "Myslím, že ano.",
+            "native": "Cred că da."
+          },
+          {
+            "target": "Oni bydlí v Brně.",
+            "native": "Ei locuiesc în Brno."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u9-l2-w1",
+          "target": "myslet",
+          "native": "a crede, a gândi",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w2",
+          "target": "Myslím, že ano.",
+          "native": "Cred că da.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w3",
+          "target": "vařit",
+          "native": "a găti",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w4",
+          "target": "Vařím večeři.",
+          "native": "Gătesc cina.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w5",
+          "target": "učit se",
+          "native": "a învăța",
+          "note": "Fără „se”, učit înseamnă „a preda”.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w6",
+          "target": "Učím se česky.",
+          "native": "Învăț cehă.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w7",
+          "target": "Mluvte pomalu, prosím.",
+          "native": "Vorbiți rar, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-w8",
+          "target": "Rozumíte?",
+          "native": "Înțelegeți?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Učím se česky.",
+          "questionLang": "target",
+          "options": [
+            "Învăț cehă.",
+            "Predau cehă.",
+            "Vorbesc cehă."
+          ],
+          "answer": "Învăț cehă.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "myslet",
+              "native": "a crede"
+            },
+            {
+              "target": "vařit",
+              "native": "a găti"
+            },
+            {
+              "target": "učit se",
+              "native": "a învăța"
+            },
+            {
+              "target": "Rozumíte?",
+              "native": "Înțelegeți?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Ei vorbesc.",
+          "questionLang": "native",
+          "options": [
+            "Oni mluví.",
+            "Oni mluvím.",
+            "Oni mluvíš."
+          ],
+          "answer": "Oni mluví.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mluvte pomalu, prosím.",
+          "options": [
+            "Vorbiți rar, vă rog.",
+            "Repetați, vă rog.",
+            "Scrieți, vă rog."
+          ],
+          "answer": "Vorbiți rar, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Vařím večeři.",
+          "options": [
+            "Vařím večeři.",
+            "Vaříš večeři.",
+            "Vaří večeři."
+          ],
+          "answer": "Vařím večeři.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Cred că da.",
+          "answer": "Myslím, že ano.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Învăț cehă.",
+          "answer": "Učím se česky.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u9-l3",
+      "title": "Vreau, pot, trebuie",
+      "titleTarget": "Chci, můžu, musím",
+      "reviewed": false,
+      "tip": {
+        "title": "Fără „să”",
+        "text": "În română spui „vreau să dorm”, „trebuie să lucrez”. Ceha nu are nevoie de „să”: după chci (vreau), můžu (pot) și musím (trebuie) vine direct infinitivul. Chci spát = Vreau să dorm. E ca în română când spui „pot merge” în loc de „pot să merg”.",
+        "examples": [
+          {
+            "target": "Chci jít domů.",
+            "native": "Vreau să merg acasă."
+          },
+          {
+            "target": "Můžu platit kartou?",
+            "native": "Pot să plătesc cu cardul?"
+          },
+          {
+            "target": "Musím pracovat.",
+            "native": "Trebuie să lucrez."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u9-l3-w1",
+          "target": "chtít",
+          "native": "a vrea",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w2",
+          "target": "Chci spát.",
+          "native": "Vreau să dorm.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w3",
+          "target": "moct",
+          "native": "a putea",
+          "note": "„Můžu” e forma vorbită; formal și în scris: mohu.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w4",
+          "target": "Můžu platit kartou?",
+          "native": "Pot să plătesc cu cardul?",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w5",
+          "target": "muset",
+          "native": "a trebui",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w6",
+          "target": "Musím pracovat.",
+          "native": "Trebuie să lucrez.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w7",
+          "target": "Nemůžu přijít.",
+          "native": "Nu pot să vin.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-w8",
+          "target": "Chci jít domů.",
+          "native": "Vreau să merg acasă.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Musím pracovat.",
+          "questionLang": "target",
+          "options": [
+            "Trebuie să lucrez.",
+            "Vreau să lucrez.",
+            "Pot să lucrez."
+          ],
+          "answer": "Trebuie să lucrez.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "chtít",
+              "native": "a vrea"
+            },
+            {
+              "target": "moct",
+              "native": "a putea"
+            },
+            {
+              "target": "muset",
+              "native": "a trebui"
+            },
+            {
+              "target": "spát",
+              "native": "a dormi"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Vreau să dorm.",
+          "questionLang": "native",
+          "options": [
+            "Chci spát.",
+            "Chci spím.",
+            "Chci že spát."
+          ],
+          "answer": "Chci spát.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Můžu platit kartou?",
+          "options": [
+            "Pot să plătesc cu cardul?",
+            "Trebuie să plătesc acum?",
+            "Vreau să plătesc numerar."
+          ],
+          "answer": "Pot să plătesc cu cardul?",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Nemůžu přijít.",
+          "options": [
+            "Nemůžu přijít.",
+            "Musím přijít.",
+            "Chci přijít."
+          ],
+          "answer": "Nemůžu přijít.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vreau să merg acasă.",
+          "answer": "Chci jít domů.",
+          "reviewed": false
+        },
+        {
+          "id": "u9-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "a trebui",
+          "answer": "muset",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

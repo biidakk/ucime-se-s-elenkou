@@ -1,0 +1,572 @@
+{
+  "id": "u19",
+  "level": "A2",
+  "title": "Din, de la, fără",
+  "titleTarget": "Genitiv",
+  "description": "De unde vii, unde mergi, la cine ești și cât de mult: cazul genitiv.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u19-l1",
+      "title": "De unde vii, unde mergi?",
+      "titleTarget": "Z Prahy do Brna",
+      "reviewed": false,
+      "tip": {
+        "title": "„z” și „do” schimbă terminația",
+        "text": "În română spui „din Praga” și „la Praga”, iar „Praga” rămâne la fel. În cehă, după z (din, de la) și do (la, spre) cuvântul trece în genitiv și își schimbă terminația: Praha → z Prahy, do Prahy; Brno → z Brna, do Brna; obchod → do obchodu. Vestea bună: z și do cer același caz, deci aceeași formă. Înainte de unele grupuri de consoane, z devine ze: ze školy.",
+        "examples": [
+          {
+            "target": "Jedu z Prahy do Brna.",
+            "native": "Merg de la Praga la Brno."
+          },
+          {
+            "target": "Jdu do obchodu.",
+            "native": "Merg la magazin."
+          },
+          {
+            "target": "Dcera jde ze školy.",
+            "native": "Fiica vine de la școală."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u19-l1-w1",
+          "target": "Odkud?",
+          "native": "De unde?",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w2",
+          "target": "Jedu z Prahy.",
+          "native": "Vin din Praga.",
+          "note": "„Jedu” = merg/vin cu un vehicul.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w3",
+          "target": "Jdu z práce.",
+          "native": "Vin de la muncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w4",
+          "target": "Jedu do Brna.",
+          "native": "Merg la Brno.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w5",
+          "target": "do obchodu",
+          "native": "la magazin",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w6",
+          "target": "ze školy",
+          "native": "de la școală",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w7",
+          "target": "Moje rodina je z Bukurešti.",
+          "native": "Familia mea e din București.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-w8",
+          "target": "Kam jdeš?",
+          "native": "Unde mergi?",
+          "note": "„Kam” = încotro; „kde” = unde (fără mișcare).",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u19-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jedu do Brna.",
+          "questionLang": "target",
+          "options": [
+            "Merg la Brno.",
+            "Vin din Brno.",
+            "Locuiesc în Brno."
+          ],
+          "answer": "Merg la Brno.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Zítra jedu do ___.",
+          "translation": "Mâine merg la Praga.",
+          "options": [
+            "Prahy",
+            "Praha",
+            "Praze"
+          ],
+          "answer": "Prahy",
+          "explain": "După „do” vine genitivul: Praha → Prahy.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Moje rodina je z ___.",
+          "translation": "Familia mea e din București.",
+          "options": [
+            "Bukurešti",
+            "Bukurešť",
+            "Bukureští"
+          ],
+          "answer": "Bukurešti",
+          "explain": "După „z” vine genitivul: Bukurešť → z Bukurešti.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Merg la magazin.",
+          "answer": "Jdu do obchodu.",
+          "extra": [
+            "obchod"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jdu z práce.",
+          "options": [
+            "Vin de la muncă.",
+            "Merg la muncă.",
+            "Lucrez mult."
+          ],
+          "answer": "Vin de la muncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e6",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Odkud?",
+              "native": "De unde?"
+            },
+            {
+              "target": "Kam jdeš?",
+              "native": "Unde mergi?"
+            },
+            {
+              "target": "ze školy",
+              "native": "de la școală"
+            },
+            {
+              "target": "do obchodu",
+              "native": "la magazin"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l1-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Jedu do Brna.",
+          "reviewed": false,
+          "native": "Merg la Brno."
+        },
+        {
+          "id": "u19-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "De unde?",
+          "answer": "Odkud?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u19-l2",
+      "title": "La bunica, fără zahăr",
+      "titleTarget": "U babičky, bez cukru",
+      "reviewed": false,
+      "tip": {
+        "title": "u, bez, od: tot genitiv",
+        "text": "Încă trei cuvinte mici cer genitivul. u = la cineva (acasă la el sau la cabinetul lui): u babičky = la bunica, u doktora = la doctor. bez = fără: bez cukru = fără zahăr. od = de la cineva: dárek od manžela = un cadou de la soț. Româna spune „la” și pentru „sunt la bunica”, și pentru „merg la bunica”; ceha folosește u doar când ești deja acolo.",
+        "examples": [
+          {
+            "target": "V neděli jsem u babičky.",
+            "native": "Duminică sunt la bunica."
+          },
+          {
+            "target": "Čaj bez cukru, prosím.",
+            "native": "Un ceai fără zahăr, vă rog."
+          },
+          {
+            "target": "To je dopis od mámy.",
+            "native": "E o scrisoare de la mama."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u19-l2-w1",
+          "target": "u babičky",
+          "native": "la bunica",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w2",
+          "target": "Jsem u doktora.",
+          "native": "Sunt la doctor.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w3",
+          "target": "bez cukru",
+          "native": "fără zahăr",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w4",
+          "target": "Kávu bez mléka, prosím.",
+          "native": "O cafea fără lapte, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w5",
+          "target": "od mámy",
+          "native": "de la mama",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w6",
+          "target": "Mám dárek od manžela.",
+          "native": "Am un cadou de la soțul meu.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w7",
+          "target": "Čaj bez medu.",
+          "native": "Ceai fără miere.",
+          "note": "med = miere; bez medu = fără miere.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-w8",
+          "target": "dárek",
+          "native": "cadou",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u19-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "bez cukru",
+          "questionLang": "target",
+          "options": [
+            "fără zahăr",
+            "cu zahăr",
+            "mult zahăr"
+          ],
+          "answer": "fără zahăr",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Kávu bez ___, prosím.",
+          "translation": "O cafea fără lapte, vă rog.",
+          "options": [
+            "mléka",
+            "mléko",
+            "mlékem"
+          ],
+          "answer": "mléka",
+          "explain": "„bez” cere genitivul: mléko → mléka.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "V sobotu jsem u ___.",
+          "translation": "Sâmbătă sunt la bunica.",
+          "options": [
+            "babičky",
+            "babička",
+            "babičku"
+          ],
+          "answer": "babičky",
+          "explain": "„u” cere genitivul: babička → babičky (-a devine -y).",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Am un cadou de la soțul meu.",
+          "answer": "Mám dárek od manžela.",
+          "extra": [
+            "manžel"
+          ],
+          "accept": [
+            "Od manžela mám dárek."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jsem u doktora.",
+          "options": [
+            "Sunt la doctor.",
+            "Merg la doctor.",
+            "Vin de la doctor."
+          ],
+          "answer": "Sunt la doctor.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e6",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "bez",
+              "native": "fără"
+            },
+            {
+              "target": "od",
+              "native": "de la (cineva)"
+            },
+            {
+              "target": "bez medu",
+              "native": "fără miere"
+            },
+            {
+              "target": "dárek",
+              "native": "cadou"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Kávu bez cukru, prosím.",
+          "reviewed": false,
+          "native": "O cafea fără zahăr, vă rog."
+        },
+        {
+          "id": "u19-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "fără zahăr",
+          "answer": "bez cukru",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u19-l3",
+      "title": "Un kilogram de mere",
+      "titleTarget": "Kilo jablek",
+      "reviewed": false,
+      "tip": {
+        "title": "Fără „de” după cantități",
+        "text": "Româna pune „de” după o cantitate: un kilogram de mere, o sticlă de apă, mulți oameni. Ceha nu are acest „de”: cuvântul de după cantitate trece în genitiv. kilo jablek (de mere), láhev vody (de apă), hodně lidí (mulți oameni), trochu mléka (puțin lapte). Ai mai văzut asta la ore: pět hodin. După 5 și mai mult vine tot genitivul plural.",
+        "examples": [
+          {
+            "target": "Kilo jablek, prosím.",
+            "native": "Un kilogram de mere, vă rog."
+          },
+          {
+            "target": "Dám si láhev vody.",
+            "native": "Iau o sticlă de apă."
+          },
+          {
+            "target": "Tady je hodně lidí.",
+            "native": "Aici sunt mulți oameni."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u19-l3-w1",
+          "target": "kilo jablek",
+          "native": "un kilogram de mere",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w2",
+          "target": "láhev vody",
+          "native": "o sticlă de apă",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w3",
+          "target": "hodně lidí",
+          "native": "mulți oameni",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w4",
+          "target": "trochu mléka",
+          "native": "puțin lapte",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w5",
+          "target": "šálek čaje",
+          "native": "o ceașcă de ceai",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w6",
+          "target": "deset vajec",
+          "native": "zece ouă",
+          "note": "vejce = ou; după 5+ vine genitivul plural: vajec.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w7",
+          "target": "půl kila sýra",
+          "native": "jumătate de kilogram de brânză",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-w8",
+          "target": "Dám si sklenici vína.",
+          "native": "Iau un pahar de vin.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u19-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "láhev vody",
+          "questionLang": "target",
+          "options": [
+            "o sticlă de apă",
+            "un pahar de apă",
+            "fără apă"
+          ],
+          "answer": "o sticlă de apă",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Kilo ___, prosím.",
+          "translation": "Un kilogram de mere, vă rog.",
+          "options": [
+            "jablek",
+            "jablka",
+            "jablko"
+          ],
+          "answer": "jablek",
+          "explain": "După o cantitate vine genitivul plural: jablka → jablek.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Na koncertě bylo hodně ___.",
+          "translation": "La concert au fost mulți oameni.",
+          "options": [
+            "lidí",
+            "lidé",
+            "člověk"
+          ],
+          "answer": "lidí",
+          "explain": "„hodně” (mult) cere genitivul: lidé → lidí.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Iau un pahar de vin.",
+          "answer": "Dám si sklenici vína.",
+          "extra": [
+            "víno"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Šálek čaje, prosím.",
+          "options": [
+            "O ceașcă de ceai, vă rog.",
+            "Un pahar de vin, vă rog.",
+            "O sticlă de apă, vă rog."
+          ],
+          "answer": "O ceașcă de ceai, vă rog.",
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e6",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "deset vajec",
+              "native": "zece ouă"
+            },
+            {
+              "target": "trochu mléka",
+              "native": "puțin lapte"
+            },
+            {
+              "target": "hodně lidí",
+              "native": "mulți oameni"
+            },
+            {
+              "target": "kilo jablek",
+              "native": "un kilogram de mere"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u19-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Láhev vody, prosím.",
+          "reviewed": false,
+          "native": "O sticlă de apă, vă rog."
+        },
+        {
+          "id": "u19-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "puțin lapte",
+          "answer": "trochu mléka",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

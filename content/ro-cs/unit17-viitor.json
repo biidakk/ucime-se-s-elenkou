@@ -1,0 +1,564 @@
+{
+  "id": "u17",
+  "level": "A2",
+  "title": "Viitorul",
+  "titleTarget": "Budoucí čas",
+  "description": "Cum spui ce vei face: mâine, săptămâna viitoare, peste o oră.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u17-l1",
+      "title": "Voi lucra",
+      "titleTarget": "Budu pracovat",
+      "reviewed": false,
+      "tip": {
+        "title": "„Voi + infinitiv” = budu + infinitiv",
+        "text": "Româna face viitorul cu „voi”: voi lucra, vei lucra, va lucra. Ceha face exact la fel, cu budu: budu pracovat, budeš pracovat, bude pracovat, budeme, budete, budou. Singur, budu înseamnă „voi fi”: Budu doma = Voi fi acasă. Atenție: așa se formează viitorul doar la verbele „de proces” (pracovat, dělat, vařit). Despre celelalte vorbim în unitatea următoare.",
+        "examples": [
+          {
+            "target": "Zítra budu pracovat.",
+            "native": "Mâine voi lucra."
+          },
+          {
+            "target": "Budeš doma?",
+            "native": "Vei fi acasă?"
+          },
+          {
+            "target": "V sobotu budeme vařit.",
+            "native": "Sâmbătă vom găti."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u17-l1-w1",
+          "target": "budu",
+          "native": "voi (fi)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w2",
+          "target": "budeš",
+          "native": "vei (fi)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w3",
+          "target": "bude",
+          "native": "va (fi)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w4",
+          "target": "budeme",
+          "native": "vom (fi)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w5",
+          "target": "Budu pracovat.",
+          "native": "Voi lucra.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w6",
+          "target": "Kdy budeš doma?",
+          "native": "Când vei fi acasă?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w7",
+          "target": "Zítra bude pršet.",
+          "native": "Mâine va ploua.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-w8",
+          "target": "Budeme vařit.",
+          "native": "Vom găti.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u17-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Budu pracovat.",
+          "questionLang": "target",
+          "options": [
+            "Voi lucra.",
+            "Am lucrat.",
+            "Lucrez."
+          ],
+          "answer": "Voi lucra.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "budu",
+              "native": "voi"
+            },
+            {
+              "target": "budeš",
+              "native": "vei"
+            },
+            {
+              "target": "bude",
+              "native": "va"
+            },
+            {
+              "target": "budeme",
+              "native": "vom"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Zítra ___ pracovat.",
+          "translation": "Mâine voi lucra.",
+          "options": [
+            "budu",
+            "budeš",
+            "bude"
+          ],
+          "answer": "budu",
+          "explain": "Eu → budu, la fel ca „voi” în română.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Mâine va ploua.",
+          "answer": "Zítra bude pršet.",
+          "extra": [
+            "budu"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kdy budeš doma?",
+          "options": [
+            "Când vei fi acasă?",
+            "Când ai fost acasă?",
+            "Ești acasă?"
+          ],
+          "answer": "Când vei fi acasă?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Zítra budu pracovat.",
+          "reviewed": false,
+          "native": "Mâine voi lucra."
+        },
+        {
+          "id": "u17-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vom găti.",
+          "answer": "Budeme vařit.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l1-e8",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Budeš doma?",
+          "options": [
+            "Budeš doma?",
+            "Budu doma.",
+            "Bude doma?"
+          ],
+          "answer": "Budeš doma?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u17-l2",
+      "title": "O să merg",
+      "titleTarget": "Půjdu a pojedu",
+      "reviewed": false,
+      "tip": {
+        "title": "Mersul nu folosește „budu”",
+        "text": "Verbele de mișcare au viitorul lor: jdu (merg pe jos) → půjdu (o să merg pe jos), jedu (merg cu ceva) → pojedu (o să merg cu trenul, mașina…). „Budu jít” sau „budu jet” nu se spun. În română „o să merg” e același pentru amândouă, dar ceha te întreabă mereu: pe jos sau cu un vehicul?",
+        "examples": [
+          {
+            "target": "Zítra půjdu do práce.",
+            "native": "Mâine o să merg la serviciu (pe jos)."
+          },
+          {
+            "target": "V létě pojedu do Rumunska.",
+            "native": "Vara o să merg în România."
+          },
+          {
+            "target": "Půjdeš se mnou?",
+            "native": "Vii cu mine?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u17-l2-w1",
+          "target": "půjdu",
+          "native": "o să merg (pe jos)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w2",
+          "target": "pojedu",
+          "native": "o să merg (cu un vehicul)",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w3",
+          "target": "Půjdu do obchodu.",
+          "native": "O să merg la magazin.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w4",
+          "target": "Pojedu do Rumunska.",
+          "native": "O să merg în România.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w5",
+          "target": "Půjdeš se mnou?",
+          "native": "Vii cu mine?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w6",
+          "target": "Pojedeme vlakem.",
+          "native": "Vom merge cu trenul.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w7",
+          "target": "Půjdeme pěšky.",
+          "native": "Vom merge pe jos.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-w8",
+          "target": "Kam pojedeš?",
+          "native": "Unde o să mergi?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u17-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Pojedu do Rumunska.",
+          "questionLang": "target",
+          "options": [
+            "O să merg în România.",
+            "Am fost în România.",
+            "Sunt din România."
+          ],
+          "answer": "O să merg în România.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Zítra ___ do práce pěšky.",
+          "translation": "Mâine o să merg la serviciu pe jos.",
+          "options": [
+            "půjdu",
+            "pojedu",
+            "budu jít"
+          ],
+          "answer": "půjdu",
+          "explain": "Pe jos → půjdu. „Budu jít” nu se spune: verbele de mersul primesc pů- sau po-.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "Kam pojedeš?",
+              "native": "Unde o să mergi?"
+            },
+            {
+              "target": "Půjdeš se mnou?",
+              "native": "Vii cu mine?"
+            },
+            {
+              "target": "Pojedeme vlakem.",
+              "native": "Vom merge cu trenul."
+            },
+            {
+              "target": "Půjdeme pěšky.",
+              "native": "Vom merge pe jos."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "O să merg la magazin.",
+          "answer": "Půjdu do obchodu.",
+          "extra": [
+            "obchod"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kam pojedeš v létě?",
+          "options": [
+            "Unde o să mergi vara?",
+            "Unde ai fost vara?",
+            "Când pleci vara?"
+          ],
+          "answer": "Unde o să mergi vara?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Půjdeš se mnou?",
+          "reviewed": false,
+          "native": "Vii cu mine?"
+        },
+        {
+          "id": "u17-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vom merge cu trenul.",
+          "answer": "Pojedeme vlakem.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l2-e8",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Vara o să merg în România.",
+          "questionLang": "native",
+          "options": [
+            "V létě pojedu do Rumunska.",
+            "V létě budu jet do Rumunska.",
+            "V létě jsem jela do Rumunska."
+          ],
+          "answer": "V létě pojedu do Rumunska.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u17-l3",
+      "title": "Planuri",
+      "titleTarget": "Co budeš dělat?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Za” = „peste” (în timp)",
+        "text": "În română spui „peste o oră”, „peste o săptămână”. Ceha spune za: za hodinu, za týden. Iar „viitor” ca în „săptămâna viitoare” este příští: příští týden, příští rok. Ca să spui că te bucuri de ceva ce urmează, cehii spun Těším se! (abia aștept).",
+        "examples": [
+          {
+            "target": "Za hodinu budu doma.",
+            "native": "Peste o oră voi fi acasă."
+          },
+          {
+            "target": "Příští týden pojedu do Brna.",
+            "native": "Săptămâna viitoare o să merg la Brno."
+          },
+          {
+            "target": "Co budeš dělat o víkendu?",
+            "native": "Ce o să faci în weekend?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u17-l3-w1",
+          "target": "příští týden",
+          "native": "săptămâna viitoare",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w2",
+          "target": "příští rok",
+          "native": "anul viitor",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w3",
+          "target": "za hodinu",
+          "native": "peste o oră",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w4",
+          "target": "za týden",
+          "native": "peste o săptămână",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w5",
+          "target": "pozítří",
+          "native": "poimâine",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w6",
+          "target": "Za hodinu budu doma.",
+          "native": "Peste o oră voi fi acasă.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w7",
+          "target": "Co budeš dělat o víkendu?",
+          "native": "Ce o să faci în weekend?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-w8",
+          "target": "Těším se.",
+          "native": "Abia aștept.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u17-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "za hodinu",
+          "questionLang": "target",
+          "options": [
+            "peste o oră",
+            "acum o oră",
+            "la ora unu"
+          ],
+          "answer": "peste o oră",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "příští týden",
+              "native": "săptămâna viitoare"
+            },
+            {
+              "target": "příští rok",
+              "native": "anul viitor"
+            },
+            {
+              "target": "pozítří",
+              "native": "poimâine"
+            },
+            {
+              "target": "za týden",
+              "native": "peste o săptămână"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Příští týden ___ do Brna.",
+          "translation": "Săptămâna viitoare o să merg la Brno.",
+          "options": [
+            "pojedu",
+            "budu",
+            "pojedeš"
+          ],
+          "answer": "pojedu",
+          "explain": "Eu, cu trenul sau mașina → pojedu. „Budu” singur înseamnă „voi fi”, iar pojedeš e „tu”.",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Peste o oră voi fi acasă.",
+          "answer": "Za hodinu budu doma.",
+          "extra": [
+            "jsem"
+          ],
+          "accept": [
+            "Budu doma za hodinu."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Co budeš dělat o víkendu?",
+          "options": [
+            "Ce o să faci în weekend?",
+            "Ce ai făcut în weekend?",
+            "Ce faci azi?"
+          ],
+          "answer": "Ce o să faci în weekend?",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e6",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Těším se na víkend.",
+          "reviewed": false,
+          "native": "Abia aștept weekendul."
+        },
+        {
+          "id": "u17-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "poimâine",
+          "answer": "pozítří",
+          "reviewed": false
+        },
+        {
+          "id": "u17-l3-e8",
+          "type": "choice",
+          "prompt": "Ce răspunzi?",
+          "question": "Půjdeme zítra do kina?",
+          "questionLang": "target",
+          "options": [
+            "Ano, těším se!",
+            "Včera jsem byla v kině.",
+            "Je mi dvacet let."
+          ],
+          "answer": "Ano, těším se!",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

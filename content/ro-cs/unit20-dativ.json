@@ -1,0 +1,568 @@
+{
+  "id": "u20",
+  "level": "A2",
+  "title": "Cui?",
+  "titleTarget": "Dativ",
+  "description": "Îmi place, îi dau, îl sun, merg la cineva: cazul dativ, pe care româna îl are și ea.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u20-l1",
+      "title": "Îmi place",
+      "titleTarget": "Líbí se mi",
+      "reviewed": false,
+      "tip": {
+        "title": "Exact ca în română",
+        "text": "În română spui „Îmi place Praga”: Praga e subiectul, iar persoana stă în dativ (îmi). Ceha face identic: Líbí se mi Praha. mi = îmi, ti = îți, mu = îi (lui), jí = îi (ei), nám = ne. Pentru mâncare cehii spun Chutná mi (îmi place gustul), iar pentru activități ai învățat deja Ráda čtu.",
+        "examples": [
+          {
+            "target": "Líbí se mi Praha.",
+            "native": "Îmi place Praga."
+          },
+          {
+            "target": "Líbí se ti to?",
+            "native": "Îți place?"
+          },
+          {
+            "target": "Chutná mi to.",
+            "native": "Îmi place (la gust)."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u20-l1-w1",
+          "target": "Líbí se mi Praha.",
+          "native": "Îmi place Praga.",
+          "note": "Se poate spune și: Praha se mi líbí.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w2",
+          "target": "Líbí se ti to?",
+          "native": "Îți place?",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w3",
+          "target": "mu",
+          "native": "lui (îi)",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w4",
+          "target": "jí",
+          "native": "ei (îi)",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w5",
+          "target": "nám",
+          "native": "nouă (ne)",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w6",
+          "target": "Chutná mi to.",
+          "native": "Îmi place (la gust).",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w7",
+          "target": "Ta bunda se mi nelíbí.",
+          "native": "Nu-mi place geaca aceea.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-w8",
+          "target": "Líbí se nám tady.",
+          "native": "Ne place aici.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u20-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Líbí se ti to?",
+          "questionLang": "target",
+          "options": [
+            "Îți place?",
+            "Îmi place.",
+            "Ne place."
+          ],
+          "answer": "Îți place?",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Praha se ___ líbí.",
+          "translation": "Lui îi place Praga.",
+          "options": [
+            "mu",
+            "jí",
+            "mi"
+          ],
+          "answer": "mu",
+          "explain": "„mu” = lui (îi), ca în „îi place lui”.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Líbí se ___ tady.",
+          "translation": "Ne place aici.",
+          "options": [
+            "nám",
+            "mi",
+            "jí"
+          ],
+          "answer": "nám",
+          "explain": "„nám” = nouă (ne).",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Îmi place Praga.",
+          "answer": "Líbí se mi Praha.",
+          "extra": [
+            "mě"
+          ],
+          "accept": [
+            "Praha se mi líbí."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Chutná mi to.",
+          "options": [
+            "Îmi place (la gust).",
+            "Mi-e foame.",
+            "Nu-mi place."
+          ],
+          "answer": "Îmi place (la gust).",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e6",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "mi",
+              "native": "mie (îmi)"
+            },
+            {
+              "target": "ti",
+              "native": "ție (îți)"
+            },
+            {
+              "target": "mu",
+              "native": "lui (îi)"
+            },
+            {
+              "target": "jí",
+              "native": "ei (îi)"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u20-l1-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Líbí se mi tady.",
+          "reviewed": false,
+          "native": "Îmi place aici."
+        },
+        {
+          "id": "u20-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Îmi place Praga.",
+          "answer": "Líbí se mi Praha.",
+          "accept": [
+            "Praha se mi líbí."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u20-l2",
+      "title": "Pe cine suni?",
+      "titleTarget": "Komu voláš?",
+      "reviewed": false,
+      "tip": {
+        "title": "Dativul: „mamei”, „soțului”",
+        "text": "Româna are dativ: „îi dau mamei”, „îi scriu soțului”. Și ceha: máma → mámě, babička → babičce (k devine c), manžel → manželovi, bratr → bratrovi. Atenție la o diferență: în cehă „a suna pe cineva” cere tot dativul. Volám mámě = literal „sun mamei”, adică „o sun pe mama”. La fel: pomoct někomu (a ajuta pe cineva), rozumět někomu (a înțelege pe cineva).",
+        "examples": [
+          {
+            "target": "Volám mámě.",
+            "native": "O sun pe mama."
+          },
+          {
+            "target": "Dám to manželovi.",
+            "native": "Îi dau asta soțului."
+          },
+          {
+            "target": "Pošlu babičce dárek.",
+            "native": "Îi trimit bunicii un cadou."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u20-l2-w1",
+          "target": "Komu?",
+          "native": "Cui?",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w2",
+          "target": "Volám mámě.",
+          "native": "O sun pe mama.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w3",
+          "target": "Zavolám ti zítra.",
+          "native": "Te sun mâine.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w4",
+          "target": "Dám to manželovi.",
+          "native": "Îi dau asta soțului.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w5",
+          "target": "Pošlu babičce dárek.",
+          "native": "Îi trimit bunicii un cadou.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w6",
+          "target": "Napiš mi.",
+          "native": "Scrie-mi.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w7",
+          "target": "Pomůžu ti.",
+          "native": "Te ajut.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-w8",
+          "target": "Rozumím ti.",
+          "native": "Te înțeleg.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u20-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Komu voláš?",
+          "questionLang": "target",
+          "options": [
+            "Pe cine suni?",
+            "Cui îi scrii?",
+            "De unde suni?"
+          ],
+          "answer": "Pe cine suni?",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Zavolám ___.",
+          "translation": "O sun pe mama.",
+          "options": [
+            "mámě",
+            "mámu",
+            "máma"
+          ],
+          "answer": "mámě",
+          "explain": "„volat” cere dativul în cehă: máma → mámě. Româna spune „o sun pe mama”, ceha spune literal „sun mamei”.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Pošlu dárek ___.",
+          "translation": "Îi trimit un cadou bunicii.",
+          "options": [
+            "babičce",
+            "babičky",
+            "babičku"
+          ],
+          "answer": "babičce",
+          "explain": "Dativul de la babička e babičce (k devine c), ca în română „bunicii”.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Te sun mâine.",
+          "answer": "Zavolám ti zítra.",
+          "extra": [
+            "tě"
+          ],
+          "accept": [
+            "Zítra ti zavolám."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e5",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Dám to ___.",
+          "translation": "Îi dau asta soțului.",
+          "options": [
+            "manželovi",
+            "manžela",
+            "manželem"
+          ],
+          "answer": "manželovi",
+          "explain": "Masculinele care numesc persoane primesc în dativ -ovi: manžel → manželovi.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Pomůžu ti.",
+          "options": [
+            "Te ajut.",
+            "Te sun.",
+            "Te înțeleg."
+          ],
+          "answer": "Te ajut.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Napiš mi zítra.",
+          "reviewed": false,
+          "native": "Scrie-mi mâine."
+        },
+        {
+          "id": "u20-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Cui?",
+          "answer": "Komu?",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u20-l3",
+      "title": "Merg la doctor",
+      "titleTarget": "Jdu k doktorovi",
+      "reviewed": false,
+      "tip": {
+        "title": "„k” când mergi, „u” când ești acolo",
+        "text": "Româna spune „la” și când mergi la cineva, și când ești deja la el. Ceha le desparte: k + dativ când mergi spre o persoană (Jdu k doktorovi, Jedeme k babičce), u + genitiv când ești deja acolo (Jsem u doktora, u babičky). Înainte de unele consoane, k devine ke: ke kamarádce, ke mně.",
+        "examples": [
+          {
+            "target": "Jdu k doktorovi.",
+            "native": "Merg la doctor."
+          },
+          {
+            "target": "Jsem u doktora.",
+            "native": "Sunt la doctor."
+          },
+          {
+            "target": "Pojď ke mně.",
+            "native": "Vino la mine."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u20-l3-w1",
+          "target": "Jdu k doktorovi.",
+          "native": "Merg la doctor.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w2",
+          "target": "ke kamarádce",
+          "native": "la o prietenă",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w3",
+          "target": "Jedeme k babičce.",
+          "native": "Mergem la bunica.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w4",
+          "target": "kamarádka",
+          "native": "prietenă",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w5",
+          "target": "Musím k zubaři.",
+          "native": "Trebuie să merg la dentist.",
+          "note": "zubař = dentist. Se spune și: k zubařovi.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w6",
+          "target": "Přijď k nám.",
+          "native": "Vino la noi.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w7",
+          "target": "Pojď ke mně.",
+          "native": "Vino la mine.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-w8",
+          "target": "návštěva",
+          "native": "vizită",
+          "note": "Jdu na návštěvu. = Merg în vizită.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u20-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Přijď k nám.",
+          "questionLang": "target",
+          "options": [
+            "Vino la noi.",
+            "Vino la mine.",
+            "Mergem la voi."
+          ],
+          "answer": "Vino la noi.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Zítra jdu k ___.",
+          "translation": "Mâine merg la doctor.",
+          "options": [
+            "doktorovi",
+            "doktora",
+            "doktor"
+          ],
+          "answer": "doktorovi",
+          "explain": "„k” cere dativul: doktor → doktorovi. „u doktora” ar însemna că ești deja acolo.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Jsem ___ babičky.",
+          "translation": "Sunt la bunica.",
+          "options": [
+            "u",
+            "k",
+            "do"
+          ],
+          "answer": "u",
+          "explain": "Când ești deja la cineva: u + genitiv (babičky). Când mergi spre cineva: k + dativ (k babičce).",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e4",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Mergem la bunica.",
+          "answer": "Jedeme k babičce.",
+          "extra": [
+            "babičky"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jdu ke kamarádce.",
+          "options": [
+            "Merg la o prietenă.",
+            "Vin de la o prietenă.",
+            "Sunt la o prietenă."
+          ],
+          "answer": "Merg la o prietenă.",
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e6",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "kamarádka",
+              "native": "prietenă"
+            },
+            {
+              "target": "návštěva",
+              "native": "vizită"
+            },
+            {
+              "target": "zubař",
+              "native": "dentist"
+            },
+            {
+              "target": "Pojď ke mně.",
+              "native": "Vino la mine."
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u20-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Jdu k doktorovi.",
+          "reviewed": false,
+          "native": "Merg la doctor."
+        },
+        {
+          "id": "u20-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Vino la noi.",
+          "answer": "Přijď k nám.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

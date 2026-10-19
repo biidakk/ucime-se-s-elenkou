@@ -13,3 +13,4 @@
 | [cs-de](review/cs-de.md) | 30 | 0 / 1901 |
 | [cs-en](review/cs-en.md) | 30 | 0 / 1852 |
 | [cs-ro](review/cs-ro.md) | 30 | 0 / 1810 |
+| [ro-cs](review/ro-cs.md) | 24 | 0 / 1281 |

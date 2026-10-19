@@ -1,0 +1,569 @@
+{
+  "id": "u22",
+  "level": "A2",
+  "title": "Cu cine? Despre ce?",
+  "titleTarget": "S kým? O čem?",
+  "description": "„Cu” și „despre” în cehă: cuvântul își schimbă terminația, nu doar prepoziția.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u22-l1",
+      "title": "Cu cine?",
+      "titleTarget": "S kým?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Cu” schimbă terminația",
+        "text": "În română „cu” nu schimbă nimic: cu soțul, cu prietena. În cehă, după s (cu) cuvântul primește terminația instrumentalului: manžel → s manželem, kamarádka → s kamarádkou, děti → s dětmi. Ai văzut deja terminația în Jedu metrem, unde arată mijlocul de transport. Când cuvântul următor începe cu s, z, š sau ž, s devine se: se sestrou, se mnou.",
+        "examples": [
+          {
+            "target": "Jdu do kina s manželem.",
+            "native": "Merg la film cu soțul."
+          },
+          {
+            "target": "Mluvím s kamarádkou.",
+            "native": "Vorbesc cu prietena."
+          },
+          {
+            "target": "Jdu tam se sestrou.",
+            "native": "Merg acolo cu sora mea."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u22-l1-w1",
+          "target": "s manželem",
+          "native": "cu soțul",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w2",
+          "target": "s kamarádkou",
+          "native": "cu prietena",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w3",
+          "target": "se sestrou",
+          "native": "cu sora",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w4",
+          "target": "s dětmi",
+          "native": "cu copiii",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w5",
+          "target": "se mnou",
+          "native": "cu mine",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w6",
+          "target": "S kým bydlíš?",
+          "native": "Cu cine locuiești?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w7",
+          "target": "Jdeš s námi?",
+          "native": "Vii cu noi?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-w8",
+          "target": "chleba s máslem",
+          "native": "pâine cu unt",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u22-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "S kým bydlíš?",
+          "questionLang": "target",
+          "options": [
+            "Cu cine locuiești?",
+            "Unde locuiești?",
+            "Cu ce mergi?"
+          ],
+          "answer": "Cu cine locuiești?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Jdu do kina s ___.",
+          "translation": "Merg la film cu prietena.",
+          "options": [
+            "kamarádkou",
+            "kamarádka",
+            "kamarádku"
+          ],
+          "answer": "kamarádkou",
+          "explain": "După s (cu), cuvintele feminine primesc -ou: kamarádka → s kamarádkou.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Mluvím ___ sestrou.",
+          "translation": "Vorbesc cu sora mea.",
+          "options": [
+            "se",
+            "s",
+            "z"
+          ],
+          "answer": "se",
+          "explain": "Înaintea unui cuvânt care începe cu s, „s” devine se, ca să se poată pronunța.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e4",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "s manželem",
+              "native": "cu soțul"
+            },
+            {
+              "target": "s dětmi",
+              "native": "cu copiii"
+            },
+            {
+              "target": "se mnou",
+              "native": "cu mine"
+            },
+            {
+              "target": "chleba s máslem",
+              "native": "pâine cu unt"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Locuiesc cu soțul și copiii.",
+          "answer": "Bydlím s manželem a dětmi.",
+          "extra": [
+            "manžel"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Jdeš s námi?",
+          "options": [
+            "Vii cu noi?",
+            "Vii cu mine?",
+            "Unde mergi?"
+          ],
+          "answer": "Vii cu noi?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l1-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Bydlím s manželem.",
+          "reviewed": false,
+          "native": "Locuiesc cu soțul."
+        },
+        {
+          "id": "u22-l1-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "cu mine",
+          "answer": "se mnou",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u22-l2",
+      "title": "În fața casei, sub masă",
+      "titleTarget": "Před domem, pod stolem",
+      "reviewed": false,
+      "tip": {
+        "title": "Unde stă? → instrumental",
+        "text": "Româna spune „în fața casei”, „deasupra mesei”. Ceha folosește tot terminația de la s manželem: před domem (în fața casei), za domem (în spatele casei), nad stolem (deasupra mesei), pod stolem (sub masă), mezi okny (între ferestre). Și: za rohem = după colț (ai învățat deja na rohu = la colț).",
+        "examples": [
+          {
+            "target": "Čekám před domem.",
+            "native": "Aștept în fața casei."
+          },
+          {
+            "target": "Kočka je pod stolem.",
+            "native": "Pisica e sub masă."
+          },
+          {
+            "target": "Lampa je nad stolem.",
+            "native": "Lampa e deasupra mesei."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u22-l2-w1",
+          "target": "před",
+          "native": "în fața",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w2",
+          "target": "za",
+          "native": "în spatele",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w3",
+          "target": "nad",
+          "native": "deasupra",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w4",
+          "target": "pod",
+          "native": "sub",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w5",
+          "target": "mezi",
+          "native": "între",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w6",
+          "target": "před domem",
+          "native": "în fața casei",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w7",
+          "target": "Kočka je pod stolem.",
+          "native": "Pisica e sub masă.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-w8",
+          "target": "za rohem",
+          "native": "după colț",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u22-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "pod",
+          "questionLang": "target",
+          "options": [
+            "sub",
+            "deasupra",
+            "între"
+          ],
+          "answer": "sub",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "před",
+              "native": "în fața"
+            },
+            {
+              "target": "za",
+              "native": "în spatele"
+            },
+            {
+              "target": "nad",
+              "native": "deasupra"
+            },
+            {
+              "target": "mezi",
+              "native": "între"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Čekám před ___.",
+          "translation": "Aștept în fața casei.",
+          "options": [
+            "domem",
+            "dům",
+            "domu"
+          ],
+          "answer": "domem",
+          "explain": "După před (unde?) vine instrumentalul: dům → před domem.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e4",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Kočka spí pod ___.",
+          "translation": "Pisica doarme sub masă.",
+          "options": [
+            "stolem",
+            "stůl",
+            "stole"
+          ],
+          "answer": "stolem",
+          "explain": "Pisica stă pe loc, deci instrumental: stůl → pod stolem.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Lampa e deasupra mesei.",
+          "answer": "Lampa je nad stolem.",
+          "extra": [
+            "stůl"
+          ],
+          "accept": [
+            "Nad stolem je lampa."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Za domem je zahrada.",
+          "options": [
+            "În spatele casei e o grădină.",
+            "În fața casei e o grădină.",
+            "Grădina e deasupra casei."
+          ],
+          "answer": "În spatele casei e o grădină.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l2-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Čekám před domem.",
+          "reviewed": false,
+          "native": "Aștept în fața casei."
+        },
+        {
+          "id": "u22-l2-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "după colț",
+          "answer": "za rohem",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u22-l3",
+      "title": "Despre ce vorbim?",
+      "titleTarget": "O čem mluvíme?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Despre” = o + locativ",
+        "text": "În română „despre” nu schimbă cuvântul: despre muncă, despre copii. În cehă, după o (despre) vine aceeași terminație ca după v în v Praze sau v kuchyni: práce → o práci, děti → o dětech, ty → o tobě, já → o mně. Unele cuvinte nu se schimbă deloc: o počasí.",
+        "examples": [
+          {
+            "target": "Mluvíme o práci.",
+            "native": "Vorbim despre muncă."
+          },
+          {
+            "target": "O čem je ta kniha?",
+            "native": "Despre ce e cartea asta?"
+          },
+          {
+            "target": "Mluvíme o dětech.",
+            "native": "Vorbim despre copii."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u22-l3-w1",
+          "target": "O čem mluvíte?",
+          "native": "Despre ce vorbiți?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w2",
+          "target": "Mluvíme o práci.",
+          "native": "Vorbim despre muncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w3",
+          "target": "o počasí",
+          "native": "despre vreme",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w4",
+          "target": "o dětech",
+          "native": "despre copii",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w5",
+          "target": "o tobě",
+          "native": "despre tine",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w6",
+          "target": "o mně",
+          "native": "despre mine",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w7",
+          "target": "noviny",
+          "native": "ziar",
+          "note": "E la plural în cehă: Čtu noviny. O čem píšou noviny? = Despre ce scrie ziarul?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-w8",
+          "target": "O čem je ta kniha?",
+          "native": "Despre ce e cartea asta?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u22-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "O čem mluvíte?",
+          "questionLang": "target",
+          "options": [
+            "Despre ce vorbiți?",
+            "Cu cine vorbiți?",
+            "Ce limbă vorbiți?"
+          ],
+          "answer": "Despre ce vorbiți?",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e2",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Mluvíme o ___.",
+          "translation": "Vorbim despre muncă.",
+          "options": [
+            "práci",
+            "práce",
+            "prací"
+          ],
+          "answer": "práci",
+          "explain": "După o (despre) vine locativul, ca după v: práce → o práci.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e3",
+          "type": "fill",
+          "prompt": "Completează",
+          "sentence": "Celý večer mluvila o ___.",
+          "translation": "Toată seara a vorbit despre copii.",
+          "options": [
+            "dětech",
+            "děti",
+            "dětmi"
+          ],
+          "answer": "dětech",
+          "explain": "Locativ la plural: děti → o dětech.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e4",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "o tobě",
+              "native": "despre tine"
+            },
+            {
+              "target": "o mně",
+              "native": "despre mine"
+            },
+            {
+              "target": "o počasí",
+              "native": "despre vreme"
+            },
+            {
+              "target": "o dětech",
+              "native": "despre copii"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e5",
+          "type": "build",
+          "prompt": "Construiește propoziția",
+          "question": "Despre ce e cartea asta?",
+          "answer": "O čem je ta kniha?",
+          "extra": [
+            "co"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e6",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Mluvíme o počasí.",
+          "options": [
+            "Vorbim despre vreme.",
+            "Vorbim despre muncă.",
+            "Vorbim cu prietenii."
+          ],
+          "answer": "Vorbim despre vreme.",
+          "reviewed": false
+        },
+        {
+          "id": "u22-l3-e7",
+          "type": "speak",
+          "prompt": "Spune cu voce tare",
+          "text": "Mluvíme o práci.",
+          "reviewed": false,
+          "native": "Vorbim despre muncă."
+        },
+        {
+          "id": "u22-l3-e8",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "despre tine",
+          "answer": "o tobě",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

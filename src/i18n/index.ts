@@ -12,13 +12,14 @@
 import { useSettings } from '@/lib/settings';
 import type { UiLanguage } from '@/lib/languages';
 import cs from './cs.json';
+import ro from './ro.json';
 
 type Dictionary = typeof cs;
 export type TextKey = keyof Dictionary;
 type PluralForms = { one: string; few?: string; many?: string; other: string };
 type Params = Record<string, string | number>;
 
-const TRANSLATIONS: Record<UiLanguage, Dictionary> = { cs };
+const TRANSLATIONS: Record<UiLanguage, Dictionary> = { cs, ro };
 
 function fill(text: string, params?: Params): string {
   if (!params) return text;

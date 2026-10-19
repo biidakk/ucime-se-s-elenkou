@@ -1,5 +1,7 @@
 # Moving the Romanian → Czech app into this app (course `ro-cs`)
 
+**Status (2026-10-19): steps 1, 2 and 4 are done and tested** (Romanian interface, course `ro-cs`, progress transfer in `src/lib/legacyImport.ts`, Android variant in `app.config.js` + `eas.json`). Remaining: the Android build and installing it over the old app.
+
 The old app **Cehă pentru români** (`C:\Users\ander\czech-ro-app`, Android package
 `com.biidakk.cehapentruromani`, versionCode 2) teaches Czech to Romanian speakers. This plan
 moves it into this app as the course **`ro-cs`** (native Romanian → learning Czech) without

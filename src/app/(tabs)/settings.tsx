@@ -16,7 +16,7 @@ import { canCopyText, canPickFile, copyText, pickBackupFile, shareBackupFile } f
 import { useCourse } from '@/lib/course';
 import { dayKey } from '@/lib/dates';
 import { shouldShowInstallHint } from '@/lib/device';
-import { ENDONYMS } from '@/lib/languages';
+import { coursesFor, ENDONYMS, getCourseInfo, UI_LANGUAGES, UiLanguage } from '@/lib/languages';
 import { useMicExercises } from '@/lib/mic';
 import { useProgress } from '@/lib/progress';
 import { SpeechRate, useSettings } from '@/lib/settings';
@@ -44,6 +44,13 @@ export default function SettingsScreen() {
   const [pendingRestore, setPendingRestore] = useState<Backup | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
   const [chatCode, setChatCode] = useState(settings.chatCode);
+
+  // A new interface language: keep the course if it fits, otherwise take that language's first course.
+  const chooseNative = (lang: UiLanguage) => {
+    if (lang === settings.nativeLanguage) return;
+    const fits = settings.courseId && getCourseInfo(settings.courseId).native === lang;
+    update({ nativeLanguage: lang, ...(fits ? {} : { courseId: coursesFor(lang)[0]?.id ?? settings.courseId }) });
+  };
 
   const languageName = t(`lang.${target.code}.name` as TextKey);
 
@@ -101,7 +108,19 @@ export default function SettingsScreen() {
             onPress={() => router.push('/courses')}
           />
           <Text style={styles.label}>{t('settings.myLanguage')}</Text>
-          <Text style={styles.value}>{ENDONYMS[settings.nativeLanguage ?? 'cs']}</Text>
+          {UI_LANGUAGES.length > 1 ? (
+            UI_LANGUAGES.map((lang) => (
+              <LanguageCard
+                key={lang}
+                lang={lang}
+                title={ENDONYMS[lang]}
+                selected={(settings.nativeLanguage ?? 'cs') === lang}
+                onPress={() => chooseNative(lang)}
+              />
+            ))
+          ) : (
+            <Text style={styles.value}>{ENDONYMS[settings.nativeLanguage ?? 'cs']}</Text>
+          )}
         </Section>
 
         <Section title={t('settings.soundSection')}>

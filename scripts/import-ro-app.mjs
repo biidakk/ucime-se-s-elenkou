@@ -37,6 +37,12 @@ function exercise(ex) {
   }
 }
 
+// Known small mistakes in the old content, corrected during the conversion (see MIGRATION.md).
+const FIXES = {
+  // The question „2+kk“ is Czech, but was marked as a Romanian question.
+  'u10-l3-e3': (ex) => ({ ...ex, questionLang: 'target' }),
+};
+
 let count = 0;
 for (const file of fs.readdirSync(source).filter((f) => /^unit\d+-.*\.json$/.test(f))) {
   const unit = JSON.parse(fs.readFileSync(path.join(source, file), 'utf8'));
@@ -57,7 +63,7 @@ for (const file of fs.readdirSync(source).filter((f) => /^unit\d+-.*\.json$/.tes
         ...(lesson.tip.examples && { examples: lesson.tip.examples.map(pair) }),
       },
       words: lesson.words.map(({ cs, ro, ...w }) => ({ id: w.id, target: cs, native: ro, ...(w.note && { note: w.note }), reviewed: w.reviewed })),
-      exercises: lesson.exercises.map(exercise),
+      exercises: lesson.exercises.map((ex) => (FIXES[ex.id] ? FIXES[ex.id](exercise(ex)) : exercise(ex))),
     })),
   };
   fs.writeFileSync(path.join(to, file), JSON.stringify(converted, null, 2) + '\n');

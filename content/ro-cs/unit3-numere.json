@@ -1,0 +1,657 @@
+{
+  "id": "u3",
+  "level": "A1",
+  "title": "Numere",
+  "titleTarget": "Čísla",
+  "description": "Numerele de la 0 la 100, prețuri și vârsta.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "De la 0 la 5",
+      "titleTarget": "Nula až pět",
+      "reviewed": false,
+      "tip": {
+        "title": "Sunetul ř – cel mai ceh sunet",
+        "text": "Litera ř nu există în română (și aproape în nicio altă limbă). E un „r” vibrat rostit în același timp cu un „j” (ca în „jos”). Pentru început, un „rj” spus repede e destul de bun – cehii te vor înțelege. După t sau p sună mai aspru, ca „rș”: tři (trei) se aude aproape „trși”.",
+        "examples": [
+          {
+            "target": "tři",
+            "native": "trei – aproape „trși”"
+          },
+          {
+            "target": "čtyři",
+            "native": "patru – „ci-ti-rji”"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u3-l1-w1",
+          "target": "nula",
+          "native": "zero",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-w2",
+          "target": "jedna",
+          "native": "unu",
+          "note": "Când numeri: jedna, dva, tři. Cu substantive: jeden (m), jedna (f), jedno (n) – ca un / o în română.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-w3",
+          "target": "dva",
+          "native": "doi",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-w4",
+          "target": "tři",
+          "native": "trei",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-w5",
+          "target": "čtyři",
+          "native": "patru",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-w6",
+          "target": "pět",
+          "native": "cinci",
+          "note": "Se citește „piet”.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3-l1-e1",
+          "type": "choice",
+          "prompt": "Ce număr este?",
+          "question": "tři",
+          "questionLang": "target",
+          "options": [
+            "3",
+            "2",
+            "4"
+          ],
+          "answer": "3",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege numărul",
+          "audio": "čtyři",
+          "options": [
+            "4",
+            "3",
+            "5"
+          ],
+          "answer": "4",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "nula",
+              "native": "0"
+            },
+            {
+              "target": "jedna",
+              "native": "1"
+            },
+            {
+              "target": "dva",
+              "native": "2"
+            },
+            {
+              "target": "pět",
+              "native": "5"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege numărul",
+          "audio": "pět",
+          "options": [
+            "5",
+            "1",
+            "2"
+          ],
+          "answer": "5",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "doi (2)",
+          "answer": "dva",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e6",
+          "type": "choice",
+          "prompt": "Cum scrii în cehă?",
+          "question": "3",
+          "questionLang": "native",
+          "options": [
+            "tři",
+            "tri",
+            "trži"
+          ],
+          "answer": "tři",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "patru (4)",
+          "answer": "čtyři",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "De la 6 la 10",
+      "titleTarget": "Šest až deset",
+      "reviewed": false,
+      "tip": {
+        "title": "Cum citești ě",
+        "text": "ě nu e o vocală nouă, ci un „e” care înmoaie litera dinainte. După p, b, v, f se citește „ie”, ca în „fier” sau „piept”: pět = „piet”, devět = „deviet”. După d, t, n, litera devine moale: dě = „die” rostit scurt. Bonus: sedm și osm se citesc „sedum” și „osum”.",
+        "examples": [
+          {
+            "target": "devět",
+            "native": "nouă – „deviet”"
+          },
+          {
+            "target": "sedm",
+            "native": "șapte – „sedum”"
+          },
+          {
+            "target": "osm",
+            "native": "opt – „osum”"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u3-l2-w1",
+          "target": "šest",
+          "native": "șase",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-w2",
+          "target": "sedm",
+          "native": "șapte",
+          "note": "Se citește „sedum”.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-w3",
+          "target": "osm",
+          "native": "opt",
+          "note": "Se citește „osum”.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-w4",
+          "target": "devět",
+          "native": "nouă",
+          "note": "Se citește „deviet”.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-w5",
+          "target": "deset",
+          "native": "zece",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-w6",
+          "target": "Kolik?",
+          "native": "Cât? / Câți?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3-l2-e1",
+          "type": "choice",
+          "prompt": "Ce număr este?",
+          "question": "šest",
+          "questionLang": "target",
+          "options": [
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege numărul",
+          "audio": "devět",
+          "options": [
+            "9",
+            "10",
+            "7"
+          ],
+          "answer": "9",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "sedm",
+              "native": "7"
+            },
+            {
+              "target": "osm",
+              "native": "8"
+            },
+            {
+              "target": "deset",
+              "native": "10"
+            },
+            {
+              "target": "Kolik?",
+              "native": "Cât?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e4",
+          "type": "choice",
+          "prompt": "Cum se citește „sedm”?",
+          "question": "sedm",
+          "questionLang": "target",
+          "options": [
+            "sedum",
+            "sedem",
+            "sem"
+          ],
+          "answer": "sedum",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege numărul",
+          "audio": "osm",
+          "options": [
+            "8",
+            "6",
+            "10"
+          ],
+          "answer": "8",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "zece (10)",
+          "answer": "deset",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "șase (6)",
+          "answer": "šest",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Până la 100 și prețuri",
+      "titleTarget": "Kolik to stojí?",
+      "reviewed": false,
+      "tip": {
+        "title": "Jedenáct = unsprezece",
+        "text": "Româna spune „unsprezece” = „unu spre zece”. Ceha face exact la fel: jedenáct vine din „jeden na deset” – „unu pe zece”. Deci 11–19 se termină în -náct, ca -sprezece. Și zecile seamănă: dvacet = „doi-zeci”, ca „douăzeci”. Moneda cehă e koruna (coroana); după 5 și mai mult spui „korun”: sto korun.",
+        "examples": [
+          {
+            "target": "jedenáct",
+            "native": "unsprezece – „unu pe zece”"
+          },
+          {
+            "target": "dvanáct",
+            "native": "doisprezece"
+          },
+          {
+            "target": "dvacet",
+            "native": "douăzeci"
+          },
+          {
+            "target": "To stojí sto korun.",
+            "native": "Costă o sută de coroane."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u3-l3-w1",
+          "target": "jedenáct",
+          "native": "unsprezece",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w2",
+          "target": "dvanáct",
+          "native": "doisprezece",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w3",
+          "target": "dvacet",
+          "native": "douăzeci",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w4",
+          "target": "padesát",
+          "native": "cincizeci",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w5",
+          "target": "sto",
+          "native": "o sută",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w6",
+          "target": "Kolik to stojí?",
+          "native": "Cât costă?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-w7",
+          "target": "To stojí sto korun.",
+          "native": "Costă o sută de coroane.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3-l3-e1",
+          "type": "choice",
+          "prompt": "Ce număr este?",
+          "question": "jedenáct",
+          "questionLang": "target",
+          "options": [
+            "11",
+            "12",
+            "21"
+          ],
+          "answer": "11",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kolik to stojí?",
+          "options": [
+            "Cât costă?",
+            "Câți ani ai?",
+            "Cât e ceasul?"
+          ],
+          "answer": "Cât costă?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "dvanáct",
+              "native": "12"
+            },
+            {
+              "target": "dvacet",
+              "native": "20"
+            },
+            {
+              "target": "padesát",
+              "native": "50"
+            },
+            {
+              "target": "sto",
+              "native": "100"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege prețul",
+          "audio": "To stojí sto korun.",
+          "options": [
+            "100 Kč",
+            "20 Kč",
+            "50 Kč"
+          ],
+          "answer": "100 Kč",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e5",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Cât costă?",
+          "answer": "Kolik to stojí?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e6",
+          "type": "choice",
+          "prompt": "Ce număr este?",
+          "question": "padesát",
+          "questionLang": "target",
+          "options": [
+            "50",
+            "15",
+            "5"
+          ],
+          "answer": "50",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "douăzeci (20)",
+          "answer": "dvacet",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l4",
+      "title": "Câți ani ai?",
+      "titleTarget": "Kolik je ti let?",
+      "reviewed": false,
+      "tip": {
+        "title": "„Îmi e 20 de ani”",
+        "text": "Româna spune „am 20 de ani”, dar ceha spune literal „îmi e 20 de ani”: Je mi dvacet let. „Mi” este exact „îmi” din română (dativ). La fel în întrebare: Kolik je ti let? = „câți ani îți sunt?”. Iar politicos: Kolik je vám let? (vám = vă).",
+        "examples": [
+          {
+            "target": "Je mi dvacet let.",
+            "native": "Am douăzeci de ani. (literal: îmi e…)"
+          },
+          {
+            "target": "Kolik je ti let?",
+            "native": "Câți ani ai?"
+          },
+          {
+            "target": "Kolik je vám let?",
+            "native": "Câți ani aveți?"
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u3-l4-w1",
+          "target": "Kolik je ti let?",
+          "native": "Câți ani ai?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-w2",
+          "target": "Kolik je vám let?",
+          "native": "Câți ani aveți?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-w3",
+          "target": "Je mi dvacet let.",
+          "native": "Am douăzeci de ani.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-w4",
+          "target": "Je mi třicet let.",
+          "native": "Am treizeci de ani.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-w5",
+          "target": "třicet",
+          "native": "treizeci",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-w6",
+          "target": "čtyřicet",
+          "native": "patruzeci",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3-l4-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Kolik je ti let?",
+          "questionLang": "target",
+          "options": [
+            "Câți ani ai?",
+            "Cât costă?",
+            "Câți sunteți?"
+          ],
+          "answer": "Câți ani ai?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e2",
+          "type": "listen",
+          "prompt": "Ascultă și alege vârsta",
+          "audio": "Je mi třicet let.",
+          "options": [
+            "30 de ani",
+            "20 de ani",
+            "40 de ani"
+          ],
+          "answer": "30 de ani",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e3",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "třicet",
+              "native": "30"
+            },
+            {
+              "target": "čtyřicet",
+              "native": "40"
+            },
+            {
+              "target": "dvacet",
+              "native": "20"
+            },
+            {
+              "target": "Kolik je vám let?",
+              "native": "Câți ani aveți?"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e4",
+          "type": "choice",
+          "prompt": "Cum spui în cehă?",
+          "question": "Am douăzeci de ani.",
+          "questionLang": "native",
+          "options": [
+            "Je mi dvacet let.",
+            "Mám dvacet let.",
+            "Jsem dvacet let."
+          ],
+          "answer": "Je mi dvacet let.",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Kolik je vám let?",
+          "options": [
+            "Câți ani aveți?",
+            "Câți ani ai?",
+            "Cât costă?"
+          ],
+          "answer": "Câți ani aveți?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Câți ani ai?",
+          "answer": "Kolik je ti let?",
+          "reviewed": false
+        },
+        {
+          "id": "u3-l4-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Am treizeci de ani.",
+          "answer": "Je mi třicet let.",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

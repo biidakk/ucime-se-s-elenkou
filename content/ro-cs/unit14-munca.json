@@ -1,0 +1,534 @@
+{
+  "id": "u14",
+  "level": "A1",
+  "title": "Munca și școala",
+  "titleTarget": "Práce a škola",
+  "description": "Meserii, cum spui unde lucrezi și cuvinte pentru cursul de cehă.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u14-l1",
+      "title": "Meserii",
+      "titleTarget": "Povolání",
+      "reviewed": false,
+      "tip": {
+        "title": "Profesor, profesoară – učitel, učitelka",
+        "text": "Româna face forma de feminin cu o terminație nouă: profesor → profesoară, vânzător → vânzătoare. Ceha face la fel, cel mai des cu -ka: učitel → učitelka, prodavač → prodavačka, lékař → lékařka. Ca femeie, spui Jsem učitelka. Iar „Ce meserie aveți?” se întreabă Jaké máte povolání? sau, mai simplu, Co děláte?",
+        "examples": [
+          {
+            "target": "Jsem učitelka.",
+            "native": "Sunt profesoară."
+          },
+          {
+            "target": "Můj manžel je řidič.",
+            "native": "Soțul meu e șofer."
+          },
+          {
+            "target": "Moje sestra je lékařka.",
+            "native": "Sora mea e doctoriță."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u14-l1-w1",
+          "target": "učitel",
+          "native": "profesor",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w2",
+          "target": "učitelka",
+          "native": "profesoară",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w3",
+          "target": "prodavačka",
+          "native": "vânzătoare",
+          "note": "Un bărbat: prodavač.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w4",
+          "target": "lékařka",
+          "native": "doctoriță",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w5",
+          "target": "řidič",
+          "native": "șofer",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w6",
+          "target": "kuchař",
+          "native": "bucătar",
+          "note": "O femeie: kuchařka.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w7",
+          "target": "povolání",
+          "native": "meserie",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-w8",
+          "target": "Jaké máte povolání?",
+          "native": "Ce meserie aveți?",
+          "note": "Mai simplu se spune și: Co děláte?",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14-l1-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "učitelka",
+          "questionLang": "target",
+          "options": [
+            "profesoară",
+            "vânzătoare",
+            "doctoriță"
+          ],
+          "answer": "profesoară",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "řidič",
+              "native": "șofer"
+            },
+            {
+              "target": "kuchař",
+              "native": "bucătar"
+            },
+            {
+              "target": "povolání",
+              "native": "meserie"
+            },
+            {
+              "target": "učitel",
+              "native": "profesor"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e3",
+          "type": "choice",
+          "prompt": "O femeie spune:",
+          "question": "Sunt vânzătoare.",
+          "questionLang": "native",
+          "options": [
+            "Jsem prodavačka.",
+            "Jsem prodavač.",
+            "Jsem prodavačku."
+          ],
+          "answer": "Jsem prodavačka.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Moje sestra je lékařka.",
+          "options": [
+            "Sora mea e doctoriță.",
+            "Sora mea e profesoară.",
+            "Mama mea e doctoriță."
+          ],
+          "answer": "Sora mea e doctoriță.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Jaké máte povolání?",
+          "options": [
+            "Jaké máte povolání?",
+            "Jaké je počasí?",
+            "Máte děti?"
+          ],
+          "answer": "Jaké máte povolání?",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "șofer",
+          "answer": "řidič",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l1-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Sunt profesoară.",
+          "answer": "Jsem učitelka.",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u14-l2",
+      "title": "Lucrez ca…",
+      "titleTarget": "Pracuju jako…",
+      "reviewed": false,
+      "tip": {
+        "title": "„Ca” nu schimbă nimic, „cu” da",
+        "text": "După jako (ca), cuvântul rămâne neschimbat, exact ca în română: Pracuju jako prodavačka = Lucrez ca vânzătoare. Dar când spui cu ce mergi la muncă, revine terminația din unitatea 5 (Jedu metrem): Jezdím do práce autobusem = Merg la muncă cu autobuzul. Iar „la muncă” este do práce, ca „do kina”.",
+        "examples": [
+          {
+            "target": "Pracuju jako učitelka.",
+            "native": "Lucrez ca profesoară."
+          },
+          {
+            "target": "Pracuju v obchodě.",
+            "native": "Lucrez într-un magazin."
+          },
+          {
+            "target": "Jezdím do práce autobusem.",
+            "native": "Merg la muncă cu autobuzul."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u14-l2-w1",
+          "target": "Pracuju jako prodavačka.",
+          "native": "Lucrez ca vânzătoare.",
+          "note": "Mai formal: pracuji. Un bărbat: jako prodavač.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w2",
+          "target": "práce",
+          "native": "muncă",
+          "note": "Înseamnă și „serviciu”, „loc de muncă”.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w3",
+          "target": "Jdu do práce.",
+          "native": "Merg la muncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w4",
+          "target": "Jezdím do práce tramvají.",
+          "native": "Merg la muncă cu tramvaiul.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w5",
+          "target": "v kanceláři",
+          "native": "la birou",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w6",
+          "target": "Pracuju v obchodě.",
+          "native": "Lucrez într-un magazin.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w7",
+          "target": "kolegyně",
+          "native": "colegă",
+          "note": "Un bărbat: kolega.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-w8",
+          "target": "šéf",
+          "native": "șef",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14-l2-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Jdu do práce.",
+          "questionLang": "target",
+          "options": [
+            "Merg la muncă.",
+            "Merg acasă.",
+            "Lucrez la birou."
+          ],
+          "answer": "Merg la muncă.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "práce",
+              "native": "muncă"
+            },
+            {
+              "target": "kolegyně",
+              "native": "colegă"
+            },
+            {
+              "target": "v kanceláři",
+              "native": "la birou"
+            },
+            {
+              "target": "šéf",
+              "native": "șef"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Merg la muncă cu autobuzul.",
+          "questionLang": "native",
+          "options": [
+            "Jezdím do práce autobusem.",
+            "Jezdím do práce autobus.",
+            "Jezdím do práce s autobus."
+          ],
+          "answer": "Jezdím do práce autobusem.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Pracuju v obchodě.",
+          "options": [
+            "Lucrez într-un magazin.",
+            "Lucrez la birou.",
+            "Merg la magazin."
+          ],
+          "answer": "Lucrez într-un magazin.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Pracuju jako učitelka.",
+          "options": [
+            "Pracuju jako učitelka.",
+            "Pracuju jako prodavačka.",
+            "Pracuju jako lékařka."
+          ],
+          "answer": "Pracuju jako učitelka.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "muncă",
+          "answer": "práce",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l2-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Lucrez ca vânzătoare.",
+          "answer": "Pracuju jako prodavačka.",
+          "accept": [
+            "Pracuji jako prodavačka."
+          ],
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "u14-l3",
+      "title": "La cursul de cehă",
+      "titleTarget": "Na kurzu češtiny",
+      "reviewed": false,
+      "tip": {
+        "title": "Cehește sau limba cehă?",
+        "text": "Româna are două forme: „vorbesc românește” și „învăț limba română”. Ceha la fel: česky = cehește (Mluvím česky), iar čeština = limba cehă. După „učím se” (învăț), čeština devine češtinu: Učím se češtinu. Și „un curs de cehă” este kurz češtiny.",
+        "examples": [
+          {
+            "target": "Učím se češtinu.",
+            "native": "Învăț limba cehă."
+          },
+          {
+            "target": "Mluvím česky.",
+            "native": "Vorbesc cehește."
+          },
+          {
+            "target": "Chodím na kurz češtiny.",
+            "native": "Merg la un curs de cehă."
+          }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        {
+          "id": "u14-l3-w1",
+          "target": "Učím se češtinu.",
+          "native": "Învăț limba cehă.",
+          "note": "Se spune și: Učím se česky.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w2",
+          "target": "kurz",
+          "native": "curs",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w3",
+          "target": "Chodím na kurz češtiny.",
+          "native": "Merg la un curs de cehă.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w4",
+          "target": "učebnice",
+          "native": "manual",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w5",
+          "target": "úkol",
+          "native": "temă",
+          "note": "La serviciu înseamnă „sarcină”.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w6",
+          "target": "slovo",
+          "native": "cuvânt",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w7",
+          "target": "Co to znamená?",
+          "native": "Ce înseamnă asta?",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-w8",
+          "target": "Nevím.",
+          "native": "Nu știu.",
+          "reviewed": false
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14-l3-e1",
+          "type": "choice",
+          "prompt": "Ce înseamnă?",
+          "question": "Co to znamená?",
+          "questionLang": "target",
+          "options": [
+            "Ce înseamnă asta?",
+            "Ce e asta?",
+            "Cum se spune?"
+          ],
+          "answer": "Ce înseamnă asta?",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e2",
+          "type": "match",
+          "prompt": "Potrivește perechile",
+          "pairs": [
+            {
+              "target": "kurz",
+              "native": "curs"
+            },
+            {
+              "target": "učebnice",
+              "native": "manual"
+            },
+            {
+              "target": "úkol",
+              "native": "temă"
+            },
+            {
+              "target": "slovo",
+              "native": "cuvânt"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e3",
+          "type": "choice",
+          "prompt": "Alege forma corectă",
+          "question": "Învăț limba cehă.",
+          "questionLang": "native",
+          "options": [
+            "Učím se češtinu.",
+            "Učím se čeština.",
+            "Učím se češtiny."
+          ],
+          "answer": "Učím se češtinu.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e4",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce înseamnă",
+          "audio": "Nevím.",
+          "options": [
+            "Nu știu.",
+            "Nu înțeleg.",
+            "Nu pot."
+          ],
+          "answer": "Nu știu.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e5",
+          "type": "listen",
+          "prompt": "Ascultă și alege ce ai auzit",
+          "audio": "Chodím na kurz češtiny.",
+          "options": [
+            "Chodím na kurz češtiny.",
+            "Chodím do práce.",
+            "Chodím plavat."
+          ],
+          "answer": "Chodím na kurz češtiny.",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e6",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "manual",
+          "answer": "učebnice",
+          "reviewed": false
+        },
+        {
+          "id": "u14-l3-e7",
+          "type": "type",
+          "prompt": "Scrie în cehă",
+          "question": "Ce înseamnă asta?",
+          "answer": "Co to znamená?",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}
