@@ -117,7 +117,7 @@ export function checkCourse(courseId, units) {
     native(file, unit.title, 'title');
     target(file, unit.titleTarget, 'titleTarget');
     native(file, unit.description, 'description');
-    if (!['A1', 'A2'].includes(unit.level)) error(file, '"level" must be "A1" or "A2"');
+    if (!['A1', 'A2', 'B1'].includes(unit.level)) error(file, '"level" must be "A1", "A2" or "B1"');
     reviewed(file, unit);
     const expectedId = `u${parseInt(path.basename(file).slice(4), 10)}`;
     if (unit.id !== expectedId) error(file, `unit id should be "${expectedId}" (from the file name)`);

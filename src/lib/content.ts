@@ -102,8 +102,8 @@ export type Lesson = {
   reviewed: boolean;
 };
 
-export type Level = 'A1' | 'A2';
-export const LEVELS: Level[] = ['A1', 'A2'];
+export type Level = 'A1' | 'A2' | 'B1';
+export const LEVELS: Level[] = ['A1', 'A2', 'B1'];
 
 export type Unit = {
   id: string;

@@ -1,7 +1,7 @@
 # Učíme se s Elenkou
 
 A private language-learning app for Czech speakers: **English (British)**, **German** and
-**Romanian**, levels A1 and A2. The whole interface is in Czech, with large text and buttons,
+**Romanian**, levels A1, A2 and B1. The whole interface is in Czech, with large text and buttons,
 no timers and nothing locked. Built with Expo (React Native) as a web app (PWA) that is
 installed on the iPhone Home Screen. No accounts, no server: progress stays on the phone.
 

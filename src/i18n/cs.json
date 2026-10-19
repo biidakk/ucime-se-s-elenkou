@@ -20,6 +20,7 @@
 
   "level.A1": "Začátečník",
   "level.A2": "Mírně pokročilý",
+  "level.B1": "Středně pokročilý",
   "level.heading": "Úroveň {level} · {name}",
 
   "common.continue": "Pokračovat",

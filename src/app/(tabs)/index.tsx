@@ -52,7 +52,7 @@ export default function CourseScreen() {
         {course.units.length === 0 && <Text style={styles.empty}>{t('course.empty')}</Text>}
         {course.units.map((unit, unitIndex) => {
           const doneCount = unit.lessons.filter((l) => isDone(l.id)).length;
-          // A heading before the first unit of each level (A1, A2).
+          // A heading before the first unit of each level (A1, A2, B1).
           const newLevel = unitIndex === 0 || course.units[unitIndex - 1].level !== unit.level;
           const complete = doneCount === unit.lessons.length;
           return (
