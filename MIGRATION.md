@@ -1,6 +1,6 @@
 # Moving the Romanian → Czech app into this app (course `ro-cs`)
 
-**Status (2026-10-19): steps 1, 2 and 4 are done and tested** (Romanian interface, course `ro-cs`, progress transfer in `src/lib/legacyImport.ts`, Android variant in `app.config.js` + `eas.json`). Remaining: the Android build and installing it over the old app.
+**Status (2026-10-19): done.** The Android app „Cehă pentru români“ 2.0.0 (versionCode 3, built with `APP_VARIANT=ro`, profile `preview-ro`) was installed over the old app on the learner's phone and kept her progress. Same signing certificate as 1.1.0 (SHA-256 e71a788b…51d86). New versions: `APP_VARIANT=ro npx eas-cli@latest build --platform android --profile preview-ro`, after raising `versionCode` in `app.config.js`.
 
 The old app **Cehă pentru români** (`C:\Users\ander\czech-ro-app`, Android package
 `com.biidakk.cehapentruromani`, versionCode 2) teaches Czech to Romanian speakers. This plan
