@@ -217,6 +217,23 @@
   "settings.resetText": "Hotové lekce, testy a slovíčka v kurzu {language} budou smazány. Ostatní jazyky zůstanou.",
   "settings.resetDo": "Smazat",
 
+  "pron.title": "Kontrola výslovnosti",
+  "pron.open": "Kontrola výslovnosti",
+  "pron.openHint": "Pro rodilého mluvčího: poslechněte si všechny věty kurzu a označte ty, které hlas čte špatně.",
+  "pron.intro": "Klepněte na větu a poslechněte si ji. Když ji hlas čte špatně, klepněte na „Špatně“. Seznam pak zkopírujte a pošlete.",
+  "pron.tryTitle": "Vyzkoušet jiný zápis",
+  "pron.tryHint": "Napište libovolný text a poslechněte si, jak ho hlas přečte. Tak najdete zápis, který hlas vysloví správně.",
+  "pron.tryPlaceholder": "Napište text…",
+  "pron.tryPlay": "Přečíst",
+  "pron.suggestions": "Návrhy k vyzkoušení:",
+  "pron.wrong": "Špatně",
+  "pron.marked": { "one": "Označena {count} věta", "few": "Označeny {count} věty", "other": "Označeno {count} vět" },
+  "pron.copy": "Zkopírovat seznam",
+  "pron.copied": "Seznam je zkopírovaný. Vložte ho do zprávy.",
+  "pron.clear": "Smazat označení",
+  "pron.reportHeader": "Špatná výslovnost ({language}, hlas {voice}):",
+  "pron.fixed": "opraveno",
+  "pron.lesson": "Lekce {unit}.{lesson}: {title}",
   "update.text": "Je k dispozici nová verze aplikace.",
   "update.button": "Aktualizovat"
 }

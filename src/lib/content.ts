@@ -171,3 +171,23 @@ export function getNextLesson(course: Course, lessonId: string): Lesson | undefi
 export function getUnitOfLesson(course: Course, lessonId: string): Unit | undefined {
   return course.units.find((u) => u.lessons.some((l) => l.id === lessonId));
 }
+
+// Every text the app reads aloud in one lesson (each once), in the order the lesson uses them.
+// Used by the pronunciation check screen.
+export function spokenTexts(lesson: Lesson): string[] {
+  const texts: string[] = [];
+  const add = (text: string | undefined) => {
+    if (text && !texts.includes(text)) texts.push(text);
+  };
+  lesson.words.forEach((w) => add(w.target));
+  lesson.tip.examples?.forEach((e) => add(e.target));
+  for (const ex of lesson.exercises) {
+    if (ex.type === 'choice' && ex.questionLang === 'target') add(ex.question);
+    if (ex.type === 'listen') add(ex.audio);
+    if (ex.type === 'match') ex.pairs.forEach((p) => add(p.target));
+    if (ex.type === 'type' || ex.type === 'build') add(ex.answer);
+    if (ex.type === 'fill') add(ex.sentence.replace('___', ex.answer));
+    if (ex.type === 'speak') add(ex.text);
+  }
+  return texts;
+}

@@ -1,0 +1,14 @@
+{
+  "fixes": [],
+  "try": [
+    "Bună ziua",
+    "ziua",
+    "Bună ziwa",
+    "Bună zi-ua",
+    "Bună ziuă",
+    "Bună zíua",
+    "Bună ziuua",
+    "Bună zi ua",
+    "Bună ziuwa"
+  ]
+}

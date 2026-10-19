@@ -113,6 +113,8 @@ export default function SettingsScreen() {
             ]}
           />
           <VoicePicker />
+          <Text style={styles.small}>{t('pron.openHint')}</Text>
+          <BigButton label={t('pron.open')} icon="ear-outline" variant="secondary" onPress={() => router.push('/pronunciation')} />
         </Section>
 
         <Section title={t('settings.micSection')}>

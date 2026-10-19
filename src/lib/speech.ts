@@ -1,5 +1,7 @@
 import { Platform } from 'react-native';
 import { useCourse } from './course';
+import type { LanguageCode } from './languages';
+import { forVoice } from './pronunciation';
 import { SpeechRate, useSettings } from './settings';
 import { getVoices, RawVoice, speakText, stopSpeaking } from './speechEngine';
 
@@ -83,7 +85,8 @@ function pickNow(locale: string, chosenId?: string): VoiceOption | undefined {
 const RATES: Record<SpeechRate, number> = { normal: 0.9, slow: 0.72 };
 const SLOW_FACTOR = 0.7; // the turtle button
 
-export function speak(text: string, locale: string, rate: SpeechRate, slow = false, chosenId?: string) {
+// raw = read the text exactly as written, without the pronunciation fixes (for trying spellings).
+export function speak(text: string, locale: string, rate: SpeechRate, slow = false, chosenId?: string, raw = false) {
   if (!text.trim()) return;
   const speed = RATES[rate] * (slow ? SLOW_FACTOR : 1);
   // With no voice for the language, stay silent: the phone would read the text with a voice of
@@ -91,7 +94,9 @@ export function speak(text: string, locale: string, rate: SpeechRate, slow = fal
   // The listening exercises then explain how to get the voice (VoiceNotice).
   const say = () => {
     const voice = pickNow(locale, chosenId);
-    if (voice || !lists.has(locale)) speakText(text, locale, voice?.id, speed);
+    if (!voice && lists.has(locale)) return;
+    const lang = normalizeLocale(locale).split('-')[0] as LanguageCode;
+    speakText(raw ? text : forVoice(text, lang, voice?.name), locale, voice?.id, speed);
   };
   if (lists.has(locale)) say(); // voices known: speak straight away (iPhone prefers this after a tap)
   else voicesFor(locale).then(say);
