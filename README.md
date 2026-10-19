@@ -28,9 +28,7 @@ built-in voices (Romanian: Ioana). If there is no sound, check the volume and si
 If a language has no voice: Nastavení iPhonu → Zpřístupnění → Čtení a mluvení (iOS 18:
 Předčítání obsahu) → Hlasy. The voice can be chosen in the app: Nastavení → Zvuk.
 
-**Speaking exercises** appear only when the browser offers speech recognition, and can always
-be skipped („Teď nemůžu mluvit“). If listening fails (common in iPhone Home Screen apps), the
-app switches them off by itself; they can be switched on again in Nastavení.
+**Speaking exercises** appear only where speech recognition really works. In the iPhone Home Screen app it does not (the browser reports it but never hears anything), so they are hidden there automatically. Elsewhere they can always be skipped („Teď nemůžu mluvit“), and if listening produces nothing within a few seconds the app stops it and switches these exercises off (Nastavení can switch them on again).
 
 ## Edit the lessons
 

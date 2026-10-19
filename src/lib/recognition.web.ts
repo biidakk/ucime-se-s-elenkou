@@ -1,6 +1,10 @@
-// Speech recognition in the browser (Web Speech API). On iPhone it needs Siri to be on and
-// may not work in an app added to the Home Screen: the exercise then offers to skip.
+// Speech recognition in the browser (Web Speech API).
+// iPhone: Safari offers it (with Siri on), but apps added to the Home Screen report it as
+// present and then never hear anything. So it counts as unsupported there, and the
+// speaking exercises are hidden. Everywhere else, timers make sure listening can never get
+// stuck: no sound or no end within a few seconds = stop and report "unavailable".
 
+import { isApple, isInstalled } from './device';
 import type { RecognitionError, RecognitionHandlers } from './recognition';
 
 export type { RecognitionError, RecognitionHandlers } from './recognition';
@@ -17,8 +21,13 @@ type BrowserRecognition = {
   onresult: ((event: { results: ArrayLike<ArrayLike<{ transcript: string }> & { isFinal: boolean }> }) => void) | null;
   onerror: ((event: { error: string }) => void) | null;
   onnomatch: (() => void) | null;
+  onaudiostart: (() => void) | null;
   onend: (() => void) | null;
 };
+
+const NO_AUDIO_MS = 6_000; // no microphone sound by then: the phone isn't really listening
+const MAX_LISTEN_MS = 15_000; // stop listening after this long in any case
+const END_GRACE_MS = 2_500; // after stop(), wait this long for the browser's "end"
 
 function recognitionClass(): (new () => BrowserRecognition) | undefined {
   if (typeof window === 'undefined') return undefined;
@@ -27,6 +36,7 @@ function recognitionClass(): (new () => BrowserRecognition) | undefined {
 }
 
 export function isRecognitionSupported(): boolean {
+  if (isApple() && isInstalled()) return false; // iPhone Home Screen app: doesn't work
   return !!recognitionClass() && window.isSecureContext !== false;
 }
 
@@ -46,11 +56,16 @@ export function listenOnce(locale: string, handlers: RecognitionHandlers): () =>
     handlers.onEnd();
     return () => {};
   }
+
   let finished = false;
   let gotResult = false;
+  let heardAudio = false;
+  const timers: ReturnType<typeof setTimeout>[] = [];
+  const later = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
   const end = () => {
     if (finished) return;
     finished = true;
+    timers.forEach(clearTimeout);
     handlers.onEnd();
   };
 
@@ -59,7 +74,11 @@ export function listenOnce(locale: string, handlers: RecognitionHandlers): () =>
   recognition.interimResults = false;
   recognition.maxAlternatives = 5;
   recognition.continuous = false;
+  recognition.onaudiostart = () => {
+    heardAudio = true;
+  };
   recognition.onresult = (event) => {
+    if (finished) return;
     const results = Array.from(event.results);
     const last = results[results.length - 1];
     if (!last) return;
@@ -67,37 +86,66 @@ export function listenOnce(locale: string, handlers: RecognitionHandlers): () =>
     handlers.onResult(Array.from(last).map((alt) => alt.transcript));
   };
   recognition.onnomatch = () => {
+    if (finished) return;
     gotResult = true;
     handlers.onResult([]);
   };
-  recognition.onerror = (event) => handlers.onError(errorKind(event.error));
+  recognition.onerror = (event) => {
+    if (!finished) handlers.onError(errorKind(event.error));
+  };
   recognition.onend = () => {
+    if (finished) return;
     if (!gotResult) handlers.onResult([]);
     end();
   };
 
-  // Safari may fail to start right after text-to-speech has played: wait a moment.
-  let started = false;
-  const timer = setTimeout(() => {
-    started = true;
+  // Give up for good: the browser claims to listen but nothing happens.
+  const giveUp = () => {
+    if (finished) return;
     try {
-      recognition.start();
+      recognition.abort();
     } catch {
-      handlers.onError('unavailable');
-      end();
+      // nothing to abort
     }
-  }, 350);
+    handlers.onError('unavailable');
+    end();
+  };
 
-  return () => {
-    clearTimeout(timer);
-    if (!started) {
-      end();
-      return;
-    }
+  // Ask the browser to finish, and make sure we finish even if it never says so.
+  const stop = () => {
+    if (finished) return;
     try {
       recognition.stop();
     } catch {
       // already stopped
     }
+    later(END_GRACE_MS, () => {
+      if (!finished && !gotResult) handlers.onResult([]);
+      end();
+    });
+  };
+
+  // Safari may fail to start right after text-to-speech has played: wait a moment.
+  let started = false;
+  later(350, () => {
+    started = true;
+    try {
+      recognition.start();
+    } catch {
+      giveUp();
+      return;
+    }
+    later(NO_AUDIO_MS, () => {
+      if (!heardAudio) giveUp();
+    });
+    later(MAX_LISTEN_MS, stop);
+  });
+
+  return () => {
+    if (!started) {
+      end();
+      return;
+    }
+    stop();
   };
 }
