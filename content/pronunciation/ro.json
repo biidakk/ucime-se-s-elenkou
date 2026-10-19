@@ -1,5 +1,12 @@
 {
-  "fixes": [],
+  "fixes": [
+    {
+      "write": "ziua",
+      "say": "zi-ua",
+      "voices": "Ioana",
+      "note": "Apple's Ioana reads „ziua“ as „ziuna“; „zi-ua“ checked on an iPhone by a native speaker (2026-10-19)."
+    }
+  ],
   "try": [
     "Bună ziua",
     "ziua",

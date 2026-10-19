@@ -163,3 +163,17 @@ The checker finds: invalid JSON, duplicate ids or words, answers missing from op
 too many options/pairs/tiles, letters that don't belong to the language (e.g. ş with a
 cedilla, Czech letters in English text), tiles that don't match, and more. Fix every error;
 read every warning.
+
+## Pronunciation fixes
+
+Some phone voices read a word wrongly (Apple's Romanian voice Ioana says „ziuna“ for „ziua“).
+`content/pronunciation/<language>.json` lists respellings that are sent only to the voice;
+the learner still sees the real spelling:
+
+```json
+{ "fixes": [ { "write": "ziua", "say": "zi-ua", "voices": "Ioana", "note": "why" } ] }
+```
+
+`write` matches whole words (capitals don't matter), `voices` (optional) limits the fix to
+voices whose name matches. Find a working spelling in the app: Nastavení → Zvuk →
+Kontrola výslovnosti → Vyzkoušet jiný zápis. `"try"` lists suggestions shown there.
