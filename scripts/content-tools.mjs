@@ -119,6 +119,12 @@ export function checkCourse(courseId, units) {
     native(file, unit.description, 'description');
     if (!['A1', 'A2', 'B1'].includes(unit.level)) error(file, '"level" must be "A1", "A2" or "B1"');
     reviewed(file, unit);
+    // Optional role-play for the future conversation partner (docs/CHAT_PLAN.md).
+    if (unit.chat !== undefined) {
+      native(`${file} › chat`, unit.chat.situation, 'situation');
+      inLang(`${file} › chat`, unit.chat.partnerRole, 'partnerRole', 'en');
+      if (unit.chat.goal !== undefined) inLang(`${file} › chat`, unit.chat.goal, 'goal', 'en');
+    }
     const expectedId = `u${parseInt(path.basename(file).slice(4), 10)}`;
     if (unit.id !== expectedId) error(file, `unit id should be "${expectedId}" (from the file name)`);
     if (!Array.isArray(unit.lessons) || unit.lessons.length === 0) {

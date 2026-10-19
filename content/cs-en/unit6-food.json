@@ -4,6 +4,11 @@
   "title": "Jídlo a pití",
   "titleTarget": "Food and drink",
   "description": "Snídaně, co vám chutná a objednávka v kavárně: some a any, Do you like…? a I'd like…",
+  "chat": {
+    "situation": "Jste v kavárně v Londýně a objednáváte si.",
+    "partnerRole": "a friendly waiter in a small London café",
+    "goal": "order a drink and something to eat, then ask how much it is and pay"
+  },
   "reviewed": false,
   "lessons": [
     {
@@ -15,40 +20,219 @@
         "title": "Some bread, ne „a bread“",
         "text": "Některé věci se anglicky nepočítají: bread, butter, milk, cheese, sugar. Neřekněte a bread ani two breads. Řekněte some bread (trochu chleba) nebo jen bread. Věci, které se počítat dají, mají a nebo an: an egg, two eggs. V otázce a v záporu se místo some říká any: Have we got any milk? We haven't got any sugar.",
         "examples": [
-          { "target": "I've got some bread and an egg.", "native": "Mám chléb a vejce." },
-          { "target": "Have we got any milk?", "native": "Máme mléko?" },
-          { "target": "We haven't got any sugar.", "native": "Nemáme cukr." }
+          {
+            "target": "I've got some bread and an egg.",
+            "native": "Mám chléb a vejce."
+          },
+          {
+            "target": "Have we got any milk?",
+            "native": "Máme mléko?"
+          },
+          {
+            "target": "We haven't got any sugar.",
+            "native": "Nemáme cukr."
+          }
         ],
         "reviewed": false
       },
       "words": [
-        { "id": "u6-l1-w1", "target": "breakfast", "native": "snídaně", "note": "Vyslovuje se „brekfest“.", "reviewed": false },
-        { "id": "u6-l1-w2", "target": "bread", "native": "chléb", "note": "Nepočítá se: some bread, ne a bread. Vyslovuje se „bred“.", "reviewed": false },
-        { "id": "u6-l1-w3", "target": "butter", "native": "máslo", "note": "Vyslovuje se „bata“.", "reviewed": false },
-        { "id": "u6-l1-w4", "target": "milk", "native": "mléko", "reviewed": false },
-        { "id": "u6-l1-w5", "target": "cheese", "native": "sýr", "note": "Vyslovuje se „čís“.", "reviewed": false },
-        { "id": "u6-l1-w6", "target": "egg", "native": "vejce", "note": "an egg, množné číslo eggs.", "reviewed": false },
-        { "id": "u6-l1-w7", "target": "coffee", "native": "káva", "note": "V kavárně a coffee = jedna káva.", "reviewed": false },
-        { "id": "u6-l1-w8", "target": "tea", "native": "čaj", "note": "Britové pijí čaj nejčastěji s mlékem.", "reviewed": false },
-        { "id": "u6-l1-w9", "target": "sugar", "native": "cukr", "note": "Vyslovuje se „šuga“.", "reviewed": false }
+        {
+          "id": "u6-l1-w1",
+          "target": "breakfast",
+          "native": "snídaně",
+          "note": "Vyslovuje se „brekfest“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w2",
+          "target": "bread",
+          "native": "chléb",
+          "note": "Nepočítá se: some bread, ne a bread. Vyslovuje se „bred“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w3",
+          "target": "butter",
+          "native": "máslo",
+          "note": "Vyslovuje se „bata“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w4",
+          "target": "milk",
+          "native": "mléko",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w5",
+          "target": "cheese",
+          "native": "sýr",
+          "note": "Vyslovuje se „čís“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w6",
+          "target": "egg",
+          "native": "vejce",
+          "note": "an egg, množné číslo eggs.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w7",
+          "target": "coffee",
+          "native": "káva",
+          "note": "V kavárně a coffee = jedna káva.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w8",
+          "target": "tea",
+          "native": "čaj",
+          "note": "Britové pijí čaj nejčastěji s mlékem.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-w9",
+          "target": "sugar",
+          "native": "cukr",
+          "note": "Vyslovuje se „šuga“.",
+          "reviewed": false
+        }
       ],
       "exercises": [
-        { "id": "u6-l1-e1", "type": "choice", "question": "butter", "questionLang": "target", "options": ["máslo", "mléko", "sýr"], "answer": "máslo", "reviewed": false },
-        { "id": "u6-l1-e2", "type": "choice", "question": "vejce", "questionLang": "native", "options": ["egg", "cheese", "bread"], "answer": "egg", "reviewed": false },
-        { "id": "u6-l1-e3", "type": "match", "pairs": [
-          { "target": "bread", "native": "chléb" },
-          { "target": "milk", "native": "mléko" },
-          { "target": "cheese", "native": "sýr" },
-          { "target": "sugar", "native": "cukr" },
-          { "target": "breakfast", "native": "snídaně" }
-        ], "reviewed": false },
-        { "id": "u6-l1-e4", "type": "listen", "audio": "Have we got any milk?", "options": ["Have we got any milk?", "Have we got any sugar?", "Have we got any bread?"], "answer": "Have we got any milk?", "reviewed": false },
-        { "id": "u6-l1-e5", "type": "listen", "audio": "I've got some bread and cheese.", "options": ["Mám chléb a sýr.", "Mám chléb a máslo.", "Nemám chléb ani sýr."], "answer": "Mám chléb a sýr.", "reviewed": false },
-        { "id": "u6-l1-e6", "type": "fill", "sentence": "There's ___ bread on the table.", "translation": "Na stole je chléb.", "options": ["some", "a", "an"], "answer": "some", "explain": "Chléb se anglicky nepočítá, proto some bread, ne a bread.", "reviewed": false },
-        { "id": "u6-l1-e7", "type": "fill", "sentence": "Is there ___ sugar?", "translation": "Je tu cukr?", "options": ["any", "a", "an"], "answer": "any", "explain": "Cukr se nepočítá a v otázce se říká any.", "reviewed": false },
-        { "id": "u6-l1-e8", "type": "type", "question": "Čaj s mlékem, prosím.", "answer": "Tea with milk, please.", "accept": ["A tea with milk, please.", "A cup of tea with milk, please."], "reviewed": false },
-        { "id": "u6-l1-e9", "type": "build", "question": "Nemáme máslo.", "answer": "We haven't got any butter.", "extra": ["some"], "reviewed": false },
-        { "id": "u6-l1-e10", "type": "speak", "text": "Tea or coffee?", "native": "Čaj, nebo kávu?", "reviewed": false }
+        {
+          "id": "u6-l1-e1",
+          "type": "choice",
+          "question": "butter",
+          "questionLang": "target",
+          "options": [
+            "máslo",
+            "mléko",
+            "sýr"
+          ],
+          "answer": "máslo",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e2",
+          "type": "choice",
+          "question": "vejce",
+          "questionLang": "native",
+          "options": [
+            "egg",
+            "cheese",
+            "bread"
+          ],
+          "answer": "egg",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "bread",
+              "native": "chléb"
+            },
+            {
+              "target": "milk",
+              "native": "mléko"
+            },
+            {
+              "target": "cheese",
+              "native": "sýr"
+            },
+            {
+              "target": "sugar",
+              "native": "cukr"
+            },
+            {
+              "target": "breakfast",
+              "native": "snídaně"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e4",
+          "type": "listen",
+          "audio": "Have we got any milk?",
+          "options": [
+            "Have we got any milk?",
+            "Have we got any sugar?",
+            "Have we got any bread?"
+          ],
+          "answer": "Have we got any milk?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e5",
+          "type": "listen",
+          "audio": "I've got some bread and cheese.",
+          "options": [
+            "Mám chléb a sýr.",
+            "Mám chléb a máslo.",
+            "Nemám chléb ani sýr."
+          ],
+          "answer": "Mám chléb a sýr.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e6",
+          "type": "fill",
+          "sentence": "There's ___ bread on the table.",
+          "translation": "Na stole je chléb.",
+          "options": [
+            "some",
+            "a",
+            "an"
+          ],
+          "answer": "some",
+          "explain": "Chléb se anglicky nepočítá, proto some bread, ne a bread.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e7",
+          "type": "fill",
+          "sentence": "Is there ___ sugar?",
+          "translation": "Je tu cukr?",
+          "options": [
+            "any",
+            "a",
+            "an"
+          ],
+          "answer": "any",
+          "explain": "Cukr se nepočítá a v otázce se říká any.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e8",
+          "type": "type",
+          "question": "Čaj s mlékem, prosím.",
+          "answer": "Tea with milk, please.",
+          "accept": [
+            "A tea with milk, please.",
+            "A cup of tea with milk, please."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e9",
+          "type": "build",
+          "question": "Nemáme máslo.",
+          "answer": "We haven't got any butter.",
+          "extra": [
+            "some"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l1-e10",
+          "type": "speak",
+          "text": "Tea or coffee?",
+          "native": "Čaj, nebo kávu?",
+          "reviewed": false
+        }
       ]
     },
     {
@@ -60,40 +244,226 @@
         "title": "Otázka s do",
         "text": "Česky stačí změnit hlas: „Chutná vám ryba?“ Anglicky otázku začnete slovem do: Do you like fish? Krátká odpověď je také s do: Yes, I do. – No, I don't. Zápor: I don't like meat. Do samo nic neznamená, jen ukazuje, že jde o otázku nebo zápor. Love je silnější než like: I love soup (polévku zbožňuji).",
         "examples": [
-          { "target": "Do you like fish? – Yes, I do.", "native": "Chutná vám ryba? – Ano." },
-          { "target": "I don't like meat.", "native": "Maso mi nechutná." },
-          { "target": "I love potatoes.", "native": "Brambory zbožňuji." }
+          {
+            "target": "Do you like fish? – Yes, I do.",
+            "native": "Chutná vám ryba? – Ano."
+          },
+          {
+            "target": "I don't like meat.",
+            "native": "Maso mi nechutná."
+          },
+          {
+            "target": "I love potatoes.",
+            "native": "Brambory zbožňuji."
+          }
         ],
         "reviewed": false
       },
       "words": [
-        { "id": "u6-l2-w1", "target": "like", "native": "mít rád", "note": "Do you like…? = Chutná vám…? Máte rádi…?", "reviewed": false },
-        { "id": "u6-l2-w2", "target": "love", "native": "milovat; zbožňovat", "note": "Silnější než like: I love coffee.", "reviewed": false },
-        { "id": "u6-l2-w3", "target": "fish", "native": "ryba", "note": "Jako jídlo se nepočítá: I like fish.", "reviewed": false },
-        { "id": "u6-l2-w4", "target": "meat", "native": "maso", "note": "Vyslovuje se „mít“.", "reviewed": false },
-        { "id": "u6-l2-w5", "target": "chicken", "native": "kuře", "note": "Vyslovuje se „čikin“.", "reviewed": false },
-        { "id": "u6-l2-w6", "target": "potato", "native": "brambora", "note": "Množné číslo potatoes. Vyslovuje se „pe-TEJ-tou“.", "reviewed": false },
-        { "id": "u6-l2-w7", "target": "fruit", "native": "ovoce", "note": "Vyslovuje se „frút“.", "reviewed": false },
-        { "id": "u6-l2-w8", "target": "vegetables", "native": "zelenina", "note": "Množné číslo. Vyslovuje se „vedž-te-bls“.", "reviewed": false },
-        { "id": "u6-l2-w9", "target": "soup", "native": "polévka", "note": "Vyslovuje se „súp“.", "reviewed": false }
+        {
+          "id": "u6-l2-w1",
+          "target": "like",
+          "native": "mít rád",
+          "note": "Do you like…? = Chutná vám…? Máte rádi…?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w2",
+          "target": "love",
+          "native": "milovat; zbožňovat",
+          "note": "Silnější než like: I love coffee.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w3",
+          "target": "fish",
+          "native": "ryba",
+          "note": "Jako jídlo se nepočítá: I like fish.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w4",
+          "target": "meat",
+          "native": "maso",
+          "note": "Vyslovuje se „mít“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w5",
+          "target": "chicken",
+          "native": "kuře",
+          "note": "Vyslovuje se „čikin“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w6",
+          "target": "potato",
+          "native": "brambora",
+          "note": "Množné číslo potatoes. Vyslovuje se „pe-TEJ-tou“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w7",
+          "target": "fruit",
+          "native": "ovoce",
+          "note": "Vyslovuje se „frút“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w8",
+          "target": "vegetables",
+          "native": "zelenina",
+          "note": "Množné číslo. Vyslovuje se „vedž-te-bls“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-w9",
+          "target": "soup",
+          "native": "polévka",
+          "note": "Vyslovuje se „súp“.",
+          "reviewed": false
+        }
       ],
       "exercises": [
-        { "id": "u6-l2-e1", "type": "choice", "question": "vegetables", "questionLang": "target", "options": ["zelenina", "ovoce", "maso"], "answer": "zelenina", "reviewed": false },
-        { "id": "u6-l2-e2", "type": "choice", "question": "polévka", "questionLang": "native", "options": ["soup", "fish", "meat"], "answer": "soup", "reviewed": false },
-        { "id": "u6-l2-e3", "type": "match", "pairs": [
-          { "target": "fish", "native": "ryba" },
-          { "target": "meat", "native": "maso" },
-          { "target": "chicken", "native": "kuře" },
-          { "target": "potato", "native": "brambora" },
-          { "target": "fruit", "native": "ovoce" }
-        ], "reviewed": false },
-        { "id": "u6-l2-e4", "type": "listen", "audio": "Do you like fish?", "options": ["Do you like fish?", "Do you like meat?", "I like fish."], "answer": "Do you like fish?", "reviewed": false },
-        { "id": "u6-l2-e5", "type": "listen", "audio": "I don't like meat.", "options": ["Maso mi nechutná.", "Maso mi chutná.", "Ryba mi nechutná."], "answer": "Maso mi nechutná.", "reviewed": false },
-        { "id": "u6-l2-e6", "type": "fill", "sentence": "___ you like soup?", "translation": "Chutná vám polévka?", "options": ["Do", "Are", "Is"], "answer": "Do", "explain": "Otázka s like začíná do: Do you like…?", "reviewed": false },
-        { "id": "u6-l2-e7", "type": "fill", "sentence": "I ___ like chicken.", "translation": "Kuře mi nechutná.", "options": ["don't", "not", "no"], "answer": "don't", "explain": "Zápor u sloves se dělá pomocí don't: I don't like.", "reviewed": false },
-        { "id": "u6-l2-e8", "type": "type", "question": "Máme rádi ovoce.", "answer": "We like fruit.", "accept": ["We love fruit."], "reviewed": false },
-        { "id": "u6-l2-e9", "type": "build", "question": "Chutnají vám brambory?", "answer": "Do you like potatoes?", "extra": ["are"], "reviewed": false },
-        { "id": "u6-l2-e10", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Do you like tea? Odpovězte „ano“.", "questionLang": "native", "options": ["Yes, I do.", "Yes, I like.", "Yes, I am."], "answer": "Yes, I do.", "reviewed": false }
+        {
+          "id": "u6-l2-e1",
+          "type": "choice",
+          "question": "vegetables",
+          "questionLang": "target",
+          "options": [
+            "zelenina",
+            "ovoce",
+            "maso"
+          ],
+          "answer": "zelenina",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e2",
+          "type": "choice",
+          "question": "polévka",
+          "questionLang": "native",
+          "options": [
+            "soup",
+            "fish",
+            "meat"
+          ],
+          "answer": "soup",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "fish",
+              "native": "ryba"
+            },
+            {
+              "target": "meat",
+              "native": "maso"
+            },
+            {
+              "target": "chicken",
+              "native": "kuře"
+            },
+            {
+              "target": "potato",
+              "native": "brambora"
+            },
+            {
+              "target": "fruit",
+              "native": "ovoce"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e4",
+          "type": "listen",
+          "audio": "Do you like fish?",
+          "options": [
+            "Do you like fish?",
+            "Do you like meat?",
+            "I like fish."
+          ],
+          "answer": "Do you like fish?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e5",
+          "type": "listen",
+          "audio": "I don't like meat.",
+          "options": [
+            "Maso mi nechutná.",
+            "Maso mi chutná.",
+            "Ryba mi nechutná."
+          ],
+          "answer": "Maso mi nechutná.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e6",
+          "type": "fill",
+          "sentence": "___ you like soup?",
+          "translation": "Chutná vám polévka?",
+          "options": [
+            "Do",
+            "Are",
+            "Is"
+          ],
+          "answer": "Do",
+          "explain": "Otázka s like začíná do: Do you like…?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e7",
+          "type": "fill",
+          "sentence": "I ___ like chicken.",
+          "translation": "Kuře mi nechutná.",
+          "options": [
+            "don't",
+            "not",
+            "no"
+          ],
+          "answer": "don't",
+          "explain": "Zápor u sloves se dělá pomocí don't: I don't like.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e8",
+          "type": "type",
+          "question": "Máme rádi ovoce.",
+          "answer": "We like fruit.",
+          "accept": [
+            "We love fruit."
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e9",
+          "type": "build",
+          "question": "Chutnají vám brambory?",
+          "answer": "Do you like potatoes?",
+          "extra": [
+            "are"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l2-e10",
+          "type": "choice",
+          "prompt": "Vyberte správnou odpověď",
+          "question": "Do you like tea? Odpovězte „ano“.",
+          "questionLang": "native",
+          "options": [
+            "Yes, I do.",
+            "Yes, I like.",
+            "Yes, I am."
+          ],
+          "answer": "Yes, I do.",
+          "reviewed": false
+        }
       ]
     },
     {
@@ -105,38 +475,208 @@
         "title": "I'd like…, Can I have…?",
         "text": "Když si objednáváte, řekněte I'd like… (= I would like, chtěl bych, chtěla bych) nebo Can I have…? a na konec please. Věta I want… zní anglicky příliš příkře. Ceny: £ je pound (libra), p je pence, v hovoru se vyslovuje „pí“. Cena £2.50 se čte two pounds fifty. Na konci řekněte: Can I have the bill, please?",
         "examples": [
-          { "target": "I'd like a coffee, please.", "native": "Prosím si kávu." },
-          { "target": "How much is it? – Two pounds fifty.", "native": "Kolik to stojí? – Dvě libry padesát." },
-          { "target": "Can I have the bill, please?", "native": "Můžu poprosit o účet?" }
+          {
+            "target": "I'd like a coffee, please.",
+            "native": "Prosím si kávu."
+          },
+          {
+            "target": "How much is it? – Two pounds fifty.",
+            "native": "Kolik to stojí? – Dvě libry padesát."
+          },
+          {
+            "target": "Can I have the bill, please?",
+            "native": "Můžu poprosit o účet?"
+          }
         ],
         "reviewed": false
       },
       "words": [
-        { "id": "u6-l3-w1", "target": "I'd like", "native": "chtěl bych; chtěla bych", "note": "I'd = I would. Zdvořilé, hodí se k objednávce.", "reviewed": false },
-        { "id": "u6-l3-w2", "target": "water", "native": "voda", "note": "Vyslovuje se „wóta“.", "reviewed": false },
-        { "id": "u6-l3-w3", "target": "juice", "native": "džus", "note": "orange juice = pomerančový džus. Vyslovuje se „džús“.", "reviewed": false },
-        { "id": "u6-l3-w4", "target": "cake", "native": "dort; zákusek", "note": "a piece of cake = kousek dortu. Vyslovuje se „kejk“.", "reviewed": false },
-        { "id": "u6-l3-w5", "target": "sandwich", "native": "sendvič", "reviewed": false },
-        { "id": "u6-l3-w6", "target": "How much is it?", "native": "Kolik to stojí?", "reviewed": false },
-        { "id": "u6-l3-w7", "target": "pound", "native": "libra", "note": "Britská měna £; jedna libra má sto pence.", "reviewed": false },
-        { "id": "u6-l3-w8", "target": "bill", "native": "účet", "note": "V restauraci a kavárně. Americky check.", "reviewed": false }
+        {
+          "id": "u6-l3-w1",
+          "target": "I'd like",
+          "native": "chtěl bych; chtěla bych",
+          "note": "I'd = I would. Zdvořilé, hodí se k objednávce.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w2",
+          "target": "water",
+          "native": "voda",
+          "note": "Vyslovuje se „wóta“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w3",
+          "target": "juice",
+          "native": "džus",
+          "note": "orange juice = pomerančový džus. Vyslovuje se „džús“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w4",
+          "target": "cake",
+          "native": "dort; zákusek",
+          "note": "a piece of cake = kousek dortu. Vyslovuje se „kejk“.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w5",
+          "target": "sandwich",
+          "native": "sendvič",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w6",
+          "target": "How much is it?",
+          "native": "Kolik to stojí?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w7",
+          "target": "pound",
+          "native": "libra",
+          "note": "Britská měna £; jedna libra má sto pence.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-w8",
+          "target": "bill",
+          "native": "účet",
+          "note": "V restauraci a kavárně. Americky check.",
+          "reviewed": false
+        }
       ],
       "exercises": [
-        { "id": "u6-l3-e1", "type": "choice", "question": "bill", "questionLang": "target", "options": ["účet", "libra", "dort"], "answer": "účet", "reviewed": false },
-        { "id": "u6-l3-e2", "type": "choice", "question": "Kolik to stojí?", "questionLang": "native", "options": ["How much is it?", "How are you?", "What's this?"], "answer": "How much is it?", "reviewed": false },
-        { "id": "u6-l3-e3", "type": "match", "pairs": [
-          { "target": "water", "native": "voda" },
-          { "target": "juice", "native": "džus" },
-          { "target": "cake", "native": "dort" },
-          { "target": "sandwich", "native": "sendvič" }
-        ], "reviewed": false },
-        { "id": "u6-l3-e4", "type": "listen", "audio": "I'd like a cheese sandwich, please.", "options": ["I'd like a cheese sandwich, please.", "I'd like a chicken sandwich, please.", "I'd like an egg sandwich, please."], "answer": "I'd like a cheese sandwich, please.", "reviewed": false },
-        { "id": "u6-l3-e5", "type": "listen", "audio": "That's three pounds, please.", "options": ["To dělá tři libry.", "To dělá třináct liber.", "To dělá třicet liber."], "answer": "To dělá tři libry.", "reviewed": false },
-        { "id": "u6-l3-e6", "type": "fill", "sentence": "___ I have the bill, please?", "translation": "Můžu poprosit o účet?", "options": ["Can", "Do", "Am"], "answer": "Can", "explain": "Zdvořilá prosba: Can I have…? (Můžu dostat…?)", "reviewed": false },
-        { "id": "u6-l3-e7", "type": "fill", "sentence": "I'd ___ some water, please.", "translation": "Prosím si vodu.", "options": ["like", "likes", "am"], "answer": "like", "explain": "Po I'd následuje like bez -s: I'd like.", "reviewed": false },
-        { "id": "u6-l3-e8", "type": "type", "question": "Kolik to stojí?", "answer": "How much is it?", "accept": ["How much is that?", "How much is this?", "How much does it cost?"], "reviewed": false },
-        { "id": "u6-l3-e9", "type": "build", "question": "Prosím si čaj a sendvič.", "answer": "I'd like a tea and a sandwich, please.", "extra": ["want"], "reviewed": false },
-        { "id": "u6-l3-e10", "type": "speak", "text": "Can I have the bill, please?", "native": "Můžu poprosit o účet?", "reviewed": false }
+        {
+          "id": "u6-l3-e1",
+          "type": "choice",
+          "question": "bill",
+          "questionLang": "target",
+          "options": [
+            "účet",
+            "libra",
+            "dort"
+          ],
+          "answer": "účet",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e2",
+          "type": "choice",
+          "question": "Kolik to stojí?",
+          "questionLang": "native",
+          "options": [
+            "How much is it?",
+            "How are you?",
+            "What's this?"
+          ],
+          "answer": "How much is it?",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e3",
+          "type": "match",
+          "pairs": [
+            {
+              "target": "water",
+              "native": "voda"
+            },
+            {
+              "target": "juice",
+              "native": "džus"
+            },
+            {
+              "target": "cake",
+              "native": "dort"
+            },
+            {
+              "target": "sandwich",
+              "native": "sendvič"
+            }
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e4",
+          "type": "listen",
+          "audio": "I'd like a cheese sandwich, please.",
+          "options": [
+            "I'd like a cheese sandwich, please.",
+            "I'd like a chicken sandwich, please.",
+            "I'd like an egg sandwich, please."
+          ],
+          "answer": "I'd like a cheese sandwich, please.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e5",
+          "type": "listen",
+          "audio": "That's three pounds, please.",
+          "options": [
+            "To dělá tři libry.",
+            "To dělá třináct liber.",
+            "To dělá třicet liber."
+          ],
+          "answer": "To dělá tři libry.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e6",
+          "type": "fill",
+          "sentence": "___ I have the bill, please?",
+          "translation": "Můžu poprosit o účet?",
+          "options": [
+            "Can",
+            "Do",
+            "Am"
+          ],
+          "answer": "Can",
+          "explain": "Zdvořilá prosba: Can I have…? (Můžu dostat…?)",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e7",
+          "type": "fill",
+          "sentence": "I'd ___ some water, please.",
+          "translation": "Prosím si vodu.",
+          "options": [
+            "like",
+            "likes",
+            "am"
+          ],
+          "answer": "like",
+          "explain": "Po I'd následuje like bez -s: I'd like.",
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e8",
+          "type": "type",
+          "question": "Kolik to stojí?",
+          "answer": "How much is it?",
+          "accept": [
+            "How much is that?",
+            "How much is this?",
+            "How much does it cost?"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e9",
+          "type": "build",
+          "question": "Prosím si čaj a sendvič.",
+          "answer": "I'd like a tea and a sandwich, please.",
+          "extra": [
+            "want"
+          ],
+          "reviewed": false
+        },
+        {
+          "id": "u6-l3-e10",
+          "type": "speak",
+          "text": "Can I have the bill, please?",
+          "native": "Můžu poprosit o účet?",
+          "reviewed": false
+        }
       ]
     }
   ]

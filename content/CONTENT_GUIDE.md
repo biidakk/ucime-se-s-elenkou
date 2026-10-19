@@ -42,6 +42,10 @@ Fields are neutral so any language pair fits:
 
 `level` is `"A1"`, `"A2"` or `"B1"` (the course map shows a heading for each level).
 
+Optional `chat`: a role-play for the future AI conversation partner (`docs/CHAT_PLAN.md`):
+`{ "situation": "<Czech, shown to the learner>", "partnerRole": "<English, for the AI>", "goal": "<English, optional>" }`.
+Example in `content/cs-en/unit6-food.json`.
+
 ## Lesson
 
 ```json

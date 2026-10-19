@@ -106,6 +106,14 @@ export type Lesson = {
 export type Level = 'A1' | 'A2' | 'B1';
 export const LEVELS: Level[] = ['A1', 'A2', 'B1'];
 
+// A role-play for the future conversation partner (docs/CHAT_PLAN.md). Optional: without it,
+// the conversation is built from the unit's title and lessons.
+export type ChatScenario = {
+  situation: string; // in the learner's language, shown on screen: „Objednáváte si v kavárně.“
+  partnerRole: string; // in English, for the AI: "a friendly waiter in a small café"
+  goal?: string; // in English, what the learner should manage: "order a drink and pay"
+};
+
 export type Unit = {
   id: string;
   level: Level;
@@ -113,6 +121,7 @@ export type Unit = {
   titleTarget: string;
   description: string;
   lessons: Lesson[];
+  chat?: ChatScenario;
   reviewed: boolean;
 };
 
