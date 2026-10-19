@@ -1,0 +1,143 @@
+{
+  "id": "u7",
+  "level": "A1",
+  "title": "Ve městě",
+  "titleTarget": "In der Stadt",
+  "description": "Místa ve městě, doprava a jak se zeptat na cestu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u7-l1",
+      "title": "Co je ve městě",
+      "titleTarget": "Was gibt es hier?",
+      "reviewed": false,
+      "tip": {
+        "title": "Es gibt = je tu, existuje",
+        "text": "Když chcete říct, že někde něco je, použijte es gibt: Hier gibt es einen Park. (Tady je park.) Za es gibt následuje 4. pád (Akkusativ). Mění se jen mužský rod: der Park → einen Park. Ženský a střední rod zůstávají: eine Post, ein Museum. Otázka začíná slovesem: Gibt es hier eine Bank? (Je tady banka?) Když už víte, že místo existuje, a hledáte ho, zeptejte se: Wo ist der Bahnhof? (Kde je nádraží?)",
+        "examples": [
+          { "target": "Hier gibt es einen Supermarkt.", "native": "Tady je supermarket." },
+          { "target": "Gibt es hier eine Post?", "native": "Je tady pošta?" },
+          { "target": "Im Dorf gibt es eine Kirche.", "native": "Ve vesnici je kostel." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l1-w1", "target": "der Bahnhof", "native": "nádraží", "note": "h po samohlásce se nečte: [bánhóf]. Množné číslo: die Bahnhöfe", "reviewed": false },
+        { "id": "u7-l1-w2", "target": "die Post", "native": "pošta", "note": "Rod stejný jako v češtině. V tomto významu bez množného čísla.", "reviewed": false },
+        { "id": "u7-l1-w3", "target": "die Bank", "native": "banka", "note": "Množné číslo: die Banken. Pozor: die Bank je také lavička (množné číslo die Bänke).", "reviewed": false },
+        { "id": "u7-l1-w4", "target": "der Supermarkt", "native": "supermarket", "note": "Německy bez e: Supermarkt. Množné číslo: die Supermärkte", "reviewed": false },
+        { "id": "u7-l1-w5", "target": "die Kirche", "native": "kostel", "note": "ch po r zní měkce, něco mezi š a j, ne jako české ch. Množné číslo: die Kirchen", "reviewed": false },
+        { "id": "u7-l1-w6", "target": "das Museum", "native": "muzeum", "note": "Přízvuk: mu-ZÉ-um. Množné číslo: die Museen", "reviewed": false },
+        { "id": "u7-l1-w7", "target": "der Park", "native": "park", "note": "Množné číslo: die Parks", "reviewed": false },
+        { "id": "u7-l1-w8", "target": "es gibt", "native": "je tu; existuje", "note": "Za es gibt je 4. pád: Es gibt einen Park.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l1-e1", "type": "choice", "question": "die Kirche", "questionLang": "target", "options": ["kostel", "pošta", "nádraží"], "answer": "kostel", "reviewed": false },
+        { "id": "u7-l1-e2", "type": "choice", "question": "nádraží", "questionLang": "native", "options": ["der Bahnhof", "der Park", "die Bank"], "answer": "der Bahnhof", "reviewed": false },
+        { "id": "u7-l1-e3", "type": "match", "pairs": [
+          { "target": "die Post", "native": "pošta" },
+          { "target": "die Bank", "native": "banka" },
+          { "target": "das Museum", "native": "muzeum" },
+          { "target": "der Park", "native": "park" },
+          { "target": "der Supermarkt", "native": "supermarket" }
+        ], "reviewed": false },
+        { "id": "u7-l1-e4", "type": "listen", "audio": "Gibt es hier eine Post?", "options": ["Je tady pošta?", "Kde je pošta?", "Je tady banka?"], "answer": "Je tady pošta?", "reviewed": false },
+        { "id": "u7-l1-e5", "type": "fill", "sentence": "Hier gibt es ___ Supermarkt.", "translation": "Tady je supermarket.", "options": ["einen", "ein", "eine"], "answer": "einen", "explain": "Po es gibt je 4. pád: der Supermarkt → einen Supermarkt.", "reviewed": false },
+        { "id": "u7-l1-e6", "type": "fill", "sentence": "Im Dorf gibt es eine ___.", "translation": "Ve vesnici je kostel.", "options": ["Kirche", "Park", "Bahnhof"], "answer": "Kirche", "explain": "die Kirche je ženský rod, proto eine. Park a Bahnhof jsou der.", "reviewed": false },
+        { "id": "u7-l1-e7", "type": "build", "question": "Je tady park?", "answer": "Gibt es hier einen Park?", "extra": ["ein"], "reviewed": false },
+        { "id": "u7-l1-e8", "type": "listen", "audio": "Wo ist der Bahnhof?", "options": ["Wo ist der Bahnhof?", "Wo ist die Bank?", "Wo ist der Park?"], "answer": "Wo ist der Bahnhof?", "reviewed": false },
+        { "id": "u7-l1-e9", "type": "type", "question": "kostel", "answer": "die Kirche", "reviewed": false },
+        { "id": "u7-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Je tady banka?", "questionLang": "native", "options": ["Gibt es hier eine Bank?", "Gibt es hier einen Bank?", "Gibt es hier ein Bank?"], "answer": "Gibt es hier eine Bank?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "title": "Doprava",
+      "titleTarget": "Mit dem Bus",
+      "reviewed": false,
+      "tip": {
+        "title": "Mit dem Bus = autobusem",
+        "text": "Česky řekneme „jedu autobusem“ (7. pád). Německy použijete mit a člen ve 3. pádě (Dativ): der Bus → mit dem Bus, das Auto → mit dem Auto, die Straßenbahn → mit der Straßenbahn. Člen nevynechávejte – „mit Bus“ je chyba. Stejně jako v češtině rozlišujeme jet a jít: jet = fahren, jít pěšky = zu Fuß gehen. Fahren dostává přehlásku: ich fahre, du fährst, er fährt.",
+        "examples": [
+          { "target": "Ich fahre mit dem Bus.", "native": "Jedu autobusem." },
+          { "target": "Fahren Sie mit der Straßenbahn?", "native": "Jedete tramvají?" },
+          { "target": "Wir gehen zu Fuß.", "native": "Jdeme pěšky." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l2-w1", "target": "der Bus", "native": "autobus", "note": "mit dem Bus = autobusem; množné číslo: die Busse", "reviewed": false },
+        { "id": "u7-l2-w2", "target": "die Straßenbahn", "native": "tramvaj", "note": "mit der Straßenbahn = tramvají; množné číslo: die Straßenbahnen", "reviewed": false },
+        { "id": "u7-l2-w3", "target": "der Zug", "native": "vlak", "note": "z se čte jako c: [cúk]. Množné číslo: die Züge", "reviewed": false },
+        { "id": "u7-l2-w4", "target": "das Auto", "native": "auto", "note": "Střední rod jako v češtině. Množné číslo: die Autos", "reviewed": false },
+        { "id": "u7-l2-w5", "target": "das Taxi", "native": "taxi", "note": "Množné číslo: die Taxis", "reviewed": false },
+        { "id": "u7-l2-w6", "target": "die Fahrkarte", "native": "jízdenka", "note": "Množné číslo: die Fahrkarten", "reviewed": false },
+        { "id": "u7-l2-w7", "target": "die Haltestelle", "native": "zastávka", "note": "Množné číslo: die Haltestellen", "reviewed": false },
+        { "id": "u7-l2-w8", "target": "fahren", "native": "jet; jezdit", "note": "du fährst, er fährt (přehláska)", "reviewed": false },
+        { "id": "u7-l2-w9", "target": "zu Fuß", "native": "pěšky", "note": "Ich gehe zu Fuß. = Jdu pěšky. Vždy s gehen, ne s fahren.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l2-e1", "type": "choice", "question": "die Haltestelle", "questionLang": "target", "options": ["zastávka", "jízdenka", "tramvaj"], "answer": "zastávka", "reviewed": false },
+        { "id": "u7-l2-e2", "type": "choice", "question": "vlak", "questionLang": "native", "options": ["der Zug", "der Bus", "das Taxi"], "answer": "der Zug", "reviewed": false },
+        { "id": "u7-l2-e3", "type": "match", "pairs": [
+          { "target": "der Bus", "native": "autobus" },
+          { "target": "die Straßenbahn", "native": "tramvaj" },
+          { "target": "das Auto", "native": "auto" },
+          { "target": "die Fahrkarte", "native": "jízdenka" },
+          { "target": "zu Fuß", "native": "pěšky" }
+        ], "reviewed": false },
+        { "id": "u7-l2-e4", "type": "listen", "audio": "Ich fahre mit dem Zug.", "options": ["Jedu vlakem.", "Jedu autobusem.", "Jdu pěšky."], "answer": "Jedu vlakem.", "reviewed": false },
+        { "id": "u7-l2-e5", "type": "fill", "sentence": "Wir fahren mit ___ Straßenbahn.", "translation": "Jedeme tramvají.", "options": ["der", "dem", "die"], "answer": "der", "explain": "Po mit je 3. pád: die Straßenbahn → mit der Straßenbahn.", "reviewed": false },
+        { "id": "u7-l2-e6", "type": "fill", "sentence": "Mein Sohn ___ mit dem Auto.", "translation": "Můj syn jede autem.", "options": ["fährt", "fahrt", "fahre"], "answer": "fährt", "explain": "fahren má přehlásku: du fährst, er fährt.", "reviewed": false },
+        { "id": "u7-l2-e7", "type": "build", "question": "Jedu autobusem.", "answer": "Ich fahre mit dem Bus.", "extra": ["der"], "reviewed": false },
+        { "id": "u7-l2-e8", "type": "listen", "audio": "Wo ist die Haltestelle?", "options": ["Wo ist die Haltestelle?", "Wo ist die Fahrkarte?", "Wo ist der Bahnhof?"], "answer": "Wo ist die Haltestelle?", "reviewed": false },
+        { "id": "u7-l2-e9", "type": "type", "question": "pěšky", "answer": "zu Fuß", "reviewed": false },
+        { "id": "u7-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Jdu pěšky.", "questionLang": "native", "options": ["Ich gehe zu Fuß.", "Ich fahre zu Fuß.", "Ich gehe mit Fuß."], "answer": "Ich gehe zu Fuß.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l3",
+      "title": "Kudy tam?",
+      "titleTarget": "Wo ist die Post?",
+      "reviewed": false,
+      "tip": {
+        "title": "Gehen Sie geradeaus!",
+        "text": "Prosbu nebo radu s vykáním vytvoříte snadno: sloveso dáte na začátek a hned za něj Sie. Vypadá to jako otázka, jen s vykřičníkem: Gehen Sie geradeaus! (Jděte rovně!) Česky stačí jedno slovo „jděte“, německy Sie nikdy nevynechávejte. Hodí se to, když se ptáte na cestu: Entschuldigung, wo ist die Post? Odpověď může znít: Gehen Sie an der Ampel rechts. (U semaforu jděte doprava.)",
+        "examples": [
+          { "target": "Gehen Sie geradeaus!", "native": "Jděte rovně!" },
+          { "target": "Gehen Sie an der Ampel rechts.", "native": "U semaforu jděte doprava." },
+          { "target": "Ist es weit?", "native": "Je to daleko?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l3-w1", "target": "links", "native": "vlevo; doleva", "note": "Gehen Sie links. = Jděte doleva.", "reviewed": false },
+        { "id": "u7-l3-w2", "target": "rechts", "native": "vpravo; doprava", "note": "ch po e zní měkce, něco mezi š a j.", "reviewed": false },
+        { "id": "u7-l3-w3", "target": "geradeaus", "native": "rovně", "note": "Přízvuk na konci: ge-ra-de-AUS.", "reviewed": false },
+        { "id": "u7-l3-w4", "target": "die Ampel", "native": "semafor", "note": "an der Ampel = u semaforu; množné číslo: die Ampeln", "reviewed": false },
+        { "id": "u7-l3-w5", "target": "die Ecke", "native": "roh", "note": "an der Ecke = na rohu; množné číslo: die Ecken", "reviewed": false },
+        { "id": "u7-l3-w6", "target": "der Platz", "native": "náměstí", "note": "Také místo k sezení. Množné číslo: die Plätze", "reviewed": false },
+        { "id": "u7-l3-w7", "target": "weit", "native": "daleko", "note": "Ist es weit? = Je to daleko? w se čte jako v: [vajt].", "reviewed": false },
+        { "id": "u7-l3-w8", "target": "nah", "native": "blízko", "note": "h se nečte: [ná].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l3-e1", "type": "choice", "question": "geradeaus", "questionLang": "target", "options": ["rovně", "vlevo", "vpravo"], "answer": "rovně", "reviewed": false },
+        { "id": "u7-l3-e2", "type": "choice", "question": "semafor", "questionLang": "native", "options": ["die Ampel", "die Ecke", "der Platz"], "answer": "die Ampel", "reviewed": false },
+        { "id": "u7-l3-e3", "type": "match", "pairs": [
+          { "target": "links", "native": "vlevo" },
+          { "target": "rechts", "native": "vpravo" },
+          { "target": "weit", "native": "daleko" },
+          { "target": "nah", "native": "blízko" },
+          { "target": "die Ecke", "native": "roh" }
+        ], "reviewed": false },
+        { "id": "u7-l3-e4", "type": "listen", "audio": "Gehen Sie geradeaus!", "options": ["Jděte rovně!", "Jděte doleva!", "Jeďte doprava!"], "answer": "Jděte rovně!", "reviewed": false },
+        { "id": "u7-l3-e5", "type": "fill", "sentence": "___ Sie an der Ampel rechts!", "translation": "U semaforu jděte doprava!", "options": ["Gehen", "Geht", "Gehe"], "answer": "Gehen", "explain": "Rozkaz s vykáním: sloveso s koncovkou -en na začátek, hned za ním Sie.", "reviewed": false },
+        { "id": "u7-l3-e6", "type": "fill", "sentence": "Ist der Bahnhof ___?", "translation": "Je nádraží daleko?", "options": ["weit", "Ampel", "Fuß"], "answer": "weit", "reviewed": false },
+        { "id": "u7-l3-e7", "type": "build", "question": "Na rohu jděte doleva.", "answer": "Gehen Sie an der Ecke links.", "accept": ["An der Ecke gehen Sie links."], "extra": ["rechts"], "reviewed": false },
+        { "id": "u7-l3-e8", "type": "listen", "audio": "Der Platz ist nicht weit.", "options": ["Der Platz ist nicht weit.", "Der Park ist nicht weit.", "Die Post ist nicht weit."], "answer": "Der Platz ist nicht weit.", "reviewed": false },
+        { "id": "u7-l3-e9", "type": "type", "question": "blízko", "answer": "nah", "reviewed": false },
+        { "id": "u7-l3-e10", "type": "speak", "text": "Entschuldigung, wo ist der Bahnhof?", "native": "Promiňte, kde je nádraží?", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "u6",
+  "level": "A1",
+  "title": "Volný čas",
+  "titleTarget": "Freizeit",
+  "description": "Koníčky, co umíte a chcete dělat, a počasí v různých ročních obdobích.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u6-l1",
+      "title": "Koníčky",
+      "titleTarget": "Hobbys",
+      "reviewed": false,
+      "tip": {
+        "title": "Rád = gern",
+        "text": "Česky řekneme „rád čtu“. Německy přidáte ke slovesu slovíčko gern: Ich lese gern. Gern stojí za slovesem, nikdy před ním – ne „Ich gern lese“. Nemění se: muž, žena i více lidí říkají stejně gern. Nerad = nicht gern. Některá slovesa mění ve 2. a 3. osobě samohlásku: lesen → du liest, er liest; fahren → du fährst, er fährt.",
+        "examples": [
+          { "target": "Ich lese gern.", "native": "Rád čtu." },
+          { "target": "Meine Mutter tanzt gern.", "native": "Moje maminka ráda tancuje." },
+          { "target": "Wir gehen gern spazieren.", "native": "Rádi chodíme na procházky." },
+          { "target": "Er liest nicht gern.", "native": "Nerad čte." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l1-w1", "target": "das Hobby", "native": "koníček; záliba", "note": "Množné číslo: die Hobbys", "reviewed": false },
+        { "id": "u6-l1-w2", "target": "lesen", "native": "číst", "note": "du liest, er liest (e se mění na ie)", "reviewed": false },
+        { "id": "u6-l1-w3", "target": "schwimmen", "native": "plavat", "note": "sch se čte jako š: [švimen].", "reviewed": false },
+        { "id": "u6-l1-w4", "target": "tanzen", "native": "tancovat", "note": "z se čte jako c: [tancen].", "reviewed": false },
+        { "id": "u6-l1-w5", "target": "spazieren gehen", "native": "chodit na procházku", "note": "Ich gehe spazieren. Přízvuk: špa-CÍ-ren.", "reviewed": false },
+        { "id": "u6-l1-w6", "target": "Rad fahren", "native": "jezdit na kole", "note": "Ich fahre Rad. Du fährst Rad. Das Rad = kolo.", "reviewed": false },
+        { "id": "u6-l1-w7", "target": "die Musik", "native": "hudba", "note": "Přízvuk: mu-ZÍK. Bez množného čísla.", "reviewed": false },
+        { "id": "u6-l1-w8", "target": "hören", "native": "poslouchat; slyšet", "note": "ö: řekněte e a zaokrouhlete rty jako na o.", "reviewed": false },
+        { "id": "u6-l1-w9", "target": "gern", "native": "rád", "note": "Stojí za slovesem: Ich lese gern. Platí i pro ráda a rádi.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l1-e1", "type": "choice", "question": "schwimmen", "questionLang": "target", "options": ["plavat", "tancovat", "číst"], "answer": "plavat", "reviewed": false },
+        { "id": "u6-l1-e2", "type": "choice", "question": "hudba", "questionLang": "native", "options": ["die Musik", "das Hobby", "die Uhr"], "answer": "die Musik", "reviewed": false },
+        { "id": "u6-l1-e3", "type": "match", "pairs": [
+          { "target": "lesen", "native": "číst" },
+          { "target": "tanzen", "native": "tancovat" },
+          { "target": "hören", "native": "poslouchat" },
+          { "target": "das Hobby", "native": "koníček" },
+          { "target": "Rad fahren", "native": "jezdit na kole" }
+        ], "reviewed": false },
+        { "id": "u6-l1-e4", "type": "listen", "audio": "Mein Vater liest gern.", "options": ["Můj otec rád čte.", "Můj otec rád plave.", "Moje matka ráda čte."], "answer": "Můj otec rád čte.", "reviewed": false },
+        { "id": "u6-l1-e5", "type": "fill", "sentence": "Er ___ gern.", "translation": "Rád čte.", "options": ["liest", "lest", "lese"], "answer": "liest", "explain": "lesen mění e na ie: du liest, er liest.", "reviewed": false },
+        { "id": "u6-l1-e6", "type": "fill", "sentence": "Am Sonntag gehen wir ___.", "translation": "V neděli chodíme na procházku.", "options": ["spazieren", "Rad", "Hobby"], "answer": "spazieren", "explain": "spazieren gehen: ve větě se gehen časuje a spazieren jde na konec.", "reviewed": false },
+        { "id": "u6-l1-e7", "type": "listen", "audio": "Ich fahre gern Rad.", "options": ["Ich fahre gern Rad.", "Ich fahre nicht gern Rad.", "Ich gehe gern spazieren."], "answer": "Ich fahre gern Rad.", "reviewed": false },
+        { "id": "u6-l1-e8", "type": "type", "question": "číst", "answer": "lesen", "reviewed": false },
+        { "id": "u6-l1-e9", "type": "build", "question": "Rádi posloucháme hudbu.", "answer": "Wir hören gern Musik.", "accept": ["Gern hören wir Musik.", "Musik hören wir gern."], "extra": ["hört"], "reviewed": false },
+        { "id": "u6-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Rádi plaveme.", "questionLang": "native", "options": ["Wir schwimmen gern.", "Wir gern schwimmen.", "Gern wir schwimmen."], "answer": "Wir schwimmen gern.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u6-l2",
+      "title": "Co umím",
+      "titleTarget": "Was ich kann",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich kann gut schwimmen",
+        "text": "Können (umět, moci) a wollen (chtít) fungují jako v češtině: za nimi přijde druhé sloveso v základním tvaru. To druhé sloveso ale musí jít úplně na konec věty: Ich kann gut schwimmen. (Umím dobře plavat.) Ne „Ich kann schwimmen gut“. Pozor na tvary: ich kann, er kann; ich will, er will – s ich i s er bez koncovky. Wollen zní dost rozhodně; když o něco zdvořile prosíte, řekněte raději ich möchte.",
+        "examples": [
+          { "target": "Ich kann gut schwimmen.", "native": "Umím dobře plavat." },
+          { "target": "Er will Klavier spielen.", "native": "Chce hrát na klavír." },
+          { "target": "Meine Tochter kann gut singen.", "native": "Moje dcera umí dobře zpívat." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l2-w1", "target": "können", "native": "umět; moci", "note": "ich kann, du kannst, er kann, wir können", "reviewed": false },
+        { "id": "u6-l2-w2", "target": "wollen", "native": "chtít", "note": "ich will, du willst, er will, wir wollen", "reviewed": false },
+        { "id": "u6-l2-w3", "target": "spielen", "native": "hrát", "note": "sp se čte jako šp: [špílen].", "reviewed": false },
+        { "id": "u6-l2-w4", "target": "singen", "native": "zpívat", "note": "ng zní jako n ve slově „banka“; g se samostatně nečte.", "reviewed": false },
+        { "id": "u6-l2-w5", "target": "sprechen", "native": "mluvit", "note": "du sprichst, er spricht (e se mění na i)", "reviewed": false },
+        { "id": "u6-l2-w6", "target": "Deutsch", "native": "němčina; německy", "note": "Ich spreche Deutsch. Píše se s velkým D.", "reviewed": false },
+        { "id": "u6-l2-w7", "target": "Tschechisch", "native": "čeština; česky", "note": "Sprechen Sie Tschechisch? = Mluvíte česky?", "reviewed": false },
+        { "id": "u6-l2-w8", "target": "das Klavier", "native": "klavír", "note": "Klavier spielen = hrát na klavír (bez předložky). Přízvuk: kla-VÍR. Množné číslo: die Klaviere", "reviewed": false },
+        { "id": "u6-l2-w9", "target": "ein bisschen", "native": "trochu", "note": "Ich spreche ein bisschen Deutsch.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l2-e1", "type": "type", "question": "trochu", "answer": "ein bisschen", "accept": ["ein wenig"], "reviewed": false },
+        { "id": "u6-l2-e2", "type": "choice", "question": "zpívat", "questionLang": "native", "options": ["singen", "spielen", "sprechen"], "answer": "singen", "reviewed": false },
+        { "id": "u6-l2-e3", "type": "match", "pairs": [
+          { "target": "Deutsch", "native": "němčina" },
+          { "target": "Tschechisch", "native": "čeština" },
+          { "target": "das Klavier", "native": "klavír" },
+          { "target": "wollen", "native": "chtít" },
+          { "target": "spielen", "native": "hrát" }
+        ], "reviewed": false },
+        { "id": "u6-l2-e4", "type": "listen", "audio": "Ich spreche ein bisschen Deutsch.", "options": ["Mluvím trochu německy.", "Mluvím dobře německy.", "Mluvím trochu česky."], "answer": "Mluvím trochu německy.", "reviewed": false },
+        { "id": "u6-l2-e5", "type": "fill", "sentence": "Ich kann gut ___.", "translation": "Umím dobře zpívat.", "options": ["singen", "singe", "singt"], "answer": "singen", "explain": "Po können přijde sloveso v základním tvaru a stojí na konci věty.", "reviewed": false },
+        { "id": "u6-l2-e6", "type": "fill", "sentence": "Meine Tochter ___ Klavier spielen.", "translation": "Moje dcera chce hrát na klavír.", "options": ["will", "wollen", "willst"], "answer": "will", "explain": "er, sie i ich mají tvar will, bez koncovky.", "reviewed": false },
+        { "id": "u6-l2-e7", "type": "build", "question": "Umím trochu plavat.", "answer": "Ich kann ein bisschen schwimmen.", "extra": ["kannst"], "reviewed": false },
+        { "id": "u6-l2-e8", "type": "build", "question": "Mluvíte česky?", "answer": "Sprechen Sie Tschechisch?", "extra": ["Deutsch"], "reviewed": false },
+        { "id": "u6-l2-e9", "type": "listen", "audio": "Wir wollen Deutsch sprechen.", "options": ["Wir wollen Deutsch sprechen.", "Wir können Deutsch sprechen.", "Wir wollen Tschechisch sprechen."], "answer": "Wir wollen Deutsch sprechen.", "reviewed": false },
+        { "id": "u6-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Umím dobře plavat.", "questionLang": "native", "options": ["Ich kann gut schwimmen.", "Ich kann schwimmen gut.", "Ich gut kann schwimmen."], "answer": "Ich kann gut schwimmen.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u6-l3",
+      "title": "Počasí a roční období",
+      "titleTarget": "Wetter und Jahreszeiten",
+      "reviewed": false,
+      "tip": {
+        "title": "Es regnet – nezapomeňte na es",
+        "text": "Česky řekneme jen „Prší.“ nebo „Je zima.“ Německá věta ale vždy potřebuje podmět. U počasí je to slovíčko es (ono): Es regnet. (Prší.) Es ist kalt. (Je zima.) Es ist warm. (Je teplo.) Když větu začnete slovem heute, es se posune až za sloveso: Heute regnet es. Roční období mají všechna člen der a říká se u nich im: im Sommer = v létě, im Winter = v zimě.",
+        "examples": [
+          { "target": "Es regnet.", "native": "Prší." },
+          { "target": "Heute ist es kalt.", "native": "Dnes je zima." },
+          { "target": "Im Sommer ist es warm.", "native": "V létě je teplo." },
+          { "target": "Wie ist das Wetter?", "native": "Jaké je počasí?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l3-w1", "target": "das Wetter", "native": "počasí", "note": "Wie ist das Wetter? = Jaké je počasí? W se čte jako v.", "reviewed": false },
+        { "id": "u6-l3-w2", "target": "die Sonne", "native": "slunce", "note": "Ženský rod, česky střední. Množné číslo: die Sonnen", "reviewed": false },
+        { "id": "u6-l3-w3", "target": "es regnet", "native": "prší", "note": "Vždy s es, nikdy jen „Regnet“.", "reviewed": false },
+        { "id": "u6-l3-w4", "target": "kalt", "native": "studený; chladný", "note": "Es ist kalt. = Je zima.", "reviewed": false },
+        { "id": "u6-l3-w5", "target": "warm", "native": "teplý", "note": "Es ist warm. = Je teplo. Čte se [varm].", "reviewed": false },
+        { "id": "u6-l3-w6", "target": "der Frühling", "native": "jaro", "note": "im Frühling = na jaře; množné číslo: die Frühlinge", "reviewed": false },
+        { "id": "u6-l3-w7", "target": "der Sommer", "native": "léto", "note": "im Sommer = v létě; množné číslo: die Sommer", "reviewed": false },
+        { "id": "u6-l3-w8", "target": "der Herbst", "native": "podzim", "note": "im Herbst = na podzim; množné číslo: die Herbste", "reviewed": false },
+        { "id": "u6-l3-w9", "target": "der Winter", "native": "zima", "note": "Jen roční období. im Winter = v zimě; množné číslo: die Winter", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l3-e1", "type": "choice", "question": "der Herbst", "questionLang": "target", "options": ["podzim", "jaro", "léto"], "answer": "podzim", "reviewed": false },
+        { "id": "u6-l3-e2", "type": "choice", "question": "slunce", "questionLang": "native", "options": ["die Sonne", "der Sommer", "das Wetter"], "answer": "die Sonne", "reviewed": false },
+        { "id": "u6-l3-e3", "type": "match", "pairs": [
+          { "target": "der Frühling", "native": "jaro" },
+          { "target": "der Sommer", "native": "léto" },
+          { "target": "der Winter", "native": "zima" },
+          { "target": "warm", "native": "teplý" },
+          { "target": "das Wetter", "native": "počasí" }
+        ], "reviewed": false },
+        { "id": "u6-l3-e4", "type": "listen", "audio": "Heute regnet es.", "options": ["Dnes prší.", "Dnes je zima.", "Zítra prší."], "answer": "Dnes prší.", "reviewed": false },
+        { "id": "u6-l3-e5", "type": "fill", "sentence": "___ regnet.", "translation": "Prší.", "options": ["Es", "Er", "Ist"], "answer": "Es", "explain": "Německá věta potřebuje podmět; u počasí je to es.", "reviewed": false },
+        { "id": "u6-l3-e6", "type": "fill", "sentence": "___ Sommer ist es warm.", "translation": "V létě je teplo.", "options": ["Im", "Am", "Um"], "answer": "Im", "explain": "S ročními obdobími se říká im: im Sommer, im Winter.", "reviewed": false },
+        { "id": "u6-l3-e7", "type": "build", "question": "Dnes je zima.", "answer": "Heute ist es kalt.", "accept": ["Es ist heute kalt."], "extra": ["warm"], "reviewed": false },
+        { "id": "u6-l3-e8", "type": "listen", "audio": "Wie ist das Wetter?", "options": ["Wie ist das Wetter?", "Wie spät ist es?", "Wie geht es Ihnen?"], "answer": "Wie ist das Wetter?", "reviewed": false },
+        { "id": "u6-l3-e9", "type": "type", "question": "jaro", "answer": "der Frühling", "reviewed": false },
+        { "id": "u6-l3-e10", "type": "speak", "text": "Es regnet und es ist kalt.", "native": "Prší a je zima.", "reviewed": false }
+      ]
+    }
+  ]
+}

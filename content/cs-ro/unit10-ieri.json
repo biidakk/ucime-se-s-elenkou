@@ -1,0 +1,137 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "title": "Včera",
+  "titleTarget": "Ieri",
+  "description": "Minulý čas: co se dělo včera, kde jsme byli a co jsme dělali o víkendu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "Co jste dělali?",
+      "titleTarget": "Ce ați făcut?",
+      "reviewed": false,
+      "tip": {
+        "title": "Minulý čas: am + příčestí",
+        "text": "Rumunský minulý čas má dvě části, podobně jako české „pracoval jsem“: am lucrat. První část se mění podle osoby (am, ai, a, am, ați, au), druhá zůstává stejná – pro muže i ženy. Am lucrat tedy znamená „pracoval jsem“ i „pracovala jsem“. A ještě jedna úleva: rumunština nemá vid. Am mâncat je „jedl(a) jsem“ i „snědl(a) jsem“, am citit „četl(a)“ i „přečetl(a) jsem“.",
+        "examples": [
+          { "target": "Ieri am lucrat.", "native": "Včera jsem pracoval(a)." },
+          { "target": "Aseară am mâncat supă.", "native": "Včera večer jsem jedl(a) polévku." },
+          { "target": "Ce ați făcut ieri?", "native": "Co jste včera dělali?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l1-w1", "target": "ieri", "native": "včera", "note": "Čte se skoro „jer“ (koncové i skoro neslyšné).", "reviewed": false },
+        { "id": "u10-l1-w2", "target": "aseară", "native": "včera večer", "note": "Čte se „a-SEA-ră“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u10-l1-w3", "target": "alaltăieri", "native": "předevčírem", "note": "Čte se „a-lal-tă-JER“, přízvuk na konci.", "reviewed": false },
+        { "id": "u10-l1-w4", "target": "am lucrat", "native": "pracoval jsem; pracovala jsem", "note": "Od a lucra. Stejný tvar pro muže i ženy.", "reviewed": false },
+        { "id": "u10-l1-w5", "target": "am mâncat", "native": "jedl jsem; jedla jsem", "note": "Od a mânca. Znamená i „snědl(a) jsem“.", "reviewed": false },
+        { "id": "u10-l1-w6", "target": "am dormit", "native": "spal jsem; spala jsem", "note": "Od a dormi.", "reviewed": false },
+        { "id": "u10-l1-w7", "target": "am văzut", "native": "viděl jsem; viděla jsem", "note": "Od a vedea (vidět); văd = vidím.", "reviewed": false },
+        { "id": "u10-l1-w8", "target": "Ce ați făcut?", "native": "co jste dělali?", "note": "Při vykání nebo k více lidem. Při tykání: Ce ai făcut?", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l1-e1", "type": "choice", "question": "ieri", "questionLang": "target", "options": ["včera", "zítra", "dnes"], "answer": "včera", "reviewed": false },
+        { "id": "u10-l1-e2", "type": "choice", "question": "předevčírem", "questionLang": "native", "options": ["alaltăieri", "aseară", "mâine"], "answer": "alaltăieri", "reviewed": false },
+        { "id": "u10-l1-e3", "type": "match", "pairs": [
+          { "target": "am lucrat", "native": "pracoval jsem; pracovala jsem" },
+          { "target": "am mâncat", "native": "jedl jsem; jedla jsem" },
+          { "target": "am dormit", "native": "spal jsem; spala jsem" },
+          { "target": "am văzut", "native": "viděl jsem; viděla jsem" }
+        ], "reviewed": false },
+        { "id": "u10-l1-e4", "type": "listen", "audio": "aseară", "options": ["aseară", "seara", "ieri"], "answer": "aseară", "reviewed": false },
+        { "id": "u10-l1-e5", "type": "listen", "audio": "Ieri am dormit bine.", "options": ["Včera jsem dobře spal(a).", "Včera jsem dobře jedl(a).", "Dnes jsem dobře spal(a)."], "answer": "Včera jsem dobře spal(a).", "reviewed": false },
+        { "id": "u10-l1-e6", "type": "fill", "sentence": "Ieri ___ lucrat.", "translation": "Včera jsem pracoval(a).", "options": ["am", "ai", "au"], "answer": "am", "explain": "Já = am: am lucrat (pracoval(a) jsem); ai lucrat = pracoval(a) jsi.", "reviewed": false },
+        { "id": "u10-l1-e7", "type": "fill", "sentence": "Aseară am ___ un film.", "translation": "Včera večer jsem viděl(a) film.", "options": ["văzut", "văd", "vedea"], "answer": "văzut", "explain": "Minulý čas: am + příčestí, tedy am văzut.", "reviewed": false },
+        { "id": "u10-l1-e8", "type": "choice", "question": "spal jsem; spala jsem", "questionLang": "native", "options": ["am dormit", "am mâncat", "am văzut"], "answer": "am dormit", "reviewed": false },
+        { "id": "u10-l1-e9", "type": "type", "question": "Co jste včera dělali?", "answer": "Ce ați făcut ieri?", "reviewed": false },
+        { "id": "u10-l1-e10", "type": "build", "question": "Včera jsem jedl(a) chleba a sýr.", "answer": "Ieri am mâncat pâine și brânză.", "extra": ["mănânc"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "Kde jste byli?",
+      "titleTarget": "Unde ați fost?",
+      "reviewed": false,
+      "tip": {
+        "title": "La mare: kam i kde",
+        "text": "Česky rozlišujeme „k moři“ (kam) a „u moře“ (kde). Rumunsky stačí jedno spojení pro obojí: Merg la mare. (Jedu k moři.) – Am fost la mare. (Byl(a) jsem u moře.) Stejně tak la munte (na hory i na horách) a la țară (na venkov i na venkově). Po samotném la se člen nepíše, jako v la bancă nebo la gară. Am fost je minulý čas slovesa a fi (být).",
+        "examples": [
+          { "target": "Am fost la mare.", "native": "Byl(a) jsem u moře." },
+          { "target": "Mâine merg la munte.", "native": "Zítra jedu na hory." },
+          { "target": "Unde ați fost în vacanță?", "native": "Kde jste byli na dovolené?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l2-w1", "target": "am fost", "native": "byl jsem; byla jsem", "note": "Od a fi (být). Ai fost? = Byl(a) jsi? Ați fost? = Byli jste?", "reviewed": false },
+        { "id": "u10-l2-w2", "target": "la mare", "native": "u moře; k moři", "note": "Jedno spojení pro „kam“ i „kde“. Marea = to moře.", "reviewed": false },
+        { "id": "u10-l2-w3", "target": "la munte", "native": "na horách; na hory", "note": "munte = hora; množné číslo: munți.", "reviewed": false },
+        { "id": "u10-l2-w4", "target": "la țară", "native": "na venkově; na venkov", "note": "țară = země i venkov. Čte se „la CA-ră“.", "reviewed": false },
+        { "id": "u10-l2-w5", "target": "în vacanță", "native": "na prázdninách", "note": "Vacanță = prázdniny i dovolená obecně. Čte se „va-KAN-că“.", "reviewed": false },
+        { "id": "u10-l2-w6", "target": "un concediu", "native": "dovolená", "note": "Volno z práce. concediul = ta dovolená; množné číslo: concedii. Čte se „kon-ČE-dju“.", "reviewed": false },
+        { "id": "u10-l2-w7", "target": "săptămâna trecută", "native": "minulý týden", "note": "săptămână = týden, trecut = minulý. Čte se „săp-tă-MY-na tre-KU-tă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l2-e1", "type": "choice", "question": "Am fost la munte.", "questionLang": "target", "options": ["Byl(a) jsem na horách.", "Byl(a) jsem u moře.", "Byl(a) jsem na venkově."], "answer": "Byl(a) jsem na horách.", "reviewed": false },
+        { "id": "u10-l2-e2", "type": "choice", "question": "minulý týden", "questionLang": "native", "options": ["săptămâna trecută", "mâine", "alaltăieri"], "answer": "săptămâna trecută", "reviewed": false },
+        { "id": "u10-l2-e3", "type": "match", "pairs": [
+          { "target": "la mare", "native": "u moře" },
+          { "target": "la munte", "native": "na horách" },
+          { "target": "la țară", "native": "na venkově" },
+          { "target": "un concediu", "native": "dovolená" }
+        ], "reviewed": false },
+        { "id": "u10-l2-e4", "type": "listen", "audio": "Am fost la țară.", "options": ["Am fost la țară.", "Am fost la mare.", "Am fost acasă."], "answer": "Am fost la țară.", "reviewed": false },
+        { "id": "u10-l2-e5", "type": "listen", "audio": "Unde ați fost săptămâna trecută?", "options": ["Kde jste byli minulý týden?", "Kde jste byli včera?", "Kam jedete zítra?"], "answer": "Kde jste byli minulý týden?", "reviewed": false },
+        { "id": "u10-l2-e6", "type": "fill", "sentence": "Săptămâna trecută am ___ la mare.", "translation": "Minulý týden jsem byl(a) u moře.", "options": ["fost", "sunt", "fi"], "answer": "fost", "explain": "Minulý čas slovesa a fi (být) je am fost.", "reviewed": false },
+        { "id": "u10-l2-e7", "type": "fill", "sentence": "Mâine merg ___ munte.", "translation": "Zítra jedu na hory.", "options": ["la", "pe", "sub"], "answer": "la", "explain": "La munte znamená „na hory“ i „na horách“.", "reviewed": false },
+        { "id": "u10-l2-e8", "type": "type", "question": "Byl(a) jsem na dovolené.", "answer": "Am fost în concediu.", "accept": ["Am fost în vacanță."], "reviewed": false },
+        { "id": "u10-l2-e9", "type": "build", "question": "Kde jste byli na dovolené?", "answer": "Unde ați fost în vacanță?", "extra": ["am"], "reviewed": false },
+        { "id": "u10-l2-e10", "type": "speak", "text": "Am fost la mare.", "native": "Byl(a) jsem u moře.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Víkend",
+      "titleTarget": "Weekendul",
+      "reviewed": false,
+      "tip": {
+        "title": "Zápor: n-am",
+        "text": "V záporu se nu a am v řeči spojí do n-am: n-am fost (nebyl(a) jsem), n-am avut timp (neměl(a) jsem čas). Píše se se spojovníkem. Stejně tak n-ai (nu ai) a n-a (nu a). Ve psaní je správně i plné „nu am“, ale mluví se hlavně n-am. Zápor stojí na začátku, jako české ne- u slovesa.",
+        "examples": [
+          { "target": "N-am avut timp.", "native": "Neměl(a) jsem čas." },
+          { "target": "Ieri n-am lucrat.", "native": "Včera jsem nepracoval(a)." },
+          { "target": "În weekend am citit o carte.", "native": "O víkendu jsem četl(a) knihu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l3-w1", "target": "un weekend", "native": "víkend", "note": "weekendul = ten víkend; množné číslo: weekenduri. Čte se jako v angličtině. În weekend = o víkendu.", "reviewed": false },
+        { "id": "u10-l3-w2", "target": "am citit", "native": "četl jsem; četla jsem", "note": "Od a citi (číst). Znamená i „přečetl(a) jsem“ – jeden tvar pro oba vidy.", "reviewed": false },
+        { "id": "u10-l3-w3", "target": "am cumpărat", "native": "koupil jsem; koupila jsem", "note": "Od a cumpăra (kupovat). Čte se „am kum-pă-RAT“.", "reviewed": false },
+        { "id": "u10-l3-w4", "target": "am vorbit", "native": "mluvil jsem; mluvila jsem", "note": "Od a vorbi. Am vorbit cu mama. = Mluvil(a) jsem s mámou.", "reviewed": false },
+        { "id": "u10-l3-w5", "target": "am mers", "native": "šel jsem; šla jsem", "note": "Od a merge. Znamená i „jel(a) jsem“: am mers cu trenul.", "reviewed": false },
+        { "id": "u10-l3-w6", "target": "n-am avut timp", "native": "neměl jsem čas; neměla jsem čas", "note": "n-am = nu am. Am avut = měl(a) jsem.", "reviewed": false },
+        { "id": "u10-l3-w7", "target": "timp", "native": "čas", "note": "timpul = ten čas. Nepočítá se, proto bez „un“: n-am timp = nemám čas. Pozor: un ceas jsou hodiny, i když zní jako „čas“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l3-e1", "type": "choice", "question": "am cumpărat", "questionLang": "target", "options": ["koupil jsem; koupila jsem", "mluvil jsem; mluvila jsem", "spal jsem; spala jsem"], "answer": "koupil jsem; koupila jsem", "reviewed": false },
+        { "id": "u10-l3-e2", "type": "choice", "question": "čas", "questionLang": "native", "options": ["timp", "o zi", "o oră"], "answer": "timp", "reviewed": false },
+        { "id": "u10-l3-e3", "type": "match", "pairs": [
+          { "target": "am citit", "native": "četl jsem; četla jsem" },
+          { "target": "am vorbit", "native": "mluvil jsem; mluvila jsem" },
+          { "target": "am mers", "native": "šel jsem; šla jsem" },
+          { "target": "un weekend", "native": "víkend" }
+        ], "reviewed": false },
+        { "id": "u10-l3-e4", "type": "listen", "audio": "N-am avut timp.", "options": ["N-am avut timp.", "Am avut timp.", "N-am fost acasă."], "answer": "N-am avut timp.", "reviewed": false },
+        { "id": "u10-l3-e5", "type": "listen", "audio": "În weekend am cumpărat un pulover.", "options": ["O víkendu jsem koupil(a) svetr.", "O víkendu jsem koupil(a) bundu.", "V pondělí jsem koupil(a) svetr."], "answer": "O víkendu jsem koupil(a) svetr.", "reviewed": false },
+        { "id": "u10-l3-e6", "type": "fill", "sentence": "Ieri ___ avut timp.", "translation": "Včera jsem neměl(a) čas.", "options": ["n-am", "nu", "am"], "answer": "n-am", "explain": "Zápor v minulém čase: nu + am = n-am.", "reviewed": false },
+        { "id": "u10-l3-e7", "type": "fill", "sentence": "Sâmbătă am ___ cu mama.", "translation": "V sobotu jsem mluvil(a) s mámou.", "options": ["vorbit", "vorbesc", "vorbi"], "answer": "vorbit", "explain": "Minulý čas: am + příčestí, tedy am vorbit.", "reviewed": false },
+        { "id": "u10-l3-e8", "type": "choice", "question": "N-am fost la mare.", "questionLang": "target", "options": ["Nebyl(a) jsem u moře.", "Byl(a) jsem u moře.", "Nebyl(a) jsem na horách."], "answer": "Nebyl(a) jsem u moře.", "reviewed": false },
+        { "id": "u10-l3-e9", "type": "type", "question": "Neměl(a) jsem čas.", "answer": "N-am avut timp.", "accept": ["Nu am avut timp."], "reviewed": false },
+        { "id": "u10-l3-e10", "type": "build", "question": "O víkendu jsem četl(a) a spal(a).", "answer": "În weekend am citit și am dormit.", "extra": ["n-am"], "reviewed": false }
+      ]
+    }
+  ]
+}

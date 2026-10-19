@@ -1,0 +1,141 @@
+{
+  "id": "u5",
+  "level": "A1",
+  "title": "Jídlo a pití",
+  "titleTarget": "Mâncare și băutură",
+  "description": "Snídaně, objednávka v restauraci a nákup na trhu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u5-l1",
+      "title": "Snídaně",
+      "titleTarget": "Micul dejun",
+      "reviewed": false,
+      "tip": {
+        "title": "Střední rod: jedno vejce, dvě vejce",
+        "text": "Rumunština má i střední rod, ale zvláštní: v jednotném čísle se chová jako mužský rod, v množném jako ženský. Proto „un ou“ (jako un frate), ale „două ouă“ (jako două surori). Číslovka „două“ je ženský tvar – stejně jako české „dvě“. Když chcete „trochu“ nebo „nějaké“, řekněte „niște“: niște pâine = trochu chleba, niște ouă = pár vajec. Mléko, máslo ani cukr se nepočítají, proto se učí bez „un“: lapte, niște lapte (trochu mléka).",
+        "examples": [
+          { "target": "Un ou, vă rog.", "native": "Jedno vejce, prosím." },
+          { "target": "Două ouă și niște pâine.", "native": "Dvě vejce a trochu chleba." },
+          { "target": "O cafea cu lapte, vă rog.", "native": "Kávu s mlékem, prosím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l1-w1", "target": "o pâine", "native": "chléb", "note": "pâinea = ten chléb; množné číslo: pâini. Čte se „PYJ-ne“.", "reviewed": false },
+        { "id": "u5-l1-w2", "target": "unt", "native": "máslo", "note": "untul = to máslo. Nepočítá se, proto bez „un“: niște unt = trochu másla.", "reviewed": false },
+        { "id": "u5-l1-w3", "target": "o brânză", "native": "sýr", "note": "brânza = ten sýr; množné číslo: brânzeturi (druhy sýrů). Odtud české slovo brynza.", "reviewed": false },
+        { "id": "u5-l1-w4", "target": "un ou", "native": "vejce", "note": "oul = to vejce; množné číslo: ouă. Střední rod: un ou, două ouă.", "reviewed": false },
+        { "id": "u5-l1-w5", "target": "lapte", "native": "mléko", "note": "laptele = to mléko. Nepočítá se, proto bez „un“: niște lapte = trochu mléka. Káva s mlékem: cafea cu lapte.", "reviewed": false },
+        { "id": "u5-l1-w6", "target": "o cafea", "native": "káva", "note": "cafeaua = ta káva; množné číslo: cafele. Čte se „ka-FEA“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u5-l1-w7", "target": "un ceai", "native": "čaj", "note": "ceaiul = ten čaj; množné číslo: ceaiuri. Čte se „čaj“.", "reviewed": false },
+        { "id": "u5-l1-w8", "target": "zahăr", "native": "cukr", "note": "zahărul = ten cukr. Nepočítá se, proto bez „un“: niște zahăr = trochu cukru. Čte se „ZA-hăr“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l1-e1", "type": "choice", "question": "o pâine", "questionLang": "target", "options": ["chléb", "máslo", "sýr"], "answer": "chléb", "reviewed": false },
+        { "id": "u5-l1-e2", "type": "choice", "question": "vejce", "questionLang": "native", "options": ["un ou", "unt", "un ceai"], "answer": "un ou", "reviewed": false },
+        { "id": "u5-l1-e3", "type": "match", "pairs": [
+          { "target": "o brânză", "native": "sýr" },
+          { "target": "lapte", "native": "mléko" },
+          { "target": "o cafea", "native": "káva" },
+          { "target": "zahăr", "native": "cukr" }
+        ], "reviewed": false },
+        { "id": "u5-l1-e4", "type": "listen", "audio": "O cafea cu lapte, vă rog.", "options": ["Kávu s mlékem, prosím.", "Čaj s cukrem, prosím.", "Chléb s máslem, prosím."], "answer": "Kávu s mlékem, prosím.", "reviewed": false },
+        { "id": "u5-l1-e5", "type": "listen", "audio": "un ceai", "options": ["un ceai", "un ou", "o cafea"], "answer": "un ceai", "reviewed": false },
+        { "id": "u5-l1-e6", "type": "fill", "sentence": "Două ___, vă rog.", "translation": "Dvě vejce, prosím.", "options": ["ouă", "ou", "oul"], "answer": "ouă", "explain": "Střední rod má v množném čísle ženskou koncovku: un ou – două ouă.", "reviewed": false },
+        { "id": "u5-l1-e7", "type": "fill", "sentence": "Un ceai și ___ cafea, vă rog.", "translation": "Jeden čaj a jednu kávu, prosím.", "options": ["o", "un", "doi"], "answer": "o", "explain": "Cafea je ženského rodu, proto o cafea.", "reviewed": false },
+        { "id": "u5-l1-e8", "type": "type", "question": "máslo", "answer": "unt", "accept": ["niște unt"], "reviewed": false },
+        { "id": "u5-l1-e9", "type": "build", "question": "Dvě vejce a trochu chleba, prosím.", "answer": "Două ouă și niște pâine, vă rog.", "extra": ["ou"], "reviewed": false },
+        { "id": "u5-l1-e10", "type": "speak", "text": "Un ceai cu lapte, vă rog.", "native": "Čaj s mlékem, prosím.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "title": "V restauraci",
+      "titleTarget": "La restaurant",
+      "reviewed": false,
+      "tip": {
+        "title": "Zdvořilá objednávka",
+        "text": "Chcete-li něco objednat, stačí „Vreau“ (chci) a jméno jídla: Vreau o supă. Mezi známými je to v pořádku, ale číšníkovi zní lépe „Aș vrea…“ – česky „chtěl bych“ nebo „chtěla bych“, v restauraci prostě „dám si“. Výhoda: „aș vrea“ má stejný tvar pro muže i ženy. Na konec přidejte „vă rog“. O jídelní lístek i o účet požádáte krátce: „Meniul, vă rog!“ a „Nota, vă rog!“.",
+        "examples": [
+          { "target": "Aș vrea o ciorbă, vă rog.", "native": "Dám si kyselou polévku, prosím." },
+          { "target": "Vreau o bere.", "native": "Chci pivo." },
+          { "target": "Meniul, vă rog!", "native": "Jídelní lístek, prosím!" },
+          { "target": "Nota, vă rog!", "native": "Zaplatím, prosím! (doslova „účet, prosím“)" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l2-w1", "target": "Vreau", "native": "chci", "note": "Od slovesa a vrea (chtít). Číšníkovi zní příliš přímo, zdvořileji je Aș vrea.", "reviewed": false },
+        { "id": "u5-l2-w2", "target": "Aș vrea", "native": "chtěl bych; chtěla bych", "note": "Zdvořilé, ideální při objednávání. Stejný tvar pro muže i ženy. Čte se „aš VREA“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u5-l2-w3", "target": "o apă", "native": "voda", "note": "apa = ta voda; množné číslo: ape. Minerálka: apă minerală.", "reviewed": false },
+        { "id": "u5-l2-w4", "target": "un vin", "native": "víno", "note": "vinul = to víno; množné číslo: vinuri. Červené: vin roșu, bílé: vin alb.", "reviewed": false },
+        { "id": "u5-l2-w5", "target": "o bere", "native": "pivo", "note": "berea = to pivo; množné číslo: beri.", "reviewed": false },
+        { "id": "u5-l2-w6", "target": "o supă", "native": "polévka", "note": "supa = ta polévka; množné číslo: supe.", "reviewed": false },
+        { "id": "u5-l2-w7", "target": "o ciorbă", "native": "kyselá polévka", "note": "ciorba = ta polévka; množné číslo: ciorbe. Typická rumunská polévka. Čte se „čor-bă“.", "reviewed": false },
+        { "id": "u5-l2-w8", "target": "meniul", "native": "jídelní lístek", "note": "Tvar se členem = ten jídelní lístek; bez členu: un meniu; množné číslo: meniuri. Čte se „me-NI-ul“.", "reviewed": false },
+        { "id": "u5-l2-w9", "target": "nota", "native": "účet", "note": "Tvar se členem = ten účet; bez členu: o notă; množné číslo: note. Znamená i školní známku.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l2-e1", "type": "choice", "question": "nota", "questionLang": "target", "options": ["účet", "jídelní lístek", "pivo"], "answer": "účet", "reviewed": false },
+        { "id": "u5-l2-e2", "type": "choice", "question": "pivo", "questionLang": "native", "options": ["o bere", "un vin", "o apă"], "answer": "o bere", "reviewed": false },
+        { "id": "u5-l2-e3", "type": "match", "pairs": [
+          { "target": "o apă", "native": "voda" },
+          { "target": "un vin", "native": "víno" },
+          { "target": "o supă", "native": "polévka" },
+          { "target": "meniul", "native": "jídelní lístek" }
+        ], "reviewed": false },
+        { "id": "u5-l2-e4", "type": "listen", "audio": "Nota, vă rog!", "options": ["Účet, prosím!", "Jídelní lístek, prosím!", "Vodu, prosím!"], "answer": "Účet, prosím!", "reviewed": false },
+        { "id": "u5-l2-e5", "type": "listen", "audio": "o ciorbă", "options": ["o ciorbă", "o supă", "o bere"], "answer": "o ciorbă", "reviewed": false },
+        { "id": "u5-l2-e6", "type": "fill", "sentence": "Aș ___ o bere, vă rog.", "translation": "Dám si pivo, prosím.", "options": ["vrea", "vreau", "vin"], "answer": "vrea", "explain": "Po „aș“ následuje vždy „vrea“: aș vrea = chtěl bych, chtěla bych.", "reviewed": false },
+        { "id": "u5-l2-e7", "type": "fill", "sentence": "Vreau ___ supă.", "translation": "Chci polévku.", "options": ["o", "un", "două"], "answer": "o", "explain": "Supă je ženského rodu, proto o supă.", "reviewed": false },
+        { "id": "u5-l2-e8", "type": "type", "question": "účet", "answer": "nota", "accept": ["o notă"], "reviewed": false },
+        { "id": "u5-l2-e9", "type": "build", "question": "Dám si víno, prosím.", "answer": "Aș vrea un vin, vă rog.", "extra": ["o"], "reviewed": false },
+        { "id": "u5-l2-e10", "type": "choice", "prompt": "Objednáváte v restauraci. Co řeknete?", "question": "Dám si kyselou polévku, prosím.", "questionLang": "native", "options": ["Aș vrea o ciorbă, vă rog.", "Aș vrea o bere, vă rog.", "Aș vrea un vin, vă rog."], "answer": "Aș vrea o ciorbă, vă rog.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l3",
+      "title": "Na trhu",
+      "titleTarget": "La piață",
+      "reviewed": false,
+      "tip": {
+        "title": "Množné číslo: -i, -e, -uri",
+        "text": "Množné číslo se tvoří koncovkami -i, -e nebo -uri: un cartof – doi cartofi, o roșie – două roșii, un kilogram – două kilograme, un ceai – două ceaiuri. Některá slova se mění i uvnitř, podobně jako české „pes – psi“: un măr – două mere, o ceapă – două cepe. „Kilo jablek“ se řekne „un kilogram de mere“ – místo českého 2. pádu stačí „de“. A na trhu potěší slova, která znáte z češtiny: smântână (smetana) a slănină (slanina).",
+        "examples": [
+          { "target": "Un kilogram de mere, vă rog.", "native": "Kilo jablek, prosím." },
+          { "target": "Cât costă un kilogram de cartofi?", "native": "Kolik stojí kilo brambor?" },
+          { "target": "Două kilograme de roșii.", "native": "Dvě kila rajčat." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l3-w1", "target": "o piață", "native": "trh", "note": "piața = ten trh; množné číslo: piețe. Čte se „pja-că“. Na trhu = la piață.", "reviewed": false },
+        { "id": "u5-l3-w2", "target": "un kilogram", "native": "kilogram", "note": "kilogramul = ten kilogram; množné číslo: kilograme. Hovorově také un kil.", "reviewed": false },
+        { "id": "u5-l3-w3", "target": "o roșie", "native": "rajče", "note": "roșia = to rajče; množné číslo: roșii. Doslova „červená“.", "reviewed": false },
+        { "id": "u5-l3-w4", "target": "un cartof", "native": "brambora", "note": "cartoful = ta brambora; množné číslo: cartofi.", "reviewed": false },
+        { "id": "u5-l3-w5", "target": "un măr", "native": "jablko", "note": "mărul = to jablko; množné číslo: mere (nepravidelné).", "reviewed": false },
+        { "id": "u5-l3-w6", "target": "o ceapă", "native": "cibule", "note": "ceapa = ta cibule; množné číslo: cepe. Čte se „ča-pă“.", "reviewed": false },
+        { "id": "u5-l3-w7", "target": "smântână", "native": "smetana", "note": "smântâna = ta smetana; obvykle zakysaná, do polévky a k jídlu. Nepočítá se: niște smântână. Slovanské slovo.", "reviewed": false },
+        { "id": "u5-l3-w8", "target": "slănină", "native": "slanina", "note": "slănina = ta slanina. Nepočítá se: niște slănină. Slovanské slovo.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l3-e1", "type": "choice", "question": "un măr", "questionLang": "target", "options": ["jablko", "brambora", "cibule"], "answer": "jablko", "reviewed": false },
+        { "id": "u5-l3-e2", "type": "choice", "question": "rajče", "questionLang": "native", "options": ["o roșie", "o ceapă", "un cartof"], "answer": "o roșie", "reviewed": false },
+        { "id": "u5-l3-e3", "type": "match", "pairs": [
+          { "target": "o piață", "native": "trh" },
+          { "target": "smântână", "native": "smetana" },
+          { "target": "slănină", "native": "slanina" },
+          { "target": "un cartof", "native": "brambora" }
+        ], "reviewed": false },
+        { "id": "u5-l3-e4", "type": "listen", "audio": "Un kilogram de cartofi, vă rog.", "options": ["Kilo brambor, prosím.", "Kilo jablek, prosím.", "Kilo rajčat, prosím."], "answer": "Kilo brambor, prosím.", "reviewed": false },
+        { "id": "u5-l3-e5", "type": "listen", "audio": "Cât costă ceapa?", "options": ["Cât costă ceapa?", "Cât costă cartoful?", "Cât costă brânza?"], "answer": "Cât costă ceapa?", "reviewed": false },
+        { "id": "u5-l3-e6", "type": "fill", "sentence": "Un kilogram de ___, vă rog.", "translation": "Kilo jablek, prosím.", "options": ["mere", "măr", "mărul"], "answer": "mere", "explain": "Množné číslo od un măr je nepravidelné: mere.", "reviewed": false },
+        { "id": "u5-l3-e7", "type": "fill", "sentence": "Două ___ de roșii.", "translation": "Dvě kila rajčat.", "options": ["kilograme", "kilogram", "kilogramul"], "answer": "kilograme", "explain": "Kilogram je střední rod: un kilogram, ale două kilograme.", "reviewed": false },
+        { "id": "u5-l3-e8", "type": "type", "question": "cibule", "answer": "o ceapă", "accept": ["ceapă"], "reviewed": false },
+        { "id": "u5-l3-e9", "type": "build", "question": "Kolik stojí kilo brambor?", "answer": "Cât costă un kilogram de cartofi?", "extra": ["cartof"], "reviewed": false },
+        { "id": "u5-l3-e10", "type": "choice", "question": "smântână", "questionLang": "target", "options": ["smetana", "slanina", "cibule"], "answer": "smetana", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "u3",
+  "level": "A1",
+  "title": "Čísla a peníze",
+  "titleTarget": "Numere",
+  "description": "Počítání od nuly do tisíce a otázka „kolik to stojí?“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "Jedna až sedm",
+      "titleTarget": "De la unu la șapte",
+      "reviewed": false,
+      "tip": {
+        "title": "Jeden, jedna – dva, dvě",
+        "text": "Při počítání říkáte „unu, doi, trei“. Před podstatným jménem se ale „jeden“ a „dva“ mění podle rodu, stejně jako v češtině jeden – jedna a dva – dvě: un domn (jeden pán), o doamnă (jedna paní), doi domni (dva páni), două doamne (dvě paní). Od trojky dál se už nic nemění: trei domni, trei doamne.",
+        "examples": [
+          { "target": "un domn, o doamnă", "native": "jeden pán, jedna paní" },
+          { "target": "doi domni, două doamne", "native": "dva páni, dvě paní" },
+          { "target": "trei domni, trei doamne", "native": "tři páni, tři paní" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l1-w1", "target": "unu", "native": "jedna", "note": "Jen při počítání. Před slovem: un domn, o doamnă.", "reviewed": false },
+        { "id": "u3-l1-w2", "target": "doi", "native": "dva", "note": "Před ženským rodem: două (dvě). Čte se „doj“.", "reviewed": false },
+        { "id": "u3-l1-w3", "target": "trei", "native": "tři", "note": "Čte se „trej“.", "reviewed": false },
+        { "id": "u3-l1-w4", "target": "patru", "native": "čtyři", "reviewed": false },
+        { "id": "u3-l1-w5", "target": "cinci", "native": "pět", "note": "Čte se „činč“: c před i = č, koncové i skoro neslyšné.", "reviewed": false },
+        { "id": "u3-l1-w6", "target": "șase", "native": "šest", "note": "Čte se „ša-se“.", "reviewed": false },
+        { "id": "u3-l1-w7", "target": "șapte", "native": "sedm", "note": "Čte se „šap-te“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l1-e1", "type": "choice", "question": "trei", "questionLang": "target", "options": ["tři", "dva", "šest"], "answer": "tři", "reviewed": false },
+        { "id": "u3-l1-e2", "type": "choice", "question": "pět", "questionLang": "native", "options": ["cinci", "șase", "patru"], "answer": "cinci", "reviewed": false },
+        { "id": "u3-l1-e3", "type": "match", "pairs": [
+          { "target": "unu", "native": "jedna" },
+          { "target": "doi", "native": "dva" },
+          { "target": "patru", "native": "čtyři" },
+          { "target": "șapte", "native": "sedm" }
+        ], "reviewed": false },
+        { "id": "u3-l1-e4", "type": "listen", "audio": "șase", "options": ["șase", "șapte", "cinci"], "answer": "șase", "reviewed": false },
+        { "id": "u3-l1-e5", "type": "listen", "audio": "patru", "options": ["čtyři", "tři", "sedm"], "answer": "čtyři", "reviewed": false },
+        { "id": "u3-l1-e6", "type": "fill", "sentence": "___ doamne și trei domni", "translation": "dvě paní a tři páni", "options": ["două", "doi", "o"], "answer": "două", "explain": "Před ženským rodem je „două“ – jako české dvě.", "reviewed": false },
+        { "id": "u3-l1-e7", "type": "fill", "sentence": "___ domn și o doamnă", "translation": "jeden pán a jedna paní", "options": ["un", "o", "unu"], "answer": "un", "explain": "Před mužským rodem „un“, před ženským „o“; „unu“ jen při počítání.", "reviewed": false },
+        { "id": "u3-l1-e8", "type": "type", "question": "sedm", "answer": "șapte", "reviewed": false },
+        { "id": "u3-l1-e9", "type": "build", "question": "jedna, dva, tři, čtyři, pět", "answer": "unu, doi, trei, patru, cinci", "extra": ["două"], "reviewed": false },
+        { "id": "u3-l1-e10", "type": "speak", "text": "Unu, doi, trei, patru, cinci, șase, șapte.", "native": "Jedna, dva, tři, čtyři, pět, šest, sedm.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "Osm až dvacet",
+      "titleTarget": "De la opt la douăzeci",
+      "reviewed": false,
+      "tip": {
+        "title": "-sprezece jako české -náct",
+        "text": "Čísla od jedenácti do devatenácti se tvoří jako v češtině. České „jedenáct“ vzniklo z „jeden na deset“ – a rumunské „unsprezece“ je doslova totéž: un + spre (na) + zece (deset). Pozor na dvě zkrácená čísla: čtrnáct je „paisprezece“ a šestnáct „șaisprezece“. Dvacet je „douăzeci“, doslova „dvě desítky“. V hovoru uslyšíte i zkratky: unșpe, doișpe.",
+        "examples": [
+          { "target": "unsprezece", "native": "jedenáct – doslova „jeden na deset“" },
+          { "target": "paisprezece", "native": "čtrnáct – zkrácené z „patru“" },
+          { "target": "șaisprezece", "native": "šestnáct – zkrácené ze „șase“" },
+          { "target": "douăzeci", "native": "dvacet – čte se „do-wă-ZEČ“" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l2-w1", "target": "zero", "native": "nula", "reviewed": false },
+        { "id": "u3-l2-w2", "target": "opt", "native": "osm", "reviewed": false },
+        { "id": "u3-l2-w3", "target": "nouă", "native": "devět", "note": "Čte se „no-wă“, dvě slabiky.", "reviewed": false },
+        { "id": "u3-l2-w4", "target": "zece", "native": "deset", "note": "Čte se „ze-če“.", "reviewed": false },
+        { "id": "u3-l2-w5", "target": "unsprezece", "native": "jedenáct", "note": "Čte se „un-spre-ze-če“. Hovorově unșpe.", "reviewed": false },
+        { "id": "u3-l2-w6", "target": "doisprezece", "native": "dvanáct", "note": "Před ženským rodem: douăsprezece. Hovorově doișpe.", "reviewed": false },
+        { "id": "u3-l2-w7", "target": "cincisprezece", "native": "patnáct", "note": "Čte se „činč-spre-ze-če“. Hovorově cinșpe.", "reviewed": false },
+        { "id": "u3-l2-w8", "target": "douăzeci", "native": "dvacet", "note": "Čte se „do-wă-ZEČ“. Doslova „dvě desítky“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l2-e1", "type": "choice", "question": "nouă", "questionLang": "target", "options": ["devět", "osm", "deset"], "answer": "devět", "reviewed": false },
+        { "id": "u3-l2-e2", "type": "choice", "question": "dvacet", "questionLang": "native", "options": ["douăzeci", "doisprezece", "două"], "answer": "douăzeci", "reviewed": false },
+        { "id": "u3-l2-e3", "type": "match", "pairs": [
+          { "target": "zero", "native": "nula" },
+          { "target": "opt", "native": "osm" },
+          { "target": "zece", "native": "deset" },
+          { "target": "unsprezece", "native": "jedenáct" },
+          { "target": "cincisprezece", "native": "patnáct" }
+        ], "reviewed": false },
+        { "id": "u3-l2-e4", "type": "listen", "audio": "doisprezece", "options": ["doisprezece", "douăzeci", "unsprezece"], "answer": "doisprezece", "reviewed": false },
+        { "id": "u3-l2-e5", "type": "listen", "audio": "cincisprezece", "options": ["patnáct", "pět", "padesát"], "answer": "patnáct", "reviewed": false },
+        { "id": "u3-l2-e6", "type": "choice", "prompt": "Jak se řekne čtrnáct? Pozor na zkrácený tvar.", "question": "čtrnáct", "questionLang": "native", "options": ["paisprezece", "patru", "șaisprezece"], "answer": "paisprezece", "reviewed": false },
+        { "id": "u3-l2-e7", "type": "fill", "sentence": "unsprezece, ___, treisprezece", "translation": "jedenáct, dvanáct, třináct", "options": ["doisprezece", "douăzeci", "două"], "answer": "doisprezece", "explain": "Dvanáct = doi + spre + zece, doslova „dva na deset“.", "reviewed": false },
+        { "id": "u3-l2-e8", "type": "type", "question": "deset", "answer": "zece", "reviewed": false },
+        { "id": "u3-l2-e9", "type": "build", "question": "Jedenáct a devět je dvacet.", "answer": "Unsprezece și nouă fac douăzeci.", "extra": ["zece"], "reviewed": false },
+        { "id": "u3-l2-e10", "type": "speak", "text": "Opt, nouă, zece.", "native": "Osm, devět, deset.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Kolik to stojí?",
+      "titleTarget": "Cât costă?",
+      "reviewed": false,
+      "tip": {
+        "title": "Od dvacítky „de“",
+        "text": "Od dvacítky výš se mezi číslo a věc vkládá malé „de“: douăzeci de lei (dvacet lei), o sută de lei (sto lei). Pod dvacet se „de“ neříká: cinci lei, zece lei. Trochu jako v češtině, kde se od pětky mění tvar: dvě koruny, ale pět korun. A pozor na past: rumunské „drag“ neznamená drahý, ale milý. Drahý je „scump“.",
+        "examples": [
+          { "target": "Cât costă?", "native": "Kolik to stojí?" },
+          { "target": "Costă cinci lei.", "native": "Stojí to pět lei." },
+          { "target": "Costă douăzeci de lei.", "native": "Stojí to dvacet lei." },
+          { "target": "E prea scump.", "native": "To je příliš drahé." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l3-w1", "target": "Cât costă?", "native": "kolik to stojí?", "note": "â zní jako temné y, vyslovené vzadu v ústech.", "reviewed": false },
+        { "id": "u3-l3-w2", "target": "un leu", "native": "rumunský lei", "note": "leul = ten lei; množné číslo: lei (česky se obvykle říká lei). Doslova „lev“.", "reviewed": false },
+        { "id": "u3-l3-w3", "target": "un ban", "native": "ban; haléř", "note": "banul = ten ban; množné číslo: bani. Setina lei, jako náš haléř. Slovo bani znamená i „peníze“.", "reviewed": false },
+        { "id": "u3-l3-w4", "target": "o sută", "native": "sto", "note": "suta = ta stovka; množné číslo: sute (două sute = dvě stě). Slovanské slovo.", "reviewed": false },
+        { "id": "u3-l3-w5", "target": "o mie", "native": "tisíc", "note": "mia = ten tisíc; množné číslo: mii (două mii = dva tisíce). Čte se „mi-e“.", "reviewed": false },
+        { "id": "u3-l3-w6", "target": "cincizeci", "native": "padesát", "note": "Čte se „činč-ZEČ“, doslova „pět desítek“.", "reviewed": false },
+        { "id": "u3-l3-w7", "target": "ieftin", "native": "levný", "note": "Ženský rod: ieftină. Čte se „jef-tin“.", "reviewed": false },
+        { "id": "u3-l3-w8", "target": "scump", "native": "drahý", "note": "Ženský rod: scumpă. Pozor: „drag“ znamená milý, ne drahý.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l3-e1", "type": "choice", "question": "scump", "questionLang": "target", "options": ["drahý", "levný", "sto"], "answer": "drahý", "reviewed": false },
+        { "id": "u3-l3-e2", "type": "choice", "question": "tisíc", "questionLang": "native", "options": ["o mie", "o sută", "cincizeci"], "answer": "o mie", "reviewed": false },
+        { "id": "u3-l3-e3", "type": "match", "pairs": [
+          { "target": "Cât costă?", "native": "kolik to stojí?" },
+          { "target": "o sută", "native": "sto" },
+          { "target": "cincizeci", "native": "padesát" },
+          { "target": "ieftin", "native": "levný" },
+          { "target": "un ban", "native": "ban; haléř" }
+        ], "reviewed": false },
+        { "id": "u3-l3-e4", "type": "listen", "audio": "Costă cincizeci de lei.", "options": ["Costă cincizeci de lei.", "Costă cincisprezece lei.", "Costă cinci lei."], "answer": "Costă cincizeci de lei.", "reviewed": false },
+        { "id": "u3-l3-e5", "type": "listen", "audio": "E foarte scump!", "options": ["To je velmi drahé!", "To je velmi levné!", "Stojí to sto lei!"], "answer": "To je velmi drahé!", "reviewed": false },
+        { "id": "u3-l3-e6", "type": "fill", "sentence": "Costă douăzeci ___ lei.", "translation": "Stojí to dvacet lei.", "options": ["de", "din", "și"], "answer": "de", "explain": "Od dvacítky výš se vkládá „de“: douăzeci de lei, o sută de lei.", "reviewed": false },
+        { "id": "u3-l3-e7", "type": "fill", "sentence": "Costă șapte ___.", "translation": "Stojí to sedm lei.", "options": ["lei", "de lei", "leu"], "answer": "lei", "explain": "Pod dvacet se „de“ neříká a po čísle je množné číslo: lei.", "reviewed": false },
+        { "id": "u3-l3-e8", "type": "type", "question": "kolik to stojí?", "answer": "Cât costă?", "reviewed": false },
+        { "id": "u3-l3-e9", "type": "build", "question": "Je to levné, stojí to pět lei.", "answer": "E ieftin, costă cinci lei.", "extra": ["de"], "reviewed": false },
+        { "id": "u3-l3-e10", "type": "build", "question": "Sto lei? To je drahé!", "answer": "O sută de lei? E scump!", "extra": ["ieftin"], "reviewed": false }
+      ]
+    }
+  ]
+}

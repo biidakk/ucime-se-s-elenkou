@@ -1,0 +1,147 @@
+{
+  "id": "u8",
+  "level": "A1",
+  "title": "Oblečení",
+  "titleTarget": "Kleidung",
+  "description": "Oblečení, barvy a nakupování: 4. pád (den, einen) a zájmena ihn, sie, es.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u8-l1",
+      "title": "Oblečení a boty",
+      "titleTarget": "Kleidung und Schuhe",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich suche einen Mantel",
+        "text": "Když něco hledáte, kupujete nebo máte, je to 4. pád (koho, co) – německy Akkusativ. Mění se v něm jen mužský rod: der → den, ein → einen. Ženský a střední rod zůstávají stejné. Ich suche einen Mantel (hledám kabát), ale Ich suche eine Jacke, Ich suche ein Kleid. „Ich suche der Mantel“ je chyba. Suchen = hledat. A hlídejte rod: das Hemd je střední, i když česky je to ta košile.",
+        "examples": [
+          { "target": "Ich suche einen Mantel.", "native": "Hledám kabát." },
+          { "target": "Ich suche eine Jacke.", "native": "Hledám bundu." },
+          { "target": "Wo ist der Schuh? Ich suche den Schuh.", "native": "Kde je ta bota? Hledám tu botu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l1-w1", "target": "die Hose", "native": "kalhoty", "note": "Německy jednotné číslo: eine Hose = jedny kalhoty; množné číslo: die Hosen", "reviewed": false },
+        { "id": "u8-l1-w2", "target": "das Hemd", "native": "košile", "note": "Pozor, střední rod (česky ta košile); množné číslo: die Hemden", "reviewed": false },
+        { "id": "u8-l1-w3", "target": "die Bluse", "native": "halenka", "note": "Čte se [BLÚ-ze]; množné číslo: die Blusen", "reviewed": false },
+        { "id": "u8-l1-w4", "target": "der Rock", "native": "sukně", "note": "Pozor, mužský rod (česky ta sukně); množné číslo: die Röcke", "reviewed": false },
+        { "id": "u8-l1-w5", "target": "das Kleid", "native": "šaty", "note": "Německy jednotné číslo: ein Kleid = jedny šaty; množné číslo: die Kleider", "reviewed": false },
+        { "id": "u8-l1-w6", "target": "der Pullover", "native": "svetr", "note": "Přízvuk na druhé slabice: [pu-LÓ-va]; množné číslo: die Pullover", "reviewed": false },
+        { "id": "u8-l1-w7", "target": "die Jacke", "native": "bunda", "note": "ck se čte jako k: [JA-ke]; množné číslo: die Jacken", "reviewed": false },
+        { "id": "u8-l1-w8", "target": "der Schuh", "native": "bota", "note": "Čte se [šú], h se nevyslovuje; množné číslo: die Schuhe", "reviewed": false },
+        { "id": "u8-l1-w9", "target": "der Mantel", "native": "kabát", "note": "množné číslo: die Mäntel", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l1-e1", "type": "choice", "question": "das Kleid", "questionLang": "target", "options": ["šaty", "sukně", "halenka"], "answer": "šaty", "reviewed": false },
+        { "id": "u8-l1-e2", "type": "choice", "question": "kabát", "questionLang": "native", "options": ["der Mantel", "der Rock", "das Hemd"], "answer": "der Mantel", "reviewed": false },
+        { "id": "u8-l1-e3", "type": "match", "pairs": [
+          { "target": "die Hose", "native": "kalhoty" },
+          { "target": "die Bluse", "native": "halenka" },
+          { "target": "der Schuh", "native": "bota" },
+          { "target": "die Jacke", "native": "bunda" },
+          { "target": "der Pullover", "native": "svetr" }
+        ], "reviewed": false },
+        { "id": "u8-l1-e4", "type": "listen", "audio": "Wo ist mein Mantel?", "options": ["Wo ist mein Mantel?", "Wo ist mein Hemd?", "Wo ist meine Jacke?"], "answer": "Wo ist mein Mantel?", "reviewed": false },
+        { "id": "u8-l1-e5", "type": "fill", "sentence": "Ich suche ___ Pullover.", "translation": "Hledám svetr.", "options": ["einen", "eine", "ein"], "answer": "einen", "explain": "der Pullover je mužského rodu, proto je ve 4. pádě „einen“.", "reviewed": false },
+        { "id": "u8-l1-e6", "type": "fill", "sentence": "Ich suche ___ Jacke.", "translation": "Hledám bundu.", "options": ["eine", "einen", "ein"], "answer": "eine", "explain": "die Jacke je ženského rodu a ženský rod se ve 4. pádě nemění.", "reviewed": false },
+        { "id": "u8-l1-e7", "type": "type", "question": "bota", "answer": "der Schuh", "reviewed": false },
+        { "id": "u8-l1-e8", "type": "build", "question": "Hledám halenku a sukni.", "answer": "Ich suche eine Bluse und einen Rock.", "extra": ["der"], "reviewed": false },
+        { "id": "u8-l1-e9", "type": "listen", "audio": "Das Kleid ist schön.", "options": ["Ty šaty jsou hezké.", "Ta sukně je hezká.", "Ta košile je nová."], "answer": "Ty šaty jsou hezké.", "reviewed": false },
+        { "id": "u8-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Hledám kabát.", "questionLang": "native", "options": ["Ich suche einen Mantel.", "Ich suche ein Mantel.", "Ich suche der Mantel."], "answer": "Ich suche einen Mantel.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l2",
+      "title": "Barvy",
+      "titleTarget": "Farben",
+      "reviewed": false,
+      "tip": {
+        "title": "Vezmu si ho: Ich nehme ihn",
+        "text": "Česky řeknete: Ten kabát je hezký, vezmu si ho. Německy: Ich nehme ihn (nehmen = vzít). Zájmeno se řídí německým rodem: der Mantel → ihn, die Jacke → sie, das Kleid → es. Jen mužský rod se ve 4. pádě mění (er → ihn), stejně jako der → den. „Ich nehme er“ je chyba. Pozor, kde se rod liší od češtiny: das Hemd → es, i když česky řeknete „vezmu si ji“. Barvy po „ist“ nemají koncovku: Der Rock ist rot.",
+        "examples": [
+          { "target": "Der Mantel ist schwarz. Ich nehme ihn.", "native": "Ten kabát je černý. Vezmu si ho." },
+          { "target": "Die Jacke ist grün. Ich nehme sie.", "native": "Ta bunda je zelená. Vezmu si ji." },
+          { "target": "Das Hemd ist weiß. Ich nehme es.", "native": "Ta košile je bílá. Vezmu si ji." },
+          { "target": "Welche Farbe hat die Bluse?", "native": "Jakou barvu má ta halenka?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l2-w1", "target": "die Farbe", "native": "barva", "note": "Welche Farbe? = Jaká barva?; množné číslo: die Farben", "reviewed": false },
+        { "id": "u8-l2-w2", "target": "rot", "native": "červený", "note": "Čte se s dlouhým o: [rót].", "reviewed": false },
+        { "id": "u8-l2-w3", "target": "blau", "native": "modrý", "note": "Čte se [blau].", "reviewed": false },
+        { "id": "u8-l2-w4", "target": "grün", "native": "zelený", "note": "ü: řekněte i a rty zaokrouhlete jako na u.", "reviewed": false },
+        { "id": "u8-l2-w5", "target": "gelb", "native": "žlutý", "note": "Na konci se b čte jako p: [gelp].", "reviewed": false },
+        { "id": "u8-l2-w6", "target": "schwarz", "native": "černý", "note": "sch = š, z = c: [švarc].", "reviewed": false },
+        { "id": "u8-l2-w7", "target": "weiß", "native": "bílý", "note": "Čte se [vajs]. Pozor: ich weiß = vím.", "reviewed": false },
+        { "id": "u8-l2-w8", "target": "grau", "native": "šedý", "note": "Čte se [grau].", "reviewed": false },
+        { "id": "u8-l2-w9", "target": "braun", "native": "hnědý", "note": "Čte se [braun].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l2-e1", "type": "choice", "question": "schwarz", "questionLang": "target", "options": ["černý", "bílý", "šedý"], "answer": "černý", "reviewed": false },
+        { "id": "u8-l2-e2", "type": "choice", "question": "zelený", "questionLang": "native", "options": ["grün", "gelb", "grau"], "answer": "grün", "reviewed": false },
+        { "id": "u8-l2-e3", "type": "match", "pairs": [
+          { "target": "rot", "native": "červený" },
+          { "target": "blau", "native": "modrý" },
+          { "target": "gelb", "native": "žlutý" },
+          { "target": "braun", "native": "hnědý" },
+          { "target": "weiß", "native": "bílý" }
+        ], "reviewed": false },
+        { "id": "u8-l2-e4", "type": "listen", "audio": "Die Bluse ist weiß.", "options": ["Die Bluse ist weiß.", "Die Bluse ist blau.", "Die Bluse ist grau."], "answer": "Die Bluse ist weiß.", "reviewed": false },
+        { "id": "u8-l2-e5", "type": "fill", "sentence": "Der Mantel ist schön. Ich nehme ___.", "translation": "Ten kabát je hezký. Vezmu si ho.", "options": ["ihn", "er", "es"], "answer": "ihn", "explain": "der Mantel je mužského rodu, ve 4. pádě je z „er“ „ihn“.", "reviewed": false },
+        { "id": "u8-l2-e6", "type": "fill", "sentence": "Die Jacke ist grün. Ich nehme ___.", "translation": "Ta bunda je zelená. Vezmu si ji.", "options": ["sie", "ihn", "er"], "answer": "sie", "explain": "die Jacke je ženského rodu, takže „sie“ – stejně jako česky „ji“.", "reviewed": false },
+        { "id": "u8-l2-e7", "type": "build", "question": "Ty šaty jsou modré. Vezmu si je.", "answer": "Das Kleid ist blau. Ich nehme es.", "extra": ["sie"], "reviewed": false },
+        { "id": "u8-l2-e8", "type": "type", "question": "černý", "answer": "schwarz", "reviewed": false },
+        { "id": "u8-l2-e9", "type": "listen", "audio": "Welche Farbe hat der Pullover?", "options": ["Jakou barvu má ten svetr?", "Kolik stojí ten svetr?", "Kde je ten svetr?"], "answer": "Jakou barvu má ten svetr?", "reviewed": false },
+        { "id": "u8-l2-e10", "type": "speak", "text": "Der Rock ist rot.", "native": "Ta sukně je červená.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l3",
+      "title": "V obchodě",
+      "titleTarget": "Im Geschäft",
+      "reviewed": false,
+      "tip": {
+        "title": "Kann ich das anprobieren?",
+        "text": "Po „kann“ (můžu) stojí druhé sloveso celé na konci věty. Odlučitelné sloveso zůstane pohromadě: Kann ich den Mantel anprobieren? (Můžu si ten kabát vyzkoušet?) Bez „kann“ se rozdělí: Ich probiere den Mantel an. Když je něco moc velké nebo drahé, řekněte „zu“: zu groß (příliš velký), zu teuer (příliš drahý).",
+        "examples": [
+          { "target": "Kann ich das anprobieren?", "native": "Můžu si to vyzkoušet?" },
+          { "target": "Die Hose passt nicht.", "native": "Ty kalhoty mi nepadnou." },
+          { "target": "Das ist zu teuer.", "native": "To je příliš drahé." },
+          { "target": "Wo ist die Kasse?", "native": "Kde je pokladna?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l3-w1", "target": "kaufen", "native": "koupit; kupovat", "note": "ich kaufe, du kaufst, er kauft", "reviewed": false },
+        { "id": "u8-l3-w2", "target": "anprobieren", "native": "vyzkoušet si", "note": "O oblečení. Přízvuk na AN; rozděluje se: Ich probiere das an.", "reviewed": false },
+        { "id": "u8-l3-w3", "target": "die Größe", "native": "velikost", "note": "ö: řekněte e a zaokrouhlete rty; množné číslo: die Größen", "reviewed": false },
+        { "id": "u8-l3-w4", "target": "passen", "native": "padnout", "note": "Die Jacke passt. = Ta bunda mi padne.", "reviewed": false },
+        { "id": "u8-l3-w5", "target": "teuer", "native": "drahý", "note": "eu se čte jako oj: zhruba [TOJ-a].", "reviewed": false },
+        { "id": "u8-l3-w6", "target": "billig", "native": "levný", "note": "Opak: teuer. Koncovka -ig zní jako „ich“.", "reviewed": false },
+        { "id": "u8-l3-w7", "target": "zu", "native": "příliš", "note": "zu groß = příliš velký, zu teuer = příliš drahý", "reviewed": false },
+        { "id": "u8-l3-w8", "target": "die Kasse", "native": "pokladna", "note": "množné číslo: die Kassen", "reviewed": false },
+        { "id": "u8-l3-w9", "target": "das Geld", "native": "peníze", "note": "Německy jednotné číslo: das Geld = ty peníze. Čte se [gelt].", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l3-e1", "type": "choice", "question": "teuer", "questionLang": "target", "options": ["drahý", "levný", "nový"], "answer": "drahý", "reviewed": false },
+        { "id": "u8-l3-e2", "type": "choice", "question": "pokladna", "questionLang": "native", "options": ["die Kasse", "die Größe", "das Geld"], "answer": "die Kasse", "reviewed": false },
+        { "id": "u8-l3-e3", "type": "match", "pairs": [
+          { "target": "kaufen", "native": "koupit" },
+          { "target": "billig", "native": "levný" },
+          { "target": "das Geld", "native": "peníze" },
+          { "target": "die Größe", "native": "velikost" },
+          { "target": "passen", "native": "padnout" }
+        ], "reviewed": false },
+        { "id": "u8-l3-e4", "type": "listen", "audio": "Kann ich das anprobieren?", "options": ["Kann ich das anprobieren?", "Kann ich das kaufen?", "Was kostet das?"], "answer": "Kann ich das anprobieren?", "reviewed": false },
+        { "id": "u8-l3-e5", "type": "fill", "sentence": "Kann ich den Mantel ___?", "translation": "Můžu si ten kabát vyzkoušet?", "options": ["anprobieren", "probiere an", "anprobiere"], "answer": "anprobieren", "explain": "Po „kann“ je na konci celé sloveso v základním tvaru.", "reviewed": false },
+        { "id": "u8-l3-e6", "type": "fill", "sentence": "Die Hose ist ___ groß.", "translation": "Ty kalhoty jsou příliš velké.", "options": ["zu", "gern", "kein"], "answer": "zu", "explain": "zu = příliš: zu groß, zu klein, zu teuer.", "reviewed": false },
+        { "id": "u8-l3-e7", "type": "type", "question": "levný", "answer": "billig", "reviewed": false },
+        { "id": "u8-l3-e8", "type": "build", "question": "Ta bunda je příliš drahá.", "answer": "Die Jacke ist zu teuer.", "extra": ["billig"], "reviewed": false },
+        { "id": "u8-l3-e9", "type": "listen", "audio": "Der Rock passt nicht. Er ist zu klein.", "options": ["Ta sukně mi nepadne, je moc malá.", "Ta sukně je moc drahá.", "Ta sukně je moc velká."], "answer": "Ta sukně mi nepadne, je moc malá.", "reviewed": false },
+        { "id": "u8-l3-e10", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Kalhoty Vám nepadnou, jsou moc malé. Co řeknete?", "questionLang": "native", "options": ["Die Hose ist zu klein.", "Die Hose ist zu groß.", "Die Hose ist billig."], "answer": "Die Hose ist zu klein.", "reviewed": false }
+      ]
+    }
+  ]
+}

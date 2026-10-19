@@ -1,0 +1,147 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "title": "Počasí, oblečení, včera",
+  "titleTarget": "Weather and clothes",
+  "description": "Jaké je počasí, co máte na sobě a jak to bylo včera.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "Počasí",
+      "titleTarget": "The weather",
+      "reviewed": false,
+      "tip": {
+        "title": "Vždy it: It's cold.",
+        "text": "Česky stačí říct „Je zima“ nebo „Prší“. Anglická věta ale musí mít podmět, proto o počasí vždy začněte slovem it: It's cold. It's sunny. Když prší nebo sněží právě teď, řekněte It's raining. It's snowing. Na počasí se zeptáte: What's the weather like? A pozor: „je mi zima“ se řekne I'm cold.",
+        "examples": [
+          { "target": "It's cold today.", "native": "Dnes je zima." },
+          { "target": "It's raining.", "native": "Prší." },
+          { "target": "What's the weather like?", "native": "Jaké je počasí?" },
+          { "target": "I'm cold.", "native": "Je mi zima." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l1-w1", "target": "weather", "native": "počasí", "note": "Th jako ve slově the.", "reviewed": false },
+        { "id": "u10-l1-w2", "target": "hot", "native": "horký; horko", "note": "It's hot. = Je horko.", "reviewed": false },
+        { "id": "u10-l1-w3", "target": "cold", "native": "studený; zima", "note": "It's cold. = Je zima. I'm cold. = Je mi zima.", "reviewed": false },
+        { "id": "u10-l1-w4", "target": "warm", "native": "teplý; teplo", "note": "Čte se „wóm“.", "reviewed": false },
+        { "id": "u10-l1-w5", "target": "sunny", "native": "slunečno", "reviewed": false },
+        { "id": "u10-l1-w6", "target": "windy", "native": "větrno", "reviewed": false },
+        { "id": "u10-l1-w7", "target": "cloudy", "native": "zataženo", "reviewed": false },
+        { "id": "u10-l1-w8", "target": "rain", "native": "déšť; pršet", "note": "Prší. = It's raining.", "reviewed": false },
+        { "id": "u10-l1-w9", "target": "snow", "native": "sníh; sněžit", "note": "Sněží. = It's snowing.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l1-e1", "type": "choice", "question": "cloudy", "questionLang": "target", "options": ["zataženo", "větrno", "slunečno"], "answer": "zataženo", "reviewed": false },
+        { "id": "u10-l1-e2", "type": "choice", "question": "Prší.", "questionLang": "native", "options": ["It's raining.", "It's snowing.", "It's windy."], "answer": "It's raining.", "reviewed": false },
+        { "id": "u10-l1-e3", "type": "match", "pairs": [
+          { "target": "weather", "native": "počasí" },
+          { "target": "hot", "native": "horko" },
+          { "target": "warm", "native": "teplo" },
+          { "target": "sunny", "native": "slunečno" },
+          { "target": "snow", "native": "sníh" }
+        ], "reviewed": false },
+        { "id": "u10-l1-e4", "type": "listen", "audio": "It's windy today.", "options": ["It's windy today.", "It's sunny today.", "It's cloudy today."], "answer": "It's windy today.", "reviewed": false },
+        { "id": "u10-l1-e5", "type": "listen", "audio": "What's the weather like?", "options": ["Jaké je počasí?", "Kolik je hodin?", "Jak se máte?"], "answer": "Jaké je počasí?", "reviewed": false },
+        { "id": "u10-l1-e6", "type": "fill", "sentence": "___ cold today.", "translation": "Dnes je zima.", "options": ["It's", "Is", "He's"], "answer": "It's", "explain": "Anglická věta potřebuje podmět, o počasí vždy it: It's cold.", "reviewed": false },
+        { "id": "u10-l1-e7", "type": "fill", "sentence": "Look, it's ___!", "translation": "Podívejte, prší!", "options": ["raining", "rain", "rains"], "answer": "raining", "explain": "Prší právě teď: it's raining.", "reviewed": false },
+        { "id": "u10-l1-e8", "type": "type", "question": "Je teplo.", "answer": "It's warm.", "reviewed": false },
+        { "id": "u10-l1-e9", "type": "build", "question": "Dnes je slunečno a teplo.", "answer": "It's sunny and warm today.", "extra": ["is"], "accept": ["Today it's sunny and warm."], "reviewed": false },
+        { "id": "u10-l1-e10", "type": "speak", "text": "It's cold and windy.", "native": "Je zima a fouká vítr.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "Oblečení",
+      "titleTarget": "Clothes",
+      "reviewed": false,
+      "tip": {
+        "title": "Právě teď: I'm wearing…",
+        "text": "Co máte na sobě právě teď, řeknete průběhovým časem: am, is nebo are a sloveso s -ing. I'm wearing a coat. (Mám na sobě kabát.) Co nosíte obvykle, řeknete prostým časem: I usually wear a hat. Češi průběhový čas často používají i tam, kde nepatří. Pomůže otázka: Je to právě teď? Pozor: trousers jsou vždy v množném čísle, stejně jako české kalhoty.",
+        "examples": [
+          { "target": "I'm wearing a jumper.", "native": "Mám na sobě svetr." },
+          { "target": "She's wearing a red dress.", "native": "Má na sobě červené šaty." },
+          { "target": "I usually wear trousers.", "native": "Obvykle nosím kalhoty." },
+          { "target": "My shoes are black.", "native": "Moje boty jsou černé." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l2-w1", "target": "coat", "native": "kabát", "reviewed": false },
+        { "id": "u10-l2-w2", "target": "jacket", "native": "bunda", "note": "Také sako.", "reviewed": false },
+        { "id": "u10-l2-w3", "target": "jumper", "native": "svetr", "note": "Britsky; americky sweater.", "reviewed": false },
+        { "id": "u10-l2-w4", "target": "trousers", "native": "kalhoty", "note": "Vždy množné číslo: My trousers are black.", "reviewed": false },
+        { "id": "u10-l2-w5", "target": "skirt", "native": "sukně", "reviewed": false },
+        { "id": "u10-l2-w6", "target": "dress", "native": "šaty", "note": "Jedny šaty = a dress (jednotné číslo).", "reviewed": false },
+        { "id": "u10-l2-w7", "target": "shoes", "native": "boty", "note": "Jedna bota = a shoe.", "reviewed": false },
+        { "id": "u10-l2-w8", "target": "hat", "native": "klobouk; čepice", "reviewed": false },
+        { "id": "u10-l2-w9", "target": "wear", "native": "mít na sobě; nosit", "note": "Právě teď: I'm wearing. Obvykle: I wear.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l2-e1", "type": "choice", "question": "jumper", "questionLang": "target", "options": ["svetr", "bunda", "kabát"], "answer": "svetr", "reviewed": false },
+        { "id": "u10-l2-e2", "type": "choice", "question": "sukně", "questionLang": "native", "options": ["skirt", "dress", "hat"], "answer": "skirt", "reviewed": false },
+        { "id": "u10-l2-e3", "type": "match", "pairs": [
+          { "target": "coat", "native": "kabát" },
+          { "target": "trousers", "native": "kalhoty" },
+          { "target": "dress", "native": "šaty" },
+          { "target": "shoes", "native": "boty" },
+          { "target": "hat", "native": "čepice" }
+        ], "reviewed": false },
+        { "id": "u10-l2-e4", "type": "listen", "audio": "I'm wearing a coat.", "options": ["I'm wearing a coat.", "I'm wearing a hat.", "I'm wearing a jacket."], "answer": "I'm wearing a coat.", "reviewed": false },
+        { "id": "u10-l2-e5", "type": "listen", "audio": "She's wearing a blue dress.", "options": ["Má na sobě modré šaty.", "Má na sobě modrou sukni.", "Má na sobě zelené šaty."], "answer": "Má na sobě modré šaty.", "reviewed": false },
+        { "id": "u10-l2-e6", "type": "fill", "sentence": "Today I'm ___ a jumper.", "translation": "Dnes mám na sobě svetr.", "options": ["wearing", "wear", "wears"], "answer": "wearing", "explain": "Právě teď: I'm wearing.", "reviewed": false },
+        { "id": "u10-l2-e7", "type": "fill", "sentence": "My husband usually ___ a hat.", "translation": "Můj manžel obvykle nosí klobouk.", "options": ["wears", "wearing", "wear"], "answer": "wears", "explain": "Obvykle = prostý čas, u he přidejte -s: he wears.", "reviewed": false },
+        { "id": "u10-l2-e8", "type": "type", "question": "Mám na sobě kabát.", "answer": "I'm wearing a coat.", "reviewed": false },
+        { "id": "u10-l2-e9", "type": "build", "question": "Moje kalhoty jsou černé.", "answer": "My trousers are black.", "extra": ["is"], "reviewed": false },
+        { "id": "u10-l2-e10", "type": "build", "question": "Co máte na sobě?", "answer": "What are you wearing?", "extra": ["do"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Včera",
+      "titleTarget": "Yesterday",
+      "reviewed": false,
+      "tip": {
+        "title": "Was, nebo were?",
+        "text": "Minulý čas slovesa be má jen dva tvary: was pro I, he, she, it a were pro you, we, they. Zápor je wasn't a weren't. V otázce dejte was nebo were na začátek, did tu nepatří: Were you at home? Narození se anglicky vždy vyjadřuje minulým časem: I was born in… Letopočet se čte po dvojicích: nineteen fifty-five.",
+        "examples": [
+          { "target": "I was tired yesterday.", "native": "Včera jsem byla unavená." },
+          { "target": "We were at home last night.", "native": "Včera večer jsme byli doma." },
+          { "target": "Was he ill? – Yes, he was.", "native": "Byl nemocný? – Ano." },
+          { "target": "I was born in nineteen fifty-five.", "native": "Narodil jsem se v roce 1955." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l3-w1", "target": "yesterday", "native": "včera", "reviewed": false },
+        { "id": "u10-l3-w2", "target": "last night", "native": "včera večer", "note": "Také „včera v noci“.", "reviewed": false },
+        { "id": "u10-l3-w3", "target": "last week", "native": "minulý týden", "reviewed": false },
+        { "id": "u10-l3-w4", "target": "tired", "native": "unavený", "reviewed": false },
+        { "id": "u10-l3-w5", "target": "happy", "native": "šťastný", "reviewed": false },
+        { "id": "u10-l3-w6", "target": "ill", "native": "nemocný", "note": "Britsky; americky sick.", "reviewed": false },
+        { "id": "u10-l3-w7", "target": "busy", "native": "zaneprázdněný", "note": "Čte se „bizi“. I'm busy. = Mám hodně práce.", "reviewed": false },
+        { "id": "u10-l3-w8", "target": "born", "native": "narozený", "note": "Vždy s was: I was born in Brno.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l3-e1", "type": "choice", "question": "busy", "questionLang": "target", "options": ["zaneprázdněný", "unavený", "nemocný"], "answer": "zaneprázdněný", "reviewed": false },
+        { "id": "u10-l3-e2", "type": "choice", "question": "minulý týden", "questionLang": "native", "options": ["last week", "last night", "every week"], "answer": "last week", "reviewed": false },
+        { "id": "u10-l3-e3", "type": "match", "pairs": [
+          { "target": "yesterday", "native": "včera" },
+          { "target": "last night", "native": "včera večer" },
+          { "target": "tired", "native": "unavený" },
+          { "target": "happy", "native": "šťastný" },
+          { "target": "ill", "native": "nemocný" }
+        ], "reviewed": false },
+        { "id": "u10-l3-e4", "type": "listen", "audio": "I was born in Brno.", "options": ["I was born in Brno.", "I was born in Prague.", "I was at home in Brno."], "answer": "I was born in Brno.", "reviewed": false },
+        { "id": "u10-l3-e5", "type": "listen", "audio": "We were very busy last week.", "options": ["Minulý týden jsme měli hodně práce.", "Včera jsme měli hodně práce.", "Minulý týden jsme byli nemocní."], "answer": "Minulý týden jsme měli hodně práce.", "reviewed": false },
+        { "id": "u10-l3-e6", "type": "fill", "sentence": "The children ___ at home yesterday.", "translation": "Děti byly včera doma.", "options": ["were", "was", "are"], "answer": "were", "explain": "Děti = they, proto were.", "reviewed": false },
+        { "id": "u10-l3-e7", "type": "fill", "sentence": "I ___ ill last week.", "translation": "Minulý týden jsem byl nemocný.", "options": ["was", "were", "am"], "answer": "was", "explain": "U I se používá was.", "reviewed": false },
+        { "id": "u10-l3-e8", "type": "type", "question": "Včera jsme byli unavení.", "answer": "We were tired yesterday.", "accept": ["Yesterday we were tired."], "reviewed": false },
+        { "id": "u10-l3-e9", "type": "build", "question": "Kde jste byli včera večer?", "answer": "Where were you last night?", "extra": ["did"], "reviewed": false },
+        { "id": "u10-l3-e10", "type": "speak", "text": "It was cold yesterday.", "native": "Včera byla zima.", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "u4",
+  "level": "A1",
+  "title": "Věci kolem nás",
+  "titleTarget": "Things around me",
+  "description": "Věci, které nosíme u sebe, členy a a an, this a that, množné číslo a barvy.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "Co je to?",
+      "titleTarget": "What's this?",
+      "reviewed": false,
+      "tip": {
+        "title": "A, nebo an?",
+        "text": "Když mluvíte o jedné věci, dejte před ni a (něco jako „jeden, nějaký“): a key, a phone. Čeština nic takového nemá, ale anglicky ho nevynechávejte: It's a pen, ne It's pen. Když další slovo začíná samohláskou (a, e, i, o, u), řekněte místo a tvar an: an umbrella, an English book. Rozhoduje to, jak slovo zní, ne jak se píše. O konkrétní věci, kterou oba znáte, řekněte the: the key (ten klíč).",
+        "examples": [
+          { "target": "What's this? – It's a key.", "native": "Co je to? – To je klíč." },
+          { "target": "It's an umbrella.", "native": "To je deštník." },
+          { "target": "It's an English book.", "native": "To je anglická kniha." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l1-w1", "target": "bag", "native": "taška", "note": "Dámská kabelka = handbag.", "reviewed": false },
+        { "id": "u4-l1-w2", "target": "phone", "native": "telefon", "note": "Mobil = mobile phone. Čte se „foun“.", "reviewed": false },
+        { "id": "u4-l1-w3", "target": "key", "native": "klíč", "note": "Čte se „kí“.", "reviewed": false },
+        { "id": "u4-l1-w4", "target": "book", "native": "kniha", "note": "Čte se „buk“ s krátkým u.", "reviewed": false },
+        { "id": "u4-l1-w5", "target": "umbrella", "native": "deštník", "note": "Důraz uprostřed: „am-BRE-la“. Začíná samohláskou: an umbrella.", "reviewed": false },
+        { "id": "u4-l1-w6", "target": "pen", "native": "pero", "note": "Propiska i plnicí pero.", "reviewed": false },
+        { "id": "u4-l1-w7", "target": "watch", "native": "hodinky", "note": "Na ruku. Hodiny na zdi = clock. Čte se „woč“.", "reviewed": false },
+        { "id": "u4-l1-w8", "target": "What's this?", "native": "Co je to?", "note": "What's = What is. Odpověď: It's a…", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l1-e1", "type": "choice", "question": "umbrella", "questionLang": "target", "options": ["deštník", "klíč", "taška"], "answer": "deštník", "reviewed": false },
+        { "id": "u4-l1-e2", "type": "choice", "question": "Co je to?", "questionLang": "native", "options": ["What's this?", "What's your name?", "Where are you from?"], "answer": "What's this?", "reviewed": false },
+        { "id": "u4-l1-e3", "type": "match", "pairs": [
+          { "target": "bag", "native": "taška" },
+          { "target": "key", "native": "klíč" },
+          { "target": "book", "native": "kniha" },
+          { "target": "pen", "native": "pero" },
+          { "target": "watch", "native": "hodinky" }
+        ], "reviewed": false },
+        { "id": "u4-l1-e4", "type": "listen", "audio": "It's an umbrella.", "options": ["It's an umbrella.", "It's a phone.", "It's a book."], "answer": "It's an umbrella.", "reviewed": false },
+        { "id": "u4-l1-e5", "type": "listen", "audio": "Is this your key?", "options": ["Je to váš klíč?", "To je můj klíč.", "Je to vaše taška?"], "answer": "Je to váš klíč?", "reviewed": false },
+        { "id": "u4-l1-e6", "type": "fill", "sentence": "It's ___ umbrella.", "translation": "To je deštník.", "options": ["an", "a"], "answer": "an", "explain": "Umbrella začíná samohláskou, proto an.", "reviewed": false },
+        { "id": "u4-l1-e7", "type": "fill", "sentence": "It's ___ English book.", "translation": "To je anglická kniha.", "options": ["an", "a"], "answer": "an", "explain": "Rozhoduje slovo hned za členem: English začíná samohláskou, proto an.", "reviewed": false },
+        { "id": "u4-l1-e8", "type": "choice", "question": "To je klíč.", "questionLang": "native", "options": ["It's a key.", "It's key.", "It's an key."], "answer": "It's a key.", "reviewed": false },
+        { "id": "u4-l1-e9", "type": "type", "question": "To je moje taška.", "answer": "This is my bag.", "accept": ["It's my bag.", "That's my bag."], "reviewed": false },
+        { "id": "u4-l1-e10", "type": "build", "question": "Co je to? To je pero.", "answer": "What's this? It's a pen.", "extra": ["an"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "Tohle a tamto",
+      "titleTarget": "This and that",
+      "reviewed": false,
+      "tip": {
+        "title": "This, that a množné číslo",
+        "text": "This (tohle) je blízko, that (tamto) je dál. Pro více věcí: these (tyhle) a those (tamty). Množné číslo se většinou tvoří koncovkou -s: a key → keys, a bag → bags. Pozor na výjimky: man → men, woman → women a místo persons se říká people (lidé). Glasses (brýle) jsou vždy v množném čísle, jako česky: These are my glasses.",
+        "examples": [
+          { "target": "This is my bag.", "native": "Tohle je moje taška." },
+          { "target": "That man is my husband.", "native": "Tamten muž je můj manžel." },
+          { "target": "These are my glasses.", "native": "Tohle jsou moje brýle." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l2-w1", "target": "this", "native": "tohle", "note": "O jedné věci blízko. Také tento, tato.", "reviewed": false },
+        { "id": "u4-l2-w2", "target": "that", "native": "tamto", "note": "O jedné věci dál. Také tamten, tamta.", "reviewed": false },
+        { "id": "u4-l2-w3", "target": "these", "native": "tyhle", "note": "Množné číslo od this.", "reviewed": false },
+        { "id": "u4-l2-w4", "target": "those", "native": "tamty", "note": "Množné číslo od that.", "reviewed": false },
+        { "id": "u4-l2-w5", "target": "man", "native": "muž", "note": "Množné číslo men.", "reviewed": false },
+        { "id": "u4-l2-w6", "target": "woman", "native": "žena", "note": "Množné číslo women. Čte se „wu-men“, v množném „wi-min“.", "reviewed": false },
+        { "id": "u4-l2-w7", "target": "people", "native": "lidé", "note": "Už je to množné číslo: people are… Čte se „pí-pl“.", "reviewed": false },
+        { "id": "u4-l2-w8", "target": "glasses", "native": "brýle", "note": "Vždy množné číslo: my glasses are… Také sklenice.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l2-e1", "type": "choice", "question": "These are my glasses.", "questionLang": "target", "options": ["Tohle jsou moje brýle.", "Tohle jsou moje klíče.", "Tohle jsou moje hodinky."], "answer": "Tohle jsou moje brýle.", "reviewed": false },
+        { "id": "u4-l2-e2", "type": "choice", "question": "lidé", "questionLang": "native", "options": ["people", "man", "woman"], "answer": "people", "reviewed": false },
+        { "id": "u4-l2-e3", "type": "match", "pairs": [
+          { "target": "this", "native": "tohle" },
+          { "target": "that", "native": "tamto" },
+          { "target": "these", "native": "tyhle" },
+          { "target": "those", "native": "tamty" },
+          { "target": "man", "native": "muž" }
+        ], "reviewed": false },
+        { "id": "u4-l2-e4", "type": "listen", "audio": "That woman is my sister.", "options": ["That woman is my sister.", "This woman is my sister.", "That man is my brother."], "answer": "That woman is my sister.", "reviewed": false },
+        { "id": "u4-l2-e5", "type": "listen", "audio": "Those people are from England.", "options": ["Tamti lidé jsou z Anglie.", "Tihle lidé jsou z Anglie.", "Tamti lidé nejsou z Anglie."], "answer": "Tamti lidé jsou z Anglie.", "reviewed": false },
+        { "id": "u4-l2-e6", "type": "fill", "sentence": "___ are my keys.", "translation": "Tohle jsou moje klíče.", "options": ["These", "This", "That"], "answer": "These", "explain": "Klíčů je víc a jsou blízko, proto these.", "reviewed": false },
+        { "id": "u4-l2-e7", "type": "fill", "sentence": "Two ___ and two women.", "translation": "Dva muži a dvě ženy.", "options": ["men", "mans", "man"], "answer": "men", "explain": "Man má nepravidelné množné číslo men, bez -s.", "reviewed": false },
+        { "id": "u4-l2-e8", "type": "type", "question": "Tamten muž je můj táta.", "answer": "That man is my dad.", "reviewed": false },
+        { "id": "u4-l2-e9", "type": "build", "question": "Tihle lidé jsou z Česka.", "answer": "These people are from the Czech Republic.", "extra": ["is"], "reviewed": false },
+        { "id": "u4-l2-e10", "type": "speak", "text": "That woman is my wife.", "native": "Tamta žena je moje manželka.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "Barvy",
+      "titleTarget": "Colours",
+      "reviewed": false,
+      "tip": {
+        "title": "Barva stojí před věcí a nemění se",
+        "text": "Přídavné jméno stojí před podstatným jménem, stejně jako česky: a red bag (červená taška). Na rozdíl od češtiny se ale nemění: červený, červená, červené – vždy red. Ani v množném čísle nepřidáváte -s: red bags, nikdy reds bags. Na barvu se zeptáte: What colour is it? Britové píšou colour, Američané color.",
+        "examples": [
+          { "target": "a big black bag", "native": "velká černá taška" },
+          { "target": "two red pens", "native": "dvě červená pera" },
+          { "target": "What colour is your umbrella? – It's blue.", "native": "Jakou barvu má váš deštník? – Je modrý." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l3-w1", "target": "colour", "native": "barva", "note": "Britský pravopis (americky color). Čte se „ka-la“.", "reviewed": false },
+        { "id": "u4-l3-w2", "target": "red", "native": "červený", "reviewed": false },
+        { "id": "u4-l3-w3", "target": "blue", "native": "modrý", "note": "Čte se „blú“.", "reviewed": false },
+        { "id": "u4-l3-w4", "target": "green", "native": "zelený", "note": "Čte se „grín“.", "reviewed": false },
+        { "id": "u4-l3-w5", "target": "yellow", "native": "žlutý", "note": "Čte se „je-lou“.", "reviewed": false },
+        { "id": "u4-l3-w6", "target": "black", "native": "černý", "reviewed": false },
+        { "id": "u4-l3-w7", "target": "white", "native": "bílý", "note": "Čte se „wajt“, h se nevyslovuje.", "reviewed": false },
+        { "id": "u4-l3-w8", "target": "big", "native": "velký", "note": "Na konci zní jasné g, ne „bik“.", "reviewed": false },
+        { "id": "u4-l3-w9", "target": "small", "native": "malý", "note": "Čte se „smól“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l3-e1", "type": "choice", "question": "a big green bag", "questionLang": "target", "options": ["velká zelená taška", "malá zelená taška", "velká žlutá taška"], "answer": "velká zelená taška", "reviewed": false },
+        { "id": "u4-l3-e2", "type": "choice", "question": "bílý", "questionLang": "native", "options": ["white", "black", "yellow"], "answer": "white", "reviewed": false },
+        { "id": "u4-l3-e3", "type": "match", "pairs": [
+          { "target": "red", "native": "červený" },
+          { "target": "blue", "native": "modrý" },
+          { "target": "green", "native": "zelený" },
+          { "target": "yellow", "native": "žlutý" },
+          { "target": "black", "native": "černý" }
+        ], "reviewed": false },
+        { "id": "u4-l3-e4", "type": "listen", "audio": "What colour is it?", "options": ["What colour is it?", "What's this?", "How old are you?"], "answer": "What colour is it?", "reviewed": false },
+        { "id": "u4-l3-e5", "type": "listen", "audio": "My umbrella is red.", "options": ["Můj deštník je červený.", "Můj deštník je modrý.", "Moje taška je červená."], "answer": "Můj deštník je červený.", "reviewed": false },
+        { "id": "u4-l3-e6", "type": "fill", "sentence": "These are ___ bags.", "translation": "Tohle jsou černé tašky.", "options": ["black", "blacks"], "answer": "black", "explain": "Přídavné jméno se nemění ani v množném čísle: black bags.", "reviewed": false },
+        { "id": "u4-l3-e7", "type": "fill", "sentence": "It's ___ yellow umbrella.", "translation": "To je žlutý deštník.", "options": ["a", "an"], "answer": "a", "explain": "Rozhoduje slovo hned za členem: yellow začíná souhláskou, proto a.", "reviewed": false },
+        { "id": "u4-l3-e8", "type": "choice", "question": "Je to malá kniha.", "questionLang": "native", "options": ["It's a small book.", "It's a book small.", "It's small a book."], "answer": "It's a small book.", "reviewed": false },
+        { "id": "u4-l3-e9", "type": "type", "question": "Moje taška je modrá.", "answer": "My bag is blue.", "reviewed": false },
+        { "id": "u4-l3-e10", "type": "build", "question": "Tohle je můj velký modrý deštník.", "answer": "This is my big blue umbrella.", "extra": ["an"], "reviewed": false }
+      ]
+    }
+  ]
+}

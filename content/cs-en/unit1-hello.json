@@ -55,22 +55,22 @@
       "reviewed": false,
       "tip": {
         "title": "Jedno české „prosím“, několik anglických slov",
-        "text": "České „prosím“ má mnoho významů. Angličtina má pro každý jiné slovo. Když o něco žádáte, řekněte please. Když vám někdo poděkuje, odpovězte you're welcome. Když něco podáváte, řekněte here you are. Když jste něco neslyšeli, zeptejte se: Sorry? Angličané říkají please a thank you velmi často – u pokladny, v autobuse i doma.",
+        "text": "České „prosím“ má mnoho významů. Angličtina má pro každý jiné slovo. Když o něco žádáte, řekněte please. Když vám někdo poděkuje, odpovězte you're welcome. Když něco podáváte, řekněte here you are. Když něco neslyšíte, zeptejte se: Sorry? Angličané říkají please a thank you velmi často – u pokladny, v autobuse i doma.",
         "examples": [
           { "target": "A tea, please.", "native": "Jeden čaj, prosím." },
           { "target": "Thank you! – You're welcome.", "native": "Děkuji! – Prosím. (Není zač.)" },
           { "target": "Here you are.", "native": "Prosím. (Tady máte.)" },
-          { "target": "Sorry?", "native": "Prosím? (Když jste něco neslyšeli.)" }
+          { "target": "Sorry?", "native": "Prosím? (Když něco neslyšíte.)" }
         ],
         "reviewed": false
       },
       "words": [
         { "id": "u1-l2-w1", "target": "please", "native": "prosím", "note": "Když o něco žádáte: A tea, please.", "reviewed": false },
-        { "id": "u1-l2-w2", "target": "thank you", "native": "děkuji", "reviewed": false },
+        { "id": "u1-l2-w2", "target": "thank you", "native": "děkuji", "note": "th: špička jazyka lehce mezi zuby, ne „t“ ani „f“.", "reviewed": false },
         { "id": "u1-l2-w3", "target": "thanks", "native": "díky", "note": "Méně formální než thank you.", "reviewed": false },
         { "id": "u1-l2-w4", "target": "you're welcome", "native": "není zač", "note": "Odpověď na thank you (česky také „prosím“).", "reviewed": false },
-        { "id": "u1-l2-w5", "target": "sorry", "native": "promiňte; omlouvám se", "note": "Tázavě Sorry? = Prosím? (když jste neslyšeli).", "reviewed": false },
-        { "id": "u1-l2-w6", "target": "excuse me", "native": "s dovolením", "note": "Když chcete projít nebo někoho oslovit (česky také „promiňte“).", "reviewed": false },
+        { "id": "u1-l2-w5", "target": "sorry", "native": "promiňte; omlouvám se", "note": "Tázavě Sorry? = Prosím? (když něco neslyšíte).", "reviewed": false },
+        { "id": "u1-l2-w6", "target": "excuse me", "native": "s dovolením", "note": "Když chcete projít nebo někoho oslovit (česky také „promiňte“). Čte se „ik-SKJÚZ mí“.", "reviewed": false },
         { "id": "u1-l2-w7", "target": "yes", "native": "ano", "reviewed": false },
         { "id": "u1-l2-w8", "target": "no", "native": "ne", "note": "Pozor: české hovorové „no“ (= ano) se anglicky řekne yes.", "reviewed": false },
         { "id": "u1-l2-w9", "target": "here you are", "native": "tady máte", "note": "Když něco podáváte (česky často „prosím“).", "reviewed": false }
@@ -90,7 +90,7 @@
         { "id": "u1-l2-e6", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Podáváte někomu šálek kávy. Co řeknete?", "questionLang": "native", "options": ["Here you are.", "You're welcome.", "Goodbye."], "answer": "Here you are.", "reviewed": false },
         { "id": "u1-l2-e7", "type": "type", "question": "Ano, prosím.", "answer": "Yes, please.", "reviewed": false },
         { "id": "u1-l2-e8", "type": "build", "question": "Ne, děkuji.", "answer": "No, thank you.", "extra": ["please"], "reviewed": false },
-        { "id": "u1-l2-e9", "type": "type", "question": "Není zač.", "answer": "You're welcome.", "reviewed": false },
+        { "id": "u1-l2-e9", "type": "type", "question": "Není zač.", "answer": "You're welcome.", "accept": ["Not at all.", "No problem."], "reviewed": false },
         { "id": "u1-l2-e10", "type": "speak", "text": "Here you are.", "native": "Tady máte.", "reviewed": false }
       ]
     },

@@ -28,7 +28,7 @@
         { "id": "u1-l1-w4", "target": "Guten Abend", "native": "dobrý večer", "reviewed": false },
         { "id": "u1-l1-w5", "target": "Gute Nacht", "native": "dobrou noc", "note": "Jen na rozloučenou pozdě večer nebo před spaním.", "reviewed": false },
         { "id": "u1-l1-w6", "target": "Auf Wiedersehen", "native": "na shledanou", "note": "Zdvořilé loučení.", "reviewed": false },
-        { "id": "u1-l1-w7", "target": "Tschüss", "native": "čau (na rozloučenou)", "note": "Neformální, ale běžně se říká i v obchodě.", "reviewed": false }
+        { "id": "u1-l1-w7", "target": "Tschüss", "native": "čau; nashle", "note": "Jen při loučení. Neformální, ale běžně se říká i v obchodě.", "reviewed": false }
       ],
       "exercises": [
         { "id": "u1-l1-e1", "type": "choice", "question": "Guten Morgen", "questionLang": "target", "options": ["dobré ráno", "dobrou noc", "dobrý večer"], "answer": "dobré ráno", "reviewed": false },
@@ -41,7 +41,7 @@
         ], "reviewed": false },
         { "id": "u1-l1-e4", "type": "listen", "audio": "Guten Abend!", "options": ["Guten Abend!", "Guten Morgen!", "Gute Nacht!"], "answer": "Guten Abend!", "reviewed": false },
         { "id": "u1-l1-e5", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Je deset večer a jdete spát. Co řeknete?", "questionLang": "native", "options": ["Gute Nacht!", "Guten Morgen!", "Guten Tag!"], "answer": "Gute Nacht!", "reviewed": false },
-        { "id": "u1-l1-e6", "type": "listen", "audio": "Tschüss!", "options": ["čau (na rozloučenou)", "dobrý den", "dobré ráno"], "answer": "čau (na rozloučenou)", "reviewed": false },
+        { "id": "u1-l1-e6", "type": "listen", "audio": "Tschüss!", "options": ["čau; nashle", "dobrý den", "dobré ráno"], "answer": "čau; nashle", "reviewed": false },
         { "id": "u1-l1-e7", "type": "type", "question": "dobrý den", "answer": "Guten Tag", "reviewed": false },
         { "id": "u1-l1-e8", "type": "build", "question": "Dobrý večer, Anno!", "answer": "Guten Abend, Anna!", "extra": ["Gute"], "reviewed": false },
         { "id": "u1-l1-e9", "type": "speak", "text": "Auf Wiedersehen!", "native": "Na shledanou!", "reviewed": false }

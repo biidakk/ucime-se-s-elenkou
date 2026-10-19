@@ -1,0 +1,144 @@
+{
+  "id": "u7",
+  "level": "A1",
+  "title": "Můj den",
+  "titleTarget": "My day",
+  "description": "Co děláte každý den, kolik je hodin a jak často co děláte: přítomný čas a -s u he a she.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u7-l1",
+      "title": "Každý den",
+      "titleTarget": "Every day",
+      "reviewed": false,
+      "tip": {
+        "title": "Co dělám pravidelně",
+        "text": "Když mluvíte o tom, co děláte běžně nebo každý den, použijte nejjednodušší tvar slovesa: I get up, we cook, they read. Neříkejte I am cooking every day. Tvar s -ing znamená „právě teď“ a ten přijde později. Zápor má před slovesem don't: I don't cook. Every day se píše jako dvě slova.",
+        "examples": [
+          { "target": "I get up and go to work.", "native": "Vstávám a jdu do práce." },
+          { "target": "We cook every day.", "native": "Vaříme každý den." },
+          { "target": "They don't watch TV.", "native": "Nedívají se na televizi." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l1-w1", "target": "get up", "native": "vstávat", "note": "I get up at seven. = Vstávám v sedm.", "reviewed": false },
+        { "id": "u7-l1-w2", "target": "go to work", "native": "jít do práce", "reviewed": false },
+        { "id": "u7-l1-w3", "target": "come home", "native": "přijít domů", "note": "Bez to: come home, ne come to home.", "reviewed": false },
+        { "id": "u7-l1-w4", "target": "cook", "native": "vařit", "note": "Vyslovuje se „kuk“.", "reviewed": false },
+        { "id": "u7-l1-w5", "target": "eat", "native": "jíst", "note": "Vyslovuje se „ít“.", "reviewed": false },
+        { "id": "u7-l1-w6", "target": "watch TV", "native": "dívat se na televizi", "note": "TV se čte „tí-ví“.", "reviewed": false },
+        { "id": "u7-l1-w7", "target": "read", "native": "číst", "note": "Vyslovuje se „ríd“.", "reviewed": false },
+        { "id": "u7-l1-w8", "target": "go to bed", "native": "jít spát", "reviewed": false },
+        { "id": "u7-l1-w9", "target": "every day", "native": "každý den", "note": "Dvě slova a obvykle na konci věty.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l1-e1", "type": "choice", "question": "get up", "questionLang": "target", "options": ["vstávat", "jít spát", "vařit"], "answer": "vstávat", "reviewed": false },
+        { "id": "u7-l1-e2", "type": "choice", "question": "dívat se na televizi", "questionLang": "native", "options": ["watch TV", "read", "cook"], "answer": "watch TV", "reviewed": false },
+        { "id": "u7-l1-e3", "type": "match", "pairs": [
+          { "target": "cook", "native": "vařit" },
+          { "target": "eat", "native": "jíst" },
+          { "target": "read", "native": "číst" },
+          { "target": "go to bed", "native": "jít spát" },
+          { "target": "every day", "native": "každý den" }
+        ], "reviewed": false },
+        { "id": "u7-l1-e4", "type": "listen", "audio": "We cook every day.", "options": ["We cook every day.", "We eat every day.", "We read every day."], "answer": "We cook every day.", "reviewed": false },
+        { "id": "u7-l1-e5", "type": "listen", "audio": "I don't watch TV.", "options": ["Nedívám se na televizi.", "Dívám se na televizi.", "Nečtu."], "answer": "Nedívám se na televizi.", "reviewed": false },
+        { "id": "u7-l1-e6", "type": "fill", "sentence": "I ___ every day.", "translation": "Čtu každý den.", "options": ["read", "reads", "reading"], "answer": "read", "explain": "Na to, co děláte pravidelně, stačí nejjednodušší tvar: I read.", "reviewed": false },
+        { "id": "u7-l1-e7", "type": "fill", "sentence": "We ___ eat meat.", "translation": "Nejíme maso.", "options": ["don't", "not", "no"], "answer": "don't", "explain": "Zápor: don't před slovesem.", "reviewed": false },
+        { "id": "u7-l1-e8", "type": "type", "question": "Každý den vařím.", "answer": "I cook every day.", "accept": ["Every day I cook."], "reviewed": false },
+        { "id": "u7-l1-e9", "type": "build", "question": "Každý den chodíme do práce.", "answer": "We go to work every day.", "extra": ["are"], "accept": ["Every day we go to work."], "reviewed": false },
+        { "id": "u7-l1-e10", "type": "speak", "text": "I come home and cook.", "native": "Přijdu domů a vařím.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "title": "Kolik je hodin?",
+      "titleTarget": "What time is it?",
+      "reviewed": false,
+      "tip": {
+        "title": "Půl třetí = half past two",
+        "text": "Pozor, tady se čeština a angličtina liší. Česky počítáme k další hodině („půl třetí“), anglicky od té minulé: half past two (půl po druhé). Quarter past two je čtvrt na tři, quarter to three je tři čtvrtě na tři. O'clock se říká jen u celých hodin: five o'clock. V kolik něco děláte, řeknete s at: at seven. Ráno a večer: in the morning, in the evening.",
+        "examples": [
+          { "target": "It's half past two.", "native": "Je půl třetí." },
+          { "target": "It's quarter to three.", "native": "Je tři čtvrtě na tři." },
+          { "target": "I get up at seven in the morning.", "native": "Vstávám v sedm ráno." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l2-w1", "target": "What time is it?", "native": "Kolik je hodin?", "reviewed": false },
+        { "id": "u7-l2-w2", "target": "o'clock", "native": "hodin", "note": "Jen u celých hodin: five o'clock = pět hodin. Vyslovuje se „e-KLOK“.", "reviewed": false },
+        { "id": "u7-l2-w3", "target": "half past", "native": "půl", "note": "Pozor: half past two = půl třetí. L se nevyslovuje: „háf“.", "reviewed": false },
+        { "id": "u7-l2-w4", "target": "quarter past", "native": "čtvrt na", "note": "quarter past two = čtvrt na tři", "reviewed": false },
+        { "id": "u7-l2-w5", "target": "quarter to", "native": "tři čtvrtě na", "note": "quarter to three = tři čtvrtě na tři", "reviewed": false },
+        { "id": "u7-l2-w6", "target": "hour", "native": "hodina", "note": "H se nevyslovuje: „aua“, proto an hour.", "reviewed": false },
+        { "id": "u7-l2-w7", "target": "minute", "native": "minuta", "note": "Vyslovuje se „minit“.", "reviewed": false },
+        { "id": "u7-l2-w8", "target": "in the morning", "native": "ráno", "note": "Také dopoledne: at ten in the morning = v deset dopoledne.", "reviewed": false },
+        { "id": "u7-l2-w9", "target": "in the evening", "native": "večer", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l2-e1", "type": "choice", "question": "It's half past two.", "questionLang": "target", "options": ["Je půl třetí.", "Je půl druhé.", "Je čtvrt na tři."], "answer": "Je půl třetí.", "reviewed": false },
+        { "id": "u7-l2-e2", "type": "choice", "question": "Je čtvrt na pět.", "questionLang": "native", "options": ["It's quarter past four.", "It's quarter to five.", "It's quarter past five."], "answer": "It's quarter past four.", "reviewed": false },
+        { "id": "u7-l2-e3", "type": "match", "pairs": [
+          { "target": "hour", "native": "hodina" },
+          { "target": "minute", "native": "minuta" },
+          { "target": "in the morning", "native": "ráno" },
+          { "target": "in the evening", "native": "večer" }
+        ], "reviewed": false },
+        { "id": "u7-l2-e4", "type": "listen", "audio": "What time is it?", "options": ["What time is it?", "What's this?", "How old are you?"], "answer": "What time is it?", "reviewed": false },
+        { "id": "u7-l2-e5", "type": "listen", "audio": "It's quarter to eight.", "options": ["Je tři čtvrtě na osm.", "Je čtvrt na osm.", "Je čtvrt na devět."], "answer": "Je tři čtvrtě na osm.", "reviewed": false },
+        { "id": "u7-l2-e6", "type": "fill", "sentence": "I get up ___ seven o'clock.", "translation": "Vstávám v sedm hodin.", "options": ["at", "in", "on"], "answer": "at", "explain": "Před časem na hodinách je at: at seven.", "reviewed": false },
+        { "id": "u7-l2-e7", "type": "fill", "sentence": "We watch TV ___ the evening.", "translation": "Večer se díváme na televizi.", "options": ["in", "at", "on"], "answer": "in", "explain": "Ráno a večer se řekne in the morning, in the evening.", "reviewed": false },
+        { "id": "u7-l2-e8", "type": "type", "question": "Je deset hodin.", "answer": "It's ten o'clock.", "accept": ["It's ten."], "reviewed": false },
+        { "id": "u7-l2-e9", "type": "build", "question": "Vstávám v šest ráno.", "answer": "I get up at six in the morning.", "extra": ["on"], "reviewed": false },
+        { "id": "u7-l2-e10", "type": "speak", "text": "It's half past nine.", "native": "Je půl desáté.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l3",
+      "title": "Jak často?",
+      "titleTarget": "How often?",
+      "reviewed": false,
+      "tip": {
+        "title": "She lives: -s u he, she, it",
+        "text": "U he, she, it (i u „můj syn“, „Anna“) přidejte ke slovesu -s: I live, ale she lives, he starts. V otázce a v záporu je does a doesn't a sloveso už -s nemá: Does she cook? He doesn't cook. Slova always, usually, often, sometimes a never stojí před slovesem: She always gets up at six. Never už je zápor, druhé „ne“ nepřidávejte: I never eat meat.",
+        "examples": [
+          { "target": "She lives in a flat.", "native": "Bydlí v bytě." },
+          { "target": "He doesn't cook.", "native": "On nevaří." },
+          { "target": "I never eat meat.", "native": "Nikdy nejím maso." },
+          { "target": "We usually get up at six.", "native": "Obvykle vstáváme v šest." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l3-w1", "target": "always", "native": "vždy", "note": "Vyslovuje se „ólwejz“.", "reviewed": false },
+        { "id": "u7-l3-w2", "target": "usually", "native": "obvykle", "note": "Vyslovuje se „júžuli“.", "reviewed": false },
+        { "id": "u7-l3-w3", "target": "often", "native": "často", "note": "T se obvykle nevyslovuje: „ofn“.", "reviewed": false },
+        { "id": "u7-l3-w4", "target": "sometimes", "native": "někdy", "note": "Ve smyslu „občas“. Vyslovuje se „samtajmz“.", "reviewed": false },
+        { "id": "u7-l3-w5", "target": "never", "native": "nikdy", "note": "Už je zápor: I never cook, ne I don't never cook.", "reviewed": false },
+        { "id": "u7-l3-w6", "target": "live", "native": "bydlet; žít", "note": "he, she lives. Vyslovuje se „liv“.", "reviewed": false },
+        { "id": "u7-l3-w7", "target": "start", "native": "začínat", "note": "he, she starts", "reviewed": false },
+        { "id": "u7-l3-w8", "target": "finish", "native": "končit", "note": "he, she finishes", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l3-e1", "type": "choice", "question": "usually", "questionLang": "target", "options": ["obvykle", "vždy", "nikdy"], "answer": "obvykle", "reviewed": false },
+        { "id": "u7-l3-e2", "type": "choice", "question": "někdy", "questionLang": "native", "options": ["sometimes", "often", "never"], "answer": "sometimes", "reviewed": false },
+        { "id": "u7-l3-e3", "type": "match", "pairs": [
+          { "target": "always", "native": "vždy" },
+          { "target": "often", "native": "často" },
+          { "target": "never", "native": "nikdy" },
+          { "target": "live", "native": "bydlet" },
+          { "target": "finish", "native": "končit" }
+        ], "reviewed": false },
+        { "id": "u7-l3-e4", "type": "listen", "audio": "She lives in a flat.", "options": ["She lives in a flat.", "She lives in a house.", "We live in a flat."], "answer": "She lives in a flat.", "reviewed": false },
+        { "id": "u7-l3-e5", "type": "listen", "audio": "My husband never cooks.", "options": ["Můj manžel nikdy nevaří.", "Můj manžel vždy vaří.", "Můj manžel někdy vaří."], "answer": "Můj manžel nikdy nevaří.", "reviewed": false },
+        { "id": "u7-l3-e6", "type": "fill", "sentence": "My daughter ___ work at eight.", "translation": "Moje dcera začíná pracovat v osm.", "options": ["starts", "start", "starting"], "answer": "starts", "explain": "U he, she, it (i u „moje dcera“) má sloveso -s: she starts.", "reviewed": false },
+        { "id": "u7-l3-e7", "type": "fill", "sentence": "___ your son live in London?", "translation": "Bydlí váš syn v Londýně?", "options": ["Does", "Do", "Is"], "answer": "Does", "explain": "Otázka u he, she, it začíná does.", "reviewed": false },
+        { "id": "u7-l3-e8", "type": "fill", "sentence": "I never ___ meat.", "translation": "Nikdy nejím maso.", "options": ["eat", "don't eat", "eats"], "answer": "eat", "explain": "Never už je zápor, proto bez don't.", "reviewed": false },
+        { "id": "u7-l3-e9", "type": "build", "question": "Vždy vstávám v sedm.", "answer": "I always get up at seven.", "extra": ["am"], "reviewed": false },
+        { "id": "u7-l3-e10", "type": "type", "question": "Obvykle končím v pět.", "answer": "I usually finish at five.", "accept": ["I usually finish at five o'clock.", "Usually I finish at five."], "reviewed": false }
+      ]
+    }
+  ]
+}

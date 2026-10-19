@@ -1,0 +1,144 @@
+{
+  "id": "u9",
+  "level": "A1",
+  "title": "Zdraví",
+  "titleTarget": "Gesundheit",
+  "description": "Části těla, u lékaře a v lékárně: müssen a rady typu „Nehmen Sie …!“.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u9-l1",
+      "title": "Tělo",
+      "titleTarget": "Der Körper",
+      "reviewed": false,
+      "tip": {
+        "title": "Hand → Hände",
+        "text": "Podobně jako česky dům → domy se i v němčině v množném čísle často mění samohláska: a → ä, o → ö, u → ü, au → äu. Die Hand → die Hände, der Zahn → die Zähne, der Kopf → die Köpfe, der Bauch → die Bäuche. Tečky nevynechávejte, mění výslovnost: ä se čte jako e (Hände ≈ „HEN-de“, Zähne ≈ „CÉ-ne“), äu jako oj, ö řekněte jako e se zaokrouhlenými rty. Pozor: der Rücken (záda) je německy jednotné číslo.",
+        "examples": [
+          { "target": "Ich habe zwei Hände.", "native": "Mám dvě ruce." },
+          { "target": "Das Kind hat schon zwei Zähne.", "native": "To dítě už má dva zuby." },
+          { "target": "Ich habe zwei Arme und zwei Beine.", "native": "Mám dvě paže a dvě nohy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l1-w1", "target": "der Kopf", "native": "hlava", "note": "Pozor, mužský rod; množné číslo: die Köpfe", "reviewed": false },
+        { "id": "u9-l1-w2", "target": "der Bauch", "native": "břicho", "note": "ch po au se čte jako české ch; množné číslo: die Bäuche", "reviewed": false },
+        { "id": "u9-l1-w3", "target": "der Rücken", "native": "záda", "note": "Německy jednotné číslo: der Rücken = ta záda; množné číslo: die Rücken", "reviewed": false },
+        { "id": "u9-l1-w4", "target": "das Bein", "native": "noha", "note": "Celá noha. Čte se [bajn]; množné číslo: die Beine", "reviewed": false },
+        { "id": "u9-l1-w5", "target": "der Arm", "native": "paže", "note": "Celá ruka od ramene; množné číslo: die Arme", "reviewed": false },
+        { "id": "u9-l1-w6", "target": "die Hand", "native": "ruka", "note": "Ruka od zápěstí dolů; množné číslo: die Hände", "reviewed": false },
+        { "id": "u9-l1-w7", "target": "das Auge", "native": "oko", "note": "Čte se [AU-ge]; množné číslo: die Augen", "reviewed": false },
+        { "id": "u9-l1-w8", "target": "der Zahn", "native": "zub", "note": "z = c: [cán]; množné číslo: die Zähne", "reviewed": false },
+        { "id": "u9-l1-w9", "target": "der Hals", "native": "krk", "note": "množné číslo: die Hälse", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l1-e1", "type": "choice", "question": "der Kopf", "questionLang": "target", "options": ["hlava", "břicho", "krk"], "answer": "hlava", "reviewed": false },
+        { "id": "u9-l1-e2", "type": "choice", "question": "zub", "questionLang": "native", "options": ["der Zahn", "der Hals", "das Auge"], "answer": "der Zahn", "reviewed": false },
+        { "id": "u9-l1-e3", "type": "match", "pairs": [
+          { "target": "das Bein", "native": "noha" },
+          { "target": "der Arm", "native": "paže" },
+          { "target": "die Hand", "native": "ruka" },
+          { "target": "das Auge", "native": "oko" },
+          { "target": "der Rücken", "native": "záda" }
+        ], "reviewed": false },
+        { "id": "u9-l1-e4", "type": "listen", "audio": "Der Mann hat einen großen Bauch.", "options": ["Der Mann hat einen großen Bauch.", "Der Mann hat einen kleinen Bauch.", "Der Mann hat einen großen Kopf."], "answer": "Der Mann hat einen großen Bauch.", "reviewed": false },
+        { "id": "u9-l1-e5", "type": "fill", "sentence": "Ich habe gute ___.", "translation": "Mám dobré zuby.", "options": ["Zähne", "Zahn", "Zahne"], "answer": "Zähne", "explain": "Množné číslo: der Zahn → die Zähne (a se mění na ä).", "reviewed": false },
+        { "id": "u9-l1-e6", "type": "fill", "sentence": "Meine ___ sind kalt.", "translation": "Mám studené ruce.", "options": ["Hände", "Hand", "Hande"], "answer": "Hände", "explain": "Množné číslo: die Hand → die Hände (a se mění na ä).", "reviewed": false },
+        { "id": "u9-l1-e7", "type": "type", "question": "hlava", "answer": "der Kopf", "reviewed": false },
+        { "id": "u9-l1-e8", "type": "build", "question": "To jsou moje ruce.", "answer": "Das sind meine Hände.", "extra": ["Hand"], "reviewed": false },
+        { "id": "u9-l1-e9", "type": "listen", "audio": "Das Kind hat blaue Augen.", "options": ["To dítě má modré oči.", "To dítě má velké ruce.", "To dítě má bílé zuby."], "answer": "To dítě má modré oči.", "reviewed": false },
+        { "id": "u9-l1-e10", "type": "speak", "text": "Ich habe zwei Hände.", "native": "Mám dvě ruce.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l2",
+      "title": "U lékaře",
+      "titleTarget": "Beim Arzt",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich muss … a Ich habe Fieber",
+        "text": "„Müssen“ (muset) funguje jako „können“: ich muss (musím), Sie müssen (musíte) a druhé sloveso jde na konec věty: Sie müssen viel trinken (viel = hodně). Nemoci se říkají s „haben“, stejně jako česky s „mít“, a bez členu: Ich habe Fieber (mám horečku), Ich habe Husten (mám kašel). Pozor na „der Termin“: znamená hlavně objednání k lékaři nebo schůzku. Ich habe einen Termin = mám objednáno.",
+        "examples": [
+          { "target": "Ich habe Fieber.", "native": "Mám horečku." },
+          { "target": "Sie müssen viel trinken.", "native": "Musíte hodně pít." },
+          { "target": "Ich habe einen Termin beim Arzt.", "native": "Mám objednáno u lékaře." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l2-w1", "target": "der Arzt", "native": "lékař", "note": "Čte se [árct]; množné číslo: die Ärzte", "reviewed": false },
+        { "id": "u9-l2-w2", "target": "die Ärztin", "native": "lékařka", "note": "-in jako česky -ka; množné číslo: die Ärztinnen", "reviewed": false },
+        { "id": "u9-l2-w3", "target": "krank", "native": "nemocný", "note": "Ich bin krank. = Jsem nemocný i Jsem nemocná.", "reviewed": false },
+        { "id": "u9-l2-w4", "target": "gesund", "native": "zdravý", "note": "Opak: krank.", "reviewed": false },
+        { "id": "u9-l2-w5", "target": "die Schmerzen", "native": "bolesti", "note": "Ich habe Schmerzen. = Mám bolesti. Jednotné číslo: der Schmerz", "reviewed": false },
+        { "id": "u9-l2-w6", "target": "das Fieber", "native": "horečka", "note": "Pozor, střední rod. ie = í: [FÍ-ba]", "reviewed": false },
+        { "id": "u9-l2-w7", "target": "der Husten", "native": "kašel", "note": "Ich habe Husten. = Mám kašel. Čte se [HÚS-ten].", "reviewed": false },
+        { "id": "u9-l2-w8", "target": "der Termin", "native": "objednání; schůzka", "note": "Pozor: ne lhůta. Přízvuk: [ter-MÍN]; množné číslo: die Termine", "reviewed": false },
+        { "id": "u9-l2-w9", "target": "müssen", "native": "muset", "note": "ich muss, du musst, er muss, wir müssen, Sie müssen", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l2-e1", "type": "choice", "question": "krank", "questionLang": "target", "options": ["nemocný", "zdravý", "starý"], "answer": "nemocný", "reviewed": false },
+        { "id": "u9-l2-e2", "type": "choice", "question": "kašel", "questionLang": "native", "options": ["der Husten", "das Fieber", "der Termin"], "answer": "der Husten", "reviewed": false },
+        { "id": "u9-l2-e3", "type": "match", "pairs": [
+          { "target": "der Arzt", "native": "lékař" },
+          { "target": "die Ärztin", "native": "lékařka" },
+          { "target": "gesund", "native": "zdravý" },
+          { "target": "das Fieber", "native": "horečka" },
+          { "target": "der Termin", "native": "objednání" }
+        ], "reviewed": false },
+        { "id": "u9-l2-e4", "type": "listen", "audio": "Ich habe Fieber und Husten.", "options": ["Ich habe Fieber und Husten.", "Ich habe Fieber und Schmerzen.", "Ich habe heute einen Termin."], "answer": "Ich habe Fieber und Husten.", "reviewed": false },
+        { "id": "u9-l2-e5", "type": "fill", "sentence": "Sie ___ viel trinken.", "translation": "Musíte hodně pít.", "options": ["müssen", "muss", "musst"], "answer": "müssen", "explain": "Se „Sie“ (Vy) má sloveso koncovku -en: Sie müssen.", "reviewed": false },
+        { "id": "u9-l2-e6", "type": "fill", "sentence": "Ich habe morgen einen ___ beim Arzt.", "translation": "Zítra mám objednáno u lékaře.", "options": ["Termin", "Fieber", "Husten"], "answer": "Termin", "explain": "der Termin = objednání (u lékaře, na úřadě) nebo schůzka.", "reviewed": false },
+        { "id": "u9-l2-e7", "type": "type", "question": "zdravý", "answer": "gesund", "reviewed": false },
+        { "id": "u9-l2-e8", "type": "build", "question": "Musíte hodně spát.", "answer": "Sie müssen viel schlafen.", "extra": ["muss"], "reviewed": false },
+        { "id": "u9-l2-e9", "type": "listen", "audio": "Mein Mann ist krank.", "options": ["Můj manžel je nemocný.", "Můj manžel je zdravý.", "Můj syn je nemocný."], "answer": "Můj manžel je nemocný.", "reviewed": false },
+        { "id": "u9-l2-e10", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Lékařka se ptá: „Wie geht es Ihnen?“ Co odpovíte?", "questionLang": "native", "options": ["Nicht so gut. Ich habe Fieber.", "Ich heiße Eva.", "Das ist zu teuer."], "answer": "Nicht so gut. Ich habe Fieber.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l3",
+      "title": "V lékárně",
+      "titleTarget": "In der Apotheke",
+      "reviewed": false,
+      "tip": {
+        "title": "Nehmen Sie …!",
+        "text": "Když Vám lékař nebo lékárník radí, použije rozkaz s „Sie“: sloveso jde na začátek a hned za ním Sie. Česky stačí jedno slovo „Berte“, německy řeknete „Nehmen Sie“ – Sie nikdy nevynechávejte. Slova jsou stejná jako v otázce, rozdíl je jen v tónu a ve znaménku na konci: Nehmen Sie Tabletten? (Berete prášky?) – Nehmen Sie täglich zwei Tabletten! (Berte denně dva prášky!)",
+        "examples": [
+          { "target": "Nehmen Sie täglich zwei Tabletten.", "native": "Berte denně dva prášky." },
+          { "target": "Trinken Sie viel Tee!", "native": "Pijte hodně čaje!" },
+          { "target": "Gute Besserung!", "native": "Brzy se uzdravte!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l3-w1", "target": "die Apotheke", "native": "lékárna", "note": "Přízvuk: [a-po-TÉ-ke]; množné číslo: die Apotheken", "reviewed": false },
+        { "id": "u9-l3-w2", "target": "die Tablette", "native": "tableta; prášek", "note": "Přízvuk: [ta-BLE-te]; množné číslo: die Tabletten", "reviewed": false },
+        { "id": "u9-l3-w3", "target": "das Medikament", "native": "lék", "note": "Přízvuk na konci: [me-di-ka-MENT]; množné číslo: die Medikamente", "reviewed": false },
+        { "id": "u9-l3-w4", "target": "das Rezept", "native": "recept", "note": "Od lékaře i na vaření. z = c: [re-CEPT]; množné číslo: die Rezepte", "reviewed": false },
+        { "id": "u9-l3-w5", "target": "nehmen", "native": "vzít; brát", "note": "Nepravidelné: ich nehme, du nimmst, er nimmt", "reviewed": false },
+        { "id": "u9-l3-w6", "target": "täglich", "native": "denně", "note": "ä se čte jako e: zhruba [TÉK-lich], ch jako v „ich“.", "reviewed": false },
+        { "id": "u9-l3-w7", "target": "die Erkältung", "native": "nachlazení", "note": "Přízvuk: [er-KEL-tung]; množné číslo: die Erkältungen", "reviewed": false },
+        { "id": "u9-l3-w8", "target": "Gute Besserung", "native": "brzy se uzdravte", "note": "Přání nemocnému; stejné při tykání i vykání.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l3-e1", "type": "choice", "question": "die Apotheke", "questionLang": "target", "options": ["lékárna", "nemocnice", "pokladna"], "answer": "lékárna", "reviewed": false },
+        { "id": "u9-l3-e2", "type": "choice", "question": "nachlazení", "questionLang": "native", "options": ["die Erkältung", "das Rezept", "die Tablette"], "answer": "die Erkältung", "reviewed": false },
+        { "id": "u9-l3-e3", "type": "match", "pairs": [
+          { "target": "das Medikament", "native": "lék" },
+          { "target": "die Tablette", "native": "tableta" },
+          { "target": "das Rezept", "native": "recept" },
+          { "target": "täglich", "native": "denně" },
+          { "target": "nehmen", "native": "brát" }
+        ], "reviewed": false },
+        { "id": "u9-l3-e4", "type": "listen", "audio": "Nehmen Sie täglich zwei Tabletten.", "options": ["Nehmen Sie täglich zwei Tabletten.", "Nehmen Sie täglich drei Tabletten.", "Nehmen Sie heute zwei Tabletten."], "answer": "Nehmen Sie täglich zwei Tabletten.", "reviewed": false },
+        { "id": "u9-l3-e5", "type": "fill", "sentence": "___ Sie viel Tee!", "translation": "Pijte hodně čaje!", "options": ["Trinken", "Trinkt", "Trinke"], "answer": "Trinken", "explain": "Rada při vykání: sloveso na -en a hned za ním Sie.", "reviewed": false },
+        { "id": "u9-l3-e6", "type": "fill", "sentence": "Haben Sie ein ___?", "translation": "Máte recept?", "options": ["Rezept", "Apotheke", "Erkältung"], "answer": "Rezept", "explain": "das Rezept je středního rodu, proto „ein Rezept“.", "reviewed": false },
+        { "id": "u9-l3-e7", "type": "type", "question": "Brzy se uzdravte!", "answer": "Gute Besserung!", "reviewed": false },
+        { "id": "u9-l3-e8", "type": "build", "question": "Berte ten lék denně.", "answer": "Nehmen Sie das Medikament täglich.", "accept": ["Nehmen Sie täglich das Medikament."], "extra": ["nehme"], "reviewed": false },
+        { "id": "u9-l3-e9", "type": "listen", "audio": "Ich habe eine Erkältung.", "options": ["Mám nachlazení.", "Mám horečku.", "Mám recept."], "answer": "Mám nachlazení.", "reviewed": false },
+        { "id": "u9-l3-e10", "type": "choice", "prompt": "Vyberte správnou odpověď", "question": "Kamarádka je nemocná. Co jí řeknete?", "questionLang": "native", "options": ["Gute Besserung!", "Freut mich!", "Guten Appetit!"], "answer": "Gute Besserung!", "reviewed": false }
+      ]
+    }
+  ]
+}

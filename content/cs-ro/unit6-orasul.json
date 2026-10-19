@@ -1,0 +1,139 @@
+{
+  "id": "u6",
+  "level": "A1",
+  "title": "Ve městě",
+  "titleTarget": "În oraș",
+  "description": "Banka, pošta, lékárna – jak se zeptat na cestu a čím jet.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u6-l1",
+      "title": "Co je ve městě",
+      "titleTarget": "Locuri din oraș",
+      "reviewed": false,
+      "tip": {
+        "title": "La a în",
+        "text": "Česky říkáme „v bance, na poště, v lékárně“ – pokaždé jinak. Rumunsky většinou stačí jedno slovo: la. Sunt la bancă (jsem v bance), la poștă (na poště), la farmacie (v lékárně). „La“ znamená i směr: Merg la gară = jdu na nádraží. Předložka „în“ znamená „v, uvnitř“: în oraș = ve městě. Pozor: po samotné předložce se člen na konec nepřidává – „la bancă“, ne „la banca“.",
+        "examples": [
+          { "target": "Sunt la poștă.", "native": "Jsem na poště." },
+          { "target": "Merg la gară.", "native": "Jdu na nádraží." },
+          { "target": "Sunt în oraș.", "native": "Jsem ve městě." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l1-w1", "target": "un oraș", "native": "město", "note": "orașul = to město; množné číslo: orașe. Čte se „o-RAŠ“.", "reviewed": false },
+        { "id": "u6-l1-w2", "target": "un magazin", "native": "obchod", "note": "magazinul = ten obchod; množné číslo: magazine. Pozor: není to časopis.", "reviewed": false },
+        { "id": "u6-l1-w3", "target": "o farmacie", "native": "lékárna", "note": "farmacia = ta lékárna; množné číslo: farmacii. Čte se „far-ma-ČI-e“.", "reviewed": false },
+        { "id": "u6-l1-w4", "target": "o bancă", "native": "banka", "note": "banca = ta banka; množné číslo: bănci. Znamená i lavičku.", "reviewed": false },
+        { "id": "u6-l1-w5", "target": "o poștă", "native": "pošta", "note": "poșta = ta pošta; množné číslo: poște.", "reviewed": false },
+        { "id": "u6-l1-w6", "target": "o gară", "native": "nádraží", "note": "gara = to nádraží; množné číslo: gări. Autobusové nádraží: autogară.", "reviewed": false },
+        { "id": "u6-l1-w7", "target": "un spital", "native": "nemocnice", "note": "spitalul = ta nemocnice; množné číslo: spitale. Srovnejte se starým českým „špitál“.", "reviewed": false },
+        { "id": "u6-l1-w8", "target": "o biserică", "native": "kostel", "note": "biserica = ten kostel; množné číslo: biserici. Čte se „bi-SE-ri-kă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l1-e1", "type": "choice", "question": "o farmacie", "questionLang": "target", "options": ["lékárna", "nemocnice", "kostel"], "answer": "lékárna", "reviewed": false },
+        { "id": "u6-l1-e2", "type": "choice", "question": "nádraží", "questionLang": "native", "options": ["o gară", "o poștă", "o bancă"], "answer": "o gară", "reviewed": false },
+        { "id": "u6-l1-e3", "type": "match", "pairs": [
+          { "target": "un oraș", "native": "město" },
+          { "target": "o bancă", "native": "banka" },
+          { "target": "o poștă", "native": "pošta" },
+          { "target": "o biserică", "native": "kostel" }
+        ], "reviewed": false },
+        { "id": "u6-l1-e4", "type": "listen", "audio": "Sunt la farmacie.", "options": ["Jsem v lékárně.", "Jsem na nádraží.", "Jsem v bance."], "answer": "Jsem v lékárně.", "reviewed": false },
+        { "id": "u6-l1-e5", "type": "listen", "audio": "un spital", "options": ["un spital", "un magazin", "un oraș"], "answer": "un spital", "reviewed": false },
+        { "id": "u6-l1-e6", "type": "fill", "sentence": "Mama este la ___.", "translation": "Maminka je na poště.", "options": ["poștă", "poșta", "poștei"], "answer": "poștă", "explain": "Po samotné předložce la se člen nepřidává: la poștă.", "reviewed": false },
+        { "id": "u6-l1-e7", "type": "fill", "sentence": "În oraș este ___ spital.", "translation": "Ve městě je nemocnice.", "options": ["un", "o", "două"], "answer": "un", "explain": "Spital je v jednotném čísle mužského rodu, proto un spital.", "reviewed": false },
+        { "id": "u6-l1-e8", "type": "type", "question": "obchod", "answer": "un magazin", "accept": ["magazin"], "reviewed": false },
+        { "id": "u6-l1-e9", "type": "build", "question": "Maminka je v bance.", "answer": "Mama este la bancă.", "extra": ["banca"], "reviewed": false },
+        { "id": "u6-l1-e10", "type": "choice", "prompt": "Pozor na falešného přítele! Co to znamená?", "question": "un magazin", "questionLang": "target", "options": ["obchod", "časopis", "nádraží"], "answer": "obchod", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u6-l2",
+      "title": "Kudy se jde?",
+      "titleTarget": "Cum ajung acolo?",
+      "reviewed": false,
+      "tip": {
+        "title": "Kde je…?",
+        "text": "Na cestu se zeptáte „Unde este…?“ – kde je…? Slovo „este“ se čte „jeste“, hovorově se zkracuje na „e“. Všimněte si: tady už se člen přidává – „Unde este gara?“ (kde je nádraží), protože před slovem není předložka. Odpověď často začíná slovem „Mergeți…“ (jděte): Mergeți drept înainte. Mergeți la stânga. Dobrá pomůcka: „drept“ znamená „rovně“ i „pravý“, proto „la dreapta“ = vpravo.",
+        "examples": [
+          { "target": "Unde este farmacia?", "native": "Kde je lékárna?" },
+          { "target": "Mergeți drept înainte.", "native": "Jděte rovně." },
+          { "target": "Banca este aproape, la dreapta.", "native": "Banka je blízko, vpravo." },
+          { "target": "Nu e departe.", "native": "Není to daleko." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l2-w1", "target": "Unde este?", "native": "kde je?", "note": "Čte se „UN-de JES-te“. Hovorově kratší: Unde e?", "reviewed": false },
+        { "id": "u6-l2-w2", "target": "la stânga", "native": "vlevo; doleva", "note": "â se čte jako temné y: „la STYN-ga“.", "reviewed": false },
+        { "id": "u6-l2-w3", "target": "la dreapta", "native": "vpravo; doprava", "note": "ea je jedna slabika: „la DREAP-ta“.", "reviewed": false },
+        { "id": "u6-l2-w4", "target": "drept înainte", "native": "rovně", "note": "Doslova „rovně vpřed“. Čte se „drept y-na-IN-te“.", "reviewed": false },
+        { "id": "u6-l2-w5", "target": "aproape", "native": "blízko", "note": "Čte se „a-PROA-pe“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u6-l2-w6", "target": "departe", "native": "daleko", "note": "Čte se „de-PAR-te“.", "reviewed": false },
+        { "id": "u6-l2-w7", "target": "aici", "native": "tady", "note": "Čte se „a-IČ“, koncové i je skoro neslyšné.", "reviewed": false },
+        { "id": "u6-l2-w8", "target": "acolo", "native": "tam", "note": "Čte se „a-KO-lo“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l2-e1", "type": "choice", "question": "la stânga", "questionLang": "target", "options": ["vlevo; doleva", "vpravo; doprava", "rovně"], "answer": "vlevo; doleva", "reviewed": false },
+        { "id": "u6-l2-e2", "type": "choice", "question": "daleko", "questionLang": "native", "options": ["departe", "aproape", "acolo"], "answer": "departe", "reviewed": false },
+        { "id": "u6-l2-e3", "type": "match", "pairs": [
+          { "target": "aici", "native": "tady" },
+          { "target": "acolo", "native": "tam" },
+          { "target": "aproape", "native": "blízko" },
+          { "target": "drept înainte", "native": "rovně" }
+        ], "reviewed": false },
+        { "id": "u6-l2-e4", "type": "listen", "audio": "Unde este gara?", "options": ["Kde je nádraží?", "Kde je pošta?", "Je nádraží daleko?"], "answer": "Kde je nádraží?", "reviewed": false },
+        { "id": "u6-l2-e5", "type": "listen", "audio": "Mergeți la dreapta.", "options": ["Mergeți la dreapta.", "Mergeți la stânga.", "Mergeți drept înainte."], "answer": "Mergeți la dreapta.", "reviewed": false },
+        { "id": "u6-l2-e6", "type": "fill", "sentence": "Unde este ___?", "translation": "Kde je lékárna?", "options": ["farmacia", "farmacie", "la farmacie"], "answer": "farmacia", "explain": "Bez předložky se člen přidává na konec: farmacia = ta lékárna.", "reviewed": false },
+        { "id": "u6-l2-e7", "type": "fill", "sentence": "Banca nu este departe, este ___.", "translation": "Banka není daleko, je blízko.", "options": ["aproape", "departe", "unde"], "answer": "aproape", "reviewed": false },
+        { "id": "u6-l2-e8", "type": "type", "question": "tady", "answer": "aici", "reviewed": false },
+        { "id": "u6-l2-e9", "type": "build", "question": "Pošta je tam, vlevo.", "answer": "Poșta este acolo, la stânga.", "extra": ["dreapta"], "reviewed": false },
+        { "id": "u6-l2-e10", "type": "speak", "text": "Unde este poșta, vă rog?", "native": "Kde je pošta, prosím?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u6-l3",
+      "title": "Autobusem a pěšky",
+      "titleTarget": "Cu autobuzul și pe jos",
+      "reviewed": false,
+      "tip": {
+        "title": "Autobusem = cu autobuzul",
+        "text": "Česky řeknete „jedu autobusem“ – stačí 7. pád. Rumunsky se použije „cu“ (s) a slovo dostane člen: cu autobuzul, cu trenul, cu tramvaiul, cu taxiul. Doslova „jedu s tím autobusem“. Je to jinak než u „la bancă“: po „cu“ člen u dopravních prostředků nechybí. Sloveso „merg“ znamená „jdu“ i „jedu“. A pěšky se řekne „pe jos“.",
+        "examples": [
+          { "target": "Merg cu autobuzul.", "native": "Jedu autobusem." },
+          { "target": "Merg la gară pe jos.", "native": "Jdu na nádraží pěšky." },
+          { "target": "Unde este stația de autobuz?", "native": "Kde je autobusová zastávka?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u6-l3-w1", "target": "un autobuz", "native": "autobus", "note": "autobuzul = ten autobus; množné číslo: autobuze. Pozor: píše se se z.", "reviewed": false },
+        { "id": "u6-l3-w2", "target": "un tren", "native": "vlak", "note": "trenul = ten vlak; množné číslo: trenuri. Vlakem = cu trenul.", "reviewed": false },
+        { "id": "u6-l3-w3", "target": "un tramvai", "native": "tramvaj", "note": "tramvaiul = ta tramvaj; množné číslo: tramvaie. Střední rod: un tramvai, două tramvaie.", "reviewed": false },
+        { "id": "u6-l3-w4", "target": "un taxi", "native": "taxi", "note": "taxiul = to taxi; množné číslo: taxiuri. Taxíkem = cu taxiul.", "reviewed": false },
+        { "id": "u6-l3-w5", "target": "un bilet", "native": "jízdenka; lístek", "note": "biletul = ta jízdenka; množné číslo: bilete. Také vstupenka.", "reviewed": false },
+        { "id": "u6-l3-w6", "target": "o stație", "native": "zastávka", "note": "stația = ta zastávka; množné číslo: stații. Čte se „STA-ci-e“.", "reviewed": false },
+        { "id": "u6-l3-w7", "target": "pe jos", "native": "pěšky", "note": "Merg pe jos = jdu pěšky. Čte se „pe žos“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u6-l3-e1", "type": "choice", "question": "un bilet", "questionLang": "target", "options": ["jízdenka; lístek", "zastávka", "vlak"], "answer": "jízdenka; lístek", "reviewed": false },
+        { "id": "u6-l3-e2", "type": "choice", "question": "pěšky", "questionLang": "native", "options": ["pe jos", "cu trenul", "acolo"], "answer": "pe jos", "reviewed": false },
+        { "id": "u6-l3-e3", "type": "match", "pairs": [
+          { "target": "un autobuz", "native": "autobus" },
+          { "target": "un tren", "native": "vlak" },
+          { "target": "un tramvai", "native": "tramvaj" },
+          { "target": "o stație", "native": "zastávka" }
+        ], "reviewed": false },
+        { "id": "u6-l3-e4", "type": "listen", "audio": "Merg cu tramvaiul.", "options": ["Jedu tramvají.", "Jedu vlakem.", "Jdu pěšky."], "answer": "Jedu tramvají.", "reviewed": false },
+        { "id": "u6-l3-e5", "type": "listen", "audio": "un taxi", "options": ["un taxi", "un tren", "un bilet"], "answer": "un taxi", "reviewed": false },
+        { "id": "u6-l3-e6", "type": "fill", "sentence": "Merg la gară cu ___.", "translation": "Jedu na nádraží autobusem.", "options": ["autobuzul", "autobuz", "autobuze"], "answer": "autobuzul", "explain": "Po „cu“ dostane dopravní prostředek člen: cu autobuzul = autobusem.", "reviewed": false },
+        { "id": "u6-l3-e7", "type": "fill", "sentence": "Nu merg cu taxiul, merg ___ jos.", "translation": "Nejedu taxíkem, jdu pěšky.", "options": ["pe", "cu", "la"], "answer": "pe", "explain": "Pěšky se řekne vždy pe jos.", "reviewed": false },
+        { "id": "u6-l3-e8", "type": "type", "question": "vlak", "answer": "un tren", "accept": ["tren"], "reviewed": false },
+        { "id": "u6-l3-e9", "type": "build", "question": "Jedu do města autobusem.", "answer": "Merg în oraș cu autobuzul.", "extra": ["autobuz"], "accept": ["Merg cu autobuzul în oraș."], "reviewed": false },
+        { "id": "u6-l3-e10", "type": "choice", "question": "taxíkem", "questionLang": "native", "options": ["cu taxiul", "pe taxi", "un taxi"], "answer": "cu taxiul", "reviewed": false }
+      ]
+    }
+  ]
+}

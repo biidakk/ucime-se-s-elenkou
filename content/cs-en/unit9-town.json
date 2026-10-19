@@ -1,0 +1,145 @@
+{
+  "id": "u9",
+  "level": "A1",
+  "title": "Ve městě",
+  "titleTarget": "In town",
+  "description": "Místa ve městě, jak se zeptat na cestu a jak cestovat autobusem a vlakem.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u9-l1",
+      "title": "Místa ve městě",
+      "titleTarget": "Places in town",
+      "reviewed": false,
+      "tip": {
+        "title": "Is there a … near here?",
+        "text": "Když něco hledáte, zeptejte se: Is there a bank near here? (Je tady blízko banka?) Česky člen nemáme, ale anglicky ho před místem nevynechávejte: a bank, a park, a church. Odpověď zní Yes, there is. nebo No, there isn't. Lékárna je v Británii chemist's (čte se „kemists“).",
+        "examples": [
+          { "target": "Is there a chemist's near here?", "native": "Je tady blízko lékárna?" },
+          { "target": "Yes, there is.", "native": "Ano, je." },
+          { "target": "No, there isn't.", "native": "Ne, není." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l1-w1", "target": "town", "native": "město", "note": "Velké město = city.", "reviewed": false },
+        { "id": "u9-l1-w2", "target": "shop", "native": "obchod", "reviewed": false },
+        { "id": "u9-l1-w3", "target": "supermarket", "native": "supermarket", "reviewed": false },
+        { "id": "u9-l1-w4", "target": "bank", "native": "banka", "reviewed": false },
+        { "id": "u9-l1-w5", "target": "post office", "native": "pošta", "reviewed": false },
+        { "id": "u9-l1-w6", "target": "chemist's", "native": "lékárna", "note": "Čte se „kemists“. Také pharmacy.", "reviewed": false },
+        { "id": "u9-l1-w7", "target": "park", "native": "park", "reviewed": false },
+        { "id": "u9-l1-w8", "target": "church", "native": "kostel", "reviewed": false },
+        { "id": "u9-l1-w9", "target": "near", "native": "blízko", "note": "Tady blízko = near here.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l1-e1", "type": "choice", "question": "post office", "questionLang": "target", "options": ["pošta", "banka", "obchod"], "answer": "pošta", "reviewed": false },
+        { "id": "u9-l1-e2", "type": "choice", "question": "lékárna", "questionLang": "native", "options": ["chemist's", "church", "shop"], "answer": "chemist's", "reviewed": false },
+        { "id": "u9-l1-e3", "type": "match", "pairs": [
+          { "target": "town", "native": "město" },
+          { "target": "church", "native": "kostel" },
+          { "target": "near", "native": "blízko" },
+          { "target": "shop", "native": "obchod" },
+          { "target": "bank", "native": "banka" }
+        ], "reviewed": false },
+        { "id": "u9-l1-e4", "type": "listen", "audio": "Is there a bank near here?", "options": ["Is there a bank near here?", "Is there a park near here?", "Is there a church near here?"], "answer": "Is there a bank near here?", "reviewed": false },
+        { "id": "u9-l1-e5", "type": "listen", "audio": "There's a supermarket near the church.", "options": ["Blízko kostela je supermarket.", "Blízko parku je supermarket.", "Blízko kostela je pošta."], "answer": "Blízko kostela je supermarket.", "reviewed": false },
+        { "id": "u9-l1-e6", "type": "fill", "sentence": "Is there ___ post office near here?", "translation": "Je tady blízko pošta?", "options": ["a", "an", "the"], "answer": "a", "explain": "Ptáme se na nějakou poštu, proto a; an je jen před samohláskou.", "reviewed": false },
+        { "id": "u9-l1-e7", "type": "fill", "sentence": "Is there a chemist's near here? – Yes, there ___.", "translation": "Je tady blízko lékárna? – Ano, je.", "options": ["is", "are", "has"], "answer": "is", "explain": "V odpovědi zopakujte is: Yes, there is.", "reviewed": false },
+        { "id": "u9-l1-e8", "type": "type", "question": "Je tady blízko park?", "answer": "Is there a park near here?", "reviewed": false },
+        { "id": "u9-l1-e9", "type": "build", "question": "V našem městě je velký park.", "answer": "There is a big park in our town.", "extra": ["it"], "accept": ["In our town there is a big park."], "reviewed": false },
+        { "id": "u9-l1-e10", "type": "speak", "text": "Excuse me, is there a bank near here?", "native": "Promiňte, je tady blízko banka?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l2",
+      "title": "Kudy?",
+      "titleTarget": "Which way?",
+      "reviewed": false,
+      "tip": {
+        "title": "Turn left. Don't turn right.",
+        "text": "Když radíte cestu, použijte samotné sloveso, bez you a bez koncovky: Turn left. Go straight on. Zákaz začíná slovem Don't: Don't turn right. Takto se cesta vysvětluje běžně a zdvořile, můžete přidat please. Pozor na předložky: on the corner = na rohu, opposite the bank = naproti bance (bez of), between the bank and the church = mezi bankou a kostelem.",
+        "examples": [
+          { "target": "Turn left.", "native": "Zahněte doleva." },
+          { "target": "Go straight on.", "native": "Jděte rovně." },
+          { "target": "Don't turn right.", "native": "Nezahýbejte doprava." },
+          { "target": "The bank is opposite the church.", "native": "Banka je naproti kostelu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l2-w1", "target": "turn", "native": "zahnout", "note": "Turn left. = Zahněte doleva.", "reviewed": false },
+        { "id": "u9-l2-w2", "target": "left", "native": "vlevo; doleva", "reviewed": false },
+        { "id": "u9-l2-w3", "target": "right", "native": "vpravo; doprava", "note": "Right znamená také „správně“.", "reviewed": false },
+        { "id": "u9-l2-w4", "target": "straight on", "native": "rovně", "note": "Čte se „strejt on“. Go straight on. = Jděte rovně.", "reviewed": false },
+        { "id": "u9-l2-w5", "target": "street", "native": "ulice", "reviewed": false },
+        { "id": "u9-l2-w6", "target": "corner", "native": "roh", "note": "Na rohu = on the corner.", "reviewed": false },
+        { "id": "u9-l2-w7", "target": "opposite", "native": "naproti", "note": "Bez of: opposite the bank.", "reviewed": false },
+        { "id": "u9-l2-w8", "target": "next to", "native": "vedle", "reviewed": false },
+        { "id": "u9-l2-w9", "target": "between", "native": "mezi", "note": "Mezi A a B = between A and B.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l2-e1", "type": "choice", "question": "opposite", "questionLang": "target", "options": ["naproti", "vedle", "mezi"], "answer": "naproti", "reviewed": false },
+        { "id": "u9-l2-e2", "type": "choice", "question": "Zahněte doprava.", "questionLang": "native", "options": ["Turn right.", "Turn left.", "Go straight on."], "answer": "Turn right.", "reviewed": false },
+        { "id": "u9-l2-e3", "type": "match", "pairs": [
+          { "target": "turn", "native": "zahnout" },
+          { "target": "street", "native": "ulice" },
+          { "target": "corner", "native": "roh" },
+          { "target": "between", "native": "mezi" },
+          { "target": "next to", "native": "vedle" }
+        ], "reviewed": false },
+        { "id": "u9-l2-e4", "type": "listen", "audio": "Go straight on.", "options": ["Go straight on.", "Turn left.", "Turn right."], "answer": "Go straight on.", "reviewed": false },
+        { "id": "u9-l2-e5", "type": "listen", "audio": "The post office is on the corner.", "options": ["Pošta je na rohu.", "Pošta je naproti.", "Pošta je vedle banky."], "answer": "Pošta je na rohu.", "reviewed": false },
+        { "id": "u9-l2-e6", "type": "fill", "sentence": "The chemist's is ___ the bank and the park.", "translation": "Lékárna je mezi bankou a parkem.", "options": ["between", "in", "under"], "answer": "between", "explain": "Mezi dvěma místy = between … and …", "reviewed": false },
+        { "id": "u9-l2-e7", "type": "fill", "sentence": "___ turn left here.", "translation": "Tady nezahýbejte doleva.", "options": ["Don't", "Not", "No"], "answer": "Don't", "explain": "Zákaz začíná slovem Don't.", "reviewed": false },
+        { "id": "u9-l2-e8", "type": "type", "question": "Zahněte doleva.", "answer": "Turn left.", "reviewed": false },
+        { "id": "u9-l2-e9", "type": "build", "question": "Banka je naproti kostelu.", "answer": "The bank is opposite the church.", "extra": ["of"], "reviewed": false },
+        { "id": "u9-l2-e10", "type": "build", "question": "Jděte rovně a zahněte doprava.", "answer": "Go straight on and turn right.", "extra": ["you"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l3",
+      "title": "Doprava",
+      "titleTarget": "Getting around",
+      "reviewed": false,
+      "tip": {
+        "title": "By bus, on foot a Can I…?",
+        "text": "Česky jedeme autobusem nebo vlakem. Anglicky řekneme by a dopravní prostředek, bez členu: by bus, by train, by taxi. Pěšky je ale on foot. Když o něco slušně žádáte, začněte Can I…?: Can I have a ticket, please? (Můžu dostat jízdenku?) Přidejte please, bez něj žádost zní příliš stroze.",
+        "examples": [
+          { "target": "I go to work by bus.", "native": "Do práce jezdím autobusem." },
+          { "target": "We go to the park on foot.", "native": "Do parku chodíme pěšky." },
+          { "target": "Can I have a return ticket, please?", "native": "Můžu dostat zpáteční jízdenku, prosím?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l3-w1", "target": "bus", "native": "autobus", "note": "Autobusem = by bus.", "reviewed": false },
+        { "id": "u9-l3-w2", "target": "train", "native": "vlak", "note": "Vlakem = by train.", "reviewed": false },
+        { "id": "u9-l3-w3", "target": "taxi", "native": "taxík", "reviewed": false },
+        { "id": "u9-l3-w4", "target": "station", "native": "nádraží", "note": "Čte se „stejšn“.", "reviewed": false },
+        { "id": "u9-l3-w5", "target": "bus stop", "native": "autobusová zastávka", "reviewed": false },
+        { "id": "u9-l3-w6", "target": "ticket", "native": "jízdenka", "note": "Také vstupenka.", "reviewed": false },
+        { "id": "u9-l3-w7", "target": "return ticket", "native": "zpáteční jízdenka", "note": "Jen tam = single ticket.", "reviewed": false },
+        { "id": "u9-l3-w8", "target": "on foot", "native": "pěšky", "note": "Pozor: on foot, ne by foot.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l3-e1", "type": "choice", "question": "station", "questionLang": "target", "options": ["nádraží", "jízdenka", "pošta"], "answer": "nádraží", "reviewed": false },
+        { "id": "u9-l3-e2", "type": "choice", "question": "pěšky", "questionLang": "native", "options": ["on foot", "by bus", "by taxi"], "answer": "on foot", "reviewed": false },
+        { "id": "u9-l3-e3", "type": "match", "pairs": [
+          { "target": "bus", "native": "autobus" },
+          { "target": "train", "native": "vlak" },
+          { "target": "taxi", "native": "taxík" },
+          { "target": "ticket", "native": "jízdenka" },
+          { "target": "bus stop", "native": "autobusová zastávka" }
+        ], "reviewed": false },
+        { "id": "u9-l3-e4", "type": "listen", "audio": "A return ticket, please.", "options": ["A return ticket, please.", "Two tickets, please.", "A taxi, please."], "answer": "A return ticket, please.", "reviewed": false },
+        { "id": "u9-l3-e5", "type": "listen", "audio": "Is there a bus stop near here?", "options": ["Je tady blízko autobusová zastávka?", "Je tady blízko nádraží?", "Kde je tady taxík?"], "answer": "Je tady blízko autobusová zastávka?", "reviewed": false },
+        { "id": "u9-l3-e6", "type": "fill", "sentence": "I go to work ___ train.", "translation": "Do práce jezdím vlakem.", "options": ["by", "on", "with"], "answer": "by", "explain": "Dopravní prostředek: by train, by bus, bez členu.", "reviewed": false },
+        { "id": "u9-l3-e7", "type": "fill", "sentence": "My mum goes to the shops ___ foot.", "translation": "Maminka chodí nakupovat pěšky.", "options": ["on", "with", "at"], "answer": "on", "explain": "Pěšky se řekne on foot.", "reviewed": false },
+        { "id": "u9-l3-e8", "type": "type", "question": "Můžu dostat jízdenku, prosím?", "answer": "Can I have a ticket, please?", "reviewed": false },
+        { "id": "u9-l3-e9", "type": "build", "question": "Kde je autobusová zastávka?", "answer": "Where is the bus stop?", "extra": ["it"], "reviewed": false },
+        { "id": "u9-l3-e10", "type": "speak", "text": "Can I have a return ticket, please?", "native": "Můžu dostat zpáteční jízdenku, prosím?", "reviewed": false }
+      ]
+    }
+  ]
+}

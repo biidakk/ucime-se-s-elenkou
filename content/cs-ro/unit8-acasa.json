@@ -1,0 +1,140 @@
+{
+  "id": "u8",
+  "level": "A1",
+  "title": "Doma",
+  "titleTarget": "Acasă",
+  "description": "Byt a pokoje, kde co stojí a jaké to je.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u8-l1",
+      "title": "Můj byt",
+      "titleTarget": "Apartamentul meu",
+      "reviewed": false,
+      "tip": {
+        "title": "Střední rod: jeden jako „on“, více jako „ony“",
+        "text": "Rumunština má i střední rod, ale chová se zvláštně: v jednotném čísle jako mužský rod (un scaun, scaunul), v množném jako ženský (două scaune). Proto se řekne „două scaune“, ne „doi scaune“. Množné číslo středního rodu končí na -e nebo -uri: un dormitor – două dormitoare, un pat – două paturi. Pozor i na rod, který se od češtiny liší: stůl je rumunsky ženského rodu (o masă).",
+        "examples": [
+          { "target": "Am un pat și două scaune.", "native": "Mám postel a dvě židle." },
+          { "target": "Casa are trei camere.", "native": "Dům má tři pokoje." },
+          { "target": "Apartamentul are două dormitoare.", "native": "Byt má dvě ložnice." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l1-w1", "target": "o casă", "native": "dům", "note": "casa = ten dům; množné číslo: case. Acasă = doma.", "reviewed": false },
+        { "id": "u8-l1-w2", "target": "un apartament", "native": "byt", "note": "apartamentul = ten byt; množné číslo: apartamente (střední rod). Čte se „a-par-ta-MENT“.", "reviewed": false },
+        { "id": "u8-l1-w3", "target": "o cameră", "native": "pokoj", "note": "camera = ten pokoj; množné číslo: camere.", "reviewed": false },
+        { "id": "u8-l1-w4", "target": "o bucătărie", "native": "kuchyně", "note": "bucătăria = ta kuchyně; množné číslo: bucătării. Čte se „bu-kă-tă-RI-e“.", "reviewed": false },
+        { "id": "u8-l1-w5", "target": "o baie", "native": "koupelna", "note": "baia = ta koupelna; množné číslo: băi. Čte se „BA-je“.", "reviewed": false },
+        { "id": "u8-l1-w6", "target": "un dormitor", "native": "ložnice", "note": "dormitorul = ta ložnice; množné číslo: dormitoare (střední rod). Čte se „dor-mi-TOR“.", "reviewed": false },
+        { "id": "u8-l1-w7", "target": "un scaun", "native": "židle", "note": "scaunul = ta židle; množné číslo: scaune (střední rod). Čte se „SKA-un“.", "reviewed": false },
+        { "id": "u8-l1-w8", "target": "o masă", "native": "stůl", "note": "masa = ten stůl; množné číslo: mese. Pozor: ženský rod. Masă znamená i „jídlo“.", "reviewed": false },
+        { "id": "u8-l1-w9", "target": "un pat", "native": "postel", "note": "patul = ta postel; množné číslo: paturi (střední rod).", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l1-e1", "type": "choice", "question": "o bucătărie", "questionLang": "target", "options": ["kuchyně", "koupelna", "ložnice"], "answer": "kuchyně", "reviewed": false },
+        { "id": "u8-l1-e2", "type": "choice", "question": "postel", "questionLang": "native", "options": ["un pat", "un scaun", "o masă"], "answer": "un pat", "reviewed": false },
+        { "id": "u8-l1-e3", "type": "match", "pairs": [
+          { "target": "o casă", "native": "dům" },
+          { "target": "un apartament", "native": "byt" },
+          { "target": "o cameră", "native": "pokoj" },
+          { "target": "o baie", "native": "koupelna" }
+        ], "reviewed": false },
+        { "id": "u8-l1-e4", "type": "listen", "audio": "un dormitor", "options": ["un dormitor", "un apartament", "o bucătărie"], "answer": "un dormitor", "reviewed": false },
+        { "id": "u8-l1-e5", "type": "listen", "audio": "Apartamentul are trei camere.", "options": ["Byt má tři pokoje.", "Dům má tři pokoje.", "Byt má dvě ložnice."], "answer": "Byt má tři pokoje.", "reviewed": false },
+        { "id": "u8-l1-e6", "type": "fill", "sentence": "Am două ___ în bucătărie.", "translation": "V kuchyni mám dvě židle.", "options": ["scaune", "scauni", "scaun"], "answer": "scaune", "explain": "Střední rod má v množném čísle koncovku jako ženský rod: un scaun – două scaune.", "reviewed": false },
+        { "id": "u8-l1-e7", "type": "fill", "sentence": "În dormitor sunt două ___.", "translation": "V ložnici jsou dvě postele.", "options": ["paturi", "patul", "pat"], "answer": "paturi", "explain": "Některá slova středního rodu mají v množném čísle -uri: un pat – două paturi.", "reviewed": false },
+        { "id": "u8-l1-e8", "type": "choice", "prompt": "Jak se řekne „ten stůl“ (s členem)?", "question": "ten stůl", "questionLang": "native", "options": ["masa", "o masă", "mese"], "answer": "masa", "reviewed": false },
+        { "id": "u8-l1-e9", "type": "type", "question": "Kde je koupelna?", "answer": "Unde este baia?", "accept": ["Unde e baia?"], "reviewed": false },
+        { "id": "u8-l1-e10", "type": "build", "question": "Dům má čtyři pokoje.", "answer": "Casa are patru camere.", "extra": ["casă"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l2",
+      "title": "Co je kde?",
+      "titleTarget": "Pe masă sau sub masă?",
+      "reviewed": false,
+      "tip": {
+        "title": "Člen po předložce",
+        "text": "Po předložkách pe (na), sub (pod), lângă (vedle) se člen obvykle nepíše: pe masă (na stole), sub pat (pod postelí). Jakmile ale přidáte přídavné jméno nebo jiné určení, člen se vrátí: pe masa mare (na velkém stole), sub patul meu (pod mou postelí). Dobrá zpráva: česky se po předložce mění koncovka (stůl – na stole), rumunsky zůstává slovo stejné.",
+        "examples": [
+          { "target": "Lampa este pe masă.", "native": "Lampa je na stole." },
+          { "target": "Cafeaua e pe masa mare.", "native": "Káva je na velkém stole." },
+          { "target": "Scaunul e lângă fereastră.", "native": "Židle je u okna." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l2-w1", "target": "pe", "native": "na", "note": "pe masă = na stole; pe masa mare = na velkém stole.", "reviewed": false },
+        { "id": "u8-l2-w2", "target": "sub", "native": "pod", "note": "sub pat = pod postelí.", "reviewed": false },
+        { "id": "u8-l2-w3", "target": "lângă", "native": "vedle", "note": "Také „u“: lângă fereastră = u okna. â zní jako î.", "reviewed": false },
+        { "id": "u8-l2-w4", "target": "între", "native": "mezi", "note": "între pat și dulap = mezi postelí a skříní.", "reviewed": false },
+        { "id": "u8-l2-w5", "target": "un dulap", "native": "skříň", "note": "dulapul = ta skříň; množné číslo: dulapuri. Čte se „du-LAP“.", "reviewed": false },
+        { "id": "u8-l2-w6", "target": "o fereastră", "native": "okno", "note": "fereastra = to okno; množné číslo: ferestre. Čte se „fe-REAS-tră“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u8-l2-w7", "target": "o ușă", "native": "dveře", "note": "ușa = ty dveře; množné číslo: uși. Rumunsky jednotné číslo, česky jen množné.", "reviewed": false },
+        { "id": "u8-l2-w8", "target": "o lampă", "native": "lampa", "note": "lampa = ta lampa; množné číslo: lămpi.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l2-e1", "type": "choice", "question": "sub", "questionLang": "target", "options": ["pod", "na", "mezi"], "answer": "pod", "reviewed": false },
+        { "id": "u8-l2-e2", "type": "choice", "question": "okno", "questionLang": "native", "options": ["o fereastră", "o ușă", "un dulap"], "answer": "o fereastră", "reviewed": false },
+        { "id": "u8-l2-e3", "type": "match", "pairs": [
+          { "target": "pe", "native": "na" },
+          { "target": "sub", "native": "pod" },
+          { "target": "lângă", "native": "vedle" },
+          { "target": "între", "native": "mezi" }
+        ], "reviewed": false },
+        { "id": "u8-l2-e4", "type": "listen", "audio": "Lampa e pe masă.", "options": ["Lampa je na stole.", "Lampa je pod stolem.", "Lampa je vedle stolu."], "answer": "Lampa je na stole.", "reviewed": false },
+        { "id": "u8-l2-e5", "type": "listen", "audio": "o ușă", "options": ["o ușă", "o masă", "o baie"], "answer": "o ușă", "reviewed": false },
+        { "id": "u8-l2-e6", "type": "fill", "sentence": "Cafeaua e pe ___ mare.", "translation": "Káva je na velkém stole.", "options": ["masa", "masă", "mese"], "answer": "masa", "explain": "S přídavným jménem se člen vrací: pe masă, ale pe masa mare.", "reviewed": false },
+        { "id": "u8-l2-e7", "type": "fill", "sentence": "Scaunul este ___ masă.", "translation": "Židle je pod stolem.", "options": ["sub", "pe", "între"], "answer": "sub", "explain": "Sub = pod; po samotné předložce se člen nepíše.", "reviewed": false },
+        { "id": "u8-l2-e8", "type": "choice", "question": "Ușa este lângă dulap.", "questionLang": "target", "options": ["Dveře jsou vedle skříně.", "Dveře jsou ve skříni.", "Okno je vedle skříně."], "answer": "Dveře jsou vedle skříně.", "reviewed": false },
+        { "id": "u8-l2-e9", "type": "type", "question": "pod postelí", "answer": "sub pat", "reviewed": false },
+        { "id": "u8-l2-e10", "type": "build", "question": "Skříň je mezi postelí a oknem.", "answer": "Dulapul este între pat și fereastră.", "extra": ["patul"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l3",
+      "title": "Velký, malý, nový",
+      "titleTarget": "Mare, mic, nou",
+      "reviewed": false,
+      "tip": {
+        "title": "Přídavné jméno stojí za podstatným",
+        "text": "Rumunsky se říká „dům velký“: o casă mare, un pat nou. Člen zůstává na podstatném jménu: casa mare = ten velký dům. Stejně jako v češtině se přídavné jméno řídí rodem a číslem a má až čtyři tvary: frumos (hezký), frumoasă (hezká), frumoși (hezcí), frumoase (hezké). Naopak acest (tento) a acel (tamten) stojí před podstatným jménem, bez členu: acest pat, această casă.",
+        "examples": [
+          { "target": "Patul este nou.", "native": "Postel je nová." },
+          { "target": "Camera este frumoasă și curată.", "native": "Pokoj je hezký a čistý." },
+          { "target": "Această masă este veche.", "native": "Tento stůl je starý." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l3-w1", "target": "mare", "native": "velký", "note": "Pro mužský i ženský rod stejně: un pat mare, o casă mare; množné číslo: mari.", "reviewed": false },
+        { "id": "u8-l3-w2", "target": "mic", "native": "malý", "note": "Ženský rod: mică; množné číslo: mici.", "reviewed": false },
+        { "id": "u8-l3-w3", "target": "nou", "native": "nový", "note": "Ženský rod: nouă (pozor, také „devět“); množné číslo: noi.", "reviewed": false },
+        { "id": "u8-l3-w4", "target": "vechi", "native": "starý", "note": "O věcech. Ženský rod: veche; množné číslo: vechi. Čte se skoro „vek“.", "reviewed": false },
+        { "id": "u8-l3-w5", "target": "frumos", "native": "hezký; krásný", "note": "Ženský rod: frumoasă; množné číslo: frumoși, frumoase. Čte se „fru-MOS“.", "reviewed": false },
+        { "id": "u8-l3-w6", "target": "curat", "native": "čistý", "note": "Ženský rod: curată; množné číslo: curați, curate. Čte se „ku-RAT“.", "reviewed": false },
+        { "id": "u8-l3-w7", "target": "acest", "native": "tento", "note": "Ženský rod: această. Čte se „a-ČEST“. Hovorově za podstatným jménem: patul ăsta.", "reviewed": false },
+        { "id": "u8-l3-w8", "target": "acel", "native": "tamten", "note": "Ženský rod: acea. Čte se „a-ČEL“. Hovorově za podstatným jménem: patul ăla.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l3-e1", "type": "choice", "question": "vechi", "questionLang": "target", "options": ["starý", "nový", "čistý"], "answer": "starý", "reviewed": false },
+        { "id": "u8-l3-e2", "type": "choice", "question": "malý", "questionLang": "native", "options": ["mic", "mare", "nou"], "answer": "mic", "reviewed": false },
+        { "id": "u8-l3-e3", "type": "match", "pairs": [
+          { "target": "mare", "native": "velký" },
+          { "target": "nou", "native": "nový" },
+          { "target": "frumos", "native": "hezký" },
+          { "target": "curat", "native": "čistý" }
+        ], "reviewed": false },
+        { "id": "u8-l3-e4", "type": "listen", "audio": "Casa este mare și frumoasă.", "options": ["Dům je velký a hezký.", "Dům je malý a hezký.", "Byt je velký a čistý."], "answer": "Dům je velký a hezký.", "reviewed": false },
+        { "id": "u8-l3-e5", "type": "listen", "audio": "acest scaun", "options": ["acest scaun", "acel scaun", "această masă"], "answer": "acest scaun", "reviewed": false },
+        { "id": "u8-l3-e6", "type": "fill", "sentence": "Bucătăria este ___.", "translation": "Kuchyně je čistá.", "options": ["curată", "curat", "curați"], "answer": "curată", "explain": "Bucătărie je ženského rodu, proto curată.", "reviewed": false },
+        { "id": "u8-l3-e7", "type": "fill", "sentence": "Am o masă ___.", "translation": "Mám nový stůl.", "options": ["nouă", "nou", "noi"], "answer": "nouă", "explain": "Masă je ženského rodu: un pat nou, ale o masă nouă.", "reviewed": false },
+        { "id": "u8-l3-e8", "type": "choice", "question": "tento dům", "questionLang": "native", "options": ["această casă", "acest casă", "acele case"], "answer": "această casă", "reviewed": false },
+        { "id": "u8-l3-e9", "type": "type", "question": "Byt je nový.", "answer": "Apartamentul este nou.", "accept": ["Apartamentul e nou."], "reviewed": false },
+        { "id": "u8-l3-e10", "type": "build", "question": "Mám hezký a čistý byt.", "answer": "Am un apartament frumos și curat.", "extra": ["frumoasă"], "reviewed": false }
+      ]
+    }
+  ]
+}

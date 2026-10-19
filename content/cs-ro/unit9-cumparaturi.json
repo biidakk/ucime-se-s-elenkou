@@ -1,0 +1,140 @@
+{
+  "id": "u9",
+  "level": "A1",
+  "title": "Nakupování",
+  "titleTarget": "Cumpărături",
+  "description": "Oblečení, barvy a placení v obchodě.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u9-l1",
+      "title": "Oblečení",
+      "titleTarget": "Hainele",
+      "reviewed": false,
+      "tip": {
+        "title": "Kalhoty jsou i rumunsky v množném čísle",
+        "text": "Některá slova mají jen množné číslo – v češtině i v rumunštině: kalhoty = pantaloni. Proto: Pantalonii sunt noi. (Kalhoty jsou nové.) Pozor na opačné případy: šaty a dveře jsou česky v množném čísle, rumunsky v jednotném: o rochie, o ușă. Boty jsou jako v češtině: jedna bota = un pantof, boty = pantofi. Člen se v mužském rodě množného čísla přidává jako -i: pantofi → pantofii (ty boty).",
+        "examples": [
+          { "target": "Pantalonii sunt noi.", "native": "Kalhoty jsou nové." },
+          { "target": "Rochia este frumoasă.", "native": "Šaty jsou hezké." },
+          { "target": "Am o geacă nouă.", "native": "Mám novou bundu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l1-w1", "target": "o cămașă", "native": "košile", "note": "cămașa = ta košile; množné číslo: cămăși. Čte se „kă-MA-šă“.", "reviewed": false },
+        { "id": "u9-l1-w2", "target": "o rochie", "native": "šaty", "note": "rochia = ty šaty; množné číslo: rochii. Čte se „RO-ki-je“. Rumunsky jednotné číslo.", "reviewed": false },
+        { "id": "u9-l1-w3", "target": "o fustă", "native": "sukně", "note": "fusta = ta sukně; množné číslo: fuste.", "reviewed": false },
+        { "id": "u9-l1-w4", "target": "pantalonii", "native": "kalhoty", "note": "Tvar s členem (ty kalhoty); bez členu: pantaloni. Čte se „pan-ta-LO-nij“.", "reviewed": false },
+        { "id": "u9-l1-w5", "target": "pantofii", "native": "boty", "note": "Tvar s členem (ty boty); bez členu: pantofi; jedna bota: un pantof. Přesněji polobotky (ne tenisky ani zimní boty). Čte se „pan-TO-fij“.", "reviewed": false },
+        { "id": "u9-l1-w6", "target": "o haină", "native": "kabát", "note": "haina = ten kabát; množné číslo: haine – to znamená i „oblečení“. Čte se „HAJ-nă“.", "reviewed": false },
+        { "id": "u9-l1-w7", "target": "un pulover", "native": "svetr", "note": "puloverul = ten svetr; množné číslo: pulovere (střední rod). Čte se „pu-LO-ver“.", "reviewed": false },
+        { "id": "u9-l1-w8", "target": "o geacă", "native": "bunda", "note": "geaca = ta bunda; množné číslo: geci. Čte se „DŽA-kă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l1-e1", "type": "choice", "question": "o geacă", "questionLang": "target", "options": ["bunda", "sukně", "košile"], "answer": "bunda", "reviewed": false },
+        { "id": "u9-l1-e2", "type": "choice", "question": "šaty", "questionLang": "native", "options": ["o rochie", "o fustă", "o haină"], "answer": "o rochie", "reviewed": false },
+        { "id": "u9-l1-e3", "type": "match", "pairs": [
+          { "target": "o cămașă", "native": "košile" },
+          { "target": "o fustă", "native": "sukně" },
+          { "target": "un pulover", "native": "svetr" },
+          { "target": "o haină", "native": "kabát" }
+        ], "reviewed": false },
+        { "id": "u9-l1-e4", "type": "listen", "audio": "pantalonii", "options": ["pantalonii", "pantofii", "puloverul"], "answer": "pantalonii", "reviewed": false },
+        { "id": "u9-l1-e5", "type": "listen", "audio": "Rochia este nouă.", "options": ["Šaty jsou nové.", "Sukně je nová.", "Šaty jsou staré."], "answer": "Šaty jsou nové.", "reviewed": false },
+        { "id": "u9-l1-e6", "type": "fill", "sentence": "Pantalonii ___ noi.", "translation": "Kalhoty jsou nové.", "options": ["sunt", "este", "ești"], "answer": "sunt", "explain": "Pantaloni jsou množné číslo – stejně jako české kalhoty jsou.", "reviewed": false },
+        { "id": "u9-l1-e7", "type": "fill", "sentence": "Am trei ___.", "translation": "Mám tři košile.", "options": ["cămăși", "cămașă", "cămașa"], "answer": "cămăși", "explain": "Množné číslo: o cămașă – două cămăși.", "reviewed": false },
+        { "id": "u9-l1-e8", "type": "choice", "question": "Haina este curată.", "questionLang": "target", "options": ["Kabát je čistý.", "Košile je čistá.", "Kabát je starý."], "answer": "Kabát je čistý.", "reviewed": false },
+        { "id": "u9-l1-e9", "type": "type", "question": "Kde jsou boty?", "answer": "Unde sunt pantofii?", "reviewed": false },
+        { "id": "u9-l1-e10", "type": "build", "question": "Mám novou sukni a nový svetr.", "answer": "Am o fustă nouă și un pulover nou.", "extra": ["noi"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l2",
+      "title": "Barvy",
+      "titleTarget": "Culorile",
+      "reviewed": false,
+      "tip": {
+        "title": "Barva se řídí věcí",
+        "text": "Barvy jsou přídavná jména: stojí za podstatným jménem a mění tvar podle rodu a čísla, jako v češtině: un pulover roșu (červený svetr), o rochie roșie (červené šaty), pantofi roșii (červené boty). Dobrá zpráva: gri (šedý) a maro (hnědý) se nemění nikdy: un pulover gri, o fustă gri, pantofi maro.",
+        "examples": [
+          { "target": "o cămașă albă", "native": "bílá košile" },
+          { "target": "un pulover negru", "native": "černý svetr" },
+          { "target": "Pantofii sunt maro.", "native": "Boty jsou hnědé." },
+          { "target": "Rochia este verde.", "native": "Šaty jsou zelené." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l2-w1", "target": "roșu", "native": "červený", "note": "Ženský rod: roșie; množné číslo: roșii. Čte se „RO-šu“. O roșie je i rajče.", "reviewed": false },
+        { "id": "u9-l2-w2", "target": "albastru", "native": "modrý", "note": "Ženský rod: albastră; množné číslo: albaștri, albastre. Čte se „al-BAS-tru“.", "reviewed": false },
+        { "id": "u9-l2-w3", "target": "verde", "native": "zelený", "note": "Ženský rod také verde; množné číslo: verzi.", "reviewed": false },
+        { "id": "u9-l2-w4", "target": "galben", "native": "žlutý", "note": "Ženský rod: galbenă; množné číslo: galbeni, galbene.", "reviewed": false },
+        { "id": "u9-l2-w5", "target": "negru", "native": "černý", "note": "Ženský rod: neagră; množné číslo: negri, negre.", "reviewed": false },
+        { "id": "u9-l2-w6", "target": "alb", "native": "bílý", "note": "Ženský rod: albă; množné číslo: albi, albe.", "reviewed": false },
+        { "id": "u9-l2-w7", "target": "gri", "native": "šedý", "note": "Nemění se: un pulover gri, o fustă gri.", "reviewed": false },
+        { "id": "u9-l2-w8", "target": "maro", "native": "hnědý", "note": "Nemění se: o geacă maro, pantofi maro. Čte se „ma-RO“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l2-e1", "type": "choice", "question": "galben", "questionLang": "target", "options": ["žlutý", "zelený", "modrý"], "answer": "žlutý", "reviewed": false },
+        { "id": "u9-l2-e2", "type": "choice", "question": "černý", "questionLang": "native", "options": ["negru", "alb", "gri"], "answer": "negru", "reviewed": false },
+        { "id": "u9-l2-e3", "type": "match", "pairs": [
+          { "target": "roșu", "native": "červený" },
+          { "target": "albastru", "native": "modrý" },
+          { "target": "verde", "native": "zelený" },
+          { "target": "maro", "native": "hnědý" }
+        ], "reviewed": false },
+        { "id": "u9-l2-e4", "type": "listen", "audio": "o cămașă albă", "options": ["o cămașă albă", "o cămașă albastră", "o fustă albă"], "answer": "o cămașă albă", "reviewed": false },
+        { "id": "u9-l2-e5", "type": "listen", "audio": "Puloverul este gri.", "options": ["Svetr je šedý.", "Svetr je hnědý.", "Kabát je šedý."], "answer": "Svetr je šedý.", "reviewed": false },
+        { "id": "u9-l2-e6", "type": "fill", "sentence": "Am o rochie ___.", "translation": "Mám červené šaty.", "options": ["roșie", "roșu", "roșii"], "answer": "roșie", "explain": "Rochie je ženského rodu, proto roșie.", "reviewed": false },
+        { "id": "u9-l2-e7", "type": "fill", "sentence": "Pantofii sunt ___.", "translation": "Boty jsou černé.", "options": ["negri", "negru", "neagră"], "answer": "negri", "explain": "Pantofi jsou mužského rodu v množném čísle, proto negri.", "reviewed": false },
+        { "id": "u9-l2-e8", "type": "choice", "question": "šedý", "questionLang": "native", "options": ["gri", "maro", "verde"], "answer": "gri", "reviewed": false },
+        { "id": "u9-l2-e9", "type": "type", "question": "Sukně je zelená.", "answer": "Fusta este verde.", "accept": ["Fusta e verde."], "reviewed": false },
+        { "id": "u9-l2-e10", "type": "build", "question": "Mám modrý svetr a bílou košili.", "answer": "Am un pulover albastru și o cămașă albă.", "extra": ["alb"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u9-l3",
+      "title": "Můžu si to zkusit?",
+      "titleTarget": "Pot să probez?",
+      "reviewed": false,
+      "tip": {
+        "title": "Chci jít = vreau să merg",
+        "text": "Po slovesech „chci“ a „můžu“ se česky dává infinitiv: chci jít, můžu zaplatit. Rumunsky se infinitiv nepoužije. Místo něj přijde să a sloveso ve stejné osobě – doslova „chci, ať jdu“: vreau să merg. Další příklady: pot să plătesc (můžu zaplatit), vreau să probez (chci si zkusit), vrei să probezi? (chceš si zkusit?).",
+        "examples": [
+          { "target": "Pot să probez?", "native": "Můžu si to zkusit?" },
+          { "target": "Vreau să plătesc.", "native": "Chci zaplatit." },
+          { "target": "Vreau să merg acasă.", "native": "Chci jít domů." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u9-l3-w1", "target": "Pot să probez?", "native": "můžu si to zkusit?", "note": "Otázka v obchodě s oblečením. Pot = můžu, a proba = zkoušet.", "reviewed": false },
+        { "id": "u9-l3-w2", "target": "o mărime", "native": "velikost", "note": "mărimea = ta velikost; množné číslo: mărimi. Čte se „mă-RI-me“.", "reviewed": false },
+        { "id": "u9-l3-w3", "target": "prea mare", "native": "příliš velký", "note": "prea = příliš. Pro ženský rod stejně: rochia e prea mare.", "reviewed": false },
+        { "id": "u9-l3-w4", "target": "prea mic", "native": "příliš malý", "note": "Ženský rod: prea mică.", "reviewed": false },
+        { "id": "u9-l3-w5", "target": "a plăti", "native": "platit; zaplatit", "note": "Slovanské slovo, jako české platit. Plătesc = platím, zaplatím. Čte se „a plă-TI“.", "reviewed": false },
+        { "id": "u9-l3-w6", "target": "cu cardul", "native": "kartou", "note": "Doslova „s tou kartou“ – s členem, jako cu trenul (vlakem).", "reviewed": false },
+        { "id": "u9-l3-w7", "target": "în numerar", "native": "hotově", "note": "Plătesc în numerar. = Zaplatím hotově. Hovorově také „cash“: Plătesc cash. Čte se „yn nu-me-RAR“.", "reviewed": false },
+        { "id": "u9-l3-w8", "target": "Îl iau", "native": "vezmu si ho", "note": "Îl = ho (mužský a střední rod). Pro ženský rod: O iau. = Vezmu si ji. Čte se „îl jau“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u9-l3-e1", "type": "choice", "question": "Îl iau", "questionLang": "target", "options": ["vezmu si ho", "příliš malý", "velikost"], "answer": "vezmu si ho", "reviewed": false },
+        { "id": "u9-l3-e2", "type": "choice", "question": "velikost", "questionLang": "native", "options": ["o mărime", "un pulover", "în numerar"], "answer": "o mărime", "reviewed": false },
+        { "id": "u9-l3-e3", "type": "match", "pairs": [
+          { "target": "prea mare", "native": "příliš velký" },
+          { "target": "prea mic", "native": "příliš malý" },
+          { "target": "cu cardul", "native": "kartou" },
+          { "target": "în numerar", "native": "hotově" }
+        ], "reviewed": false },
+        { "id": "u9-l3-e4", "type": "listen", "audio": "Pot să probez?", "options": ["Pot să probez?", "Pot să plătesc?", "Vreau să plătesc."], "answer": "Pot să probez?", "reviewed": false },
+        { "id": "u9-l3-e5", "type": "listen", "audio": "Rochia este prea mică.", "options": ["Šaty jsou příliš malé.", "Šaty jsou příliš velké.", "Sukně je příliš malá."], "answer": "Šaty jsou příliš malé.", "reviewed": false },
+        { "id": "u9-l3-e6", "type": "fill", "sentence": "Vreau să ___ în numerar.", "translation": "Chci zaplatit hotově.", "options": ["plătesc", "a plăti", "plătit"], "answer": "plătesc", "explain": "Po să stojí sloveso v osobě: vreau să plătesc = chci zaplatit.", "reviewed": false },
+        { "id": "u9-l3-e7", "type": "fill", "sentence": "Vreau ___ probez pantalonii.", "translation": "Chci si zkusit kalhoty.", "options": ["să", "de", "la"], "answer": "să", "explain": "Po vreau a pot přichází să: vreau să probez.", "reviewed": false },
+        { "id": "u9-l3-e8", "type": "choice", "prompt": "Prodavačka se ptá, jak budete platit. Co odpovíte?", "question": "Kartou, prosím.", "questionLang": "native", "options": ["Cu cardul, vă rog.", "În numerar, vă rog.", "Îl iau, vă rog."], "answer": "Cu cardul, vă rog.", "reviewed": false },
+        { "id": "u9-l3-e9", "type": "type", "question": "Můžu zaplatit kartou?", "answer": "Pot să plătesc cu cardul?", "reviewed": false },
+        { "id": "u9-l3-e10", "type": "build", "question": "Ta košile je příliš velká.", "answer": "Cămașa este prea mare.", "extra": ["mică"], "reviewed": false }
+      ]
+    }
+  ]
+}

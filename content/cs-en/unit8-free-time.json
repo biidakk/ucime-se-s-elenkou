@@ -1,0 +1,146 @@
+{
+  "id": "u8",
+  "level": "A1",
+  "title": "Volný čas",
+  "titleTarget": "Free time",
+  "description": "Dny v týdnu, koníčky a co umíte dělat.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u8-l1",
+      "title": "Dny v týdnu",
+      "titleTarget": "Days of the week",
+      "reviewed": false,
+      "tip": {
+        "title": "On Monday, at the weekend",
+        "text": "Dny v týdnu se anglicky píší vždy s velkým písmenem: Monday, Friday. Česky řekneme „v pondělí“, anglicky on Monday. „O víkendu“ se britsky řekne at the weekend. Pozor na výslovnost: Wednesday se čte „wenz-dej“ (první d se nevyslovuje), Tuesday „tjúz-dej“ a Thursday začíná stejným th jako three.",
+        "examples": [
+          { "target": "See you on Monday!", "native": "Uvidíme se v pondělí!" },
+          { "target": "What do you do at the weekend?", "native": "Co děláte o víkendu?" },
+          { "target": "It's Wednesday today.", "native": "Dnes je středa." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l1-w1", "target": "Monday", "native": "pondělí", "note": "Vždy velké písmeno. V pondělí = on Monday.", "reviewed": false },
+        { "id": "u8-l1-w2", "target": "Tuesday", "native": "úterý", "note": "Čte se „tjúz-dej“.", "reviewed": false },
+        { "id": "u8-l1-w3", "target": "Wednesday", "native": "středa", "note": "Čte se „wenz-dej“, první d se nevyslovuje.", "reviewed": false },
+        { "id": "u8-l1-w4", "target": "Thursday", "native": "čtvrtek", "note": "Th na začátku jako ve slově three.", "reviewed": false },
+        { "id": "u8-l1-w5", "target": "Friday", "native": "pátek", "reviewed": false },
+        { "id": "u8-l1-w6", "target": "Saturday", "native": "sobota", "reviewed": false },
+        { "id": "u8-l1-w7", "target": "Sunday", "native": "neděle", "reviewed": false },
+        { "id": "u8-l1-w8", "target": "weekend", "native": "víkend", "note": "O víkendu = britsky at the weekend.", "reviewed": false },
+        { "id": "u8-l1-w9", "target": "week", "native": "týden", "note": "Každý týden = every week.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l1-e1", "type": "choice", "question": "Wednesday", "questionLang": "target", "options": ["středa", "čtvrtek", "neděle"], "answer": "středa", "reviewed": false },
+        { "id": "u8-l1-e2", "type": "choice", "question": "sobota", "questionLang": "native", "options": ["Saturday", "Sunday", "Tuesday"], "answer": "Saturday", "reviewed": false },
+        { "id": "u8-l1-e3", "type": "match", "pairs": [
+          { "target": "Monday", "native": "pondělí" },
+          { "target": "Tuesday", "native": "úterý" },
+          { "target": "Thursday", "native": "čtvrtek" },
+          { "target": "Friday", "native": "pátek" },
+          { "target": "Sunday", "native": "neděle" }
+        ], "reviewed": false },
+        { "id": "u8-l1-e4", "type": "listen", "audio": "It's Tuesday today.", "options": ["It's Tuesday today.", "It's Thursday today.", "It's Wednesday today."], "answer": "It's Tuesday today.", "reviewed": false },
+        { "id": "u8-l1-e5", "type": "listen", "audio": "At the weekend I get up at nine.", "options": ["O víkendu vstávám v devět.", "V neděli vstávám v devět.", "Každý den vstávám v devět."], "answer": "O víkendu vstávám v devět.", "reviewed": false },
+        { "id": "u8-l1-e6", "type": "fill", "sentence": "See you ___ Friday!", "translation": "Uvidíme se v pátek!", "options": ["on", "in", "at"], "answer": "on", "explain": "Před dny v týdnu se dává on: on Friday = v pátek.", "reviewed": false },
+        { "id": "u8-l1-e7", "type": "fill", "sentence": "What do you do ___ the weekend?", "translation": "Co děláte o víkendu?", "options": ["at", "in", "to"], "answer": "at", "explain": "Britové říkají at the weekend = o víkendu.", "reviewed": false },
+        { "id": "u8-l1-e8", "type": "type", "question": "Dnes je pátek.", "answer": "It's Friday today.", "accept": ["Today is Friday."], "reviewed": false },
+        { "id": "u8-l1-e9", "type": "build", "question": "Jaký je dnes den?", "answer": "What day is it today?", "extra": ["does"], "reviewed": false },
+        { "id": "u8-l1-e10", "type": "speak", "text": "Wednesday, Thursday, Friday.", "native": "Středa, čtvrtek, pátek.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l2",
+      "title": "Koníčky",
+      "titleTarget": "Hobbies",
+      "reviewed": false,
+      "tip": {
+        "title": "Co děláte rádi: like + -ing",
+        "text": "Česky řekneme „rád plavu“ nebo „baví mě plavání“. Anglicky použijte like (mít rád) nebo love (moc rád) a ke slovesu přidejte -ing: I like swimming. Pozor na pravopis: swim → swimming (dvě m), dance → dancing (bez e), travel → travelling (britsky dvě l). V otázce nezapomeňte na do: Do you like dancing? – Yes, I do. U he a she přidejte -s: She likes singing.",
+        "examples": [
+          { "target": "I like swimming.", "native": "Baví mě plavání." },
+          { "target": "My wife loves dancing.", "native": "Moje žena moc ráda tančí." },
+          { "target": "Do you like travelling? – Yes, I do.", "native": "Baví vás cestování? – Ano." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l2-w1", "target": "music", "native": "hudba", "reviewed": false },
+        { "id": "u8-l2-w2", "target": "film", "native": "film", "note": "Britsky film, americky movie.", "reviewed": false },
+        { "id": "u8-l2-w3", "target": "gardening", "native": "práce na zahradě", "note": "I like gardening. = Baví mě práce na zahradě.", "reviewed": false },
+        { "id": "u8-l2-w4", "target": "go for a walk", "native": "jít na procházku", "note": "Ve walk se l nečte: „wók“.", "reviewed": false },
+        { "id": "u8-l2-w5", "target": "swim", "native": "plavat", "note": "S -ing zdvojené m: swimming.", "reviewed": false },
+        { "id": "u8-l2-w6", "target": "dance", "native": "tančit", "note": "S -ing bez e: dancing.", "reviewed": false },
+        { "id": "u8-l2-w7", "target": "sing", "native": "zpívat", "reviewed": false },
+        { "id": "u8-l2-w8", "target": "play cards", "native": "hrát karty", "reviewed": false },
+        { "id": "u8-l2-w9", "target": "travel", "native": "cestovat", "note": "S -ing britsky dvě l: travelling.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l2-e1", "type": "choice", "question": "gardening", "questionLang": "target", "options": ["práce na zahradě", "hudba", "cestování"], "answer": "práce na zahradě", "reviewed": false },
+        { "id": "u8-l2-e2", "type": "choice", "question": "zpívat", "questionLang": "native", "options": ["sing", "swim", "dance"], "answer": "sing", "reviewed": false },
+        { "id": "u8-l2-e3", "type": "match", "pairs": [
+          { "target": "dance", "native": "tančit" },
+          { "target": "travel", "native": "cestovat" },
+          { "target": "play cards", "native": "hrát karty" },
+          { "target": "go for a walk", "native": "jít na procházku" },
+          { "target": "swim", "native": "plavat" }
+        ], "reviewed": false },
+        { "id": "u8-l2-e4", "type": "listen", "audio": "We often go for a walk.", "options": ["Často chodíme na procházku.", "Často chodíme do práce.", "Často hrajeme karty."], "answer": "Často chodíme na procházku.", "reviewed": false },
+        { "id": "u8-l2-e5", "type": "listen", "audio": "Do you like singing?", "options": ["Do you like singing?", "Do you like swimming?", "Do you like dancing?"], "answer": "Do you like singing?", "reviewed": false },
+        { "id": "u8-l2-e6", "type": "fill", "sentence": "I like ___.", "translation": "Baví mě plavání.", "options": ["swimming", "swim", "swims"], "answer": "swimming", "explain": "Po like má sloveso koncovku -ing a u swim se m zdvojí: swimming.", "reviewed": false },
+        { "id": "u8-l2-e7", "type": "fill", "sentence": "My husband ___ playing cards.", "translation": "Můj manžel rád hraje karty.", "options": ["likes", "like", "liking"], "answer": "likes", "explain": "U he a she má sloveso -s: he likes.", "reviewed": false },
+        { "id": "u8-l2-e8", "type": "type", "question": "Baví mě dívat se na filmy.", "answer": "I like watching films.", "accept": ["I like to watch films."], "reviewed": false },
+        { "id": "u8-l2-e9", "type": "build", "question": "Baví vás cestování?", "answer": "Do you like travelling?", "extra": ["are"], "reviewed": false },
+        { "id": "u8-l2-e10", "type": "speak", "text": "I love music.", "native": "Miluji hudbu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u8-l3",
+      "title": "Co umíte?",
+      "titleTarget": "What can you do?",
+      "reviewed": false,
+      "tip": {
+        "title": "Can: bez do a bez -s",
+        "text": "Can znamená „umím“ nebo „můžu“. Má jeden tvar pro všechny osoby: I can, she can (bez -s!). Za can následuje sloveso bez to: I can swim. Zápor je can't, britsky se čte „kánt“. V otázce dejte can na začátek, do se nepoužívá: Can you drive? – Yes, I can. Nikdy neříkejte „Do you can…?“.",
+        "examples": [
+          { "target": "I can swim.", "native": "Umím plavat." },
+          { "target": "She can't drive.", "native": "Ona neumí řídit." },
+          { "target": "Can you speak English? – Yes, I can.", "native": "Mluvíte anglicky? – Ano." },
+          { "target": "Can you help me?", "native": "Můžete mi pomoct?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u8-l3-w1", "target": "can", "native": "umět; moct", "note": "Pro všechny osoby stejně: I can, she can.", "reviewed": false },
+        { "id": "u8-l3-w2", "target": "can't", "native": "neumět; nemoct", "note": "= cannot. Britsky se čte „kánt“.", "reviewed": false },
+        { "id": "u8-l3-w3", "target": "drive", "native": "řídit", "note": "Řídit auto = drive a car.", "reviewed": false },
+        { "id": "u8-l3-w4", "target": "speak", "native": "mluvit", "note": "Mluvit anglicky = speak English.", "reviewed": false },
+        { "id": "u8-l3-w5", "target": "understand", "native": "rozumět", "note": "Nerozumím. = I don't understand.", "reviewed": false },
+        { "id": "u8-l3-w6", "target": "help", "native": "pomoct", "reviewed": false },
+        { "id": "u8-l3-w7", "target": "draw", "native": "kreslit", "note": "Čte se „dró“.", "reviewed": false },
+        { "id": "u8-l3-w8", "target": "paint", "native": "malovat", "note": "Barvami, štětcem.", "reviewed": false },
+        { "id": "u8-l3-w9", "target": "play the piano", "native": "hrát na klavír", "note": "U hudebních nástrojů se dává the.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u8-l3-e1", "type": "choice", "question": "understand", "questionLang": "target", "options": ["rozumět", "pomoct", "mluvit"], "answer": "rozumět", "reviewed": false },
+        { "id": "u8-l3-e2", "type": "choice", "question": "kreslit", "questionLang": "native", "options": ["draw", "drive", "speak"], "answer": "draw", "reviewed": false },
+        { "id": "u8-l3-e3", "type": "match", "pairs": [
+          { "target": "drive", "native": "řídit" },
+          { "target": "speak", "native": "mluvit" },
+          { "target": "help", "native": "pomoct" },
+          { "target": "paint", "native": "malovat" },
+          { "target": "play the piano", "native": "hrát na klavír" }
+        ], "reviewed": false },
+        { "id": "u8-l3-e4", "type": "listen", "audio": "I can't drive.", "options": ["Neumím řídit.", "Umím řídit.", "Umím malovat."], "answer": "Neumím řídit.", "reviewed": false },
+        { "id": "u8-l3-e5", "type": "listen", "audio": "Can you speak English?", "options": ["Can you speak English?", "Can you speak Czech?", "Can you play the piano?"], "answer": "Can you speak English?", "reviewed": false },
+        { "id": "u8-l3-e6", "type": "fill", "sentence": "Can you swim? – Yes, I ___.", "translation": "Umíte plavat? – Ano, umím.", "options": ["can", "do", "am"], "answer": "can", "explain": "Na otázku s can se odpovídá také s can: Yes, I can.", "reviewed": false },
+        { "id": "u8-l3-e7", "type": "fill", "sentence": "She ___ play the piano.", "translation": "Ona umí hrát na klavír.", "options": ["can", "cans", "does can"], "answer": "can", "explain": "Can je pro všechny osoby stejné, nikdy nemá -s ani do.", "reviewed": false },
+        { "id": "u8-l3-e8", "type": "type", "question": "Umíte řídit?", "answer": "Can you drive?", "reviewed": false },
+        { "id": "u8-l3-e9", "type": "build", "question": "Moje dcera umí hrát na klavír.", "answer": "My daughter can play the piano.", "extra": ["to"], "reviewed": false },
+        { "id": "u8-l3-e10", "type": "speak", "text": "Sorry, I don't understand.", "native": "Promiňte, nerozumím.", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "u3",
+  "level": "A1",
+  "title": "Rodina",
+  "titleTarget": "My family",
+  "description": "Jak představit rodinu a vnoučata, říct, čí kdo je, a kolik je komu let.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "Moje rodina",
+      "titleTarget": "My family",
+      "reviewed": false,
+      "tip": {
+        "title": "My a your se nemění",
+        "text": "Můj, moje i moji se anglicky řekne vždy my. Váš, vaše, tvůj i tvoje je vždy your. Tvar se nemění podle toho, o kom mluvíte: my son, my wife, my family. Když někoho představujete, řekněte This is… (To je…). Pozor na rozdíl: you = vy, ty; your = váš, tvůj.",
+        "examples": [
+          { "target": "This is my husband, Petr.", "native": "To je můj manžel Petr." },
+          { "target": "This is my daughter, Jana.", "native": "To je moje dcera Jana." },
+          { "target": "Is this your son?", "native": "Je to váš syn?" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l1-w1", "target": "family", "native": "rodina", "note": "Množné číslo families.","reviewed": false },
+        { "id": "u3-l1-w2", "target": "mum", "native": "máma", "note": "Britský tvar (americky mom). Čte se „mam“.", "reviewed": false },
+        { "id": "u3-l1-w3", "target": "dad", "native": "táta", "reviewed": false },
+        { "id": "u3-l1-w4", "target": "husband", "native": "manžel", "reviewed": false },
+        { "id": "u3-l1-w5", "target": "wife", "native": "manželka", "note": "Množné číslo wives. Čte se „wajf“.", "reviewed": false },
+        { "id": "u3-l1-w6", "target": "son", "native": "syn", "note": "Čte se „san“.", "reviewed": false },
+        { "id": "u3-l1-w7", "target": "daughter", "native": "dcera", "note": "Čte se „dó-ta“, gh se nevyslovuje.", "reviewed": false },
+        { "id": "u3-l1-w8", "target": "brother", "native": "bratr", "note": "th jako v this, ne „d“: jazyk mezi zuby.", "reviewed": false },
+        { "id": "u3-l1-w9", "target": "sister", "native": "sestra", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l1-e1", "type": "choice", "question": "This is my husband.", "questionLang": "target", "options": ["To je můj manžel.", "To je můj syn.", "To je můj bratr."], "answer": "To je můj manžel.", "reviewed": false },
+        { "id": "u3-l1-e2", "type": "choice", "question": "dcera", "questionLang": "native", "options": ["daughter", "sister", "wife"], "answer": "daughter", "reviewed": false },
+        { "id": "u3-l1-e3", "type": "match", "pairs": [
+          { "target": "mum", "native": "máma" },
+          { "target": "dad", "native": "táta" },
+          { "target": "son", "native": "syn" },
+          { "target": "brother", "native": "bratr" },
+          { "target": "family", "native": "rodina" }
+        ], "reviewed": false },
+        { "id": "u3-l1-e4", "type": "listen", "audio": "This is my daughter, Anna.", "options": ["This is my daughter, Anna.", "This is my sister, Anna.", "This is my wife, Anna."], "answer": "This is my daughter, Anna.", "reviewed": false },
+        { "id": "u3-l1-e5", "type": "listen", "audio": "Is this your brother?", "options": ["Je to váš bratr?", "To je můj bratr.", "Je to vaše sestra?"], "answer": "Je to váš bratr?", "reviewed": false },
+        { "id": "u3-l1-e6", "type": "fill", "sentence": "This is ___ wife, Jana. She's from Brno.", "translation": "To je moje manželka Jana. Je z Brna.", "options": ["my", "I", "you"], "answer": "my", "explain": "Můj, moje = my. I znamená jen „já“.", "reviewed": false },
+        { "id": "u3-l1-e7", "type": "fill", "sentence": "Is this ___ son?", "translation": "Je to váš syn?", "options": ["your", "you", "you're"], "answer": "your", "explain": "Váš, tvůj = your; you znamená „vy, ty“ a you're = you are.", "reviewed": false },
+        { "id": "u3-l1-e8", "type": "type", "question": "To je můj táta.", "answer": "This is my dad.", "reviewed": false },
+        { "id": "u3-l1-e9", "type": "build", "question": "To je moje rodina.", "answer": "This is my family.", "extra": ["you"], "reviewed": false },
+        { "id": "u3-l1-e10", "type": "speak", "text": "This is my sister.", "native": "To je moje sestra.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "Vnoučata",
+      "titleTarget": "Grandchildren",
+      "reviewed": false,
+      "tip": {
+        "title": "Angličtina nemá „svůj“",
+        "text": "Česky řekneme: Jana je se svým vnukem. Angličtina slovo „svůj“ nemá. Vždy se podívejte, komu věc nebo člověk patří. Patří jemu → his, patří jí → her: Petr and his wife, Jana and her grandson. Podobně our (náš) a their (jejich). Místo „syn Anny“ nebo „Annin syn“ řekněte Anna's son – jméno a k němu 's.",
+        "examples": [
+          { "target": "This is Petr and his wife.", "native": "To je Petr a jeho manželka." },
+          { "target": "Jana and her grandson are from Brno.", "native": "Jana a její vnuk jsou z Brna." },
+          { "target": "Anna's son is from London.", "native": "Annin syn je z Londýna." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l2-w1", "target": "child", "native": "dítě", "note": "Množné číslo children („čil-dren“).", "reviewed": false },
+        { "id": "u3-l2-w2", "target": "grandmother", "native": "babička", "note": "Hovorově grandma nebo granny.", "reviewed": false },
+        { "id": "u3-l2-w3", "target": "grandfather", "native": "dědeček", "note": "Hovorově grandad nebo grandpa.", "reviewed": false },
+        { "id": "u3-l2-w4", "target": "grandson", "native": "vnuk", "note": "Čte se „gren-san“, d se obvykle nevyslovuje.", "reviewed": false },
+        { "id": "u3-l2-w5", "target": "granddaughter", "native": "vnučka", "note": "Píše se se dvěma d. Čte se „gren-dó-ta“.", "reviewed": false },
+        { "id": "u3-l2-w6", "target": "his", "native": "jeho", "note": "Když to patří jemu: his wife = jeho (svoje) manželka.", "reviewed": false },
+        { "id": "u3-l2-w7", "target": "her", "native": "její", "note": "Když to patří jí: her son = její (svůj) syn.", "reviewed": false },
+        { "id": "u3-l2-w8", "target": "our", "native": "náš", "note": "Náš, naše, naši – vždy our. Čte se „aua“.", "reviewed": false },
+        { "id": "u3-l2-w9", "target": "their", "native": "jejich", "note": "th jako v this. Zní stejně jako there.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l2-e1", "type": "choice", "question": "her daughter", "questionLang": "target", "options": ["její dcera", "jeho dcera", "naše dcera"], "answer": "její dcera", "reviewed": false },
+        { "id": "u3-l2-e2", "type": "choice", "question": "vnučka", "questionLang": "native", "options": ["granddaughter", "grandson", "grandmother"], "answer": "granddaughter", "reviewed": false },
+        { "id": "u3-l2-e3", "type": "match", "pairs": [
+          { "target": "child", "native": "dítě" },
+          { "target": "grandmother", "native": "babička" },
+          { "target": "grandfather", "native": "dědeček" },
+          { "target": "grandson", "native": "vnuk" },
+          { "target": "our", "native": "náš" }
+        ], "reviewed": false },
+        { "id": "u3-l2-e4", "type": "listen", "audio": "This is our grandson.", "options": ["This is our grandson.", "This is their grandson.", "This is her grandson."], "answer": "This is our grandson.", "reviewed": false },
+        { "id": "u3-l2-e5", "type": "listen", "audio": "Their children are from Scotland.", "options": ["Jejich děti jsou ze Skotska.", "Naše děti jsou ze Skotska.", "Jejich děti nejsou ze Skotska."], "answer": "Jejich děti jsou ze Skotska.", "reviewed": false },
+        { "id": "u3-l2-e6", "type": "fill", "sentence": "This is Petr and ___ wife, Eva.", "translation": "To je Petr a jeho manželka Eva.", "options": ["his", "her", "their"], "answer": "his", "explain": "Manželka patří k Petrovi (k němu), proto his.", "reviewed": false },
+        { "id": "u3-l2-e7", "type": "fill", "sentence": "Jana and ___ husband are from Brno.", "translation": "Jana a její manžel jsou z Brna.", "options": ["her", "his", "our"], "answer": "her", "explain": "Manžel patří k Janě (k ní), proto her.", "reviewed": false },
+        { "id": "u3-l2-e8", "type": "fill", "sentence": "This is ___ son.", "translation": "To je Annin syn.", "options": ["Anna's", "Anna", "Annas"], "answer": "Anna's", "explain": "Annin = Anna's: jméno a k němu 's.", "reviewed": false },
+        { "id": "u3-l2-e9", "type": "type", "question": "To je naše babička.", "answer": "This is our grandmother.", "accept": ["This is our grandma.", "This is our granny."], "reviewed": false },
+        { "id": "u3-l2-e10", "type": "build", "question": "Jejich vnuk je z Anglie.", "answer": "Their grandson is from England.", "extra": ["they"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Kolik je vám let?",
+      "titleTarget": "How old are you?",
+      "reviewed": false,
+      "tip": {
+        "title": "I'm seventy – věk se říká s be",
+        "text": "Věk se anglicky neříká slovem „mám“, ale „jsem“: I'm seventy. = Je mi sedmdesát. Nikdy I have seventy years. Můžete přidat years old: I'm seventy years old. Čísla 13–19 končí na -teen a důraz mají na konci: thir-TEEN. Desítky končí na -ty a důraz mají na začátku: THIR-ty. Další desítky: forty (pozor, bez u), fifty, sixty, seventy, eighty, ninety. Mezi desítky a jednotky patří spojovník: twenty-one.",
+        "examples": [
+          { "target": "How old are you? – I'm seventy.", "native": "Kolik je vám let? – Je mi sedmdesát." },
+          { "target": "My grandson is thirteen.", "native": "Mému vnukovi je třináct." },
+          { "target": "My mum is ninety years old.", "native": "Mé mámě je devadesát let." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l3-w1", "target": "ten", "native": "deset", "reviewed": false },
+        { "id": "u3-l3-w2", "target": "eleven", "native": "jedenáct", "note": "Důraz uprostřed: „i-LEV-n“.", "reviewed": false },
+        { "id": "u3-l3-w3", "target": "twelve", "native": "dvanáct", "note": "w zní jako krátké u, ne v.", "reviewed": false },
+        { "id": "u3-l3-w4", "target": "thirteen", "native": "třináct", "note": "Důraz na konci: thir-TEEN. Nepleťte si s thirty.", "reviewed": false },
+        { "id": "u3-l3-w5", "target": "twenty", "native": "dvacet", "note": "Dvacet jedna = twenty-one.", "reviewed": false },
+        { "id": "u3-l3-w6", "target": "thirty", "native": "třicet", "note": "Důraz na začátku: THIR-ty; r se nevyslovuje.", "reviewed": false },
+        { "id": "u3-l3-w7", "target": "hundred", "native": "sto", "note": "Sto = a hundred nebo one hundred.", "reviewed": false },
+        { "id": "u3-l3-w8", "target": "How old are you?", "native": "Kolik je vám let?", "note": "Platí i pro „Kolik je ti let?“. Doslova „Jak starý jste?“.", "reviewed": false },
+        { "id": "u3-l3-w9", "target": "years old", "native": "let", "note": "O věku: I'm seventy years old. = Je mi sedmdesát let.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l3-e1", "type": "choice", "question": "thirteen", "questionLang": "target", "options": ["třináct", "třicet", "tři"], "answer": "třináct", "reviewed": false },
+        { "id": "u3-l3-e2", "type": "choice", "question": "Kolik je vám let?", "questionLang": "native", "options": ["How old are you?", "How are you?", "Where are you from?"], "answer": "How old are you?", "reviewed": false },
+        { "id": "u3-l3-e3", "type": "match", "pairs": [
+          { "target": "ten", "native": "deset" },
+          { "target": "eleven", "native": "jedenáct" },
+          { "target": "twelve", "native": "dvanáct" },
+          { "target": "twenty", "native": "dvacet" },
+          { "target": "hundred", "native": "sto" }
+        ], "reviewed": false },
+        { "id": "u3-l3-e4", "type": "listen", "audio": "thirty", "options": ["thirty", "thirteen", "three"], "answer": "thirty", "reviewed": false },
+        { "id": "u3-l3-e5", "type": "listen", "audio": "My grandson is twelve.", "options": ["Mému vnukovi je dvanáct.", "Mému vnukovi je dvacet.", "Mému synovi je dvanáct."], "answer": "Mému vnukovi je dvanáct.", "reviewed": false },
+        { "id": "u3-l3-e6", "type": "fill", "sentence": "I ___ seventy.", "translation": "Je mi sedmdesát.", "options": ["am", "have", "is"], "answer": "am", "explain": "Věk se říká se slovesem be: I am seventy. Nikdy I have.", "reviewed": false },
+        { "id": "u3-l3-e7", "type": "fill", "sentence": "She's thirty years ___.", "translation": "Je jí třicet let.", "options": ["old", "age", "year"], "answer": "old", "explain": "O věku se říká years old: thirty years old.", "reviewed": false },
+        { "id": "u3-l3-e8", "type": "type", "question": "Mé babičce je sto let.", "answer": "My grandmother is a hundred.", "accept": ["My grandmother is one hundred.", "My grandmother is a hundred years old.", "My grandmother is one hundred years old.", "My grandma is a hundred.", "My grandma is a hundred years old.", "My grandma is one hundred.", "My grandma is one hundred years old.", "My granny is a hundred.", "My granny is a hundred years old."], "reviewed": false },
+        { "id": "u3-l3-e9", "type": "build", "question": "Je mi sedmdesát let.", "answer": "I am seventy years old.", "extra": ["have"], "reviewed": false },
+        { "id": "u3-l3-e10", "type": "speak", "text": "Eleven, twelve, thirteen.", "native": "Jedenáct, dvanáct, třináct.", "reviewed": false }
+      ]
+    }
+  ]
+}

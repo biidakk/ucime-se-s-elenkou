@@ -1,0 +1,144 @@
+{
+  "id": "u2",
+  "level": "A1",
+  "title": "Odkud jste?",
+  "titleTarget": "Where are you from?",
+  "description": "On, ona, my; země, jazyky a národnosti; čísla od jedné do devíti.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "On, ona, my",
+      "titleTarget": "He, she, we",
+      "reviewed": false,
+      "tip": {
+        "title": "Vždy řekněte, kdo – i u věcí",
+        "text": "Česky stačí říct „Je z Brna.“ Anglicky musíte vždy říct, kdo: He is from Brno (on), She is from Brno (ona). Pro věci, zvířata a místa se říká it, nikdy he ani she. Pro více lidí: we are (my jsme), they are (oni jsou). V hovoru se tvary zkracují: he's, she's, it's, we're, they're.",
+        "examples": [
+          { "target": "This is Petr. He's from Brno.", "native": "To je Petr. Je z Brna." },
+          { "target": "Where is London? – It's in England.", "native": "Kde je Londýn? – Je v Anglii." },
+          { "target": "We're from Prague.", "native": "Jsme z Prahy." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l1-w1", "target": "he", "native": "on", "note": "Jen o muži nebo chlapci. Zkráceně he's = he is.", "reviewed": false },
+        { "id": "u2-l1-w2", "target": "she", "native": "ona", "note": "Jen o ženě nebo dívce. Zkráceně she's = she is.", "reviewed": false },
+        { "id": "u2-l1-w3", "target": "it", "native": "ono; to", "note": "Pro věci, zvířata a místa (stůl, kniha, Londýn – vždy it).", "reviewed": false },
+        { "id": "u2-l1-w4", "target": "we", "native": "my", "note": "We are = my jsme, zkráceně we're.", "reviewed": false },
+        { "id": "u2-l1-w5", "target": "they", "native": "oni", "note": "Oni, ony i ona (ta auta) – vždy they.", "reviewed": false },
+        { "id": "u2-l1-w6", "target": "where", "native": "kde", "note": "Čte se „wé“, h se nevyslovuje.", "reviewed": false },
+        { "id": "u2-l1-w7", "target": "from", "native": "z; od", "note": "I'm from Brno. = Jsem z Brna.", "reviewed": false },
+        { "id": "u2-l1-w8", "target": "Where are you from?", "native": "Odkud jste?", "note": "Platí i pro „Odkud jsi?“. Slovo from je na konci věty.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l1-e1", "type": "choice", "question": "We are from Prague.", "questionLang": "target", "options": ["Jsme z Prahy.", "Jsou z Prahy.", "Je z Prahy."], "answer": "Jsme z Prahy.", "reviewed": false },
+        { "id": "u2-l1-e2", "type": "choice", "question": "ona", "questionLang": "native", "options": ["she", "he", "it"], "answer": "she", "reviewed": false },
+        { "id": "u2-l1-e3", "type": "match", "pairs": [
+          { "target": "he", "native": "on" },
+          { "target": "she", "native": "ona" },
+          { "target": "we", "native": "my" },
+          { "target": "they", "native": "oni" },
+          { "target": "where", "native": "kde" }
+        ], "reviewed": false },
+        { "id": "u2-l1-e4", "type": "listen", "audio": "Where are you from?", "options": ["Where are you from?", "How are you?", "What's your name?"], "answer": "Where are you from?", "reviewed": false },
+        { "id": "u2-l1-e5", "type": "listen", "audio": "They're from London.", "options": ["Jsou z Londýna.", "Jsme z Londýna.", "Je z Londýna."], "answer": "Jsou z Londýna.", "reviewed": false },
+        { "id": "u2-l1-e6", "type": "fill", "sentence": "This is Petr. ___ is from Brno.", "translation": "To je Petr. Je z Brna.", "options": ["He", "She", "It"], "answer": "He", "explain": "Petr je muž, proto he (on). Anglicky musíte podmět vždy říct.", "reviewed": false },
+        { "id": "u2-l1-e7", "type": "fill", "sentence": "Where is London? – ___ is in England.", "translation": "Kde je Londýn? – Je v Anglii.", "options": ["It", "He", "She"], "answer": "It", "explain": "Pro města a věci se vždy říká it, nikdy he ani she.", "reviewed": false },
+        { "id": "u2-l1-e8", "type": "fill", "sentence": "Eva and Tom ___ from London.", "translation": "Eva a Tom jsou z Londýna.", "options": ["are", "is", "am"], "answer": "are", "explain": "Eva a Tom jsou dva, tedy they, a k they patří are.", "reviewed": false },
+        { "id": "u2-l1-e9", "type": "type", "question": "Odkud jste?", "answer": "Where are you from?", "reviewed": false },
+        { "id": "u2-l1-e10", "type": "build", "question": "Jsme z Brna.", "answer": "We are from Brno.", "extra": ["is"], "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "Země a jazyky",
+      "titleTarget": "Countries and languages",
+      "reviewed": false,
+      "tip": {
+        "title": "Velká písmena a „the“ u zemí",
+        "text": "Anglicky se velkým písmenem píšou nejen země, ale i jazyky a národnosti: English, Czech, British. Většina zemí je bez členu: England, Scotland, Germany. Některé ale mají the – hlavně ty se slovem republic nebo kingdom: the Czech Republic, the UK. Zápor vytvoříte slovem not: is not → isn't, are not → aren't.",
+        "examples": [
+          { "target": "I'm from the Czech Republic.", "native": "Jsem z Česka." },
+          { "target": "Tom isn't from England. He's from Scotland.", "native": "Tom není z Anglie. Je ze Skotska." },
+          { "target": "We aren't English. We're Czech.", "native": "Nejsme Angličané. Jsme Češi." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l2-w1", "target": "the Czech Republic", "native": "Česko", "note": "Vždy s the. Krátce také Czechia.", "reviewed": false },
+        { "id": "u2-l2-w2", "target": "England", "native": "Anglie", "note": "Anglie je jen část Británie; Skotsko a Wales jsou jiné země.", "reviewed": false },
+        { "id": "u2-l2-w3", "target": "Scotland", "native": "Skotsko", "reviewed": false },
+        { "id": "u2-l2-w4", "target": "Germany", "native": "Německo", "note": "Německý, němčina = German.", "reviewed": false },
+        { "id": "u2-l2-w5", "target": "country", "native": "země", "note": "Čte se „kan-tri“. Množné číslo countries.", "reviewed": false },
+        { "id": "u2-l2-w6", "target": "Czech", "native": "český; čeština", "note": "Také Čech, Češka. Vždy s velkým C. Čte se „ček“.", "reviewed": false },
+        { "id": "u2-l2-w7", "target": "English", "native": "anglický; angličtina", "note": "Vždy s velkým E.", "reviewed": false },
+        { "id": "u2-l2-w8", "target": "British", "native": "britský", "note": "Z Velké Británie: Angličané, Skotové i Velšané jsou British.", "reviewed": false },
+        { "id": "u2-l2-w9", "target": "language", "native": "jazyk", "note": "Jen řeč, ne jazyk v ústech. Čte se „leng-gwidž“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l2-e1", "type": "choice", "question": "Germany", "questionLang": "target", "options": ["Německo", "Anglie", "Skotsko"], "answer": "Německo", "reviewed": false },
+        { "id": "u2-l2-e2", "type": "choice", "question": "jazyk", "questionLang": "native", "options": ["language", "country", "English"], "answer": "language", "reviewed": false },
+        { "id": "u2-l2-e3", "type": "match", "pairs": [
+          { "target": "England", "native": "Anglie" },
+          { "target": "Scotland", "native": "Skotsko" },
+          { "target": "Germany", "native": "Německo" },
+          { "target": "country", "native": "země" },
+          { "target": "British", "native": "britský" }
+        ], "reviewed": false },
+        { "id": "u2-l2-e4", "type": "listen", "audio": "I'm from the Czech Republic.", "options": ["I'm from the Czech Republic.", "I'm from Germany.", "I'm from England."], "answer": "I'm from the Czech Republic.", "reviewed": false },
+        { "id": "u2-l2-e5", "type": "listen", "audio": "She isn't English. She's Czech.", "options": ["Není Angličanka. Je Češka.", "Je Angličanka, ne Češka.", "Není Češka. Je Angličanka."], "answer": "Není Angličanka. Je Češka.", "reviewed": false },
+        { "id": "u2-l2-e6", "type": "fill", "sentence": "I'm from ___ Czech Republic.", "translation": "Jsem z Česka.", "options": ["the", "a", "an"], "answer": "the", "explain": "The Czech Republic se říká vždy se členem the.", "reviewed": false },
+        { "id": "u2-l2-e7", "type": "fill", "sentence": "We ___ from England. We're from Scotland.", "translation": "Nejsme z Anglie. Jsme ze Skotska.", "options": ["aren't", "isn't", "not"], "answer": "aren't", "explain": "K we patří are, zápor je are not, zkráceně aren't.", "reviewed": false },
+        { "id": "u2-l2-e8", "type": "type", "question": "Jsem z Česka.", "answer": "I'm from the Czech Republic.", "accept": ["I'm from Czechia."], "reviewed": false },
+        { "id": "u2-l2-e9", "type": "build", "question": "Skotsko není v Anglii.", "answer": "Scotland isn't in England.", "extra": ["aren't"], "reviewed": false },
+        { "id": "u2-l2-e10", "type": "speak", "text": "Hello, I'm from the Czech Republic.", "native": "Dobrý den, jsem z Česka.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Čísla 1–9",
+      "titleTarget": "Numbers one to nine",
+      "reviewed": false,
+      "tip": {
+        "title": "Otázky s be a telefonní čísla",
+        "text": "Otázku vytvoříte tak, že prohodíte pořadí slov: You are from England. → Are you from England? She is Czech. → Is she Czech? Krátká odpověď: Yes, I am. – No, I'm not. Telefonní číslo se čte po jedné číslici a nulu Britové často vyslovují jako písmeno O, tedy „ou“. Pozor na three: th vyslovte se špičkou jazyka lehce mezi zuby, ne „trí“ ani „frí“.",
+        "examples": [
+          { "target": "Are you from England? – No, I'm not.", "native": "Jste z Anglie? – Ne, nejsem." },
+          { "target": "Is he from Scotland? – Yes, he is.", "native": "Je ze Skotska? – Ano, je." },
+          { "target": "My number is oh one two three.", "native": "Moje číslo je nula jedna dva tři." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l3-w1", "target": "one", "native": "jedna", "note": "Čte se „wan“.", "reviewed": false },
+        { "id": "u2-l3-w2", "target": "two", "native": "dva", "note": "Čte se „tú“, w se nevyslovuje.", "reviewed": false },
+        { "id": "u2-l3-w3", "target": "three", "native": "tři", "note": "th: špička jazyka mezi zuby, ne „trí“.", "reviewed": false },
+        { "id": "u2-l3-w4", "target": "four", "native": "čtyři", "note": "Čte se „fó“.", "reviewed": false },
+        { "id": "u2-l3-w5", "target": "five", "native": "pět", "note": "Čte se „fajv“.", "reviewed": false },
+        { "id": "u2-l3-w6", "target": "six", "native": "šest", "reviewed": false },
+        { "id": "u2-l3-w7", "target": "seven", "native": "sedm", "reviewed": false },
+        { "id": "u2-l3-w8", "target": "eight", "native": "osm", "note": "Čte se „ejt“, gh se nevyslovuje.", "reviewed": false },
+        { "id": "u2-l3-w9", "target": "nine", "native": "devět", "note": "Čte se „najn“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l3-e1", "type": "choice", "question": "eight", "questionLang": "target", "options": ["osm", "tři", "šest"], "answer": "osm", "reviewed": false },
+        { "id": "u2-l3-e2", "type": "choice", "question": "tři", "questionLang": "native", "options": ["three", "two", "five"], "answer": "three", "reviewed": false },
+        { "id": "u2-l3-e3", "type": "match", "pairs": [
+          { "target": "one", "native": "jedna" },
+          { "target": "four", "native": "čtyři" },
+          { "target": "five", "native": "pět" },
+          { "target": "seven", "native": "sedm" },
+          { "target": "nine", "native": "devět" }
+        ], "reviewed": false },
+        { "id": "u2-l3-e4", "type": "listen", "audio": "My number is oh seven nine one.", "options": ["Moje číslo je nula sedm devět jedna.", "Moje číslo je nula sedm jedna devět.", "Moje číslo je sedm nula devět jedna."], "answer": "Moje číslo je nula sedm devět jedna.", "reviewed": false },
+        { "id": "u2-l3-e5", "type": "listen", "audio": "Is she from Scotland?", "options": ["Je ze Skotska?", "Jste ze Skotska?", "Jsou ze Skotska?"], "answer": "Je ze Skotska?", "reviewed": false },
+        { "id": "u2-l3-e6", "type": "fill", "sentence": "___ you from the Czech Republic? – Yes, I am.", "translation": "Jste z Česka? – Ano, jsem.", "options": ["Are", "Is", "Am"], "answer": "Are", "explain": "V otázce stojí sloveso na začátku a k you patří are.", "reviewed": false },
+        { "id": "u2-l3-e7", "type": "fill", "sentence": "Is Anna from Germany? – No, she ___.", "translation": "Je Anna z Německa? – Ne, není.", "options": ["isn't", "aren't", "not"], "answer": "isn't", "explain": "K she patří is, zápor je is not, zkráceně isn't.", "reviewed": false },
+        { "id": "u2-l3-e8", "type": "type", "question": "Jste z Anglie?", "answer": "Are you from England?", "reviewed": false },
+        { "id": "u2-l3-e9", "type": "build", "question": "Ne, nejsem.", "answer": "No, I'm not.", "extra": ["aren't"], "reviewed": false },
+        { "id": "u2-l3-e10", "type": "speak", "text": "One, two, three, four, five.", "native": "Jedna, dva, tři, čtyři, pět.", "reviewed": false }
+      ]
+    }
+  ]
+}

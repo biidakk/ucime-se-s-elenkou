@@ -1,0 +1,144 @@
+{
+  "id": "u5",
+  "level": "A1",
+  "title": "Můj den",
+  "titleTarget": "Mein Tag",
+  "description": "Kolik je hodin, co děláte během dne a dny v týdnu.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u5-l1",
+      "title": "Kolik je hodin?",
+      "titleTarget": "Wie spät ist es?",
+      "reviewed": false,
+      "tip": {
+        "title": "Půl třetí = halb drei",
+        "text": "Půlhodiny Němci počítají stejně jako my – k další hodině: halb drei = půl třetí. Čtvrthodiny ale jinak: Viertel nach drei = čtvrt po třetí, tedy čtvrt na čtyři. Viertel vor drei = čtvrt před třetí, tedy tři čtvrtě na tři. Stejně minuty: fünf nach acht = osm hodin pět minut, zehn vor neun = za deset minut devět. „V osm hodin“ se řekne um acht Uhr. Všimněte si také: „sp“ a „st“ na začátku slova se čtou jako šp a št, takže spät ≈ „špét“.",
+        "examples": [
+          { "target": "Wie spät ist es?", "native": "Kolik je hodin?" },
+          { "target": "Es ist halb drei.", "native": "Je půl třetí." },
+          { "target": "Es ist Viertel nach drei.", "native": "Je čtvrt na čtyři." },
+          { "target": "Ich komme um acht Uhr.", "native": "Přijdu v osm hodin." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l1-w1", "target": "die Uhr", "native": "hodiny; hodinky", "note": "Také u času: um acht Uhr = v osm hodin. Množné číslo: die Uhren", "reviewed": false },
+        { "id": "u5-l1-w2", "target": "Wie spät ist es?", "native": "Kolik je hodin?", "note": "„sp“ na začátku se čte jako šp: [ví špét ist es].", "reviewed": false },
+        { "id": "u5-l1-w3", "target": "halb", "native": "půl", "note": "halb drei = půl třetí; počítá se k další hodině jako v češtině.", "reviewed": false },
+        { "id": "u5-l1-w4", "target": "das Viertel", "native": "čtvrt", "note": "V se čte jako f: [firtl]. Množné číslo: die Viertel", "reviewed": false },
+        { "id": "u5-l1-w5", "target": "nach", "native": "po", "note": "fünf nach acht = osm hodin pět minut", "reviewed": false },
+        { "id": "u5-l1-w6", "target": "vor", "native": "před", "note": "zehn vor neun = za deset minut devět; v se čte jako f: [fór].", "reviewed": false },
+        { "id": "u5-l1-w7", "target": "um", "native": "v (u hodin)", "note": "um acht Uhr = v osm hodin", "reviewed": false },
+        { "id": "u5-l1-w8", "target": "die Minute", "native": "minuta", "note": "Přízvuk: mi-NÚ-te. Množné číslo: die Minuten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l1-e1", "type": "choice", "question": "Wie spät ist es?", "questionLang": "target", "options": ["Kolik je hodin?", "Jak se máte?", "Odkud jste?"], "answer": "Kolik je hodin?", "reviewed": false },
+        { "id": "u5-l1-e2", "type": "choice", "question": "půl", "questionLang": "native", "options": ["halb", "um", "vor"], "answer": "halb", "reviewed": false },
+        { "id": "u5-l1-e3", "type": "match", "pairs": [
+          { "target": "die Uhr", "native": "hodiny" },
+          { "target": "die Minute", "native": "minuta" },
+          { "target": "das Viertel", "native": "čtvrt" },
+          { "target": "halb", "native": "půl" }
+        ], "reviewed": false },
+        { "id": "u5-l1-e4", "type": "listen", "audio": "Es ist halb drei.", "options": ["Je půl třetí.", "Je půl čtvrté.", "Jsou tři hodiny."], "answer": "Je půl třetí.", "reviewed": false },
+        { "id": "u5-l1-e5", "type": "fill", "sentence": "Ich trinke ___ sieben Uhr Kaffee.", "translation": "V sedm hodin piju kávu.", "options": ["um", "Uhr", "Minute"], "answer": "um", "explain": "„V“ u hodin se řekne um: um sieben Uhr = v sedm hodin.", "reviewed": false },
+        { "id": "u5-l1-e6", "type": "fill", "sentence": "Es ist Viertel ___ drei.", "translation": "Je čtvrt na čtyři.", "options": ["nach", "um", "halb"], "answer": "nach", "explain": "Viertel nach drei = čtvrt hodiny po třetí, tedy čtvrt na čtyři.", "reviewed": false },
+        { "id": "u5-l1-e7", "type": "listen", "audio": "Es ist zehn vor neun.", "options": ["Es ist zehn vor neun.", "Es ist zehn nach neun.", "Es ist halb neun."], "answer": "Es ist zehn vor neun.", "reviewed": false },
+        { "id": "u5-l1-e8", "type": "type", "question": "Kolik je hodin?", "answer": "Wie spät ist es?", "accept": ["Wie viel Uhr ist es?"], "reviewed": false },
+        { "id": "u5-l1-e9", "type": "build", "question": "Je půl deváté.", "answer": "Es ist halb neun.", "extra": ["acht"], "reviewed": false },
+        { "id": "u5-l1-e10", "type": "choice", "question": "Je tři čtvrtě na pět.", "questionLang": "native", "options": ["Es ist Viertel vor fünf.", "Es ist Viertel nach fünf.", "Es ist halb fünf."], "answer": "Es ist Viertel vor fünf.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "title": "Od rána do večera",
+      "titleTarget": "Von morgens bis abends",
+      "reviewed": false,
+      "tip": {
+        "title": "Předpona jde na konec věty",
+        "text": "Některá německá slovesa mají předponu, která se ve větě odtrhne a odejde úplně na konec: aufstehen → Ich stehe um sechs Uhr auf. (Vstávám v šest hodin.) Česky nic takového nemáme, proto se to snadno splete. Neříkejte tedy „Ich aufstehe“ ani „Ich anrufe“. Ve slovníku najdete sloveso vcelku a přízvuk je vždy na předponě: AUF-stehen, AN-rufen, EIN-kaufen, FERN-sehen. Pozor ještě na schlafen: du schläfst, er schläft.",
+        "examples": [
+          { "target": "Ich stehe um sechs Uhr auf.", "native": "Vstávám v šest hodin." },
+          { "target": "Ich rufe meine Tochter an.", "native": "Volám dceři." },
+          { "target": "Wir sehen fern.", "native": "Díváme se na televizi." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l2-w1", "target": "aufstehen", "native": "vstávat", "note": "Ich stehe auf. = Vstávám. Předpona auf jde na konec.", "reviewed": false },
+        { "id": "u5-l2-w2", "target": "machen", "native": "dělat", "note": "Was machen Sie? = Co děláte?", "reviewed": false },
+        { "id": "u5-l2-w3", "target": "arbeiten", "native": "pracovat", "note": "du arbeitest, er arbeitet (vložené -e-)", "reviewed": false },
+        { "id": "u5-l2-w4", "target": "einkaufen", "native": "nakupovat", "note": "Ich kaufe ein. = Nakupuji.", "reviewed": false },
+        { "id": "u5-l2-w5", "target": "anrufen", "native": "telefonovat; zavolat", "note": "Ich rufe Sie an. = Zavolám Vám. Německy volám koho (4. pád), česky komu.", "reviewed": false },
+        { "id": "u5-l2-w6", "target": "kochen", "native": "vařit", "note": "ch po o se čte jako české ch.", "reviewed": false },
+        { "id": "u5-l2-w7", "target": "schlafen", "native": "spát", "note": "du schläfst, er schläft (přehláska)", "reviewed": false },
+        { "id": "u5-l2-w8", "target": "fernsehen", "native": "dívat se na televizi", "note": "Ich sehe fern. Er sieht fern.", "reviewed": false },
+        { "id": "u5-l2-w9", "target": "gehen", "native": "jít; chodit", "note": "Jen pěšky. Jet autem nebo vlakem = fahren.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l2-e1", "type": "choice", "question": "aufstehen", "questionLang": "target", "options": ["vstávat", "spát", "vařit"], "answer": "vstávat", "reviewed": false },
+        { "id": "u5-l2-e2", "type": "choice", "question": "nakupovat", "questionLang": "native", "options": ["einkaufen", "kochen", "arbeiten"], "answer": "einkaufen", "reviewed": false },
+        { "id": "u5-l2-e3", "type": "match", "pairs": [
+          { "target": "kochen", "native": "vařit" },
+          { "target": "schlafen", "native": "spát" },
+          { "target": "arbeiten", "native": "pracovat" },
+          { "target": "gehen", "native": "jít" },
+          { "target": "machen", "native": "dělat" }
+        ], "reviewed": false },
+        { "id": "u5-l2-e4", "type": "listen", "audio": "Ich stehe um sechs Uhr auf.", "options": ["Vstávám v šest hodin.", "Spím do šesti hodin.", "Vařím v šest hodin."], "answer": "Vstávám v šest hodin.", "reviewed": false },
+        { "id": "u5-l2-e5", "type": "fill", "sentence": "Ich ___ meine Mutter an.", "translation": "Volám mamince.", "options": ["rufe", "anrufe", "rufen"], "answer": "rufe", "explain": "Předpona an- odchází na konec věty: ich rufe … an.", "reviewed": false },
+        { "id": "u5-l2-e6", "type": "fill", "sentence": "Mein Mann steht um sieben Uhr ___.", "translation": "Můj manžel vstává v sedm hodin.", "options": ["auf", "um", "Uhr"], "answer": "auf", "explain": "aufstehen: předpona auf stojí na konci věty.", "reviewed": false },
+        { "id": "u5-l2-e7", "type": "listen", "audio": "Ich kaufe ein.", "options": ["Ich kaufe ein.", "Ich koche.", "Ich arbeite."], "answer": "Ich kaufe ein.", "reviewed": false },
+        { "id": "u5-l2-e8", "type": "type", "question": "pracovat", "answer": "arbeiten", "reviewed": false },
+        { "id": "u5-l2-e9", "type": "build", "question": "Vstávám v sedm hodin.", "answer": "Ich stehe um sieben Uhr auf.", "extra": ["aufstehe"], "reviewed": false },
+        { "id": "u5-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Volám synovi.", "questionLang": "native", "options": ["Ich rufe meinen Sohn an.", "Ich anrufe meinen Sohn.", "Ich rufe an meinen Sohn."], "answer": "Ich rufe meinen Sohn an.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l3",
+      "title": "Dny v týdnu",
+      "titleTarget": "Die Wochentage",
+      "reviewed": false,
+      "tip": {
+        "title": "Sloveso stojí na 2. místě",
+        "text": "Se dny v týdnu se říká am: am Montag = v pondělí. A teď to hlavní: v německé větě stojí sloveso vždy na 2. místě. Když větu začnete slovem heute, morgen nebo am Montag, sloveso přijde hned za ně a ich až po něm: Morgen arbeite ich. Česky můžeme slova přehazovat volně, ale „Morgen ich arbeite“ je chyba. Všechny dny v týdnu mají člen der. Pěkná shoda: Mittwoch je „střed týdne“, stejně jako naše středa.",
+        "examples": [
+          { "target": "Heute ist Montag.", "native": "Dnes je pondělí." },
+          { "target": "Morgen arbeite ich.", "native": "Zítra pracuji." },
+          { "target": "Am Sonntag koche ich.", "native": "V neděli vařím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l3-w1", "target": "der Montag", "native": "pondělí", "note": "am Montag = v pondělí; množné číslo: die Montage", "reviewed": false },
+        { "id": "u5-l3-w2", "target": "der Dienstag", "native": "úterý", "note": "ie se čte jako í: [dínsták]. Množné číslo: die Dienstage", "reviewed": false },
+        { "id": "u5-l3-w3", "target": "der Mittwoch", "native": "středa", "note": "Doslova „střed týdne“. Množné číslo: die Mittwoche", "reviewed": false },
+        { "id": "u5-l3-w4", "target": "der Donnerstag", "native": "čtvrtek", "note": "Množné číslo: die Donnerstage", "reviewed": false },
+        { "id": "u5-l3-w5", "target": "der Freitag", "native": "pátek", "note": "ei se čte jako aj: [frajták]. Množné číslo: die Freitage", "reviewed": false },
+        { "id": "u5-l3-w6", "target": "der Samstag", "native": "sobota", "note": "Na severu Německa také der Sonnabend. Množné číslo: die Samstage", "reviewed": false },
+        { "id": "u5-l3-w7", "target": "der Sonntag", "native": "neděle", "note": "Množné číslo: die Sonntage", "reviewed": false },
+        { "id": "u5-l3-w8", "target": "heute", "native": "dnes", "note": "eu se čte jako oj: [hojte].", "reviewed": false },
+        { "id": "u5-l3-w9", "target": "morgen", "native": "zítra", "note": "S malým m. Pozor: der Morgen = ráno (Guten Morgen).", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l3-e1", "type": "choice", "question": "der Mittwoch", "questionLang": "target", "options": ["středa", "čtvrtek", "úterý"], "answer": "středa", "reviewed": false },
+        { "id": "u5-l3-e2", "type": "choice", "question": "neděle", "questionLang": "native", "options": ["der Sonntag", "der Samstag", "der Montag"], "answer": "der Sonntag", "reviewed": false },
+        { "id": "u5-l3-e3", "type": "match", "pairs": [
+          { "target": "der Montag", "native": "pondělí" },
+          { "target": "der Dienstag", "native": "úterý" },
+          { "target": "der Donnerstag", "native": "čtvrtek" },
+          { "target": "der Freitag", "native": "pátek" },
+          { "target": "der Samstag", "native": "sobota" }
+        ], "reviewed": false },
+        { "id": "u5-l3-e4", "type": "listen", "audio": "Heute ist Freitag.", "options": ["Dnes je pátek.", "Zítra je pátek.", "Dnes je čtvrtek."], "answer": "Dnes je pátek.", "reviewed": false },
+        { "id": "u5-l3-e5", "type": "fill", "sentence": "___ Sonntag koche ich.", "translation": "V neděli vařím.", "options": ["Am", "Um", "Halb"], "answer": "Am", "explain": "Se dny v týdnu se říká am: am Sonntag = v neděli. Um je jen pro hodiny.", "reviewed": false },
+        { "id": "u5-l3-e6", "type": "build", "question": "Zítra pracuji.", "answer": "Morgen arbeite ich.", "accept": ["Ich arbeite morgen."], "extra": ["arbeiten"], "reviewed": false },
+        { "id": "u5-l3-e7", "type": "build", "question": "V pondělí vstávám v šest hodin.", "answer": "Am Montag stehe ich um sechs Uhr auf.", "accept": ["Ich stehe am Montag um sechs Uhr auf.", "Um sechs Uhr stehe ich am Montag auf."], "reviewed": false },
+        { "id": "u5-l3-e8", "type": "listen", "audio": "Am Mittwoch arbeite ich.", "options": ["Am Mittwoch arbeite ich.", "Am Mittwoch arbeiten wir.", "Am Donnerstag arbeite ich."], "answer": "Am Mittwoch arbeite ich.", "reviewed": false },
+        { "id": "u5-l3-e9", "type": "type", "question": "dnes", "answer": "heute", "reviewed": false },
+        { "id": "u5-l3-e10", "type": "choice", "question": "Zítra je sobota.", "questionLang": "native", "options": ["Morgen ist Samstag.", "Heute ist Samstag.", "Morgen ist Sonntag."], "answer": "Morgen ist Samstag.", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "title": "Víkend",
+  "titleTarget": "Das Wochenende",
+  "description": "Vyprávění o víkendu, výletech a oslavách: minulý čas s haben a sein, war a hatte.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "Minulý víkend",
+      "titleTarget": "Am Wochenende",
+      "reviewed": false,
+      "tip": {
+        "title": "Wir haben gekocht",
+        "text": "Minulý čas se v němčině většinou skládá ze dvou částí: haben + příčestí. Pozor: česky řekneme „jsme vařili“, německy ale „wir haben gekocht“ (doslova „máme vařeno“). Příčestí se tvoří ge- … -t: machen → gemacht, kochen → gekocht, putzen → geputzt. A stojí vždy na konci věty: Wir haben gestern Kartoffeln gekocht. Některá slovesa mají příčestí nepravidelné (waschen → gewaschen) nebo bez ge- (besuchen → besucht).",
+        "examples": [
+          { "target": "Wir haben gestern Kartoffeln gekocht.", "native": "Včera jsme vařili brambory." },
+          { "target": "Anna hat am Wochenende die Wohnung geputzt.", "native": "Anna o víkendu uklízela byt." },
+          { "target": "Wir haben Freunde besucht.", "native": "Navštívili jsme přátele." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l1-w1", "target": "das Wochenende", "native": "víkend", "note": "am Wochenende = o víkendu; množné číslo: die Wochenenden", "reviewed": false },
+        { "id": "u10-l1-w2", "target": "gestern", "native": "včera", "note": "Opak: morgen (zítra).", "reviewed": false },
+        { "id": "u10-l1-w3", "target": "besuchen", "native": "navštívit", "note": "Příčestí bez ge-: Wir haben Freunde besucht.", "reviewed": false },
+        { "id": "u10-l1-w4", "target": "der Freund", "native": "přítel; kamarád", "note": "mein Freund může být i partner; množné číslo: die Freunde", "reviewed": false },
+        { "id": "u10-l1-w5", "target": "die Freundin", "native": "přítelkyně; kamarádka", "note": "množné číslo: die Freundinnen", "reviewed": false },
+        { "id": "u10-l1-w6", "target": "putzen", "native": "uklízet; čistit", "note": "Příčestí: geputzt. Zähne putzen = čistit si zuby", "reviewed": false },
+        { "id": "u10-l1-w7", "target": "waschen", "native": "prát; mýt", "note": "du wäschst, er wäscht; příčestí nepravidelné: gewaschen", "reviewed": false },
+        { "id": "u10-l1-w8", "target": "das Kino", "native": "kino", "note": "ins Kino gehen = jít do kina; množné číslo: die Kinos", "reviewed": false },
+        { "id": "u10-l1-w9", "target": "der Film", "native": "film", "note": "množné číslo: die Filme", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l1-e1", "type": "choice", "question": "gestern", "questionLang": "target", "options": ["včera", "dnes", "zítra"], "answer": "včera", "reviewed": false },
+        { "id": "u10-l1-e2", "type": "choice", "question": "víkend", "questionLang": "native", "options": ["das Wochenende", "der Freund", "das Kino"], "answer": "das Wochenende", "reviewed": false },
+        { "id": "u10-l1-e3", "type": "match", "pairs": [
+          { "target": "der Freund", "native": "přítel" },
+          { "target": "die Freundin", "native": "přítelkyně" },
+          { "target": "besuchen", "native": "navštívit" },
+          { "target": "putzen", "native": "uklízet" },
+          { "target": "waschen", "native": "prát" }
+        ], "reviewed": false },
+        { "id": "u10-l1-e4", "type": "listen", "audio": "Wir haben gestern die Wohnung geputzt.", "options": ["Wir haben gestern die Wohnung geputzt.", "Wir haben heute die Wohnung geputzt.", "Wir haben gestern das Auto gewaschen."], "answer": "Wir haben gestern die Wohnung geputzt.", "reviewed": false },
+        { "id": "u10-l1-e5", "type": "fill", "sentence": "Am Wochenende haben wir unsere Eltern ___.", "translation": "O víkendu jsme navštívili rodiče.", "options": ["besucht", "gebesucht", "besuchen"], "answer": "besucht", "explain": "Příčestí stojí na konci; besuchen ho tvoří bez ge-: besucht.", "reviewed": false },
+        { "id": "u10-l1-e6", "type": "fill", "sentence": "Er hat gestern ___.", "translation": "Včera vařil.", "options": ["gekocht", "kocht", "gekochen"], "answer": "gekocht", "explain": "Pravidelné sloveso: ge- + kocht → gekocht, na konci věty.", "reviewed": false },
+        { "id": "u10-l1-e7", "type": "type", "question": "přítelkyně", "answer": "die Freundin", "reviewed": false },
+        { "id": "u10-l1-e8", "type": "build", "question": "Petr včera umyl auto.", "answer": "Peter hat gestern das Auto gewaschen.", "accept": ["Gestern hat Peter das Auto gewaschen."], "extra": ["gewascht"], "reviewed": false },
+        { "id": "u10-l1-e9", "type": "listen", "audio": "Wir haben am Wochenende Freunde besucht.", "options": ["O víkendu jsme navštívili přátele.", "O víkendu jsme uklízeli.", "O víkendu jsme byli v kině."], "answer": "O víkendu jsme navštívili přátele.", "reviewed": false },
+        { "id": "u10-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Včera jsme uklízeli.", "questionLang": "native", "options": ["Wir haben gestern geputzt.", "Wir haben geputzt gestern.", "Wir gestern haben geputzt."], "answer": "Wir haben gestern geputzt.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "Výlety",
+      "titleTarget": "Ausflüge",
+      "reviewed": false,
+      "tip": {
+        "title": "Wir sind gefahren",
+        "text": "Česky říkáme „jsem jel“ se slovesem být. Němčina to dělá stejně u sloves, kterými se přesouváme z místa na místo: ich bin gefahren, ich bin geflogen, ich bin gekommen, ich bin gelaufen. S „sein“ je i bleiben (zůstat): ich bin geblieben. „Ich habe gefahren“ je chyba. Většina ostatních sloves (vařit, uklízet, dělat) má haben, i když česky říkáme „jsem“.",
+        "examples": [
+          { "target": "Wir sind ans Meer gefahren.", "native": "Jeli jsme k moři." },
+          { "target": "Er ist nach Berlin geflogen.", "native": "Letěl do Berlína." },
+          { "target": "Sie ist zu Hause geblieben.", "native": "Zůstala doma." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l2-w1", "target": "kommen", "native": "přijít; přijet", "note": "Minulý čas se sein: ich bin gekommen", "reviewed": false },
+        { "id": "u10-l2-w2", "target": "fliegen", "native": "letět", "note": "Minulý čas se sein: ich bin geflogen", "reviewed": false },
+        { "id": "u10-l2-w3", "target": "bleiben", "native": "zůstat", "note": "Také se sein: ich bin geblieben", "reviewed": false },
+        { "id": "u10-l2-w4", "target": "laufen", "native": "běžet", "note": "Hovorově i chodit pěšky. du läufst, er läuft; ich bin gelaufen", "reviewed": false },
+        { "id": "u10-l2-w5", "target": "der Ausflug", "native": "výlet", "note": "einen Ausflug machen = jet na výlet; množné číslo: die Ausflüge", "reviewed": false },
+        { "id": "u10-l2-w6", "target": "der See", "native": "jezero", "note": "Čte se [zé]. Pozor: das Meer = moře; množné číslo: die Seen", "reviewed": false },
+        { "id": "u10-l2-w7", "target": "das Meer", "native": "moře", "note": "ee = é: [mér]; množné číslo: die Meere", "reviewed": false },
+        { "id": "u10-l2-w8", "target": "der Berg", "native": "hora", "note": "Pozor, mužský rod; in die Berge fahren = jet na hory; množné číslo: die Berge", "reviewed": false },
+        { "id": "u10-l2-w9", "target": "zu Hause", "native": "doma", "note": "Pozor: nach Hause = domů.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l2-e1", "type": "choice", "question": "der See", "questionLang": "target", "options": ["jezero", "moře", "hora"], "answer": "jezero", "reviewed": false },
+        { "id": "u10-l2-e2", "type": "choice", "question": "výlet", "questionLang": "native", "options": ["der Ausflug", "der Berg", "das Meer"], "answer": "der Ausflug", "reviewed": false },
+        { "id": "u10-l2-e3", "type": "match", "pairs": [
+          { "target": "kommen", "native": "přijít" },
+          { "target": "fliegen", "native": "letět" },
+          { "target": "bleiben", "native": "zůstat" },
+          { "target": "laufen", "native": "běžet" },
+          { "target": "zu Hause", "native": "doma" }
+        ], "reviewed": false },
+        { "id": "u10-l2-e4", "type": "listen", "audio": "Wir sind ans Meer gefahren.", "options": ["Wir sind ans Meer gefahren.", "Wir sind in die Berge gefahren.", "Wir sind zu Hause geblieben."], "answer": "Wir sind ans Meer gefahren.", "reviewed": false },
+        { "id": "u10-l2-e5", "type": "fill", "sentence": "Wir ___ in die Berge gefahren.", "translation": "Jeli jsme na hory.", "options": ["sind", "haben", "hat"], "answer": "sind", "explain": "Jízda z místa na místo má sein, stejně jako česky „jsme jeli“.", "reviewed": false },
+        { "id": "u10-l2-e6", "type": "fill", "sentence": "Er ___ zu Hause geblieben.", "translation": "Zůstal doma.", "options": ["ist", "hat", "sind"], "answer": "ist", "explain": "Také bleiben (zůstat) má minulý čas se sein: er ist geblieben.", "reviewed": false },
+        { "id": "u10-l2-e7", "type": "type", "question": "moře", "answer": "das Meer", "reviewed": false },
+        { "id": "u10-l2-e8", "type": "build", "question": "Letěli jsme do Německa.", "answer": "Wir sind nach Deutschland geflogen.", "extra": ["haben"], "reviewed": false },
+        { "id": "u10-l2-e9", "type": "listen", "audio": "Am Samstag haben wir einen Ausflug gemacht.", "options": ["V sobotu jsme byli na výletě.", "V sobotu jsme zůstali doma.", "V sobotu jsme letěli k moři."], "answer": "V sobotu jsme byli na výletě.", "reviewed": false },
+        { "id": "u10-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Jel autobusem.", "questionLang": "native", "options": ["Er ist mit dem Bus gefahren.", "Er hat mit dem Bus gefahren.", "Er ist mit dem Bus gefahrt."], "answer": "Er ist mit dem Bus gefahren.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Oslavy a svátky",
+      "titleTarget": "Feste feiern",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich war, ich hatte",
+        "text": "U sloves „sein“ (být) a „haben“ (mít) používají Němci v minulosti hlavně krátké tvary: war (byl) a hatte (měl). Ich war in Prag. Ich hatte Geburtstag. S „wir“ a „Sie“: wir waren, Sie waren, wir hatten, Sie hatten. Na rozdíl od češtiny se tvar nemění podle rodu: ich war = byl jsem i byla jsem. Všimněte si: narozeniny se německy „mají“ a jsou v jednotném čísle: Ich habe Geburtstag (mám narozeniny).",
+        "examples": [
+          { "target": "Das Fest war schön.", "native": "Oslava byla hezká." },
+          { "target": "Gestern hatte meine Tochter Geburtstag.", "native": "Včera měla dcera narozeniny." },
+          { "target": "Herzlichen Glückwunsch zum Geburtstag!", "native": "Všechno nejlepší k narozeninám!" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u10-l3-w1", "target": "der Geburtstag", "native": "narozeniny", "note": "Německy jednotné číslo: Ich habe Geburtstag. Přízvuk: [ge-BÚRC-ták]", "reviewed": false },
+        { "id": "u10-l3-w2", "target": "Herzlichen Glückwunsch", "native": "všechno nejlepší", "note": "K narozeninám: Herzlichen Glückwunsch zum Geburtstag!", "reviewed": false },
+        { "id": "u10-l3-w3", "target": "feiern", "native": "slavit", "note": "ei = aj: [FAJ-ern]; příčestí: gefeiert", "reviewed": false },
+        { "id": "u10-l3-w4", "target": "das Fest", "native": "oslava; slavnost", "note": "množné číslo: die Feste", "reviewed": false },
+        { "id": "u10-l3-w5", "target": "die Torte", "native": "dort", "note": "Pozor: der Kuchen = koláč; množné číslo: die Torten", "reviewed": false },
+        { "id": "u10-l3-w6", "target": "Weihnachten", "native": "Vánoce", "note": "Bez členu. Frohe Weihnachten! = Veselé Vánoce!", "reviewed": false },
+        { "id": "u10-l3-w7", "target": "Ostern", "native": "Velikonoce", "note": "Bez členu. Frohe Ostern! = Veselé Velikonoce!", "reviewed": false },
+        { "id": "u10-l3-w8", "target": "war", "native": "byl; byla", "note": "ich war = byl jsem i byla jsem; wir waren, Sie waren", "reviewed": false },
+        { "id": "u10-l3-w9", "target": "hatte", "native": "měl; měla", "note": "ich hatte = měl jsem i měla jsem; wir hatten, Sie hatten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u10-l3-e1", "type": "choice", "question": "die Torte", "questionLang": "target", "options": ["dort", "koláč", "dárek"], "answer": "dort", "reviewed": false },
+        { "id": "u10-l3-e2", "type": "choice", "question": "Vánoce", "questionLang": "native", "options": ["Weihnachten", "Ostern", "der Geburtstag"], "answer": "Weihnachten", "reviewed": false },
+        { "id": "u10-l3-e3", "type": "match", "pairs": [
+          { "target": "der Geburtstag", "native": "narozeniny" },
+          { "target": "Ostern", "native": "Velikonoce" },
+          { "target": "feiern", "native": "slavit" },
+          { "target": "das Fest", "native": "oslava" },
+          { "target": "Herzlichen Glückwunsch", "native": "všechno nejlepší" }
+        ], "reviewed": false },
+        { "id": "u10-l3-e4", "type": "listen", "audio": "Herzlichen Glückwunsch zum Geburtstag!", "options": ["Herzlichen Glückwunsch zum Geburtstag!", "Frohe Weihnachten!", "Frohe Ostern!"], "answer": "Herzlichen Glückwunsch zum Geburtstag!", "reviewed": false },
+        { "id": "u10-l3-e5", "type": "fill", "sentence": "Gestern ___ mein Mann Geburtstag.", "translation": "Včera měl manžel narozeniny.", "options": ["hatte", "war", "hat"], "answer": "hatte", "explain": "Narozeniny se „mají“ (Geburtstag haben), minulý čas je hatte.", "reviewed": false },
+        { "id": "u10-l3-e6", "type": "fill", "sentence": "Wir ___ am Wochenende in Prag.", "translation": "O víkendu jsme byli v Praze.", "options": ["waren", "war", "hatten"], "answer": "waren", "explain": "wir waren = byli jsme; s „wir“ a „Sie“ má war koncovku -en.", "reviewed": false },
+        { "id": "u10-l3-e7", "type": "type", "question": "slavit", "answer": "feiern", "reviewed": false },
+        { "id": "u10-l3-e8", "type": "build", "question": "Byla to krásná oslava.", "answer": "Das war ein schönes Fest.", "extra": ["hatte"], "reviewed": false },
+        { "id": "u10-l3-e9", "type": "listen", "audio": "Wie war das Wochenende?", "options": ["Jaký byl víkend?", "Co děláte o víkendu?", "Kdy je víkend?"], "answer": "Jaký byl víkend?", "reviewed": false },
+        { "id": "u10-l3-e10", "type": "speak", "text": "Herzlichen Glückwunsch!", "native": "Všechno nejlepší!", "reviewed": false }
+      ]
+    }
+  ]
+}

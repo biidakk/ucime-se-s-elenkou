@@ -1,0 +1,147 @@
+{
+  "id": "u3",
+  "level": "A1",
+  "title": "Jídlo a pití",
+  "titleTarget": "Essen und Trinken",
+  "description": "Snídaně, objednávka v kavárně a nákup potravin.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "Snídaně",
+      "titleTarget": "Das Frühstück",
+      "reviewed": false,
+      "tip": {
+        "title": "ein a eine",
+        "text": "Česky řekneme jen „jím housku“, němčina přidává člen ein nebo eine (≈ nějaký, jeden). Je to jednoduché: der a das → ein, die → eine. Das Brötchen → ein Brötchen, das Ei → ein Ei, die Schwester → eine Schwester. Věci, které nepočítáme (chléb jako jídlo, máslo, sýr), bývají bez členu: Ich esse Brot mit Butter. Pozor na rod: das Brot je střední, i když česky je to „ten“ chléb.",
+        "examples": [
+          { "target": "Ich esse ein Brötchen.", "native": "Jím housku." },
+          { "target": "Ich habe eine Schwester.", "native": "Mám sestru." },
+          { "target": "Ich esse Brot mit Butter.", "native": "Jím chleba s máslem." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l1-w1", "target": "das Frühstück", "native": "snídaně", "note": "zum Frühstück = k snídani; množné číslo: die Frühstücke (málokdy)", "reviewed": false },
+        { "id": "u3-l1-w2", "target": "das Brot", "native": "chléb", "note": "Pozor: das, ne der. množné číslo: die Brote", "reviewed": false },
+        { "id": "u3-l1-w3", "target": "das Brötchen", "native": "houska", "note": "Slova na -chen jsou vždy das. množné číslo: die Brötchen", "reviewed": false },
+        { "id": "u3-l1-w4", "target": "die Butter", "native": "máslo", "note": "Pozor: die, ne das. Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l1-w5", "target": "der Käse", "native": "sýr", "note": "ä se čte jako e: [kéze]; množné číslo: die Käse", "reviewed": false },
+        { "id": "u3-l1-w6", "target": "der Schinken", "native": "šunka", "note": "Pozor: der, ne die. množné číslo: die Schinken", "reviewed": false },
+        { "id": "u3-l1-w7", "target": "das Ei", "native": "vejce", "note": "Čte se [aj]; množné číslo: die Eier", "reviewed": false },
+        { "id": "u3-l1-w8", "target": "essen", "native": "jíst", "note": "ich esse, du isst, er isst", "reviewed": false },
+        { "id": "u3-l1-w9", "target": "trinken", "native": "pít", "note": "ich trinke, du trinkst, er trinkt", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l1-e1", "type": "choice", "question": "das Brötchen", "questionLang": "target", "options": ["houska", "chléb", "máslo"], "answer": "houska", "reviewed": false },
+        { "id": "u3-l1-e2", "type": "choice", "question": "sýr", "questionLang": "native", "options": ["der Käse", "der Schinken", "die Butter"], "answer": "der Käse", "reviewed": false },
+        { "id": "u3-l1-e3", "type": "match", "pairs": [
+          { "target": "das Brot", "native": "chléb" },
+          { "target": "die Butter", "native": "máslo" },
+          { "target": "der Schinken", "native": "šunka" },
+          { "target": "das Ei", "native": "vejce" },
+          { "target": "das Frühstück", "native": "snídaně" }
+        ], "reviewed": false },
+        { "id": "u3-l1-e4", "type": "fill", "sentence": "Ich esse ___ Brötchen.", "translation": "Jím housku.", "options": ["ein", "eine"], "answer": "ein", "explain": "Brötchen je das, proto ein.", "reviewed": false },
+        { "id": "u3-l1-e5", "type": "fill", "sentence": "___ Brot ist gut.", "translation": "Ten chléb je dobrý.", "options": ["Das", "Der", "Die"], "answer": "Das", "explain": "das Brot – na rozdíl od češtiny je to střední rod.", "reviewed": false },
+        { "id": "u3-l1-e6", "type": "listen", "audio": "Zum Frühstück esse ich ein Ei.", "options": ["K snídani jím vejce.", "K snídani jím housku.", "K snídani jím sýr."], "answer": "K snídani jím vejce.", "reviewed": false },
+        { "id": "u3-l1-e7", "type": "listen", "audio": "Das Brötchen ist gut.", "options": ["Das Brötchen ist gut.", "Das Brot ist gut.", "Die Butter ist gut."], "answer": "Das Brötchen ist gut.", "reviewed": false },
+        { "id": "u3-l1-e8", "type": "type", "question": "pít", "answer": "trinken", "reviewed": false },
+        { "id": "u3-l1-e9", "type": "build", "question": "K snídani jím chleba a sýr.", "answer": "Zum Frühstück esse ich Brot und Käse.", "accept": ["Ich esse zum Frühstück Brot und Käse.", "Ich esse Brot und Käse zum Frühstück."], "extra": ["isst"], "reviewed": false },
+        { "id": "u3-l1-e10", "type": "speak", "text": "Ein Ei, bitte.", "native": "Jedno vejce, prosím.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "V kavárně",
+      "titleTarget": "Im Café",
+      "reviewed": false,
+      "tip": {
+        "title": "Ich möchte einen Kaffee (4. pád)",
+        "text": "Když si něco objednáváte, odpovídá to na otázku koho? co? – to je 4. pád, německy Akkusativ. Dobrá zpráva: mění se jen mužský rod (der). Z ein se stane einen, z der se stane den: Ich möchte einen Kaffee. Ženský a střední rod zůstávají stejné: Ich möchte ein Wasser. Častá chyba je „Ich möchte ein Kaffee“. U slov s der proto vždy myslete na einen.",
+        "examples": [
+          { "target": "Ich möchte einen Kaffee, bitte.", "native": "Dám si kávu, prosím." },
+          { "target": "Ich möchte ein Wasser.", "native": "Dám si vodu." },
+          { "target": "Was kostet das?", "native": "Kolik to stojí?" },
+          { "target": "Das kostet drei Euro.", "native": "Stojí to tři eura." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l2-w1", "target": "der Kaffee", "native": "káva", "note": "Pozor: der. Čte se [kafe]; množné číslo: die Kaffees", "reviewed": false },
+        { "id": "u3-l2-w2", "target": "der Tee", "native": "čaj", "note": "Čte se [té]; množné číslo: die Tees", "reviewed": false },
+        { "id": "u3-l2-w3", "target": "die Milch", "native": "mléko", "note": "ch po l zní jako ve slově ich. Pozor: die. Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l2-w4", "target": "das Wasser", "native": "voda", "note": "W se čte jako v: [vasa]. Pozor: das. množné číslo: die Wasser", "reviewed": false },
+        { "id": "u3-l2-w5", "target": "der Saft", "native": "džus", "note": "Také šťáva. množné číslo: die Säfte", "reviewed": false },
+        { "id": "u3-l2-w6", "target": "der Kuchen", "native": "koláč", "note": "ein Stück Kuchen = kousek koláče; množné číslo: die Kuchen", "reviewed": false },
+        { "id": "u3-l2-w7", "target": "ich möchte", "native": "chtěl bych; chtěla bych", "note": "V kavárně: Ich möchte … = Dám si …", "reviewed": false },
+        { "id": "u3-l2-w8", "target": "Was kostet das?", "native": "Kolik to stojí?", "note": "Odpověď: Das kostet … Euro.", "reviewed": false },
+        { "id": "u3-l2-w9", "target": "der Euro", "native": "euro", "note": "eu = oj: [ojro]; u cen bez koncovky: drei Euro", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l2-e1", "type": "choice", "question": "der Saft", "questionLang": "target", "options": ["džus", "čaj", "mléko"], "answer": "džus", "reviewed": false },
+        { "id": "u3-l2-e2", "type": "choice", "question": "Kolik to stojí?", "questionLang": "native", "options": ["Was kostet das?", "Wie alt sind Sie?", "Wie geht es Ihnen?"], "answer": "Was kostet das?", "reviewed": false },
+        { "id": "u3-l2-e3", "type": "match", "pairs": [
+          { "target": "der Kaffee", "native": "káva" },
+          { "target": "der Tee", "native": "čaj" },
+          { "target": "die Milch", "native": "mléko" },
+          { "target": "das Wasser", "native": "voda" },
+          { "target": "der Kuchen", "native": "koláč" }
+        ], "reviewed": false },
+        { "id": "u3-l2-e4", "type": "fill", "sentence": "Ich möchte ___ Kaffee.", "translation": "Dám si kávu.", "options": ["einen", "ein", "eine"], "answer": "einen", "explain": "Kaffee je der; ve 4. pádě (co si dám?) se ein změní na einen.", "reviewed": false },
+        { "id": "u3-l2-e5", "type": "fill", "sentence": "Ich möchte ___ Wasser, bitte.", "translation": "Dám si vodu, prosím.", "options": ["ein", "einen", "eine"], "answer": "ein", "explain": "das Wasser se ve 4. pádě nemění: ein Wasser.", "reviewed": false },
+        { "id": "u3-l2-e6", "type": "listen", "audio": "Einen Tee, bitte.", "options": ["Einen Tee, bitte.", "Einen Kaffee, bitte.", "Ein Wasser, bitte."], "answer": "Einen Tee, bitte.", "reviewed": false },
+        { "id": "u3-l2-e7", "type": "listen", "audio": "Das kostet vier Euro.", "options": ["Stojí to čtyři eura.", "Stojí to pět eur.", "Stojí to osm eur."], "answer": "Stojí to čtyři eura.", "reviewed": false },
+        { "id": "u3-l2-e8", "type": "type", "question": "Dám si čaj, prosím.", "answer": "Ich möchte einen Tee, bitte.", "accept": ["Ich möchte bitte einen Tee.", "Einen Tee, bitte."], "reviewed": false },
+        { "id": "u3-l2-e9", "type": "build", "question": "Dám si kávu s mlékem.", "answer": "Ich möchte einen Kaffee mit Milch.", "extra": ["ein"], "reviewed": false },
+        { "id": "u3-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Dám si džus.", "questionLang": "native", "options": ["Ich möchte einen Saft.", "Ich möchte ein Saft.", "Ich möchte eine Saft."], "answer": "Ich möchte einen Saft.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Nákup potravin",
+      "titleTarget": "Auf dem Markt",
+      "reviewed": false,
+      "tip": {
+        "title": "kein, nebo nicht?",
+        "text": "Česky dáváme zápor ke slovesu: Nemám cukr. Německy u podstatného jména říkáme kein (žádný): Ich habe keinen Zucker. Kein se mění stejně jako ein: kein, keine, a ve 4. pádě u der keinen. Nicht patří ke slovesu nebo k přídavnému jménu: Das ist nicht gut. Množné číslo má v němčině různé koncovky (der Apfel → die Äpfel, die Kartoffel → die Kartoffeln), proto ho najdete u každého slova v poznámce.",
+        "examples": [
+          { "target": "Ich habe keinen Zucker.", "native": "Nemám cukr." },
+          { "target": "Wir haben keine Milch.", "native": "Nemáme mléko." },
+          { "target": "Der Apfel ist nicht gut.", "native": "To jablko není dobré." },
+          { "target": "Ein Kilo Kartoffeln, bitte.", "native": "Kilo brambor, prosím." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u3-l3-w1", "target": "der Apfel", "native": "jablko", "note": "Pozor: der. množné číslo: die Äpfel", "reviewed": false },
+        { "id": "u3-l3-w2", "target": "die Kartoffel", "native": "brambora", "note": "množné číslo: die Kartoffeln", "reviewed": false },
+        { "id": "u3-l3-w3", "target": "das Obst", "native": "ovoce", "note": "Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l3-w4", "target": "das Gemüse", "native": "zelenina", "note": "Pozor: das. Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l3-w5", "target": "die Flasche", "native": "láhev", "note": "Jako česky flaška. množné číslo: die Flaschen", "reviewed": false },
+        { "id": "u3-l3-w6", "target": "der Zucker", "native": "cukr", "note": "z = c: [cuka]. Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l3-w7", "target": "das Kilo", "native": "kilo", "note": "ein Kilo Äpfel = kilo jablek; množné číslo: die Kilos, ale zwei Kilo", "reviewed": false },
+        { "id": "u3-l3-w8", "target": "das Fleisch", "native": "maso", "note": "ei = aj: [flajš]. Bez množného čísla.", "reviewed": false },
+        { "id": "u3-l3-w9", "target": "kein", "native": "žádný", "note": "kein Zucker, keine Milch; ve 4. pádě: keinen Zucker", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u3-l3-e1", "type": "choice", "question": "das Gemüse", "questionLang": "target", "options": ["zelenina", "ovoce", "maso"], "answer": "zelenina", "reviewed": false },
+        { "id": "u3-l3-e2", "type": "choice", "question": "láhev", "questionLang": "native", "options": ["die Flasche", "das Kilo", "die Kartoffel"], "answer": "die Flasche", "reviewed": false },
+        { "id": "u3-l3-e3", "type": "match", "pairs": [
+          { "target": "der Apfel", "native": "jablko" },
+          { "target": "die Kartoffel", "native": "brambora" },
+          { "target": "das Obst", "native": "ovoce" },
+          { "target": "das Fleisch", "native": "maso" },
+          { "target": "der Zucker", "native": "cukr" }
+        ], "reviewed": false },
+        { "id": "u3-l3-e4", "type": "fill", "sentence": "Das ist ___ Zucker.", "translation": "To není cukr.", "options": ["kein", "nicht", "keine"], "answer": "kein", "explain": "Zápor u podstatného jména je kein; der Zucker → kein Zucker.", "reviewed": false },
+        { "id": "u3-l3-e5", "type": "fill", "sentence": "Wir haben ___ Milch.", "translation": "Nemáme mléko.", "options": ["keine", "nicht", "kein"], "answer": "keine", "explain": "die Milch → keine Milch.", "reviewed": false },
+        { "id": "u3-l3-e6", "type": "fill", "sentence": "Das Fleisch ist ___ gut.", "translation": "To maso není dobré.", "options": ["nicht", "kein", "keine"], "answer": "nicht", "explain": "U přídavného jména (gut) se říká nicht.", "reviewed": false },
+        { "id": "u3-l3-e7", "type": "listen", "audio": "Ein Kilo Äpfel, bitte.", "options": ["Kilo jablek, prosím.", "Kilo brambor, prosím.", "Láhev vody, prosím."], "answer": "Kilo jablek, prosím.", "reviewed": false },
+        { "id": "u3-l3-e8", "type": "listen", "audio": "Eine Flasche Wasser, bitte.", "options": ["Eine Flasche Wasser, bitte.", "Eine Flasche Milch, bitte.", "Ein Kilo Fleisch, bitte."], "answer": "Eine Flasche Wasser, bitte.", "reviewed": false },
+        { "id": "u3-l3-e9", "type": "build", "question": "Nemám cukr.", "answer": "Ich habe keinen Zucker.", "extra": ["nicht"], "reviewed": false },
+        { "id": "u3-l3-e10", "type": "type", "question": "jablka", "answer": "die Äpfel", "accept": ["Äpfel"], "reviewed": false }
+      ]
+    }
+  ]
+}

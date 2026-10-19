@@ -1,0 +1,142 @@
+{
+  "id": "u4",
+  "level": "A1",
+  "title": "Rodina",
+  "titleTarget": "Familia",
+  "description": "Jak mluvit o rodině, o manželovi nebo manželce, o vnoučatech a o svém věku.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "Moje rodina",
+      "titleTarget": "Familia mea",
+      "reviewed": false,
+      "tip": {
+        "title": "Člen na konci slova",
+        "text": "Kromě „un/o“ (nějaký, jeden) má rumunština i člen „ten/ta“. Ten se ale nedává před slovo, nýbrž se přilepí na jeho konec: un frate (bratr) → fratele (ten bratr), un copil (dítě) → copilul (to dítě), o mamă (matka) → mama (ta matka). U ženského rodu se koncové -ă změní na -a. Čeština člen nemá, proto ho stačí chápat jako „ten, ta, to“ – o kom už se ví.",
+        "examples": [
+          { "target": "un frate, fratele", "native": "bratr, ten bratr" },
+          { "target": "o mamă, mama", "native": "matka, ta matka" },
+          { "target": "un copil, copilul", "native": "dítě, to dítě" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l1-w1", "target": "o familie", "native": "rodina", "note": "familia = ta rodina; množné číslo: familii. Čte se „fa-MI-li-e“.", "reviewed": false },
+        { "id": "u4-l1-w2", "target": "un tată", "native": "otec; táta", "note": "tatăl = ten otec, hovorově tata; množné číslo: tați. Je mužského rodu, i když končí na -ă.", "reviewed": false },
+        { "id": "u4-l1-w3", "target": "o mamă", "native": "matka; máma", "note": "mama = ta matka; množné číslo: mame.", "reviewed": false },
+        { "id": "u4-l1-w4", "target": "un frate", "native": "bratr", "note": "fratele = ten bratr; množné číslo: frați.", "reviewed": false },
+        { "id": "u4-l1-w5", "target": "o soră", "native": "sestra", "note": "sora = ta sestra; množné číslo: surori.", "reviewed": false },
+        { "id": "u4-l1-w6", "target": "un fiu", "native": "syn", "note": "fiul = ten syn; množné číslo: fii. Fiu je jedna slabika.", "reviewed": false },
+        { "id": "u4-l1-w7", "target": "o fiică", "native": "dcera", "note": "fiica = ta dcera; množné číslo: fiice. Čte se „FIJ-kă“, dvě slabiky.", "reviewed": false },
+        { "id": "u4-l1-w8", "target": "un copil", "native": "dítě", "note": "copilul = to dítě; množné číslo: copii (děti). Čte se „ko-PIL“.", "reviewed": false },
+        { "id": "u4-l1-w9", "target": "părinții", "native": "rodiče", "note": "Tvar se členem („ti rodiče“); bez členu: părinți. Čte se „pă-RIN-cij“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l1-e1", "type": "choice", "question": "o soră", "questionLang": "target", "options": ["sestra", "bratr", "dcera"], "answer": "sestra", "reviewed": false },
+        { "id": "u4-l1-e2", "type": "choice", "question": "syn", "questionLang": "native", "options": ["un fiu", "o fiică", "un frate"], "answer": "un fiu", "reviewed": false },
+        { "id": "u4-l1-e3", "type": "match", "pairs": [
+          { "target": "o familie", "native": "rodina" },
+          { "target": "o mamă", "native": "máma" },
+          { "target": "un tată", "native": "táta" },
+          { "target": "un copil", "native": "dítě" }
+        ], "reviewed": false },
+        { "id": "u4-l1-e4", "type": "listen", "audio": "Mama și tata", "options": ["Mama și tata", "Mama și fiica", "Sora și fratele"], "answer": "Mama și tata", "reviewed": false },
+        { "id": "u4-l1-e5", "type": "listen", "audio": "Fiica și fiul", "options": ["dcera a syn", "sestra a bratr", "máma a táta"], "answer": "dcera a syn", "reviewed": false },
+        { "id": "u4-l1-e6", "type": "fill", "sentence": "Am o soră. ___ este din România.", "translation": "Mám sestru. Sestra je z Rumunska.", "options": ["Sora", "O soră", "Soră"], "answer": "Sora", "explain": "O sestře už víme, proto dostane člen na konci: o soră → sora.", "reviewed": false },
+        { "id": "u4-l1-e7", "type": "fill", "sentence": "Am un fiu. ___ se numește Pavel.", "translation": "Mám syna. Jmenuje se Pavel.", "options": ["Fiul", "Un fiu", "Fiu"], "answer": "Fiul", "explain": "Mužský rod: un fiu → fiul (ten syn).", "reviewed": false },
+        { "id": "u4-l1-e8", "type": "type", "question": "rodina", "answer": "o familie", "accept": ["familia", "familie"], "reviewed": false },
+        { "id": "u4-l1-e9", "type": "build", "question": "Rodiče jsou z Česka.", "answer": "Părinții sunt din Cehia.", "extra": ["este"], "reviewed": false },
+        { "id": "u4-l1-e10", "type": "speak", "text": "Mama și tata sunt din România.", "native": "Máma a táta jsou z Rumunska.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "Můj manžel, moje babička",
+      "titleTarget": "Soțul meu, bunica mea",
+      "reviewed": false,
+      "tip": {
+        "title": "Můj a moje stojí za slovem",
+        "text": "V češtině říkáme „můj manžel“, v rumunštině je pořadí obrácené: soțul meu, doslova „manžel můj“. Slovo navíc dostane člen na konci (soț → soțul). Tvar se řídí rodem: meu (můj), mea (moje), v množném čísle mei (moji) a mele (moje). Pozor na past: hovorové „nevastă“ neznamená nevěsta, ale manželka.",
+        "examples": [
+          { "target": "soțul meu", "native": "můj manžel" },
+          { "target": "soția mea", "native": "moje manželka" },
+          { "target": "bunicii mei", "native": "moji prarodiče" },
+          { "target": "mătușile mele", "native": "moje tety" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l2-w1", "target": "un soț", "native": "manžel", "note": "soțul = ten manžel; množné číslo: soți. Čte se „soc“.", "reviewed": false },
+        { "id": "u4-l2-w2", "target": "o soție", "native": "manželka", "note": "soția = ta manželka; množné číslo: soții. Čte se „so-CI-e“. Hovorově také nevastă.", "reviewed": false },
+        { "id": "u4-l2-w3", "target": "un bunic", "native": "dědeček", "note": "bunicul = ten dědeček; množné číslo: bunici (i prarodiče).", "reviewed": false },
+        { "id": "u4-l2-w4", "target": "o bunică", "native": "babička", "note": "bunica = ta babička; množné číslo: bunice.", "reviewed": false },
+        { "id": "u4-l2-w5", "target": "un nepot", "native": "vnuk; synovec", "note": "nepotul = ten vnuk; množné číslo: nepoți. Co je myšleno, pozná se ze souvislosti.", "reviewed": false },
+        { "id": "u4-l2-w6", "target": "o nepoată", "native": "vnučka; neteř", "note": "nepoata = ta vnučka; množné číslo: nepoate.", "reviewed": false },
+        { "id": "u4-l2-w7", "target": "o mătușă", "native": "teta", "note": "mătușa = ta teta; množné číslo: mătuși. Čte se „mă-TU-šă“.", "reviewed": false },
+        { "id": "u4-l2-w8", "target": "un unchi", "native": "strýc", "note": "unchiul = ten strýc; množné číslo: unchi. Čte se skoro „unk“ (ch = k).", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l2-e1", "type": "choice", "question": "o bunică", "questionLang": "target", "options": ["babička", "dědeček", "teta"], "answer": "babička", "reviewed": false },
+        { "id": "u4-l2-e2", "type": "choice", "question": "manželka", "questionLang": "native", "options": ["o soție", "un soț", "o soră"], "answer": "o soție", "reviewed": false },
+        { "id": "u4-l2-e3", "type": "match", "pairs": [
+          { "target": "un bunic", "native": "dědeček" },
+          { "target": "o mătușă", "native": "teta" },
+          { "target": "un unchi", "native": "strýc" },
+          { "target": "un soț", "native": "manžel" }
+        ], "reviewed": false },
+        { "id": "u4-l2-e4", "type": "listen", "audio": "Soțul meu este din România.", "options": ["Soțul meu este din România.", "Soția mea este din România.", "Sora mea este din România."], "answer": "Soțul meu este din România.", "reviewed": false },
+        { "id": "u4-l2-e5", "type": "listen", "audio": "bunica mea", "options": ["moje babička", "můj dědeček", "moje teta"], "answer": "moje babička", "reviewed": false },
+        { "id": "u4-l2-e6", "type": "fill", "sentence": "Soția ___ este cehoaică.", "translation": "Moje manželka je Češka.", "options": ["mea", "meu", "mei"], "answer": "mea", "explain": "Soția je ženského rodu, proto „mea“ (moje).", "reviewed": false },
+        { "id": "u4-l2-e7", "type": "fill", "sentence": "Bunicul ___ se numește Ion.", "translation": "Můj dědeček se jmenuje Ion.", "options": ["meu", "mea", "mele"], "answer": "meu", "explain": "Bunicul je mužského rodu, proto „meu“ (můj).", "reviewed": false },
+        { "id": "u4-l2-e8", "type": "type", "question": "můj manžel", "answer": "soțul meu", "reviewed": false },
+        { "id": "u4-l2-e9", "type": "build", "question": "Moje babička je Rumunka.", "answer": "Bunica mea este româncă.", "extra": ["meu"], "reviewed": false },
+        { "id": "u4-l2-e10", "type": "choice", "question": "o nepoată", "questionLang": "target", "options": ["vnučka; neteř", "manželka", "babička"], "answer": "vnučka; neteř", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "Kolik je vám let?",
+      "titleTarget": "Câți ani aveți?",
+      "reviewed": false,
+      "tip": {
+        "title": "Věk se „má“",
+        "text": "Česky řekneme „je mi šedesát let“, rumunsky ale věk „máme“: Am șaizeci de ani, doslova „mám šedesát let“. Sloveso a avea (mít): am (mám), ai (máš), are (má), avem (máme), aveți (máte), au (mají). Nezapomeňte na „de“ od dvacítky: am cinci ani, ale am douăzeci de ani. Desítky: treizeci (30), patruzeci (40), cincizeci (50), șaizeci (60), șaptezeci (70), optzeci (80).",
+        "examples": [
+          { "target": "Câți ani aveți?", "native": "Kolik je vám let?" },
+          { "target": "Am șaizeci și cinci de ani.", "native": "Je mi šedesát pět let." },
+          { "target": "Fiul meu are zece ani.", "native": "Mému synovi je deset let." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l3-w1", "target": "Câți ani aveți?", "native": "kolik je vám let?", "note": "Při tykání: Câți ani ai? Doslova „kolik let máte?“.", "reviewed": false },
+        { "id": "u4-l3-w2", "target": "un an", "native": "rok", "note": "anul = ten rok; množné číslo: ani (roky, let).", "reviewed": false },
+        { "id": "u4-l3-w3", "target": "căsătorit", "native": "ženatý", "note": "O muži. Čte se „kă-să-to-RIT“.", "reviewed": false },
+        { "id": "u4-l3-w4", "target": "căsătorită", "native": "vdaná", "note": "O ženě. Čte se „kă-să-to-RI-tă“.", "reviewed": false },
+        { "id": "u4-l3-w5", "target": "văduvă", "native": "vdova", "note": "Vdovec = văduv. Slovanské slovo jako české vdova.", "reviewed": false },
+        { "id": "u4-l3-w6", "target": "un prieten", "native": "přítel; kamarád", "note": "prietenul = ten přítel; množné číslo: prieteni. Slovanské slovo, jako přítel. Čte se „PRJE-ten“ (ie zní jako je).", "reviewed": false },
+        { "id": "u4-l3-w7", "target": "o prietenă", "native": "přítelkyně; kamarádka", "note": "prietena = ta přítelkyně; množné číslo: prietene.", "reviewed": false },
+        { "id": "u4-l3-w8", "target": "singur", "native": "svobodný; sám", "note": "Ženský rod: singură.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l3-e1", "type": "choice", "question": "Câți ani aveți?", "questionLang": "target", "options": ["kolik je vám let?", "kolik to stojí?", "odkud jste?"], "answer": "kolik je vám let?", "reviewed": false },
+        { "id": "u4-l3-e2", "type": "choice", "question": "vdaná", "questionLang": "native", "options": ["căsătorită", "căsătorit", "văduvă"], "answer": "căsătorită", "reviewed": false },
+        { "id": "u4-l3-e3", "type": "match", "pairs": [
+          { "target": "un an", "native": "rok" },
+          { "target": "văduvă", "native": "vdova" },
+          { "target": "un prieten", "native": "přítel" },
+          { "target": "o prietenă", "native": "přítelkyně" },
+          { "target": "singur", "native": "svobodný" }
+        ], "reviewed": false },
+        { "id": "u4-l3-e4", "type": "listen", "audio": "Am cincizeci de ani.", "options": ["Am cincizeci de ani.", "Am cincisprezece ani.", "Am cinci ani."], "answer": "Am cincizeci de ani.", "reviewed": false },
+        { "id": "u4-l3-e5", "type": "listen", "audio": "Sunt căsătorită.", "options": ["Jsem vdaná.", "Jsem vdova.", "Jsem svobodná."], "answer": "Jsem vdaná.", "reviewed": false },
+        { "id": "u4-l3-e6", "type": "fill", "sentence": "Ion ___ douăzeci de ani.", "translation": "Ionovi je dvacet let.", "options": ["are", "am", "este"], "answer": "are", "explain": "Věk se „má“: Ion are douăzeci de ani, doslova „Ion má dvacet let“.", "reviewed": false },
+        { "id": "u4-l3-e7", "type": "fill", "sentence": "Am cincizeci ___ ani.", "translation": "Je mi padesát let.", "options": ["de", "din", "un"], "answer": "de", "explain": "Od dvacítky výš se vkládá „de“: cincizeci de ani.", "reviewed": false },
+        { "id": "u4-l3-e8", "type": "type", "question": "kolik je vám let?", "answer": "Câți ani aveți?", "reviewed": false },
+        { "id": "u4-l3-e9", "type": "build", "question": "Je mi šedesát let.", "answer": "Am șaizeci de ani.", "extra": ["sunt"], "reviewed": false },
+        { "id": "u4-l3-e10", "type": "build", "question": "Můj přítel je ženatý.", "answer": "Prietenul meu este căsătorit.", "extra": ["mea"], "reviewed": false }
+      ]
+    }
+  ]
+}

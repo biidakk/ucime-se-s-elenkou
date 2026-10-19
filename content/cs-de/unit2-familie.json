@@ -1,0 +1,146 @@
+{
+  "id": "u2",
+  "level": "A1",
+  "title": "Rodina a čísla",
+  "titleTarget": "Familie und Zahlen",
+  "description": "Rodina, čísla do dvaceti a jak říct, kolik je komu let.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "Moje rodina",
+      "titleTarget": "Meine Familie",
+      "reviewed": false,
+      "tip": {
+        "title": "der, die, das a mein, meine",
+        "text": "Každé německé podstatné jméno má rod: der (mužský), die (ženský), das (střední). U rodiny je to snadné: der Vater, die Mutter. U jiných slov se ale rod od češtiny často liší, proto se učte každé slovo i se členem. „Můj“ se řekne mein, „moje“ meine: mein Vater, mein Bruder, ale meine Mutter, meine Schwester. V množném čísle je vždy die a meine: die Eltern, meine Eltern.",
+        "examples": [
+          { "target": "Das ist mein Vater.", "native": "To je můj otec." },
+          { "target": "Das ist meine Mutter.", "native": "To je moje matka." },
+          { "target": "Das sind meine Eltern.", "native": "To jsou moji rodiče." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l1-w1", "target": "die Familie", "native": "rodina", "note": "Čte se [fa-MÍ-li-je]; množné číslo: die Familien", "reviewed": false },
+        { "id": "u2-l1-w2", "target": "der Mann", "native": "muž; manžel", "note": "mein Mann = můj manžel; množné číslo: die Männer", "reviewed": false },
+        { "id": "u2-l1-w3", "target": "der Vater", "native": "otec", "note": "V se čte jako f: [fáta]; množné číslo: die Väter", "reviewed": false },
+        { "id": "u2-l1-w4", "target": "die Mutter", "native": "matka", "note": "množné číslo: die Mütter", "reviewed": false },
+        { "id": "u2-l1-w5", "target": "der Sohn", "native": "syn", "note": "h se nečte: [zón]; množné číslo: die Söhne", "reviewed": false },
+        { "id": "u2-l1-w6", "target": "die Tochter", "native": "dcera", "note": "množné číslo: die Töchter", "reviewed": false },
+        { "id": "u2-l1-w7", "target": "der Bruder", "native": "bratr", "note": "množné číslo: die Brüder", "reviewed": false },
+        { "id": "u2-l1-w8", "target": "die Schwester", "native": "sestra", "note": "sch = š: [švesta]; množné číslo: die Schwestern", "reviewed": false },
+        { "id": "u2-l1-w9", "target": "die Eltern", "native": "rodiče", "note": "Jen v množném čísle, stejně jako česky rodiče.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l1-e1", "type": "choice", "question": "die Tochter", "questionLang": "target", "options": ["dcera", "sestra", "matka"], "answer": "dcera", "reviewed": false },
+        { "id": "u2-l1-e2", "type": "choice", "question": "bratr", "questionLang": "native", "options": ["der Bruder", "der Vater", "der Sohn"], "answer": "der Bruder", "reviewed": false },
+        { "id": "u2-l1-e3", "type": "match", "pairs": [
+          { "target": "der Vater", "native": "otec" },
+          { "target": "die Mutter", "native": "matka" },
+          { "target": "der Sohn", "native": "syn" },
+          { "target": "die Schwester", "native": "sestra" },
+          { "target": "die Eltern", "native": "rodiče" }
+        ], "reviewed": false },
+        { "id": "u2-l1-e4", "type": "fill", "sentence": "Das ist ___ Mutter.", "translation": "To je moje matka.", "options": ["meine", "mein"], "answer": "meine", "explain": "Mutter je ženského rodu (die), proto meine.", "reviewed": false },
+        { "id": "u2-l1-e5", "type": "fill", "sentence": "___ Tochter heißt Anna.", "translation": "Dcera se jmenuje Anna.", "options": ["Die", "Der", "Das"], "answer": "Die", "explain": "Tochter je ženského rodu: die Tochter.", "reviewed": false },
+        { "id": "u2-l1-e6", "type": "listen", "audio": "Das ist mein Mann.", "options": ["To je můj manžel.", "To je můj syn.", "To je můj otec."], "answer": "To je můj manžel.", "reviewed": false },
+        { "id": "u2-l1-e7", "type": "listen", "audio": "Das sind meine Eltern.", "options": ["Das sind meine Eltern.", "Das ist meine Mutter.", "Das ist mein Vater."], "answer": "Das sind meine Eltern.", "reviewed": false },
+        { "id": "u2-l1-e8", "type": "type", "question": "rodina", "answer": "die Familie", "reviewed": false },
+        { "id": "u2-l1-e9", "type": "build", "question": "Moje sestra se jmenuje Eva.", "answer": "Meine Schwester heißt Eva.", "extra": ["Mein"], "reviewed": false },
+        { "id": "u2-l1-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "To je můj syn.", "questionLang": "native", "options": ["Das ist mein Sohn.", "Das ist meine Sohn.", "Das ist mein Tochter."], "answer": "Das ist mein Sohn.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "Čísla 1–9",
+      "titleTarget": "Zahlen von eins bis neun",
+      "reviewed": false,
+      "tip": {
+        "title": "Sloveso sein: jsem, jsi, je …",
+        "text": "Sloveso sein (být) už znáte: ich bin, Sie sind. Celé se časuje takto: ich bin (jsem), du bist (jsi), er/sie/es ist (on/ona/ono je), wir sind (jsme), ihr seid (jste – když tykáte více lidem), sie sind (jsou), Sie sind (Vy jste). Všimněte si, že wir, sie a Sie mají stejný tvar: sind. A stejně jako u „ich“ musíte i tady osobu vždy říct: Er ist mein Bruder. – Je to můj bratr.",
+        "examples": [
+          { "target": "Du bist meine Schwester.", "native": "Ty jsi moje sestra." },
+          { "target": "Das ist Anna. Sie ist meine Tochter.", "native": "To je Anna. Je to moje dcera." },
+          { "target": "Wir sind aus Tschechien.", "native": "Jsme z Česka." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l2-w1", "target": "eins", "native": "jedna", "note": "ei se čte jako aj: [ajns]", "reviewed": false },
+        { "id": "u2-l2-w2", "target": "zwei", "native": "dva", "note": "z se čte jako c: [cvaj]; zwei Kinder = dvě děti", "reviewed": false },
+        { "id": "u2-l2-w3", "target": "drei", "native": "tři", "note": "Čte se [draj].", "reviewed": false },
+        { "id": "u2-l2-w4", "target": "vier", "native": "čtyři", "note": "v = f, ie = dlouhé í: [fír], r na konci zní jen slabě.", "reviewed": false },
+        { "id": "u2-l2-w5", "target": "fünf", "native": "pět", "note": "ü: řekněte i a rty zaokrouhlete jako na u.", "reviewed": false },
+        { "id": "u2-l2-w6", "target": "sechs", "native": "šest", "note": "chs se čte jako ks: [zeks]", "reviewed": false },
+        { "id": "u2-l2-w7", "target": "sieben", "native": "sedm", "note": "Čte se [zíben].", "reviewed": false },
+        { "id": "u2-l2-w8", "target": "acht", "native": "osm", "note": "ch po a zní jako české ch.", "reviewed": false },
+        { "id": "u2-l2-w9", "target": "neun", "native": "devět", "note": "eu se čte jako oj: [nojn]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l2-e1", "type": "choice", "question": "sieben", "questionLang": "target", "options": ["sedm", "šest", "devět"], "answer": "sedm", "reviewed": false },
+        { "id": "u2-l2-e2", "type": "choice", "question": "pět", "questionLang": "native", "options": ["fünf", "vier", "neun"], "answer": "fünf", "reviewed": false },
+        { "id": "u2-l2-e3", "type": "match", "pairs": [
+          { "target": "eins", "native": "jedna" },
+          { "target": "zwei", "native": "dva" },
+          { "target": "drei", "native": "tři" },
+          { "target": "vier", "native": "čtyři" },
+          { "target": "acht", "native": "osm" }
+        ], "reviewed": false },
+        { "id": "u2-l2-e4", "type": "listen", "audio": "sechs", "options": ["sechs", "sieben", "acht"], "answer": "sechs", "reviewed": false },
+        { "id": "u2-l2-e5", "type": "listen", "audio": "neun", "options": ["devět", "pět", "osm"], "answer": "devět", "reviewed": false },
+        { "id": "u2-l2-e6", "type": "fill", "sentence": "Du ___ meine Schwester.", "translation": "Ty jsi moje sestra.", "options": ["bist", "ist", "bin"], "answer": "bist", "explain": "S du má sein tvar bist (jsi).", "reviewed": false },
+        { "id": "u2-l2-e7", "type": "fill", "sentence": "Wir ___ aus Tschechien.", "translation": "Jsme z Česka.", "options": ["sind", "seid", "ist"], "answer": "sind", "explain": "S wir (my) má sein tvar sind.", "reviewed": false },
+        { "id": "u2-l2-e8", "type": "type", "question": "osm", "answer": "acht", "reviewed": false },
+        { "id": "u2-l2-e9", "type": "build", "question": "Anna je moje dcera.", "answer": "Anna ist meine Tochter.", "extra": ["bist"], "reviewed": false },
+        { "id": "u2-l2-e10", "type": "speak", "text": "Eins, zwei, drei, vier, fünf.", "native": "Jedna, dva, tři, čtyři, pět.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Kolik je Vám let?",
+      "titleTarget": "Wie alt sind Sie?",
+      "reviewed": false,
+      "tip": {
+        "title": "Věk, sloveso haben a jedenadvacet",
+        "text": "Věk se říká se slovesem sein (být): Ich bin sechzig Jahre alt. Doslova „jsem šedesát let starý“. Pozor, nikdy ne „Ich habe … Jahre“. Sloveso haben (mít): ich habe, du hast, er/sie/es hat, wir haben, Sie haben. Čísla nad dvacet se tvoří jako české „jedenadvacet“: nejdřív jednotky, pak desítky: einundzwanzig (21), zweiundzwanzig (22).",
+        "examples": [
+          { "target": "Wie alt sind Sie?", "native": "Kolik je Vám let?" },
+          { "target": "Mein Sohn ist zwölf Jahre alt.", "native": "Mému synovi je dvanáct let." },
+          { "target": "Ich habe zwei Kinder.", "native": "Mám dvě děti." },
+          { "target": "einundzwanzig", "native": "jedenadvacet" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l3-w1", "target": "zehn", "native": "deset", "note": "z = c, h se nečte: [cén]", "reviewed": false },
+        { "id": "u2-l3-w2", "target": "elf", "native": "jedenáct", "note": "Čte se, jak se píše: [elf].", "reviewed": false },
+        { "id": "u2-l3-w3", "target": "zwölf", "native": "dvanáct", "note": "ö: řekněte e a rty zaokrouhlete jako na o.", "reviewed": false },
+        { "id": "u2-l3-w4", "target": "zwanzig", "native": "dvacet", "note": "[cvancich], -ig na konci zní jako ch ve slově ich; einundzwanzig = 21", "reviewed": false },
+        { "id": "u2-l3-w5", "target": "das Jahr", "native": "rok", "note": "zwanzig Jahre = dvacet let; množné číslo: die Jahre", "reviewed": false },
+        { "id": "u2-l3-w6", "target": "alt", "native": "starý", "note": "Ich bin … Jahre alt. = Je mi … let.", "reviewed": false },
+        { "id": "u2-l3-w7", "target": "Wie alt sind Sie?", "native": "Kolik je Vám let?", "note": "Když tykáte: Wie alt bist du?", "reviewed": false },
+        { "id": "u2-l3-w8", "target": "das Kind", "native": "dítě", "note": "množné číslo: die Kinder", "reviewed": false },
+        { "id": "u2-l3-w9", "target": "haben", "native": "mít", "note": "ich habe, du hast, er hat, wir haben, Sie haben", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l3-e1", "type": "choice", "question": "Wie alt sind Sie?", "questionLang": "target", "options": ["Kolik je Vám let?", "Jak se máte?", "Odkud jste?"], "answer": "Kolik je Vám let?", "reviewed": false },
+        { "id": "u2-l3-e2", "type": "choice", "question": "dítě", "questionLang": "native", "options": ["das Kind", "das Jahr", "der Sohn"], "answer": "das Kind", "reviewed": false },
+        { "id": "u2-l3-e3", "type": "match", "pairs": [
+          { "target": "zehn", "native": "deset" },
+          { "target": "elf", "native": "jedenáct" },
+          { "target": "zwölf", "native": "dvanáct" },
+          { "target": "zwanzig", "native": "dvacet" },
+          { "target": "alt", "native": "starý" }
+        ], "reviewed": false },
+        { "id": "u2-l3-e4", "type": "listen", "audio": "einundzwanzig", "options": ["jedenadvacet", "dvanáct", "dvacet"], "answer": "jedenadvacet", "reviewed": false },
+        { "id": "u2-l3-e5", "type": "listen", "audio": "Ich habe drei Kinder.", "options": ["Mám tři děti.", "Mám dvě děti.", "Mám tři sestry."], "answer": "Mám tři děti.", "reviewed": false },
+        { "id": "u2-l3-e6", "type": "fill", "sentence": "Ich ___ zwei Kinder.", "translation": "Mám dvě děti.", "options": ["habe", "hat", "bin"], "answer": "habe", "explain": "haben = mít; s ich: ich habe.", "reviewed": false },
+        { "id": "u2-l3-e7", "type": "fill", "sentence": "Meine Tochter ist zehn ___ alt.", "translation": "Mé dceři je deset let.", "options": ["Jahre", "Jahr", "Kinder"], "answer": "Jahre", "explain": "Po čísle větším než jedna je množné číslo: Jahre.", "reviewed": false },
+        { "id": "u2-l3-e8", "type": "type", "question": "Kolik je Vám let?", "answer": "Wie alt sind Sie?", "reviewed": false },
+        { "id": "u2-l3-e9", "type": "build", "question": "Mému synovi je jedenadvacet let.", "answer": "Mein Sohn ist einundzwanzig Jahre alt.", "extra": ["hat"], "reviewed": false },
+        { "id": "u2-l3-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Mám dvě děti.", "questionLang": "native", "options": ["Ich habe zwei Kinder.", "Ich bin zwei Kinder.", "Ich habe zwölf Kinder."], "answer": "Ich habe zwei Kinder.", "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "u2",
+  "level": "A1",
+  "title": "Představování",
+  "titleTarget": "Cine sunteți?",
+  "description": "Jak se představit, říct, odkud jste, a domluvit se, když nerozumíte.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "Jak se jmenujete?",
+      "titleTarget": "Cum vă numiți?",
+      "reviewed": false,
+      "tip": {
+        "title": "Jmenuji se… a 5. pád",
+        "text": "„Jmenuji se“ se řekne „mă numesc“ – i se zvratným slůvkem jako v češtině (mă ≈ se). V hovoru uslyšíte i „mă cheamă“, doslova „volá mě“. A dobrá zpráva: rumunština má 5. pád (oslovení) stejně jako čeština. Z „domn“ (pán) je „Domnule!“ (Pane!), z „Ion“ je „Ioane!“ (jako Jan → Jene!). Paní oslovíte „Doamnă!“.",
+        "examples": [
+          { "target": "Mă numesc Ana.", "native": "Jmenuji se Ana. – čte se „mă nu-MESK“" },
+          { "target": "Cum vă numiți, doamnă?", "native": "Jak se jmenujete, paní?" },
+          { "target": "Ioane, ce mai faci?", "native": "Jene, jak se máš? – 5. pád jako v češtině" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l1-w1", "target": "Cum vă numiți?", "native": "jak se jmenujete?", "note": "Při vykání. Čte se „kum vă nu-MIC“.", "reviewed": false },
+        { "id": "u2-l1-w2", "target": "Cum te cheamă?", "native": "jak se jmenuješ?", "note": "Při tykání, hovorově. Doslova „jak tě volá?“. Čte se „kum te kja-mă“.", "reviewed": false },
+        { "id": "u2-l1-w3", "target": "Mă numesc", "native": "jmenuji se", "note": "Mă numesc Ana. = Jmenuji se Ana. Čte se „mă nu-MESK“.", "reviewed": false },
+        { "id": "u2-l1-w4", "target": "Mă cheamă", "native": "říkají mi", "note": "Hovorový způsob, jak říct „jmenuji se“: Mă cheamă Ana. Doslova „volá mě“.", "reviewed": false },
+        { "id": "u2-l1-w5", "target": "Încântat de cunoștință", "native": "těší mě", "note": "Tak říká muž; žena říká „Încântată de cunoștință“. Čte se „yn-kyn-TAT de ku-noš-TIN-că“.", "reviewed": false },
+        { "id": "u2-l1-w6", "target": "un domn", "native": "pán", "note": "domnul = ten pán; množné číslo: domni.", "reviewed": false },
+        { "id": "u2-l1-w7", "target": "o doamnă", "native": "paní", "note": "doamna = ta paní; množné číslo: doamne. Čte se „doam-nă“, oa je jedna slabika.", "reviewed": false },
+        { "id": "u2-l1-w8", "target": "Domnule!", "native": "pane!", "note": "Oslovení (5. pád) od „domn“, jako pán → pane! Paní oslovíte „Doamnă!“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l1-e1", "type": "choice", "question": "Cum vă numiți?", "questionLang": "target", "options": ["jak se jmenujete?", "jak se máte?", "odkud jste?"], "answer": "jak se jmenujete?", "reviewed": false },
+        { "id": "u2-l1-e2", "type": "choice", "question": "jmenuji se", "questionLang": "native", "options": ["Mă numesc", "Cum te cheamă?", "Cum vă numiți?"], "answer": "Mă numesc", "reviewed": false },
+        { "id": "u2-l1-e3", "type": "match", "pairs": [
+          { "target": "Cum te cheamă?", "native": "jak se jmenuješ?" },
+          { "target": "un domn", "native": "pán" },
+          { "target": "o doamnă", "native": "paní" },
+          { "target": "Încântat de cunoștință", "native": "těší mě" }
+        ], "reviewed": false },
+        { "id": "u2-l1-e4", "type": "listen", "audio": "Mă numesc Ana.", "options": ["Mă numesc Ana.", "Mă cheamă Ana.", "Cum te cheamă?"], "answer": "Mă numesc Ana.", "reviewed": false },
+        { "id": "u2-l1-e5", "type": "listen", "audio": "Bună ziua, domnule!", "options": ["Dobrý den, pane!", "Dobrý večer, pane!", "Na shledanou, paní!"], "answer": "Dobrý den, pane!", "reviewed": false },
+        { "id": "u2-l1-e6", "type": "fill", "sentence": "Bună ziua, ___!", "translation": "Dobrý den, pane!", "options": ["domnule", "domn", "domnul"], "answer": "domnule", "explain": "Při oslovení se používá 5. pád: domn → domnule, jako pán → pane.", "reviewed": false },
+        { "id": "u2-l1-e7", "type": "fill", "sentence": "Cum ___ numiți?", "translation": "Jak se jmenujete?", "options": ["vă", "te", "mă"], "answer": "vă", "explain": "Při vykání: vă numiți; při tykání: te numești.", "reviewed": false },
+        { "id": "u2-l1-e8", "type": "type", "question": "jak se jmenuješ?", "answer": "Cum te cheamă?", "accept": ["Cum te numești?"], "reviewed": false },
+        { "id": "u2-l1-e9", "type": "build", "question": "Dobrý den, jmenuji se Ana.", "answer": "Bună ziua, mă numesc Ana.", "extra": ["numiți"], "reviewed": false },
+        { "id": "u2-l1-e10", "type": "choice", "prompt": "Někdo se vám představí. Co odpovíte?", "question": "těší mě", "questionLang": "native", "options": ["Încântat de cunoștință", "Îmi pare rău", "Cu plăcere"], "answer": "Încântat de cunoștință", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "Odkud jste?",
+      "titleTarget": "De unde sunteți?",
+      "reviewed": false,
+      "tip": {
+        "title": "Sloveso „být“ a písmena â, î",
+        "text": "Sloveso „být“ (a fi) se časuje podobně jako v češtině: sunt (jsem), ești (jsi), este (je), suntem (jsme), sunteți (jste), sunt (jsou). „Este“ se čte „jeste“ a v hovoru se často zkrátí na „e“. „Z“ se řekne „din“: din Cehia = z Česka. Písmena â a î znějí stejně – jako temné y vyslovené vzadu v ústech. Uvnitř slova se píše â (România), na začátku a na konci î (în = v).",
+        "examples": [
+          { "target": "De unde sunteți?", "native": "Odkud jste?" },
+          { "target": "Sunt din Cehia.", "native": "Jsem z Česka." },
+          { "target": "Ana este din România.", "native": "Ana je z Rumunska. – este se čte „jeste“" }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l2-w1", "target": "De unde sunteți?", "native": "odkud jste?", "note": "Při tykání: De unde ești? Čte se „de UN-de sun-TEC“.", "reviewed": false },
+        { "id": "u2-l2-w2", "target": "Sunt din Cehia.", "native": "jsem z Česka", "note": "sunt = jsem, din = z.", "reviewed": false },
+        { "id": "u2-l2-w3", "target": "Cehia", "native": "Česko", "note": "Čte se „če-hi-a“. Oficiálně Republica Cehă.", "reviewed": false },
+        { "id": "u2-l2-w4", "target": "România", "native": "Rumunsko", "note": "Čte se „ro-my-NI-a“; â zní jako temné y.", "reviewed": false },
+        { "id": "u2-l2-w5", "target": "ceh", "native": "Čech", "note": "Množné číslo: cehi. Národnost se píše malým písmenem.", "reviewed": false },
+        { "id": "u2-l2-w6", "target": "cehoaică", "native": "Češka", "note": "Množné číslo: cehoaice. Čte se „če-HOAJ-kă“.", "reviewed": false },
+        { "id": "u2-l2-w7", "target": "român", "native": "Rumun", "note": "Množné číslo: români. Čte se „ro-MYN“.", "reviewed": false },
+        { "id": "u2-l2-w8", "target": "româncă", "native": "Rumunka", "note": "Množné číslo: românce. Čte se „ro-MYN-kă“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l2-e1", "type": "choice", "question": "De unde sunteți?", "questionLang": "target", "options": ["odkud jste?", "jak se jmenujete?", "jak se máte?"], "answer": "odkud jste?", "reviewed": false },
+        { "id": "u2-l2-e2", "type": "choice", "question": "Rumunsko", "questionLang": "native", "options": ["România", "Cehia", "român"], "answer": "România", "reviewed": false },
+        { "id": "u2-l2-e3", "type": "match", "pairs": [
+          { "target": "ceh", "native": "Čech" },
+          { "target": "cehoaică", "native": "Češka" },
+          { "target": "român", "native": "Rumun" },
+          { "target": "româncă", "native": "Rumunka" }
+        ], "reviewed": false },
+        { "id": "u2-l2-e4", "type": "listen", "audio": "Sunt din Cehia.", "options": ["Sunt din Cehia.", "Sunt din România.", "Sunteți din Cehia?"], "answer": "Sunt din Cehia.", "reviewed": false },
+        { "id": "u2-l2-e5", "type": "listen", "audio": "Ana este din România.", "options": ["Ana je z Rumunska.", "Ana je z Česka.", "Ana je Češka."], "answer": "Ana je z Rumunska.", "reviewed": false },
+        { "id": "u2-l2-e6", "type": "fill", "sentence": "Eu ___ din Cehia.", "translation": "Já jsem z Česka.", "options": ["sunt", "este", "sunteți"], "answer": "sunt", "explain": "Já jsem = eu sunt; on, ona je = este; vy jste = sunteți.", "reviewed": false },
+        { "id": "u2-l2-e7", "type": "fill", "sentence": "Jana este ___.", "translation": "Jana je Češka.", "options": ["cehoaică", "ceh", "cehi"], "answer": "cehoaică", "explain": "Žena je cehoaică (Češka), muž je ceh (Čech).", "reviewed": false },
+        { "id": "u2-l2-e8", "type": "type", "question": "Jsem z Rumunska.", "answer": "Sunt din România.", "accept": ["Eu sunt din România."], "reviewed": false },
+        { "id": "u2-l2-e9", "type": "build", "question": "Odkud jste? Jsem z Rumunska.", "answer": "De unde sunteți? Sunt din România.", "extra": ["Cehia"], "reviewed": false },
+        { "id": "u2-l2-e10", "type": "speak", "text": "Bună ziua, sunt din Cehia.", "native": "Dobrý den, jsem z Česka.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Mluvíte rumunsky?",
+      "titleTarget": "Vorbiți românește?",
+      "reviewed": false,
+      "tip": {
+        "title": "Slovesa na -esc a zápor",
+        "text": "Ve slovníku stojí slovesa s malým „a“: a vorbi = mluvit. To „a“ je jen značka, podobně jako české -t na konci. Při časování zmizí: vorbesc (mluvím), vorbești (mluvíš), vorbește (mluví), vorbim (mluvíme), vorbiți (mluvíte), vorbesc (mluví). Zápor je snadný: „nu“ před slovesem, jako české ne-, jen se píše zvlášť: nu vorbesc = nemluvím.",
+        "examples": [
+          { "target": "Vorbiți românește?", "native": "Mluvíte rumunsky?" },
+          { "target": "Nu, vorbesc cehește.", "native": "Ne, mluvím česky." },
+          { "target": "Vorbesc puțin românește.", "native": "Mluvím trochu rumunsky." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u2-l3-w1", "target": "a vorbi", "native": "mluvit", "note": "vorbesc = mluvím, vorbiți = mluvíte. Čte se „a vor-BI“, vorbesc „vor-BESK“.", "reviewed": false },
+        { "id": "u2-l3-w2", "target": "românește", "native": "rumunsky", "note": "Čte se „ro-my-NEŠ-te“.", "reviewed": false },
+        { "id": "u2-l3-w3", "target": "cehește", "native": "česky", "note": "Čte se „če-HEŠ-te“.", "reviewed": false },
+        { "id": "u2-l3-w4", "target": "puțin", "native": "trochu", "note": "Čte se „pu-CIN“.", "reviewed": false },
+        { "id": "u2-l3-w5", "target": "Nu înțeleg.", "native": "nerozumím", "note": "Rozumím = Înțeleg. Čte se „yn-ce-LEG“.", "reviewed": false },
+        { "id": "u2-l3-w6", "target": "Mai rar, vă rog.", "native": "pomaleji, prosím", "note": "Doslova „řidčeji, prosím“. Při tykání: Mai rar, te rog.", "reviewed": false },
+        { "id": "u2-l3-w7", "target": "Ce înseamnă?", "native": "co to znamená?", "note": "Čte se „če în-SEAM-nă“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u2-l3-w8", "target": "Cum se spune?", "native": "jak se to řekne?", "note": "Doslova „jak se říká?“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u2-l3-e1", "type": "choice", "question": "Cum se spune?", "questionLang": "target", "options": ["jak se to řekne?", "co to znamená?", "nerozumím"], "answer": "jak se to řekne?", "reviewed": false },
+        { "id": "u2-l3-e2", "type": "choice", "question": "česky", "questionLang": "native", "options": ["cehește", "românește", "puțin"], "answer": "cehește", "reviewed": false },
+        { "id": "u2-l3-e3", "type": "match", "pairs": [
+          { "target": "a vorbi", "native": "mluvit" },
+          { "target": "puțin", "native": "trochu" },
+          { "target": "românește", "native": "rumunsky" },
+          { "target": "Ce înseamnă?", "native": "co to znamená?" }
+        ], "reviewed": false },
+        { "id": "u2-l3-e4", "type": "listen", "audio": "Mai rar, vă rog.", "options": ["Mai rar, vă rog.", "Mai rar, te rog.", "Nu înțeleg."], "answer": "Mai rar, vă rog.", "reviewed": false },
+        { "id": "u2-l3-e5", "type": "listen", "audio": "Vorbiți românește?", "options": ["Mluvíte rumunsky?", "Mluvíte česky?", "Odkud jste?"], "answer": "Mluvíte rumunsky?", "reviewed": false },
+        { "id": "u2-l3-e6", "type": "fill", "sentence": "Eu ___ puțin românește.", "translation": "Mluvím trochu rumunsky.", "options": ["vorbesc", "vorbiți", "vorbi"], "answer": "vorbesc", "explain": "Já mluvím = vorbesc; „vorbi“ je jen slovníkový tvar.", "reviewed": false },
+        { "id": "u2-l3-e7", "type": "fill", "sentence": "Ana ___ vorbește cehește.", "translation": "Ana nemluví česky.", "options": ["nu", "da", "din"], "answer": "nu", "explain": "Zápor: „nu“ stojí před slovesem, jako české ne-.", "reviewed": false },
+        { "id": "u2-l3-e8", "type": "type", "question": "nerozumím", "answer": "Nu înțeleg.", "reviewed": false },
+        { "id": "u2-l3-e9", "type": "build", "question": "Mluvím trochu rumunsky.", "answer": "Vorbesc puțin românește.", "extra": ["cehește"], "reviewed": false },
+        { "id": "u2-l3-e10", "type": "build", "question": "Promiňte, nerozumím. Pomaleji, prosím.", "answer": "Scuzați-mă, nu înțeleg. Mai rar, vă rog.", "extra": ["te"], "reviewed": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "u7",
+  "level": "A1",
+  "title": "Můj den",
+  "titleTarget": "Ziua mea",
+  "description": "Kolik je hodin, dny v týdnu a co děláte každý den.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u7-l1",
+      "title": "Kolik je hodin?",
+      "titleTarget": "Cât e ceasul?",
+      "reviewed": false,
+      "tip": {
+        "title": "Hodiny jsou ženského rodu",
+        "text": "Na čas se zeptáte „Cât e ceasul?“ – doslova „kolik je čas“ (ceas je slovanské slovo). Odpovídá se „E ora…“: e ora trei = jsou tři hodiny. Slovo „oră“ je ženského rodu, proto „ora două“, ne „doi“ – jako české „dvě hodiny“. Pozor na půlky: rumunsky se počítá jinak než česky. „Trei și jumătate“ (tři a půl) je česky „půl čtvrté“ a „patru și un sfert“ (čtyři a čtvrt) je „čtvrt na pět“.",
+        "examples": [
+          { "target": "Cât e ceasul?", "native": "Kolik je hodin?" },
+          { "target": "E ora două.", "native": "Jsou dvě hodiny." },
+          { "target": "E trei și jumătate.", "native": "Je půl čtvrté." },
+          { "target": "Seara, la ora șapte.", "native": "Večer v sedm." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l1-w1", "target": "Cât e ceasul?", "native": "kolik je hodin?", "note": "Čte se „kyt je časul“. Doslova „kolik je čas“.", "reviewed": false },
+        { "id": "u7-l1-w2", "target": "un ceas", "native": "hodiny; hodinky", "note": "ceasul = ty hodiny; množné číslo: ceasuri. Slovanské slovo, jako české čas.", "reviewed": false },
+        { "id": "u7-l1-w3", "target": "o oră", "native": "hodina", "note": "ora = ta hodina; množné číslo: ore. E ora trei = jsou tři hodiny.", "reviewed": false },
+        { "id": "u7-l1-w4", "target": "jumătate", "native": "půl", "note": "Trei și jumătate = půl čtvrté. Čte se „žu-mă-TA-te“.", "reviewed": false },
+        { "id": "u7-l1-w5", "target": "un sfert", "native": "čtvrt", "note": "sfertul = ta čtvrt; množné číslo: sferturi. Patru și un sfert = čtvrt na pět.", "reviewed": false },
+        { "id": "u7-l1-w6", "target": "dimineața", "native": "ráno", "note": "Tvar se členem znamená „kdy“: ráno, dopoledne. Znáte z Bună dimineața.", "reviewed": false },
+        { "id": "u7-l1-w7", "target": "la prânz", "native": "v poledne", "note": "prânz = oběd, la prânz = v poledne, na oběd. â = temné y.", "reviewed": false },
+        { "id": "u7-l1-w8", "target": "seara", "native": "večer", "note": "Tvar se členem znamená „kdy“: večer. Znáte z Bună seara.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l1-e1", "type": "choice", "question": "Cât e ceasul?", "questionLang": "target", "options": ["kolik je hodin?", "kolik to stojí?", "kde je nádraží?"], "answer": "kolik je hodin?", "reviewed": false },
+        { "id": "u7-l1-e2", "type": "choice", "question": "čtvrt", "questionLang": "native", "options": ["un sfert", "jumătate", "o oră"], "answer": "un sfert", "reviewed": false },
+        { "id": "u7-l1-e3", "type": "match", "pairs": [
+          { "target": "dimineața", "native": "ráno" },
+          { "target": "la prânz", "native": "v poledne" },
+          { "target": "seara", "native": "večer" },
+          { "target": "jumătate", "native": "půl" }
+        ], "reviewed": false },
+        { "id": "u7-l1-e4", "type": "listen", "audio": "E ora două.", "options": ["Jsou dvě hodiny.", "Je jedna hodina.", "Je půl druhé."], "answer": "Jsou dvě hodiny.", "reviewed": false },
+        { "id": "u7-l1-e5", "type": "listen", "audio": "E trei și jumătate.", "options": ["Je půl čtvrté.", "Je půl třetí.", "Jsou tři hodiny."], "answer": "Je půl čtvrté.", "reviewed": false },
+        { "id": "u7-l1-e6", "type": "fill", "sentence": "E ora ___.", "translation": "Jsou dvě hodiny.", "options": ["două", "doi"], "answer": "două", "explain": "Ora je ženského rodu, proto două (jako české dvě), ne doi.", "reviewed": false },
+        { "id": "u7-l1-e7", "type": "fill", "sentence": "E patru și un ___.", "translation": "Je čtvrt na pět.", "options": ["sfert", "oră", "jumătate"], "answer": "sfert", "explain": "Patru și un sfert = čtyři a čtvrt, česky čtvrt na pět.", "reviewed": false },
+        { "id": "u7-l1-e8", "type": "type", "question": "v poledne", "answer": "la prânz", "reviewed": false },
+        { "id": "u7-l1-e9", "type": "build", "question": "Kolik je hodin? Jsou tři.", "answer": "Cât e ceasul? E ora trei.", "extra": ["oră"], "reviewed": false },
+        { "id": "u7-l1-e10", "type": "speak", "text": "E ora șapte seara.", "native": "Je sedm hodin večer.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "title": "Dny v týdnu",
+      "titleTarget": "Zilele săptămânii",
+      "reviewed": false,
+      "tip": {
+        "title": "V pondělí a každé pondělí",
+        "text": "Dny v týdnu se píšou malým písmenem, stejně jako v češtině. A jedna úleva: „v pondělí“ se řekne jen „luni“ – bez předložky. Když něco děláte pravidelně, každý týden, přidá se člen: lunea = každé pondělí, sâmbăta = každou sobotu, duminica = každou neděli. V „sâmbătă“ je â – temné y, jako v „România“. Slovo je příbuzné s českou „sobotou“.",
+        "examples": [
+          { "target": "Azi e luni.", "native": "Dnes je pondělí." },
+          { "target": "Mâine e marți.", "native": "Zítra je úterý." },
+          { "target": "Sâmbăta merg la piață.", "native": "V sobotu chodím na trh." },
+          { "target": "Duminica merg la biserică.", "native": "V neděli chodím do kostela." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l2-w1", "target": "luni", "native": "pondělí", "note": "Luni = v pondělí, lunea = každé pondělí. Koncové i je skoro neslyšné: „luň“.", "reviewed": false },
+        { "id": "u7-l2-w2", "target": "marți", "native": "úterý", "note": "Čte se „marc“, koncové i je skoro neslyšné.", "reviewed": false },
+        { "id": "u7-l2-w3", "target": "miercuri", "native": "středa", "note": "Čte se „MJER-kur“.", "reviewed": false },
+        { "id": "u7-l2-w4", "target": "joi", "native": "čtvrtek", "note": "Čte se „žoj“.", "reviewed": false },
+        { "id": "u7-l2-w5", "target": "vineri", "native": "pátek", "note": "Čte se „VI-ner“.", "reviewed": false },
+        { "id": "u7-l2-w6", "target": "sâmbătă", "native": "sobota", "note": "â = temné y: „SYM-bă-tă“. Sâmbăta = každou sobotu.", "reviewed": false },
+        { "id": "u7-l2-w7", "target": "duminică", "native": "neděle", "note": "Čte se „du-MI-ni-kă“. Duminica = každou neděli.", "reviewed": false },
+        { "id": "u7-l2-w8", "target": "azi", "native": "dnes", "note": "Formálněji také astăzi.", "reviewed": false },
+        { "id": "u7-l2-w9", "target": "mâine", "native": "zítra", "note": "Čte se „MYJ-ne“, â = temné y.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l2-e1", "type": "choice", "question": "joi", "questionLang": "target", "options": ["čtvrtek", "úterý", "sobota"], "answer": "čtvrtek", "reviewed": false },
+        { "id": "u7-l2-e2", "type": "choice", "question": "pátek", "questionLang": "native", "options": ["vineri", "joi", "luni"], "answer": "vineri", "reviewed": false },
+        { "id": "u7-l2-e3", "type": "match", "pairs": [
+          { "target": "luni", "native": "pondělí" },
+          { "target": "marți", "native": "úterý" },
+          { "target": "miercuri", "native": "středa" },
+          { "target": "sâmbătă", "native": "sobota" }
+        ], "reviewed": false },
+        { "id": "u7-l2-e4", "type": "listen", "audio": "Azi e duminică.", "options": ["Dnes je neděle.", "Zítra je neděle.", "Dnes je sobota."], "answer": "Dnes je neděle.", "reviewed": false },
+        { "id": "u7-l2-e5", "type": "listen", "audio": "miercuri", "options": ["miercuri", "marți", "vineri"], "answer": "miercuri", "reviewed": false },
+        { "id": "u7-l2-e6", "type": "fill", "sentence": "Azi e luni, ___ e marți.", "translation": "Dnes je pondělí, zítra je úterý.", "options": ["mâine", "azi", "duminică"], "answer": "mâine", "reviewed": false },
+        { "id": "u7-l2-e7", "type": "fill", "sentence": "___ merg la piață.", "translation": "Každou sobotu chodím na trh.", "options": ["Sâmbăta", "Sâmbătă", "Mâine"], "answer": "Sâmbăta", "explain": "Každou sobotu = sâmbăta se členem; sâmbătă bez členu je jen tuto sobotu.", "reviewed": false },
+        { "id": "u7-l2-e8", "type": "type", "question": "zítra", "answer": "mâine", "reviewed": false },
+        { "id": "u7-l2-e9", "type": "build", "question": "Zítra je čtvrtek, ne pátek.", "answer": "Mâine e joi, nu vineri.", "extra": ["azi"], "reviewed": false },
+        { "id": "u7-l2-e10", "type": "choice", "question": "lunea", "questionLang": "target", "options": ["každé pondělí", "v úterý", "zítra ráno"], "answer": "každé pondělí", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u7-l3",
+      "title": "Každý den",
+      "titleTarget": "În fiecare zi",
+      "reviewed": false,
+      "tip": {
+        "title": "Slovesa na -ez a -esc",
+        "text": "Mnoho rumunských sloves si v přítomném čase vkládá -ez nebo -esc: a lucra – lucrez (pracuji), a citi – citesc (čtu), a găti – gătesc (vařím). Které sloveso to dělá, se musíte naučit – proto je tvar „já“ vždy v poznámce. Dobrá zpráva: rumunština nemá vid. „A citi“ je číst i přečíst, „a mânca“ jíst i sníst – stačí jedno sloveso. A „mă trezesc“ má „mă“ stejně jako české „budím se“.",
+        "examples": [
+          { "target": "Mă trezesc la ora șase.", "native": "Budím se v šest." },
+          { "target": "Dimineața lucrez.", "native": "Ráno pracuji." },
+          { "target": "Seara citesc.", "native": "Večer čtu." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u7-l3-w1", "target": "a lucra", "native": "pracovat", "note": "Skupina -ez: eu lucrez, tu lucrezi, el lucrează. Čte se „a lu-KRA“.", "reviewed": false },
+        { "id": "u7-l3-w2", "target": "a mânca", "native": "jíst", "note": "eu mănânc, tu mănânci, el mănâncă. Čte se „a myn-KA“.", "reviewed": false },
+        { "id": "u7-l3-w3", "target": "a bea", "native": "pít", "note": "Nepravidelné: eu beau, tu bei, el bea. Čte se „bja“.", "reviewed": false },
+        { "id": "u7-l3-w4", "target": "a dormi", "native": "spát", "note": "eu dorm, tu dormi, el doarme. Čte se „a dor-MI“.", "reviewed": false },
+        { "id": "u7-l3-w5", "target": "a se trezi", "native": "budit se; probouzet se", "note": "Skupina -esc: eu mă trezesc, tu te trezești, el se trezește.", "reviewed": false },
+        { "id": "u7-l3-w6", "target": "a citi", "native": "číst", "note": "Skupina -esc: eu citesc, tu citești, el citește. Slovanské slovo, jako české číst.", "reviewed": false },
+        { "id": "u7-l3-w7", "target": "a merge", "native": "jít; jet", "note": "eu merg, tu mergi, el merge. Merg cu trenul = jedu vlakem.", "reviewed": false },
+        { "id": "u7-l3-w8", "target": "a găti", "native": "vařit", "note": "Skupina -esc: eu gătesc, tu gătești, el gătește.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u7-l3-e1", "type": "choice", "question": "a dormi", "questionLang": "target", "options": ["spát", "jíst", "pít"], "answer": "spát", "reviewed": false },
+        { "id": "u7-l3-e2", "type": "choice", "question": "číst", "questionLang": "native", "options": ["a citi", "a găti", "a lucra"], "answer": "a citi", "reviewed": false },
+        { "id": "u7-l3-e3", "type": "match", "pairs": [
+          { "target": "a lucra", "native": "pracovat" },
+          { "target": "a mânca", "native": "jíst" },
+          { "target": "a bea", "native": "pít" },
+          { "target": "a merge", "native": "jít; jet" }
+        ], "reviewed": false },
+        { "id": "u7-l3-e4", "type": "listen", "audio": "Mă trezesc la ora șase.", "options": ["Budím se v šest.", "Spím do šesti.", "Vařím v šest."], "answer": "Budím se v šest.", "reviewed": false },
+        { "id": "u7-l3-e5", "type": "listen", "audio": "Seara citesc.", "options": ["Seara citesc.", "Seara gătesc.", "Seara dorm."], "answer": "Seara citesc.", "reviewed": false },
+        { "id": "u7-l3-e6", "type": "fill", "sentence": "Eu ___ la bancă.", "translation": "Pracuji v bance.", "options": ["lucrez", "lucra", "lucrează"], "answer": "lucrez", "explain": "A lucra patří do skupiny -ez: eu lucrez = pracuji.", "reviewed": false },
+        { "id": "u7-l3-e7", "type": "fill", "sentence": "Eu ___ o cafea dimineața.", "translation": "Ráno piju kávu.", "options": ["beau", "bea", "bem"], "answer": "beau", "explain": "A bea je nepravidelné: eu beau = piju.", "reviewed": false },
+        { "id": "u7-l3-e8", "type": "type", "question": "vařit", "answer": "a găti", "accept": ["găti"], "reviewed": false },
+        { "id": "u7-l3-e9", "type": "build", "question": "V neděli vařím polévku.", "answer": "Duminică gătesc o supă.", "extra": ["găti"], "reviewed": false },
+        { "id": "u7-l3-e10", "type": "speak", "text": "Dimineața lucrez, seara citesc.", "native": "Ráno pracuji, večer čtu.", "reviewed": false }
+      ]
+    }
+  ]
+}

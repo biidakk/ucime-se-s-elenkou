@@ -1,0 +1,143 @@
+{
+  "id": "u5",
+  "level": "A1",
+  "title": "Doma",
+  "titleTarget": "At home",
+  "description": "Byt a dům, nábytek, kde co je a co máme: there is, in, on, under a have got.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u5-l1",
+      "title": "Můj byt",
+      "titleTarget": "My flat",
+      "reviewed": false,
+      "tip": {
+        "title": "There is, there are",
+        "text": "Česky řeknete „V bytě je kuchyně“ nebo jen „Je tam zahrada“. Anglicky věta takhle začínat nemůže, Is a garden je chyba. Když říkáte, že něco někde je, začněte there: There is a garden. Zkráceně there's. U více věcí there are: There are two bedrooms. V otázce se slova prohodí: Is there a bathroom? – Yes, there is.",
+        "examples": [
+          { "target": "There's a garden.", "native": "Je tam zahrada." },
+          { "target": "There are three bedrooms.", "native": "Jsou tam tři ložnice." },
+          { "target": "There's a small kitchen in my flat.", "native": "V mém bytě je malá kuchyně." },
+          { "target": "Is there a bathroom? – Yes, there is.", "native": "Je tam koupelna? – Ano, je." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l1-w1", "target": "house", "native": "dům", "note": "Vyslovuje se „haus“.", "reviewed": false },
+        { "id": "u5-l1-w2", "target": "flat", "native": "byt", "note": "Britské slovo; americky apartment. A se vyslovuje otevřeně, skoro jako e.", "reviewed": false },
+        { "id": "u5-l1-w3", "target": "room", "native": "pokoj; místnost", "note": "Vyslovuje se „rúm“.", "reviewed": false },
+        { "id": "u5-l1-w4", "target": "kitchen", "native": "kuchyně", "note": "Vyslovuje se „kičin“.", "reviewed": false },
+        { "id": "u5-l1-w5", "target": "bathroom", "native": "koupelna", "reviewed": false },
+        { "id": "u5-l1-w6", "target": "bedroom", "native": "ložnice", "reviewed": false },
+        { "id": "u5-l1-w7", "target": "living room", "native": "obývací pokoj", "note": "Česky hovorově „obývák“.", "reviewed": false },
+        { "id": "u5-l1-w8", "target": "garden", "native": "zahrada", "note": "Britsky se r nevyslovuje: „gádn“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l1-e1", "type": "choice", "question": "kitchen", "questionLang": "target", "options": ["kuchyně", "koupelna", "ložnice"], "answer": "kuchyně", "reviewed": false },
+        { "id": "u5-l1-e2", "type": "choice", "question": "obývací pokoj", "questionLang": "native", "options": ["living room", "bedroom", "bathroom"], "answer": "living room", "reviewed": false },
+        { "id": "u5-l1-e3", "type": "match", "pairs": [
+          { "target": "house", "native": "dům" },
+          { "target": "flat", "native": "byt" },
+          { "target": "room", "native": "pokoj" },
+          { "target": "garden", "native": "zahrada" }
+        ], "reviewed": false },
+        { "id": "u5-l1-e4", "type": "listen", "audio": "There's a garden.", "options": ["There's a garden.", "There's a kitchen.", "There's a bedroom."], "answer": "There's a garden.", "reviewed": false },
+        { "id": "u5-l1-e5", "type": "listen", "audio": "There are three bedrooms.", "options": ["Jsou tam tři ložnice.", "Je tam jedna ložnice.", "Jsou tam tři koupelny."], "answer": "Jsou tam tři ložnice.", "reviewed": false },
+        { "id": "u5-l1-e6", "type": "fill", "sentence": "___ a big kitchen in my flat.", "translation": "V mém bytě je velká kuchyně.", "options": ["There's", "Is", "It"], "answer": "There's", "explain": "Když říkáte, že něco někde je, věta začíná there is (there's).", "reviewed": false },
+        { "id": "u5-l1-e7", "type": "fill", "sentence": "There ___ two bedrooms.", "translation": "Jsou tam dvě ložnice.", "options": ["are", "is", "am"], "answer": "are", "explain": "U více věcí je there are.", "reviewed": false },
+        { "id": "u5-l1-e8", "type": "type", "question": "To je můj dům.", "answer": "This is my house.", "accept": ["That's my house.", "It's my house."], "reviewed": false },
+        { "id": "u5-l1-e9", "type": "build", "question": "Je tam koupelna?", "answer": "Is there a bathroom?", "extra": ["it"], "reviewed": false },
+        { "id": "u5-l1-e10", "type": "speak", "text": "There's a small garden.", "native": "Je tam malá zahrada.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "title": "Nábytek",
+      "titleTarget": "Furniture",
+      "reviewed": false,
+      "tip": {
+        "title": "Stůl je „it“",
+        "text": "Česky je stůl „on“, postel „ona“ a okno „ono“. Anglicky jsou všechny věci it. He a she se říká jen o lidech (a často o domácích zvířatech). Takže: Where's the bag? – It's on the chair. Kde něco je, řeknete slovy in (v), on (na) a under (pod). Na rozdíl od češtiny se za nimi slovo nemění: on the table (na stole), under the table (pod stolem).",
+        "examples": [
+          { "target": "Where's my phone? – It's on the table.", "native": "Kde je můj telefon? – Je na stole." },
+          { "target": "The bag is under the chair.", "native": "Taška je pod židlí." },
+          { "target": "The key is in the door.", "native": "Klíč je ve dveřích." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l2-w1", "target": "table", "native": "stůl", "reviewed": false },
+        { "id": "u5-l2-w2", "target": "chair", "native": "židle", "reviewed": false },
+        { "id": "u5-l2-w3", "target": "bed", "native": "postel", "reviewed": false },
+        { "id": "u5-l2-w4", "target": "sofa", "native": "pohovka", "note": "Vyslovuje se „soufa“.", "reviewed": false },
+        { "id": "u5-l2-w5", "target": "window", "native": "okno", "reviewed": false },
+        { "id": "u5-l2-w6", "target": "door", "native": "dveře", "note": "Pozor: jednotné číslo, the door is (česky dveře jsou).", "reviewed": false },
+        { "id": "u5-l2-w7", "target": "in", "native": "v", "note": "in the kitchen = v kuchyni", "reviewed": false },
+        { "id": "u5-l2-w8", "target": "on", "native": "na", "note": "on the table = na stole", "reviewed": false },
+        { "id": "u5-l2-w9", "target": "under", "native": "pod", "note": "Vyslovuje se „anda“.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l2-e1", "type": "choice", "question": "under", "questionLang": "target", "options": ["pod", "na", "v"], "answer": "pod", "reviewed": false },
+        { "id": "u5-l2-e2", "type": "choice", "question": "židle", "questionLang": "native", "options": ["chair", "table", "bed"], "answer": "chair", "reviewed": false },
+        { "id": "u5-l2-e3", "type": "match", "pairs": [
+          { "target": "table", "native": "stůl" },
+          { "target": "bed", "native": "postel" },
+          { "target": "sofa", "native": "pohovka" },
+          { "target": "window", "native": "okno" },
+          { "target": "door", "native": "dveře" }
+        ], "reviewed": false },
+        { "id": "u5-l2-e4", "type": "listen", "audio": "The key is in the bag.", "options": ["The key is in the bag.", "The key is on the bag.", "The key is under the bag."], "answer": "The key is in the bag.", "reviewed": false },
+        { "id": "u5-l2-e5", "type": "listen", "audio": "My phone is under the sofa.", "options": ["Můj telefon je pod pohovkou.", "Můj telefon je na pohovce.", "Můj telefon je v kuchyni."], "answer": "Můj telefon je pod pohovkou.", "reviewed": false },
+        { "id": "u5-l2-e6", "type": "fill", "sentence": "Where's my bag? – ___ is on the chair.", "translation": "Kde je moje taška? – Je na židli.", "options": ["It", "She", "He"], "answer": "It", "explain": "O věcech se vždy říká it, i když je česky taška „ona“.", "reviewed": false },
+        { "id": "u5-l2-e7", "type": "fill", "sentence": "The book is ___ the table.", "translation": "Kniha je na stole.", "options": ["on", "in", "under"], "answer": "on", "explain": "Na = on, v = in, pod = under.", "reviewed": false },
+        { "id": "u5-l2-e8", "type": "type", "question": "Klíč je v tašce.", "answer": "The key is in the bag.", "accept": ["The key's in the bag."], "reviewed": false },
+        { "id": "u5-l2-e9", "type": "build", "question": "Moje brýle jsou pod postelí.", "answer": "My glasses are under the bed.", "extra": ["is"], "reviewed": false },
+        { "id": "u5-l2-e10", "type": "speak", "text": "It's on the table.", "native": "Je to na stole.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u5-l3",
+      "title": "Co máme",
+      "titleTarget": "Have you got a car?",
+      "reviewed": false,
+      "tip": {
+        "title": "Mám = I've got",
+        "text": "Britové často říkají „mám“ jako have got: I've got a dog. U he, she, it je has got, zkráceně 's got: She's got a cat. Zápor: I haven't got a car. Otázka začíná have nebo has: Have you got a car? – Yes, I have. Nebo: No, I haven't. A nezapomeňte na a před věcí, kterou máte jednu: I've got a car, ne I've got car.",
+        "examples": [
+          { "target": "I've got a dog.", "native": "Mám psa." },
+          { "target": "My neighbour has got a cat.", "native": "Můj soused má kočku." },
+          { "target": "Have you got a car? – No, I haven't.", "native": "Máte auto? – Ne, nemám." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u5-l3-w1", "target": "have got", "native": "mít", "note": "he, she, it has got; zkráceně I've got, she's got.", "reviewed": false },
+        { "id": "u5-l3-w2", "target": "cat", "native": "kočka", "note": "A se vyslovuje otevřeně, skoro jako e.", "reviewed": false },
+        { "id": "u5-l3-w3", "target": "dog", "native": "pes", "note": "Na konci vyslovte g, ne „dok“.", "reviewed": false },
+        { "id": "u5-l3-w4", "target": "car", "native": "auto", "note": "Britsky se r nevyslovuje: „ká“.", "reviewed": false },
+        { "id": "u5-l3-w5", "target": "bike", "native": "kolo", "note": "Jízdní kolo; vyslovuje se „bajk“.", "reviewed": false },
+        { "id": "u5-l3-w6", "target": "neighbour", "native": "soused", "note": "Platí i pro sousedku. Vyslovuje se „nejba“.", "reviewed": false },
+        { "id": "u5-l3-w7", "target": "lift", "native": "výtah", "note": "Britské slovo; americky elevator.", "reviewed": false },
+        { "id": "u5-l3-w8", "target": "stairs", "native": "schody", "note": "Jen v množném čísle: the stairs.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u5-l3-e1", "type": "choice", "question": "neighbour", "questionLang": "target", "options": ["soused", "výtah", "kolo"], "answer": "soused", "reviewed": false },
+        { "id": "u5-l3-e2", "type": "choice", "question": "výtah", "questionLang": "native", "options": ["lift", "stairs", "bike"], "answer": "lift", "reviewed": false },
+        { "id": "u5-l3-e3", "type": "match", "pairs": [
+          { "target": "cat", "native": "kočka" },
+          { "target": "dog", "native": "pes" },
+          { "target": "car", "native": "auto" },
+          { "target": "bike", "native": "kolo" },
+          { "target": "stairs", "native": "schody" }
+        ], "reviewed": false },
+        { "id": "u5-l3-e4", "type": "listen", "audio": "I've got a dog.", "options": ["I've got a dog.", "I've got a cat.", "She's got a dog."], "answer": "I've got a dog.", "reviewed": false },
+        { "id": "u5-l3-e5", "type": "listen", "audio": "Have you got a car?", "options": ["Máte auto?", "Máte kolo?", "Mám auto."], "answer": "Máte auto?", "reviewed": false },
+        { "id": "u5-l3-e6", "type": "fill", "sentence": "My neighbour ___ got a big dog.", "translation": "Můj soused má velkého psa.", "options": ["has", "have", "is"], "answer": "has", "explain": "U he, she, it (i u „můj soused“) je has got.", "reviewed": false },
+        { "id": "u5-l3-e7", "type": "fill", "sentence": "We've got ___ umbrella.", "translation": "Máme deštník.", "options": ["an", "a"], "answer": "an", "explain": "Před samohláskou se říká an: an umbrella.", "reviewed": false },
+        { "id": "u5-l3-e8", "type": "type", "question": "Nemám auto.", "answer": "I haven't got a car.", "accept": ["I don't have a car."], "reviewed": false },
+        { "id": "u5-l3-e9", "type": "build", "question": "Máte psa?", "answer": "Have you got a dog?", "extra": ["do"], "reviewed": false },
+        { "id": "u5-l3-e10", "type": "speak", "text": "My neighbour has got a cat.", "native": "Můj soused má kočku.", "reviewed": false }
+      ]
+    }
+  ]
+}

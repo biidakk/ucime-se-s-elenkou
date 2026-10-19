@@ -1,0 +1,145 @@
+{
+  "id": "u4",
+  "level": "A1",
+  "title": "Bydlení",
+  "titleTarget": "Wohnen",
+  "description": "Byt a pokoje, nábytek a kde bydlíte.",
+  "reviewed": false,
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "Byt a pokoje",
+      "titleTarget": "Die Wohnung",
+      "reviewed": false,
+      "tip": {
+        "title": "er, sie, es i pro věci",
+        "text": "O věcech mluvíme jako v češtině – on, ona, ono. Řídíme se ale německým rodem: der Garten → er, die Küche → sie, das Zimmer → es. Pozor: das Haus je „ono“ (es), i když česky je dům „on“. Ptáte se: Wo ist …? (Kde je …?) a ukazujete: Das ist … (To je …). Slovo „das“ ve větě „Das ist …“ znamená „to“ a zůstává stejné pro všechny rody: Das ist der Garten. Das ist die Küche.",
+        "examples": [
+          { "target": "Wo ist das Bad?", "native": "Kde je koupelna?" },
+          { "target": "Das ist die Küche.", "native": "To je kuchyně." },
+          { "target": "Das ist mein Haus. Es ist alt.", "native": "To je můj dům. Je starý." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l1-w1", "target": "die Wohnung", "native": "byt", "note": "Pozor: die. množné číslo: die Wohnungen", "reviewed": false },
+        { "id": "u4-l1-w2", "target": "das Haus", "native": "dům", "note": "Pozor: das. množné číslo: die Häuser", "reviewed": false },
+        { "id": "u4-l1-w3", "target": "das Zimmer", "native": "pokoj", "note": "Z = c: [cima]. Pozor: das. množné číslo: die Zimmer", "reviewed": false },
+        { "id": "u4-l1-w4", "target": "die Küche", "native": "kuchyně", "note": "ü, ch jako ve slově ich. množné číslo: die Küchen", "reviewed": false },
+        { "id": "u4-l1-w5", "target": "das Bad", "native": "koupelna", "note": "d na konci zní jako t: [bát]. množné číslo: die Bäder", "reviewed": false },
+        { "id": "u4-l1-w6", "target": "das Schlafzimmer", "native": "ložnice", "note": "Doslova „pokoj na spaní“. množné číslo: die Schlafzimmer", "reviewed": false },
+        { "id": "u4-l1-w7", "target": "das Wohnzimmer", "native": "obývací pokoj", "note": "Doslova „obytný pokoj“. množné číslo: die Wohnzimmer", "reviewed": false },
+        { "id": "u4-l1-w8", "target": "der Garten", "native": "zahrada", "note": "Pozor: der. množné číslo: die Gärten", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l1-e1", "type": "choice", "question": "das Schlafzimmer", "questionLang": "target", "options": ["ložnice", "obývací pokoj", "koupelna"], "answer": "ložnice", "reviewed": false },
+        { "id": "u4-l1-e2", "type": "choice", "question": "byt", "questionLang": "native", "options": ["die Wohnung", "das Haus", "der Garten"], "answer": "die Wohnung", "reviewed": false },
+        { "id": "u4-l1-e3", "type": "match", "pairs": [
+          { "target": "das Haus", "native": "dům" },
+          { "target": "das Zimmer", "native": "pokoj" },
+          { "target": "die Küche", "native": "kuchyně" },
+          { "target": "das Bad", "native": "koupelna" },
+          { "target": "der Garten", "native": "zahrada" }
+        ], "reviewed": false },
+        { "id": "u4-l1-e4", "type": "fill", "sentence": "Das ist mein Haus. ___ ist alt.", "translation": "To je můj dům. Je starý.", "options": ["Es", "Er", "Sie"], "answer": "Es", "explain": "das Haus → es (česky je dům „on“, německy „ono“).", "reviewed": false },
+        { "id": "u4-l1-e5", "type": "fill", "sentence": "Wo ist ___ Bad?", "translation": "Kde je koupelna?", "options": ["das", "der", "die"], "answer": "das", "explain": "das Bad – česky je koupelna ženského rodu, německy středního.", "reviewed": false },
+        { "id": "u4-l1-e6", "type": "listen", "audio": "Wo ist das Wohnzimmer?", "options": ["Kde je obývací pokoj?", "Kde je ložnice?", "Kde je kuchyně?"], "answer": "Kde je obývací pokoj?", "reviewed": false },
+        { "id": "u4-l1-e7", "type": "listen", "audio": "Das ist die Küche.", "options": ["Das ist die Küche.", "Das ist der Kuchen.", "Das ist das Zimmer."], "answer": "Das ist die Küche.", "reviewed": false },
+        { "id": "u4-l1-e8", "type": "type", "question": "zahrada", "answer": "der Garten", "reviewed": false },
+        { "id": "u4-l1-e9", "type": "build", "question": "To je můj byt.", "answer": "Das ist meine Wohnung.", "extra": ["mein"], "reviewed": false },
+        { "id": "u4-l1-e10", "type": "speak", "text": "Entschuldigung, wo ist das Bad?", "native": "Promiňte, kde je koupelna?", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "Nábytek",
+      "titleTarget": "Die Möbel",
+      "reviewed": false,
+      "tip": {
+        "title": "Der Tisch ist groß – bez koncovky",
+        "text": "Česky se přídavné jméno mění podle rodu: stůl je velký, lampa je velká, postel je velká. V němčině je to po slovesu sein jednodušší: přídavné jméno má vždy stejný tvar, bez koncovky. Der Tisch ist groß. Die Lampe ist groß. Das Bett ist groß. Stejně i v množném čísle: Die Stühle sind neu. Věta „Die Lampe ist große“ je proto chybná.",
+        "examples": [
+          { "target": "Der Tisch ist groß.", "native": "Ten stůl je velký." },
+          { "target": "Die Lampe ist klein.", "native": "Ta lampa je malá." },
+          { "target": "Das Bett ist neu.", "native": "Ta postel je nová." },
+          { "target": "Die Stühle sind alt.", "native": "Ty židle jsou staré." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l2-w1", "target": "der Tisch", "native": "stůl", "note": "sch = š: [tiš]. množné číslo: die Tische", "reviewed": false },
+        { "id": "u4-l2-w2", "target": "der Stuhl", "native": "židle", "note": "Pozor: der. St na začátku = št: [štúl]. množné číslo: die Stühle", "reviewed": false },
+        { "id": "u4-l2-w3", "target": "das Bett", "native": "postel", "note": "Pozor: das. množné číslo: die Betten", "reviewed": false },
+        { "id": "u4-l2-w4", "target": "der Schrank", "native": "skříň", "note": "Pozor: der. množné číslo: die Schränke", "reviewed": false },
+        { "id": "u4-l2-w5", "target": "das Sofa", "native": "pohovka", "note": "množné číslo: die Sofas", "reviewed": false },
+        { "id": "u4-l2-w6", "target": "die Lampe", "native": "lampa", "note": "množné číslo: die Lampen", "reviewed": false },
+        { "id": "u4-l2-w7", "target": "groß", "native": "velký", "note": "ß = ostré s: [grós]", "reviewed": false },
+        { "id": "u4-l2-w8", "target": "klein", "native": "malý", "note": "ei = aj: [klajn]", "reviewed": false },
+        { "id": "u4-l2-w9", "target": "neu", "native": "nový", "note": "eu = oj: [noj]", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l2-e1", "type": "choice", "question": "der Schrank", "questionLang": "target", "options": ["skříň", "stůl", "postel"], "answer": "skříň", "reviewed": false },
+        { "id": "u4-l2-e2", "type": "choice", "question": "židle", "questionLang": "native", "options": ["der Stuhl", "der Tisch", "das Sofa"], "answer": "der Stuhl", "reviewed": false },
+        { "id": "u4-l2-e3", "type": "match", "pairs": [
+          { "target": "das Bett", "native": "postel" },
+          { "target": "das Sofa", "native": "pohovka" },
+          { "target": "die Lampe", "native": "lampa" },
+          { "target": "groß", "native": "velký" },
+          { "target": "klein", "native": "malý" }
+        ], "reviewed": false },
+        { "id": "u4-l2-e4", "type": "fill", "sentence": "Die Lampe ist ___.", "translation": "Ta lampa je nová.", "options": ["neu", "neue"], "answer": "neu", "explain": "Po ist má přídavné jméno vždy stejný tvar, bez koncovky.", "reviewed": false },
+        { "id": "u4-l2-e5", "type": "fill", "sentence": "___ Stuhl ist klein.", "translation": "Ta židle je malá.", "options": ["Der", "Die", "Das"], "answer": "Der", "explain": "der Stuhl – česky je židle ženského rodu, německy mužského.", "reviewed": false },
+        { "id": "u4-l2-e6", "type": "listen", "audio": "Das Bett ist neu.", "options": ["Ta postel je nová.", "Ta postel je velká.", "Ten stůl je nový."], "answer": "Ta postel je nová.", "reviewed": false },
+        { "id": "u4-l2-e7", "type": "listen", "audio": "Der Schrank ist groß.", "options": ["Der Schrank ist groß.", "Der Schrank ist klein.", "Der Tisch ist groß."], "answer": "Der Schrank ist groß.", "reviewed": false },
+        { "id": "u4-l2-e8", "type": "type", "question": "malý", "answer": "klein", "reviewed": false },
+        { "id": "u4-l2-e9", "type": "build", "question": "Ta pohovka je velká.", "answer": "Das Sofa ist groß.", "extra": ["große"], "reviewed": false },
+        { "id": "u4-l2-e10", "type": "choice", "prompt": "Vyberte správnou větu", "question": "Kuchyně je nová.", "questionLang": "native", "options": ["Die Küche ist neu.", "Die Küche ist neue.", "Die Küche sind neu."], "answer": "Die Küche ist neu.", "reviewed": false }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "Kde bydlíte?",
+      "titleTarget": "Wo wohnen Sie?",
+      "reviewed": false,
+      "tip": {
+        "title": "ich wohne, du wohnst, er wohnt",
+        "text": "Většina sloves má pravidelné koncovky, podobně jako česky bydlím, bydlíš, bydlí: ich wohne, du wohnst, er/sie/es wohnt, wir wohnen, ihr wohnt, sie wohnen, Sie wohnen. Stačí od slovesa odtrhnout -en (wohn-) a přidat koncovku. Stejně fungují kommen, trinken nebo heißen (jen du heißt). Místo, kde bydlíte, uvedete slovem in: Ich wohne in Prag. = Bydlím v Praze.",
+        "examples": [
+          { "target": "Wo wohnen Sie?", "native": "Kde bydlíte?" },
+          { "target": "Ich wohne in Prag.", "native": "Bydlím v Praze." },
+          { "target": "Meine Tochter wohnt in Deutschland.", "native": "Moje dcera bydlí v Německu." },
+          { "target": "Das Dorf ist klein und ruhig.", "native": "Ta vesnice je malá a klidná." }
+        ],
+        "reviewed": false
+      },
+      "words": [
+        { "id": "u4-l3-w1", "target": "wohnen", "native": "bydlet", "note": "ich wohne, du wohnst, er wohnt, wir wohnen, Sie wohnen", "reviewed": false },
+        { "id": "u4-l3-w2", "target": "die Stadt", "native": "město", "note": "St na začátku = št: [štat]. množné číslo: die Städte", "reviewed": false },
+        { "id": "u4-l3-w3", "target": "das Dorf", "native": "vesnice", "note": "Pozor: das. množné číslo: die Dörfer", "reviewed": false },
+        { "id": "u4-l3-w4", "target": "die Straße", "native": "ulice", "note": "St na začátku = št, ß = ostré s: [štráse]. množné číslo: die Straßen", "reviewed": false },
+        { "id": "u4-l3-w5", "target": "die Hausnummer", "native": "číslo domu", "note": "množné číslo: die Hausnummern", "reviewed": false },
+        { "id": "u4-l3-w6", "target": "hier", "native": "tady", "note": "ie = dlouhé í: [hír]", "reviewed": false },
+        { "id": "u4-l3-w7", "target": "schön", "native": "hezký", "note": "Také krásný. ö: řekněte e a rty zaokrouhlete jako na o.", "reviewed": false },
+        { "id": "u4-l3-w8", "target": "ruhig", "native": "klidný", "note": "[rú-ich], -ig na konci zní jako ch ve slově ich.", "reviewed": false }
+      ],
+      "exercises": [
+        { "id": "u4-l3-e1", "type": "choice", "question": "ruhig", "questionLang": "target", "options": ["klidný", "hezký", "nový"], "answer": "klidný", "reviewed": false },
+        { "id": "u4-l3-e2", "type": "choice", "question": "vesnice", "questionLang": "native", "options": ["das Dorf", "die Stadt", "die Straße"], "answer": "das Dorf", "reviewed": false },
+        { "id": "u4-l3-e3", "type": "match", "pairs": [
+          { "target": "die Stadt", "native": "město" },
+          { "target": "die Straße", "native": "ulice" },
+          { "target": "die Hausnummer", "native": "číslo domu" },
+          { "target": "hier", "native": "tady" },
+          { "target": "schön", "native": "hezký" }
+        ], "reviewed": false },
+        { "id": "u4-l3-e4", "type": "fill", "sentence": "Wo ___ Sie?", "translation": "Kde bydlíte?", "options": ["wohnen", "wohnt", "wohnst"], "answer": "wohnen", "explain": "Se Sie (Vy) má sloveso koncovku -en.", "reviewed": false },
+        { "id": "u4-l3-e5", "type": "fill", "sentence": "Mein Sohn ___ in Deutschland.", "translation": "Můj syn bydlí v Německu.", "options": ["wohnt", "wohne", "wohnen"], "answer": "wohnt", "explain": "S er/sie/es (on, ona, ono) má sloveso koncovku -t.", "reviewed": false },
+        { "id": "u4-l3-e6", "type": "listen", "audio": "Ich wohne hier.", "options": ["Bydlím tady.", "Bydlíme tady.", "Bydlím ve městě."], "answer": "Bydlím tady.", "reviewed": false },
+        { "id": "u4-l3-e7", "type": "listen", "audio": "Die Straße ist ruhig.", "options": ["Die Straße ist ruhig.", "Die Stadt ist ruhig.", "Die Straße ist schön."], "answer": "Die Straße ist ruhig.", "reviewed": false },
+        { "id": "u4-l3-e8", "type": "type", "question": "Kde bydlíte?", "answer": "Wo wohnen Sie?", "reviewed": false },
+        { "id": "u4-l3-e9", "type": "build", "question": "Bydlíme v Praze.", "answer": "Wir wohnen in Prag.", "extra": ["wohnt"], "reviewed": false },
+        { "id": "u4-l3-e10", "type": "speak", "text": "Das Dorf ist klein und ruhig.", "native": "Vesnice je malá a klidná.", "reviewed": false }
+      ]
+    }
+  ]
+}
