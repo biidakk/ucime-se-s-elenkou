@@ -15,7 +15,7 @@
   "lang.ro.accusative": "rumunštinu",
   "lang.en.variant": "britská angličtina",
   "lang.de.variant": "spisovná němčina",
-  "lang.ro.variant": "rumunština z Rumunska",
+  "lang.ro.variant": "spisovná rumunština",
   "lang.cs.variant": "spisovná čeština",
 
   "level.A1": "Začátečník",
@@ -116,7 +116,7 @@
   "feedback.retryLater": "Nevadí, tohle cvičení se na konci vrátí.",
 
   "speech.noVoice": "Telefon nemá hlas pro {language}.",
-  "speech.noVoiceIos": "Zkuste ho přidat v Nastavení iPhonu → Zpřístupnění → Předčítání → Hlasy.",
+  "speech.noVoiceIos": "Telefon ho má obvykle už v sobě. V Nastavení iPhonu → Zpřístupnění → Čtení a mluvení (ve starším iOS: Předčítání obsahu) → Hlasy zkontrolujte, že je u jazyka základní hlas (pro rumunštinu Ioana). Vylepšené a prémiové hlasy aplikace z plochy použít nemůže; když jazyk zmizel po jejich stažení, smažte je. Pak aplikaci zavřete a znovu otevřete.",
   "speech.noVoiceOther": "Zkuste ho přidat v nastavení telefonu (Převod textu na řeč).",
   "speech.silentHint": "Nic neslyšíte? Zkontrolujte hlasitost a tichý režim.",
 
@@ -183,6 +183,11 @@
   "settings.rateSlow": "Pomalejší",
   "settings.testVoice": "Vyzkoušet hlas",
   "settings.voice": "Hlas: {name}",
+  "settings.voiceChoose": "Hlas pro {language}",
+  "settings.voiceHint": "Klepnutím na hlas si ho poslechnete a vyberete. Když některý hlas vyslovuje divně, zkuste jiný. Aplikace z plochy může používat jen základní hlasy iPhonu, ne vylepšené ani prémiové.",
+  "settings.voiceAuto": "doporučený",
+  "settings.voiceOtherVariant": "jiná varianta: {lang}",
+  "settings.voiceLoading": "Hledám hlasy v telefonu…",
   "settings.micSection": "Cvičení s mikrofonem",
   "settings.micOn": "Zapnuto",
   "settings.micOff": "Vypnuto",

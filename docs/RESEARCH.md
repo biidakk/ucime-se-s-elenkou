@@ -110,3 +110,19 @@ Gönczöl-Davies *Romanian: An Essential Grammar*, [Romanian lexis](https://en.w
   Slavic loanwords: da, ceas (čas), a citi (číst), a iubi, prieten (přítel), drag (drahý),
   a plăti (platit), vreme, noroc, sută (sto), târg (trh), smântână (smetana), slănină (slanina).
 - **False friends:** *prost* = hloupý; *nevastă* = manželka (not nevěsta); *drag* = milý (expensive = *scump*).
+
+## 6. iPhone voices for web apps (added 2026-10-19)
+
+- WebKit gives web pages only Apple's preinstalled compact "system" voices
+  ([PlatformSpeechSynthesizerCocoa.mm](https://github.com/WebKit/WebKit/blob/main/Source/WebCore/platform/cocoa/PlatformSpeechSynthesizerCocoa.mm),
+  [commit f20573ec](https://github.com/WebKit/WebKit/commit/f20573ec09)). Downloaded Enhanced/Premium
+  voices and Siri voices are not available ([Apple forums](https://developer.apple.com/forums/thread/723503)).
+- Expected voices: ro-RO **Ioana** (the only one); cs-CZ Zuzana; de-DE Anna, Helena, Martin…;
+  en-GB Daniel, Martha, Arthur… ([Readium voice data](https://github.com/readium/speech/tree/main/json)).
+- iOS 18 bug: installing an Enhanced voice could make the compact one (or the whole language)
+  vanish from Safari ([report](https://github.com/HadrienGardeur/web-speech-recommended-voices/issues/19)).
+  With no voice for a language, iPhone reads with the system-language voice → wrong pronunciation.
+  **The app therefore stays silent and explains, rather than using another language's voice.**
+- expo-speech on the web falls back to the phone's first voice when the requested voiceURI is
+  not found; the app talks to speechSynthesis directly (src/lib/speechEngine.web.ts).
+- Czech iOS path: Nastavení → Zpřístupnění → Čtení a mluvení (iOS 17/18: Předčítání obsahu) → Hlasy.

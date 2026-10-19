@@ -127,6 +127,22 @@ The learner is older and not a linguist. Write **short, plain, friendly Czech** 
 
 Tip examples (`examples`) are 2–4 short target sentences with Czech meanings.
 
+**Pronunciation hints** in Czech spelling are welcome where Czech readers would go wrong,
+but they must be accurate (check the IPA, e.g. on Wiktionary). Split syllables and mark the
+stressed one in capitals when the stress is not on the first syllable: „mul-cu-MESK“,
+„la re-ve-DE-re“; „Bună ziua“ ≈ „BU-nă ZI-wa“ (no n!). Don't promise sounds Czech lacks
+(say „like i with rounded lips“ for ü rather than inventing a spelling).
+
+**Never address the learner with a gendered past form** („Udělal jste chybu“): the same
+text is read by men and women. Use present tense or neutral phrasing („Tohle je chyba“).
+
+## Text that is read aloud
+
+The phone reads aloud every `target` text: words, tip examples, `audio`, target questions,
+match pairs, build answers, fill sentences, `speak` texts. So these strings must be clean
+for a speech voice: no symbols (≈ / + …), no brackets, no digits (write numbers as words
+unless the lesson is about digits), no Czech words inside, normal sentence punctuation.
+
 ## Quality rules
 
 - Correct grammar and **natural everyday phrases** a native speaker would really say.

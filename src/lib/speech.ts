@@ -1,108 +1,104 @@
-import * as Speech from 'expo-speech';
 import { Platform } from 'react-native';
 import { useCourse } from './course';
 import { SpeechRate, useSettings } from './settings';
+import { getVoices, RawVoice, speakText, stopSpeaking } from './speechEngine';
 
 // Text-to-speech with the voices built into the phone, in the language of the course.
-// On the web this is the browser's speechSynthesis (expo-speech wraps it).
+// The best voice is chosen automatically; the user can pick another one in Settings.
 
-export type VoiceChoice = { id: string; name: string } | null; // null = no voice for this language
+export type VoiceOption = { id: string; name: string; language: string; exact: boolean };
+export type VoiceChoice = VoiceOption | null; // null = no voice for this language
 
 // Voices that sound silly or robotic on Apple devices: used only if nothing else exists.
 const NOVELTY = /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox)/i;
-const ELOQUENCE = /^(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)/i;
+const ELOQUENCE = /^(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
 // Natural-sounding voices that are usually installed, per language.
 const PREFERRED: Record<string, RegExp> = {
-  en: /^(Daniel|Kate|Serena|Arthur|Martha|Oliver|Stephen|Google UK English)/i,
-  de: /^(Anna|Helena|Markus|Petra|Yannick|Google Deutsch)/i,
-  ro: /^(Ioana|Google română)/i,
-  cs: /^(Zuzana|Google čeština)/i,
+  en: /^(Daniel|Kate|Serena|Arthur|Martha|Oliver|Stephen|Jamie|Google UK English|Microsoft (George|Hazel|Susan|Libby|Ryan|Sonia))/i,
+  de: /^(Anna|Helena|Markus|Petra|Yannick|Google Deutsch|Microsoft (Hedda|Katja|Stefan|Conrad))/i,
+  ro: /^(Ioana|Google română|Microsoft (Andrei|Alina|Emil))/i,
+  cs: /^(Zuzana|Iveta|Google čeština|Microsoft (Jakub|Vlasta|Antonin))/i,
 };
 
-type RawVoice = { id: string; name: string; language: string; enhanced: boolean };
-
 const normalizeLocale = (locale: string) => locale.replace('_', '-').toLowerCase();
-
-async function webVoices(): Promise<RawVoice[]> {
-  const synth = typeof window !== 'undefined' ? window.speechSynthesis : undefined;
-  if (!synth) return [];
-  const read = () =>
-    synth.getVoices().map((v) => ({ id: v.voiceURI, name: v.name, language: v.lang, enhanced: /enhanced|premium/i.test(v.name) }));
-  let voices = read();
-  // Safari and Chrome may fill the list a little later.
-  for (let i = 0; voices.length === 0 && i < 10; i++) {
-    await new Promise((resolve) => setTimeout(resolve, 250));
-    voices = read();
-  }
-  return voices;
-}
-
-async function nativeVoices(): Promise<RawVoice[]> {
-  const voices = await Speech.getAvailableVoicesAsync();
-  return voices.map((v) => ({
-    id: v.identifier,
-    name: v.name,
-    language: v.language,
-    enhanced: v.quality === Speech.VoiceQuality.Enhanced,
-  }));
-}
 
 function score(voice: RawVoice, locale: string): number {
   const lang = normalizeLocale(voice.language);
   const wanted = normalizeLocale(locale);
   const base = wanted.split('-')[0];
-  if (!lang.startsWith(base)) return -1;
-  let points = 1;
+  if (lang.split('-')[0] !== base) return -1; // another language: never used
+  let points = 10;
   if (lang === wanted) points += 100;
   if (PREFERRED[base]?.test(voice.name)) points += 50;
   if (voice.enhanced) points += 20;
   if (ELOQUENCE.test(voice.name)) points -= 30;
-  if (NOVELTY.test(voice.name)) points -= 90;
+  if (NOVELTY.test(voice.name)) points -= 9;
   return points;
 }
 
-const chosen = new Map<string, Promise<VoiceChoice | undefined>>();
+const lists = new Map<string, VoiceOption[]>();
+const pending = new Map<string, Promise<VoiceOption[] | undefined>>();
 
-// The best voice for a locale like "de-DE". undefined = the phone hasn't listed its voices.
-export function findVoice(locale: string): Promise<VoiceChoice | undefined> {
-  let pending = chosen.get(locale);
-  if (!pending) {
-    pending = (Platform.OS === 'web' ? webVoices() : nativeVoices())
+// All voices for a language, best first. undefined = the phone hasn't listed its voices yet.
+export function voicesFor(locale: string): Promise<VoiceOption[] | undefined> {
+  const cached = lists.get(locale);
+  if (cached) return Promise.resolve(cached);
+  let job = pending.get(locale);
+  if (!job) {
+    job = getVoices()
       .then((voices) => {
         if (voices.length === 0) return undefined;
         const ranked = voices
           .map((v) => ({ v, points: score(v, locale) }))
           .filter((x) => x.points > 0)
-          .sort((a, b) => b.points - a.points);
-        return ranked.length ? { id: ranked[0].v.id, name: ranked[0].v.name } : null;
+          .sort((a, b) => b.points - a.points)
+          .map(({ v }) => ({
+            id: v.id,
+            name: v.name,
+            language: v.language,
+            exact: normalizeLocale(v.language) === normalizeLocale(locale),
+          }));
+        lists.set(locale, ranked);
+        return ranked;
       })
       .catch(() => undefined)
-      .then((result) => {
-        if (result === undefined) chosen.delete(locale); // try again next time
-        return result;
-      });
-    chosen.set(locale, pending);
+      .finally(() => pending.delete(locale));
+    pending.set(locale, job);
   }
-  return pending;
+  return job;
+}
+
+// The voice used for a language: the user's choice if it still exists, otherwise the best one.
+export async function findVoice(locale: string, chosenId?: string): Promise<VoiceChoice | undefined> {
+  const list = await voicesFor(locale);
+  if (list === undefined) return undefined;
+  return list.find((v) => v.id === chosenId) ?? list[0] ?? null;
+}
+
+function pickNow(locale: string, chosenId?: string): VoiceOption | undefined {
+  const list = lists.get(locale);
+  return list?.find((v) => v.id === chosenId) ?? list?.[0];
 }
 
 const RATES: Record<SpeechRate, number> = { normal: 0.9, slow: 0.72 };
 const SLOW_FACTOR = 0.7; // the turtle button
 
-export function speak(text: string, locale: string, rate: SpeechRate, slow = false) {
+export function speak(text: string, locale: string, rate: SpeechRate, slow = false, chosenId?: string) {
   if (!text.trim()) return;
-  Speech.stop();
-  findVoice(locale).then((voice) => {
-    Speech.speak(text, {
-      language: locale,
-      voice: voice?.id,
-      rate: RATES[rate] * (slow ? SLOW_FACTOR : 1),
-    });
-  });
+  const speed = RATES[rate] * (slow ? SLOW_FACTOR : 1);
+  // With no voice for the language, stay silent: the phone would read the text with a voice of
+  // another language (e.g. Romanian with a Czech voice), which teaches a wrong pronunciation.
+  // The listening exercises then explain how to get the voice (VoiceNotice).
+  const say = () => {
+    const voice = pickNow(locale, chosenId);
+    if (voice || !lists.has(locale)) speakText(text, locale, voice?.id, speed);
+  };
+  if (lists.has(locale)) say(); // voices known: speak straight away (iPhone prefers this after a tap)
+  else voicesFor(locale).then(say);
 }
 
 export function stopSpeech() {
-  Speech.stop();
+  stopSpeaking();
 }
 
 // iPhone Safari only speaks after the user has tapped something. Speaking a silent, empty
@@ -123,9 +119,9 @@ export function primeSpeechOnFirstTap() {
   window.addEventListener('click', prime);
 }
 
-// Speak text in the language being learned, at the speed chosen in the settings.
+// Speak text in the language being learned, with the chosen voice and speed.
 export function useSpeak(): (text: string, slow?: boolean) => void {
   const { target } = useCourse();
   const { settings } = useSettings();
-  return (text, slow = false) => speak(text, target.speech, settings.speechRate, slow);
+  return (text, slow = false) => speak(text, target.speech, settings.speechRate, slow, settings.voices[target.code]);
 }

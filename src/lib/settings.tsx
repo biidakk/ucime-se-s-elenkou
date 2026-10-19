@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useState } from 'react';
-import { CourseId, isCourseId, UI_LANGUAGES, UiLanguage } from './languages';
+import { CourseId, isCourseId, LanguageCode, UI_LANGUAGES, UiLanguage } from './languages';
 import { loadValue, saveValue } from './storage';
 
 // The user's choices, saved on the phone: languages, speech speed, microphone exercises.
@@ -16,6 +16,7 @@ export type Settings = {
   micEnabled: boolean | null; // null = not decided yet: on if the phone supports it
   installHintSeen: boolean;
   lastBackup: string | null; // day key of the last backup
+  voices: Partial<Record<LanguageCode, string>>; // the voice chosen for each language (else automatic)
 };
 
 const DEFAULTS: Settings = {
@@ -26,6 +27,7 @@ const DEFAULTS: Settings = {
   micEnabled: null,
   installHintSeen: false,
   lastBackup: null,
+  voices: {},
 };
 
 // Keep only valid values (the stored data may come from an older version or a backup).
@@ -34,6 +36,7 @@ function clean(saved: Partial<Settings>): Settings {
   if (merged.nativeLanguage && !UI_LANGUAGES.includes(merged.nativeLanguage)) merged.nativeLanguage = null;
   if (merged.courseId && !isCourseId(merged.courseId)) merged.courseId = null;
   if (!merged.nativeLanguage || !merged.courseId) merged.onboarded = false;
+  if (typeof merged.voices !== 'object' || merged.voices === null) merged.voices = {};
   return merged;
 }
 

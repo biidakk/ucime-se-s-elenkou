@@ -12,7 +12,7 @@ Soubor: `content/cs-de/unit1-hallo.json` · ID: `u1` · Popis: Jak pozdravit, po
 
 **[ ] Tip: Jak se čte ie, sch, ü a ch**
 
-> Němčina se čte podobně jako čeština, jen několik písmen zní jinak. Všimněte si: „ie“ se čte jako dlouhé í (Wiedersehen ≈ vídrzéen). „sch“ se čte jako š a „tsch“ jako č (Tschüss ≈ čüs). Písmeno „ü“ vyslovíte tak, že řeknete „i“ a rty přitom zaokrouhlíte jako na „u“. A „ch“ po a, o, u zní stejně jako české ch (Nacht).
+> Němčina se čte podobně jako čeština, jen několik písmen zní jinak. Všimněte si: „ie“ se čte jako dlouhé í (Wiedersehen ≈ „VÍ-da-zé-en“: přízvuk na „ví“, „er“ zní skoro jako krátké a). „sch“ se čte jako š a „tsch“ jako č (Tschüss ≈ čüs). Písmeno „ü“ vyslovíte tak, že řeknete „i“ a rty přitom zaokrouhlíte jako na „u“. A „ch“ po a, o, u zní stejně jako české ch (Nacht).
 >
 > - **Auf Wiedersehen!** — Na shledanou!
 > - **Tschüss!** — Čau!

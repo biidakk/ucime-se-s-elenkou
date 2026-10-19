@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { TextKey, useT } from '@/i18n';
 import { useCourse } from '@/lib/course';
 import { isApple } from '@/lib/device';
+import { useSettings } from '@/lib/settings';
 import { findVoice } from '@/lib/speech';
 import { colors, font, radius, spacing } from '@/lib/theme';
 
@@ -11,11 +12,13 @@ import { colors, font, radius, spacing } from '@/lib/theme';
 export function VoiceNotice() {
   const t = useT();
   const { target } = useCourse();
+  const { settings } = useSettings();
+  const chosen = settings.voices[target.code];
   const [hasVoice, setHasVoice] = useState<boolean | null>(null);
 
   useEffect(() => {
-    findVoice(target.speech).then((voice) => setHasVoice(voice === undefined ? null : voice !== null));
-  }, [target.speech]);
+    findVoice(target.speech, chosen).then((voice) => setHasVoice(voice === undefined ? null : voice !== null));
+  }, [target.speech, chosen]);
 
   if (hasVoice === false) {
     return (

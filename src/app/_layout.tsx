@@ -1,10 +1,12 @@
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { useEffect } from 'react';
 import { View } from 'react-native';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { ProgressProvider, useProgress } from '@/lib/progress';
 import { SettingsProvider, useSettings } from '@/lib/settings';
-import { primeSpeechOnFirstTap } from '@/lib/speech';
+import { getCourseInfo, LANGUAGES } from '@/lib/languages';
+import { primeSpeechOnFirstTap, voicesFor } from '@/lib/speech';
 import { colors } from '@/lib/theme';
 import { requestPersistentStorage } from '@/lib/webApp';
 
@@ -29,6 +31,11 @@ export default function RootLayout() {
 function RootStack() {
   const { loaded, settings } = useSettings();
   const { ready } = useProgress();
+
+  // Find the voices of the language being learned early, so the first word already uses the right one.
+  useEffect(() => {
+    if (settings.courseId) voicesFor(LANGUAGES[getCourseInfo(settings.courseId).target].speech);
+  }, [settings.courseId]);
 
   // Wait until the saved settings and progress have been read from the phone.
   if (!loaded || !ready) return null;

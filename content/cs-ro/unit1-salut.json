@@ -15,17 +15,17 @@
         "title": "Nová písmena a přízvuk",
         "text": "Rumunština se čte skoro tak, jak se píše. Nová jsou jen některá písmena: ș se čte jako české š, ț jako české c a ă je krátký nejasný zvuk, jako když váháte: „ehm“. Pozor na přízvuk: v češtině je vždy na první slabice, v rumunštině bývá i jinde – „la reveDEre“. A jedna úleva: rumunština nemá dlouhé samohlásky – všechny se čtou krátce.",
         "examples": [
-          { "target": "Bună ziua!", "native": "Dobrý den! – čte se BU-nă ZI-ua" },
-          { "target": "Bună dimineața!", "native": "Dobré ráno! – ț jako c: di-mi-NEA-ca" },
+          { "target": "Bună ziua!", "native": "Dobrý den! – čte se „BU-nă ZI-wa“ (ua zní jako wa, žádné n)" },
+          { "target": "Bună dimineața!", "native": "Dobré ráno! – ț jako c: di-mi-NEA-ca (ea je jedna slabika)" },
           { "target": "La revedere!", "native": "Na shledanou! – přízvuk: re-ve-DE-re" }
         ],
         "reviewed": false
       },
       "words": [
-        { "id": "u1-l1-w1", "target": "Bună ziua", "native": "dobrý den", "note": "Zdvořilý pozdrav přes den, při vykání.", "reviewed": false },
+        { "id": "u1-l1-w1", "target": "Bună ziua", "native": "dobrý den", "note": "Zdvořilý pozdrav přes den, při vykání. Čte se „BU-nă ZI-wa“.", "reviewed": false },
         { "id": "u1-l1-w2", "target": "Bună dimineața", "native": "dobré ráno", "note": "Říká se asi do deseti dopoledne.", "reviewed": false },
-        { "id": "u1-l1-w3", "target": "Bună seara", "native": "dobrý večer", "reviewed": false },
-        { "id": "u1-l1-w4", "target": "Noapte bună", "native": "dobrou noc", "note": "Jen při loučení na noc. Doslova „noc dobrá“.", "reviewed": false },
+        { "id": "u1-l1-w3", "target": "Bună seara", "native": "dobrý večer", "note": "Čte se „BU-nă SEA-ra“, ea je jedna slabika.", "reviewed": false },
+        { "id": "u1-l1-w4", "target": "Noapte bună", "native": "dobrou noc", "note": "Jen při loučení na noc. Doslova „noc dobrá“. Čte se „NOA-pte BU-nă“, oa je jedna slabika.", "reviewed": false },
         { "id": "u1-l1-w5", "target": "Salut", "native": "ahoj", "note": "Neformální, při příchodu i odchodu. Mezi přáteli také „Bună!“.", "reviewed": false },
         { "id": "u1-l1-w6", "target": "La revedere", "native": "na shledanou", "note": "Zdvořilé rozloučení.", "reviewed": false },
         { "id": "u1-l1-w7", "target": "Pa", "native": "pa; čau (při loučení)", "note": "Neformální rozloučení, jako české „pa pa“.", "reviewed": false },
@@ -67,7 +67,7 @@
       "words": [
         { "id": "u1-l2-w1", "target": "da", "native": "ano", "note": "Slovanské slovo – stejné jako v ruštině.", "reviewed": false },
         { "id": "u1-l2-w2", "target": "nu", "native": "ne", "note": "Pozor: nezaměňte s českým „no“ (= ano).", "reviewed": false },
-        { "id": "u1-l2-w3", "target": "Mulțumesc", "native": "děkuji", "note": "Čte se „mulcumesk“. Hovorově také „mersi“.", "reviewed": false },
+        { "id": "u1-l2-w3", "target": "Mulțumesc", "native": "děkuji", "note": "Čte se „mul-cu-MESK“ – přízvuk na konci. Hovorově také „mersi“.", "reviewed": false },
         { "id": "u1-l2-w4", "target": "Mulțumesc frumos", "native": "děkuji pěkně", "reviewed": false },
         { "id": "u1-l2-w5", "target": "Te rog", "native": "prosím tě", "note": "Při tykání.", "reviewed": false },
         { "id": "u1-l2-w6", "target": "Vă rog", "native": "prosím vás", "note": "Při vykání.", "reviewed": false },
@@ -104,7 +104,7 @@
         "examples": [
           { "target": "Ce mai faci?", "native": "Jak se máš? – čte se „če maj fač“" },
           { "target": "Ce mai faceți?", "native": "Jak se máte? – čte se „če maj fačec“" },
-          { "target": "ochi", "native": "oči – čte se „oki“!" }
+          { "target": "ochi", "native": "oči – čte se skoro „ok“ (ch = k, koncové i skoro neslyšné)" }
         ],
         "reviewed": false
       },

@@ -1,6 +1,6 @@
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useState } from 'react';
 import { ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { BigButton } from '@/components/BigButton';
 import { ConfirmDialog } from '@/components/ConfirmDialog';
@@ -8,6 +8,7 @@ import { InstallSteps } from '@/components/InstallSteps';
 import { LanguageCard } from '@/components/LanguageCard';
 import { Screen } from '@/components/Screen';
 import { Segmented } from '@/components/Segmented';
+import { VoicePicker } from '@/components/VoicePicker';
 import { TextKey, useT } from '@/i18n';
 import { Backup, backupFileName, backupToText, createBackup, parseBackup, restoreBackup } from '@/lib/backup';
 import { canCopyText, canPickFile, copyText, pickBackupFile, shareBackupFile } from '@/lib/backupFile';
@@ -18,16 +19,7 @@ import { ENDONYMS } from '@/lib/languages';
 import { useMicExercises } from '@/lib/mic';
 import { useProgress } from '@/lib/progress';
 import { SpeechRate, useSettings } from '@/lib/settings';
-import { findVoice, useSpeak } from '@/lib/speech';
 import { colors, font, radius, spacing } from '@/lib/theme';
-
-// A sample sentence for "test the voice", in each language that can be learned.
-const VOICE_SAMPLE: Record<string, string> = {
-  en: 'Hello! How are you today?',
-  de: 'Hallo! Wie geht es Ihnen heute?',
-  ro: 'Bună ziua! Ce mai faceți?',
-  cs: 'Dobrý den! Jak se máte?',
-};
 
 // Formats a day key like "2026-10-19" for display (19. 10. 2026 in Czech).
 function formatDay(key: string, lang: string): string {
@@ -41,12 +33,10 @@ function formatDay(key: string, lang: string): string {
 
 export default function SettingsScreen() {
   const t = useT();
-  const speak = useSpeak();
   const { target } = useCourse();
   const { settings, update, reload: reloadSettings } = useSettings();
   const { resetProgress, reload: reloadProgress } = useProgress();
   const mic = useMicExercises();
-  const [voiceName, setVoiceName] = useState<string | null | undefined>(undefined);
   const [message, setMessage] = useState<string | null>(null);
   const [pasting, setPasting] = useState(false);
   const [pasted, setPasted] = useState('');
@@ -54,10 +44,6 @@ export default function SettingsScreen() {
   const [confirmReset, setConfirmReset] = useState(false);
 
   const languageName = t(`lang.${target.code}.name` as TextKey);
-
-  useEffect(() => {
-    findVoice(target.speech).then((voice) => setVoiceName(voice === undefined ? undefined : (voice?.name ?? null)));
-  }, [target.speech]);
 
   const saveBackup = async () => {
     const backup = await createBackup();
@@ -126,14 +112,7 @@ export default function SettingsScreen() {
               { value: 'slow', label: t('settings.rateSlow') },
             ]}
           />
-          <BigButton label={t('settings.testVoice')} icon="volume-high" variant="secondary" onPress={() => speak(VOICE_SAMPLE[target.code])} />
-          {voiceName !== undefined && (
-            <Text style={styles.small}>
-              {voiceName
-                ? t('settings.voice', { name: voiceName })
-                : t('speech.noVoice', { language: t(`lang.${target.code}.accusative` as TextKey) })}
-            </Text>
-          )}
+          <VoicePicker />
         </Section>
 
         <Section title={t('settings.micSection')}>

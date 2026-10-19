@@ -14,18 +14,18 @@ Soubor: `content/cs-ro/unit1-salut.json` · ID: `u1` · Popis: Jak pozdravit, po
 
 > Rumunština se čte skoro tak, jak se píše. Nová jsou jen některá písmena: ș se čte jako české š, ț jako české c a ă je krátký nejasný zvuk, jako když váháte: „ehm“. Pozor na přízvuk: v češtině je vždy na první slabice, v rumunštině bývá i jinde – „la reveDEre“. A jedna úleva: rumunština nemá dlouhé samohlásky – všechny se čtou krátce.
 >
-> - **Bună ziua!** — Dobrý den! – čte se BU-nă ZI-ua
-> - **Bună dimineața!** — Dobré ráno! – ț jako c: di-mi-NEA-ca
+> - **Bună ziua!** — Dobrý den! – čte se „BU-nă ZI-wa“ (ua zní jako wa, žádné n)
+> - **Bună dimineața!** — Dobré ráno! – ț jako c: di-mi-NEA-ca (ea je jedna slabika)
 > - **La revedere!** — Na shledanou! – přízvuk: re-ve-DE-re
 
 **Slovíčka**
 
 | OK | ID | rumunština | čeština | Poznámka |
 |----|----|----|----|----|
-| [ ] | `u1-l1-w1` | **Bună ziua** | dobrý den | Zdvořilý pozdrav přes den, při vykání. |
+| [ ] | `u1-l1-w1` | **Bună ziua** | dobrý den | Zdvořilý pozdrav přes den, při vykání. Čte se „BU-nă ZI-wa“. |
 | [ ] | `u1-l1-w2` | **Bună dimineața** | dobré ráno | Říká se asi do deseti dopoledne. |
-| [ ] | `u1-l1-w3` | **Bună seara** | dobrý večer |  |
-| [ ] | `u1-l1-w4` | **Noapte bună** | dobrou noc | Jen při loučení na noc. Doslova „noc dobrá“. |
+| [ ] | `u1-l1-w3` | **Bună seara** | dobrý večer | Čte se „BU-nă SEA-ra“, ea je jedna slabika. |
+| [ ] | `u1-l1-w4` | **Noapte bună** | dobrou noc | Jen při loučení na noc. Doslova „noc dobrá“. Čte se „NOA-pte BU-nă“, oa je jedna slabika. |
 | [ ] | `u1-l1-w5` | **Salut** | ahoj | Neformální, při příchodu i odchodu. Mezi přáteli také „Bună!“. |
 | [ ] | `u1-l1-w6` | **La revedere** | na shledanou | Zdvořilé rozloučení. |
 | [ ] | `u1-l1-w7` | **Pa** | pa; čau (při loučení) | Neformální rozloučení, jako české „pa pa“. |
@@ -60,7 +60,7 @@ Soubor: `content/cs-ro/unit1-salut.json` · ID: `u1` · Popis: Jak pozdravit, po
 |----|----|----|----|----|
 | [ ] | `u1-l2-w1` | **da** | ano | Slovanské slovo – stejné jako v ruštině. |
 | [ ] | `u1-l2-w2` | **nu** | ne | Pozor: nezaměňte s českým „no“ (= ano). |
-| [ ] | `u1-l2-w3` | **Mulțumesc** | děkuji | Čte se „mulcumesk“. Hovorově také „mersi“. |
+| [ ] | `u1-l2-w3` | **Mulțumesc** | děkuji | Čte se „mul-cu-MESK“ – přízvuk na konci. Hovorově také „mersi“. |
 | [ ] | `u1-l2-w4` | **Mulțumesc frumos** | děkuji pěkně |  |
 | [ ] | `u1-l2-w5` | **Te rog** | prosím tě | Při tykání. |
 | [ ] | `u1-l2-w6` | **Vă rog** | prosím vás | Při vykání. |
@@ -89,7 +89,7 @@ Soubor: `content/cs-ro/unit1-salut.json` · ID: `u1` · Popis: Jak pozdravit, po
 >
 > - **Ce mai faci?** — Jak se máš? – čte se „če maj fač“
 > - **Ce mai faceți?** — Jak se máte? – čte se „če maj fačec“
-> - **ochi** — oči – čte se „oki“!
+> - **ochi** — oči – čte se skoro „ok“ (ch = k, koncové i skoro neslyšné)
 
 **Slovíčka**
 
