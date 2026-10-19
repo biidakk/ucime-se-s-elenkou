@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Učíme se s Elenkou",
+    "name": "Učíme se s Alenkou",
     "slug": "czech-lang-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,8 +21,8 @@
     "web": {
       "output": "single",
       "favicon": "./assets/favicon.png",
-      "name": "Učíme se s Elenkou",
-      "shortName": "Elenka",
+      "name": "Učíme se s Alenkou",
+      "shortName": "Alenka",
       "lang": "cs",
       "themeColor": "#1E5AA8",
       "backgroundColor": "#F6F8FB"

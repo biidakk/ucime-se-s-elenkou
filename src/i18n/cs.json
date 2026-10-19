@@ -1,5 +1,5 @@
 {
-  "app.name": "Učíme se s Elenkou",
+  "app.name": "Učíme se s Alenkou",
 
   "lang.cs.name": "Čeština",
   "lang.en.name": "Angličtina",
@@ -42,7 +42,7 @@
   "tabs.settings": "Nastavení",
 
   "welcome.hello": "Dobrý den! 👋",
-  "welcome.title": "Vítejte v aplikaci Učíme se s Elenkou",
+  "welcome.title": "Vítejte v aplikaci Učíme se s Alenkou",
   "welcome.nativeQuestion": "Jaký je váš mateřský jazyk?",
   "welcome.nativeHint": "V tomto jazyce bude aplikace mluvit a vysvětlovat.",
   "welcome.targetQuestion": "Jaký jazyk se chcete učit?",
@@ -60,7 +60,7 @@
   "install.text": "Pak se otevře jako běžná aplikace, bude fungovat i bez internetu a pokrok se lépe uchová.",
   "install.step1": "Dole v Safari klepněte na tlačítko Sdílet (čtvereček se šipkou nahoru).",
   "install.step2": "Posuňte nabídku dolů a klepněte na „Přidat na plochu“.",
-  "install.step3": "Klepněte na „Přidat“. Na ploše se objeví ikona Elenka.",
+  "install.step3": "Klepněte na „Přidat“. Na ploše se objeví ikona Alenka.",
   "install.later": "Teď ne",
   "install.done": "Hotovo",
 

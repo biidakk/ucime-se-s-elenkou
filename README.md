@@ -1,4 +1,4 @@
-# Učíme se s Elenkou
+# Učíme se s Alenkou
 
 A private language-learning app for Czech speakers: **English (British)**, **German** and
 **Romanian**, levels A1, A2 and B1. The whole interface is in Czech, with large text and buttons,
@@ -12,7 +12,7 @@ installed on the iPhone Home Screen. No accounts, no server: progress stays on t
 1. Open the link above in **Safari** (not Chrome).
 2. Tap **Sdílet** (the square with an arrow pointing up) at the bottom of the screen.
 3. Scroll down and tap **Přidat na plochu**, then **Přidat**.
-4. Open the app from the **Elenka** icon on the Home Screen, not from Safari: the Home
+4. Open the app from the **Alenka** icon on the Home Screen, not from Safari: the Home
    Screen app has its own storage and works offline after the first start.
 
 **Updates** arrive by themselves: when a new version has been downloaded, a banner says
