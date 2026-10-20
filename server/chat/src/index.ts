@@ -41,11 +41,11 @@ type ChatRequest = z.infer<typeof RequestSchema>;
 
 // What Claude must return (structured output), sent on to the app as it is.
 const ReplySchema = z.object({
-  reply: z.string(),
-  correction: z.string().nullable(),
-  explanation: z.string().nullable(),
-  translation: z.string(),
-  hint: z.string(),
+  reply: z.string().describe('Your next line, in the language being learned.'),
+  correction: z.string().nullable().describe("The learner's LATEST message corrected, or null if it has no real mistake."),
+  explanation: z.string().nullable().describe("One short sentence in the learner's own language (see the system prompt) about the mistake, or null."),
+  translation: z.string().describe("Your reply translated into the learner's own language."),
+  hint: z.string().describe('A short example answer for the learner, in the language being learned.'),
 });
 
 function systemPrompt({ context }: ChatRequest): string {
@@ -62,7 +62,8 @@ function systemPrompt({ context }: ChatRequest): string {
     `- "reply": your next line in ${target} only, staying in your role. One or two short, simple sentences suitable for level ${context.level}; usually end with one easy question so the conversation goes on. If the conversation is empty, greet the learner and open the scene.`,
     '- Prefer the known words listed below; if you need another word, choose a very common one.',
     '- Be warm, patient and encouraging: the learner may be an older beginner. Never be sarcastic.',
-    `- "correction" and "explanation": if the learner's last message has a real mistake (grammar, wrong word, word order), still reply naturally, put the corrected version of their message in "correction", and explain only the most important mistake in one short, simple sentence in ${native} in "explanation".${formal} Ignore missing accents, capitals and punctuation. If there is no real mistake (or no learner message yet), set both to null.`,
+    `- "correction" and "explanation" are ONLY about the learner's most recent message. Earlier messages were already handled: never repeat or continue an earlier correction. If the most recent message has a real mistake (grammar, wrong word, wrong word order), still reply naturally, put the corrected version of THAT message in "correction", and explain only its most important mistake in one short, simple sentence in "explanation". If a native speaker would accept the message, it is correct: set both to null. Missing accents or diacritics, capital letters and punctuation are NEVER mistakes: do not correct them. If there is no learner message yet, set both to null.`,
+    `- LANGUAGE: "explanation" and "translation" are always written in ${native}, the learner's own language, never in ${target}, even though the conversation is in ${target}.${formal}`,
     `- "translation": your reply translated into natural ${native}.`,
     `- "hint": one short example of what the learner could answer next, in ${target}, using known words.`,
     `- If the learner writes in ${native} or seems stuck, answer kindly in ${target} and make the hint especially helpful.`,
@@ -122,6 +123,14 @@ export default {
     if (messages.length === 0 || messages[messages.length - 1].role !== 'user') {
       messages.push({ role: 'user', content: '(The learner has opened the chat. Start the scene.)' });
     }
+    // A short reminder for this turn (operator message after the learner's line, so it doesn't
+    // look like something the learner said): the language of the explanation drifts otherwise.
+    const native = LANGUAGE_NAMES[body.context.nativeLanguage];
+    const target = LANGUAGE_NAMES[body.context.targetLanguage];
+    messages.push({
+      role: 'system',
+      content: `Reminder: check only the learner's latest message (accents never count as mistakes). Write "explanation" and "translation" in ${native}, not in ${target}.`,
+    });
 
     const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
     try {
@@ -130,7 +139,7 @@ export default {
         max_tokens: 1500,
         system: systemPrompt(body),
         messages,
-        output_config: { effort: 'low', format: zodOutputFormat(ReplySchema) },
+        output_config: { effort: 'medium', format: zodOutputFormat(ReplySchema) },
       });
       if (response.stop_reason === 'refusal' || !response.parsed_output) {
         return json({ error: 'refusal' }, 422, cors);
