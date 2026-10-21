@@ -38,7 +38,11 @@ module.exports = ({ config }) => {
     version: '2.0.1',
     scheme: 'cehaapp',
     icon: './assets/ro/icon.png',
-    ios: { ...config.ios, bundleIdentifier: 'com.biidakk.cehapentruromani' },
+    ios: {
+      ...config.ios,
+      bundleIdentifier: 'com.biidakk.cehapentruromani',
+      infoPlist: { ...config.ios?.infoPlist, CFBundleDisplayName: 'Cehă pentru români' },
+    },
     android: {
       ...config.android,
       package: 'com.biidakk.cehapentruromani',

@@ -13,6 +13,20 @@
       "android": {
         "buildType": "apk"
       }
+    },
+    "production-ios": {
+      "distribution": "store",
+      "env": {
+        "EXPO_PUBLIC_CHAT_URL": "https://elenka-chat.elenka-chat.workers.dev"
+      },
+      "ios": {
+        "resourceClass": "default"
+      }
+    }
+  },
+  "submit": {
+    "production-ios": {
+      "ios": {}
     }
   }
 }

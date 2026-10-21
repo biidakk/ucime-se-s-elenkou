@@ -8,7 +8,12 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.biidakk.ucimeseselenkou"
+      "bundleIdentifier": "com.biidakk.ucimeseselenkou",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Elenka",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -37,6 +42,12 @@
     "experiments": {
       "typedRoutes": true,
       "baseUrl": "/ucime-se-s-elenkou"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "428bff1e-af7e-4ed4-b85c-1132a3122fd0"
+      }
+    },
+    "owner": "biidakk"
   }
 }
