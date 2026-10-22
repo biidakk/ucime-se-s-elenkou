@@ -22,6 +22,15 @@
       "ios": {
         "resourceClass": "default"
       }
+    },
+    "production-android": {
+      "distribution": "store",
+      "env": {
+        "EXPO_PUBLIC_CHAT_URL": "https://elenka-chat.elenka-chat.workers.dev"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
     }
   },
   "submit": {

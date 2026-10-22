@@ -22,6 +22,7 @@
         "foregroundImage": "./assets/icon.png"
       },
       "predictiveBackGestureEnabled": false,
+      "versionCode": 1,
       "package": "com.biidakk.ucimeseselenkou"
     },
     "web": {
