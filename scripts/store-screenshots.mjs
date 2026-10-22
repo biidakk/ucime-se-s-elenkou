@@ -14,10 +14,10 @@ const CHROME = ['C:/Program Files/Google/Chrome/Application/chrome.exe', '/usr/b
 );
 const OUT = path.join(ROOT, 'store', 'screenshots');
 
-// App Store: iPhone 6.9" (1320 × 2868). Google Play: phone, at most 2:1 (1080 × 2160).
+// App Store: iPhone 6.9" (1320 × 2868). Google Play: phone, 9:16 (1080 × 1920).
 const SIZES = {
   'app-store': { width: 440, height: 956, deviceScaleFactor: 3 },
-  'google-play': { width: 360, height: 720, deviceScaleFactor: 3 },
+  'google-play': { width: 360, height: 640, deviceScaleFactor: 3 },
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
