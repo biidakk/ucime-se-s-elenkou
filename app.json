@@ -9,9 +9,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.biidakk.ucimeseselenkou",
-      "buildNumber": "1",
+      "buildNumber": "2",
       "infoPlist": {
         "CFBundleDisplayName": "Elenka",
+        "NSPhotoLibraryUsageDescription": "Aplikace k fotkám nepřistupuje. Apple tento text vyžaduje kvůli knihovně pro práci se soubory.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
