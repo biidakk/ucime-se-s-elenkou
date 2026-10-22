@@ -9,6 +9,7 @@ import type { Unit } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
 import { currentStreak } from '@/lib/dates';
 import { useProgress } from '@/lib/progress';
+import { useSettings } from '@/lib/settings';
 import { UNIT_TEST_SIZE } from '@/lib/tests';
 import { colors, font, radius, spacing, tapTarget } from '@/lib/theme';
 
@@ -18,6 +19,9 @@ export default function CourseScreen() {
   const { course, target } = useCourse();
   const { accent, accentLight } = useAccent();
   const { progress, activity } = useProgress();
+  const { settings } = useSettings();
+  // The conversation is a family feature: shown only once the family code is entered.
+  const showChat = chatAvailable() && settings.chatCode !== '';
   const isDone = (lessonId: string) => lessonId in progress.completedLessons;
   // The first unfinished lesson gets a "continue here" marker.
   const nextLessonId = course.lessons.find((l) => !isDone(l.id))?.id;
@@ -109,7 +113,7 @@ export default function CourseScreen() {
                 })}
 
                 <UnitTestRow unit={unit} />
-                {complete && chatAvailable() && <ChatRow unit={unit} />}
+                {complete && showChat && <ChatRow unit={unit} />}
               </View>
             </View>
           );

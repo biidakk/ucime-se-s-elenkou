@@ -44,3 +44,8 @@ yarn-error.*
 api key.txt
 *.key.txt
 .dev.vars
+
+# Store builds downloaded from EAS
+*.aab
+*.apk
+*.ipa
