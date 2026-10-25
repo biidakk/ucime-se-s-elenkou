@@ -38,7 +38,15 @@
       "expo-router",
       "expo-status-bar",
       "expo-font",
-      "expo-speech-recognition"
+      "expo-speech-recognition",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "backgroundColor": "#1E5AA8"
+        }
+      ]
     ],
     "scheme": "jazyky",
     "experiments": {

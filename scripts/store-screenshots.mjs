@@ -70,7 +70,7 @@ for (const [store, viewport] of Object.entries(SIZES)) {
       for (const [k, v] of Object.entries(s)) localStorage.setItem(k, JSON.stringify(v));
     }, shot.state);
     await page.goto(APP + shot.url, { waitUntil: 'networkidle0' });
-    await sleep(800);
+    await sleep(3500); // the animated intro (src/components/Intro.tsx) plays first
     if (shot.action === 'start') {
       const label = START[shot.state.settings.nativeLanguage];
       await page.evaluate((text) => {

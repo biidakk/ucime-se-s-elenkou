@@ -1,7 +1,9 @@
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { View } from 'react-native';
+import { Intro } from '@/components/Intro';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { ProgressProvider, useProgress } from '@/lib/progress';
 import { SettingsProvider, useSettings } from '@/lib/settings';
@@ -10,22 +12,33 @@ import { primeSpeechOnFirstTap, voicesFor } from '@/lib/speech';
 import { colors } from '@/lib/theme';
 import { requestPersistentStorage } from '@/lib/webApp';
 
+// The phone's launch screen stays until the animated intro takes over from it.
+SplashScreen.preventAutoHideAsync().catch(() => {});
 primeSpeechOnFirstTap();
 requestPersistentStorage();
 
 // The root of the app: the welcome screens the first time, then the main tabs.
 export default function RootLayout() {
+  const [intro, setIntro] = useState(true);
   return (
     <SettingsProvider>
       <ProgressProvider>
         <View style={{ flex: 1, backgroundColor: colors.background }}>
           <RootStack />
           <UpdateBanner />
+          {intro && <IntroWhileLoading onDone={() => setIntro(false)} />}
         </View>
-        <StatusBar style="dark" />
+        <StatusBar style={intro ? 'light' : 'dark'} />
       </ProgressProvider>
     </SettingsProvider>
   );
+}
+
+// The intro stays until the saved settings and progress are read, so the app never shows empty.
+function IntroWhileLoading({ onDone }: { onDone: () => void }) {
+  const { loaded } = useSettings();
+  const { ready } = useProgress();
+  return <Intro ready={loaded && ready} onDone={onDone} />;
 }
 
 function RootStack() {

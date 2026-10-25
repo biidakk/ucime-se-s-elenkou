@@ -1,5 +1,5 @@
 // Draws the app icon and saves it in every size the app needs.  Run with:  npm run icons
-//   assets/icon.png (1024, native app), assets/favicon.png,
+//   assets/icon.png (1024, native app), assets/favicon.png, assets/splash-icon.png (launch screen),
 //   public/icons/apple-touch-icon.png (180, iPhone Home Screen), icon-192/512 and a
 //   "maskable" icon with extra margin (Android crops it into a circle or squircle).
 
@@ -9,7 +9,8 @@ import sharp from 'sharp';
 import { ROOT } from './content-tools.mjs';
 
 // A white speech bubble with "Aa" on the app blue, and a small yellow star.
-function iconSvg({ margin = 0 } = {}) {
+// Without the background it is the logo of the launch screen (src/components/Intro.tsx draws the same).
+function iconSvg({ margin = 0, background = true } = {}) {
   const scale = 1 - margin * 2;
   const offset = 1024 * margin;
   return `
@@ -20,7 +21,7 @@ function iconSvg({ margin = 0 } = {}) {
       <stop offset="1" stop-color="#143A75"/>
     </linearGradient>
   </defs>
-  <rect width="1024" height="1024" fill="url(#bg)"/>
+  ${background ? '<rect width="1024" height="1024" fill="url(#bg)"/>' : ''}
   <g transform="translate(${offset} ${offset}) scale(${scale})">
     <path d="M300 690 L250 860 L470 700 Z" fill="#FFFFFF"/>
     <rect x="160" y="200" width="704" height="520" rx="160" fill="#FFFFFF"/>
@@ -36,16 +37,16 @@ function iconSvg({ margin = 0 } = {}) {
 const outputs = [
   { file: 'assets/icon.png', size: 1024 },
   { file: 'assets/favicon.png', size: 48 },
-  { file: 'assets/splash-icon.png', size: 512 },
+  { file: 'assets/splash-icon.png', size: 1024, background: false },
   { file: 'public/icons/apple-touch-icon.png', size: 180 },
   { file: 'public/icons/icon-192.png', size: 192 },
   { file: 'public/icons/icon-512.png', size: 512 },
   { file: 'public/icons/maskable-512.png', size: 512, margin: 0.1 },
 ];
 
-for (const { file, size, margin } of outputs) {
+for (const { file, size, margin, background } of outputs) {
   const target = path.join(ROOT, file);
   fs.mkdirSync(path.dirname(target), { recursive: true });
-  await sharp(Buffer.from(iconSvg({ margin }))).resize(size, size).png().toFile(target);
+  await sharp(Buffer.from(iconSvg({ margin, background }))).resize(size, size).png().toFile(target);
   console.log(`✓ ${file} (${size}×${size})`);
 }

@@ -41,6 +41,9 @@
   "tabs.progress": "Pokrok",
   "tabs.settings": "Nastavení",
 
+  "intro.tagline": "Učíme se jazyky",
+  "intro.skip": "Přeskočit úvod",
+
   "welcome.hello": "Dobrý den! 👋",
   "welcome.title": "Vítejte v aplikaci Učíme se s Elenkou",
   "welcome.nativeQuestion": "Jaký je váš mateřský jazyk?",
