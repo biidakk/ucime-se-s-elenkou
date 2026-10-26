@@ -106,3 +106,25 @@ export function spokenMatch(heard: string, expected: string, lang?: LanguageCode
   }
   return found / want.length;
 }
+
+export type HeardWord = { word: string; heard: boolean };
+
+// The words of the expected sentence as written, each marked whether the phone heard it,
+// so the speaking exercise can show which words to practise.
+export function heardWords(heard: string, expected: string, lang?: LanguageCode): HeardWord[] {
+  const plainWords = (text: string) => withoutAccents(tidy(text, lang)).split(' ').filter(Boolean);
+  const got = plainWords(heard);
+  return expected
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => {
+      // One written word can be several plain ones ("I'm" = "i am") or none ("–").
+      const ok = plainWords(word).every((part) => {
+        const index = got.indexOf(part);
+        if (index === -1) return false;
+        got.splice(index, 1);
+        return true;
+      });
+      return { word, heard: ok };
+    });
+}

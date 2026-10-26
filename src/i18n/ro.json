@@ -126,6 +126,10 @@
 
   "speak.tap": "Apasă pe microfon și citește cu voce tare",
   "speak.listening": "Te ascult… vorbește acum",
+  "speak.hearing": "Te aud… continuă",
+  "speak.wordHeard": "telefonul a auzit",
+  "speak.wordMissed": "telefonul nu a auzit",
+  "speak.missedHint": "Telefonul nu a recunoscut cuvintele roșii. Apasă pe ele ca să le asculți, apoi încearcă din nou.",
   "speak.heard": "Telefonul a auzit: „{heard}”",
   "speak.notUnderstood": "Telefonul nu a înțeles nimic.",
   "speak.triesLeft": { "one": "Încearcă din nou (mai ai {count} încercare).", "few": "Încearcă din nou (mai ai {count} încercări).", "other": "Încearcă din nou (mai ai {count} de încercări)." },

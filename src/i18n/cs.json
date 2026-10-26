@@ -126,6 +126,10 @@
 
   "speak.tap": "Klepněte na mikrofon a přečtěte to nahlas",
   "speak.listening": "Poslouchám… mluvte teď",
+  "speak.hearing": "Slyším vás… mluvte dál",
+  "speak.wordHeard": "telefon slyšel",
+  "speak.wordMissed": "telefon neslyšel",
+  "speak.missedHint": "Červená slova telefon nerozpoznal. Klepnutím si je poslechnete, pak to zkuste znovu.",
   "speak.heard": "Telefon slyšel: „{heard}“",
   "speak.notUnderstood": "Telefon ničemu nerozuměl.",
   "speak.triesLeft": { "one": "Zkuste to znovu (zbývá {count} pokus).", "few": "Zkuste to znovu (zbývají {count} pokusy).", "other": "Zkuste to znovu (zbývá {count} pokusů)." },

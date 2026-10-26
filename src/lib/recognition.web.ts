@@ -22,6 +22,8 @@ type BrowserRecognition = {
   onerror: ((event: { error: string }) => void) | null;
   onnomatch: (() => void) | null;
   onaudiostart: (() => void) | null;
+  onsoundstart: (() => void) | null;
+  onsoundend: (() => void) | null;
   onend: (() => void) | null;
 };
 
@@ -71,17 +73,24 @@ export function listenOnce(locale: string, handlers: RecognitionHandlers): () =>
 
   const recognition = new Recognition();
   recognition.lang = locale;
-  recognition.interimResults = false;
+  recognition.interimResults = !!handlers.onPartial;
   recognition.maxAlternatives = 5;
   recognition.continuous = false;
   recognition.onaudiostart = () => {
     heardAudio = true;
   };
+  // The browser gives no loudness, only whether there is sound.
+  recognition.onsoundstart = () => handlers.onVolume?.(0.6);
+  recognition.onsoundend = () => handlers.onVolume?.(0);
   recognition.onresult = (event) => {
     if (finished) return;
     const results = Array.from(event.results);
     const last = results[results.length - 1];
     if (!last) return;
+    if (!last.isFinal) {
+      handlers.onPartial?.(last[0]?.transcript ?? '');
+      return;
+    }
     gotResult = true;
     handlers.onResult(Array.from(last).map((alt) => alt.transcript));
   };
