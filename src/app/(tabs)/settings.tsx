@@ -20,6 +20,7 @@ import { coursesFor, ENDONYMS, getCourseInfo, UI_LANGUAGES, UiLanguage } from '@
 import { useMicExercises } from '@/lib/mic';
 import { useProgress } from '@/lib/progress';
 import { SpeechRate, useSettings } from '@/lib/settings';
+import { shareApp } from '@/lib/shareApp';
 import { colors, font, radius, spacing } from '@/lib/theme';
 
 // Formats a day key like "2026-10-19" for display (19. 10. 2026 in Czech).
@@ -44,6 +45,7 @@ export default function SettingsScreen() {
   const [pendingRestore, setPendingRestore] = useState<Backup | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
   const [chatCode, setChatCode] = useState(settings.chatCode);
+  const [shareNote, setShareNote] = useState('');
 
   // A new interface language: keep the course if it fits, otherwise take that language's first course.
   const chooseNative = (lang: UiLanguage) => {
@@ -69,6 +71,11 @@ export default function SettingsScreen() {
       update({ lastBackup: dayKey() });
       setMessage(t('settings.backupCopied'));
     }
+  };
+
+  const share = async () => {
+    const result = await shareApp(t('share.message'));
+    setShareNote(result === 'copied' ? t('share.copied') : result === 'failed' ? t('share.failed') : '');
   };
 
   const offerRestore = (text: string | null) => {
@@ -222,6 +229,8 @@ export default function SettingsScreen() {
           <Text style={styles.text}>{t('app.name')}</Text>
           <Text style={styles.small}>{t('settings.version', { version: Constants.expoConfig?.version ?? '' })}</Text>
           <Text style={styles.small}>{t('course.unreviewed')}</Text>
+          <BigButton label={t('share.button')} icon="share-social" onPress={share} />
+          {shareNote !== '' && <Text style={styles.small}>{shareNote}</Text>}
           <BigButton label={t('settings.reset', { language: languageName })} variant="secondary" onPress={() => setConfirmReset(true)} />
         </Section>
       </ScrollView>

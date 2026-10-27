@@ -42,12 +42,12 @@ function state(nativeLanguage, courseId, lessonsDone) {
 
 // Each shot: the learner's state, the page, and what to do before the picture.
 const SHOTS = [
-  { name: '1-course', state: state('cs', 'cs-en', 6), url: '' },
+  { name: '1-course', state: state('cs', 'cs-en', 6), url: 'course' },
   { name: '2-lesson', state: state('cs', 'cs-en', 6), url: 'lesson/u2-l3', action: 'start' },
   { name: '3-review', state: state('cs', 'cs-en', 6), url: 'review' },
   { name: '4-progress', state: state('cs', 'cs-en', 6), url: 'progress' },
   { name: '5-courses', state: state('cs', 'cs-en', 6), url: 'courses' },
-  { name: '6-romanian', state: state('ro', 'ro-cs', 5), url: '' },
+  { name: '6-romanian', state: state('ro', 'ro-cs', 5), url: 'course' },
 ];
 
 const START = {

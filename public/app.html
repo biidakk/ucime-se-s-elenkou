@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elenka – učíme se jazyky</title>
+<meta name="description" content="Elenka: krátké lekce jazyků s hlasem a opakováním slovíček. Zdarma pro iPhone, Android a prohlížeč.">
+<meta property="og:title" content="Elenka – učíme se jazyky">
+<meta property="og:description" content="Krátké lekce jazyků s hlasem a opakováním slovíček. Zdarma.">
+<meta property="og:image" content="https://biidakk.github.io/ucime-se-s-elenkou/icons/icon-512.png">
+<link rel="icon" href="icons/icon-192.png">
+<!-- The link the app shares ("Sdílet aplikaci"): sends everyone to the right store.
+     The app always shares this address, so stores can be added here without a new app version.
+     PLAY_LIVE: set to true once Google Play has approved the app. -->
+<style>
+  :root { --bg: #F6F8FB; --card: #FFFFFF; --text: #1A1D24; --muted: #4F5663; --accent: #1E5AA8; --line: #D3DAE5; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 520px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right)) 48px max(16px, env(safe-area-inset-left)); text-align: center; }
+  .logo { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 6px 20px rgba(20, 58, 117, .25); }
+  h1 { font-size: 30px; margin: 20px 0 6px; color: var(--accent); }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .buttons { display: flex; flex-direction: column; gap: 14px; }
+  a.button { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 64px; padding: 12px 20px; border-radius: 16px;
+    background: var(--card); color: var(--text); border: 2px solid var(--line); font-weight: 700; font-size: 20px; text-decoration: none; }
+  a.button.main { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .soon { color: var(--muted); font-size: 16px; margin: 0; }
+  ul { text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 18px 40px; margin: 32px 0 0; }
+  li { margin: 6px 0; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 15px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="icons/icon-192.png" alt="">
+  <h1 id="title">Elenka – učíme se jazyky</h1>
+  <p class="lead" id="lead"></p>
+  <div class="buttons" id="buttons"></div>
+  <ul id="points"></ul>
+  <footer>Calmshops LTD · <a href="privacy.html">Privacy</a></footer>
+</main>
+<script>
+  var PLAY_LIVE = false;
+  var LINKS = {
+    ios: 'https://apps.apple.com/app/id6825768857',
+    android: 'https://play.google.com/store/apps/details?id=com.biidakk.ucimeseselenkou',
+    web: './'
+  };
+  var TEXT = {
+    cs: {
+      title: 'Elenka – učíme se jazyky',
+      lead: 'Krátké lekce jazyků s hlasem, mikrofonem a opakováním slovíček. Zdarma a bez reklam.',
+      ios: 'Stáhnout pro iPhone', android: 'Stáhnout pro Android', web: 'Otevřít v prohlížeči',
+      soon: 'Na Google Play bude brzy. Zatím ji otevřete v prohlížeči a přidejte si ji na plochu.',
+      points: ['Angličtina, němčina a rumunština', 'Velká písmena a tlačítka, vhodné i pro seniory', 'Každé slovo vám telefon přečte nahlas', 'Bez stresu: žádné odpočítávání času']
+    },
+    ro: {
+      title: 'Elenka – învățăm limbi',
+      lead: 'Lecții scurte de limbi străine, cu voce, microfon și recapitularea cuvintelor. Gratuit și fără reclame.',
+      ios: 'Descarcă pentru iPhone', android: 'Descarcă pentru Android', web: 'Deschide în browser',
+      soon: 'Va apărea curând pe Google Play. Până atunci deschide-o în browser și adaug-o pe ecranul principal.',
+      points: ['Limba cehă, explicată în română', 'Litere și butoane mari, potrivite și pentru seniori', 'Telefonul îți citește fiecare cuvânt cu voce tare', 'Fără stres: fără cronometru']
+    },
+    en: {
+      title: 'Elenka – Learn Languages',
+      lead: 'Short language lessons with voice, microphone and word review. Free, with no ads.',
+      ios: 'Download for iPhone', android: 'Download for Android', web: 'Open in the browser',
+      soon: 'Coming soon to Google Play. Until then, open it in the browser and add it to your home screen.',
+      points: ['English, German and Romanian for Czech speakers; Czech for Romanian speakers', 'Large text and buttons, good for older learners too', 'The phone reads every word aloud', 'No stress: no timers']
+    }
+  };
+
+  var langs = (navigator.languages || [navigator.language || 'en']).map(function (l) { return String(l).slice(0, 2).toLowerCase(); });
+  var lang = langs.filter(function (l) { return TEXT[l]; })[0] || 'en';
+  var t = TEXT[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+
+  var ua = navigator.userAgent;
+  var device = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) ? 'ios' : /Android/.test(ua) ? 'android' : 'other';
+
+  var order = device === 'android' ? ['android', 'ios', 'web'] : device === 'ios' ? ['ios', 'android', 'web'] : ['ios', 'android', 'web'];
+  if (!PLAY_LIVE) order = order.filter(function (k) { return k !== 'android'; });
+  if (!PLAY_LIVE && device === 'android') order = ['web', 'ios'];
+
+  document.getElementById('title').textContent = t.title;
+  document.getElementById('lead').textContent = t.lead;
+  var buttons = document.getElementById('buttons');
+  order.forEach(function (key, i) {
+    var a = document.createElement('a');
+    a.className = 'button' + (i === 0 ? ' main' : '');
+    a.href = LINKS[key];
+    a.textContent = t[key];
+    buttons.appendChild(a);
+  });
+  if (!PLAY_LIVE && device === 'android') {
+    var p = document.createElement('p');
+    p.className = 'soon';
+    p.textContent = t.soon;
+    buttons.appendChild(p);
+  }
+  var points = document.getElementById('points');
+  t.points.forEach(function (text) {
+    var li = document.createElement('li');
+    li.textContent = text;
+    points.appendChild(li);
+  });
+</script>
+</body>
+</html>

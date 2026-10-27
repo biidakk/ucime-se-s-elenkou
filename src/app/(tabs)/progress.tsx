@@ -1,10 +1,11 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
+import { WeekDots } from '@/components/WeekDots';
 import { TextKey, useT } from '@/i18n';
 import { LEVELS } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
-import { currentStreak, dayKey, daysAgo, daysThisWeek } from '@/lib/dates';
+import { currentStreak, dayKey, daysThisWeek } from '@/lib/dates';
 import { useProgress } from '@/lib/progress';
 import { colors, font, radius, spacing } from '@/lib/theme';
 
@@ -20,8 +21,6 @@ export default function ProgressScreen() {
   const streak = currentStreak(activity.activeDays);
   const thisWeek = daysThisWeek(activity.activeDays);
   const practisedToday = activity.activeDays.includes(dayKey());
-  const weekdays = t.list('progress.weekdays');
-  const lastWeek = [6, 5, 4, 3, 2, 1, 0].map((n) => daysAgo(n));
   const doneCount = course.lessons.filter((l) => l.id in progress.completedLessons).length;
   const levels = LEVELS.filter((level) => course.units.some((u) => u.level === level));
   const testsPassed = course.units.filter((u) => progress.unitTests[u.id]?.passedAt).length;
@@ -36,19 +35,8 @@ export default function ProgressScreen() {
             {streak > 0 ? t('streak.days', { count: streak }) : t('progress.streakNone')}
           </Text>
           <Text style={styles.streakLabel}>{t('progress.week', { count: thisWeek })}</Text>
-          <View style={styles.week}>
-            {lastWeek.map((date) => {
-              const active = activity.activeDays.includes(dayKey(date));
-              const today = dayKey(date) === dayKey();
-              return (
-                <View key={dayKey(date)} style={styles.weekDay}>
-                  <View style={[styles.dot, active && styles.dotActive, today && !active && { borderColor: accent, borderWidth: 3 }]}>
-                    {active && <Text style={styles.dotCheck}>✓</Text>}
-                  </View>
-                  <Text style={[styles.weekLabel, today && { color: colors.text }]}>{weekdays[date.getDay()]}</Text>
-                </View>
-              );
-            })}
+          <View style={styles.weekWrap}>
+            <WeekDots />
           </View>
           <Text style={styles.streakHint}>{practisedToday ? t('progress.today') : t('progress.notToday')}</Text>
         </View>
@@ -114,12 +102,7 @@ const styles = StyleSheet.create({
   streakNumber: { fontSize: font.title, fontWeight: '800', color: colors.text, textAlign: 'center' },
   streakLabel: { fontSize: font.large, color: colors.textMuted, fontWeight: '600' },
   streakHint: { fontSize: font.body, color: colors.text, textAlign: 'center', marginTop: spacing.sm },
-  week: { flexDirection: 'row', justifyContent: 'space-between', alignSelf: 'stretch', marginTop: spacing.md },
-  weekDay: { alignItems: 'center', gap: spacing.xs },
-  dot: { width: 36, height: 36, borderRadius: 18, backgroundColor: colors.border, alignItems: 'center', justifyContent: 'center' },
-  dotActive: { backgroundColor: colors.successBorder },
-  dotCheck: { color: '#fff', fontSize: 18, fontWeight: '800' },
-  weekLabel: { fontSize: 15, color: colors.textMuted, fontWeight: '700' },
+  weekWrap: { alignSelf: 'stretch', marginTop: spacing.md },
   courseLabel: { fontSize: font.large, fontWeight: '800', marginTop: spacing.sm },
   cardTitle: { fontSize: font.large, fontWeight: '800', color: colors.text },
   bigNumber: { fontSize: font.huge, fontWeight: '800' },

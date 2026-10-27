@@ -2,14 +2,14 @@
   "expo": {
     "name": "Elenka",
     "slug": "czech-lang-app",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.biidakk.ucimeseselenkou",
-      "buildNumber": "5",
+      "buildNumber": "6",
       "infoPlist": {
         "CFBundleDisplayName": "Elenka",
         "NSPhotoLibraryUsageDescription": "Aplikace k fotkám nepřistupuje. Apple tento text vyžaduje kvůli knihovně pro práci se soubory.",

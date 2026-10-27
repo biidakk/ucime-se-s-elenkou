@@ -1,228 +1,244 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { router } from 'expo-router';
+import { router, type Href } from 'expo-router';
+import { useState, type ComponentProps } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { Flag } from '@/components/Flag';
+import { BigButton } from '@/components/BigButton';
+import { CourseHeader } from '@/components/CourseHeader';
+import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
-import { TextKey, useT } from '@/i18n';
+import { WeekDots } from '@/components/WeekDots';
+import { useT } from '@/i18n';
 import { chatAvailable } from '@/lib/chat';
-import type { Unit } from '@/lib/content';
+import { getWord } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
-import { currentStreak } from '@/lib/dates';
+import { dayKey } from '@/lib/dates';
 import { useProgress } from '@/lib/progress';
 import { useSettings } from '@/lib/settings';
-import { UNIT_TEST_SIZE } from '@/lib/tests';
-import { colors, font, radius, spacing, tapTarget } from '@/lib/theme';
+import { shareApp } from '@/lib/shareApp';
+import { dueWordIds } from '@/lib/srs';
+import { colors, font, radius, spacing } from '@/lib/theme';
 
-// The course map: every unit with its lessons, read from /content.
-export default function CourseScreen() {
+type IconName = ComponentProps<typeof Ionicons>['name'];
+
+// The home screen, the first thing after the intro: one big "continue" button for the next
+// lesson, the practice of this week, shortcuts to everything else, and a way to recommend the app.
+export default function HomeScreen() {
   const t = useT();
-  const { course, target } = useCourse();
-  const { accent, accentLight } = useAccent();
+  const { course } = useCourse();
+  const { accent } = useAccent();
   const { progress, activity } = useProgress();
   const { settings } = useSettings();
-  // The conversation is a family feature: shown only once the family code is entered.
-  const showChat = chatAvailable() && settings.chatCode !== '';
+  const [shareNote, setShareNote] = useState('');
+
   const isDone = (lessonId: string) => lessonId in progress.completedLessons;
-  // The first unfinished lesson gets a "continue here" marker.
-  const nextLessonId = course.lessons.find((l) => !isDone(l.id))?.id;
-  const streak = currentStreak(activity.activeDays);
+  const nextLesson = course.lessons.find((l) => !isDone(l.id));
+  const nextUnitIndex = nextLesson ? course.units.findIndex((u) => u.lessons.some((l) => l.id === nextLesson.id)) : -1;
+  const nextUnit = course.units[nextUnitIndex];
+  const started = course.lessons.some((l) => isDone(l.id));
+  const doneCount = course.lessons.filter((l) => isDone(l.id)).length;
+
+  const cards = Object.fromEntries(Object.entries(progress.cards).filter(([id]) => getWord(course, id)));
+  const due = dueWordIds(cards).length;
+  const practisedToday = activity.activeDays.includes(dayKey());
+
+  // The conversation (a family feature) for the last finished unit.
+  const finishedUnits = course.units.filter((u) => u.lessons.every((l) => isDone(l.id)));
+  const chatUnit = chatAvailable() && settings.chatCode !== '' ? finishedUnits[finishedUnits.length - 1] : undefined;
+
+  const share = async () => {
+    const result = await shareApp(t('share.message'));
+    setShareNote(result === 'copied' ? t('share.copied') : result === 'failed' ? t('share.failed') : '');
+  };
 
   return (
     <Screen>
-      <View style={styles.header}>
-        <Pressable
-          onPress={() => router.push('/courses')}
-          accessibilityRole="button"
-          accessibilityLabel={t('course.change')}
-          style={({ pressed }) => [styles.coursePicker, pressed && styles.pressed]}
-        >
-          <Flag lang={target.code} width={48} />
-          <View style={styles.courseTexts}>
-            <Text style={[styles.courseName, { color: accent }]} numberOfLines={1}>
-              {t(`lang.${target.code}.name` as TextKey)}
-            </Text>
-            <Text style={styles.courseChange}>
-              {t('course.change')} <Ionicons name="chevron-down" size={14} />
-            </Text>
-          </View>
-        </Pressable>
-        {streak > 0 && (
-          <View style={styles.streak} accessibilityLabel={t('streak.days', { count: streak })}>
-            <Text style={styles.streakText}>🔥 {streak}</Text>
-          </View>
-        )}
-      </View>
-
+      <CourseHeader />
       <ScrollView contentContainerStyle={styles.content}>
-        {course.units.length === 0 && <Text style={styles.empty}>{t('course.empty')}</Text>}
-        {course.units.map((unit, unitIndex) => {
-          const doneCount = unit.lessons.filter((l) => isDone(l.id)).length;
-          // A heading before the first unit of each level (A1, A2, B1).
-          const newLevel = unitIndex === 0 || course.units[unitIndex - 1].level !== unit.level;
-          const complete = doneCount === unit.lessons.length;
-          return (
-            <View key={unit.id} style={styles.unitBlock}>
-              {newLevel && (
-                <Text style={[styles.levelHeading, { color: accent }]} accessibilityRole="header">
-                  {t('level.heading', { level: unit.level, name: t(`level.${unit.level}` as TextKey) })}
-                </Text>
-              )}
-              <View style={styles.unit}>
-                <View style={styles.unitHeader}>
-                  <View style={[styles.unitNumber, { backgroundColor: complete ? colors.success : accent }]}>
-                    {complete ? (
-                      <Ionicons name="checkmark" size={28} color="#fff" />
-                    ) : (
-                      <Text style={styles.unitNumberText}>{unitIndex + 1}</Text>
-                    )}
-                  </View>
-                  <View style={styles.unitTitles}>
-                    <Text style={styles.unitTitle}>{unit.title}</Text>
-                    <Text style={[styles.unitTitleTarget, { color: accent }]}>{unit.titleTarget}</Text>
-                  </View>
-                  <Text style={styles.unitCount}>{t('course.lessonsDone', { done: doneCount, total: unit.lessons.length })}</Text>
-                </View>
-                <Text style={styles.unitDescription}>{unit.description}</Text>
+        <View style={styles.greeting}>
+          <Text style={styles.hello} accessibilityRole="header">
+            {t(greetingKey())}
+          </Text>
+          <Text style={styles.helloText}>{practisedToday ? t('progress.today') : t('progress.notToday')}</Text>
+        </View>
 
-                {unit.lessons.map((lesson, lessonIndex) => {
-                  const isNext = lesson.id === nextLessonId;
-                  return (
-                    <Pressable
-                      key={lesson.id}
-                      accessibilityRole="button"
-                      onPress={() => router.push({ pathname: '/lesson/[id]', params: { id: lesson.id } })}
-                      style={({ pressed }) => [
-                        styles.lesson,
-                        isNext && { borderWidth: 2, borderColor: accent, backgroundColor: accentLight },
-                        pressed && styles.pressed,
-                      ]}
-                    >
-                      <Text style={[styles.lessonNumber, { color: accent }]}>{lessonIndex + 1}</Text>
-                      <View style={styles.lessonTitles}>
-                        {isNext && <Text style={[styles.nextLabel, { color: accent }]}>{t('course.continueHere')}</Text>}
-                        <Text style={styles.lessonTitle}>{lesson.title}</Text>
-                        <Text style={styles.lessonTitleTarget}>{lesson.titleTarget}</Text>
-                      </View>
-                      {isDone(lesson.id) ? (
-                        <Ionicons name="checkmark-circle" size={34} color={colors.success} accessibilityLabel={t('course.lessonDone')} />
-                      ) : (
-                        <Ionicons name={isNext ? 'play-circle' : 'chevron-forward'} size={isNext ? 38 : 26} color={isNext ? accent : colors.textMuted} />
-                      )}
-                    </Pressable>
-                  );
-                })}
-
-                <UnitTestRow unit={unit} />
-                {complete && showChat && <ChatRow unit={unit} />}
-              </View>
+        {nextLesson && nextUnit ? (
+          <View style={[styles.continueCard, { backgroundColor: accent }]}>
+            <Text style={styles.continueLabel}>{started ? t('home.continue') : t('home.start')}</Text>
+            <Text style={styles.continueUnit}>
+              {t('course.unit', { n: nextUnitIndex + 1 })} · {nextUnit.title}
+            </Text>
+            <Text style={styles.continueTitle}>{nextLesson.title}</Text>
+            <Text style={styles.continueTitleTarget}>{nextLesson.titleTarget}</Text>
+            <View style={styles.continueBar}>
+              <ProgressBar
+                value={nextUnit.lessons.filter((l) => isDone(l.id)).length / nextUnit.lessons.length}
+                color="#fff"
+                track="rgba(255,255,255,0.3)"
+                height={10}
+              />
             </View>
-          );
-        })}
+            <Pressable
+              onPress={() => router.push({ pathname: '/lesson/[id]', params: { id: nextLesson.id } })}
+              accessibilityRole="button"
+              style={({ pressed }) => [styles.continueButton, pressed && styles.pressed]}
+            >
+              <Ionicons name="play" size={28} color={accent} />
+              <Text style={[styles.continueButtonText, { color: accent }]}>
+                {started ? t('home.continueButton') : t('home.startButton')}
+              </Text>
+            </Pressable>
+          </View>
+        ) : (
+          course.lessons.length > 0 && (
+            <View style={[styles.continueCard, { backgroundColor: colors.success }]}>
+              <Text style={styles.continueTitle}>{t('home.allDone')}</Text>
+              <Text style={styles.continueTitleTarget}>{t('home.allDoneText')}</Text>
+            </View>
+          )
+        )}
+
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>{t('home.week')}</Text>
+          <WeekDots />
+        </View>
+
+        <View style={styles.tiles}>
+          <Tile
+            icon="repeat"
+            title={t('tabs.review')}
+            detail={due > 0 ? `${due} ${t('review.due', { count: due })}` : t('review.nothingDue')}
+            badge={due > 0 ? due : undefined}
+            href="/review"
+          />
+          <Tile
+            icon="map"
+            title={t('home.wholeCourse')}
+            detail={t('home.lessonsDone', { done: doneCount, total: course.lessons.length })}
+            href="/course"
+          />
+          <Tile icon="stats-chart" title={t('tabs.progress')} detail={t('home.progressDetail')} href="/progress" />
+          {chatUnit && (
+            <Tile
+              icon="chatbubbles"
+              title={t('chat.open')}
+              detail={chatUnit.title}
+              href={{ pathname: '/chat/[unitId]', params: { unitId: chatUnit.id } }}
+            />
+          )}
+        </View>
+
+        <View style={styles.card}>
+          <View style={styles.shareHead}>
+            <Ionicons name="heart" size={30} color={colors.error} />
+            <Text style={[styles.cardTitle, styles.shareTitle]}>{t('share.title')}</Text>
+          </View>
+          <Text style={styles.text}>{t('share.text')}</Text>
+          <BigButton label={t('share.button')} icon="share-social" onPress={share} />
+          {shareNote !== '' && (
+            <Text style={styles.note} accessibilityLiveRegion="polite">
+              {shareNote}
+            </Text>
+          )}
+        </View>
       </ScrollView>
     </Screen>
   );
 }
 
-// The unit test at the end of each unit: a star once passed, otherwise the best score so far.
-function UnitTestRow({ unit }: { unit: Unit }) {
-  const t = useT();
-  const { accent } = useAccent();
-  const { progress } = useProgress();
-  const record = progress.unitTests[unit.id];
-  const passed = !!record?.passedAt;
-  const size = Math.min(UNIT_TEST_SIZE, unit.lessons.flatMap((l) => l.words).length);
-  return (
-    <Pressable
-      accessibilityRole="button"
-      onPress={() => router.push({ pathname: '/test/[unitId]', params: { unitId: unit.id } })}
-      style={({ pressed }) => [styles.lesson, styles.testRow, pressed && styles.pressed]}
-    >
-      <Ionicons name="school" size={26} color={accent} />
-      <View style={styles.lessonTitles}>
-        <Text style={styles.lessonTitle}>{t('course.unitTest')}</Text>
-        <Text style={styles.lessonTitleTarget}>
-          {record ? t('course.unitTestBest', { score: record.bestScore, total: record.total }) : t('course.unitTestInfo', { count: size })}
-        </Text>
-      </View>
-      {passed ? (
-        <Ionicons name="star" size={34} color={colors.star} />
-      ) : (
-        <Ionicons name="chevron-forward" size={26} color={colors.textMuted} />
-      )}
-    </Pressable>
-  );
+// "Good morning" until 11, "Good evening" from 18.
+function greetingKey() {
+  const hour = new Date().getHours();
+  if (hour < 11) return 'home.morning' as const;
+  if (hour < 18) return 'home.day' as const;
+  return 'home.evening' as const;
 }
 
-// The AI conversation partner for a finished unit (only when the server is set up).
-function ChatRow({ unit }: { unit: Unit }) {
-  const t = useT();
-  const { accent } = useAccent();
+// A big shortcut on the home screen.
+function Tile({ icon, title, detail, badge, href }: { icon: IconName; title: string; detail: string; badge?: number; href: Href }) {
+  const { accent, accentLight } = useAccent();
   return (
     <Pressable
+      onPress={() => router.push(href)}
       accessibilityRole="button"
-      onPress={() => router.push({ pathname: '/chat/[unitId]', params: { unitId: unit.id } })}
-      style={({ pressed }) => [styles.lesson, styles.testRow, pressed && styles.pressed]}
+      accessibilityLabel={`${title}. ${detail}`}
+      style={({ pressed }) => [styles.tile, pressed && styles.pressed]}
     >
-      <Ionicons name="chatbubbles" size={26} color={accent} />
-      <View style={styles.lessonTitles}>
-        <Text style={styles.lessonTitle}>{t('chat.open')}</Text>
-        <Text style={styles.lessonTitleTarget}>{t('chat.openHint')}</Text>
+      <View style={[styles.tileIcon, { backgroundColor: accentLight }]}>
+        <Ionicons name={icon} size={32} color={accent} />
+        {badge !== undefined && (
+          <View style={styles.badge}>
+            <Text style={styles.badgeText}>{badge > 99 ? '99+' : badge}</Text>
+          </View>
+        )}
       </View>
-      <Ionicons name="chevron-forward" size={26} color={colors.textMuted} />
+      <Text style={styles.tileTitle}>{title}</Text>
+      <Text style={styles.tileDetail}>{detail}</Text>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
-  header: {
+  content: { padding: spacing.md, paddingTop: spacing.sm, gap: spacing.md, maxWidth: 720, width: '100%', alignSelf: 'center' },
+  greeting: { gap: spacing.xs },
+  hello: { fontSize: font.title, fontWeight: '800', color: colors.text },
+  helloText: { fontSize: font.body, color: colors.textMuted, lineHeight: 26 },
+  continueCard: { borderRadius: radius.lg, padding: spacing.lg, gap: spacing.xs },
+  continueLabel: { fontSize: 15, fontWeight: '800', color: '#fff', textTransform: 'uppercase', letterSpacing: 0.5, opacity: 0.9 },
+  continueUnit: { fontSize: font.body, color: '#fff', fontWeight: '600', opacity: 0.9 },
+  continueTitle: { fontSize: font.title, fontWeight: '800', color: '#fff', marginTop: spacing.xs },
+  continueTitleTarget: { fontSize: font.large, color: '#fff', fontStyle: 'italic', opacity: 0.95 },
+  continueBar: { flexDirection: 'row', marginTop: spacing.md },
+  continueButton: {
+    marginTop: spacing.md,
+    minHeight: 64,
+    borderRadius: radius.md,
+    backgroundColor: '#fff',
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacing.md,
-    paddingHorizontal: spacing.md,
-    paddingTop: spacing.md,
-    paddingBottom: spacing.sm,
+    justifyContent: 'center',
+    gap: spacing.sm,
   },
-  coursePicker: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: spacing.md, minHeight: tapTarget },
-  courseTexts: { flex: 1 },
-  courseName: { fontSize: font.title, fontWeight: '800' },
-  courseChange: { fontSize: font.small, color: colors.textMuted, fontWeight: '700' },
-  streak: { backgroundColor: '#FFF1E0', borderRadius: radius.lg, paddingHorizontal: spacing.md, paddingVertical: spacing.sm },
-  streakText: { fontSize: font.large, fontWeight: '800', color: '#B4530A' },
-  content: { padding: spacing.md, paddingTop: spacing.sm, gap: spacing.md, maxWidth: 720, width: '100%', alignSelf: 'center' },
-  empty: { fontSize: font.large, color: colors.textMuted, textAlign: 'center', marginTop: spacing.xl, lineHeight: 30 },
-  unitBlock: { gap: spacing.md },
-  levelHeading: { fontSize: font.large + 2, fontWeight: '800', marginTop: spacing.sm },
-  unit: {
+  continueButtonText: { fontSize: font.large, fontWeight: '800' },
+  card: {
     backgroundColor: colors.card,
     borderRadius: radius.lg,
     padding: spacing.md,
-    gap: spacing.sm,
+    gap: spacing.md,
     borderWidth: 1,
     borderColor: colors.border,
   },
-  unitHeader: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
-  unitNumber: { width: 48, height: 48, borderRadius: 24, alignItems: 'center', justifyContent: 'center' },
-  unitNumberText: { color: '#fff', fontSize: font.large, fontWeight: '800' },
-  unitTitles: { flex: 1 },
-  unitTitle: { fontSize: font.large, fontWeight: '800', color: colors.text },
-  unitTitleTarget: { fontSize: font.body, fontStyle: 'italic', fontWeight: '600' },
-  unitCount: { fontSize: font.small, fontWeight: '700', color: colors.textMuted },
-  unitDescription: { fontSize: font.body, color: colors.textMuted, lineHeight: 26 },
-  lesson: {
-    minHeight: tapTarget + 12,
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.md,
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm,
-    borderRadius: radius.md,
-    backgroundColor: colors.background,
+  cardTitle: { fontSize: font.large, fontWeight: '800', color: colors.text },
+  tiles: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },
+  tile: {
+    flexGrow: 1,
+    flexBasis: '40%',
+    minHeight: 150,
+    backgroundColor: colors.card,
+    borderRadius: radius.lg,
+    padding: spacing.md,
+    gap: spacing.xs,
+    borderWidth: 1,
+    borderColor: colors.border,
   },
-  testRow: { borderWidth: 2, borderColor: colors.border, borderStyle: 'dashed' },
-  nextLabel: { fontSize: 14, fontWeight: '800', textTransform: 'uppercase' },
-  pressed: { opacity: 0.7 },
-  lessonNumber: { fontSize: font.large, fontWeight: '800', width: 24, textAlign: 'center' },
-  lessonTitles: { flex: 1 },
-  lessonTitle: { fontSize: font.body, fontWeight: '700', color: colors.text },
-  lessonTitleTarget: { fontSize: font.small, color: colors.textMuted, fontStyle: 'italic' },
+  tileIcon: { width: 56, height: 56, borderRadius: 28, alignItems: 'center', justifyContent: 'center', marginBottom: spacing.xs },
+  tileTitle: { fontSize: font.large, fontWeight: '800', color: colors.text },
+  tileDetail: { fontSize: font.small, color: colors.textMuted, fontWeight: '600', lineHeight: 21 },
+  badge: {
+    position: 'absolute',
+    top: -6,
+    right: -10,
+    minWidth: 28,
+    height: 28,
+    borderRadius: 14,
+    paddingHorizontal: 6,
+    backgroundColor: colors.error,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  badgeText: { color: '#fff', fontSize: 15, fontWeight: '800' },
+  shareHead: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  shareTitle: { flex: 1 },
+  text: { fontSize: font.body, color: colors.text, lineHeight: 27 },
+  note: { fontSize: font.body, color: colors.success, fontWeight: '700', textAlign: 'center' },
+  pressed: { opacity: 0.8 },
 });
