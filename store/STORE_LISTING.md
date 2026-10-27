@@ -1,4 +1,4 @@
-# Store listing: Učíme se s Elenkou
+# Store listing: Elenka
 
 Everything to paste into App Store Connect and Google Play Console. Screenshots are in
 `store/screenshots/` (made by `scripts/store-screenshots.mjs`), the Play icon and feature
@@ -12,7 +12,7 @@ graphic in `store/graphics/` (`scripts/store-graphics.mjs`).
 
 ## Czech (main language)
 
-**Name** (both stores, max 30): `Učíme se s Elenkou`
+**Name** (both stores, max 30): `Elenka – učíme se jazyky` (the web app keeps the name "Učíme se s Elenkou")
 
 **App Store subtitle** (max 30): `Jazyky pro česky mluvící`
 
@@ -64,7 +64,7 @@ Aplikace je zdarma. Budeme rádi za vaše hodnocení a nápady na contact@calmsh
 Add as a second language: App Store Connect → App Information / version → language menu →
 Romanian; Play Console → Main store listing → Manage translations → Romanian (ro).
 
-**Name**: `Učíme se s Elenkou` (unchanged)
+**Name**: `Elenka – învățăm limbi`
 
 **App Store subtitle** (max 30): `Cehă pentru români`
 
@@ -79,7 +79,7 @@ Romanian; Play Console → Main store listing → Manage translations → Romani
 **Description**:
 
 ```
-Učíme se s Elenkou te ajută să înveți limba cehă pas cu pas, cu toate explicațiile în română. Aplicația a fost făcută pentru familia noastră și este gândită pentru începători.
+Elenka te ajută să înveți limba cehă pas cu pas, cu toate explicațiile în română. Aplicația a fost făcută pentru familia noastră și este gândită pentru începători.
 
 CURSUL DE CEHĂ
 • Nivelurile A1 și A2, 74 de lecții
