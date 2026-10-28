@@ -1,3 +1,21 @@
 {
-  "fixes": []
+  "fixes": [
+    {
+      "write": "Czech",
+      "say": "Check",
+      "note": "An iPhone English voice read „Czech Republic“ as „Zeč republic“ (2026-10-28); „Check“ sounds the same as „Czech“ in English."
+    },
+    {
+      "write": "Czechs",
+      "say": "Checks",
+      "note": "Same fix as „Czech“."
+    }
+  ],
+  "try": [
+    "I'm from the Czech Republic.",
+    "Czech",
+    "Check Republic",
+    "Chech Republic",
+    "We're Czech."
+  ]
 }
