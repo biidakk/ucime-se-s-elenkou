@@ -1,5 +1,6 @@
 // Takes the screenshots for the App Store and Google Play from the built web app, with some
-// progress filled in, in the sizes the stores ask for. Written to store/screenshots/<store>/.
+// progress filled in, in the sizes the stores ask for. Written to store/screenshots/<store>/
+// (Czech interface) and store/screenshots/<store>-ro/ (Romanian interface).
 // Needs the built app being served:  npm run build:web  and  npm run serve:web  (other terminal)
 // Run with:  node scripts/store-screenshots.mjs
 
@@ -40,14 +41,18 @@ function state(nativeLanguage, courseId, lessonsDone) {
   };
 }
 
-// Each shot: the learner's state, the page, and what to do before the picture.
-const SHOTS = [
-  { name: '1-course', state: state('cs', 'cs-en', 6), url: 'course' },
-  { name: '2-lesson', state: state('cs', 'cs-en', 6), url: 'lesson/u2-l3', action: 'start' },
-  { name: '3-review', state: state('cs', 'cs-en', 6), url: 'review' },
-  { name: '4-progress', state: state('cs', 'cs-en', 6), url: 'progress' },
-  { name: '5-courses', state: state('cs', 'cs-en', 6), url: 'courses' },
-  { name: '6-romanian', state: state('ro', 'ro-cs', 5), url: 'course' },
+// Each set goes to its own folder. Each shot: the page, and what to do before the picture.
+const PAGES = [
+  { name: '1-home', url: '' },
+  { name: '2-lesson', url: 'lesson/u2-l3', action: 'start' },
+  { name: '3-review', url: 'review' },
+  { name: '4-course', url: 'course' },
+  { name: '5-progress', url: 'progress' },
+  { name: '6-courses', url: 'courses' },
+];
+const SETS = [
+  { suffix: '', state: state('cs', 'cs-en', 6) },
+  { suffix: '-ro', state: state('ro', 'ro-cs', 5), skip: ['6-courses'] }, // only one course
 ];
 
 const START = {
@@ -56,9 +61,11 @@ const START = {
 };
 
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true });
-for (const [store, viewport] of Object.entries(SIZES)) {
+for (const [storeName, viewport] of Object.entries(SIZES)) for (const set of SETS) {
+  const store = storeName + set.suffix;
   fs.mkdirSync(path.join(OUT, store), { recursive: true });
-  for (const shot of SHOTS) {
+  for (const page_ of PAGES.filter((p) => !set.skip?.includes(p.name))) {
+    const shot = { ...page_, state: set.state };
     const page = await browser.newPage();
     await page.emulate({
       viewport: { ...viewport, isMobile: true, hasTouch: true },

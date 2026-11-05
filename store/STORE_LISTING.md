@@ -49,6 +49,7 @@ OPAKOVÁNÍ A POKROK
 
 POHODLÍ
 • Velké písmo a velká tlačítka
+• Jemné denní připomenutí, které si můžete zapnout (v aplikaci pro iPhone a Android)
 • Funguje i bez internetu
 • Bez reklam, bez účtu, bez sledování – váš pokrok zůstává jen ve vašem telefonu
 • Zálohu pokroku si můžete uložit jako text a obnovit na jiném telefonu
@@ -98,11 +99,61 @@ RECAPITULARE ȘI PROGRES
 • Vezi cât ai progresat și câte zile la rând ai exersat
 
 • Text mare și butoane mari
+• Un memento zilnic discret, pe care îl poți porni (în aplicația pentru iPhone și Android)
 • Funcționează și fără internet
 • Fără reclame, fără cont, fără urmărire – progresul rămâne doar pe telefonul tău
 
 Aplicația conține și cursuri de engleză, germană și română pentru vorbitorii de cehă.
 Gratuit. Scrie-ne la contact@calmshops.co.uk.
+```
+
+## English (third listing, for Czech and Romanian speakers whose phone is set to English)
+
+Add as en-GB and en-US in App Store Connect (the US store doesn't use en-GB) and in Play Console.
+The screenshots stay Czech on purpose: they show what the app looks like.
+
+**Name**: `Elenka – Learn Languages`
+
+**App Store subtitle** (max 30): `For Czech & Romanian speakers`
+
+**Google Play short description** (max 80):
+`Language lessons in Czech and Romanian. No ads, no account, no stress.`
+
+**App Store keywords**: `czech,romanian,english,german,vocabulary,lessons,beginners,seniors,flashcards,czechia`
+
+**App Store promotional text**:
+`Short, calm language lessons for Czech and Romanian speakers, with voice and word review. No ads, no account, works offline.`
+
+**Description**:
+
+```
+Elenka is a calm language app for Czech and Romanian speakers. It was made for our own family and built so that complete beginners and older learners feel at home.
+
+Please note: the app and all its explanations are in Czech or Romanian. It is not a course for people who only speak English.
+
+COURSES
+• For Czech speakers: English (British), German and Romanian – levels A1, A2 and B1, 90 lessons each
+• For Romanian speakers: Czech – levels A1 and A2, 74 lessons
+
+HOW YOU LEARN
+• Short lessons with clear explanations
+• Varied exercises: choosing answers, listening, matching pairs, writing, building sentences and speaking aloud
+• Every word and sentence can be played aloud
+• Mistakes are fine: the app kindly shows the right answer and explains why
+• A test at the end of every unit
+
+REVIEW AND PROGRESS
+• Words come back smartly in five boxes: what you know returns less often
+• A progress overview and a gentle daily streak with no pressure
+
+COMFORT
+• Large text and large buttons
+• A gentle daily reminder you can switch on (in the iPhone and Android apps)
+• Works without internet
+• No adverts, no account, no tracking – your progress stays on your phone
+• Back up your progress and restore it on another phone
+
+The app is free. We would love to hear your ideas at contact@calmshops.co.uk.
 ```
 
 ## App Store Connect: other fields
