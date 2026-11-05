@@ -34,6 +34,20 @@ function iconSvg({ margin = 0, background = true } = {}) {
 </svg>`;
 }
 
+// The small icon in Android's notification bar: only its shape counts, so white on transparent.
+const notificationSvg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <mask id="cut">
+    <rect width="1024" height="1024" fill="#fff"/>
+    <text x="512" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-weight="700" font-size="330" fill="#000">Aa</text>
+  </mask>
+  <g fill="#fff" mask="url(#cut)">
+    <path d="M300 690 L250 860 L470 700 Z"/>
+    <rect x="160" y="200" width="704" height="520" rx="160"/>
+  </g>
+</svg>`;
+
 const outputs = [
   { file: 'assets/icon.png', size: 1024 },
   { file: 'assets/favicon.png', size: 48 },
@@ -50,3 +64,6 @@ for (const { file, size, margin, background } of outputs) {
   await sharp(Buffer.from(iconSvg({ margin, background }))).resize(size, size).png().toFile(target);
   console.log(`✓ ${file} (${size}×${size})`);
 }
+
+await sharp(Buffer.from(notificationSvg)).resize(96, 96).png().toFile(path.join(ROOT, 'assets/notification-icon.png'));
+console.log('✓ assets/notification-icon.png (96×96)');

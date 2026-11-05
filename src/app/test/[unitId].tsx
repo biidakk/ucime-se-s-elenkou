@@ -12,6 +12,7 @@ import type { Word } from '@/lib/content';
 import { useCourse } from '@/lib/course';
 import { useInsets } from '@/lib/insets';
 import { useProgress } from '@/lib/progress';
+import { useReviewPrompt } from '@/lib/reviewPrompt';
 import { stopSpeech } from '@/lib/speech';
 import { passesUnitTest, unitTest, unitTestPassMark } from '@/lib/tests';
 import { colors, font, spacing } from '@/lib/theme';
@@ -57,12 +58,14 @@ export default function UnitTestScreen() {
   const passMark = unitTestPassMark(total);
   const record = progress.unitTests[unit.id];
   const passed = passesUnitTest(score, total);
+  const askForReview = useReviewPrompt();
   const bottom = { paddingBottom: spacing.md + insets.bottom };
 
   const handleFinish = (finalScore: number, missedWords: Word[]) => {
     setScore(finalScore);
     setMissed(missedWords);
     saveTestResult('unit', unit.id, finalScore, total, passesUnitTest(finalScore, total));
+    if (passesUnitTest(finalScore, total)) askForReview();
     setPhase('result');
   };
 

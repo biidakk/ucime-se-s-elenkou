@@ -39,8 +39,6 @@ export default function TabLayout() {
       <Tabs.Screen name="index" options={{ title: t('tabs.home'), tabBarIcon: icon('home') }} />
       <Tabs.Screen name="course" options={{ title: t('tabs.course'), tabBarIcon: icon('map') }} />
       <Tabs.Screen name="review" options={{ title: t('tabs.review'), tabBarIcon: icon('repeat') }} />
-      {/* Progress opens from a tile on the home screen. */}
-      <Tabs.Screen name="progress" options={{ title: t('tabs.progress'), href: null }} />
       <Tabs.Screen name="settings" options={{ title: t('tabs.settings'), tabBarIcon: icon('settings-sharp') }} />
     </Tabs>
   );

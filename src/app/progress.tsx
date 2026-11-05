@@ -1,4 +1,6 @@
+import { router } from 'expo-router';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { LessonHeader } from '@/components/LessonHeader';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
 import { WeekDots } from '@/components/WeekDots';
@@ -27,7 +29,8 @@ export default function ProgressScreen() {
   const words = Object.keys(progress.cards).length;
 
   return (
-    <Screen title={t('progress.title')}>
+    <Screen edges={['top', 'bottom']}>
+      <LessonHeader onClose={() => (router.canGoBack() ? router.back() : router.replace('/'))} title={t('progress.title')} />
       <ScrollView contentContainerStyle={styles.content}>
         <View style={[styles.card, styles.streakCard]}>
           <Text style={styles.streakEmoji}>{streak > 0 ? '🔥' : '🌱'}</Text>

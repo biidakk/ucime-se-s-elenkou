@@ -5,6 +5,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { BigButton } from '@/components/BigButton';
 import { CourseHeader } from '@/components/CourseHeader';
 import { ProgressBar } from '@/components/ProgressBar';
+import { ReminderOffer } from '@/components/ReminderOffer';
 import { Screen } from '@/components/Screen';
 import { WeekDots } from '@/components/WeekDots';
 import { useT } from '@/i18n';
@@ -13,6 +14,7 @@ import { getWord } from '@/lib/content';
 import { useAccent, useCourse } from '@/lib/course';
 import { dayKey } from '@/lib/dates';
 import { useProgress } from '@/lib/progress';
+import { REMINDER_SUPPORTED } from '@/lib/reminder';
 import { useSettings } from '@/lib/settings';
 import { shareApp } from '@/lib/shareApp';
 import { dueWordIds } from '@/lib/srs';
@@ -96,6 +98,8 @@ export default function HomeScreen() {
             </View>
           )
         )}
+
+        {REMINDER_SUPPORTED && started && !settings.reminderAsked && <ReminderOffer />}
 
         <View style={styles.card}>
           <Text style={styles.cardTitle}>{t('home.week')}</Text>

@@ -6,6 +6,7 @@ import { BigButton } from '@/components/BigButton';
 import { ConfirmDialog } from '@/components/ConfirmDialog';
 import { InstallSteps } from '@/components/InstallSteps';
 import { LanguageCard } from '@/components/LanguageCard';
+import { ReminderPicker } from '@/components/ReminderPicker';
 import { Screen } from '@/components/Screen';
 import { Segmented } from '@/components/Segmented';
 import { VoicePicker } from '@/components/VoicePicker';
@@ -19,6 +20,7 @@ import { shouldShowInstallHint } from '@/lib/device';
 import { coursesFor, ENDONYMS, getCourseInfo, UI_LANGUAGES, UiLanguage } from '@/lib/languages';
 import { useMicExercises } from '@/lib/mic';
 import { useProgress } from '@/lib/progress';
+import { REMINDER_SUPPORTED } from '@/lib/reminder';
 import { SpeechRate, useSettings } from '@/lib/settings';
 import { shareApp } from '@/lib/shareApp';
 import { colors, font, radius, spacing } from '@/lib/theme';
@@ -129,6 +131,12 @@ export default function SettingsScreen() {
             <Text style={styles.value}>{ENDONYMS[settings.nativeLanguage ?? 'cs']}</Text>
           )}
         </Section>
+
+        {REMINDER_SUPPORTED && (
+          <Section title={t('settings.reminderSection')}>
+            <ReminderPicker />
+          </Section>
+        )}
 
         <Section title={t('settings.soundSection')}>
           <Text style={styles.label}>{t('settings.speechRate')}</Text>

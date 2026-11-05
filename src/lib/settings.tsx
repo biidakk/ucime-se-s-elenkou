@@ -10,6 +10,9 @@ export const SETTINGS_KEY = 'settings';
 
 export type SpeechRate = 'normal' | 'slow';
 
+export const REMINDER_HOURS = [9, 14, 18];
+export const DEFAULT_REMINDER_HOUR = 18;
+
 export type Settings = {
   nativeLanguage: UiLanguage | null; // null until chosen on the welcome screen
   courseId: CourseId | null; // the course being learned now
@@ -20,6 +23,9 @@ export type Settings = {
   lastBackup: string | null; // day key of the last backup
   voices: Partial<Record<LanguageCode, string>>; // the voice chosen for each language (else automatic)
   chatCode: string; // the family code for the AI conversation partner (empty = not entered)
+  reminderHour: number | null; // the hour of the daily reminder (null = off)
+  reminderAsked: boolean; // the home screen has offered the reminder
+  reviewAsked: string | null; // day key of the last request for a store rating
 };
 
 const DEFAULTS: Settings = {
@@ -32,6 +38,9 @@ const DEFAULTS: Settings = {
   lastBackup: null,
   voices: {},
   chatCode: '',
+  reminderHour: null,
+  reminderAsked: false,
+  reviewAsked: null,
 };
 
 // Keep only valid values (the stored data may come from an older version or a backup).
@@ -45,6 +54,7 @@ function clean(saved: Partial<Settings>): Settings {
   if (!merged.nativeLanguage || !merged.courseId) merged.onboarded = false;
   if (typeof merged.voices !== 'object' || merged.voices === null) merged.voices = {};
   if (typeof merged.chatCode !== 'string') merged.chatCode = '';
+  if (merged.reminderHour !== null && !REMINDER_HOURS.includes(merged.reminderHour)) merged.reminderHour = null;
   return merged;
 }
 

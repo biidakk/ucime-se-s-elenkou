@@ -38,7 +38,7 @@
 
   "tabs.home": "Acasă",
   "tabs.course": "Curs",
-  "tabs.review": "Recapitulare",
+  "tabs.review": "Repetare",
   "tabs.progress": "Progres",
   "tabs.settings": "Setări",
 
@@ -171,6 +171,19 @@
   "share.message": "Învăț limbi străine cu aplicația Elenka. E gratuită, încearc-o și tu:",
   "share.copied": "Linkul a fost copiat. Lipește-l într-un mesaj sau e-mail.",
   "share.failed": "Distribuirea nu a reușit. Te rog să încerci din nou.",
+
+  "reminder.title": "Vrei un memento pentru exerciții?",
+  "reminder.offer": "Câteva minute pe zi sunt de ajuns. O dată pe zi, telefonul îți amintește să exersezi. Dacă ai exersat deja în ziua aceea, nu te deranjează.",
+  "reminder.offerYes": "Da, la {time}",
+  "reminder.offerNo": "Nu acum",
+  "reminder.notification": "Câteva minute sunt de ajuns. Continuăm?",
+  "reminder.channel": "Mementouri pentru exerciții",
+  "settings.reminderSection": "Memento",
+  "settings.reminderText": "O dată pe zi, telefonul îți amintește să faci un exercițiu scurt. Dacă ai exersat deja în ziua aceea, nu te deranjează. După două săptămâni fără să deschizi aplicația, se oprește singur.",
+  "settings.reminderOn": "Pornit",
+  "settings.reminderOff": "Oprit",
+  "settings.reminderTime": "La ce oră",
+  "settings.reminderDenied": "Notificările pentru Elenka sunt oprite pe telefon. Pornește-le din Setările telefonului, la aplicația Elenka.",
   "review.title": "Recapitulare",
   "review.due": { "one": "cuvânt de repetat", "few": "cuvinte de repetat", "other": "cuvinte de repetat" },
   "review.start": "Începe recapitularea",

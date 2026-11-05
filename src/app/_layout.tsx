@@ -5,9 +5,12 @@ import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { Intro } from '@/components/Intro';
 import { UpdateBanner } from '@/components/UpdateBanner';
+import { useT } from '@/i18n';
+import { dayKey } from '@/lib/dates';
 import { ProgressProvider, useProgress } from '@/lib/progress';
 import { SettingsProvider, useSettings } from '@/lib/settings';
 import { getCourseInfo, LANGUAGES } from '@/lib/languages';
+import { planReminders } from '@/lib/reminder';
 import { primeSpeechOnFirstTap, voicesFor } from '@/lib/speech';
 import { colors } from '@/lib/theme';
 import { requestPersistentStorage } from '@/lib/webApp';
@@ -42,8 +45,23 @@ function IntroWhileLoading({ onDone }: { onDone: () => void }) {
 }
 
 function RootStack() {
+  const t = useT();
   const { loaded, settings } = useSettings();
-  const { ready } = useProgress();
+  const { ready, activity } = useProgress();
+  const practisedToday = activity.activeDays.includes(dayKey());
+
+  // Plan the next reminders on every start, and again after practising or changing the time.
+  useEffect(() => {
+    if (!loaded || !ready) return;
+    planReminders({
+      hour: settings.reminderHour,
+      practisedToday,
+      title: 'Elenka',
+      body: t('reminder.notification'),
+      channelName: t('reminder.channel'),
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loaded, ready, settings.reminderHour, practisedToday, t.lang]);
 
   // Find the voices of the language being learned early, so the first word already uses the right one.
   useEffect(() => {
@@ -60,6 +78,7 @@ function RootStack() {
         <Stack.Screen name="lesson/[id]" />
         <Stack.Screen name="test/[unitId]" />
         <Stack.Screen name="courses" />
+        <Stack.Screen name="progress" />
         <Stack.Screen name="pronunciation" />
         <Stack.Screen name="chat/[unitId]" />
       </Stack.Protected>
