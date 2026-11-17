@@ -34,7 +34,7 @@ export function FeedbackBar({ result, onContinue, retryLater = false }: Props) {
           <Ionicons name={result.correct ? 'checkmark' : 'close'} size={28} color="#fff" />
         </View>
         <Text style={[styles.title, { color: result.correct ? colors.success : colors.error }]}>
-          {result.correct ? praise : t('feedback.wrong')}
+          {!result.correct ? t('feedback.wrong') : result.noPraise ? t('feedback.goOn') : praise}
         </Text>
       </View>
       {!result.correct && result.correctAnswer !== '' && <Text style={styles.answer}>{result.correctAnswer}</Text>}

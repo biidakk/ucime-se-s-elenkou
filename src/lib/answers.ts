@@ -2,6 +2,7 @@
 // never matter. Missing accents still count, but the user gets a reminder.
 
 import type { LanguageCode } from './languages';
+import { findNumbers, heardDigits } from './numbers';
 
 const PLAIN_LETTERS: Record<string, string> = {
   // Czech
@@ -89,22 +90,43 @@ export function buildAnswers(answer: string, accept: string[] = [], optional: st
   return [...results];
 }
 
-// How much of the expected sentence the phone heard, from 0 to 1.
-// Accents, capitals and punctuation don't matter: speech recognition is not perfect.
-export function spokenMatch(heard: string, expected: string, lang?: LanguageCode): number {
+// Compares what the phone heard with the expected sentence. Accents, capitals and punctuation
+// don't matter: speech recognition is not perfect. Numbers count when the phone wrote them as
+// digits („Eleven, twelve“ heard as „11 12“ or even „1112“).
+// Returns, for each written word of the sentence, its plain parts and whether each was heard.
+// One written word can be several plain ones ("I'm" = "i am") or none ("–").
+function compareSpoken(heard: string, expected: string, lang?: LanguageCode) {
   const plainWords = (text: string) => withoutAccents(tidy(text, lang)).split(' ').filter(Boolean);
-  const want = plainWords(expected);
+  const written = expected.split(/\s+/).filter(Boolean);
+  const parts = written.flatMap((word, wordIndex) => plainWords(word).map((plain) => ({ plain, wordIndex })));
   const got = plainWords(heard);
-  if (want.length === 0) return 0;
-  let found = 0;
-  for (const word of want) {
-    const index = got.indexOf(word);
-    if (index !== -1) {
-      found++;
-      got.splice(index, 1);
-    }
+  const digits = heardDigits(got);
+
+  const found = parts.map(({ plain }) => {
+    const index = got.indexOf(plain);
+    if (index === -1) return false;
+    got.splice(index, 1);
+    return true;
+  });
+
+  // Numbers not heard as words: look for their value among the digits, in order.
+  let from = 0;
+  for (const number of findNumbers(parts.map((p) => p.plain), lang)) {
+    const range = found.slice(number.start, number.end);
+    if (range.every(Boolean)) continue;
+    const at = digits.indexOf(String(number.value), from);
+    if (at === -1) continue;
+    from = at + String(number.value).length;
+    found.fill(true, number.start, number.end);
   }
-  return found / want.length;
+
+  return { written, parts, found };
+}
+
+// How much of the expected sentence the phone heard, from 0 to 1.
+export function spokenMatch(heard: string, expected: string, lang?: LanguageCode): number {
+  const { found } = compareSpoken(heard, expected, lang);
+  return found.length === 0 ? 0 : found.filter(Boolean).length / found.length;
 }
 
 export type HeardWord = { word: string; heard: boolean };
@@ -112,19 +134,9 @@ export type HeardWord = { word: string; heard: boolean };
 // The words of the expected sentence as written, each marked whether the phone heard it,
 // so the speaking exercise can show which words to practise.
 export function heardWords(heard: string, expected: string, lang?: LanguageCode): HeardWord[] {
-  const plainWords = (text: string) => withoutAccents(tidy(text, lang)).split(' ').filter(Boolean);
-  const got = plainWords(heard);
-  return expected
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => {
-      // One written word can be several plain ones ("I'm" = "i am") or none ("–").
-      const ok = plainWords(word).every((part) => {
-        const index = got.indexOf(part);
-        if (index === -1) return false;
-        got.splice(index, 1);
-        return true;
-      });
-      return { word, heard: ok };
-    });
+  const { written, parts, found } = compareSpoken(heard, expected, lang);
+  return written.map((word, wordIndex) => ({
+    word,
+    heard: parts.every((p, i) => p.wordIndex !== wordIndex || found[i]),
+  }));
 }

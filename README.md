@@ -1,13 +1,26 @@
 # Učíme se s Elenkou
 
-A private language-learning app for Czech speakers: **English (British)**, **German** and
-**Romanian**, levels A1, A2 and B1. The whole interface is in Czech, with large text and buttons,
-no timers and nothing locked. Built with Expo (React Native) as a web app (PWA) that is
-installed on the iPhone Home Screen. No accounts, no server: progress stays on the phone.
+A language-learning app for Czech speakers: **English (British)**, **German** and
+**Romanian**, levels A1, A2 and B1, plus a **Czech course for Romanian speakers** (`ro-cs`).
+The interface is in Czech (or Romanian), with large text and buttons, no timers and nothing
+locked. Built with Expo (React Native). No accounts: progress stays on the phone.
 
-**The app:** https://biidakk.github.io/ucime-se-s-elenkou/
+**Where to get it** (current version: **1.0.4**)
 
-## Install on an iPhone
+| | Link |
+|---|---|
+| App Store (iPhone) | https://apps.apple.com/app/id6825768857 — „Elenka – učíme se jazyky“ |
+| Google Play (Android) | https://play.google.com/store/apps/details?id=com.biidakk.ucimeseselenkou |
+| Web app (any browser) | https://biidakk.github.io/ucime-se-s-elenkou/ |
+| Share link | `public/app.html`: sends iPhone and Android visitors to their store |
+
+**Features:** lessons with 7 exercise types, a quiz after each lesson and a test after each
+unit, flashcards for missed words, a home screen with the next lesson, this week's practice days and course progress, an optional
+daily reminder (local notification, nothing sent to a server), a rating request after a passed
+unit test, sharing the app, backup and restore, and an AI conversation partner („Konverzace“)
+that appears only after a family code is entered.
+
+## Install the web app on an iPhone (without the App Store)
 
 1. Open the link above in **Safari** (not Chrome).
 2. Tap **Sdílet** (the square with an arrow pointing up) at the bottom of the screen.
@@ -85,7 +98,35 @@ docs/               RESEARCH.md (sources and decisions), REVIEW_NOTES.md
 - **Tests** are generated from each lesson's words: a 5-question quiz after each lesson,
   a 15-question unit test (80 % to pass). Missed words go to the flashcards (Leitner boxes:
   1, 2, 4, 7, 14 days).
-- **Native app later:** the code also runs on iOS/Android (`npx expo run:ios`). Speech
-  recognition then needs `expo-speech-recognition` (see `src/lib/recognition.ts`).
-- **Moving the old Romanian → Czech app in:** see `MIGRATION.md`.
+- **Native apps:** the same code runs on iOS and Android. Native-only parts have a `.web.ts`
+  twin: speech recognition (`expo-speech-recognition`), reminders (`expo-notifications`),
+  backup files and sharing.
+- **The Romanian → Czech app** („Cehă pentru români“, Android only) is the same code built
+  with `APP_VARIANT=ro` (`app.config.js`); see `MIGRATION.md`.
 - **AI conversation partner:** see `docs/CHAT_PLAN.md`; app side in `src/app/chat/` and `src/lib/chat.ts`, server in `server/chat/` (setup steps in its README).
+
+## Release a new version to the stores
+
+Builds are made in the cloud with EAS (`npx eas-cli@latest …`); the `ios/` and `android/`
+folders are generated and never edited by hand.
+
+1. In `app.json` raise `version` (e.g. 1.0.5), `ios.buildNumber` and `android.versionCode`.
+   Both stores need a higher number for every upload, and Apple needs a new `version` once
+   the previous one has been released.
+2. Build:
+   - iPhone: `npx eas-cli@latest build -p ios --profile production-ios`, then
+     `npx eas-cli@latest submit -p ios --profile production-ios` (goes to TestFlight).
+   - Android: `npx eas-cli@latest build -p android --profile production-android`; upload
+     the `.aab` in Play Console → Production (it is too big for most other tools).
+   - Romanian Android app: raise `versionCode` in `app.config.js`, then
+     `APP_VARIANT=ro npx eas-cli@latest build -p android --profile preview-ro`.
+3. In App Store Connect / Play Console add the „What's new“ text (cs, ro, en) and send the
+   version for review.
+
+Store texts, form answers and review notes: `store/STORE_LISTING.md` and
+`store/APP_REVIEW_INFO.md`. Screenshots: `node scripts/store-screenshots.mjs`; graphics:
+`node scripts/store-graphics.mjs`. Privacy policy: `public/privacy.html`.
+
+**Never commit secrets** (the repository is public): API keys, the chat family code, App Store
+Connect keys (`.p8`), and downloaded builds (`.aab`, `.ipa`) are kept out of git
+(`.gitignore`).

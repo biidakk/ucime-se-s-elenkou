@@ -79,7 +79,7 @@ export function SpeakExerciseView({ exercise, onResult }: Props) {
         triesRef.current = tryCount;
         setTries(tryCount);
         if (best >= GOOD_ENOUGH) finish({ correct: true, correctAnswer: exercise.text });
-        else if (tryCount >= MAX_TRIES) finish({ correct: true, correctAnswer: exercise.text, note: t('speak.tryLater') });
+        else if (tryCount >= MAX_TRIES) finish({ correct: true, correctAnswer: exercise.text, note: t('speak.tryLater'), noPraise: true });
       },
       onError: (error) => {
         if (error === 'not-allowed' || error === 'unavailable') {
@@ -95,7 +95,7 @@ export function SpeakExerciseView({ exercise, onResult }: Props) {
     });
   };
 
-  const skip = () => finish({ correct: true, correctAnswer: exercise.text, note: t('speak.skipped') });
+  const skip = () => finish({ correct: true, correctAnswer: exercise.text, note: t('speak.skipped'), noPraise: true });
 
   const listening = status === 'listening';
   const triesLeft = MAX_TRIES - tries;

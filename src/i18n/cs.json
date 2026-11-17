@@ -118,6 +118,7 @@
   "feedback.correct": ["Správně!", "Výborně!", "Skvěle!", "Přesně tak!"],
   "feedback.wrong": "Ne tak docela. Správně je:",
   "feedback.accents": "Pozor na diakritiku: {answer}",
+  "feedback.goOn": "Jdeme dál",
   "feedback.retryLater": "Nevadí, tohle cvičení se na konci vrátí.",
 
   "speech.noVoice": "Telefon nemá hlas pro {language}.",

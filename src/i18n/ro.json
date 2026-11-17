@@ -118,6 +118,7 @@
   "feedback.correct": ["Corect!", "Foarte bine!", "Super!", "Exact!"],
   "feedback.wrong": "Nu chiar. Corect este:",
   "feedback.accents": "Atenție la diacritice: {answer}",
+  "feedback.goOn": "Mergem mai departe",
   "feedback.retryLater": "Nu-i nimic, exercițiul acesta revine la sfârșit.",
 
   "speech.noVoice": "Telefonul nu are o voce pentru {language}.",
