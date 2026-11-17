@@ -5,7 +5,7 @@ A language-learning app for Czech speakers: **English (British)**, **German** an
 The interface is in Czech (or Romanian), with large text and buttons, no timers and nothing
 locked. Built with Expo (React Native). No accounts: progress stays on the phone.
 
-**Where to get it** (current version: **1.0.4**)
+**Where to get it** (current version: **1.0.5**: iOS build 9, Android versionCode 6)
 
 | | Link |
 |---|---|
@@ -101,8 +101,9 @@ docs/               RESEARCH.md (sources and decisions), REVIEW_NOTES.md
 - **Native apps:** the same code runs on iOS and Android. Native-only parts have a `.web.ts`
   twin: speech recognition (`expo-speech-recognition`), reminders (`expo-notifications`),
   backup files and sharing.
-- **The Romanian → Czech app** („Cehă pentru români“, Android only) is the same code built
-  with `APP_VARIANT=ro` (`app.config.js`); see `MIGRATION.md`.
+- **The old Romanian → Czech app** („Cehă pentru români“) is no longer maintained: its course
+  (`ro-cs`) and Romanian interface are part of Elenka. The `APP_VARIANT=ro` switch in
+  `app.config.js` and `MIGRATION.md` remain only as history.
 - **AI conversation partner:** see `docs/CHAT_PLAN.md`; app side in `src/app/chat/` and `src/lib/chat.ts`, server in `server/chat/` (setup steps in its README).
 
 ## Release a new version to the stores
@@ -118,8 +119,6 @@ folders are generated and never edited by hand.
      `npx eas-cli@latest submit -p ios --profile production-ios` (goes to TestFlight).
    - Android: `npx eas-cli@latest build -p android --profile production-android`; upload
      the `.aab` in Play Console → Production (it is too big for most other tools).
-   - Romanian Android app: raise `versionCode` in `app.config.js`, then
-     `APP_VARIANT=ro npx eas-cli@latest build -p android --profile preview-ro`.
 3. In App Store Connect / Play Console add the „What's new“ text (cs, ro, en) and send the
    version for review.
 
@@ -130,3 +129,14 @@ Store texts, form answers and review notes: `store/STORE_LISTING.md` and
 **Never commit secrets** (the repository is public): API keys, the chat family code, App Store
 Connect keys (`.p8`), and downloaded builds (`.aab`, `.ipa`) are kept out of git
 (`.gitignore`).
+
+## Version history
+
+| Version | Date | Changes |
+|---|---|---|
+| 1.0.5 | 2026-11-17 | Speaking exercises accept numbers the phone writes as digits („11 12 13“); a calm „Jdeme dál“ instead of praise when the sentence wasn't recognised |
+| 1.0.4 | 2026-11-05 | Daily reminder, rating request, Progress tile fixed |
+| 1.0.3 | 2026-10-28 | English voices read „Czech“ correctly; Romanian store listing |
+| 1.0.2 | 2026-10-27 | Home screen, „Sdílet aplikaci“ |
+| 1.0.1 | 2026-10-26 | Intro, microphone fixes, word marking in speaking exercises |
+| 1.0.0 | 2026-10-22 | First store release |
